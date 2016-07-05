@@ -1,5 +1,3 @@
-# BTRFS
-
 __NOTE:__ Below I refer to `/var/lib/docker` and the `docker` command. If you
 are using an older device which uses the 'rce' (resin container engine) alias,
 translate these to `/var/lib/rce` and `rce`. You can find out very easily by
@@ -162,7 +160,7 @@ To remove orphaned subvolumes run the below for each `<id>` discovered above:
 btrfs subvolume delete -C /var/lib/docker/btrfs/subvolumes/<id>
 ```
 
-## Getting Back to Normal
+### Getting Back to Normal
 
 Finally, you can get the device back to normal by simply restarting it.
 
@@ -171,5 +169,23 @@ running `systemctl start resin-supervisor.service`. In this case, if you stopped
 the `update-resin-supervisor` timer above, start it again via `systemctl start
 update-resin-supervisor.timer`.
 
+## Superblock Corruption
+
+Under severe conditions, you may have issues with the `resin-data` partition
+failing to mount, with errors appearing in `dmesg` indicating that the btrfs
+superblock has a bad checksum.
+
+First it's worth attempting to repair the corruption via:
+
+```bash
+btrfs check --repair /dev/disk/by-label/resin-data
+```
+
+You may need to run this multiple times before it succeeds.
+
+If this does not fix the issue, you may need to go ahead and nuke the device
+from orbit - see the [remote reprovisioning][nuke] section from the scratch pad
+for details.
 
 [faq-free-space]:https://btrfs.wiki.kernel.org/index.php/FAQ#How_much_free_space_do_I_have.3F
+[nuke]:https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad#ScratchPad-Remotelyreprovisioning(i.e.nuking)adevice
