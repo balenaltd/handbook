@@ -46,7 +46,7 @@ Weekend cover isn't expected to be as intense as weekday work, rather you make s
     * [admin.resin.io](admin.resin.io) - make sure you your resin.io account has admin access.
 2. Make sure all the accounts you have setup above have a good picture of you and an updated profile.
 3. Bookmark and keep open all links in the [Important Links](#important-links) section at the top of this page.
-4. Install the resin.io front side panel. For this you will need a admin account on resinstaging.io. Ask Akis Kesoglou to help you set this up as it is still a bit rough.
+4. Install the resin.io front side panel. You can find the instructions [here](https://github.com/resin-io/hq/wiki/Front-Side-Bar).
 5. Open the Scratch Pad and peruse the content - The scratch pad has a wealth of knowledge of in-the-wild issues, workarounds, canned responses for users, how to do things internally, etc. This is a good place to look for answers before pinging others.
 Now you are ready to get stuck in! If you encounter any access restrictions for any of the above, ping the operations guys (Aggelos and Apostolis at the time of writing) or the support lead (Shaun at the time of writing.)
 NB!! If you find that you often need to dig into a users device then you should ask Shaun Mulligan if you can get device access and then follow the setup guide for Accessing User Devices.
