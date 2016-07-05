@@ -16,6 +16,7 @@ This page is a repository for everything you need to know when doing customer su
 * [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198)
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
 * [Registry of issues](https://github.com/resin-io/hq/issues)
+* [The ScratchPad](https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad)
 * [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo)
 
 ## Introduction
@@ -34,3 +35,18 @@ You can do support outside of a support week to gain additional points, we are h
 ### Weekend cover
 We run a voluntary system for weekend support cover - you get double points on the weekend, and each weekend you keep an eye on support you will receive an extra 1/2 day's annual leave to use as you wish (if you cover a single day you receive 1/4 day.)
 Weekend cover isn't expected to be as intense as weekday work, rather you make sure you quickly respond to requests for at least 8 hours for each of the days. Some weekends this can involve little to no work, others more but it's always significantly less than weekday volumes.
+
+## Getting set up
+1. Make sure you have accounts at the following place, ask Apostolis (@apostolism) if you don't:
+    * [Zendesk](https://resin.zendesk.com/agent/filters/69240918) - Premium support and most important to keep on top of. 
+    * [Front](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - Regular paid/trial support. Usually highest volume.
+    * [intercom.io](intercom.io) - This is just used for the realtime chat portion of Front, you wont spend much time in it. 
+    * [Gitter](https://gitter.im/resin-io/chat) - Our community portal.
+    * [Resin Talk](talk.resin.io) - our legacy forum which is on its way out.
+    * [admin.resin.io](admin.resin.io) - make sure you your resin.io account has admin access.
+2. Make sure all the accounts you have setup above have a good picture of you and an updated profile.
+3. Bookmark and keep open all links in the [Important Links](#important-links) section at the top of this page.
+4. Install the resin.io front side panel. For this you will need a admin account on resinstaging.io. Ask Akis Kesoglou to help you set this up as it is still a bit rough.
+5. Open the Scratch Pad and peruse the content - The scratch pad has a wealth of knowledge of in-the-wild issues, workarounds, canned responses for users, how to do things internally, etc. This is a good place to look for answers before pinging others.
+Now you are ready to get stuck in! If you encounter any access restrictions for any of the above, ping the operations guys (Aggelos and Apostolis at the time of writing) or the support lead (Shaun at the time of writing.)
+NB!! If you find that you often need to dig into a users device then you should ask Shaun Mulligan if you can get device access and then follow the setup guide for Accessing User Devices.
