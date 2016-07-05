@@ -17,6 +17,7 @@ This page is a repository for everything you need to know when doing customer su
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
 * [Registry of issues](https://github.com/resin-io/hq/issues)
 * [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo)
+
 ## Introduction
 At resin.io we do support differently - firstly, everyone does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve.
 If you're interested in the philosophy behind this approach, check out our [Support-driven Development blog post](https://resin.io/blog/support-driven-development/) which goes into a lot more detail.
