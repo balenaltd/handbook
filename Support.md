@@ -17,7 +17,10 @@ This page is a repository for everything you need to know when doing customer su
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
 * [Registry of issues](https://github.com/resin-io/hq/issues) and its [waffle board](https://waffle.io/resin-io/hq)
 * [The ScratchPad](https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad)
+
+### Admin Links
 * [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo)
+* [Support Weekly Report](https://docs.google.com/spreadsheets/d/1oR9vCO_qRA55hIsX_-hW62yHlM_oC4uJhXHByakDpes/edit#gid=0)
 
 ## Introduction
 At resin.io we do support differently - firstly, everyone does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve.
