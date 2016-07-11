@@ -23,12 +23,12 @@ This page is a repository for everything you need to know when doing customer su
 * [Support Weekly Report](https://docs.google.com/spreadsheets/d/1oR9vCO_qRA55hIsX_-hW62yHlM_oC4uJhXHByakDpes/edit#gid=0)
 
 ## Introduction
-At resin.io we do support differently - firstly, everyone does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve.
+At resin.io we do support differently - firstly, every engineer does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve.
 If you're interested in the philosophy behind this approach, check out our [Support-driven Development blog post](https://resin.io/blog/support-driven-development/) which goes into a lot more detail.
 
 ## How is support assigned?
-Each week we assign 4 engineers to each watch a 4 hour period during their work day.
-We choose who does this as fairly as we can by manually scoring conversations based on effort and quality. We use the sum of this score divided by the number of weeks worked to rank employees in the [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo). The 4 engineers for the week are selected based on their score and their timezone availability.
+Each week we assign 4 engineers to each watch a 4 hour period during their work day. This allows us to cover a 16 hour period from 07:00 - 23:00 (UTC) ever day.
+We try to choose who does support as fairly as we can by manually scoring conversations based on effort and quality. We use the sum of this score divided by the number of weeks worked to rank employees in the [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo). The 4 engineers for the week are selected based on their score and their timezone availability.
 
 We feel this is a fair measurement as it doesn't disadvantage people who've only recently joined or ignore work done in the past by people who have been here longer, and spreads the work evenly across the team.
 
@@ -53,3 +53,10 @@ Weekend cover isn't expected to be as intense as weekday work, rather you make s
 5. Open the Scratch Pad and peruse the content - The scratch pad has a wealth of knowledge of in-the-wild issues, workarounds, canned responses for users, how to do things internally, etc. This is a good place to look for answers before pinging others.
 Now you are ready to get stuck in! If you encounter any access restrictions for any of the above, ping the operations guys (Aggelos and Apostolis at the time of writing) or the support lead (Shaun at the time of writing.)
 NB!! If you find that you often need to dig into a users device then you should ask Shaun Mulligan if you can get device access and then follow the setup guide for Accessing User Devices.
+
+## The Support Week
+* **IMPORTANT** - During your 4 hour slot, covering support is your full time and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, Gitter and Resin Talk, responding as quickly and as accurately as possible to any new message.
+* **IMPORTANT** - always use the resin.io side panel to link tickets in front  to relevant conversations on Flowdock... If someone helps you out with a support ticket, but all their interaction is on flowdock, please ask them to create the link to the flowdock conversation where they contributed. If this is not done the assisting person **will not get any points** unfortunately. 
+* You will be assigned support in the Monday call, based on the Support League Table (see above) and will cover support from the end of the meeting until the start of the call on the following Monday, excluding the weekend (see above for details on benefits on offer for weekend cover however!)
+* Every day at 2pm GMT the 2 engineers covering the middle 2 slots (i.e.: 11:00 - 19:00) gathers on Mumble with the support lead to discuss currently open tickets and clear up the Front inboxes. Please make sure you are available to attend these meetings so we can discuss conversations you are involved in. If your time zone makes this particularly difficult, let the support lead know and we can make an alternative arrangement.
+* Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
