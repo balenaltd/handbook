@@ -6,7 +6,7 @@ This page is a repository for everything you need to know when doing customer su
 |Hours (UTC)    | Engineer |
 |---------------|:--------:|
 |7:00 - 11:00   | Eugene |
-|11:00 - 15:00  | Illias |
+|11:00 - 15:00  | Ilias |
 |15:00 -  19:00 | Aleksis |
 |19:00 - 23:00  | Craig |
 
