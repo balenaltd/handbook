@@ -1,6 +1,6 @@
 #Resin.io Wiki
 
-Welcome to the resin.io wiki. 
+Welcome to the resin.io wiki.
 
 ##How to get things done (resin.io processes)
 
@@ -31,6 +31,8 @@ Welcome to the resin.io wiki.
   - Deployment
     - Regular flow
     - Hot Patching
+- Infrastructure
+  - [TLS Certs](https://github.com/resin-io/hq/wiki/TLS)
 
 1. Commit directly to production branch
 2. Pull request the commits with the normal workflow for the master branch
