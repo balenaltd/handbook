@@ -19,7 +19,7 @@ Welcome to the resin.io wiki.
   - Development
     - Contributing
       - [Setting up the development environment](https://github.com/resin-io/hq/wiki/Setting-up-the-Development-Environment)
-        - Front end
+        - [Front end](https://github.com/resin-io/hq/wiki/Frontend)
         - Services
           - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
         - [Devices](https://github.com/resin-io/hq/wiki/Devices)
