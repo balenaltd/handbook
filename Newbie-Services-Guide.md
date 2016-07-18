@@ -7,182 +7,15 @@ Its aim is to try and get new engineers up to speed a bit more quickly. As such,
 
 There will be bits that are incorrect. I'm trusting in the will of the hivemind to correct it. :)
 
-The guide has a few caveats:
-
-1. You have access to all of the Resin.io repos
-2. You've cloned the Development Environment (https://github.com/resin-io/resin-containers.git)
-3. You're familiar with the basics of:
-    * [Docker](https://docs.docker.com/) (containers, how to run them, how they work)
-    * [Node.js](https://nodejs.org/en/) (and also how [Express](https://expressjs.com/) works)
-    * [systemd](https://www.freedesktop.org/wiki/Software/systemd/)
-    * [Coffeescript](http://coffeescript.org/) would help. There's a nice page on here 'Try Coffeescript' that will quickly help JS devs work out the relevant Coffeescript
-
-# Getting Started
-
-The DevEnv is essentially an emulator of the entire Resin.io production stack (ie. what you'd use if you logged into http://resin.io as a user). The emulation works by running all of the services (each as a Docker container) that are usually distributed, on one VM.
-
-There's a page dedicated to the Devenv [here](https://resinio.atlassian.net/wiki/display/RES/Working+with+the+Development+VM). This section expands that out a bit if you need a bit more info.
-
-Once you've cloned and started the DevEnv, you can _ssh_ into it: `vagrant ssh`.
-
-There you'll initially be able to see the various Docker containers that make up the system by running `fig ps`:
-
-      Name                     Command               State                  Ports
-      -------------------------------------------------------------------------------------------------
-    resin_admin_1       /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_api_1         /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_builder_1     /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_db_1          /docker-entrypoint.sh postgres   Up      5432/tcp
-    resin_delta_1       /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_devices_1     /bin/sh -c env > /etc/dock ...   Up      2222/tcp, 80/tcp, 8080/tcp, 9009/tcp
-    resin_git_1         /bin/sh -c env > /etc/dock ...   Up      22/tcp, 80/tcp
-    resin_haproxy_1     /docker-entrypoint.sh hapr ...   Up
-    resin_img_1         /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_registry2_1   /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_registry_1    /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_s3_1          /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_ui_1          /bin/sh -c env > /etc/dock ...   Up      80/tcp
-    resin_vpn_1         /bin/sh -c env > /etc/dock ...   Up      443/tcp, 80/tcp
-
-Each of these containers (usually) corresponds to the git repo they originated from. Exposed ports allow each container to expose its service to the others.
-
-Most of the services are 'real', as in they're running current CI deployed code. However, there are three services that emulate parts of the system:
-
-* s3
-* db
-* haproxy
-
-These services augment the DevEnv so that it is self-contained. Therefore any data added to the system is local only.
-
-Almost every service starts via `systemd` (usually found in the `config/services` directory). Additionally, `confd` is used to allow dynamic setting of script and environment vars based on known keys (`config/confd` directory, see also [here]( https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md) for more information on `confd`).
-
-Every time you `vagrant up`, be aware that, apart from the initial VM creation, you'll need to do `fig start` again.
-
-## A Note About `fig` And Application Source
-
-`fig` is a Docker container manager that simplifies the creation of applications based around several services (it was incorporated into Docker as `docker-compose`, for compatibility we have it aliased as `fig`). It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
-
-You can find this file in the root of the Vagrant VM. As can quickly be seen, each Resin.io container is specified as a service in this file. The most important bit here is the `volumes` section for each service, which specify container paths that are mapped to local paths in the Vagrant VM (for example, look at the `git` entry whose `volumes` section describe where in the Vagrant VM the user repos are stored (`data/git/repositories`) and where this is mapped to in the `resin-git` container (`/var/lib/git/repositories`).
-
-You'll note that every service also has a commented out line in each `volumes` section, relating to the the containers `/usr/src/app`. These exist to allow locally cloned copies of the source for each service to be override the pre-built application path for each container. This allows us to clone each containers source directly from the relevant repo, make changes to it, and then re-run the service without having to go through the tedious business of rebuliding the container.
-
-This can be achieved for each component by running a few steps. Running all of these inside the VM is safest, though obviously you could clone, move files, etc. outside if you wish to.
-
-1. Uncomment the relevant line from the `fig.yml` manifest (in the `volumes` section for that service)
-2. Clone the repo for the service you want to alter code for in the `src` directory, and rename the repo to the service specified in `fig.yml`
-3. Change into the repo directory for the service, and ensure that any dependencies are installed, for most this will just involve an `npm install` (**must** be from inside VM)
-4. Restart the relevant service from fig by doing `fig kill <service> && fig rm -f <service> && fig up -d <service>`
-
-Here's a quick example using the `api` service, after uncommenting the `# - ./src/api:/usr/src/app` line:
-
-    cd src
-    git clone https://github.com/resin-io/resin-api.git
-    mv resin-api api
-    cd api
-    npm install
-
-Some containers pick up changes automatically (for example if they're running `nodemon`). Some need to be manually kicked again using step 4 of the steps above.
-
-**Note**: There appears to be some sort of issue between the host and Vagrant. If you accidentally do an `npm install` from you host machine rather than from inside the vagrant Devenv (which won't work, as it relies on the setup in the VM), attempting to then carry out `npm install` from vagrant can halt and never respond (has been seen whilst attempting for the `resin-api` repo). Doing an `npm cache clear` doesn't seem to work, but kill the VM, wiping the repo source and starting again does seem to.
-
-There are some very useful aliases set up in the Devenv that allow you to examine the running containers:
-
-`logs <container>` - Lets you see all of the attached log output of the container (if you add the '-f' option, you'll see the tail, handy for observing).
-
-`enter <container>` - Lets you attach to and get a shell for any running container.
-
-Additionally, if you want to nose around in the FS for a non-running container, you can do this with the following:
-
-`docker run --entrypoint=/bin/sh -it <container> -c /bin/sh`
-
-eg:
-
-`docker run --entrypoint=/bin/sh -it resin/resin-git:master -c /bin/sh`
-
-
-# Getting some Initial Data In
-
-To poke about in the guts of the system, it's useful to have some dummy data in it. Once the DevEnv is up and running, you can login to the system at https://dashboard.resinio.dev
-
-You can sign up in the usual way, and this will populate the DB with your user.
-
-## Adding a New Application
-
-Creating a new Application requires a known, valid device type. However, this requires that the registry of valid images is required, and this requires the `resin-image-maker` to be fully cloned or the DEVELOPMENT Envvar set. Usually images are declared in `/images` in the `img` container, but there aren't any. So, we're going to create our own app and device manually.
-
-**Note**: Actually, this all seems to work if you clone the `resin-image-maker.git` repo (this is the `img` service) and add the codepath into `fig.yml`. So the below steps to create an App and Device aren't required should you do this, as you should be able to create a new Application as-is. These have been left as pointers to the DB.
-
-Get your favourite PostgresSQL client (I'm using Postico for OSX, https://eggerapps.at/postico/).
-
-Connect to the DB:
-
-    Host: db.resindev.io
-    User: docker
-    Password: docker
-
-Now find the `application` table in the `resin` DB, and add a new row with data similar to the following:
-
-    2016-07-14 15:45:23.012345	2	testApp	1	raspberry-pi2	1.2.3.4	80	heds/testapp
-
-Take note of the second parameter (2), this is the User ID and needs to be copied from the `user` table for your user (you'll find it in the `id` column). The fourth parameter (1) is the application ID. You'll need this in a minute.
-
-If you now login to the dashboard and select Applications, you'll see the app you just added.
-
-You can also add a new device now (previously the `device` table did not exist). Go to the `device` table, again in the `resin` DB (which was created once a new app had been added). Add something similar to the following row:
-
-    2016-07-14 16:00:23.012345	1	abcdef1234	testDevice		raspberry-pi2	1	2	0
-
-## Creating a Git Repo
-
-Finally, we want to add a git repo for the test app. You can do that by copying what the `git` container does when a new application is created.
-
-**TIP**: Username and application names are lowercased into the git repo name, so even if a user specified an app called 'myApp', it will still be lowered to 'myapp'.
-
-From `/home/vagrant/resin`:
-
-    mkdir -p data/git/repositories/<username>/<appName>.git
-	git init --bare data/git/repositories/<username>/<appName>.git
-
-(So in the above case, `<username>/<appName>.git` for me is `heds/testapp.git`).
-
-Now there's a repo, we can push to it. You'll see the handy 'git remote' command to add any repo you now want to build from the Application page on the dashboard. However, we need to ensure that we can get to it. Because vagrant is already running SSH on port 22, resin-git has to run on port 2222. So instead of the default command, use a nicknamed host which will allow you to setup a new host in your SSH config (although of course you could just add git.resindev.io in your config). For example:
-
-    git remote add resin heds@resin-gitdev:heds/testapp.git
-
-And then create a new entry in your `.ssh/config` file that references the new port:
-
-    Host resin-gitdev
-        User heds
-        Port 2222
-        Hostname git.resindev.io
-        PreferredAuthentications publickey
-        IdentityFile ~/.ssh/resinkey
-
-You can now go into the testapp.git repo and do the usual `git push resin master`, which will push changes into the previously inited bare repo.
-
-This doesn't currently get picked up by the `builder`, and I'm yet to figure out why.
-
-# API and curl
-
-Use `curl` to play with the API, rather than try to get the CLI client up and running. The docs for the API are [here](http://docs.resin.io/runtime/data-api/).
-
-Obviously the base URL is `api.resindev.io/v1`, instead. Normal bearer token rules apply (as can be found from your user preferences page).
-
-Example:
-
-    curl -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://api.resindev.io/v1/application -XGET
-
-# The Services
-
 The following are some influential services (as referenced by `fig.yml`, most repos on Github are prefixed with `resin-`, eg `resin-io/resin-api.git`). Each service is briefly described along with some relevant files inside them (good places to start looking at their operation). Described files are assumed to be within the repo cloned for that service.
 
-## `api` (resin-api.git)
+# `api` (resin-api.git)
 
 The best place to start is the `api` service, as this provides the endpoints for user interaction with the system. It is responsible for providing access to the user in all forms (UI/SDK/etc), and validating every operation that is requested before it occurs.
 
 The entire system essentially is a framework around `pinejs`, which runs the show.
 
-### `pinejs`
+## `pinejs`
 
 pinejs is essentially the core of the API system. It's a rule parser that takes the SBVR models defining all of the models for the system. These models let it define organised data that is stored in the database (tables in a Postgres DB), as well as accessing this data and ensuring that queries processed adhere to the rules. This includes checking permissions to access data requested.
 
@@ -237,7 +70,7 @@ Important used services:
 * `git` - For creating/deleting repos for each user application
 * `img` - For getting an initial base image for each new application/device type
 
-## `git` (resin-git.git)
+# `git` (resin-git.git)
 
 When a user pushes their changes to the resin repo, the `git` service lets all attempts at SSH login succeed (via a custom libnss library and PAM config), and then uses the `api` service to try and get a valid SSH key (the key registered on service signup). If the keys match, it then runs the `git-receive-pack` command against the incoming pack data for that user. It then runs an update hook that kicks the `builder` service into building the new image.
 
