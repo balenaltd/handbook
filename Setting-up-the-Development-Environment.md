@@ -22,6 +22,17 @@ The DevEnv is actually an integration that brings all of the Resin.io services t
 
 git clone https://github.com/resin-io/resin-containers.git
 
+# Developing Inside Vagrant
+
+If you want to actually develop from within the DevEnv (rather than from the host OS), you might need to add your id_rsa.pub public key to the VM. Here's how:
+
+    On the host computer: $ cat ~/.ssh/id_rsa.pub | pbcopy
+    Enter the VM with: $ vagrant ssh
+    $ nano ~/.ssh/authorized_keys
+    Move to the last line and paste your public key from clipboard
+    Ctrl+X to exit, type "Y" to accept changes and hit Enter
+    You might also need to copy id_rsa and id_rsa.pub into your VM
+
 # Starting the DevEnv
 
 Once cloned, `cd` into the `resin-containers` repo and type:
