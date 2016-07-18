@@ -22,7 +22,7 @@ Welcome to the resin.io wiki.
         - Front end
         - Services
           - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
-        - Devices
+        - [Devices](https://github.com/resin-io/hq/wiki/Devices)
       - Commit guidelines
       - Submitting a pull request
       - Code review
