@@ -24,6 +24,7 @@ The DevEnv is essentially an emulator of the entire Resin.io production stack (i
 There's a page dedicated to the Devenv [here](https://resinio.atlassian.net/wiki/display/RES/Working+with+the+Development+VM). This section expands that out a bit if you need a bit more info.
 
 Once you've cloned and started the DevEnv, you can _ssh_ into it: `vagrant ssh`.
+
 There you'll initially be able to see the various Docker containers that make up the system by running `fig ps`:
 
       Name                     Command               State                  Ports
