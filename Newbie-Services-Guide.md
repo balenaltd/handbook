@@ -149,12 +149,12 @@ Now there's a repo, we can push to it. You'll see the handy 'git remote' command
 
 And then create a new entry in your `.ssh/config` file that references the new port:
 
-Host resin-gitdev
-    User heds
-    Port 2222
-    Hostname git.resindev.io
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/resinkey
+    Host resin-gitdev
+        User heds
+        Port 2222
+        Hostname git.resindev.io
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/resinkey
 
 You can now go into the testapp.git repo and do the usual `git push resin master`, which will push changes into the previously inited bare repo.
 
@@ -162,9 +162,13 @@ This doesn't currently get picked up by the `builder`, and I'm yet to figure out
 
 # API and curl
 
-Use `curl` to play with the API, rather than try to get the CLI client up and running. The docs for the API are here http://docs.resin.io/runtime/data-api/
+Use `curl` to play with the API, rather than try to get the CLI client up and running. The docs for the API are [here](http://docs.resin.io/runtime/data-api/).
 
 Obviously the base URL is `api.resindev.io/v1`, instead. Normal bearer token rules apply (as can be found from your user preferences page).
+
+Example:
+
+    curl -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://api.resindev.io/v1/application -XGET
 
 # The Services
 
@@ -283,7 +287,7 @@ The Docker docs provide a good rundown of how you can run your own registry [her
 
 The image-maker is responsible for the creation of the base image for devices. The `/images` directory should contains sub-directories listing all the current known device types. The contents is compiled so that when a new image is requested (eg. `/v1/image/raspberry-pi3`), the types can be tested against to verify its existence.
 
-**Note**: The `image-maker` used in the Devenv is cut-down version, as the full-fat repo has every base image for all architectures included with it. The branch for this is `master-slim`. A JSON file provides information required for a particular device types image. The 'DEVELOPMENT' Envvar allows simluation of images that don't actually exist, by downloading a config file from https://staging.resin.io).
+**Note**: The `image-maker` used in the Devenv is cut-down version, as the full-fat repo has every base image for all architectures included with it. The branch for this is `master-slim`. A JSON file provides information required for a particular device types image. The 'DEVELOPMENT' Envvar allows simluation of images that don't actually exist, by downloading a config file from https://api.resinstaging.io).
 
 Some relevant paths:
 
