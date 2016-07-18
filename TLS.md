@@ -12,11 +12,11 @@ The following domains have certs (providers included where known):
 *Staging*
 
 * \*.resinstaging.io [RapidSSL]
-* devices.resinstaging.io
+* \*.devices.resinstaging.io
 
 *Internal / Development*
 
 * jenkins.dev.resin.io [Let's Encrypt]
 * builders.resin.io
-* resindev.io
+* \*.resindev.io
 
