@@ -95,6 +95,16 @@ You should be able to do this from your host machine. For OSX, [Postico](https:/
 
 Once startup has completed, you should be able to see a local copy of the Resin.io dashboard. Simply navigate to https://dashboard.resindev.io/
 
+# API and curl
+
+Use `curl` to play with the API, rather than try to get the CLI client up and running. The docs for the API are [here](http://docs.resin.io/runtime/data-api/).
+
+Obviously the base URL is `api.resindev.io/v1`, instead. Normal bearer token rules apply (as can be found from your user preferences page).
+
+Example:
+
+    curl -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://api.resindev.io/v1/application -XGET
+
 # `fig` And Source Repos
 
 `fig` is a Docker container manager that simplifies the creation of applications based around several services (**--> Although it seems like this is now  docker composer territory?<-**). It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
