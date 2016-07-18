@@ -23,7 +23,8 @@ The DevEnv is essentially an emulator of the entire Resin.io production stack (i
 
 There's a page dedicated to the Devenv [here](https://resinio.atlassian.net/wiki/display/RES/Working+with+the+Development+VM). This section expands that out a bit if you need a bit more info.
 
-Once you've cloned and started the DevEnv, you'll initially be able to see the various Docker containers that make up the system by running `fig ps`:
+Once you've cloned and started the DevEnv, you can _ssh_ into it: `vagrant ssh`.
+There you'll initially be able to see the various Docker containers that make up the system by running `fig ps`:
 
       Name                     Command               State                  Ports
       -------------------------------------------------------------------------------------------------
@@ -50,9 +51,9 @@ Most of the services are 'real', as in they're running current CI deployed code.
 * db
 * haproxy
 
-These services augment the DevEnv so that it is self contained. Therefore any data added to the system is local only.
+These services augment the DevEnv so that it is self-contained. Therefore any data added to the system is local only.
 
-Almost every service starts via systemd (usually found in the `config/services` directory). Additionally, `confd` is used to allow dynamic setting of script and environment vars based on known keys (`config/confd` directory, see also [here]( https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md) for more information on `confd`).
+Almost every service starts via `systemd` (usually found in the `config/services` directory). Additionally, `confd` is used to allow dynamic setting of script and environment vars based on known keys (`config/confd` directory, see also [here]( https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md) for more information on `confd`).
 
 Every time you `vagrant up`, be aware that, apart from the initial VM creation, you'll need to do `fig start` again.
 
