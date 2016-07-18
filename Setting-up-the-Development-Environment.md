@@ -104,6 +104,35 @@ Obviously the base URL is `api.resindev.io/v1`, instead. Normal bearer token rul
 Example:
 
     curl -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://api.resindev.io/v1/application -XGET
+# Creating an Application Git Repo
+
+Finally, we want to add a git repo for the test app. You can do that by copying what the `git` container does when a new application is created.
+
+**TIP**: Username and application names are lowercased into the git repo name, so even if a user specified an app called 'myApp', it will still be lowered to 'myapp'.
+
+From `/home/vagrant/resin`:
+
+    mkdir -p data/git/repositories/<username>/<appName>.git
+	git init --bare data/git/repositories/<username>/<appName>.git
+
+(So in the above case, `<username>/<appName>.git` for me is `heds/testapp.git`).
+
+Now there's a repo, we can push to it. You'll see the handy 'git remote' command to add any repo you now want to build from the Application page on the dashboard. However, we need to ensure that we can get to it. Because vagrant is already running SSH on port 22, resin-git has to run on port 2222. So instead of the default command, use a nicknamed host which will allow you to setup a new host in your SSH config (although of course you could just add git.resindev.io in your config). For example:
+
+    git remote add resin heds@resin-gitdev:heds/testapp.git
+
+And then create a new entry in your `.ssh/config` file that references the new port (this assumes you're doing it from the host and **not** from inside the DevEnv):
+
+    Host resin-gitdev
+        User heds
+        Port 2222
+        Hostname git.resindev.io
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/resinkey
+
+You can now go into the testapp.git repo and do the usual `git push resin master`, which will push changes into the previously inited bare repo.
+
+This doesn't currently get picked up by the `builder`, and I'm yet to figure out why.
 
 # `fig` And Source Repos
 
