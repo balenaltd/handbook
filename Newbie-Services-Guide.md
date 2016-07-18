@@ -60,7 +60,7 @@ Every time you `vagrant up`, be aware that, apart from the initial VM creation, 
 
 ## A Note About `fig` And Application Source
 
-`fig` is a Docker container manager that simplifies the creation of applications based around several services (**--> Although it seems like this is now  docker composer territory?<-**). It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
+`fig` is a Docker container manager that simplifies the creation of applications based around several services (it was incorporated into Docker as `docker-composer`, for compatibility we have it aliased as `fig`). It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
 
 You can find this file in the root of the Vagrant VM. As can quickly be seen, each Resin.io container is specified as a service in this file. The most important bit here is the `volumes` section for each service, which specify container paths that are mapped to local paths in the Vagrant VM (for example, look at the `git` entry whose `volumes` section describe where in the Vagrant VM the user repos are stored (`data/git/repositories`) and where this is mapped to in the `resin-git` container (`/var/lib/git/repositories`).
 
