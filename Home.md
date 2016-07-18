@@ -18,7 +18,7 @@ Welcome to the resin.io wiki.
   - Prioritising
   - Development
     - Contributing
-      - Setting up the development environment
+      - [Setting up the development environment](https://github.com/resin-io/hq/wiki/Setting-up-the-Development-Environment)
         - Front end
         - Services
           - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
