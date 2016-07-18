@@ -21,6 +21,7 @@ Welcome to the resin.io wiki.
       - Setting up the development environment
         - Front end
         - Services
+          - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
         - Devices
       - Commit guidelines
       - Submitting a pull request
