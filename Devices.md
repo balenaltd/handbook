@@ -57,4 +57,115 @@ tail /var/log/supervisor-log/resin_supervisor_stdout.log -f
 ```
 
 ## A Real Device
+
+There are a couple of ways to achieve this.
+
+* One requires a device provisioned on the Staging environment and its reprovisioning.
+* One requires the download of the full `resin-img:master` container (this is very large).
+
+### Reprovision from Staging
+
+This is allegedly a little out of date, as related in this Flowdock [conversation](https://www.flowdock.com/app/rulemotion/resin-starters/threads/br0253uDAJEsHQOXPiyKShh5MVT). It may or may not work.
+
+1. Copy the `tools/make-dev-device.sh` script onto your device (eg. by sshing into it and using nano to paste it in)
+2. Make the script executable: `chmod +x make-dev-device.sh`
+3. Check out the options: `./make-dev-device.sh -h`
+4. Run the script
+
+eg.
+For using as dev device connected to staging:
+
+    HOSTNAME=staging EDITOR=/usr/bin/nano ./make-dev-device
+
+For using as dev device connected to the dev env:
+
+    DEV_IP=192.168.2.15 API_ENDPOINT=http://api.resindev.io REGISTRY_ENDPOINT=registry.resindev.io HOSTNAME=dev EDITOR=/usr/bin/nano ./make-dev-device
+    API_KEY=$DEV_API_KEY USER_ID=$DEV_USER_ID USERNAME=$DEV_USERNAME APPLICATION_ID=$DEV_APPLICATION_ID reprovision-device
+
+### Using Real Images in `resin-img:master`
+
+This one requires a lot of space and, depending on the speed of your net connection, a little patience. The advantage of this one is that you can carry out the whole 'Create Application -> Download OS Image -> Push Application' flow directly from the DevEnv, emulating it as if it were on Staging or Production.
+
+1. Clone a new version of the `resin-containers` repo:
+
+    git clone https://github.com/resin-io/resin-containers.git
+2. Get a repackaged version of the Ubuntu Vivid vagrant box [here](https://drive.google.com/open?id=0B0xOid60TZZAeXIzVDl6Yjl1MVU). Put it somewhere useful, and remember the path to it. This box is simply a repackaged version of the  ubuntu-15.04-server-amd64.iso which has been given a 140GB disk instead of a 40GB disk (don't worry, it's a dynamically sized VDD, it won't swallow 140GB of disk).
+3. Edit the `Vagrantfile` in the root of the `resin-containers` project, change:
+
+    	config.vm.box = 'ubuntu_vivid'
+    	config.vm.box_url = 'https://cloud-images.ubuntu.com/vagrant/vivid/current/vivid-server-cloudimg-amd64-vagrant-disk1.box'
+
+   to:
+
+        config.vm.box = 'ubuntu_vivid-140GB'
+        config.vm.box_url = 'file:///path/to/the/ubuntu-15.04-server-amd64-140GB.box'
+4. Do `vagrant up` as per normal.
+5. Once running, alter the `fig.yml` changing the line:
+        image: resin/resin-img:master-slim
+    to:
+        image: resin/resin-img:master
+
+   Also change the line:
+
+        - DEVELOPMENT=1
+   to:   
+
+        - DEVELOPMENT=0
+6. Carry out `fig kill img && fig pull img`. Wait. A. While.
+
+If you now restart the `img` service, you'll get a list of the current real OS images for every supported device. However, we want to be able to connect a real device, download the OS image for it and then push applications to it. To do this, you'll also need to change the config that's written to each device when the OS image s downloaded. This is pretty simple, but requires altering the `resin-image-maker` source:
+
+1. Clone the `resin-image-maker` source:
+
+        cd src
+        git clone https://github.com/resin-io/resin-image-maker.git
+        mv resin-image-maker img
+        cd img
+        npm install
+2. Alter `fig.yml`, uncommenting the following line in the `img` services block:
+
+        - ./src/img:/usr/src/app
+3. Now fire up your favourite editor and edit the `img/src/operations/configure.coffee` script, altering:
+
+        exports.execute = (operation) ->
+        	Promise.try ->
+        		if not operation.data
+
+    to:
+
+        exports.execute = (operation) ->
+        	operation.data.vpnEndpoint = '10.10.10.10'
+
+        	Promise.try ->
+        		if not operation.data
+4. Restart the `img` service:
+
+    fig kill img && fig rm -f img && fig up -d img
+
+This will ensure that for every downloaded OS image, the VPN now points to the DevEnv host. Ideally this should end up being a patch given the `DEVELOPMENT` Envvar, but work's being continued to get a process in place before submitting one.
+
+You should now be able to download the OS image for your chosen real device which will attempt to talk to the DevEnv.
+
+**HOWEVER!** You'll probably need to do some extra work to make this happen in your local network, though (unless your development machine is also your router). Assuming that the network/internet exposed interface of the host machine has an IP of `192.168.1.170`:
+
+1. Ensure that the machine you're running the DevEnv on has port forwarding enabled. You can do this in OSX and Linux via the `sysctl` command:
+
+* OSX: `sudo sysctl -w net.inet.ip.forwarding=1`
+* Linux: `sudo system -w net.ipv4.ip_forward=1`
+2. Ensure you have a route setup in your network that forwards the traffic for `10.10.10.0` onto the machine where the DevEnv is. Most routers will allow a static entry that allows you to map a specified machine as a gateway for a destination, eg.:
+
+        Destination: 10.10.10.0
+        Netmask: 255.255.255.0
+        Gateway: 192.168.1.170
+
+    If your router is one of these awful Telecom supplied boxes, your final option is to update the routing table from within the produced OS image you download.
+    **TBD**
+
+
+Now, any traffic seen for `10.10.10.10` will automatically be routed to `192.168.1.170` where the vagrant machine will handle it.
+
+### Using Only Specific Device Images
+
+Ideally we want to not have to download what ends up being tens of gigs of compressed data, and instead use device OS images specifically useful to the developer. We can grab this data from any built device image (or Jenkins), as long as the metadata accompanies it.
+
 TBD
