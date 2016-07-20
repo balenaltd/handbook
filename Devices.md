@@ -3,7 +3,9 @@ Devices
 
 To poke about in the guts of the system, it's useful to have some dummy data in it. Once the DevEnv is up and running, you can login to the system at https://dashboard.resinio.dev
 
-By default, without cloning the `resin-img` repo (see the setup guide [here](https://github.com/resin-io/hq/wiki/Setting-up-the-Development-Environment), you'll not be able to create an App via the Dashboard or CLI. If you don't want (or can't) clone the API and re-run the `img` container, you can do the following to add a new Application and Device (you need at least one Application in the system before you can create a Device).
+By default, the DevEnv sets the `DEVELOPMENT` Envvar which serves up dummy devices. There are no OS images for these devices however, so you can't download any. Created applications can still be built.
+
+To add Devices, see the 'Adding Devices' section below.
 
 # Adding a New Application
 
@@ -23,11 +25,11 @@ Take note of the second parameter (2), this is the User ID and needs to be copie
 
 If you now login to the dashboard and select Applications, you'll see the app you just added.
 
-# Adding a New Device
+# Adding Devices
 
 ## Via DB
 
-You can also add a new device now (previously the `device` table did not exist). Go to the `device` table, again in the `resin` DB (which was created once a new app had been added). Add something similar to the following row:
+You can also add a new device once an Application has been created. Go to the `device` table, again in the `resin` DB (which was created once a new app had been added). Add something similar to the following row:
 
     2016-07-14 16:00:23.012345	1	abcdef1234	testDevice		raspberry-pi2	1	2	0
 
