@@ -143,7 +143,7 @@ And then create a new entry in your `.ssh/config` file that references the new p
 
 You can now go into the testapp.git repo and do the usual `git push resin master`, which will push changes into the previously inited bare repo.
 
-This doesn't currently get picked up by the `builder`, and I'm yet to figure out why.
+This should build your app image and create appropriate images in the registry.
 
 # `fig` And Source Repos
 
