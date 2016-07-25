@@ -1,4 +1,4 @@
-[Wiki](Main) > Team
+[Wiki](Home) > Team
 
 # Teams within resin
 
