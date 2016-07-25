@@ -4,7 +4,7 @@ Welcome to the resin.io wiki.
 
 ##How to get things done (resin.io processes)
 
-- Team
+- [Team](Team)
   - Joining resin.io
     - Basic Tool Setup & Tips (Front, Flowdock, Passpack, Github, Staffsquared &c?)
   - Taking leave
