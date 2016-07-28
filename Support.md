@@ -8,7 +8,7 @@ This page is a repository for everything you need to know when doing customer su
 |7:00 - 11:00   | Eugene |
 |11:00 - 15:00  | Joe |
 |15:00 -  19:00 | Carlo |
-|19:00 - 23:00  | Juan |
+|19:00 - 23:00  | Jack |
 
 ## Important Links
 * [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
