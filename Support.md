@@ -2,13 +2,13 @@
 
 This page is a repository for everything you need to know when doing customer support at resin.io
 
-## Who On Support This Week? (updated: 25 July 2016)
+## Who On Support This Week? (updated: 1 Aug 2016)
 |Hours (UTC)    | Engineer |
 |---------------|:--------:|
-|7:00 - 11:00   | Eugene |
-|11:00 - 15:00  | Joe |
-|15:00 -  19:00 | Carlo |
-|19:00 - 23:00  | Jack |
+|7:00 - 11:00   | Greg |
+|11:00 - 15:00  | Craig |
+|15:00 -  19:00 | Juan |
+|19:00 - 23:00  | Page |
 
 ## Important Links
 * [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
