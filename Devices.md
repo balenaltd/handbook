@@ -164,6 +164,95 @@ You should now be able to download the OS image for your chosen real device whic
 
 Now, any traffic seen for `10.10.10.10` will automatically be routed to `192.168.1.170` where the vagrant machine will handle it.
 
+### Using Custom Generated Images
+
+If you've generated your own image, you can use write that to a device and then use it from the Devenv by following fewer steps than that for using all generated images. This will not allow you to download device OS images, but will allow your device to communicate with the Devenv.
+
+1. Clone and start the Devenv as detailed above, with no changes.
+2. Take your custom OS image, and find the first Linux partition, which holds the FS:
+
+        fdisk -l resin.img
+
+            Device Boot      Start         End      Blocks   Id  System
+        resin.img1   *        8192       90111       40960    c  W95 FAT32 (LBA)
+        resin.img2           90112      458751      184320   83  Linux
+        resin.img3          458752      827391      184320   83  Linux
+        resin.img4          827392     2981887     1077248    f  W95 Ext'd (LBA)
+        resin.img5          835584      876543       20480    c  W95 FAT32 (LBA)
+        resin.img6          884736     2981887     1048576   83  Linux
+3. Mount the partition locally (assuming you've created a mount point, eg. `/mnt/resin`):
+
+        sudo mount -o rw,loop,offset=$(( 90112 * 512)) resin.img /mnt/resinimage/
+4. Now edit the following files (**ensure that you edit the correct file, eg. `/mnt/resinimage/etc/default/dropbear`, and not your local versions!**):
+    * `/mnt/resinimage/etc/default/dropbear:`
+
+        `DROPBEAR_EXTRA_ARGS="-B"`
+
+    * `/mnt/resinimage/etc/shadow`
+
+    Remove the second column from the `root` entry, eg:
+
+    `root:*:17011:0:99999:7:::`
+
+    to
+
+    `root::17011:0:99999:7:::`
+5. Add the following files, along with their contents:
+
+    * `/mnt/resinimage/lib/systemd/system/resin-devenv.service`
+
+            [Unit]
+            Description=Resin Devenv Configure service
+            After=resin-supervisor.service
+
+            [Service]
+            ExecStart=/bin/bash /usr/bin/resin-devenv-config
+            Type=oneshot
+            RemainAfterExit=yes
+
+            [Install]
+            WantedBy=multi-user.target
+
+    * `/mnt/resinimage/usr/bin/resin-devenv-config`
+
+            #
+            # resin-devenv-config
+            # ----------------
+            #
+            # Script which adds a route to a target Devenv environment
+            #
+
+            set -e
+
+            route add -net 10.10.10.0 netmask 255.255.255.0 gw <Host IP for Devenv> dev eth0
+
+    Ensure that you fill in the correct host IP for the Devenv machine to route to.
+6. Create a systemd symlink to start the routing service on startup:
+
+        ln -s /mnt/resinimage/lib/systemd/system/resin-devenv.service /mnt/resinimage/etc/systemd/system/multi-user.target.wants/
+
+7. Unmount the image:
+
+        sudo umount /mnt/resinimage
+
+8. Write the image to your device. You can do this using `resin os initialize --type <slugName>` (make sure you've logged into the Devenv Dashboard first using `resin login`):
+
+        RESINRC_RESIN_URL=resindev.io resin os initialize --type <slugName>
+
+9. Create a custom config for the Application you want to use the device with:
+
+        RESINRC_RESIN_URL=resindev.io resin config generate --type <slugName> --output myConfig.json
+
+10. Alter the `myConfig.json` so that the `vpnEndpoint` key value is `10.10.10.10`
+
+11. Write the config to your device:
+
+        RESINRC_RESIN_URL=resindev.io resin config inject myConfig.json --type <slugName>
+
+You now have a device running a custom image and config that will communicate correctly with the Devenv. You can use the Dashboard and `resin` command as per normal.
+
+There is work currently in the pipeline to automate all of these steps using a tool within the Devenv framework.
+
 ### Using Only Specific Device Images
 
 Ideally we want to not have to download what ends up being tens of gigs of compressed data, and instead use device OS images specifically useful to the developer. We can grab this data from any built device image (or Jenkins), as long as the metadata accompanies it.
