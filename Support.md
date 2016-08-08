@@ -43,10 +43,10 @@ Weekend cover isn't expected to be as intense as weekday work, rather you make s
 1. Make sure you have accounts at the following place, ask Apostolis (@apostolism) if you don't:
     * [Zendesk](https://resin.zendesk.com/agent/filters/69240918) - Premium support and most important to keep on top of. 
     * [Front](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - Regular paid/trial support. Usually highest volume.
-    * [intercom.io](intercom.io) - This is just used for the realtime chat portion of Front, you wont spend much time in it. 
+    * [intercom.io](https://intercom.io) - This is just used for the realtime chat portion of Front, you wont spend much time in it. 
     * [Gitter](https://gitter.im/resin-io/chat) - Our community portal.
-    * [Resin Talk](talk.resin.io) - our legacy forum which is on its way out.
-    * [admin.resin.io](admin.resin.io) - make sure you your resin.io account has admin access.
+    * [Resin Talk](https://talk.resin.io) - our legacy forum which is on its way out.
+    * [admin.resin.io](https://admin.resin.io) - make sure you your resin.io account has admin access.
 2. Make sure all the accounts you have setup above have a good picture of you and an updated profile.
 3. Bookmark and keep open all links in the [Important Links](#important-links) section at the top of this page.
 4. Install the resin.io front side panel. You can find the instructions [here](https://github.com/resin-io/hq/wiki/Using-Front#resinio-frontapp-side-bar).
