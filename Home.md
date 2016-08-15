@@ -23,6 +23,7 @@ Welcome to the resin.io wiki.
         - Services
           - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
         - [Devices](https://github.com/resin-io/hq/wiki/Devices)
+        - [Exporting the development environment](https://github.com/resin-io/hq/wiki/Exporting-the-Development-Environment)
       - Commit guidelines
       - Submitting a pull request
       - Code review
