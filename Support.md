@@ -6,7 +6,7 @@ This page is a repository for everything you need to know when doing customer su
 |Hours (UTC)    | Engineer |
 |---------------|:--------:|
 |7:00 - 11:00   | Akis |
-|11:00 - 15:00  | Aleksis |
+|11:00 - 15:00  | Kostas |
 |15:00 -  19:00 | Juan |
 |19:00 - 23:00  | Jack |
 
