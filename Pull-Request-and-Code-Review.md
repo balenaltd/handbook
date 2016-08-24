@@ -1,6 +1,3 @@
-Pull Requests and Code Review
-=============================
-
 Once code has been pushed to a new branch for a component, and you're confident it's a potential candidate for merging to the `master` branch, it needs to go into review state as a Pull Request.
 
 To do this:
