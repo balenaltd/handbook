@@ -5,7 +5,7 @@ Issues are tracked via Github's built-in tracker, which can be referenced from c
 # Commit Workflow
 
 1. Create a new, appropriately named branch for your changes (eg. `git checkout -b make-cats-appear`)
-2. Make your changes, following any appropriate [coding standards](http://codingstandards)
+2. Make your changes, following any appropriate [coding standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
 3. Write tests if appropriate, ensure tests pass
 4. Update version numbers if required
 4. Run the appropriate linter, if appropriate, on the code
@@ -23,7 +23,7 @@ where `3` is the number of commits found, and then rebasing:
 
 There are loads of tutorials for this on the web, here's [one](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html). Squashing prevents a potentially large amount of irrelevant commits showing up in Github, making it easier for both reviewers and the change author to track conversations.
 
-From this point, the [review process]() takes over.
+From this point, the [review process](https://github.com/resin-io/hq/wiki/Pull-Request-and-Code-Review) takes over.
 
 # Versioning
 
