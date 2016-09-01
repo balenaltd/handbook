@@ -99,6 +99,23 @@ By default, the Devenv allows only for the creation of an application for each d
 
 To work with real devices in the Devenv, you will need to import the relevant OS images. See the 'Devices' page [here](https://github.com/resin-io/hq/wiki/Devices) for details of how to achieve this using the `import-images` tool.
 
+# Building Apps
+
+Port `22` is used by several services in the Devenv, and because of this `git` in the Devenv runs on a different port. To build Apps from the host machine, you'll need to setup your SSH config so it uses port `2222` instead. For example:
+
+    Host git.resindev.io
+        User heds
+        Port 2222
+        Hostname git.resindev.io
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/resindev-git
+
+Where `resindev-git` is the key whose public identity has been registered in the Dashboard on sign in.
+
+As long as you name the host `git.resindev.io`, you should now be able to use the git remote line given at the top of an Application's webpage to be able to add the repository. Pushing is the same as always:
+
+    git push resin master
+
 # `resin-cli`
 
 The `resin` CLI tool will work with the Devenv in the usual way. Install with:
@@ -108,6 +125,10 @@ The `resin` CLI tool will work with the Devenv in the usual way. Install with:
 When running `resin`, you'll need to ensure it communicates with the Devenv instead of the default production service, for example:
 
     RESINRC_RESIN_URL=resindev.io resin login
+
+**Note:** Because port 22 is used by several services, and cannot be exposed for each of these, when using `resin ssh` or `resin sync`, you must specify port `222` to ensure it can communicate correctly with the Devenv. For example:
+
+    RESINRC_RESIN_URL=resindev.io resin ssh abcdef1234 --port 222
 
 All functionality should work in the usual way.
 
