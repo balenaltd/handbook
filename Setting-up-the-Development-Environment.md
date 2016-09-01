@@ -22,24 +22,13 @@ The DevEnv is actually an integration that brings all of the Resin.io services t
 
 git clone https://github.com/resin-io/resin-containers.git
 
-# Developing Inside Vagrant
-
-If you want to actually develop from within the DevEnv (rather than from the host OS), you might need to add your id_rsa.pub public key to the VM. Here's how:
-
-    On the host computer: $ cat ~/.ssh/id_rsa.pub | pbcopy
-    Enter the VM with: $ vagrant ssh
-    $ nano ~/.ssh/authorized_keys
-    Move to the last line and paste your public key from clipboard
-    Ctrl+X to exit, type "Y" to accept changes and hit Enter
-    You might also need to copy id_rsa and id_rsa.pub into your VM
-
 # Starting the DevEnv
 
 Once cloned, `cd` into the `resin-containers` repo and type:
 
     vagrant up
 
-Vagrant will now pull down the relevant Linux dist (an Ubuntu-provided 64bit server) image to base the environment on, run it in VirtualBox and configure it. You will be asked which network interface to connect to. It is recommended you use the interface that all 'normal' incoming/outgoing traffic goes through (ie. connects to the Internet).
+Vagrant will now pull down the relevant Linux dist (an Ubuntu-provided 64bit server) image to base the environment on, run it in VirtualBox and configure it. You will be asked which network interface to connect to. It is essential you use the interface that all 'normal' incoming/outgoing traffic goes through (ie. connects to the Internet).
 
 On first start, a large amount of work is carried out to grab all of the Docker containers that comprise the Resin.io services (it runs the `bin/provision` script, which does all of this and sets up the config files). This will take some time. Grab a cup of tea.
 
@@ -47,7 +36,7 @@ Once finished, vagrant will drop back to the command line. You can now connect t
 
     vagrant ssh
 
-You should now be able to type `fig ps`, and see a list of all the services (`fig` is the Docker container manager used in the VM):
+You should now be able to type `fig ps`, and see a list of all the services (`fig` is the Docker container manager used in the VM, forerunner of `docker-compose`):
 
 Once you've cloned and started the DevEnv, you'll initially be able to see the various Docker containers that make up the system by running fig ps:
 
@@ -80,7 +69,7 @@ For more on services see [here]().
 
 # Restarting the DevEnv
 
-Shutting down a Vagrant machine requires the user to type:
+Shutting down a Vagrant machine requires the user to be in the host (and not SSHd into the Vagrant machine) directory of the Devenv (the `resin-containers` directory) and to type:
 
     vagrant halt
 
@@ -92,8 +81,6 @@ Be warned that on all subsequent `vagrant up` commands, you will have to `vagran
 
 The DB backend for the DevEnv can be connected with the following details:
 
-Connect to the DB:
-
     Host: db.resindev.io
     User: docker
     Password: docker
@@ -102,52 +89,41 @@ You should be able to do this from your host machine. For OSX, [Postico](https:/
 
 # Connecting to the dashboard
 
-**Note that in order to actually create an Application, you'll either have to install the source for the `img` container (see section below), or you'll need to edit the DB by hand (see the Devices page here[]()).**
+Once startup has completed, you should be able to see a local copy of the Resin.io dashboard. Simply navigate to https://dashboard.resindev.io/ on your host machine.
 
-Once startup has completed, you should be able to see a local copy of the Resin.io dashboard. Simply navigate to https://dashboard.resindev.io/
+Everything should work as if on staging/production. When browsing the 'Application' tab, you'll see a list of all currently supported devices. **However**, please note that this is currently just a list pulled from staging, and does not denote that these device types are supported by the Devenv.
+
+# Working with Devices
+
+By default, the Devenv allows only for the creation of an application for each device type, but will not allow download of OS images, etc. as the images for these device types are not present within the Devenv. This is due to space restrictions.
+
+To work with real devices in the Devenv, you will need to import the relevant OS images. See the 'Devices' page [here](https://github.com/resin-io/hq/wiki/Devices) for details of how to achieve this using the `import-images` tool.
+
+# `resin-cli`
+
+The `resin` CLI tool will work with the Devenv in the usual way. Install with:
+
+    npm -g install resin-cli
+
+When running `resin`, you'll need to ensure it communicates with the Devenv instead of the default production service, for example:
+
+    RESINRC_RESIN_URL=resindev.io resin login
+
+All functionality should work in the usual way.
 
 # API and curl
 
-Use `curl` to play with the API, rather than try to get the CLI client up and running. The docs for the API are [here](http://docs.resin.io/runtime/data-api/).
+You can use `curl` to play with the API. The docs for the API are [here](http://docs.resin.io/runtime/data-api/).
 
 Obviously the base URL is `api.resindev.io/v1`, instead. Normal bearer token rules apply (as can be found from your user preferences page).
 
 Example:
 
     curl -H "Content-Type: application/json" -H "Authorization: Bearer <token>" https://api.resindev.io/v1/application -XGET
-# Creating an Application Git Repo
 
-Finally, we want to add a git repo for the test app. You can do that by copying what the `git` container does when a new application is created.
+# Using `fig` to Develop with Source Repos
 
-**TIP**: Username and application names are lowercased into the git repo name, so even if a user specified an app called 'myApp', it will still be lowered to 'myapp'.
-
-From `/home/vagrant/resin`:
-
-    mkdir -p data/git/repositories/<username>/<appName>.git
-	git init --bare data/git/repositories/<username>/<appName>.git
-
-(So in the above case, `<username>/<appName>.git` for me is `heds/testapp.git`).
-
-Now there's a repo, we can push to it. You'll see the handy 'git remote' command to add any repo you now want to build from the Application page on the dashboard. However, we need to ensure that we can get to it. Because vagrant is already running SSH on port 22, resin-git has to run on port 2222. So instead of the default command, use a nicknamed host which will allow you to setup a new host in your SSH config (although of course you could just add git.resindev.io in your config). For example:
-
-    git remote add resin heds@resin-gitdev:heds/testapp.git
-
-And then create a new entry in your `.ssh/config` file that references the new port (this assumes you're doing it from the host and **not** from inside the DevEnv):
-
-    Host resin-gitdev
-        User heds
-        Port 2222
-        Hostname git.resindev.io
-        PreferredAuthentications publickey
-        IdentityFile ~/.ssh/resinkey
-
-You can now go into the testapp.git repo and do the usual `git push resin master`, which will push changes into the previously inited bare repo.
-
-This should build your app image and create appropriate images in the registry.
-
-# `fig` And Source Repos
-
-`fig` is a Docker container manager that simplifies the creation of applications based around several services (**--> Although it seems like this is now  docker composer territory?<-**). It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
+`fig` is a Docker container manager that simplifies the creation of applications based around several services and is what `docker-compose` was born from. It manages the Docker containers, including running and rebuilding them, and does so from a single file called `fig.yml`.
 
 You can find this file in the root of the Vagrant VM. As can quickly be seen, each Resin.io container is specified as a service in this file. The most important bit here is the `volumes` section for each service, which specify container paths that are mapped to local paths in the Vagrant VM (for example, look at the `git` entry whose `volumes` section describe where in the Vagrant VM the user repos are stored (`data/git/repositories`) and where this is mapped to in the `resin-git` container (`/var/lib/git/repositories`).
 
@@ -171,13 +147,11 @@ Here's a quick example using the `img` service, after uncommenting the `# - ./sr
     npm install
     fig kill img && fig rm -f img && fig up -d img
 
-After this, you should now be able to pick from a list of dummy devices.
+Some containers pick up changes automatically (for example if they're running `nodemon`). Some need to be manually kicked again using `fig kill...`.
 
-Some containers pick up changes automatically (for example if they're running `nodemon`). Some need to be manually kicked again using step 4 of the steps above.
+**Note**: There appears to be some sort of issue between the host and Vagrant. If you accidentally do an `npm install` from your host machine rather than from inside the vagrant Devenv (which won't work, as it relies on the setup in the VM), attempting to then carry out `npm install` from vagrant can halt and never respond (has been seen whilst attempting for the `resin-api` repo). Doing an `npm cache clear` doesn't seem to work, but `destroy`ing the VM, wiping the repo source directory (eg. `src/api`) and starting again does seem to.
 
-**Note**: There appears to be some sort of issue between the host and Vagrant. If you accidentally do an `npm install` from you host machine rather than from inside the vagrant Devenv (which won't work, as it relies on the setup in the VM), attempting to then carry out `npm install` from vagrant can halt and never respond (has been seen whilst attempting for the `resin-api` repo). Doing an `npm cache clear` doesn't seem to work, but kill the VM, wiping the repo source and starting again does seem to.
-
-# Userful CLI Tools
+# Useful CLI Tools
 
 You can use:
 
