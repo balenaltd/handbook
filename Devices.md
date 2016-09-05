@@ -6,13 +6,13 @@ By default, the DevEnv sets the `DEVELOPMENT` Envvar for the Image Maker service
 
 This can be useful for developing services when interaction with real devices is not required.
 
-However, should a developer want to actually use the Devenv as a self-contained Resin.io on their development machine and LAN with real devices, they can use the `image-import` tool to achieve this.
+However, should a developer want to actually use the Devenv as a self-contained Resin.io on their development machine and LAN with real devices, they can use the `import-images` tool to achieve this.
 
 # Adding Devices
 
 ## Via `import-images` Tool
 
-By far the easiest way to get devices working with the Devenv is the `import-images` tool, whose purpose is to allow the interaction of real devices with the Devenv with very little input from a developer. This is located in the `resin-containers` repo in the `/home/vagrant/resin/tools/import-images` directory when SSHd into the Devenv VM (which is where the tool should be run from).
+By far the easiest way to get devices working with the Devenv is the `import-images` tool, whose purpose is to allow the interaction of real devices with the Devenv with very little input from a developer. This is located in the `resin-containers` repo in the `/home/vagrant/resin/tools/import-images` directory when SSHd into the Devenv VM (which is where the tool should be run from). Be sure to issue `npm install` in the tool's directory before first use.
 
 It carries out two types of operation:
 
