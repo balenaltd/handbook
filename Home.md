@@ -8,7 +8,7 @@ Welcome to the resin.io wiki.
   - Joining resin.io
     - Basic Tool Setup & Tips (Front, Flowdock, Passpack, Github, Staffsquared &c?)
   - Taking leave
-  - Friday hacks
+  - [Friday Hacks](Friday-Hacks)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
