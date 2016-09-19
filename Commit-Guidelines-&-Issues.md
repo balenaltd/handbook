@@ -6,9 +6,9 @@ Issues are tracked via Github's built-in tracker, which can be referenced from c
 
 1. Ensure you're working from an issue. If you're not, create one prior to creating your branch.
 2. Create a new, appropriately named branch for your changes, observing the following principles:
-  * mention the issue number somewhere in the branch (ideally at the beginning)
+  * put the issue number at the beginning of the branch name
   * make the branch name short, but sensical
-  * example: `git checkout -b issue-32-make-cats-appear`
+  * example: `git checkout -b 32-make-cats-appear`
 3. Make your changes, following any appropriate 
   [coding standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
 4. Write tests if appropriate, ensure tests pass
