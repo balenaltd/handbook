@@ -8,8 +8,7 @@ You'll need to have your public/private keypair installed in the DevEnv to ensur
 Make the relevant change to `fig.yml` by uncommenting the `# - ./src/ui/:/usr/src/app/` line in the `ui` section, then setup the Frontend in the following way:
 
     cd src
-    git clone https://github.com/resin-io/resin-ui.git
-    mv resin-ui ui
+    git clone https://github.com/resin-io/resin-ui.git ui
     cd ui
     npm install && bower install
     fig kill ui && fig rm -f ui && fig up -d ui
