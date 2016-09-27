@@ -29,7 +29,7 @@ Using the tool is fairly simple. It allows the import of a custom image (which i
 
 For the first given scenario above, the developer may have a `resin.img` that a Yocto build has produced for, say, an RPi. To just inject it with the relevant information to communicate with the Devenv but not produce a downloadable OS image and therefore, rely on the default device list from Staging, they would run:
 
-    ./import-images.coffee -q /home/vagrant/tmp/resin-v.img -s raspberrypi3 -n 192.168.1.169
+    ./import-images.coffee --quick-devenv-setup=/home/vagrant/tmp/resin-v.img --slug-name=raspberrypi3 --network-ip=192.168.1.169
 
 The image will now be usable by, for example, the `resin` CLI tool for initialising appropriate media with. It will require an appropriate App config, however, to ensure it can be associated with the correct App and the Devenv. It will also now communicate with the Devenv and show up as per normal.
 
@@ -37,7 +37,7 @@ The image will now be usable by, for example, the `resin` CLI tool for initialis
 
 For the second scenario, a developer would import the slug OS image. To import a single slug type from Jenkins, a developer might run the following:
 
-    ./import-images.coffee -J "hedley:fubar" -j -s raspberrypi3 -n 192.168.1.169
+    ./import-images.coffee --jenkins-user="hedley:fubar" -jenkins --slug-name=raspberrypi3 --network-ip=192.168.1.169
 
 This will automatically import the last successfully built slug image on Jenkins into the Devenv, inject the relevant tools required for communicating with it and then prepare the image for download from the Devenv. It will also make relevant changes to the `fig.yml` and restart the appropriate services. An OS image can now be downloaded from within the Dashboard or from the `resin` CLI tool and used in exactly the same way as on Staging or Production.
 
