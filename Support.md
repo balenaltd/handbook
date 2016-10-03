@@ -2,13 +2,13 @@
 
 This page is a repository for everything you need to know when doing customer support at resin.io
 
-## Who On Support This Week? (updated: 26 Sep 2016)
+## Who On Support This Week? (updated: 3 Oct 2016)
 |Hours (UTC)   | Engineer       | Stand-in |
 |--------------|:--------------:|:--------:|
-|7:00 - 11:00  | @nghiant2710   | @imrehg |
-|11:00 - 15:00 | @craig-mulligan| @hedss  |
-|15:00 - 19:00 | @shaunmulligan | @pcarranzav|
-|19:00 - 23:00 | @mccollam      | @brownjohnf|
+|7:00 - 11:00  | @lifeeth   | @nghiant |
+|11:00 - 15:00 | @dfunkt|@emirotin  |
+|15:00 - 19:00 | @shaunmulligan | @josephroberts    |
+|19:00 - 23:00 | @brownjohnf      | @Page|
 
 
 ## Important Links
