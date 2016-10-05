@@ -8,20 +8,14 @@ We use a combination of Amazon Cloud Formation and CoreOS for running our infras
   * To gain familiarity with this please check the documentation at http://aws.amazon.com/documentation/cloudformation/
   * Machines are tagged with tags like openvpn, builder, api etc to enable CoreOS to understand the placement and deploy appropriate containers.
   * Configurable Parameters are passed to the cloudformation file as Parameters in the VPC.template file. Some of these Parameters are made available to the etcd CoreOS environment via cloud-config in the Manager instance. The Parameters are passed on during the boot of the Manager instance.
+  * EXTREME CAUTION making changes to this file can cause wiping of the production database and other potentially non recoverable situations - As a practice do not apply changes to this file to production unless the file has been tested on staging.
+2. CoreOS is used to run the containers [services] on the machines in our cloud formation cluster.
+  * Every container run is a service and the service files are located in resin-containers/cloudformation/systemd, we use fleetctl to launch the service files.
+  * Services in our repos refer to the master builds of the containers, built from our Jenkins CI environment.
+  * Environment variables for various containers are fetched by etcd from the /services/ name space. We use Confd to create the config files needed by containers on first run. Confd uses .tmpl and .toml files to generate the required config files - these are usually located in config directory of the container repository. Note: When etcd isnt reachable by the container - the container automatically assumes the development environment.
+  * For Production deployment run the deployment.sh script in resin-containers/cloudformation/systemd to change the tags used in these files to point to production builds of our containers.
 
-        EXTREME CAUTION making changes to this file can cause wiping of the production database and other potentially non recoverable situations - As a practice do not apply changes to this file to production unless the file has been tested on staging.
-
-    CoreOS is used to run the containers [services] on the machines in our cloud formation cluster.
-
-        Every container run is a service and the service files are located in resin-containers/cloudformation/systemd, we use fleetctl to launch the service files.
-
-        Services in our repos refer to the master builds of the containers, built from our Jenkins CI environment.
-
-        Environment variables for various containers are fetched by etcd from the /services/ name space. We use Confd to create the config files needed by containers on first run. Confd uses .tmpl and .toml files to generate the required config files - these are usually located in config directory of the container repository. Note: When etcd isnt reachable by the container - the container automatically assumes the development environment.
-
-        For Production deployment run the deployment.sh script in resin-containers/cloudformation/systemd to change the tags used in these files to point to production builds of our containers.
-
-Initial Setup
+## Initial Setup
 
     Create a stack with VPC.template with cloudformation - Select appropriate variables.
 
@@ -35,7 +29,7 @@ Initial Setup
 
     At this point the environment should be up - Note that this does not include the auto update of services.
 
-Updating Cloudformation template
+## Updating Cloudformation template
 
     Log into AWS cloud formation panel.
 
@@ -44,7 +38,7 @@ Updating Cloudformation template
     Extreme CAUTION DO NOT change variables related to database as it can drop the db. [ Tick mark use previous settings ]
     After the CloudFormation update, choose an instance to scale it up and then back down to make sure that adding new instances works as expected
 
-Updating containers
+## Updating containers
 
     For setting up auto-update ( Currently disabled )
 
@@ -72,7 +66,7 @@ Updating containers
     Note: Autoscale on AWS removes the older instances first after connection draining - This ensures completion of any existing requests and that new requests are served from newer code without downtime.
     WARNING: Do not update a majority of instances at once since it can cause issues with etcd.
 
-Gaining access to the instances
+## Gaining access to the instances
 
     Your access to Staging and Production Environments are controlled by service files in the resin-containers/cloudformation/systemd directory.
     Create a add_ssh_keys_[username].service service and run with fleetctl to enable access.
@@ -81,7 +75,7 @@ Gaining access to the instances
 
     ssh -A core@manager.resinstaging.io
 
-Deploying an update to git
+## Deploying an update to git
 
     Build the image as you normally would:
 
@@ -97,24 +91,24 @@ Deploying an update to git
 
     sudo systemctl restart resin-git@production.service
 
-Deploying resin-proxy
+## Deploying resin-proxy
 
-    Trigger a build of proxy with `resinctl build proxy production`
+    1. Trigger a build of proxy with `resinctl build proxy production`
     Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices` to your clipboard
     Deploy the proxy with `resinctl deploy proxy production`
 
-    SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
-
+    2. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+    ```
     mkdir -p /root/.ssh
     vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
     export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
     chmod 0400 /root/.ssh/resin_devices
     ssh-add /root/.ssh/resin_devices
     rm /root/.ssh/resin_devices
-
+    ```
     Done.
 
-Deploying an Upgrade to CoreOS
+## Deploying an Upgrade to CoreOS
 
 During an upgrade to CoreOS, the CoreOS version is changed in the VPC.template, which immediately re-creates the the manager, git, and vpn instances. This will then drop them out of the etctd cluster because the manager is tho sole leader, and you can't join a cluster without a leader. To do this deploy do the following:
 
