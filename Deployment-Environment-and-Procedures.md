@@ -93,11 +93,10 @@ We use a combination of Amazon Cloud Formation and CoreOS for running our infras
 
 ## Deploying resin-proxy
 
-    1. Trigger a build of proxy with `resinctl build proxy production`
-    Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices` to your clipboard
-    Deploy the proxy with `resinctl deploy proxy production`
-
-    2. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+  1. Trigger a build of proxy with `resinctl build proxy production`
+  2. Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices` to your clipboard
+  3. Deploy the proxy with `resinctl deploy proxy production`
+  4. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
     ```
     mkdir -p /root/.ssh
     vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
@@ -106,7 +105,7 @@ We use a combination of Amazon Cloud Formation and CoreOS for running our infras
     ssh-add /root/.ssh/resin_devices
     rm /root/.ssh/resin_devices
     ```
-    Done.
+  5. Done.
 
 ## Deploying an Upgrade to CoreOS
 
