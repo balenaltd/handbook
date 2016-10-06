@@ -29,6 +29,8 @@ Welcome to the resin.io wiki.
       - [Coding Standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
     - Starting a new project
     - Maintaining a project
+- DevOps
+  - [DevOps Task Manual](https://github.com/resin-io/hq/wiki/DevOps-Task-Manual)
   - Deployment
     - Regular flow
     - Hot Patching
