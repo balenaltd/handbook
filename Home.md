@@ -32,6 +32,7 @@ Welcome to the resin.io wiki.
   - Deployment
     - Regular flow
     - Hot Patching
+    - [Deployment Environment and Procedures](https://github.com/resin-io/hq/wiki/Deployment-Environment-and-Procedures)
 - Infrastructure
   - [TLS Certs](https://github.com/resin-io/hq/wiki/TLS)
 
