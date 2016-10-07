@@ -16,5 +16,4 @@
 3. Click through to the confirmation page
 4. Wait for AWS to predict the changes that will occur, and confirm that the only 2 are related to the manager
 5. Accept. AWS will restart the manager of the cluster
-6. SSH in to manager.<env>.io
-7. 
+6. SSH in to manager.resinstaging.io (or the appropriate host) and confirm that the key is set correctly. It may take a few minutes to show up.
