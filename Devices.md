@@ -10,6 +10,13 @@ However, should a developer want to actually use the Devenv as a self-contained 
 
 # Adding Devices
 
+## Enabling Forwarding
+
+For native devices to communicate with the DevEnv, you'll need to ensure your host has forwarding enabled to allow it to pass packets to the VM/Docker services:
+
+OSX: sudo sysctl -w net.inet.ip.forwarding=1
+Linux: sudo system -w net.ipv4.ip_forward=1 
+
 ## Via `import-images` Tool
 
 By far the easiest way to get devices working with the Devenv is the `import-images` tool, whose purpose is to allow the interaction of real devices with the Devenv with very little input from a developer. This is located in the `resin-containers` repo in the `/home/vagrant/resin/tools/import-images` directory when SSHd into the Devenv VM (which is where the tool should be run from). Be sure to issue `npm install` in the tool's directory before first use.
