@@ -14,8 +14,8 @@ However, should a developer want to actually use the Devenv as a self-contained 
 
 For native devices to communicate with the DevEnv, you'll need to ensure your host has forwarding enabled to allow it to pass packets to the VM/Docker services:
 
-OSX: sudo sysctl -w net.inet.ip.forwarding=1
-Linux: sudo system -w net.ipv4.ip_forward=1 
+* OSX: `sudo sysctl -w net.inet.ip.forwarding=1`
+* Linux: `sudo system -w net.ipv4.ip_forward=1`
 
 ## Via `import-images` Tool
 
