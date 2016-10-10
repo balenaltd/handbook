@@ -8,7 +8,7 @@ This page is a repository for everything you need to know when doing customer su
 |7:00 - 11:00  | @lifeeth   | @nghiant |
 |11:00 - 15:00 | @dfunkt|@emirotin  |
 |15:00 - 19:00 | @shaunmulligan | @josephroberts    |
-|19:00 - 23:00 | @brownjohnf      | @Page|
+|19:00 - 23:00 | @brownjohnf      | @Page-|
 
 
 ## Important Links
