@@ -13,6 +13,11 @@ To do this:
 9. Return to step `6.` and continue in the loop until reviewers make the comment `LGTM` (Looks Good To Me) or `SGTM` (Sounds Good To Me, which Pepe will write)
 10. Finally if all is well, the reviewers are happy and the Jenkins status is green across the board, hit the 'Merge pull request' button at the bottom of the PR
 11. You should see a 'Pull request successfully merged and closed' message appear. **IMPORTANT:** At this point, it is most probably worth you deleting the branch you used to carry out the work on. Leaving branches hanging around clutters up the list for new PRs, and isn't desirable. Unless there's a good reason for doing so, delete the branch
+12. There may be extra work to carry out now, to ensure that the project you've carried out the work on is easily maintained:
+    * NPM module: If you've carried out work on an NPM module, you'll need to:
+        1. Update the `CHANGELOG` and the version number in the `package.json` manifest
+        2. Publish the new version to NPM (`npm publish ./`)
+        3. Commit the `CHANGELOG` and `package.json` changes to the `master` branch along with a tag for the version number (eg. `v1.1.1`). This ensures we can keep track of the version of the NPM module published.
 
 Labels may well update automatically from this point on, as PRs go through the route of being first deployed onto staging and then finally to production.
 
