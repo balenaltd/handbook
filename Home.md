@@ -27,7 +27,7 @@ Welcome to the resin.io wiki.
       - [Commit Guidelines & Issues](https://github.com/resin-io/hq/wiki/Commit-Guidelines-&-Issues)
       - [Pull Request and Code Review](https://github.com/resin-io/hq/wiki/Pull-Request-and-Code-Review)
       - [Coding Standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
-    - Starting a new project
+    - [Starting a new project](https://github.com/resin-io/hq/wiki/Starting-a-new-project)
     - Maintaining a project
 - DevOps
   - [DevOps Task Manual](https://github.com/resin-io/hq/wiki/DevOps-Task-Manual)
