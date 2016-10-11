@@ -9,8 +9,6 @@
    Finally, when everything has completed, `vagrant ssh` into the running VM and do the following:
    `etcdctl set /resin/img/storage-driver 'fs'`
 
-Currently the UI will fail to start due to an unset key used by the nginx config. To get around this, set a dummy S3 bucket on first `vagrant ssh` into the DevEnv: `etcdctl set /resin/img/s3/bucket somebucket`
-
 # Overview
 
 This document describes how a new user can get up and running with the Development Environment. A good chunk of this is taken from a document Akis wrote.
