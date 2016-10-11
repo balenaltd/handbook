@@ -1,5 +1,15 @@
 ### Hotfixes
-  **28/09/2016:** Currently the UI will fail to start due to an unset key used by the nginx config. To get around this, set a dummy S3 bucket on first `vagrant ssh` into the DevEnv: `etcdctl set /resin/img/s3/bucket somebucket`
+  **11/10/2016:** There's currently an outstanding PR to fix an installation ordering issue for building `docker`. You'll need to carry out the following as part of the install:
+   ````
+   git clone https://github.com/resin-io/resin-containers
+   cd resin-containers
+   git checkout devenv-qemu-script-fix
+   ````
+   `vagrant up` can then be run as normal.
+   Finally, when everything has completed, `vagrant ssh` into the running VM and do the following:
+   `etcdctl set /resin/img/storage-driver 'fs'`
+
+Currently the UI will fail to start due to an unset key used by the nginx config. To get around this, set a dummy S3 bucket on first `vagrant ssh` into the DevEnv: `etcdctl set /resin/img/s3/bucket somebucket`
 
 # Overview
 
