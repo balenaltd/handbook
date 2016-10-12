@@ -5,10 +5,10 @@ This page is a repository for everything you need to know when doing customer su
 ## Who On Support This Week? (updated: 3 Oct 2016)
 |Hours (UTC)   | Engineer       | Stand-in |
 |--------------|:--------------:|:--------:|
-|7:00 - 11:00  | @lifeeth   | @nghiant |
-|11:00 - 15:00 | @dfunkt|@emirotin  |
-|15:00 - 19:00 | @shaunmulligan | @josephroberts    |
-|19:00 - 23:00 | @brownjohnf      | @Page-|
+|7:00 - 11:00  | @nghiant2710   | @izavits|
+|11:00 - 15:00 | @hedss|@dfunckt|
+|15:00 - 19:00 | @pcarranzav| @mccollam|
+|19:00 - 23:00 | @Page- | @brownjohnf|
 
 
 ## Important Links
