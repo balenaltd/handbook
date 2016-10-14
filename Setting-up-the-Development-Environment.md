@@ -1,5 +1,5 @@
 ### Hotfixes
-**11/10/2016:**
+**14/10/2016:**
 
 1. By default, the Image Maker will attempt to use the FakeS3 container to retrieve slug images from. There are issues with this (see [here]()). It's recommended to ensure the Image Maker uses the local filesystem to allow working with both lists from Staging and native devices:
    `etcdctl set /resin/img/storage-driver 'fs'`
