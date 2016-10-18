@@ -878,23 +878,35 @@ You can easily move devices between applications by selecting a device from a cu
 
 # Internals
 ## Accessing User Devices
-Setting Up
-Add keys to resin-containers project, at cloud_formation/systemd/services/add_ssh_keys_[your name].service, using one of the existing files as a template. Add an ExecStart line in manager.service (located in the same directory), using another line as a template.
-PR these changes, have them merged in and ask the appropriate dudes to deploy them to the server,
-Grab the key files from resin-containers at cloud_formation/ssh/resin_devices* and copy them to your ~/.ssh folder. This key is password-protected, and is available from passpack. Ask Apostolis or Aggelos for access.
-Getting Access
-Make sure your ssh agent knows about the key you've added to the resin-containers cloud_formation/systemd/services folder, if it isn't your default key, by running 'ssh-add [path of private key]'.
-Find the UUID of the device you want to access.
-Ensure the key is loaded into your ssh agent by running 'ssh-add ~/.ssh/resin_devices'.
-If you are on mac, the old ssh installed will fail on the previous step complaining of a bad keyphrase even if it's correct. To get around this update your version:
+### Setting Up
+
+1. Add keys to [resin-containers project](https://github.com/resin-io/resin-containers), at `cloud_formation/systemd/services/add_ssh_keys_[your name].service`, using one of the existing files as a template. Add an ExecStart line in manager.service (located in the same directory), using another line as a template.
+2. PR these changes, have them merged in and ask the appropriate dudes to deploy them to the server,
+3. Grab the key files from resin-containers at `cloud_formation/ssh/resin_devices*` and copy them to your `~/.ssh` folder. This key is password-protected, and is available from passpack. Ask Apostolis or Aggelos for access.
+
+### Getting Access
+
+1. Make sure your ssh agent knows about the key you've added to the resin-containers `cloud_formation/systemd/services` folder, if it isn't your default key, by running:
+```
+ssh-add /path/to/private/key
+```
+2. Find the UUID of the device you want to access.
+3. Ensure the key is loaded into your ssh agent by running `ssh-add ~/.ssh/resin_devices`.
+4. If you are on mac, the old ssh installed will fail on the previous step complaining of a bad keyphrase even if it's correct. To get around this update your version:
+```
 brew install homebrew/dupes/openssh
-This will install binaries into /usr/local/bin, symlinked into entries in /usr/Cellar/openssh/[version]/bin.
+```
+This will install binaries into `/usr/local/bin`, symlinked into entries in `/usr/Cellar/openssh/[version]/bin`.
 On my local machine as of 16th December 2015, the version installed by default in /usr/bin/ssh is OpenSSH_6.9p1, LibreSSL 2.1.8 - this is the version that does not work.
-After installing via openssh, /usr/local/bin/ssh reports version OpenSSH_7.1p1, OpenSSL 1.0.2e 3 Dec 2015. To determine version run `ssh -V`, and if you want to compare between these locations specify the whole path, e.g. /usr/local/bin/ssh -V (this will be what 'ssh' defaults unless your path has been edited unusually.)
+
+After installing via openssh, /usr/local/bin/ssh reports version OpenSSH_7.1p1, OpenSSL 1.0.2e 3 Dec 2015. To determine version run `ssh -V`, and if you want to compare between these locations specify the whole path, e.g. `/usr/local/bin/ssh -V` (this will be what 'ssh' defaults unless your path has been edited unusually.)
+
 You may need to look at how ssh-agent starts/runs but experiments locally suggest it works out of the box .
+
 Another issue with ssh on mac is that the ssh-agent sometimes refuses to use the correct key if many keys are already loaded (ssh-add -l shows a list). Temporarily removing some keys (with ssd-add -d <key>) until there are only a few left (3 or 4, maybe less) mitigates the problem. When this problem arises, even forcing a specific key with the '-i' option will not work. This issue has been seen in version OpenSSH_7.1p2, OpenSSL 1.0.2e 3 Dec 2015.
 
-Set up aliases in ~/.ssh/config as follows:
+5. Set up aliases in ~/.ssh/config as follows:
+```
 Host resin
  User root
  Port 22222
@@ -907,60 +919,319 @@ Host resinstaging
  ProxyCommand ssh -A core@manager.resinstaging.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
  StrictHostKeyChecking no
  UserKnownHostsFile /dev/null
-You can then log in using 'ssh resin -o Hostname=${UUID}.vpn'
-On the Device
-Check /var/volatile/vpnfile - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
-Once on the (non-systemd) device, /var/logs/* is your friend. rce should be running, which is the 'resin container engine', i.e. our fork of docker.
-Check  /var/log/supervisor-log/resin_supervisor_stdout.log for supervisor output.
-Accessing Devices via Another Device
-If a device is showing offline but you suspect it's the VPN not functioning or there is some other reason it appears offline, then you can gain access to it via a known working device.
-Important: A device might have changed its IP address since it last reported it to the dashboard if it has been unable to connect via the VPN, so not being able to access that IP address does not mean the device is necessarily unreachable. In this case you need to look at performing an ARP scan (see below.)
+```
+
+You can then log in to a users device using `ssh resin -o Hostname=${UUID}.vpn`
+
+### On the Device
+Check `/var/volatile/vpnfile` - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
+
+Once on the (non-systemd, before resinOS 1.2) device, `/var/logs/*` is your friend. `rce` should be running, which is the `resin container engine`, i.e. our fork of docker.
+Check  `/var/log/supervisor-log/resin_supervisor_stdout.log` for supervisor output.
+
+On resinOS 1.2+ device you can use `journalctl` to look at the logs. To get the last 100 logs for the supervisor:
+```
+journalctl -u resin-supervisor -n100
+```
+
+### Accessing Devices via Another Device
+If a device is showing offline but you suspect it's the VPN not functioning or there is some other reason it appears offline, then you can gain access to it via a known working device in the same network as the affected device..
+
+**Important:** A device might have changed its IP address since it last reported it to the dashboard if it has been unable to connect via the VPN, so not being able to access that IP address does not mean the device is necessarily unreachable. In this case you need to look at performing an ARP scan (see below.)
+
 Simply access the known working device as usual via `ssh -o HostName=<uuid.vpn> resin`, then once inside the device, run:
+```
 ssh -A -p 22222 root@<device ip>
+```
 If you are unable to determine the IP of the device, you will need to run something similar to an ARP scan. The host os will not have this installed, but you can try this in the supervisor container in a pinch:
+```
 docker exec -it resin_supervisor /bin/bash
 apt-get update -y
 apt-get install -y arp-scan
 arp-scan --interface=eth0 --localnet
-Replace 'docker' with 'rce' if the device is older, as we used to name the docker binary this, and in addition if the device is not connected via eth0 (determine this via `ip addr`), then replace 'eth0' here with the interface name.
+```
+Replace `docker` with `rce` if the device is older, as we used to name the docker binary this, and in addition if the device is not connected via eth0 (determine this via `ip addr`), then replace 'eth0' here with the interface name.
+
 This will list devices on the local network that respond to ARP, with output like:
+```
 # arp-scan --interface=eth0 --localnet
 Interface: eth0, datalink type: EN10MB (Ethernet)
 Starting arp-scan 1.9 with 256 hosts (http://www.nta-monitor.com/tools/arp-scan/)
 192.168.0.1 80:ab:71:23:cd:73 (Unknown)
 192.168.0.13 b8:17:eb:13:ab:00 Raspberry Pi Foundation
 192.168.0.17 78:a3:15:de:d9:9c Hewlett-Packard Company
+```
 The names shown on the right are not obtained from the device directly, rather part of the MAC address indicates which company has reserved a block of MAC addresses. From this you should be able to, by a process of elimination identify whether the device you're after is available.
-Fixing the Bash/Node Race
-This issue results in no updates being downloaded despite the application having had code pushed to it. In the logs at /var/log/supervisor-log/resin_supervisor_stdout.log you'll see:-
+
+### Fixing the Bash/Node Race (Legacy??)
+This issue results in no updates being downloaded despite the application having had code pushed to it. In the logs at `/var/log/supervisor-log/resin_supervisor_stdout.log` you'll see:-
+```
 Event: Device bootstrap failed, retrying {"error":{"message":"\"uuid\" must be unique.","stack":"Error: \"uuid\" must be unique.\n    at /app/node_modules/pinejs-client/request.js:91:17\n    at tryCatcher (/app/node_modules/bluebird/js/main/util.js:24:31)\n    at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/main/promise.js:452:31)\n    at Promise._settlePromiseAt (/app/node_modules/bluebird/js/main/promise.js:530:18)\n    at Promise._settlePromises 
-To fix, edit /mnt/data-disk/config.json and add the following property to the top-level of the json:-
+```
+To fix, edit `/mnt/data-disk/config.json` and add the following property to the top-level of the json:-
+```
 "registered_at": 0
+```
 Finally, restart the supervisor:-
+```
 rce restart resin_supervisor
-Checking Disk Space Usage (btrfs)
-Moved to the HQ wiki.
-Authorisation Tokens
-We authorise users via JSON Web Tokens (JWTs) - this is exposed to the user for interfacing with our API (via our SDK) using the 'Auth Token' shown in the Account Details tab on the Preferences page. The JWT is a base32 encoded, concatenated JSON header and signed JSON body which contains data in of itself. These can be deauthorised for sessions other than the users (by refreshing the JWT) using the 'Log me out from other sessions' button in the same preferences tab.
+```
+
+### Checking Disk Space Usage (btrfs)
+Currently there are about 3 serious issues which are encountered in deployed devices that pertain to BTRFS. This is a short spec to propose some short/midterm fixes which enable users to reliably repair their own devices without support intervention.
+
+The proposal is to have a `Diagnose and Repair` page on the Device Dashboard. In this dash board we will display the following action buttons:
+
+* Check Disk usage (point 1. below)
+  * Returns something like: `Free (estimated): 13.14GiB (min: 7.23GiB)`.
+  * returns metadata usages too?
+
+* Clear old apps /data (point 2.1 below)
+  * clears every app's `/data` from the device.
+
+* Delete all user docker images (point 2.1 below)
+  * this should remove every image (`docker rmi`) besides the supervisor.
+  * this needs to heavily warn about redownload time and size.
+
+* Remove Orphaned docker subvolumes (point 2.2 below)
+  * mainly only needed for supervisor before 1.3.
+
+* Run `btrfs check --repair` (point 3. below)
+
+Each of these buttons should have explainer paragraphs next to them that show the types of errors that they commonly can help remedy as well as the ramifications of the errors.
+
+The remainder of this spec goes into detail of each of the errors and their workarounds.
+
+__NOTE:__ Below I refer to `/var/lib/docker` and the `docker` command. If you
+are using an older device which uses the 'rce' (resin container engine) alias,
+translate these to `/var/lib/rce` and `rce`. You can find out very easily by
+simply running `docker` and `rce` - if the former works you have a modern device
+which uses docker direct, if the latter works you have an older device so need
+to translate the commands to reference rce, and if neither work you're in
+serious trouble :)
+
+## 1. Checking Disk Space Usage
+
+Free space is difficult to determine correctly in btrfs due to nature of how
+it is architected.
+
+The [btrfs faq][faq-free-space] goes into a lot of detail, but in short, for
+btrfs 3.18 and beyond (this seems to be tied to kernel version 3.18 and later),
+the appropriate tool to use to determine free space is `btrfs fi usage <mount>`.
+
+BTRFS is always mounted at `/var/lib/docker`, so this is a good mount to use as
+a parameter to the `btrfs` tool.
+
+Let's take a look at some sample output:
+
+```
+root@raspberrypi3:~# btrfs fi usage /var/lib/docker
+Overall:
+ Device size: 14.42GiB
+ Device allocated: 2.59GiB
+ Device unallocated: 11.82GiB
+ Device missing: 0.00B
+ Used: 1.10GiB
+ Free (estimated): 13.14GiB (min: 7.23GiB)
+ Data ratio: 1.00
+ Metadata ratio: 2.00
+ Global reserve: 32.00MiB (used: 0.00B)
+Data,single: Size:2.23GiB, Used:932.32MiB
+ /dev/mmcblk0p6 2.23GiB
+Metadata,DUP: Size:179.19MiB, Used:98.52MiB
+ /dev/mmcblk0p6 358.38MiB
+System,DUP: Size:8.00MiB, Used:16.00KiB
+ /dev/mmcblk0p6 16.00MiB
+Unallocated:
+ /dev/mmcblk0p6 11.82GiB
+```
+
+The value to look at here is `min: 7.23GiB` - this is all that can be
+_guaranteed_ to actually be available.
+
+Note that btrfs pre-allocates disk space and allocates more as needed, so `df`
+will provide misleading information. `btrfs fi usage` takes this into account.
+
+### Pre-3.18
+
+In a pinch on a pre-3.18 system, you can _roughly_ determine minimum free space
+by running `btrfs fi show /var/lib/docker`, subtracting used from size, then
+running `btrfs fi df /var/lib/docker`, and subtracting Data, single used from
+total, summing the two numbers and dividing that result by 2.
+
+## 2. Clearing Down Space
+
+Firstly it's useful to determine what kind of situation the device is in -
+out of space errors will be reported as `No space left on device`, but
+__importantly__, so will out of metadata errors.
+
+To determine which situation you have - check available free space as described
+above - if it is at or close to 0 then it's a genuine out of space, otherwise it
+is out of metadata space.
+
+Generally it seems that metadata usage of 75% or above is problematic. See the
+`Metadata,DUP` line in the `btrfs fi usage /var/lib/docker` or `btrfs fi df
+/var/lib/docker` output to check this.
+
+### Fixing the Inability to Delete Files
+
+Regardless of the case you are faced with, you may find the system is so broken
+you are unable to even delete files.
+
+To workaround the issue, you can create a block of space on the tmpfs device
+(i.e. RAM-backed storage) and use btrfs's ability to add capacity to a device
+live:
+
+```bash
+# Add extra (temporary) space to btrfs
+dd if=/dev/zero of=/tmp/btrfs bs=1M count=100
+loopdev=$(losetup -v -f --show /tmp/btrfs)
+btrfs device add $loopdev /var/lib/docker
+```
+
+Once you've performed the steps detailed below to free space, you can remove
+this temporary addition via:
+
+```bash
+btrfs device delete $loopdev /var/lib/docker
+btrfs balance start -v -dusage=1 /var/lib/docker
+losetup -D
+rm /tmp/btrfs
+```
+
+### 2.1 Clearing Down Space
+
+Firstly, make sure the user is ok with the application not running briefly. In
+many cases the out of space issue will actually prevent proper operation of the
+application so this won't be necessary, but otherwise do ensure you have
+permission.
+
+A good first step is to check whether the user's `/data` directory is taking up
+undue space, to see combined usage of all apps and the supervisor sqlite
+database run:
+
+```bash
+du -hs /mnt/data/resin-data
+```
+
+If there is serious space usage here, talk to the user about this as they will
+need to authorise removal of any data here.
+
+Next, check whether the supervisor is currently running. This may interfere with
+removing images/containers and start them up again while you are trying to
+delete things:
+
+```
+docker ps                                    # Shows whether it's running.
+docker stop resin_supervisor                 # Stop the supervisor.
+systemctl stop update-resin-supervisor.timer # Prevent a timer event from restarting it.
+```
+
+Next, run `docker images --all` to get a list of all images on the
+system. Remove the users' images via `docker rmi`, once the supervisor is
+running again it'll update them.
+
+Additionally, run `docker ps --all` to see if there are any stale containers
+left hanging around, and delete those too, via `docker rm --volumes`.
+
+### 2.2 Removing Orphaned Subvolumes
+
+__IMPORTANT:__ image/container IDs no longer map to subvolumes as of docker 1.10
+and newer, so the below will __not__ work for newer devices, make sure you don't
+delete subvolumes based on the below incorrectly on these! (see
+[Docker and btrfs in practice][docker-btrfs-practice] for more details.)
+
+At this point you should have cleared up a decent amount of space. However,
+there is an issue, in particular for supervisor versions prior to v1.3, whereby
+btrfs subvolumes are present which are not used by docker (this can occur from
+improper cleanup from an old container.)
+
+To see whether any exist, run the following:
+
+```bash
+btrfs subvolume list /var/lib/docker/btrfs/subvolumes | awk '{print $9}' | sed 's|docker/btrfs/subvolumes/||' | grep -v init | sort -u
+```
+
+Store this list - it's a list of all possibly docker btrfs subvolumes on the device.
+
+```bash
+(docker ps -a --no-trunc | tail -n+2 | awk '{print $1}'; docker images -a --no-trunc | tail -n+2 | awk '{print $3}') | sort -u
+```
+
+Also store this list - this is the list of unique subvolumes used by docker.
+
+
+Compare the two lists - if there are entries in the former list that are not in the latter list, then these are orphaned and ought to be removed.
+
+To remove orphaned subvolumes run the below for each `<id>` discovered above:
+
+```bash
+btrfs subvolume delete -C /var/lib/docker/btrfs/subvolumes/<id>
+```
+
+### Getting Back to Normal
+
+Finally, you can get the device back to normal by simply restarting it.
+
+If this is not appropriate, you can start the resin supervisor up again by
+running `systemctl start resin-supervisor.service`. In this case, if you stopped
+the `update-resin-supervisor` timer above, start it again via `systemctl start
+update-resin-supervisor.timer`.
+
+## Fix Superblock Corruption
+
+Under severe conditions, you may have issues with the `resin-data` partition
+failing to mount, with errors like `BTRFS: open_ctree failed` appearing in `dmesg` indicating that the btrfs
+superblock has a bad checksum.
+
+First it's worth attempting to repair the corruption via:
+
+```bash
+btrfs check --repair /dev/disk/by-label/resin-data
+```
+
+You may need to run this multiple times before it succeeds.
+
+If this does not fix the issue, you may need to go ahead and nuke the device
+from orbit - see the [remote reprovisioning][nuke] section from the scratch pad
+for details.
+
+[faq-free-space]:https://btrfs.wiki.kernel.org/index.php/FAQ#How_much_free_space_do_I_have.3F
+[nuke]:https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad#ScratchPad-Remotelyreprovisioning(i.e.nuking)adevice
+[docker-btrfs-practice]:https://docs.docker.com/engine/userguide/storagedriver/btrfs-driver/
+
+### Authorisation Tokens
+We authorise users via [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token) (JWTs) - this is exposed to the user for interfacing with our API (via [our SDK](https://github.com/resin-io/resin-sdk)) using the 'Auth Token' shown in the [Account Details](https://dashboard.resin.io/preferences?tab=details) tab on the [Preferences page](https://dashboard.resin.io/preferences). The JWT is a base32 encoded, concatenated JSON header and signed JSON body which contains data in of itself. These can be deauthorised for sessions other than the users (by refreshing the JWT) using the 'Log me out from other sessions' button in the same preferences tab.
+
 Devices themselves use API keys which is simply a secret matched against one stored in the database for that device.
-Build Hanging
+
+### Build Hanging (**Legacy**)
 We currently use qemu to emulate and compile packages for device type architecture. Unfortunately there are some known bugs that cause qemu to hang, one of them being git clone, how ever there are a few other edge cases that can hang up qemu. We are currently working on moving our build servers onto arm servers which would mean we wouldn't have to use qemu, which would mitigate these issues. 
-Disable Ofono
+
+### Disable Ofono (resinOS 1.x ONLY)
 Run the following commands:
+```
 rm -f /mnt/etc/systemd/system/multi-user.target.wants/ofono.service /mnt/etc/systemd/system/ofono.service
 ln -s /dev/null /mnt/etc/systemd/system/ofono.service
-Use a staging build on production environment
+```
+
+### Use a staging build on production environment
 Hello Ken,
 I want to bring in front of you a problem that we encounter while having you testing and using resin on staging server.
+
 As you already know, this server is a testing environment for development and is not an uncommon situation where things break or don't behave the way they should. So in order to minimize this risk, we ask you to start using staging builds on the production server. The process of doing this is not hard and once you get in possession of the config files, the process is even simpler.
+
 Here is the procedure you need to follow in order to do what I mentioned above:
-Acquire a production config file to be used on the staging builds
-login into dashboard.resin.io
-create a new "Technologic TS-4900" application (if you don't already have one)
-get into the app and download an image with the configuration you want to use (WiFi, Ethernet etc.) - this will be the app that you will be using when running resin on your devices
-mount the raw image
-sudo losetup -f -P downloadedProductionImage.img
-check which loop device was used
+
+1. Acquire a production config file to be used on the staging builds
+
+    * login into dashboard.resin.io
+    * create a new "Technologic TS-4900" application (if you don't already have one)
+    * get into the app and download an image with the configuration you want to use (WiFi, Ethernet etc.) - this will be the app that you will be using when running resin on your devices
+    * mount the raw image
+`sudo losetup -f -P downloadedProductionImage.img`
+    * check which loop device was used
+```
 andrei@resin tmp $ losetup
 NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
 /dev/loop0         0      0         1  0
@@ -968,19 +1239,28 @@ NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
 /dev/loop1         0      0         1  0
 /var/lib/docker/devicemapper/devicemapper/metadata
 /dev/loop2         0      0         0  0 /home/andrei/tmp/downloadedProductionImage.img
-In this example it is loop2
-Get the config file for your production application:
+```
+In this example it is **loop2**
+* Get the config file for your production application:
+```
 sudo mcopy -i /dev/loop2p5 ::config.json config.json.production
+```
 Your production config file is now saved as config.json.production
-Unmount loop device 
+* Unmount loop device 
+```
 sudo losetup -d /dev/loop2
-Inject the downloaded config file into a staging image
-login into dashboard.resinstaging.io
-create a new "Technologic TS-4900" application (if you don't already have one)
-get into the app and download an image - the network configuration doesn't matter here as we will use the production config
-mount the raw image
+```
+
+2. Inject the downloaded config file into a staging image
+* login into dashboard.resinstaging.io
+* create a new "Technologic TS-4900" application (if you don't already have one)
+* get into the app and download an image - the network configuration doesn't matter here as we will use the production config
+* mount the raw image
+```
 sudo losetup -f -P downloadedStagingImage.img
-check which loop device was used
+```
+* check which loop device was used
+```
 andrei@resin tmp $ losetup
 NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
 /dev/loop0         0      0         1  0
@@ -988,23 +1268,32 @@ NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
 /dev/loop1         0      0         1  0
 /var/lib/docker/devicemapper/devicemapper/metadata
 /dev/loop2         0      0         0  0 /home/andrei/tmp/downloadedStagingImage.img
-In this example it is loop2
-Inject the production config file:
+```
+In this example it is `loop2`
+
+* Inject the production config file:
+```
 sudo mcopy -o -i /dev/loop2p5  config.json.production ::config.json
+```
 Your staging image is not injected with the production config
-Unmount loop device 
+
+*Unmount loop device 
+```
 sudo losetup -d /dev/loop2
-Follow the provisioning steps using the production server and the downloadedStagingImage.img image with the injected production config file.
+```
+
+3. Follow the provisioning steps using the production server and the downloadedStagingImage.img image with the injected production config file.
+
 After you get your production config you won't need to do steps under "Acquire a production config file to be used on the staging builds" again. Use the config file you downloaded once. This is valid as long as you don't delete or switch your application (production server).
 Tell us if this is clear and I am at your disposal with any question you might have.
-Clearing Down Space in btrfs
-Moved to the HQ wiki.
-Removing Orphaned Subvolumes
- Moved to the HQ wiki.
-Cleaning orphaned volumes
-NOTE: See HQ wiki entry for an alternative explanation.
+
+### Cleaning orphaned volumes
+NOTE: See [HQ wiki](https://github.com/resin-io/hq/blob/btrfs-issues-plan/specs/btrfs-issues-plan.md) entry for an alternative explanation.
+
 If a user is using docker-in-docker, it might happen that orphaned volumes fill up space. Supervisor versions over 1.3.0 should (in theory) properly clean this up (ping Pablo Carranza to raise the issue otherwise).
+
 To clean orphaned volumes you can use https://github.com/pcarranzav/docker-cleanup-volumes like this:
+```
 curl https://raw.githubusercontent.com/pcarranzav/docker-cleanup-volumes/master/docker-cleanup-volumes.sh > rce-cleanup-volumes.sh
 chmod +x rce-cleanup-volumes.sh
 systemctl stop resin-supervisor
@@ -1013,47 +1302,71 @@ rce stop $(rce ps -q)
 ./rce-cleanup-volumes.sh
 systemctl restart rce
 systemctl start resin-supervisor
-Manually starting rce 
+```
+
+### Manually starting rce 
 Note that sometimes rce will refuse to start even when space is available and the command will work because of systemd being special in some way (typically you'd systemctl start rce.service.)
-DISCLAIMER: Do not do this unless you really need to. And certainly do not leave a device running rce this way.
-Ensure rce isn't running, i.e. `pidof rce` returns nothing.
-Fork an rce process and configure it not to respond to SIGHUP via:
+
+**DISCLAIMER: Do not do this unless you really need to. And certainly do not leave a device running rce this way.**
+
+1. Ensure rce isn't running, i.e. `pidof rce` returns nothing.
+2. Fork an rce process and configure it not to respond to SIGHUP via:
+```
 nohup rce --restart=false -s btrfs -d -g /var/lib/rce &
+```
 Logs from the command will be output to nohup.out, check that to ensure that it has started correctly, and now `rce ps`, `rce image` etc. should work.
+
 3. Kill the abomination rce via `kill $(pidof rce)` and start the service correctly via `systemctl start rce`, or if that doesn't work by restarting the device if it is appropriate to do so.
-Remotely reprovisioning (i.e. nuking) a device
-NOTE: Check the below 'Fixing failure to mount resin-data partition' tip
-Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, check with colleagues to make sure this is the appropriate supervisor to pull.
-Determine which block device contains the main BTRFS data partition - if the partition is still mounted, run mount | grep /mnt/data to determine this. If it is not mounted, logs should indicate the correct device, or you can run lsblk and the device with the largest listed space will be the one in question. The naming will be something like /dev/mmcblk0p6.
-Now you know the device, unmount it (if mounted), create the btrfs filesystem, label it correctly and reboot the device:
+
+### Remotely reprovisioning (i.e. nuking) a device
+__NOTE:__ Check the below 'Fixing failure to mount resin-data partition' tip
+
+Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, **check with colleagues to make sure this is the appropriate supervisor to pull.**
+
+* Determine which block device contains the main BTRFS data partition - if the partition is still mounted, `run mount | grep /mnt/data` to determine this. If it is not mounted, logs should indicate the correct device, or you can run `lsblk` and the device with the largest listed space will be the one in question. The naming will be something like `/dev/mmcblk0p6`.
+* Now you know the device, unmount it (if mounted), create the btrfs filesystem, label it correctly and reboot the device:
+```
 unmount /dev/[partition device]
 mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]
 btrfs filesystem label /dev/[partition device] resin-data
 reboot
-After reboot, you will need to pull a new instance of the supervisor. 
+```
+* After reboot, you will need to pull a new instance of the supervisor. 
 
-NOTE: Update the tag accordingly. Match the existing version of the supervisor. It may risk issues if the host OS doesn't support features assumed to exist by a new supervisor. From supervisor 1.4.0 on we publish versions to the staging registry, older versions however are not guaranteed to be present. A member of the supervisor or infrastructure team might be able to push a required version there if necessary.
+NOTE: Update the tag accordingly. **Match the existing version of the supervisor**. It may risk issues if the host OS doesn't support features assumed to exist by a new supervisor. From supervisor 1.4.0 on we publish versions to the staging registry, older versions however are not guaranteed to be present. A member of the supervisor or infrastructure team might be able to push a required version there if necessary.
+```
 rce pull registry.resinstaging.io/resin/rpi-supervisor:<version>
+```
 If the device is an rpi:
+```
 rce tag registry.resinstaging.io/resin/rpi-supervisor:<version> resin/rpi-supervisor:latest
+```
 If the device is an rpi2:
+```
 rce tag registry.resinstaging.io/resin/armv7hf-supervisor:<version> resin/armv7hf-supervisor:latest
-Finally start the supervisor:
+```
+* Finally start the supervisor:
+```
 systemctl start resin-supervisor
-Resetting VPN devices state
+```
+
+### Resetting VPN devices state
+
 Running the below triggers the VPN's 'reset all' functionality which causes the API to retrieve the VPN addresses of all online devices and update the API database to reflect this.
-Important: Only run this as a last resort and try to raise the issue with the team before going for it. This completely recreates this data and repeated runs could cause disruption.
+
+**Important: Only run this as a last resort and try to raise the issue with the team before going for it. This completely recreates this data and repeated runs could cause disruption.**
+```
 curl -X POST 'https://api.resin.io/services/vpn/reset-all?apikey=ff4b1c65205943e16614773d47aea95056d086e3f682a319a1b76b7d69a5f74d'
-Note: The API key listed here is the VPN service API key, it may change, and is privileged information.
-Fixing failure to mount resin-data partition (btrfs corruption)
-Move to the HQ wiki.
-Persistent journal log
+```
+**Note:** The API key listed here is the VPN service API key, it may change, and is privileged information.
 
-DO NOT USE
+### Persistent journal log
 
-IMPORTANT: This currently does not work prior to a reboot. If you are going to use this right now, make sure to reboot the device (with permission and make sure it's safe to do so.) Theodor is working on fixing this.
+**DO NOT USE**
 
-As it stands now our images provide volatile logging for the system journal. If one needs to have persistent journal log on a device one can do so remotely.
+>IMPORTANT: This currently does not work prior to a reboot. If you are going to use this right now, make sure to reboot the device (with permission and make sure it's safe to do so.) Theodor is working on fixing this.
+
+?As it stands now our images provide volatile logging for the system journal. If one needs to have persistent journal log on a device one can do so remotely.
 First create a bash script containing the following : 
 #!/bin/bash
 #Comment out the auto-mount of tmpf on volatile memory
@@ -1061,7 +1374,7 @@ sed -i '/\/var\/volatile/ s/^#*/# /' /etc/fstab
 sed -i '/Storage=/c\Storage=persistent' /etc/systemd/journald.conf
 sed -i '/SystemMaxUse=/c\SystemMaxUse=16M' /etc/systemd/journald.conf
 
-umount  /var/volatile
+>umount  /var/volatile
 rmdir /var/volatile # Added by Pablo after seeing an error
 mkdir -p /mnt/data/volatile/log
 cd /var && ln -sf /mnt/data/volatile .
@@ -1069,73 +1382,108 @@ systemctl restart systemd-journald
 
 Then run the local script that you have created (e.g. persistent-logging.sh) on the remote machine:
 ssh resin -o Hostname=${UUID}.vpn "bash -s" < persistent-logging.sh 
-Disabling tty-replacement (i.e. what is spawned instead of getty in production images)
+
+### Disabling tty-replacement (i.e. what is spawned instead of getty in production images)
+
 There are 2 ways of doing this, both of them result in disabling tty-replacement .service on the hostOS. The difference between them is that one is done remotely and one is done manually with access to the device's SD card. 
-If you are inside a running hostOS just run: systemctl disable tty-replacement.service or rm /etc/systemd/system/multi-user.wants/tty-replacement.service
-If you have the SD card mounted on a machine just run: rm /mnt/resin-root/etc/systemd/system/multi-user.wants/tty-replacement.service (please replace the /mnt/resin-root with your actual mount point for resin-root)
-Fixing serial console for raspberrypi3
-(Required only for pre-1.1.4 hostOS) Inside cmdline.txt (found in boot partition) modify console=ttyAMA0,115200 to console=S0,115200. 
-Inside config.txt (found in boot partition) and set core_freq=250 
-Disabling HDMI/enabling TTYS5
+
+If you are inside a running hostOS just run: systemctl disable tty-replacement.service or `rm /etc/systemd/system/multi-user.wants/tty-replacement.service`
+
+If you have the SD card mounted on a machine just run: `rm /mnt/resin-root/etc/systemd/system/multi-user.wants/tty-replacement.service` (please replace the /mnt/resin-root with your actual mount point for resin-root)
+
+#### Fixing serial console for raspberrypi3
+
+1. (Required only for pre-1.1.4 hostOS) Inside cmdline.txt (found in boot partition) modify console=ttyAMA0,115200 to console=S0,115200. 
+2. Inside config.txt (found in boot partition) and set core_freq=250 
+
+### Disabling HDMI/enabling TTYS5
 If the hostOS version is 1.1.4:
+```
    Append the following line to uEnv.txt (found in boot partition) fdtfile=am335x-boneblack-emmc-overlay.dtb
+```
 If the host OS version is < 1.1.4:
- mount -o remount,rw /boot
- Append the following line to uEnv.txt (found in boot partition) fdtfile=am335x-boneblack-emmc-overlay.dtb
-umount /boot
-cd /boot ; wget http://build1.dev.resin.io/~theodor/zImage-am335x-boneblack-emmc-overlay.dtb
-mv zImage-am335x-boneblack-emmc-overlay.dtb am335x-boneblack-emmc-overlay.dtb
 
-      Note: The necessary device tree (am335x-boneblack-emmc-overlay) is only available in our 1.1.4 version of the hostOS 
-      Note: Both these processes require reboot of the device.
-Checking whether offline device is really offline
+1. mount -o remount,rw /boot
+2. Append the following line to uEnv.txt (found in boot partition) fdtfile=am335x-boneblack-emmc-overlay.dtb
+3. umount /boot
+4. cd /boot ; wget http://build1.dev.resin.io/~theodor/zImage-am335x-boneblack-emmc-overlay.dtb
+5. mv zImage-am335x-boneblack-emmc-overlay.dtb am335x-boneblack-emmc-overlay.dtb
+
+**Note:** The necessary device tree (am335x-boneblack-emmc-overlay) is only available in our 1.1.4 version of the hostOS 
+
+**Note:** Both these processes require reboot of the device.
+
+### Checking whether offline device is really offline
 We have encountered many situations where a device is showing 'offline' but is in fact online, but not correctly connecting to the VPN meaning the online/offline notification does not update (we've had this go the other way - an offline device going offline during a period when the VPN servers have been down and no reset having been applied meaning they show online, but it's far rarer since VPN resetting came into force.)
-Things to check
-To determine whether the device is actually online, first check the device dashboard logs - are logs currently displayed, or if the application isn't very noisy, have logs been displayed since last online time? If so this can be a strong indication the device is actually online.
-The next most useful check is to simply add a new environment variable to the device. If the device is in fact online, it should pick up the change and reset itself, generating logs as it does so. The poll time is customisable, but defaults to 1 minute.
-If these two don't work, it's highly likely the device really is offline (or at least unable to access resin servers), but a final check is to look at API logs via logentries (check with operations if you need access.) Search for the device UUID in the logs over a timespan past the time it is indicated as having gone offline. Logs of the device accessing the API will look like (replacing <DEVICE UUID> with the devices UUID and <DEVICE APP ID> with the device's app ID):
-/ewa/application?$select=id,git_repository,commit&$filter=((commit%20ne%20null)%20and%20(device/uuid%20eq%20%27<DEVICE UUID>%27))&apikey=... and /environment?deviceId=115341&appId=<DEVICE APP ID>&apikey=...
-If you discover that the device is in fact online but not accessible via VPN, this means that SSH-ing into the device using the usual method will not work. See SSH to device without VPN for details on how to work around this!
-See this flowdock thread for more details and discussion of a device that these checks were run on.
-Updating supervisor
-Hotfix target devices to make sure they have the latest fixes (if you don't do this and they need them then bad bad things can happen), see https://bitbucket.org/rulemotion/hotfix/ and ask Lorenzo Stoakes for more details.  If the device is older (contains `/usr/bin/resin-device-update` then check with Pagan Gazzard to see if it requires any additional hotfixes added to the repo - no devices this old have been updated since the introduction of the hotfix repo).
-Add a supervisor release entry, eg INSERT INTO "supervisor release" ("supervisor version", "image name") VALUES ('v1.1.0', 'registry.resin.io/resin/rpi-supervisor') RETURNING "id";
-Update device's target supervisor release, eg UPDATE "device" SET "supervisor release" = 23 WHERE "id" IN (1, 2);
-Wait for the device to automatically check for updates and update the supervisor, 5min on older images, 24h on newer images.
-Alternatively manually ssh in and run the supervisor update script by hand, for older images: `crontab -l` and then either `/usr/bin/flock -n /tmp/rdu.lockfile /usr/bin/resin-device-update` or  `/usr/bin/flock -n /tmp/rdu.lcokfile /usr/bin/resin-device-update` based on the content.
-For newer images: `systemctl start update-resin-supervisor.service`.
-Provision a new device, but keeping the same UUID
-There are cases where a user would like to update their OS or supervisor agent, but want to keep the UUID of their device(s) the same as it currently is. This can be achieved fairly easily. All they need do is:
-download a new OS
-extract the config.json out from the current SD card ( not sure how this would be achieved on eMMC based devices)
-In the config.json there are three fields that are device specific: deviceId, uuid and registered_at
-these are what identify the device on resin.io
-if the user copies either just those 3 fields or the entire config.json the device with the new hostOS will join the fleet as the device with the same UUID.
-Fixing http code 400 when pulling
-It's possible our builders to fail to push to one of the two Docker registries, while succeed with the other, and so they report success to our API. So (depending on Docker version on the device) when the device tries to pull the image it fails with ``Failed to download application 'registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee' due to 'Error pulling image (latest) from registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee, HTTP code 400'``.
 
-docker pull registry2.resin.io/$appName/$commit
-docker tag registry2.resin.io/$appName/$commit registry.resin.io/$appName/$commit
-docker push registry.resin.io/$appName/$commit
+#### Things to check
+
+1. To determine whether the device is actually online, first check the device dashboard logs - are logs currently displayed, or if the application isn't very noisy, have logs been displayed since last online time? If so this can be a strong indication the device is actually online.
+2. The next most useful check is to simply add a new environment variable to the device. If the device is in fact online, it should pick up the change and reset itself, generating logs as it does so. The poll time is customisable, but defaults to 1 minute.
+3. If these two don't work, it's highly likely the device really is offline (or at least unable to access resin servers), but a final check is to look at API logs via logentries (check with operations if you need access.) Search for the device UUID in the logs over a timespan past the time it is indicated as having gone offline. Logs of the device accessing the API will look like (replacing <DEVICE UUID> with the devices UUID and <DEVICE APP ID> with the device's app ID):
+```
+/ewa/application?$select=id,git_repository,commit&$filter=((commit%20ne%20null)%20and%20(device/uuid%20eq%20%27<DEVICE UUID>%27))&apikey=... and /environment?deviceId=115341&appId=<DEVICE APP ID>&apikey=...
+```
+
+If you discover that the device is in fact online but not accessible via VPN, this means that SSH-ing into the device using the usual method will not work. See SSH to device without VPN for details on how to work around this!
+
+See [this flowdock thread](https://www.flowdock.com/app/rulemotion/user_happiness/threads/_3bUmDGti9T1f-gDf47qc73tCfb) for more details and discussion of a device that these checks were run on.
+
+### Updating supervisor
+
+1. Hotfix target devices to make sure they have the latest fixes (if you don't do this and they need them then bad bad things can happen), see https://bitbucket.org/rulemotion/hotfix/ and ask Lorenzo Stoakes for more details.  If the device is older (contains `/usr/bin/resin-device-update` then check with Pagan Gazzard to see if it requires any additional hotfixes added to the repo - no devices this old have been updated since the introduction of the hotfix repo).
+2. Add a supervisor release entry, eg INSERT INTO "supervisor release" ("supervisor version", "image name") VALUES ('v1.1.0', 'registry.resin.io/resin/rpi-supervisor') RETURNING "id";
+3. Update device's target supervisor release, eg UPDATE "device" SET "supervisor release" = 23 WHERE "id" IN (1, 2);
+4. Wait for the device to automatically check for updates and update the supervisor, 5min on older images, 24h on newer images.
+
+Alternatively manually ssh in and run the supervisor update script by hand, for older images: `crontab -l` and then either `/usr/bin/flock -n /tmp/rdu.lockfile /usr/bin/resin-device-update` or  `/usr/bin/flock -n /tmp/rdu.lcokfile /usr/bin/resin-device-update` based on the content.
+
+For newer images: `systemctl start update-resin-supervisor.service`.
+
+### Provision a new device, but keeping the same UUID
+There are cases where a user would like to update their OS or supervisor agent, but want to keep the UUID of their device(s) the same as it currently is. This can be achieved fairly easily. All they need do is:
+
+1. download a new OS
+2. extract the config.json out from the current SD card ( not sure how this would be achieved on eMMC based devices)
+* In the config.json there are three fields that are device specific: deviceId, uuid and registered_at
+*these are what identify the device on resin.io
+3. if the user copies either just those 3 fields or the entire config.json the device with the new hostOS will join the fleet as the device with the same UUID.
+
+### Fixing http code 400 when pulling
+It's possible our builders to fail to push to one of the two Docker registries, while succeed with the other, and so they report success to our API. So (depending on Docker version on the device) when the device tries to pull the image it fails with `Failed to download application 'registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee' due to 'Error pulling image (latest) from registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee, HTTP code 400'`.
+
+1. docker pull registry2.resin.io/$appName/$commit
+2. docker tag registry2.resin.io/$appName/$commit registry.resin.io/$appName/$commit
+3. docker push registry.resin.io/$appName/$commit
+
 (step 3 requires login to our registry, which unless you're Page won't have access to, but you can run steps 1 and 2 only on the device and it should work).
-Failed to register layer: rename, directory not empty
+
+### Failed to register layer: rename, directory not empty
+
 Since ResinOS 1.2.1 we have docker 1.10.3 on the device, the docker pull of layers now happen in parallel which is great, but sometime if a power cut or something interupts it the device gets into an ugly state with the following error:
+```
 28.06.16 18:46:00 +0100 Failed to download application 'registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd' due to 'Error pulling image (latest) from registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd, failed to register layer: rename /var/lib/docker/image/btrfs/layerdb/tmp/layer-710701705 /var/lib/docker/image/btrfs/layerdb/sha256/61baa2539f1a2255c8cebe9ab6ba2ab9228a96a060e2cad7cde63268d5a2f38b: directory not empty'
+```
  
 This can be treated by first running:
+```
 du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/sha256/* | grep '^0'
-it finds all directories in /var/lib/docker/image/btrfs/layerdb/sha256/ that have a total size of 0. This is just to check.
-We can now delete them using:
+```
+it finds all directories in `/var/lib/docker/image/btrfs/layerdb/sha256/` that have a total size of `0`. This is just to check. We can now delete them using:
+```
 rm -rf $(du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/sha256/* | grep '^0' | cut -f2)
- 
-Misc
-raspberry-pi
-How to use one-wire temperature sensor: Add: 
+```
+
+### Misc
+#### raspberry-pi
+**How to use one-wire temperature sensor:**
+Add: 
+```
 dtoverlay=w1-gpio
-to /boot/config.txt
+```
+to `/boot/config.txt`
 See https://resin.io/blog/updating-config-txt-remotely/ on how to do that.
-The container should also "modprobe w1-gpio && modprobe w1-therm". Then the temperature probe should show up under "/sys/bus/w1/devices"
+
+The container should also `modprobe w1-gpio && modprobe w1-therm`. Then the temperature probe should show up under `/sys/bus/w1/devices`
  
- 
-./rce-cleanup-volumes.sh 
  
