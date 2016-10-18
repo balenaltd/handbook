@@ -1,0 +1,914 @@
+ 
+# Contents
+
+# Introduction
+This is a raw scratchpad for centralised knowledge both in terms of user support as well as internal technical documentation we've picked up along the way. It's intended to be a staging point for stuff which will later be ported to the appropriate places.
+Having this here, raw and with no expectation as to quality is useful, since it means the knowledge goes somewhere, rather than being scattered disparately around. 
+
+__IMPORTANT:__ The information contained here might be outdated, proceed with caution + check to make sure the steps you are following are correct.
+
+# Facts
+* Though the host rootfs is read-write, we configure our distro to not write to it as you usually would a rootfs. resinOS 2.0 actually now has the rootfs mounted read-only.
+* On devices running resinOS older than `version 1.2`, docker is renamed to `rce`, so you have to do thing like `rce images`, etc.
+* Adjusting network configuration on already-provisioned devices isn't easy, due to needing to mount the ext rootfs. Its also dangerous and can brick a device. In general users should be heavily cautioned when working with network config.
+* Images tagged jessie/wheezy/etc. at e.g. [resin/rpi-rasbian](https://hub.docker.com/r/resin/rpi-raspbian/) refer to the `:latest` version of the tag. So for example, at the time of writing, `resin/rpi-raspbian:jessie` is the same as `resin/rpi-raspbian:jessie-2015-06-24`.
+* The host OS for production devices has no valid login/password credentials. 
+* The Raspberry Pi <2 which uses SD cards ignores the read-only physical switch. Micro SD cards appear to lack this switch altogether.
+* You use [this link](http://jenkins.dev.resin.io/securityRealm/addUser) to add a user to jenkins.
+* The only officially support wifi adapters are ones using the `Broadcom bcm43143 chipset`, however many others should work.
+* connmanctl can be used to control networking settings from within the container (but this requires access to the host OS dbus). In resinOS 2.x the network can be controlled via NetworkManager dbus API. 
+* Further resin CLI troubleshooting tips can be found in the [troubleshooting doc](http://docs.resin.io/troubleshooting/cli-troubleshooting/).
+* When an app gets killed, the container gets a `SIGTERM` which users can catch and react to. After a grace period, though, the app will get a `SIGKILL` which can't be caught.
+* Installing openssh via a Dockerfile causes ssh-keygen to be triggered in the build, however this will result in each device having the same keys across the fleet.
+* When you see `{"message":"HTTP code is 500 which indicates error: ` entries in the supervisor logs, this `500` error refers to an error that docker is receiving from its daemon **NOT** an actual server. Any real server error will be described in the remainder of the error message.
+* This also goes for messages like `Failed to download application 'registry.resinstaging.io/testhummingboard/5a4f45244cb66724782b2ebf34e576fd8b4d553a' due to 'server error'` - when this error occurs the 'server' in question is the docker daemon running on the device not one of our network servers.
+* Ethernet will always work even if wifi is configured, so this is always an option for a user if wifi is not functioning.
+* eMMC devices can be provisioned with the same SD card with absolutely no changes required, just pop that sucka into the devices you want to configure.
+
+
+# Troubleshooting
+
+## (can't) Swap on BTRFS
+**About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
+**Workaround:** map the file to a loop device
+So here are the steps to workaround it on BTRFS (tested on your container):
+* dd if=/dev/zero of=/swapfile bs=1024 count=1048576 
+* losetup -f /swapfile
+* losetup (check assigned loop device - next commands assumes loop0)
+* mkswap /dev/loop0
+* swapon /dev/loop0
+* free -m (check output)
+__Important:__ This will result in severely degraded swap performance, see https://wiki.archlinux.org/index.php/swap#Swap_file
+
+## Issues with Line Endings
+
+### Signs and Symptoms
+Line endings differ between windows and the unix-y world (they used to be different again for mac but not for many years), which can result in issues. E.g. a user seeing something like:
+`/usr/src/app/run.sh: line 2: $'\r': command not found`
+
+### Treatments
+To resolve this, the user needs to configure git to auto convert line endings. Point them at https://help.github.com/articles/dealing-with-line-endings/#platform-windows.
+
+## Bluetooth not working
+### Signs and Symptoms
+Bluetooth device not available.
+### Treatments
+Run the following on startup:
+`hciconfig hci0 reset && hciconfig hci0 up`
+On the Raspberry Pi 3 you can point them to this example project: https://github.com/resin-io-projects/rpi3-bluetooth
+
+## Bluez (Bluetooth protocol stack) support
+For the `wheezy` image, bluez v4 is available via the apt package manager. However, that image provides experimental support for systemd, and thus, we do not encourage users to enable systemd via their Dockerfile. This could lead to udevd problems, which in turn could lead to bluetooth problems.
+We suggest users to use the `jessie` image and to enable systemd support in their container via their Dockerfile. In that distro, bluez v5 will be available via the apt package manager. In order for the bluetooth to be fully functional, the `bluez-utils` package must also be downloaded.
+
+If for application-specific reasons, another version of bluez must be used, then:
+
+1. Get the preferred version sources 
+2. Install dependencies: `sudo apt-get install -y libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev`
+3. Enter bluez directory and type: `./configure && make && sudo make install` 
+
+Since the bluez service runs with systemd:
+* `systemctl status bluetooth` # check status
+* `sudo systemctl start bluetooth` # start service
+* `sudo systemctl enable bluetooth` # to enable run at boot
+
+## Device appears online but not updating
+### Signs and Symptoms
+
+1. Appears online, but device is Idle.
+2. Application commit hash vs. device commit hash doesn't change over an extended period of time - no updates.
+3. If IP addresses are listed for the device it's not RES-233, as the device would have to be registered for this to happen. The cause is likely #2.
+4. The VPN address being incorrect (or more than one VPN address) is a sure indicator of a broken supervisor and indicates #2.
+
+### Treatments
+There are 2 possible causes encountered so far -
+
+1. The device is failing to register correctly, probably due to the UUID not being correctly written to config.json. This has been fixed in later versions of resinOS.
+
+The solution here is to SSH into the device, edit the `config.json` and set our own UUID then restart the supervisor. A device reboot might also do it, but that's not confirmed. See below for detailed instructions!
+
+2. The device is having trouble running the supervisor, quite possibly due to running out of memory.
+
+The solution here is to either have the user power-cycle or SSH in and kill the `rce` (resinOS < 1.2) or `docker` (resinOS >= 1.2) process, first ensuring that it is indeed using significant amounts of memory. The OOM killer may do the job for you (smile)
+
+## Device files not populating in /dev a.k.a. Why isn't my device working?
+### Signs and Symptoms
+
+1. `/dev` is missing device files the user expects to see.
+2. Alternatively, a **library** that relies on a `/dev` file fails reporting a missing file error or perhaps something more general about the device not being available.
+
+__Important Note:__ this is obsolete since we trigger udevd, but this issue may be encountered in custom base images, or if users are use non-resin base images in general. 
+
+### Treatments
+Simply execute the udev (https://en.wikipedia.org/wiki/Udev) daemon inside the container and use `udevadm trigger` (http://linux.die.net/man/8/udevadm) to replay the udev events which occurred on host OS startup to pick up any devices added on startup to the container's `/dev` directory, e.g.:-
+
+```
+#!/bin/bash
+mount -t devtmpfs none /dev
+udevd &
+udevadm trigger
+```
+
+## My environment variables aren't set?!!
+### Signs and Symptoms
+
+1. User enters the ssh session and finds that the environment variables they've set in the app/device panels are not present.
+2. (Perhaps) notices that they are set in applications they run.
+3. The env vars are also expected to be set in the web terminal session.
+
+### Treatments
+Custom SSH sessions do not import existing environment variables meaning the user will not see them when using it. The following incantation will allow a user to have read access (check - how to get read/write? > to /proc/1/environ?) to environment variables:-
+
+`export $(xargs -0 -n1 < /proc/1/environ)`
+
+An alternative is to ask the user to build a simple application to output the environment, e.g. in node:-
+`console.log(process.env);`
+
+This acts as a replacement for the test the user was attempting to perform in the terminal and should give them confidence that the env vars are in fact available.
+
+## Couldn't satisfy node version 0.X.Y
+### Signs and Symptoms
+
+1. User pushes node project.
+2. When pushing user encounters 'Error: Couldn't satisfy node version 0.X.Y'
+
+### Treatments
+This is either 1 of 2 issues. Ask the user which device they're using, then load the docker hub registry tags page for the appropriate architecture:-
+
+* Raspberry Pi <2 - https://hub.docker.com/r/resin/raspberrypi-node/tags/
+* Raspberry Pi 2 - https://hub.docker.com/r/resin/raspberrypi2-node/tags/
+* Beaglebone Black - https://hub.docker.com/r/resin/beaglebone-node/tags/
+* etc. 😄 
+
+Check whether a tag exists for the specified node version, both `[arch]-node:0.X.Y` and `[arch]-node:0.X.Y-onbuild` - the former is used when preinstall, install and/or postinstall scripts are present, the latter when there aren't ([ref 1](https://bitbucket.org/rulemotion/resin-builder/src/0700ef812357d53d2cc090554b67a0c5c6ae6579/src/project-types/nodejs.coffee?at=master#cl-55), [ref 2](https://bitbucket.org/rulemotion/resin-builder/src/0700ef812357d53d2cc090554b67a0c5c6ae6579/src/project-types/nodejs.coffee?at=master#cl-64).)
+
+If no tag exists, this is the issue. Upload the missing tags, making sure to consider the issue discussed below, uploading too many tags could result in it recurring and breaking all images. Note that caching of hub images means a delay of up to an hour before the updated images will be available to use.
+
+If the tags page fails to load (i.e. the tag page shows a loading animation which never completes), then it's a bug with docker hub, see https://www.flowdock.com/app/rulemotion/resin-frontend/threads/Dcfo3--9uF5O2ifDGaCMuMvI4Rp for the discussion on this. The solution is to trim existing tags so we avoid this rather serious bug :/
+
+## Why is my device showing the incorrect time?! (resinOS 1.x)
+### Signs and Symptoms
+
+User notices that the date/time on the device is incorrect, usually via logs.
+
+### Treatment
+There seems to be some flakiness with NTP, in theory, it ought to update on connection to the internet (via connman), and then every 2 hours, but appears to fail to do so sometimes altogether.
+
+A potential cause is the NTP port (123 UDP) being blocked on the network the device belongs to. Diagnosing this is difficult as the NTP package is not installed in the supervisor container (or user container of course) by default.
+
+Once SSH'd into the host OS of the device, the following can be used to diagnose the issue:-
+```
+rce exec -it resin_supervisor /bin/bash
+apt-get -y update
+apt-get -y install ntp
+ ntpq -p [ntp server address]
+If the port is accessible, you should get a response like the below:-
+[~]$ ntpq -p 81.168.77.149 
+ remote refid st t when poll reach delay offset jitter
+==============================================================================
+*ntp1.exa-networ 135.81.191.59 2 u 460 1024 377 40.326 3.667 0.365
++addtec10-tr3.ka 62.45.45.70 3 S 4971 128 176 40.964 3.854 0.582
+ mx1.thompson-tr 81.168.77.149 4 S 143 1024 377 85.331 9.075 6.470
+ LPuteaux-656-1- 81.168.77.149 4 S 2 256 377 44.158 6.857 1.816
+ 87.83.215.50 (i 81.168.77.149 4 S 4971 1024 377 36.204 2.305 0.452
+ jtdmltd.gotadsl 81.168.77.149 4 S 382 1024 176 47.512 2.144 0.553
+ 82-69-242-34.ds 81.168.77.149 4 S 652 1024 346 41.127 3.130 1.305
++host81-152-12-0 129.67.1.164 2 S 643 1024 376 41.007 -11.452 1.293
+ 109.111.201.42 81.168.77.149 4 S 4971 16 177 38.141 0.623 11.045
+ 109.111.201.42 81.168.77.149 4 S 4971 16 377 45.537 -6.498 5.196
+ 105.210.64.244 130.88.212.143 3 S 10 64 2 251.130 -16.077 35.753
+ 23.127.107.92.d 81.168.77.149 4 S 4971 1024 3 84.771 14.046 4.688
+ 193.130.120.196 81.168.77.149 4 S 237 64 240 76.231 -184.51 7.418
+```
+
+If not, you'll get a response complaining that it can't connect.
+
+## Why doesn't ADC work on my Beaglebone Black?! (resinOS 1.0.0-pre **ONLY**)
+### Signs and Symptoms
+User tries to use some application which relies upon a library which uses ADC, and it fails to work correctly at all.
+
+### Treatment
+
+**__NOTE:__ this is now working on resinOS 1.1 and up**
+
+Sadly the diagnosis is currently terminal - we don't  support ADC/capemgr because of it requiring ancient linux. Some discussion from Andrei Gherzan is included below:-
+
+We have two options here. capemgr was discontinued from 3.8 and replaced by https://github.com/RobertCNelson/dtb-rebuilder/tree/4.1.x from 4. We basically have two options:
+downgrade and use linux-beaglebone 3.8 - dynamic dtb loading via capemgr
+keep meta-ti kernel and use dtb-rebuilder - statuc dtb loading - basically this is a tool which patches the default dts and builds it for a specific cape.
+In any case we need to think of a way for a user to be able to upload his dtb - new cape for example. As well, a cape is not something that you switch and given our business model, we do remote deployment which doesn't involve any hw interaction. So from my perspective maybe we can instruct users how to build their dts or have a way for users to upload their dtb and have the imagemaker inject it in the right place.
+
+## Beaglebone Black Not Powering Up
+### Signs and Symptoms
+User restarts power on Beaglebone Black and it fails to restart correctly. In some cases LEDs are lit, in some not.
+###Treatment
+It seems generally the advise is to not do this, and it's a hardware issue. Relevant links:-
+http://elinux.org/Beagleboard:BeagleBoneBlack#Improper_Power_Down....All_Revisions
+https://groups.google.com/forum/#!topic/beagleboard/aXv6An1xfqI%5B101-125%5D
+http://stackoverflow.com/questions/27426975/beaglebone-black-doesnt-power-on
+Dockerfile COPY fails with alarming btrfs subvolume error
+Signs and Symptoms
+On push user encounters the following error:
+Error while processing push: Error: stat /var/lib/docker/btrfs/subvolumes/56d4f782ac53b2b3f858c0c64caaf31208a3be1552e57e864f10d5f7f41ce76f/app/package.json: not a directory
+When running a statement like:
+COPY package.json /app
+Treatment
+ This is simply a terrible error message for a simple problem - the COPY command happily copies a file over the /app directory rather than in to it. The solution is simple:
+COPY package.json /app/
+The trailing slash forces Docker to recognise 'app' as a directory.
+apt-get install fails with 'Error: No information about packages! (Maybe no deb entries?)' error
+Signs and Symptoms
+E.g. https://app.intercom.io/a/apps/yg02r5dz/inbox/all/conversations/1166584613
+Setting up apt-show-versions (0.22.4) ... 
+** initializing cache. This may take a while ** 
+Error: No information about packages! (Maybe no deb entries?) 
+dpkg: error processing package apt-show-versions (--configure): 
+subprocess installed post-installation script returned error exit status 255 
+Errors were encountered while processing: 
+apt-show-versions 
+E: Sub-process /usr/bin/dpkg returned an error code (1) 
+Removing intermediate container 67817652f5ec
+Treatment
+The issue appears to be with apt-show-versions not correctly handling gzipped apt indexes. The fix is to remove a configuration file which instructs apt to compress this index:
+rm /etc/apt/apt.conf.d/docker-gzip-indexes
+So in general the Dockerfile will end up looking like:
+...
+RUN rm /etc/apt/apt.conf.d/docker-gzip-indexes
+RUN apt-get -y update \
+    && apt-get install -y apt-show-versions <yada yada> \
+    && rm -rf /var/lib/apt/*
+...
+
+ It's even more important than usual to remove /var/lib/apt/* here as without compression the index stored here will be even larger than usual.
+Issue with missing certificates on SSL download
+Signs and Symptoms
+When attempting to wget an https resource, an error similar to the below is shown:
+curl performs SSL certificate verification by default, using a "bundle" 
+of Certificate Authority (CA) public keys (CA certs). If the default 
+bundle file isn't adequate, you can specify an alternate file 
+using the --cacert option. 
+If this HTTPS server uses a certificate signed by a CA represented in 
+the bundle, the certificate verification probably failed due to a 
+problem with the certificate (it might be expired, or the name might 
+not match the domain name in the URL). 
+If you'd like to turn off curl's verification of the certificate, use 
+the -k (or --insecure) option.
+Treatment
+Install the ca-certificates package by adding the following to the Dockerfile (sensibly appending to other apt-get install's present in the file as necessary):
+RUN apt-get install ca-certificates
+Pulling from resin registry fails
+Signs and Symptoms
+You get an error when trying to pull an image from the resin registry, e.g.:
+$ docker pull resin/resin-api
+Pulling repository resin/resin-api
+Get https://registry-1.docker.io/v1/repositories/resin/resin-api/tags: read tcp 52.0.195.198:443: i/o timeout
+It turns out that this is a rather unfriendly error message that occurs in some version of docker which in fact means the default 'latest' tag cannot be found.
+Treatment
+You also need to specify the image tag, e.g.:
+$ docker pull resin/resin-api:v0.0.1
+Download starting/stopping, never completing
+Signs and Symptoms
+A device appears to be stuck in the downloading state however, never completing the download successfully. Typically the device stays online throughout.
+Additionally supervisor logs show errors like:
+IncomingMessage.<anonymous> (/app/node_modules/dockerode/node_modules/docker-modem/lib/modem.js:243:9)\n    at IncomingMessage.emit (events.js:117:20)\n    at _stream_readable.js:944:16\n    at process._tickCallback (node.js:448:13)"}}
+Updating failed, but there is already another update scheduled immediately:  [Error: 1 error: HTTP code is 500 which indicates error: server error - Invalid registry endpoint https://registry.resin.io/v1/: Get https://registry.resin.io/v1/_ping: dial tcp: i/o timeout. If this private registry supports only HTTP or HTTPS with an unknown CA certificate, please add `--insecure-registry registry.resin.io` to the daemon's arguments. In the case of HTTPS, if you have access to the registry's CA certificate, no need for the flag; simply place the CA certificate at /etc/rce/certs.d/registry.resin.io/ca.crt
+]
+Event: Device info update failure {"error":{"message":"getaddrinfo ENOTFOUND","stack":"Error: getaddrinfo ENOTFOUND\n    at errnoException (dns.js:37:11)\n    at Object.onanswer [as oncomplete] (dns.js:124:16)"},"stateDiff":{"status":"Idle"}}
+Updating failed, but there is already another update scheduled immediately:  { [Error: getaddrinfo ENOTFOUND]
+  cause: { [Error: getaddrinfo ENOTFOUND] code: 'ENOTFOUND', errno: 'ENOTFOUND', syscall: 'getaddrinfo' },
+On the device itself you often notice a very slow speed when retrieving data from the web, e.g. curl'ing example.com. This is because the Google servers listed in resolv.conf are timing out before the local DNS is resorted to and actually functioning correctly.
+The reason there are problems despite the ability to actually resolve addresses is that the slowdown is so great that docker simply fails to function correctly, rendering all docker-related tasks (like downloading a new image) completely broken.
+Treatment
+IMPORTANT: This isn't the exclusive cause, as other issues have presented with similar symptoms.
+The local network is having trouble using either 8.8.8.8 or both 8.8.8.8 and 8.8.4.4 of the Google DNS servers. This can often occur when the device is located on a restrictive network that wants to perform filtering of some kind.
+It's possible to confirm the issue by very carefully adjusting /etc/resolv.conf and curl-ing e.g. example.com, by a process of elimination you can see which request is resolved quickly or slowly - slowly indicates a problem (see note above about why this is.)
+The solution is to firstly as soon as possible, comment out the problematic google servers in /etc/resolv.conf. Once this initial triage is performed, go ahead and edit config.json (typically in /mnt/conf in the host OS) and remove the NameServers= line from all network configurations to force use of the local DNS server only.
+The user can be advised as to how to do this remotely for devices that need it, see this intercom conversation for more details on that.
+ApplyLayer Error
+Symptoms
+Errors occurring like:
+Failed to download application 'registry.resin.io/nvraspiclientdev/e6b722e6f4082c164dd61abaeb89f987014aa997' due to 'Error pulling image (latest) from registry.resin.io/nvraspiclientdev/e6b722e6f4082c164dd61abaeb89f987014aa997, ApplyLayer exit status 1 unexpected EOF'
+And the download repeatedly failing.
+Treatment
+This is due to a problem with the connection resulting in an early termination of the download of an image layer and is usually caused by network connectivity issues. Unfortunately docker will restart the entire image download again if it encounters this.
+Deltas will strongly mitigate this issue, as explained in this snippet that can be passed on to a user: 
+Very soon we plan to have our delta functionality in place. Once it's there, downloads will be significantly reduced on update and devices will have the ability to resume layer downloads that have failed. 
+Wifi connect app stops working when systemd enabled
+Symptoms
+wlan de-authenticates immediately after authentication with error code = 3
+
+Important note: This is fixed for our base images. However, custom user base images might still encounter it.
+Treatment
+This is because the container's systemd takes over the host's systemd socket.
+We must ensure for 2 things:
+(1) the application reaches the host's systemd always
+(2) to disable the container's connman service because the container's systemd tries to run another connman service.
+In order to do so, add the following in the Dockerfile:
+ 
+RUN systemctl disable connman
+ 
+And add the following line in a startup script (that can be part of the CMD command in the Dockerfile):
+export DBUS_SYSTEM_BUS_ADDRESS='unix:path=/host_run/dbus/system_bus_socket'
+Build fails because of `pip install`
+Symptoms
+The build fails when pip tries to uninstall existing packages during pip install.
+Treatment
+The reason for this is an issue with overlay storage from Docker. Detail here: https://github.com/docker/docker/issues/12327.
+There is a workaround here by adding `--ignore-installed` to `pip install` commands to make sure it won't uninstall existing packages which are not in the same layer.
+Another workaround is: take everything to one layer only by executing all pip commands under single RUN command in Dockerfile.
+ 
+REFS:
+Related convo: https://app.intercom.io/a/apps/yg02r5dz/inbox/all/conversations/1820026687
+wifi-connect-app: https://github.com/resin-io/resin-wifi-connect
+Relavant discussion in r/ideas: https://www.flowdock.com/app/rulemotion/resin-ideas/threads/u51wowG3P3LIpLQzp7G_xTzZFdN
+Connmap API: https://github.com/Doodle3D/connman-api
+Killing and masking services: https://docs.fedoraproject.org/en-US/Fedora/19/html/Installation_Guide/s1-boot-init-shutdown-administration-kill.html
+User software fails with cannot resolve $(hostname) issue
+Symptoms
+This is because these pieces of s..oftware assume that $(hostname) resolves to an IP address. Known offenders are tomcat and rabbitmq.
+Treatment
+The solution is to append an appropriate entry to the /etc/hosts file. This can be accomplished in a startup script (i.e. one run via CMD in the Dockerfile) via:
+grep -q "$(hostname)" /etc/hosts || echo "127.0.0.1 $(hostname)" >> /etc/hosts
+This checks whether the entry already exists before inserting one if it doesn't.
+Discussion for a more permanent fix was raised in r/ideas.
+
+Build Hangs and Never completes
+Symptoms
+Build gets stuck for ages and the output just repeats "still working..." over and over. Usually this is during an NPM install or RUN git clone step.
+Treatment
+Refer to the two canned responses below:canned responses below:
+Use npm vendor (i.e. local) modules
+User wants to git clone from Github, but build keeps hanging
+
+EGL Bug/Screen freezes when using GPU-accelerated features
+Symptoms
+Screen freezes when trying to run a GPU-accelerated application, this can include 2D accelerated applications or video playback as well as obviously 3D applications. Generally the app runs without error but as soon as it tries to show video/render something in 3D/etc. the image freezes and often all inputs appear to freeze too. Sometimes a few frames of playback/rendering will be displayed before the freeze occurs, but not always.
+Treatment
+We've created a workaround for the underlying bug which causes this - in short, userland processes that use the GPU communicate with it ultimately via a messaging system called VCHIQ - this uses Process IDs (PIDs) to uniquely identify each 'service' associated with a given userland process, however under a PID namespace (which is established when a docker container is running), the PIDs as far as the kernel is concerned vs. as far as the container-run userland process is concerned vary, meaning that the messages do not get routed correctly. The fix adjusts the raspberry pi userland tools to use VCHIQ's own API for determining the global identifier and using that instead of the container namespaced one.
+Base images are now adjusted to include the fix and the patch is upstream.
+Beaglebone goes into 'read only' filesystem mode
+Symptoms:
+Data can't be written to the filesystem, only read.
+Treatment
+This appears be down to how often the kernel tries to reclaim memory used for the VFS cache. If so, there's a way to hotfix this on an device, using the repo at https://github.com/resin-os/resinos-fixes Simply clone, make sure you've followed the details on how to SSH into a device (you'll need to be added to the admin access list), and then from your host run:
+./run-fix.sh -f fix-mmc-bbb -u <deviceId> -s resin
+This will reduce the chance of this occurring again on the device. If the fix is applied then the device rebooted, the device should hopefully not get into this state again. If reboot doesn't fix the situation and the FS is corrupted, then a re-provision of the device will be required. As Lorenzo noted, 'Think of this as a vaccine rather than a cure'.
+
+Canned Responses
+Static IP
+In order to configure static IP on a pre-provisioned SD card (we don't currently have an easy means of changing network settings on a provisioned device SD card) perform the following steps:-
+Mount the FAT partitions of the image either directly from the image file, or by burning the SD card and mounting it on your computer. The volume will be called 'resin-conf'.
+Find 'config.json' and in it you will find a network key/value pair which contains json string encoded connman settings. Decode it (can be done via JSON.parse), and then  edit the entry to include the following entry, replacing [static IP] with your desired static IP:-
+[service_home_ethernet]
+Type = ethernet
+IPv4 = [static IP]/255.255.255.0/192.168.1.1
+Nameservers = 192.168.1.1,8.8.8.8
+Note that this assumes your network gateway is 192.168.1.1, this can vary so adjust this according to your local network configuration. 
+
+Encode this data as json (can be done via JSON.stringify), and then replace the existing value with the new one.
+The image will now contain your static IP configuration, simply write it to your SD card as you usually would.
+If you're curious about further configurability, this network.config file is simply a connman network configuration file (see https://en.wikipedia.org/wiki/ConnMan and https://wiki.archlinux.org/index.php/Connman), http://git.kernel.org/cgit/network/connman/connman.git/tree/doc/config-format.txt has more details on the configuration options available here.
+Host OS
+The containers in which resin.io applications are run are extremely powerful, nearly any code you run will have no idea it's not being run in the host OS. We map devices, network and persistent storage (located at /data) to provide applications with more than a typical container-run application would have access to. While we provide a lot of power to these applications, we disallow access to the host OS for a number of reasons:-
+A core feature of resin.io is that we keep track of your code and make it updateable. Code in the host OS obviously isn't kept inside a container so we are unable to track or update it at all.
+If code run in the host OS inadvertently (or otherwise :) kills our supervisor or overwrites critical data such as data used to identify it, the device could become inaccessible.
+Configuration of network device drivers, mountpoints, security provisions, and many other details have been carefully chosen to serve the resin ecosystem and your containers - code running in the host OS might interfere with this leading to issues or degradation of performance which we would likely not be able to help you with, see issue 4.
+When troubleshooting issues we base our assumptions on the host OS behaving as we expect it to - if you have made changes here, there's a good chance we won't be able to reproduce the issues locally and therefore won't be able to help you.
+The whole purpose of a container is to give you complete control over the environment your code operates in and allow you to configure it exactly as you wish - the host OS has to have things configured a certain way and is extremely minimal in what it provides to code running inside of it (enough to allow resin containers to run), why throw all of that away?
+If there's something you need to do or inspect that resin.io doesn't provide you within your application container, let us know and we will do all we can to help. There is a surprisingly little that requires host OS access and very soon we hope to reduce this to virtually zero.
+Device Configuration
+The FAT partition feature is under development and not yet deployed to production. In the meantime, a workaround is to access the EXT filesystem if the user can (write-access is a pain in Windows/OS X.)
+There are boot and configuration partitions exposed as FAT for easy access from any OS (though in Windows these won't necessarily automount - some extra effort may be required to gain access to these TODO: How to do that?)
+The config.json file controls specific manual configuration of resin (TODO: Parameters? What can be changed?), and for some systems their configuration is determined by the contents of configuration files in the boot partition:
+Raspberry Pi
+System configuration of the Raspberry Pi is determined by /boot/config.txt. We don't expose this directly from the container itself, however you can access it on the SD card directly in the FAT boot partition (TODO: Label?)
+Forwarding Ports
+It's usually not necessarily to forward ports within the container (in the way you would with a docker run -p [host port]:[container port] command), however if you do need to do this, it can be achieved with iptables. For example, mapping port 80 to 8080 can be achieved with the following:-
+iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
+Accessing EXT3 partitions (and /data) in OS X
+Firstly install Fuse for OS X -https://osxfuse.github.io/.
+Next, install fuse-ext2 (this covers ext3 also) - http://sourceforge.net/projects/fuse-ext2/.
+Use the fuse-ext2 too to gain access to the boot-raspi partition (this is FAT) and a disk2s2 (or similar name) drive appear - this latter drive (well, partition) is what you need and you will be able to access whatever has been stored in /data in the /resin-data/[app id] directory.
+Using supervisord
+Docker has a guide at https://docs.docker.com/articles/using_supervisord/ which gives a lot of detail on this. Ignore the EXPOSE part of the Dockerfile as by default all ports are exposed in resin containers.
+Generally you need to copy in the supervisord configuration and then execute supervisord via the CMD:
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+CMD ["/usr/bin/supervisord"]
+Setting SSID and passphrase via connmanctl
+See this intercom thread for more details on the user issue that provoked this need.
+To activate this execute the following list of connmanctl commands:
+scan wifi 
+services (parse output to get id for our ssid) 
+agent on 
+connect <service-id> 
+[enter passphrase]
+Getting a Permanent API Key
+We plan to add this to the API properly in future, for the time being there is an early access workaround:
+Using your auth token do a POST request to https://api.resin.io/application/#{application.id}/generate-api-key(sending the token in the Auth header) - see https://github.com/resin-io/resin-sdk/blob/397c0e5dc570c3d094561b6d3d27ae3254d9a141/build/models/application.js#L324 for example usage
+The server should reply with an API key (json-encoded string, so you may need to strip an extra pair of quotes)
+Add ?apikey=API_KEY to all your API requests and do _not_ send the token header anymore.
+Using the SDK:
+resin.auth.login({ /* credentials */ });
+// ...
+resin.models.application.getApiKey('MyApp').then(function(apiKey) {
+  // use apiKey
+});
+Authentication on the device with the SDK
+Our SDKs will automatically pick up the API token from the exposed ``RESIN_API_TOKEN`` env var if available, and use that for requests. In this case you don't need to login explicitly.
+Otherwise, you must make available to your application either your Auth Token (from prefs), or a username/password pair and use these to login:
+resin.auth.login({ /* credentials */ });
+or, with an Auth Token:
+resin.auth.loginWithToken(authToken);
+Using the same application image for multiple applications
+This is possible using the resin CLI (see this thread for discussion.) Assuming you already have NodeJS installed in your computer, install the CLI using:
+    $ npm install -g resin-cli # might need sudo depending on the environment
+Then login:
+    $ resin login
+Then to download a device image, configure it and burn it to an sd card (make sure the sd card is plugged into your computer before you run this command), run:
+    $ sudo resin device init --application <application name>
+ 
+Going forward you can re-use this command to initialise a device for a new application of the same device type without having to redownload the image.
+The images are stored in ~/.resin/cache, and remain cached for a week.
+ 
+Is it possible to have different device types in an application / Is it possible to keep a single codebase between applications?
+At the moment each application is tied to a specific device type. So, for example, if you have created an application by specifying an Rpi2 device, then only Rpi2 devices will be able to join this application's fleet. However, you can easily add multiple remotes to your git repository, each pointing to a different resin.io application. You can then use Dockerfile templates (https://talk.resin.io/t/dockerfile-templates/181) to keep a single codebase and push to multiple device types.
+Which data is persisted on devices across updates/power cycles?
+The only data we guarantee to be persisted across reboot, shutdown and device update/container restart is the contents of the /data folder.
+However, when a device is restarted or power cycled the container is not recreated, meaning all the data that was present in the container's filesystem before, remains.
+It's very important not to rely on this behaviour, as containers are recreated on application updates, when environment variables are changed in the UI or API, or when an application restart is requested.
+Is the cache shared between build server for non-native and native ARM builds?
+Yes (smile)
+Why does /data disappear when I move a device between applications?
+ the /data/ is specific to a given app, so if you move the device back to the other app you'll find /data/ is there for that app again.  The reason for this is that if you move devices between applications running different code then keeping /data/ from the other would potentially cause issues, there are plans to add the option to purge /data/ on move (so it will be gone on moving back, without having to purge before moving), as well as the option to transfer the data across.
+How to move devices between applications using the API, CLI, and SDK?
+So to do this via the API directly, you need to use an OData expresion.
+In order to execute this command you need:
+ your authorisation token, which you can grab athttps://dashboard.resin.io/preferences?tab=details.
+The ID of the application you want to transfer the device to - if you click on an app, the URL will behttps://dashboard.resin.io/apps/<app id>/devices, this<app id> is what you need. For example,https://dashboard.resin.io/apps/12345678/devices would indicate app id 12345678.
+The UUID for the device you want to move. You can find this in the device dashboard on the 'Device Summary' tab, and there's even a handy copy button for you to copy it to the clipboard easily.
+Once you have all these, you are good to go. The ODATA query you need to use here is $filter=uuid eq '<device uuid>', and to move the device we want to alter the device record, so we want to submit aPATCH request with JSON data set to { "application": <app id> }. 
+Putting this all together, we can achieve what we need with a simple bash script using cURL. You need to export the device uuid asDEVICE_UUID, the token as TOKENand the app id as APPLICATION_ID:
+
+#!/bin/bash
+
+export DEVICE_UUID="<the device uuid from the device dashboard>"
+export TOKEN="<the auth token from your preferences page>"
+export APPLICATION_ID="<the application id from the application dashboard>"
+
+curl -X PATCH "https://api.resin.io/ewa/device?\$filter=uuid%20eq%20'${DEVICE_UUID}'" -H "Authorization: Bearer ${TOKEN}" \
+     -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, */*' \
+     --data-binary "{\"application\": ${APPLICATION_ID}}" --compressed 
+CLI and SDK
+Now this can be done via the CLI and the SDK also (from an intercom conversation):
+You can install the tool with the following command (given that you have NodeJS and NPM installed):
+$ npm install -g resin-cli
+You can check the version to confirm it was installed correctly (the device move command was introduced in v2.2.0, so make sure you're running the latest one!):
+$ resin version
+You will need to log in to your account with the following command:
+$ resin login
+You can try listing your applications to see you were logged in successfully:
+$ resin apps
+Once everything it set up, you can move a device with the following command:
+$ resin device move <uuid>
+The command will interactively prompt you to select an application that you own that matches the device type of the device you're trying to move.
+Alternatively, if you want to accomplish this programatically, this functionality was implemented on our NodeJS SDK as well (https://github.com/resin-io/resin-sdk).
+If so, you can find extensive documentation in the following file: https://github.com/resin-io/resin-sdk/blob/master/DOCUMENTATION.md.
+The one that you might be interested in is `resin.models.device.move()`: https://github.com/resin-io/resin-sdk/blob/master/DOCUMENTATION.md#resin.models.device.move.
+Which ports does resin.io use?
+Our port requirements are as follows:
+443 TCP - This is the most fundamental requirement - it is used to connect to the VPN and the web terminal, as well as of course any web endpoints using TLS (https://.)
+123 UDP - For NTP time synchronisation.
+53 UDP - For DNS name resolution.
+Each of these should work with outward only (and inward once outward connection established) firewall settings.
+What is the best SD Card to use?
+Some of our customers whose application writes a lot of data the cards have done automated test on various SD cards. They found that the Lexar Pro had the best results. 
+http://it.lexar.com/products/professional-microsd-1000x
+http://www.lexar.com/microsd-633x
+These cards allow their devices to operate for at least 3 years without fear of card fatigue. 
+How to insert out-of-tree kernel modules on a device?
+Note that these instructions are only the very, very early method for including kernel modules. We are actively working on a far simpler approach, however for the time being we can offer this as a means of achieving what you need today :)
+1. Let us know which device in particular you need this for. At the moment, we need to provide you with a copy of the kernel source, a .config file and a Module.symvers file, so we need to determine the precise files to obtain.
+2. Ensure you have the tools required to compile the kernel source code for module building (this doesn't require a complete build don't worry :) - gcc, make, etc. `sudo apt-get install build-essential` should do it.
+3. Install a cross-compiler suite via e.g. `sudo apt-get install gcc-arm-linux-gnueabihf` (for arm) or check out Linaro's site https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabihf/.
+4. Extract the kernel source we provide into a directory, then copy .config and Module.symvers into the same directory.
+5. Enter the kernel source directory then run `make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- modules_prepare`, adjusting this command if the architecture is different or the cross-compile suite you've installed has a different prefix.
+6. Enter the directory of the module you wish to build and run `make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C <kernel source directory> M=$(pwd)`, again adjusting if arch/cross-compile suite are different.
+7. This should result in 1 or more files with `.ko` extensions. These are the actual kernel module binaries you need to add to your repository and transfer to your device.
+8. Once on the device, you can load the module either via `insmod <filename>.ko`, or if the modules rely on other modules on the system or one another, you will have to do some more housekeeping:
+9. (Optional) Copy the modules into `/lib/modules/$(uname -r)/`, then run `depmod -a`. Finally load the module via `modprobe <filename with no extension>`.
+How to remotely update config.json?
+To do this you need to mount the partition containing config.json and edit it directly there. For the changes to take effect either connmand needs to be restarted or the device has to be restarted. IMPORTANT: This is very risky. Any mistake here can lead to a bricked device.
+You can do this with something like:
+configdev=$(blkid | grep "resin-conf" | awk '{print $1}' | tr -d ':')
+mount $configdev /mnt
+<edit /mnt/config.json with your favourite editor>
+umount /mnt
+User wants new device added
+We want to let the user know that we are interested, and not be dismissive about the suggested device because of time constraints. A good method here is to switch the discussion to a. how we choose devices, b. a discussion about why they particularly want this device, and c. some additional details on how to add device yourself. Sometimes it may be the case that an existing device we support might do the job better, so based on their answer you can explore that too. Something like:
+We are committed to choosing which devices to support based on what our users need, so are always open to suggestions. Could you give me some more information on how you plan to use the device? What of its features are particularly useful to you?
+Alternatively, for ultimate control, we are proud to offer the ability to add custom device support on your own via a Yocto Linux layer. Let me know if you're interested, and I can connect you with someone who can give you some insights into the process. Also, there's more details on that over at our docs.
+User wondering why download is so big - 1.5GB????
+NOTE: We are discussing moving away from on-the-fly compression for images so this might rapidly become redundant. Do check to see how image download currently works to be safe.
+Although the image size seems large, the actual data that you will have to download will be far less as the image is compressed and it is being decompressed on the fly by your browser, resulting to a transfer length of a few hundred MBs.
+In addition, you might be interested in using our CLI tool: http://docs.resin.io/#/pages/tools/cli.md which has the ability to cache images and reuse them!
+User wants to use WPA Enterprise
+The user's specific settings will vary, but the following gives a general case:
+Name=<ssid name>
+EAP=peap
+Identity=<login>
+Passphrase=<pass phrase>
+Phase2=MSCHAPV2
+Note that the 'Phase2' setting will vary depending on the network. See the references below for more details on these settings. Also see this intercom thread for a case where settings were applied successfully.
+In order to set this, you'll need to modify your config.json file either inside the device image, or on the SD card once mounted (we are going to add the ability to specify this before image download too.)
+If you follow the steps for setting a static IP at http://docs.resin.io/#/pages/deployment/wifi.md#set-static-ip then, rather than locating the ethernet configuration, find the wifi one and adjust the entry to use these settings everything should work correctly.
+Keep in mind this string is JSON-encoded, and it's important to insert '\n's as needed, also note that connman key values are case-sensitive.
+Refs: See the Arch Wiki page on this, and this page is also useful. Connman seem to not like to explain their settings very clearly (sad)
+Disabling IPv6 on a device
+This works well for dealing with a broken DHCP server which sends an invalid IPv6 DNS address even to IPv4 only devices.
+As far as I can tell this needs to be done at the host OS level.  Essentially you are running:
+echo net.ipv6.conf.all.disable_ipv6=1 >/etc/sysctl.d/disableipv6.conf
+echo net.ipv6.conf.eth0.disable_ipv6=1 >>/etc/sysctl.d/disableipv6.conf
+echo net.ipv6.conf.default.disable_ipv6=1 >>/etc/sysctl.d/disableipv6.conf
+However even without access to the host os this can be done within the device image by adding a file at /etc/sysctl.d/disableipv6.conf containing 'net.ipv6.conf.all.disable_ipv6=1'.
+You can however adjust this at runtime, though it won't affect the current /etc/resolv.conf (though that can be edited.) You do this by running:
+sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sysctl -w net.ipv6.conf.eth0.disable_ipv6=1
+sysctl -w net.ipv6.conf.default.disable_ipv6=1
+Additionally you have to adjust the connman settings (and in config.json too to persist it) to set 'IPv6 = off' for the interface in question otherwise connman will switch IPv6 back on. Seriously.
+Also ensure you update /var/lib/connman/network.config otherwise connman will overwrite any changes to /etc/resolv.conf.
+Restart connman to take these changes into account via:
+systemctl daemon-reload
+systemctl restart connman 
+What is the registry image name format?
+registry.resin.io/<app name>/<commit>
+Disable screen blanking in X
+X will default to blanking the screen after a certain period of time. This is pertinent to graphical applications on devices which use X and can be disabled via:
+xset -dpms
+xset s off
+xset s noblank
+The Arch wiki article on DPMS has more details on this!
+
+Disable wpa_supplicant in the host
+We do this via the systemd DBUS API:
+DBUS_SYSTEM_BUS_ADDRESS=unix:path=/host_run/dbus/system_bus_socket dbus-send --system --print-reply --dest=org.freedesktop.systemd1 /org/freedesktop/systemd1 org.freedesktop.systemd1.Manager.StopUnit string:'wpa_supplicant.service' string:'fail'
+
+(same with StartUnit to re-enable it).
+Multi-container apps
+That's a feature we're currently working on. I don't have information on when it'll be available, but there are some experimental ways of doing this using docker in docker. Here are a couple of projects that are using on this method:
+https://github.com/abresas/multi-container
+https://github.com/pcarranzav/resin-aerofs
+https://github.com/pcarranzav/resin-kubernetes
+You might also want to check a blog post we have on this topic: https://resin.io/engineering/our-first-experiments-with-multi-container-apps/
+Multiple displays support
+To enable separate displays (i.e. not mirrored) create a script "script.sh" and add the following, modifying parameters accordingly:
+xrandr --output HDMI-0 --auto --primary --output DisplayPort-0 --auto --left-of HDMI-0
+<command to run your application>
+In your Dockerfile specify this script as part of your CMD:
+CMD ["xinit", "./script.sh"]
+Pass environment variables to custom systemd service
+We save the environment variables in `/etc/docker.env`.
+If users want to inherit the environment variables in the custom systemd service, we need to add this line to systemd service file.
+```
+EnvironmentFile=/etc/docker.env
+``` 
+Use npm vendor (i.e. local) modules
+It can be useful, especially when working around the git/qemu issue, to be able to manually add npm modules to a project rather than npm install them which might invoke git clone. The steps are as follows:
+Enter the vendor module parent directory (where its package.json file is)
+Run 'npm pack' to create a tarball (e.g. private-module-1.0.0.tgz)
+Copy the .tgz file in a folder in your resin project (e.g. vendor/private-module-1.0.0.tgz)
+Run 'npm install --save vendor/private-module-1.0.0.tgz'
+Include the vendor/ folder in your application docker image by using the following COPY Dockerfile instruction: 
+COPY vendor ./vendor
+This COPY command must precede the 'npm install' RUN Dockerfile instruction.
+'git add/commit' the vendor/ directory, the updated package.json and the Dockerfile of your application.
+Run 'git push resin master' to initiate the build.
+User wants to git clone from Github, but build keeps hanging
+Sorry that you have encountered this issue. This is part of a problem that exists between qemu and git, due to git relying upon some fairly exotic system call mechanics which confuse qemu. This results in sporadic issues with git operations in this environment, which is what we use to run ARM binaries on the build servers while building your image. Recently we've gone to the lengths of patching qemu to work around the problem, in fact twice, but regardless of local testing it seems there are many iterations of the issue which make it more difficult than we anticipated. We are now actively looking at different approaches to the problem, and are working to resolve this as soon as we can. I've added you to our notification list and we'll notify you as soon as we have a fix production.
+In the meantime, I recommend simply editing your Dockerfile to avoid the git clone. One fairly straightforward method is to simply retrieve the code using the packaged-up release from github, e.g.:
+RUN wget --output-document=subg_rfspy.tar.gz https://github.com/ps2/subg_rfspy/archive/v0.6-1-g28d741f-1-g02f7164.tar.gz
+RUN mkdir subg_rfspy && tar --strip 1 --directory subg_rfspy -xf subg_rfspy.tar.gz
+This can be slotted in to replace the git clone line.Alternatively, you can try our native arm servers by running:
+git push resin master:master-arm
+However I must warn you that we've been having issues with our ARM server providers which might result in issues, which is why I prefer a solution of avoiding git clone if possible.
+Example iBeacon Projects
+https://github.com/lifeeth/ResinBeacon
+https://github.com/craig-mulligan/re-eddy
+https://github.com/lifeeth/ResinBeaconScanner
+Enabling Deltas
+You can enable deltas by simply creating a config variable named RESIN_SUPERVISOR_DELTA with its value set to 1. The supervisor version needs to be > 1.5.0.
+Disabling Logs
+Set RESIN_SUPERVISOR_LOG_CONTROL env var to false, see https://resin.io/blog/device-bandwidthdata-usage-how-low-can-we-go/ for more details.
+Can you disable 2FA so I can recover my account
+note: replace <random-string> with a unique string. You can generate one by running:
+$ openssl rand -hex 32
+an example command for the user would be: 
+echo 46e84abfb5d483b8a4f6cbe3498fc48eefe4f6383fd1aaf8bd31ddd43bfb5d14 | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
+canned response:
+ By choosing to enable 2-factor authentication you have made it clear for us that security is as important concern for you as it is for us. It also means you do not completely trust authenticating with just a password. 
+
+Therefore you will understand that we need to take extra measures to be sure that we are not disabling 2-factor authentication for an attacker who learned your password.
+
+We would like to verify that you're in possession of the SSH key you have provided to us. To do this you'll have to run the following command and send us the output via your accounts email. After we validate the signature we'll disable 2FA on your account and you'll be able to login with just your password.
+
+echo <random-string> | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
+
+Please let us know if have trouble following the above procedure.
+Verifying Users Response 
+note: You'll need a gnu version of openssl to run this.
+Got to their ssh key tab in preferences https://dashboard.resin.io/preferences?tab=sshkeys
+You first convert it into a PEM encoded RSA public key using this command:
+ssh-keygen -f users-key.pub -e -m pem > users-key.pem
+
+Next, you have to convert that to a PEM encoded (plain? not sure what this format is called) public key using this command:
+openssl rsa -in users-key.pem -RSAPublicKey_in -pubout > users-key.plain.pem
+
+Now you're ready to verify whatever the user sent you
+Say he sent you this as a response to the challenge
+o7+ga4dl8cNB+O/9kxvEZj6UP5r3Tx3bno1ukYNdBd/hd0zNk7y153qxHfj9MOlmG6+VuaqXLZmJ
+8rEOUjsGxqq377SSV9OEs0PkvvVhKyjtYxb3Vm2apJLal9Mfhktr/QW3pht1kX4XgZmzo8CcbL5q
+5EWMVVuXttSbjcZY2hDB3lYU9OElggkOxKNO/jug9X0mOc6XeUM7+aSd12LDHTydpgQ0MZxgNfHv
+KQnkCHcP50rbIqnhcbjBFzeOWFcAVcpKCuUumnKuQv7k2SRjUEIIZEXVWqiXAeEl2jpblYsDUmKV
+jQLi+rLohLBZDlsBxtQuxBYK4NVhnj01wzkThw==
+You put this in a file, say response.base64
+
+cat response.base64 | base64 -d | openssl rsautl -verify -inkey users-key.plain.pem -pubin
+This should print the original random challenge you sent him. i.e if you sent echo foobarfoobar, then the above command should print foobarfoobar
+IT IS REALLY IMPORTANT TO VERIFY THE WHOLE STRING
+Get image download size with the Resin SDK
+The stream object resolved by resin.models.os.download() contains the original `node-request` response as a `.response` property. User can check the HTTP headers in `stream.response.headers` to determine the size, before deciding to pipe to a location.
+User wants to set a file as an Environment Variable
+You can do this by Base64 encoding the file you want to use and using this value for either an Application or Device specific environment variable. This will need to be decoded by a startup script for you application. We are planning on supporting environment files in the future.
+User wants to update only some Devices attached to an Application
+It is currently not possible to selectively update a subset of devices associated with an application.
+However, what you could do is create a new application for each group of devices you want to update separately, and use the same git repository for each application.
+To do this, you'd add a new remote to the same source repository for each device group, eg:
+     git remote add appone <user>@git.resin.io:<user>/appone.git
+     git remote add apptwo <user>@git.resin.io:<user>/apptwo.git
+for each different application (in this case, 'appone' and 'apptwo').
+You can then assign half your fleet to application 'appone' and the other half of your fleet to application 'apptwo'.
+Now if you push to the appropriate remote (eg. 'appone'), only those devices attached to that application will be updated.
+You can easily move devices between applications by selecting a device from a current application, then selecting 'Actions' and then 'Move device'.
+
+Internals
+Accessing User Devices
+Setting Up
+Add keys to resin-containers project, at cloud_formation/systemd/services/add_ssh_keys_[your name].service, using one of the existing files as a template. Add an ExecStart line in manager.service (located in the same directory), using another line as a template.
+PR these changes, have them merged in and ask the appropriate dudes to deploy them to the server,
+Grab the key files from resin-containers at cloud_formation/ssh/resin_devices* and copy them to your ~/.ssh folder. This key is password-protected, and is available from passpack. Ask Apostolis or Aggelos for access.
+Getting Access
+Make sure your ssh agent knows about the key you've added to the resin-containers cloud_formation/systemd/services folder, if it isn't your default key, by running 'ssh-add [path of private key]'.
+Find the UUID of the device you want to access.
+Ensure the key is loaded into your ssh agent by running 'ssh-add ~/.ssh/resin_devices'.
+If you are on mac, the old ssh installed will fail on the previous step complaining of a bad keyphrase even if it's correct. To get around this update your version:
+brew install homebrew/dupes/openssh
+This will install binaries into /usr/local/bin, symlinked into entries in /usr/Cellar/openssh/[version]/bin.
+On my local machine as of 16th December 2015, the version installed by default in /usr/bin/ssh is OpenSSH_6.9p1, LibreSSL 2.1.8 - this is the version that does not work.
+After installing via openssh, /usr/local/bin/ssh reports version OpenSSH_7.1p1, OpenSSL 1.0.2e 3 Dec 2015. To determine version run `ssh -V`, and if you want to compare between these locations specify the whole path, e.g. /usr/local/bin/ssh -V (this will be what 'ssh' defaults unless your path has been edited unusually.)
+You may need to look at how ssh-agent starts/runs but experiments locally suggest it works out of the box .
+Another issue with ssh on mac is that the ssh-agent sometimes refuses to use the correct key if many keys are already loaded (ssh-add -l shows a list). Temporarily removing some keys (with ssd-add -d <key>) until there are only a few left (3 or 4, maybe less) mitigates the problem. When this problem arises, even forcing a specific key with the '-i' option will not work. This issue has been seen in version OpenSSH_7.1p2, OpenSSL 1.0.2e 3 Dec 2015.
+
+Set up aliases in ~/.ssh/config as follows:
+Host resin
+ User root
+ Port 22222
+ ProxyCommand ssh -A core@manager.resin.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
+ StrictHostKeyChecking no
+ UserKnownHostsFile /dev/null
+Host resinstaging
+ User root
+ Port 22222
+ ProxyCommand ssh -A core@manager.resinstaging.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
+ StrictHostKeyChecking no
+ UserKnownHostsFile /dev/null
+You can then log in using 'ssh resin -o Hostname=${UUID}.vpn'
+On the Device
+Check /var/volatile/vpnfile - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
+Once on the (non-systemd) device, /var/logs/* is your friend. rce should be running, which is the 'resin container engine', i.e. our fork of docker.
+Check  /var/log/supervisor-log/resin_supervisor_stdout.log for supervisor output.
+Accessing Devices via Another Device
+If a device is showing offline but you suspect it's the VPN not functioning or there is some other reason it appears offline, then you can gain access to it via a known working device.
+Important: A device might have changed its IP address since it last reported it to the dashboard if it has been unable to connect via the VPN, so not being able to access that IP address does not mean the device is necessarily unreachable. In this case you need to look at performing an ARP scan (see below.)
+Simply access the known working device as usual via `ssh -o HostName=<uuid.vpn> resin`, then once inside the device, run:
+ssh -A -p 22222 root@<device ip>
+If you are unable to determine the IP of the device, you will need to run something similar to an ARP scan. The host os will not have this installed, but you can try this in the supervisor container in a pinch:
+docker exec -it resin_supervisor /bin/bash
+apt-get update -y
+apt-get install -y arp-scan
+arp-scan --interface=eth0 --localnet
+Replace 'docker' with 'rce' if the device is older, as we used to name the docker binary this, and in addition if the device is not connected via eth0 (determine this via `ip addr`), then replace 'eth0' here with the interface name.
+This will list devices on the local network that respond to ARP, with output like:
+# arp-scan --interface=eth0 --localnet
+Interface: eth0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9 with 256 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.0.1 80:ab:71:23:cd:73 (Unknown)
+192.168.0.13 b8:17:eb:13:ab:00 Raspberry Pi Foundation
+192.168.0.17 78:a3:15:de:d9:9c Hewlett-Packard Company
+The names shown on the right are not obtained from the device directly, rather part of the MAC address indicates which company has reserved a block of MAC addresses. From this you should be able to, by a process of elimination identify whether the device you're after is available.
+Fixing the Bash/Node Race
+This issue results in no updates being downloaded despite the application having had code pushed to it. In the logs at /var/log/supervisor-log/resin_supervisor_stdout.log you'll see:-
+Event: Device bootstrap failed, retrying {"error":{"message":"\"uuid\" must be unique.","stack":"Error: \"uuid\" must be unique.\n    at /app/node_modules/pinejs-client/request.js:91:17\n    at tryCatcher (/app/node_modules/bluebird/js/main/util.js:24:31)\n    at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/main/promise.js:452:31)\n    at Promise._settlePromiseAt (/app/node_modules/bluebird/js/main/promise.js:530:18)\n    at Promise._settlePromises 
+To fix, edit /mnt/data-disk/config.json and add the following property to the top-level of the json:-
+"registered_at": 0
+Finally, restart the supervisor:-
+rce restart resin_supervisor
+Checking Disk Space Usage (btrfs)
+Moved to the HQ wiki.
+Authorisation Tokens
+We authorise users via JSON Web Tokens (JWTs) - this is exposed to the user for interfacing with our API (via our SDK) using the 'Auth Token' shown in the Account Details tab on the Preferences page. The JWT is a base32 encoded, concatenated JSON header and signed JSON body which contains data in of itself. These can be deauthorised for sessions other than the users (by refreshing the JWT) using the 'Log me out from other sessions' button in the same preferences tab.
+Devices themselves use API keys which is simply a secret matched against one stored in the database for that device.
+Build Hanging
+We currently use qemu to emulate and compile packages for device type architecture. Unfortunately there are some known bugs that cause qemu to hang, one of them being git clone, how ever there are a few other edge cases that can hang up qemu. We are currently working on moving our build servers onto arm servers which would mean we wouldn't have to use qemu, which would mitigate these issues. 
+Disable Ofono
+Run the following commands:
+rm -f /mnt/etc/systemd/system/multi-user.target.wants/ofono.service /mnt/etc/systemd/system/ofono.service
+ln -s /dev/null /mnt/etc/systemd/system/ofono.service
+Use a staging build on production environment
+Hello Ken,
+I want to bring in front of you a problem that we encounter while having you testing and using resin on staging server.
+As you already know, this server is a testing environment for development and is not an uncommon situation where things break or don't behave the way they should. So in order to minimize this risk, we ask you to start using staging builds on the production server. The process of doing this is not hard and once you get in possession of the config files, the process is even simpler.
+Here is the procedure you need to follow in order to do what I mentioned above:
+Acquire a production config file to be used on the staging builds
+login into dashboard.resin.io
+create a new "Technologic TS-4900" application (if you don't already have one)
+get into the app and download an image with the configuration you want to use (WiFi, Ethernet etc.) - this will be the app that you will be using when running resin on your devices
+mount the raw image
+sudo losetup -f -P downloadedProductionImage.img
+check which loop device was used
+andrei@resin tmp $ losetup
+NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
+/dev/loop0         0      0         1  0
+/var/lib/docker/devicemapper/devicemapper/data
+/dev/loop1         0      0         1  0
+/var/lib/docker/devicemapper/devicemapper/metadata
+/dev/loop2         0      0         0  0 /home/andrei/tmp/downloadedProductionImage.img
+In this example it is loop2
+Get the config file for your production application:
+sudo mcopy -i /dev/loop2p5 ::config.json config.json.production
+Your production config file is now saved as config.json.production
+Unmount loop device 
+sudo losetup -d /dev/loop2
+Inject the downloaded config file into a staging image
+login into dashboard.resinstaging.io
+create a new "Technologic TS-4900" application (if you don't already have one)
+get into the app and download an image - the network configuration doesn't matter here as we will use the production config
+mount the raw image
+sudo losetup -f -P downloadedStagingImage.img
+check which loop device was used
+andrei@resin tmp $ losetup
+NAME       SIZELIMIT OFFSET AUTOCLEAR RO BACK-FILE
+/dev/loop0         0      0         1  0
+/var/lib/docker/devicemapper/devicemapper/data
+/dev/loop1         0      0         1  0
+/var/lib/docker/devicemapper/devicemapper/metadata
+/dev/loop2         0      0         0  0 /home/andrei/tmp/downloadedStagingImage.img
+In this example it is loop2
+Inject the production config file:
+sudo mcopy -o -i /dev/loop2p5  config.json.production ::config.json
+Your staging image is not injected with the production config
+Unmount loop device 
+sudo losetup -d /dev/loop2
+Follow the provisioning steps using the production server and the downloadedStagingImage.img image with the injected production config file.
+After you get your production config you won't need to do steps under "Acquire a production config file to be used on the staging builds" again. Use the config file you downloaded once. This is valid as long as you don't delete or switch your application (production server).
+Tell us if this is clear and I am at your disposal with any question you might have.
+Clearing Down Space in btrfs
+Moved to the HQ wiki.
+Removing Orphaned Subvolumes
+ Moved to the HQ wiki.
+Cleaning orphaned volumes
+NOTE: See HQ wiki entry for an alternative explanation.
+If a user is using docker-in-docker, it might happen that orphaned volumes fill up space. Supervisor versions over 1.3.0 should (in theory) properly clean this up (ping Pablo Carranza to raise the issue otherwise).
+To clean orphaned volumes you can use https://github.com/pcarranzav/docker-cleanup-volumes like this:
+curl https://raw.githubusercontent.com/pcarranzav/docker-cleanup-volumes/master/docker-cleanup-volumes.sh > rce-cleanup-volumes.sh
+chmod +x rce-cleanup-volumes.sh
+systemctl stop resin-supervisor
+rce stop $(rce ps -q)
+# use ./rce-cleanup-volumes.sh --dry-run if you want to check what will be deleted
+./rce-cleanup-volumes.sh
+systemctl restart rce
+systemctl start resin-supervisor
+Manually starting rce 
+Note that sometimes rce will refuse to start even when space is available and the command will work because of systemd being special in some way (typically you'd systemctl start rce.service.)
+DISCLAIMER: Do not do this unless you really need to. And certainly do not leave a device running rce this way.
+Ensure rce isn't running, i.e. `pidof rce` returns nothing.
+Fork an rce process and configure it not to respond to SIGHUP via:
+nohup rce --restart=false -s btrfs -d -g /var/lib/rce &
+Logs from the command will be output to nohup.out, check that to ensure that it has started correctly, and now `rce ps`, `rce image` etc. should work.
+3. Kill the abomination rce via `kill $(pidof rce)` and start the service correctly via `systemctl start rce`, or if that doesn't work by restarting the device if it is appropriate to do so.
+Remotely reprovisioning (i.e. nuking) a device
+NOTE: Check the below 'Fixing failure to mount resin-data partition' tip
+Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, check with colleagues to make sure this is the appropriate supervisor to pull.
+Determine which block device contains the main BTRFS data partition - if the partition is still mounted, run mount | grep /mnt/data to determine this. If it is not mounted, logs should indicate the correct device, or you can run lsblk and the device with the largest listed space will be the one in question. The naming will be something like /dev/mmcblk0p6.
+Now you know the device, unmount it (if mounted), create the btrfs filesystem, label it correctly and reboot the device:
+unmount /dev/[partition device]
+mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]
+btrfs filesystem label /dev/[partition device] resin-data
+reboot
+After reboot, you will need to pull a new instance of the supervisor. 
+
+NOTE: Update the tag accordingly. Match the existing version of the supervisor. It may risk issues if the host OS doesn't support features assumed to exist by a new supervisor. From supervisor 1.4.0 on we publish versions to the staging registry, older versions however are not guaranteed to be present. A member of the supervisor or infrastructure team might be able to push a required version there if necessary.
+rce pull registry.resinstaging.io/resin/rpi-supervisor:<version>
+If the device is an rpi:
+rce tag registry.resinstaging.io/resin/rpi-supervisor:<version> resin/rpi-supervisor:latest
+If the device is an rpi2:
+rce tag registry.resinstaging.io/resin/armv7hf-supervisor:<version> resin/armv7hf-supervisor:latest
+Finally start the supervisor:
+systemctl start resin-supervisor
+Resetting VPN devices state
+Running the below triggers the VPN's 'reset all' functionality which causes the API to retrieve the VPN addresses of all online devices and update the API database to reflect this.
+Important: Only run this as a last resort and try to raise the issue with the team before going for it. This completely recreates this data and repeated runs could cause disruption.
+curl -X POST 'https://api.resin.io/services/vpn/reset-all?apikey=ff4b1c65205943e16614773d47aea95056d086e3f682a319a1b76b7d69a5f74d'
+Note: The API key listed here is the VPN service API key, it may change, and is privileged information.
+Fixing failure to mount resin-data partition (btrfs corruption)
+Move to the HQ wiki.
+Persistent journal log
+
+DO NOT USE
+
+IMPORTANT: This currently does not work prior to a reboot. If you are going to use this right now, make sure to reboot the device (with permission and make sure it's safe to do so.) Theodor is working on fixing this.
+
+As it stands now our images provide volatile logging for the system journal. If one needs to have persistent journal log on a device one can do so remotely.
+First create a bash script containing the following : 
+#!/bin/bash
+#Comment out the auto-mount of tmpf on volatile memory
+sed -i '/\/var\/volatile/ s/^#*/# /' /etc/fstab
+sed -i '/Storage=/c\Storage=persistent' /etc/systemd/journald.conf
+sed -i '/SystemMaxUse=/c\SystemMaxUse=16M' /etc/systemd/journald.conf
+
+umount  /var/volatile
+rmdir /var/volatile # Added by Pablo after seeing an error
+mkdir -p /mnt/data/volatile/log
+cd /var && ln -sf /mnt/data/volatile .
+systemctl restart systemd-journald
+
+Then run the local script that you have created (e.g. persistent-logging.sh) on the remote machine:
+ssh resin -o Hostname=${UUID}.vpn "bash -s" < persistent-logging.sh 
+Disabling tty-replacement (i.e. what is spawned instead of getty in production images)
+There are 2 ways of doing this, both of them result in disabling tty-replacement .service on the hostOS. The difference between them is that one is done remotely and one is done manually with access to the device's SD card. 
+If you are inside a running hostOS just run: systemctl disable tty-replacement.service or rm /etc/systemd/system/multi-user.wants/tty-replacement.service
+If you have the SD card mounted on a machine just run: rm /mnt/resin-root/etc/systemd/system/multi-user.wants/tty-replacement.service (please replace the /mnt/resin-root with your actual mount point for resin-root)
+Fixing serial console for raspberrypi3
+(Required only for pre-1.1.4 hostOS) Inside cmdline.txt (found in boot partition) modify console=ttyAMA0,115200 to console=S0,115200. 
+Inside config.txt (found in boot partition) and set core_freq=250 
+Disabling HDMI/enabling TTYS5
+If the hostOS version is 1.1.4:
+   Append the following line to uEnv.txt (found in boot partition) fdtfile=am335x-boneblack-emmc-overlay.dtb
+If the host OS version is < 1.1.4:
+ mount -o remount,rw /boot
+ Append the following line to uEnv.txt (found in boot partition) fdtfile=am335x-boneblack-emmc-overlay.dtb
+umount /boot
+cd /boot ; wget http://build1.dev.resin.io/~theodor/zImage-am335x-boneblack-emmc-overlay.dtb
+mv zImage-am335x-boneblack-emmc-overlay.dtb am335x-boneblack-emmc-overlay.dtb
+
+      Note: The necessary device tree (am335x-boneblack-emmc-overlay) is only available in our 1.1.4 version of the hostOS 
+      Note: Both these processes require reboot of the device.
+Checking whether offline device is really offline
+We have encountered many situations where a device is showing 'offline' but is in fact online, but not correctly connecting to the VPN meaning the online/offline notification does not update (we've had this go the other way - an offline device going offline during a period when the VPN servers have been down and no reset having been applied meaning they show online, but it's far rarer since VPN resetting came into force.)
+Things to check
+To determine whether the device is actually online, first check the device dashboard logs - are logs currently displayed, or if the application isn't very noisy, have logs been displayed since last online time? If so this can be a strong indication the device is actually online.
+The next most useful check is to simply add a new environment variable to the device. If the device is in fact online, it should pick up the change and reset itself, generating logs as it does so. The poll time is customisable, but defaults to 1 minute.
+If these two don't work, it's highly likely the device really is offline (or at least unable to access resin servers), but a final check is to look at API logs via logentries (check with operations if you need access.) Search for the device UUID in the logs over a timespan past the time it is indicated as having gone offline. Logs of the device accessing the API will look like (replacing <DEVICE UUID> with the devices UUID and <DEVICE APP ID> with the device's app ID):
+/ewa/application?$select=id,git_repository,commit&$filter=((commit%20ne%20null)%20and%20(device/uuid%20eq%20%27<DEVICE UUID>%27))&apikey=... and /environment?deviceId=115341&appId=<DEVICE APP ID>&apikey=...
+If you discover that the device is in fact online but not accessible via VPN, this means that SSH-ing into the device using the usual method will not work. See SSH to device without VPN for details on how to work around this!
+See this flowdock thread for more details and discussion of a device that these checks were run on.
+Updating supervisor
+Hotfix target devices to make sure they have the latest fixes (if you don't do this and they need them then bad bad things can happen), see https://bitbucket.org/rulemotion/hotfix/ and ask Lorenzo Stoakes for more details.  If the device is older (contains `/usr/bin/resin-device-update` then check with Pagan Gazzard to see if it requires any additional hotfixes added to the repo - no devices this old have been updated since the introduction of the hotfix repo).
+Add a supervisor release entry, eg INSERT INTO "supervisor release" ("supervisor version", "image name") VALUES ('v1.1.0', 'registry.resin.io/resin/rpi-supervisor') RETURNING "id";
+Update device's target supervisor release, eg UPDATE "device" SET "supervisor release" = 23 WHERE "id" IN (1, 2);
+Wait for the device to automatically check for updates and update the supervisor, 5min on older images, 24h on newer images.
+Alternatively manually ssh in and run the supervisor update script by hand, for older images: `crontab -l` and then either `/usr/bin/flock -n /tmp/rdu.lockfile /usr/bin/resin-device-update` or  `/usr/bin/flock -n /tmp/rdu.lcokfile /usr/bin/resin-device-update` based on the content.
+For newer images: `systemctl start update-resin-supervisor.service`.
+Provision a new device, but keeping the same UUID
+There are cases where a user would like to update their OS or supervisor agent, but want to keep the UUID of their device(s) the same as it currently is. This can be achieved fairly easily. All they need do is:
+download a new OS
+extract the config.json out from the current SD card ( not sure how this would be achieved on eMMC based devices)
+In the config.json there are three fields that are device specific: deviceId, uuid and registered_at
+these are what identify the device on resin.io
+if the user copies either just those 3 fields or the entire config.json the device with the new hostOS will join the fleet as the device with the same UUID.
+Fixing http code 400 when pulling
+It's possible our builders to fail to push to one of the two Docker registries, while succeed with the other, and so they report success to our API. So (depending on Docker version on the device) when the device tries to pull the image it fails with ``Failed to download application 'registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee' due to 'Error pulling image (latest) from registry.resin.io/appname/c12345678b37bdeb5e30e17e3c41af19344aceee, HTTP code 400'``.
+
+docker pull registry2.resin.io/$appName/$commit
+docker tag registry2.resin.io/$appName/$commit registry.resin.io/$appName/$commit
+docker push registry.resin.io/$appName/$commit
+(step 3 requires login to our registry, which unless you're Page won't have access to, but you can run steps 1 and 2 only on the device and it should work).
+Failed to register layer: rename, directory not empty
+Since ResinOS 1.2.1 we have docker 1.10.3 on the device, the docker pull of layers now happen in parallel which is great, but sometime if a power cut or something interupts it the device gets into an ugly state with the following error:
+28.06.16 18:46:00 +0100 Failed to download application 'registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd' due to 'Error pulling image (latest) from registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd, failed to register layer: rename /var/lib/docker/image/btrfs/layerdb/tmp/layer-710701705 /var/lib/docker/image/btrfs/layerdb/sha256/61baa2539f1a2255c8cebe9ab6ba2ab9228a96a060e2cad7cde63268d5a2f38b: directory not empty'
+ 
+This can be treated by first running:
+du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/sha256/* | grep '^0'
+it finds all directories in /var/lib/docker/image/btrfs/layerdb/sha256/ that have a total size of 0. This is just to check.
+We can now delete them using:
+rm -rf $(du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/sha256/* | grep '^0' | cut -f2)
+ 
+Misc
+raspberry-pi
+How to use one-wire temperature sensor: Add: 
+dtoverlay=w1-gpio
+to /boot/config.txt
+See https://resin.io/blog/updating-config-txt-remotely/ on how to do that.
+The container should also "modprobe w1-gpio && modprobe w1-therm". Then the temperature probe should show up under "/sys/bus/w1/devices"
+ 
+ 
+./rce-cleanup-volumes.sh 
+ 
