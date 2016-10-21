@@ -1480,6 +1480,16 @@ The error `Conflict. The name "/resin_supervisor" is already in use by container
 
 Tentative solution. In the host OS delete everything in `/var/lib/docker/containers` that doesn't match the user's container id and then restart docker.
 
+Make sure that the user apps container is running and supervisor is indeed dead.
+```
+$ docker ps -a
+```
+
+Then remove all non-running containers (in our case the supervisor):
+```
+$ docker rm `(docker ps -q && docker ps -qa) | sort | uniq -u`
+```
+
 ### Misc
 #### raspberry-pi
 **How to use one-wire temperature sensor:**
