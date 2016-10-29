@@ -92,6 +92,17 @@ The DB backend for the DevEnv can be connected with the following details:
 
 You should be able to do this from your host machine. For OSX, [Postico](https://eggerapps.at/postico/) is a great little Application. The DB you'll be most interested in is `resin` (where user, application, device, etc. tables are held).
 
+# S3 (Minio Server)
+
+The Image Maker uses the included Minio S3 server by default, and no longer uses the filesystem for local image storage. You can import new slug images using the `import-images` tool (see the 'Devices' page [here](https://github.com/resin-io/hq/wiki/Devices)) which will then import them into the Minio server.
+
+To inspect the contents of the server, you can login to it using your browser:
+
+    Host: s3.resindev.io
+    User: abcdef1234
+    Password: 1234567890
+
+
 # Connecting to the dashboard
 
 Once startup has completed, you should be able to see a local copy of the Resin.io dashboard. Simply navigate to https://dashboard.resindev.io/ on your host machine.
