@@ -7,7 +7,7 @@ This page is a repository for everything you need to know when doing customer su
 |--------------|:--------------:|:--------:|
 |7:00 - 11:00  | @michal-mazurek   | @shaunmulligan |
 |11:00 - 15:00 | @emirotin    |@izavits |
-|15:00 - 19:00 | @telphan | @agherzan |
+|15:00 - 19:00 | @agherzan | @telphan |
 |19:00 - 23:00 | @ | @ |
 
 
