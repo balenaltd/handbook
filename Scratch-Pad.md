@@ -1032,6 +1032,8 @@ curl -X DELETE "https://api.resin.io/v2/user($1)" -H "Authorization: Bearer $2" 
 
 ```
 
+You should get an `OK` response on successful account deletion.
+
 Also, since we don't use email verification we need to take some extra steps to establish the identify of the user that is asking for account deletion:
 
 1. The user must provide the username of the account that he wants to delete.
