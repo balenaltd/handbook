@@ -108,6 +108,7 @@
     - [Get image download size with the Resin SDK](#get-image-download-size-with-the-resin-sdk)
     - [User wants to set a file as an Environment Variable](#user-wants-to-set-a-file-as-an-environment-variable)
     - [User wants to update only some Devices attached to an Application](#user-wants-to-update-only-some-devices-attached-to-an-application)
+    - [User wants to delete account](#user-wants-to-delete-account)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
@@ -1019,6 +1020,27 @@ for each different application (in this case, 'appone' and 'apptwo').
 You can then assign half your fleet to application 'appone' and the other half of your fleet to application 'apptwo'.
 Now if you push to the appropriate remote (eg. 'appone'), only those devices attached to that application will be updated.
 You can easily move devices between applications by selecting a device from a current application, then selecting 'Actions' and then 'Move device'.
+
+### User wants to delete account
+It is currently not possible for a user to delete his own account from the dashboard, so an admin must handle this manually. In order to avoid any unfortunate accidents by using the admin's credentials directly, please use the 'login as' admin panel feature, copy the user's auth token and run `./del.sh "<userId> "<userAuthToken>"` using the following script:
+
+```sh
+#!/bin/bash
+set -u
+
+curl -X DELETE "https://api.resin.io/v2/user($1)" -H "Authorization: Bearer $2" --compressed
+
+```
+
+Also, since we don't use email verification we need to take some extra steps to establish the identify of the user that is asking for account deletion:
+
+1. The user must provide the username of the account that he wants to delete.
+2. The account deletion request must originate the email that is set in the account 'Preferences'.
+3. Even if the original account deletion request satisfies both 1. and 2., we should ask for a final confirmation by sending an email to the account email address, because some misconfigured email servers are still open to spoofing attacks.
+
+In closing, since this is a parting user we should ask for feedback, e.g.:
+
+> We are sad to see you go and would really appreciate any feedback you have on our service/platform or things we can improve.
 
 ***
 
