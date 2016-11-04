@@ -2,6 +2,44 @@
 
 This page is a repository for everything you need to know when doing customer support at resin.io
 
+## Summit support
+
+When users open Intercom, they see this "away" message:
+>The resin team is traveling till Nov 14 so our support is limited. We are focusing on critical issues for paid customers. In lieu, see our forums: talk.resin.io
+
+Relatedly, our plan is to roll out community-only support for most unpaid users. We're not shoving them off into the bush. We're going to make a concerted effort to build up forum support. To start, that means a closer eye on the responses from community members, to help guide them when they're incorrect. For users, we'll want to cultivate a set of "time to bring them to 1:1" scenarios. (Bricking a device is a good start.
+
+As we receive Intercom messages, we'll want to triage and respond quickly. It's quite possible they didn't absorb our away message, so we want to set their expectations. It's a lot easier to do that right after they sent the message, rather than hours later.
+
+####What are we defining as critical?
+
+Above all else, use your own judgement. This is a super vague delineation we're making. Some ideas include
+* if they have a bricked device
+* if they have a problem that halts their overall work
+* bonus points if they are a partner or critical customer
+
+They'll be able to respond if they think differently, or have more information that escalates a ticket, so don't worry too much about getting it wrong based on the information you have.
+
+###There are three main responses to an Intercom message during Summit:
+
+####For unpaid users
+We'll want to confirm they're not a paid customer before punting them. The reason to be strong with them is to also socialize them on the idea that we have the option of not providing 1:1 support to them They get a canned response pointing them to the forum - make sure to check that they’re not a paid just
+
+[canned response - forum! really sell it, so it sticks]
+
+####For paid users
+If their issue is not critical, use this canned response. Since they will be unsure if we'll be responding to it as critical or not, it'll be good to get this response to them as quickly as we can.
+
+[canned response - paid users to go to forum, or we’ll get back to them next week - if they feel this is critical, please respond]
+
+For critical issues, the customer will be wondering if we deem it critical. Responding to confirm we are attending to their ticket will make this clear. If you're planning to respond anyway, perhaps include a "This is a critical issue, and I'm happy to help."
+
+Otherwise, quick send them this response.
+
+[canned response confirming we have it and we’re on it so they don’t wonder]
+
+--------------
+
 ## Who On Support This Week? (updated: 31 Oct 2016)
 |Hours (UTC)   | Engineer       | Stand-in |
 |--------------|:--------------:|:--------:|
