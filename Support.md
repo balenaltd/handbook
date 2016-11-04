@@ -27,7 +27,7 @@ Check that they're not a paid customer first.
 
 >Once a year our [remote team gets together](https://resin.io/blog/how-we-run-a-remote-team/) to improve our systems and processes, all in the name of resin. We will focus our extremely limited support time on mission-critical issues for paid customers. 
 
->Since we have such limited availability, users (like yourself) who are using the free [launch plan](https://resin.io/pricing/) will need to rely our [community forums](talk.resin.io). We've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
+>Since we have such limited availability, users (like yourself) who are using the free [launch plan](https://resin.io/pricing/) will need to rely on our [community forums](talk.resin.io). We've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
 
 >All of us will be back home (and back to business) Monday, November 14.
 
@@ -40,7 +40,7 @@ If their issue is not critical, use this canned response. Since they will be uns
 
 >Once a year our [remote team gets together](https://resin.io/blog/how-we-run-a-remote-team/) to improve our systems and processes, all in the name of resin. We are focusing our extremely limited support time on mission-critical issues for paid customers. 
 
->Since we have such limited availability, we're asking all users to rely our [community forums](talk.resin.io) for non-critical issues. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
+>Since we have such limited availability, we're asking all users to rely on our [community forums](talk.resin.io) for non-critical issues. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
 
 >We've looked at your issue, and from what we can tell, it does not appear to be mission critical. Please check out the [community forums](talk.resin.io) for an answer or ask about it there. If it's not time sensitive, we can look at it after November 14. **If this is a critical issue, please respond and tell us as much as you can about it, so we can quickly and efficiently help you.**
 
