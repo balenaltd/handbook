@@ -23,20 +23,35 @@ They'll be able to respond if they think differently, or have more information t
 ###There are three main responses to an Intercom message during Summit:
 
 ####For unpaid users
-We'll want to confirm they're not a paid customer before punting them. The reason to be strong with them is to also socialize them on the idea that we have the option of not providing 1:1 support to them They get a canned response pointing them to the forum - make sure to check that they’re not a paid just
+Check that they're not a paid customer first. 
 
-[canned response - forum! really sell it, so it sticks]
+>Once a year our [remote team gets together](https://resin.io/blog/how-we-run-a-remote-team/) to improve our systems and processes, all in the name of resin. We will focus our extremely limited support time on mission-critical issues for paid customers. 
+
+>Since we have such limited availability, users (like yourself) who are using the free [launch plan](https://resin.io/pricing/) will need to rely our [community forums](talk.resin.io). We've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
+
+>All of us will be back home (and back to business) Monday, November 14.
+
+The reason to strongly word this is to also socialize them on the idea that we have the option of not providing 1:1 support to them. If they respond with a request to help them just this once, unless it is our fault, we need to reply with a firm reminder that this is the level of support they get with a free account, and link to the forums.
 
 ####For paid users
 If their issue is not critical, use this canned response. Since they will be unsure if we'll be responding to it as critical or not, it'll be good to get this response to them as quickly as we can.
 
-[canned response - paid users to go to forum, or we’ll get back to them next week - if they feel this is critical, please respond]
+#####Non-critical issues
 
-For critical issues, the customer will be wondering if we deem it critical. Responding to confirm we are attending to their ticket will make this clear. If you're planning to respond anyway, perhaps include a "This is a critical issue, and I'm happy to help."
+>Once a year our [remote team gets together](https://resin.io/blog/how-we-run-a-remote-team/) to improve our systems and processes, all in the name of resin. We are focusing our extremely limited support time on mission-critical issues for paid customers. 
+
+>Since we have such limited availability, we're asking all users to rely our [community forums](talk.resin.io) for non-critical issues. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
+
+>We've looked at your issue, and from what we can tell, it does not appear to be mission critical. Please check out the [community forums](talk.resin.io) for an answer or ask about it there. If it's not time sensitive, we can look at it after November 14. **If this is a critical issue, please respond and tell us as much as you can about it, so we can quickly and efficiently help you.**
+
+>All of us will be back home (and back to business) Monday, November 14.
+
+#####Critical issues
+The customer will be wondering if we are going to deem it critical. Responding to confirm we are attending to their ticket will make this clear. If you're planning to respond anyway, perhaps include a "This is a critical issue, and I'm happy to help."
 
 Otherwise, quick send them this response.
 
-[canned response confirming we have it and we’re on it so they don’t wonder]
+>Although we're all traveling for our [company summit](https://resin.io/blog/how-we-run-a-remote-team/), we are focusing our extremely limited support time on mission-critical issues like this. We'll respond again as soon as we have the right questions or answers for you.
 
 --------------
 
