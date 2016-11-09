@@ -950,24 +950,22 @@ You can enable deltas by simply creating a fleet config variable named `RESIN_SU
 Set `RESIN_SUPERVISOR_LOG_CONTROL` env var to `false`, see https://resin.io/blog/device-bandwidthdata-usage-how-low-can-we-go/ for more details.
 
 ### Can you disable 2FA so I can recover my account
-__Note:__ replace <random-string> with a unique string. You can generate one by running:
+__Note:__ replace `CHANGE_ME` with a unique string. You can generate one by running:
 ```
-$ openssl rand -hex 32
+openssl rand -hex 32
 ```
-an example command for the user would be: 
-```
-echo 46e84abfb5d483b8a4f6cbe3498fc48eefe4f6383fd1aaf8bd31ddd43bfb5d14 | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
-```
-**canned response:**
->By choosing to enable 2-factor authentication you have made it clear for us that security is as important concern for you as it is for us. It also means you do not completely trust authenticating with just a password. 
+In the canned response, add the output of `openssl rand -hex 32` as `CHANGE_ME`
 
->Therefore you will understand that we need to take extra measures to be sure that we are not disabling 2-factor authentication for an attacker who learned your password.
+**Canned response:**
+>By choosing to enable two-factor authentication, you have made it clear to us that security is as an important concern for you as it is for us. It also means you do not completely trust authenticating with just a password. 
 
->We would like to verify that you're in possession of the SSH key you have provided to us. To do this you'll have to run the following command and send us the output via your accounts email. After we validate the signature we'll disable 2FA on your account and you'll be able to login with just your password.
+>Therefore you will understand that we need to take extra measures to be sure that we are not disabling two-factor authentication for an attacker who learned your password.
+
+>We would like to verify that you're in possession of the SSH key you have provided to us. To do this you'll have to run the following command and send us the output via your account's email. After we validate the signature we'll disable 2FA on your account and you'll be able to login with just your password.
 ```
-echo <random-string> | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
+echo CHANGE_ME | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
 ```
->Please let us know if have trouble following the above procedure.
+>Please let us know if you have trouble with the above procedure.
 
 **Verifying Users Response** 
 __Note:__ You'll need a GNU version of openssl to run this.
