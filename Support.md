@@ -30,7 +30,7 @@ Check that they're not a paid customer first.
 >Since we have such limited availability, users (like yourself) who are using the free launch plan(2) will need to rely on our community forums:
 https://github.com/resin-io/hq/wiki/talk.resin.io
 
->We've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
+>Up to now we've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
 
 >All of us will be back home (and back to business) Monday, November 14.
 
@@ -38,6 +38,7 @@ https://github.com/resin-io/hq/wiki/talk.resin.io
 >Resin
 
 > (1) https://resin.io/blog/how-we-run-a-remote-team/
+
 > (2) https://resin.io/pricing/
 
 The reason to strongly word this is to also socialize them on the idea that we have the option of not providing 1:1 support to them. If they respond with a request to help them just this once, unless it is our fault, we need to reply with a firm reminder that this is the level of support they get with a free account, and link to the forums.
