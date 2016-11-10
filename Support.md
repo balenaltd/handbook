@@ -25,9 +25,9 @@ They'll be able to respond if they think differently, or have more information t
 ####For unpaid users
 Check that they're not a paid customer first. 
 
->Once a year our remote team gets together* to improve our systems and processes, all in the name of resin. We will focus our extremely limited support time on mission-critical issues for paid customers.
+>Once a year our remote team gets together(1) to improve our systems and processes, all in the name of resin. We will focus our extremely limited support time on mission-critical issues for paid customers.
 
->Since we have such limited availability, users (like yourself) who are using the free launch plan** will need to rely on our community forums:
+>Since we have such limited availability, users (like yourself) who are using the free launch plan(2) will need to rely on our community forums:
 https://github.com/resin-io/hq/wiki/talk.resin.io
 
 >We've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
@@ -37,8 +37,8 @@ https://github.com/resin-io/hq/wiki/talk.resin.io
 >Cheers,
 >Resin
 
->* https://resin.io/blog/how-we-run-a-remote-team/
->** https://resin.io/pricing/
+> (1) https://resin.io/blog/how-we-run-a-remote-team/
+> (2) https://resin.io/pricing/
 
 The reason to strongly word this is to also socialize them on the idea that we have the option of not providing 1:1 support to them. If they respond with a request to help them just this once, unless it is our fault, we need to reply with a firm reminder that this is the level of support they get with a free account, and link to the forums.
 
