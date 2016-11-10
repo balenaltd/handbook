@@ -28,7 +28,7 @@ Check that they're not a paid customer first.
 >Once a year our remote team gets together(1) to improve our systems and processes, all in the name of resin. We will focus our extremely limited support time on mission-critical issues for paid customers.
 
 >Since we have such limited availability, users (like yourself) who are using the free launch plan(2) will need to rely on our community forums:
-https://github.com/resin-io/hq/wiki/talk.resin.io
+https://talk.resin.io/
 
 >Up to now we've been providing chat and email support to all users, and we can't hold up the load while also having an all-hands summit week. Don't worry, we'll be in forums with you and the rest of the community to help answer questions well!
 
