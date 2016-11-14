@@ -171,7 +171,7 @@ This can be achieved for each component by running a few steps. Running all of t
 1. Uncomment the relevant line from the `fig.yml` manifest (in the `volumes` section for that service)
 2. Clone the repo for the service you want to alter code for in the `src` directory, and rename the repo to the service specified in `fig.yml`.
 3. Change into the repo directory for the service, and ensure that any dependencies are installed, for most this will just involve an `npm install` (**must** be from inside VM)
-4. Restart the relevant service from fig by doing `fig kill <service> && fig rm -f <service> && fig up -d <service>`
+4. Restart the relevant service from fig by doing `fig up -d <service>`
 
 By default, you can't create an Application in the Dashboard as default, as the `img` service is a lightweight version that doesn't contain any of the device type definitions. To solve this and to be able to create Apps, do the following (this should also be applied to all other repos for containers, but check the relevant documents to ensure there are no extra steps required):
 
@@ -182,7 +182,7 @@ Here's a quick example using the `img` service, after uncommenting the `# - ./sr
     mv resin-image-maker img
     cd img
     npm install
-    fig kill img && fig rm -f img && fig up -d img
+    fig up -d img
 
 Some containers pick up changes automatically (for example if they're running `nodemon`). Some need to be manually kicked again using `fig kill...`.
 
