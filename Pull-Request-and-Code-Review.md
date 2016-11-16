@@ -10,7 +10,7 @@ To do this:
 6. Select the little gear icon next to the 'Labels' section in the right-hand panel of the PR, and select `flow/in-review`. This ensures that anyone looking at it understands that it's currently in review
 7. Reviewers will comment on the code. Respond to each comment individually, as opposed to responding to all comments in one big comment
 8. If the review requires code changes, set the label for the PR to `flow/in-progress` and return to make the code changes required on the branch, following the [commit](https://github.com/resin-io/hq/wiki/Commit-Guidelines-&-Issues) guidelines, ensuring to reference the issue in all subsequent commits, as well.
-9. Return to step `6.` and continue in the loop until reviewers make the comment `LGTM` (Looks Good To Me) or `SGTM` (Sounds Good To Me, which Pepe will write)
+9. Return to step `6.` and continue in the loop until reviewers make approve the request and allow you to merge
 10. Finally if all is well, the reviewers are happy and the Jenkins status is green across the board, hit the 'Merge pull request' button at the bottom of the PR
 11. You should see a 'Pull request successfully merged and closed' message appear. **IMPORTANT:** At this point, it is most probably worth you deleting the branch you used to carry out the work on. Leaving branches hanging around clutters up the list for new PRs, and isn't desirable. Unless there's a good reason for doing so, delete the branch
 12. There may be extra work to carry out now, to ensure that the project you've carried out the work on is easily maintained:
