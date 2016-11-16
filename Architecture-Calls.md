@@ -10,9 +10,14 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 15 Nov 2016
 
-* How to mark Resin 2.0 development devices 
-* Handling transitions when moving Apps and handling update locks 
-* Need to improve instructions on boards that support multi baseboard 
+* How to mark Resin 2.0 development devices
+  * Action required: Write spec on how to mark dev/prod and debug
+* Handling transitions when moving Apps and handling update locks
+  * Action required: Write spec on how the supervisor should automatically purge /data when an app is moved
+* Need to improve instructions on boards that support multi baseboard
+  * Action required: Should specify the TS baseboard in instructions
 * Process/Roadmap tracking
+  * Action required: Create excel sheet to facilitate ticket ranking from all facets (marketing, sales, devops, security etc.)
+  * Action required: All facet stakeholders should pick their top 5 issues, and add weight (1-5) in the excel sheet
 
 https://docs.google.com/document/d/1kMlpNSqW7YWOL3hcmsXEkuKUiphztibyjRkMfc-CRog/edit
