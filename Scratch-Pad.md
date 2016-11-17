@@ -117,6 +117,8 @@
     - [Accessing Devices via Another Device](#accessing-devices-via-another-device)
     - [Fixing the Bash/Node Race (Legacy??)](#fixing-the-bashnode-race-legacy)
     - [Checking Disk Space Usage (btrfs)](#checking-disk-space-usage-btrfs)
+  - [Updating the host OS](#updating-the-host-os)
+    - [Scheduling an update](#scheduling-an-update)
   - [1. Checking Disk Space Usage](#1-checking-disk-space-usage)
     - [Pre-3.18](#pre-318)
   - [2. Clearing Down Space](#2-clearing-down-space)
@@ -1177,6 +1179,19 @@ simply running `docker` and `rce` - if the former works you have a modern device
 which uses docker direct, if the latter works you have an older device so need
 to translate the commands to reference rce, and if neither work you're in
 serious trouble :)
+
+## Updating the Host OS
+
+### Scheduling an Update
+
+If a user asks for updating the host OS on some of their devices, or the whole
+fleet:
+
+* Check [this spreadsheet](https://docs.google.com/a/resin.io/spreadsheets/d/1w5qumNWpqm1C1zYTQ13I1jsMEVC-avU4pLV9_dv9M3c/edit?usp=sharing) on Google Drive
+* Make a copy of the spreadsheet, rename it to include the customer's name in the title
+* Share a link with the customer so they will fill it out
+* Start an [issue in hq](https://github.com/resin-io/hq/issues) with the update
+  request, with link to both the spreadsheet and the support conversation
 
 ## 1. Checking Disk Space Usage
 
