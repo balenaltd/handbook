@@ -84,5 +84,4 @@ This workflow specifically discusses dealing with support issues in Front, howev
 
 ### Specific support
 
-[Summit support](https://github.com/resin-io/hq/wiki/Summit-support)
-Documentation of the process we use to provide limited support during our all-hands summit week.
+[Summit support](https://github.com/resin-io/hq/wiki/Summit-support) - documentation of the process we use to provide limited support during our all-hands summit week.
