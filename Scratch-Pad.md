@@ -109,6 +109,7 @@
     - [User wants to set a file as an Environment Variable](#user-wants-to-set-a-file-as-an-environment-variable)
     - [User wants to update only some Devices attached to an Application](#user-wants-to-update-only-some-devices-attached-to-an-application)
     - [User wants to delete account](#user-wants-to-delete-account)
+    - [ENOENT on docker.sock](#enoent-docker-sock)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
@@ -1043,6 +1044,27 @@ Also, since we don't use email verification we need to take some extra steps to 
 In closing, since this is a parting user we should ask for feedback, e.g.:
 
 > We are sad to see you go and would really appreciate any feedback you have on our service/platform or things we can improve.
+
+### ENOENT on docker.sock
+
+**WARNING**: This was encountered during experimental work on the ubuntu-supervisor,
+and should not be applied to a customer's device without talking to the device/supervisor
+teams.
+
+We used to bind-mount the Docker socket in on `/run/docker.sock`, but at some point 
+switched to `/var/run/docker.sock`. This can cause problems with deltas depending on
+the library version in use.
+
+Sample output:
+
+```
+17.11.16 15:52:54 [-0800] Failed to download application 'registry.resin.io/jenkinsgateway/<hash>' due to 'connect ENOENT /var/run/docker.sock'
+```
+
+Solution(s):
+
+* Change the bind-mount to the newer version (`/var/run/docker.sock`)
+* OR: Try symlinking the socket inside the supervisor
 
 ***
 
