@@ -1659,6 +1659,8 @@ rm -rf $(du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/s
 
 ### The name "/resin_supervisor" is already in use by container`
 
+Docker issue: https://github.com/docker/docker/issues/23371
+
 The error `Conflict. The name "/resin_supervisor" is already in use by container` can happen when docker removed the name from its layerdb without actually removing the layers. You can't remove the container because it said no container existed with that name, and you can't start one with that name because it says it already exist.
 
 Tentative solution. In the host OS delete everything in `/var/lib/docker/containers` that doesn't match the user's container id and then restart docker.
