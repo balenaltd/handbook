@@ -1663,16 +1663,16 @@ Docker issue: https://github.com/docker/docker/issues/23371
 
 The error `Conflict. The name "/resin_supervisor" is already in use by container` can happen when docker removed the name from its layerdb without actually removing the layers. You can't remove the container because it said no container existed with that name, and you can't start one with that name because it says it already exist.
 
-Tentative solution. In the host OS delete everything in `/var/lib/docker/containers` that doesn't match the user's container id and then restart docker.
+Make sure that the user's app container is running and supervisor is indeed dead.
 
-Make sure that the user apps container is running and supervisor is indeed dead.
 ```
 $ docker ps -a
 ```
 
-1. Check journalctl for the error:
-journalctl -u resin-supervisor -n20
+Check journalctl for the error:
+
 ```
+# journalctl -u resin-supervisor -n20
 Nov 09 18:58:25 raspberrypi3 systemd[1]: Started Resin supervisor.
 Nov 09 18:58:25 raspberrypi3 bash[1353]: docker: Error response from daemon: Conflict. The name "/resin_supervisor" is already in use by container 2055f64ab1fc2526fc383e5daeb0ee76717d427d3585af7a24ba13f6800cbd41. You have to remove (or rename) that container to be able to reus
 e that name..
@@ -1681,26 +1681,37 @@ Nov 09 18:58:25 raspberrypi3 systemd[1]: [[1;39mresin-supervisor.service: Main p
 Nov 09 18:58:26 raspberrypi3 docker[1384]: Failed to stop container (resin_supervisor): Error response from daemon: No such container: resin_supervisor
 Nov 09 18:58:27 raspberrypi3 docker[1394]: Failed to remove container (resin_supervisor): Error response from daemon: No such container: resin_supervisor
 ```
-2. Find the ID of the user container:
-Run docker ps to see the ID of the users container, and then delete all the other containers in /var/lib/docker/container. here is an example from a device.
-```
-root@raspberrypi3:~# docker ps -a
-CONTAINER ID        IMAGE                                                                          COMMAND                  CREATED                  STATUS              PORTS               NAMES
-c668b1aa1b6d        registry.resin.io/testevanovaradio4/fab26921bef4d610d097137e8c0a8b9ac2b1c053   "/usr/bin/entry.sh ba"   Less than a second ago   Up 3 hours                              angry_goldwasser
-root@raspberrypi3:~# ls /var/lib/docker/containers/
-040fb5424d931e7713c7bfb7e5f7a60afc3f9925e52de515920a97a74bd87831  11ebd89f5222e41cd1e55ac6301476164280897dc2c5040d32e78b2397de4c5f  c668b1aa1b6db35d19f40a44788d5f236e65a96905bb5f05ff834fb26ddd4c0c
-```
 
-In this example we would delete the following using `rm -rf`
-```
-040fb5424d931e7713c7bfb7e5f7a60afc3f9925e52de515920a97a74bd87831  11ebd89f5222e41cd1e55ac6301476164280897dc2c5040d32e78b2397de4c5f
-```
+First, try restarting Docker:
 
-Now we stop docker, `systemctl stop docker` and restart it using `systemctl start docker`
+```
+# systemctl stop docker
+# systemctl start docker
+# systemctl start resin-supervisor
+```
 
 __IMPORTANT__ for some reason `systemctl restart docker` does **NOT** work.
 
-Finally restart the supervisor: `systemctl start resin-supervisor`
+See if that fixes the issue:
+
+```
+# docker ps -a | grep resin_supervisor
+911d82302435  resin/armv7hf-supervisor  "/sbin/init"  46 minutes ago  Up 46 minutes  resin_supervisor
+```
+
+If that didn't work, stop services, unmount Docker filesystem, mount again and start services:
+
+```
+# systemctl stop docker
+# systemctl stop var-lib-docker.mount
+# systemctl start var-lib-docker.mount
+# systemctl start docker
+# systemctl start resin-supervisor
+```
+
+If that still didn't work, ask the user to reboot the device. Remember to disconnect from the device before the reboot.
+
+If that still didn't work, ping Petros, it's his kind of thing :)
 
 ### Misc
 #### raspberry-pi
