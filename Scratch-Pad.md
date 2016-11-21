@@ -1712,9 +1712,9 @@ First, try restarting Docker:
 # systemctl start resin-supervisor
 ```
 
-__IMPORTANT__ for some reason `systemctl restart docker` does **NOT** work.
+__IMPORTANT__ `systemctl restart docker` does **NOT** work.
 
-See if that fixes the issue:
+See if that fixes the issue (give 30 or more seconds to the supervisor to start up):
 
 ```
 # docker ps -a | grep resin_supervisor
