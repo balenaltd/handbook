@@ -1571,19 +1571,23 @@ curl -X POST 'https://api.resin.io/services/vpn/reset-all?apikey=ff4b1c65205943e
 
 >IMPORTANT: This currently does not work prior to a reboot. If you are going to use this right now, make sure to reboot the device (with permission and make sure it's safe to do so.) Theodor is working on fixing this.
 
-?As it stands now our images provide volatile logging for the system journal. If one needs to have persistent journal log on a device one can do so remotely.
-First create a bash script containing the following : 
+As it stands now our images provide volatile logging for the system journal. If one needs to have persistent journal log on a device one can do so remotely.
+
+First create a bash script containing the following:
+
+```
 #!/bin/bash
 #Comment out the auto-mount of tmpf on volatile memory
 sed -i '/\/var\/volatile/ s/^#*/# /' /etc/fstab
 sed -i '/Storage=/c\Storage=persistent' /etc/systemd/journald.conf
 sed -i '/SystemMaxUse=/c\SystemMaxUse=16M' /etc/systemd/journald.conf
 
->umount  /var/volatile
-rmdir /var/volatile # Added by Pablo after seeing an error
+umount /var/volatile
+rmdir /var/volatile
 mkdir -p /mnt/data/volatile/log
 cd /var && ln -sf /mnt/data/volatile .
 systemctl restart systemd-journald
+```
 
 Then run the local script that you have created (e.g. persistent-logging.sh) on the remote machine:
 ssh resin -o Hostname=${UUID}.vpn "bash -s" < persistent-logging.sh 
