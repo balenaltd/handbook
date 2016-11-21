@@ -4,13 +4,10 @@ This page is a repository for everything you need to know when doing customer su
 
 
 
-## Who On Support This Week? (updated: 16 Nov 2016)
-|Hours (UTC)   | Engineer       | Stand-in |
-|--------------|:--------------:|:--------:|
-|7:00 - 11:00  | @dfunckt   | @shaunmulligan |
-|11:00 - 15:00 | @josephroberts    |@izavits |
-|15:00 - 19:00 | @curcuz | @telphan |
-|19:00 - 23:00 | @shaunmulligan | @ |
+## Who On Support This Week? (updated: 21 Nov 2016)
+We're pausing the support league, and trying something completely different.
+[Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
+[Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
 
 
 ## Important Links
@@ -30,6 +27,7 @@ At resin.io we do support differently - firstly, every engineer does it, and sec
 If you're interested in the philosophy behind this approach, check out our [Support-driven Development blog post](https://resin.io/blog/support-driven-development/) which goes into a lot more detail.
 
 ## How is support assigned?
+**This is on pause. See Who Is On Support This Week for the details**
 Each week we assign 4 engineers to each watch a 4 hour period during their work day. This allows us to cover a 16 hour period from 07:00 - 23:00 (UTC) ever day.
 We try to choose who does support as fairly as we can by manually scoring conversations based on effort and quality. We use the sum of this score divided by the number of weeks worked to rank employees in the [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo). The 4 engineers for the week are selected based on their score and their timezone availability.
 
@@ -56,6 +54,21 @@ Weekend cover isn't expected to be as intense as weekday work, rather you make s
 5. Open the Scratch Pad and peruse the content - The scratch pad has a wealth of knowledge of in-the-wild issues, workarounds, canned responses for users, how to do things internally, etc. This is a good place to look for answers before pinging others.
 Now you are ready to get stuck in! If you encounter any access restrictions for any of the above, ping the operations guys (Aggelos and Apostolis at the time of writing) or the support lead (Shaun at the time of writing.)
 NB!! If you find that you often need to dig into a users device then you should ask Shaun Mulligan if you can get device access and then follow the setup guide for Accessing User Devices.
+
+### Support tools scratchpad
+
+#### Gitter
+Has private messaging, but please don't use it (unless it's an emergency), because we can't capture the conversation in a way that lets other folks see what's going on and help.
+
+#### Intercom
+If a user complains that they don't see the icon on the website, they may be blocking it. You can ask them to disable the blocker.
+
+#### Zendesk
+The heavy-duty helpdesk app we used, though we access it through Front. Please don't respond to users via Zendesk, or we won't capture the content in Front.
+
+#### Front
+All roads lead to Front, and those roads break sometimes. Something to be aware of. (We can add more helpful information here as we get it.)
+
 
 ## The Support Week
 * **IMPORTANT** - During your 4 hour slot, covering support is your full time and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, Gitter and Resin Talk, responding as quickly and as accurately as possible to any new message.
