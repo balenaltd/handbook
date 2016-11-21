@@ -22,12 +22,14 @@ Many interesting technical discussions often produce very long threads that are 
 
 https://docs.google.com/document/d/1kMlpNSqW7YWOL3hcmsXEkuKUiphztibyjRkMfc-CRog/edit
 
+===
+
 ### 21 Nov 2016
 
 * Combining emmc and sd boot images
   * [Action required 1]: Introducing the notion of flashing will require more steps on the hostOS; more research is required on this item because these steps are not obvious at the moment
   * [Action required 2]: There was discussion on contacting OpenROV to figure out exactly what they need and how close they are to the particular device type (beaglebone)
-  * [action required 3]: Also need to discuss more on flasher-type devices in general
+  * [Action required 3]: Also need to discuss more on flasher-type devices in general
 * Signed images (EVRYTHNG request)
 
 https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/edit
