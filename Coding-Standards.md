@@ -8,13 +8,12 @@ We use CoffeeScript where possible (99.9% of cases), which are transpiled to Jav
 * Multi-line function calls should elide parens unless they are necessary, e.g.:
 
         scrape 'http://google.co.uk', (err, data) ->
-        return console.error('Error', err) if err?
-        console.log(data)
+            return console.error('Error', err) if err?
+            console.log(data)
 
         # Have to use parens.
-
         chaining().is().fun ->
-        console.log('hi!')
+            console.log('hi!')
         .isnt().it()
 
 * Array declarations should have spaces after the `[` and before the `]`, and spaces after any commas e.g. `[ foo, bar, baz ]`, rather than `[foo,bar,baz]`. This doesn't apply to indexing into an array, we prefer `foo[42]` to `foo[ 42 ]`. These rules also apply to curly braces
