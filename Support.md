@@ -6,9 +6,8 @@ This page is a repository for everything you need to know when doing customer su
 
 ## Who On Support This Week? (updated: 21 Nov 2016)
 We're pausing the support league, and trying something completely different.
-[Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
-[Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
-
+* [Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
+* [Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
 
 ## Important Links
 * [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
@@ -28,6 +27,7 @@ If you're interested in the philosophy behind this approach, check out our [Supp
 
 ## How is support assigned?
 **This is on pause. See Who Is On Support This Week for the details**
+
 Each week we assign 4 engineers to each watch a 4 hour period during their work day. This allows us to cover a 16 hour period from 07:00 - 23:00 (UTC) ever day.
 We try to choose who does support as fairly as we can by manually scoring conversations based on effort and quality. We use the sum of this score divided by the number of weeks worked to rank employees in the [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo). The 4 engineers for the week are selected based on their score and their timezone availability.
 
