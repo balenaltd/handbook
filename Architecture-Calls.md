@@ -33,3 +33,14 @@ https://docs.google.com/document/d/1kMlpNSqW7YWOL3hcmsXEkuKUiphztibyjRkMfc-CRog/
 * Signed images (EVRYTHNG request)
 
 https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/edit
+
+===
+
+### 24 Nov 2016
+
+* Allowing users to select and change their usernames
+  * [Action required]: Draft a spec
+* Discussion on understanding the Etcher/resin.io connection
+  * https://docs.google.com/drawings/d/1ulscHze6R2pG2-7y8MY0K1KwuoCg4Yn7UyaECMzGd0w/edit
+
+https://docs.google.com/document/d/1yXzolkALQSw6DkbcoJ9oBQ2IsY_B4iWNlwicdYPr9Do/edit
