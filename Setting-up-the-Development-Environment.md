@@ -9,8 +9,12 @@ This document describes how a new user can get up and running with the Developme
 
 You'll need to install the following:
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - A Virtual Machine implementation
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - A Virtual Machine implementation.
 * [Vagrant](https://www.vagrantup.com/downloads.html) - A suite of tools to easily configure and run a known, stable VM 'anywhere'. It uses VirtualBox to run VM images
+
+VirtualBox and Vagrant sometimes don't play nicely together, depending on the versions installed. Known working versions which have been tested are:
+* VirtualBox: 5.0.28, Vagrant: 1.8.6
+* VirtualBox: 5.1.10, Vagrant: 1.8.7
 
 It's recommended to install VirtualBox before Vagrant. Once you've installed both, bring up a new terminal and type:
 
