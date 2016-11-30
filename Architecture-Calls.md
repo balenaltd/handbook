@@ -8,6 +8,27 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 28-29 Nov 2016
+
+* Discussion on introducing a VPN resin-redirect component to work around restrictive client firewalls 
+  * [Action item 1]: We need some experimentation to get a better idea of the work needed before writing an actual spec:
+    * Is there a firewall that will easily accept a hostname and handle changing IPs
+    * How are the user application containers affected with regards to network access?
+* Question by Shaun on multicontainer support: Will the devices have compose on the actual device to run the composition of containers and related stuff (also applies to resinOS)
+  * [Action item 1]: We have to try and understand all pieces and start working towards multicontainer support, which we must have ready soon
+  * [Action item 2]: Reevaluate the alternative ways of running docker compose on resin.io / resinOS devices
+  * [Action item 3]: Research the alternative of having writeable usb device
+* Automatically deploying resinos images
+  * [Action item 1]: Write a spec on the changes required to jenkins/image maker to support automatic resinOS image deployments
+  * [Action item 2]: Implement/Deploy an hybrid image maker, with 3 subfolders coupled with the current structure
+  * [Action item 3]:  Work on resinos.io to automatically pick up new versions of deployed images
+* Morty PR and discussion on having a compatibility layer
+  * Discussed a few items but meeting was postponed for the coming Monday
+
+https://docs.google.com/document/d/18lYiY1Mi6qkVKptfcd7nmmVi4n2O7xOnrugIa6sMnxI/edit
+
+===
+
 ### 24 Nov 2016
 
 * Allowing users to select and change their usernames
