@@ -1131,7 +1131,7 @@ If a device is showing offline but you suspect it's the VPN not functioning or t
 
 **Important:** A device might have changed its IP address since it last reported it to the dashboard if it has been unable to connect via the VPN, so not being able to access that IP address does not mean the device is necessarily unreachable. In this case you need to look at performing an ARP scan (see below.)
 
-Simply access the known working device as usual via `ssh -o HostName=<uuid.vpn> resin`, then once inside the device, run:
+Access the known working device via `ssh -A -o HostName=<uuid.vpn> resin`, then once inside the device, run:
 ```
 ssh -A -p 22222 root@<device ip>
 ```
