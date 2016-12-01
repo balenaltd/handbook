@@ -1,4 +1,4 @@
- 
+
 # Contents
 
 - [Contents](#contents)
@@ -153,7 +153,7 @@
 
 # Introduction
 This is a raw scratchpad for centralised knowledge both in terms of user support as well as internal technical documentation we've picked up along the way. It's intended to be a staging point for stuff which will later be ported to the appropriate places.
-Having this here, raw and with no expectation as to quality is useful, since it means the knowledge goes somewhere, rather than being scattered disparately around. 
+Having this here, raw and with no expectation as to quality is useful, since it means the knowledge goes somewhere, rather than being scattered disparately around.
 
 __IMPORTANT:__ The information contained here might be outdated, proceed with caution + check to make sure the steps you are following are correct.
 
@@ -162,11 +162,11 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 * On devices running resinOS older than `version 1.2`, docker is renamed to `rce`, so you have to do thing like `rce images`, etc.
 * Adjusting network configuration on already-provisioned devices isn't easy, due to needing to mount the ext rootfs. Its also dangerous and can brick a device. In general users should be heavily cautioned when working with network config.
 * Images tagged jessie/wheezy/etc. at e.g. [resin/rpi-rasbian](https://hub.docker.com/r/resin/rpi-raspbian/) refer to the `:latest` version of the tag. So for example, at the time of writing, `resin/rpi-raspbian:jessie` is the same as `resin/rpi-raspbian:jessie-2015-06-24`.
-* The host OS for production devices has no valid login/password credentials. 
+* The host OS for production devices has no valid login/password credentials.
 * The Raspberry Pi <2 which uses SD cards ignores the read-only physical switch. Micro SD cards appear to lack this switch altogether.
 * You use [this link](http://jenkins.dev.resin.io/securityRealm/addUser) to add a user to jenkins.
 * The only officially support wifi adapters are ones using the `Broadcom bcm43143 chipset`, however many others should work.
-* connmanctl can be used to control networking settings from within the container (but this requires access to the host OS dbus). In resinOS 2.x the network can be controlled via NetworkManager dbus API. 
+* connmanctl can be used to control networking settings from within the container (but this requires access to the host OS dbus). In resinOS 2.x the network can be controlled via NetworkManager dbus API.
 * Further resin CLI troubleshooting tips can be found in the [troubleshooting doc](http://docs.resin.io/troubleshooting/cli-troubleshooting/).
 * When an app gets killed, the container gets a `SIGTERM` which users can catch and react to. After a grace period, though, the app will get a `SIGKILL` which can't be caught.
 * Installing openssh via a Dockerfile causes ssh-keygen to be triggered in the build, however this will result in each device having the same keys across the fleet.
@@ -182,7 +182,7 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 **About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
 **Workaround:** map the file to a loop device
 So here are the steps to workaround it on BTRFS (tested on your container):
-* dd if=/dev/zero of=/swapfile bs=1024 count=1048576 
+* dd if=/dev/zero of=/swapfile bs=1024 count=1048576
 * losetup -f /swapfile
 * losetup (check assigned loop device - next commands assumes loop0)
 * mkswap /dev/loop0
@@ -213,9 +213,9 @@ We suggest users to use the `jessie` image and to enable systemd support in thei
 
 If for application-specific reasons, another version of bluez must be used, then:
 
-1. Get the preferred version sources 
+1. Get the preferred version sources
 2. Install dependencies: `sudo apt-get install -y libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev`
-3. Enter bluez directory and type: `./configure && make && sudo make install` 
+3. Enter bluez directory and type: `./configure && make && sudo make install`
 
 Since the bluez service runs with systemd:
 * `systemctl status bluetooth` # check status
@@ -247,7 +247,7 @@ The solution here is to either have the user power-cycle or SSH in and kill the 
 1. `/dev` is missing device files the user expects to see.
 2. Alternatively, a **library** that relies on a `/dev` file fails reporting a missing file error or perhaps something more general about the device not being available.
 
-__Important Note:__ this is obsolete since we trigger udevd, but this issue may be encountered in custom base images, or if users are use non-resin base images in general. 
+__Important Note:__ this is obsolete since we trigger udevd, but this issue may be encountered in custom base images, or if users are use non-resin base images in general.
 
 ### Treatments
 Simply execute the udev (https://en.wikipedia.org/wiki/Udev) daemon inside the container and use `udevadm trigger` (http://linux.die.net/man/8/udevadm) to replay the udev events which occurred on host OS startup to pick up any devices added on startup to the container's `/dev` directory, e.g.:-
@@ -288,7 +288,7 @@ This is either 1 of 2 issues. Ask the user which device they're using, then load
 * Raspberry Pi <2 - https://hub.docker.com/r/resin/raspberrypi-node/tags/
 * Raspberry Pi 2 - https://hub.docker.com/r/resin/raspberrypi2-node/tags/
 * Beaglebone Black - https://hub.docker.com/r/resin/beaglebone-node/tags/
-* etc. 😄 
+* etc. 😄
 
 Check whether a tag exists for the specified node version, both `[arch]-node:0.X.Y` and `[arch]-node:0.X.Y-onbuild` - the former is used when preinstall, install and/or postinstall scripts are present, the latter when there aren't ([ref 1](https://bitbucket.org/rulemotion/resin-builder/src/0700ef812357d53d2cc090554b67a0c5c6ae6579/src/project-types/nodejs.coffee?at=master#cl-55), [ref 2](https://bitbucket.org/rulemotion/resin-builder/src/0700ef812357d53d2cc090554b67a0c5c6ae6579/src/project-types/nodejs.coffee?at=master#cl-64).)
 
@@ -313,7 +313,7 @@ apt-get -y update
 apt-get -y install ntp
  ntpq -p [ntp server address]
 If the port is accessible, you should get a response like the below:-
-[~]$ ntpq -p 81.168.77.149 
+[~]$ ntpq -p 81.168.77.149
  remote refid st t when poll reach delay offset jitter
 ==============================================================================
 *ntp1.exa-networ 135.81.191.59 2 u 460 1024 377 40.326 3.667 0.365
@@ -382,14 +382,14 @@ The trailing slash forces Docker to recognise 'app' as a directory.
 E.g. https://app.intercom.io/a/apps/yg02r5dz/inbox/all/conversations/1166584613
 
 ```
-Setting up apt-show-versions (0.22.4) ... 
-** initializing cache. This may take a while ** 
-Error: No information about packages! (Maybe no deb entries?) 
-dpkg: error processing package apt-show-versions (--configure): 
-subprocess installed post-installation script returned error exit status 255 
-Errors were encountered while processing: 
-apt-show-versions 
-E: Sub-process /usr/bin/dpkg returned an error code (1) 
+Setting up apt-show-versions (0.22.4) ...
+** initializing cache. This may take a while **
+Error: No information about packages! (Maybe no deb entries?)
+dpkg: error processing package apt-show-versions (--configure):
+subprocess installed post-installation script returned error exit status 255
+Errors were encountered while processing:
+apt-show-versions
+E: Sub-process /usr/bin/dpkg returned an error code (1)
 Removing intermediate container 67817652f5ec
 ```
 
@@ -414,15 +414,15 @@ It's even more important than usual to remove `/var/lib/apt/*` here as without c
 ### Signs and Symptoms
 When attempting to `wget` an https resource, an error similar to the below is shown:
 ```
-curl performs SSL certificate verification by default, using a "bundle" 
-of Certificate Authority (CA) public keys (CA certs). If the default 
-bundle file isn't adequate, you can specify an alternate file 
-using the --cacert option. 
-If this HTTPS server uses a certificate signed by a CA represented in 
-the bundle, the certificate verification probably failed due to a 
-problem with the certificate (it might be expired, or the name might 
-not match the domain name in the URL). 
-If you'd like to turn off curl's verification of the certificate, use 
+curl performs SSL certificate verification by default, using a "bundle"
+of Certificate Authority (CA) public keys (CA certs). If the default
+bundle file isn't adequate, you can specify an alternate file
+using the --cacert option.
+If this HTTPS server uses a certificate signed by a CA represented in
+the bundle, the certificate verification probably failed due to a
+problem with the certificate (it might be expired, or the name might
+not match the domain name in the URL).
+If you'd like to turn off curl's verification of the certificate, use
 the -k (or --insecure) option.
 ```
 
@@ -489,7 +489,7 @@ And the download repeatedly failing.
 ### Treatment
 This is thought to be due to a problem with the device connection resulting in an early termination of the download of an image layer and is usually caused by network connectivity issues. Unfortunately docker will restart the entire image download again if it encounters this.
 
-Deltas will strongly mitigate this issue, as explained in this snippet that can be passed on to a user: 
+Deltas will strongly mitigate this issue, as explained in this snippet that can be passed on to a user:
 > To mitigate this issue, you can set `RESIN_SUPERVISOR_DELTA` in the Fleet Configuration menu to a value of `1`. This will enable binary delta updates, download size should be significantly reduced on update and devices will have the ability to resume layer downloads that have failed. In the future DELTA updates will become the default update method.
 
 ## Wifi connect app stops working when systemd enabled (should only affect very old versions of resinOS)
@@ -508,7 +508,7 @@ We must ensure for 2 things:
 In order to do so, add the following in the Dockerfile:
 ```
 RUN systemctl disable connman
-``` 
+```
 And add the following line in a startup script (that can be part of the CMD command in the Dockerfile):
 ```
 export DBUS_SYSTEM_BUS_ADDRESS='unix:path=/host_run/dbus/system_bus_socket'
@@ -530,7 +530,7 @@ The build fails when `pip` tries to uninstall existing packages during pip insta
 The reason for this is an issue with overlay storage from Docker. Detail here: https://github.com/docker/docker/issues/12327.
 There is a workaround here by adding `--ignore-installed` to `pip install` commands to make sure it won't uninstall existing packages which are not in the same layer.
 Another workaround is: take everything to one layer only by executing all pip commands under single `RUN` command in Dockerfile.
- 
+
 ## User software fails with cannot resolve `$(hostname)` issue
 ### Symptoms
 This is because these pieces of software assume that `$(hostname)` resolves to an IP address. Known offenders are tomcat and rabbitmq.
@@ -585,7 +585,7 @@ IPv4 = [static IP]/255.255.255.0/192.168.1.1
 Nameservers = 192.168.1.1,8.8.8.8
 ```
 
-Note that this assumes your network gateway is `192.168.1.1`, this can vary so adjust this according to your local network configuration. 
+Note that this assumes your network gateway is `192.168.1.1`, this can vary so adjust this according to your local network configuration.
 
 * Encode this data as json (can be done via JSON.stringify), and then replace the existing value with the new one.
 * The image will now contain your static IP configuration, simply write it to your SD card as you usually would.
@@ -614,7 +614,7 @@ The `config.json` file controls specific manual configuration of resin (TODO: Pa
 System configuration of the Raspberry Pi is determined by `/boot/config.txt`. We don't expose this directly from the container itself, however you can access it on the SD card directly in the FAT boot partition (TODO: Label?)
 
 ### Forwarding Ports
-It's usually not necessarily to forward ports within the container (in the way you would with a `docker run -p [host port]:[container port]` command), however if you do need to do this, it can be achieved with `iptables`. 
+It's usually not necessarily to forward ports within the container (in the way you would with a `docker run -p [host port]:[container port]` command), however if you do need to do this, it can be achieved with `iptables`.
 
 For example, mapping port 80 to 8080 can be achieved with the following:-
 ```
@@ -641,10 +641,10 @@ See [this intercom thread](https://app.intercom.io/a/apps/yg02r5dz/inbox/all/con
 To activate this execute the following list of `connmanctl` commands:
 
 ```
-scan wifi 
-services (parse output to get id for our ssid) 
-agent on 
-connect <service-id> 
+scan wifi
+services (parse output to get id for our ssid)
+agent on
+connect <service-id>
 [enter passphrase]
 ```
 
@@ -689,13 +689,13 @@ Then to download a device image, configure it and burn it to an sd card (make su
 ```
     $ sudo resin device init --application <application name>
 ```
- 
+
 Going forward you can re-use this command to initialise a device for a new application of the same device type without having to redownload the image.
 The images are stored in `~/.resin/cache`, and remain cached for a week.
- 
+
 ### Is it possible to have different device types in an application / Is it possible to keep a single codebase between applications?
 
-At the moment each application is tied to a specific device type. So, for example, if you have created an application by specifying an Rpi2 device, then only Rpi2 devices will be able to join this application's fleet. 
+At the moment each application is tied to a specific device type. So, for example, if you have created an application by specifying an Rpi2 device, then only Rpi2 devices will be able to join this application's fleet.
 
 However, you can easily add multiple remotes to your git repository, each pointing to a different resin.io application. You can then use `Dockerfile.template`s (http://docs.resin.io/deployment/docker-templates/) to keep a single codebase and push to multiple device types.
 
@@ -717,7 +717,7 @@ In order to execute this command you need:
 * The ID of the application you want to transfer the device to - if you click on an app, the URL will be https://dashboard.resin.io/apps/<app id>/devices, this<app id> is what you need. For example, https://dashboard.resin.io/apps/12345678/devices would indicate app id 12345678.
 * The UUID for the device you want to move. You can find this in the device dashboard on the 'Device Summary' tab, and there's even a handy copy button for you to copy it to the clipboard easily.
 
-Once you have all these, you are good to go. The ODATA query you need to use here is `$filter=uuid eq '<device uuid>'`, and to move the device we want to alter the device record, so we want to submit a **PATCH** request with JSON data set to `{ "application": <app id> }`. 
+Once you have all these, you are good to go. The ODATA query you need to use here is `$filter=uuid eq '<device uuid>'`, and to move the device we want to alter the device record, so we want to submit a **PATCH** request with JSON data set to `{ "application": <app id> }`.
 
 Putting this all together, we can achieve what we need with a simple bash script using cURL. You need to export the device uuid as **DEVICE_UUID**, the token as **TOKEN** and the app id as **APPLICATION_ID**:
 ```
@@ -729,7 +729,7 @@ export APPLICATION_ID="<the application id from the application dashboard>"
 
 curl -X PATCH "https://api.resin.io/ewa/device?\$filter=uuid%20eq%20'${DEVICE_UUID}'" -H "Authorization: Bearer ${TOKEN}" \
      -H 'Content-Type: application/json;charset=UTF-8' -H 'Accept: application/json, */*' \
-     --data-binary "{\"application\": ${APPLICATION_ID}}" --compressed 
+     --data-binary "{\"application\": ${APPLICATION_ID}}" --compressed
 ```
 
 #### CLI and SDK
@@ -773,10 +773,10 @@ Our port requirements are as follows:
 Each of these should work with outward only (and inward once outward connection established) firewall settings.
 
 ### What is the best SD Card to use?
-Some of our customers whose application writes a lot of data the cards have done automated test on various SD cards. They found that the Lexar Pro had the best results. 
+Some of our customers whose application writes a lot of data the cards have done automated test on various SD cards. They found that the Lexar Pro had the best results.
 http://it.lexar.com/products/professional-microsd-1000x
 http://www.lexar.com/microsd-633x
-These cards allow their devices to operate for at least 3 years without fear of card fatigue. 
+These cards allow their devices to operate for at least 3 years without fear of card fatigue.
 
 ### How to insert out-of-tree kernel modules on a device?
 
@@ -832,7 +832,7 @@ In order to set this, you'll need to modify your config.json file either inside 
 If you follow the steps for setting a static IP at http://docs.resin.io/#/pages/deployment/wifi.md#set-static-ip then, rather than locating the ethernet configuration, find the wifi one and adjust the entry to use these settings everything should work correctly.
 
 Keep in mind this string is JSON-encoded, and it's important to insert '\n's as needed, also note that connman key values are case-sensitive.
-**Refs:** See the [Arch Wiki](https://wiki.archlinux.org/index.php/WPA2_Enterprise#connman) page on this, and [this page](https://github.com/aldebaran/connman/blob/master/doc/config-format.txt) is also useful. Connman seem to not like to explain their settings very clearly 
+**Refs:** See the [Arch Wiki](https://wiki.archlinux.org/index.php/WPA2_Enterprise#connman) page on this, and [this page](https://github.com/aldebaran/connman/blob/master/doc/config-format.txt) is also useful. Connman seem to not like to explain their settings very clearly
 
 ### Disabling IPv6 on a device
 This works well for dealing with a broken DHCP server which sends an invalid IPv6 DNS address even to IPv4 only devices.
@@ -858,7 +858,7 @@ Also ensure you update `/var/lib/connman/network.config` otherwise connman will 
 Restart connman to take these changes into account via:
 ```
 systemctl daemon-reload
-systemctl restart connman 
+systemctl restart connman
 ```
 
 ### What is the registry image name format?
@@ -906,7 +906,7 @@ We save the environment variables in `/etc/docker.env`.
 If users want to inherit the environment variables in the custom systemd service, we need to add this line to systemd service file.
 ```
 EnvironmentFile=/etc/docker.env
-``` 
+```
 
 ### Use npm vendor (i.e. local) modules
 It can be useful, especially when working around the git/qemu issue, to be able to manually add npm modules to a project rather than npm install them which might invoke git clone. The steps are as follows:
@@ -915,7 +915,7 @@ It can be useful, especially when working around the git/qemu issue, to be able 
 2. Run [npm pack](https://docs.npmjs.com/cli/pack) to create a tarball (e.g. private-module-1.0.0.tgz)
 3. Copy the .tgz file in a folder in your resin project (e.g. vendor/private-module-1.0.0.tgz)
 4. Run 'npm install --save vendor/private-module-1.0.0.tgz'
-5.Include the `vendor/` folder in your application docker image by using the following `COPY` Dockerfile instruction: 
+5.Include the `vendor/` folder in your application docker image by using the following `COPY` Dockerfile instruction:
 ```
 COPY vendor ./vendor
 ```
@@ -960,7 +960,7 @@ openssl rand -hex 32
 In the canned response, add the output of `openssl rand -hex 32` as `CHANGE_ME`
 
 **Canned response:**
->By choosing to enable two-factor authentication, you have made it clear to us that security is as an important concern for you as it is for us. It also means you do not completely trust authenticating with just a password. 
+>By choosing to enable two-factor authentication, you have made it clear to us that security is as an important concern for you as it is for us. It also means you do not completely trust authenticating with just a password.
 
 >Therefore you will understand that we need to take extra measures to be sure that we are not disabling two-factor authentication for an attacker who learned your password.
 
@@ -970,7 +970,7 @@ echo CHANGE_ME | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
 ```
 >Please let us know if you have trouble with the above procedure.
 
-**Verifying Users Response** 
+**Verifying Users Response**
 __Note:__ You'll need a GNU version of openssl to run this.
 
 1. Go to their ssh key tab in preferences https://dashboard.resin.io/preferences?tab=sshkeys
@@ -1051,7 +1051,7 @@ In closing, since this is a parting user we should ask for feedback, e.g.:
 and should not be applied to a customer's device without talking to the device/supervisor
 teams.
 
-We used to bind-mount the Docker socket in on `/run/docker.sock`, but at some point 
+We used to bind-mount the Docker socket in on `/run/docker.sock`, but at some point
 switched to `/var/run/docker.sock`. This can cause problems with deltas depending on
 the library version in use.
 
@@ -1072,9 +1072,18 @@ Solution(s):
 ## Accessing User Devices
 ### Setting Up
 
-1. Add keys to [resin-containers project](https://github.com/resin-io/resin-containers), at `cloud_formation/systemd/services/add_ssh_keys_[your name].service`, using one of the existing files as a template. Add an ExecStart line in manager.service (located in the same directory), using another line as a template.
-2. PR these changes, have them merged in and ask the appropriate dudes to deploy them to the server,
-3. Grab the key files from resin-containers at `cloud_formation/ssh/resin_devices*` and copy them to your `~/.ssh` folder. This key is password-protected, and is available from passpack. Ask Apostolis or Aggelos for access.
+1. Add your SSH key to [resin-ssh-keys
+   project](https://github.com/resin-io/resin-ssh-keys), at
+   `systemd/services/add_ssh_keys_[your name].service`, using one of the
+   existing files as a template.
+2. Add an ExecStart line in manager.service
+   (located in the same directory), using another line as a template.
+3. PR these changes, have them merged in and ask the appropriate dudes to deploy
+   them to the server,
+4. Grab the key files from `resin-containers` at
+   `cloud_formation/ssh/resin_devices*` and copy them to your `~/.ssh` folder.
+   This key is password-protected, and is available from passpack. Ask Apostolis
+   or Aggelos for access.
 
 ### Getting Access
 
@@ -1158,7 +1167,7 @@ The names shown on the right are not obtained from the device directly, rather p
 ### Fixing the Bash/Node Race (Legacy??)
 This issue results in no updates being downloaded despite the application having had code pushed to it. In the logs at `/var/log/supervisor-log/resin_supervisor_stdout.log` you'll see:-
 ```
-Event: Device bootstrap failed, retrying {"error":{"message":"\"uuid\" must be unique.","stack":"Error: \"uuid\" must be unique.\n    at /app/node_modules/pinejs-client/request.js:91:17\n    at tryCatcher (/app/node_modules/bluebird/js/main/util.js:24:31)\n    at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/main/promise.js:452:31)\n    at Promise._settlePromiseAt (/app/node_modules/bluebird/js/main/promise.js:530:18)\n    at Promise._settlePromises 
+Event: Device bootstrap failed, retrying {"error":{"message":"\"uuid\" must be unique.","stack":"Error: \"uuid\" must be unique.\n    at /app/node_modules/pinejs-client/request.js:91:17\n    at tryCatcher (/app/node_modules/bluebird/js/main/util.js:24:31)\n    at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/main/promise.js:452:31)\n    at Promise._settlePromiseAt (/app/node_modules/bluebird/js/main/promise.js:530:18)\n    at Promise._settlePromises
 ```
 To fix, edit `/mnt/data-disk/config.json` and add the following property to the top-level of the json:-
 ```
@@ -1411,7 +1420,7 @@ We authorise users via [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_
 Devices themselves use API keys which is simply a secret matched against one stored in the database for that device.
 
 ### Build Hanging (**Legacy**)
-We currently use qemu to emulate and compile packages for device type architecture. Unfortunately there are some known bugs that cause qemu to hang, one of them being git clone, how ever there are a few other edge cases that can hang up qemu. We are currently working on moving our build servers onto arm servers which would mean we wouldn't have to use qemu, which would mitigate these issues. 
+We currently use qemu to emulate and compile packages for device type architecture. Unfortunately there are some known bugs that cause qemu to hang, one of them being git clone, how ever there are a few other edge cases that can hang up qemu. We are currently working on moving our build servers onto arm servers which would mean we wouldn't have to use qemu, which would mitigate these issues.
 
 ### Disable Ofono (resinOS 1.x ONLY)
 Run the following commands:
@@ -1451,7 +1460,7 @@ In this example it is **loop2**
 sudo mcopy -i /dev/loop2p5 ::config.json config.json.production
 ```
 Your production config file is now saved as config.json.production
-* Unmount loop device 
+* Unmount loop device
 ```
 sudo losetup -d /dev/loop2
 ```
@@ -1482,7 +1491,7 @@ sudo mcopy -o -i /dev/loop2p5  config.json.production ::config.json
 ```
 Your staging image is not injected with the production config
 
-*Unmount loop device 
+*Unmount loop device
 ```
 sudo losetup -d /dev/loop2
 ```
@@ -1509,7 +1518,7 @@ systemctl restart rce
 systemctl start resin-supervisor
 ```
 
-### Manually starting rce 
+### Manually starting rce
 Note that sometimes rce will refuse to start even when space is available and the command will work because of systemd being special in some way (typically you'd systemctl start rce.service.)
 
 **DISCLAIMER: Do not do this unless you really need to. And certainly do not leave a device running rce this way.**
@@ -1536,7 +1545,7 @@ mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]
 btrfs filesystem label /dev/[partition device] resin-data
 reboot
 ```
-* After reboot, you will need to pull a new instance of the supervisor. 
+* After reboot, you will need to pull a new instance of the supervisor.
 
 NOTE: Update the tag accordingly. **Match the existing version of the supervisor**. It may risk issues if the host OS doesn't support features assumed to exist by a new supervisor. From supervisor 1.4.0 on we publish versions to the staging registry, older versions however are not guaranteed to be present. A member of the supervisor or infrastructure team might be able to push a required version there if necessary.
 ```
@@ -1590,11 +1599,11 @@ systemctl restart systemd-journald
 ```
 
 Then run the local script that you have created (e.g. persistent-logging.sh) on the remote machine:
-ssh resin -o Hostname=${UUID}.vpn "bash -s" < persistent-logging.sh 
+ssh resin -o Hostname=${UUID}.vpn "bash -s" < persistent-logging.sh
 
 ### Disabling tty-replacement (i.e. what is spawned instead of getty in production images)
 
-There are 2 ways of doing this, both of them result in disabling tty-replacement .service on the hostOS. The difference between them is that one is done remotely and one is done manually with access to the device's SD card. 
+There are 2 ways of doing this, both of them result in disabling tty-replacement .service on the hostOS. The difference between them is that one is done remotely and one is done manually with access to the device's SD card.
 
 If you are inside a running hostOS just run: systemctl disable tty-replacement.service or `rm /etc/systemd/system/multi-user.wants/tty-replacement.service`
 
@@ -1602,8 +1611,8 @@ If you have the SD card mounted on a machine just run: `rm /mnt/resin-root/etc/s
 
 #### Fixing serial console for raspberrypi3
 
-1. (Required only for pre-1.1.4 hostOS) Inside cmdline.txt (found in boot partition) modify console=ttyAMA0,115200 to console=S0,115200. 
-2. Inside config.txt (found in boot partition) and set core_freq=250 
+1. (Required only for pre-1.1.4 hostOS) Inside cmdline.txt (found in boot partition) modify console=ttyAMA0,115200 to console=S0,115200.
+2. Inside config.txt (found in boot partition) and set core_freq=250
 
 ### Disabling HDMI/enabling TTYS5
 If the hostOS version is 1.1.4:
@@ -1618,7 +1627,7 @@ If the host OS version is < 1.1.4:
 4. cd /boot ; wget http://build1.dev.resin.io/~theodor/zImage-am335x-boneblack-emmc-overlay.dtb
 5. mv zImage-am335x-boneblack-emmc-overlay.dtb am335x-boneblack-emmc-overlay.dtb
 
-**Note:** The necessary device tree (am335x-boneblack-emmc-overlay) is only available in our 1.1.4 version of the hostOS 
+**Note:** The necessary device tree (am335x-boneblack-emmc-overlay) is only available in our 1.1.4 version of the hostOS
 
 **Note:** Both these processes require reboot of the device.
 
@@ -1673,7 +1682,7 @@ Since ResinOS 1.2.1 we have docker 1.10.3 on the device, the docker pull of laye
 ```
 28.06.16 18:46:00 +0100 Failed to download application 'registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd' due to 'Error pulling image (latest) from registry.resin.io/figurestandalone/ae57b59a3304f4b4bb58f69cf0052d754bc8c6cd, failed to register layer: rename /var/lib/docker/image/btrfs/layerdb/tmp/layer-710701705 /var/lib/docker/image/btrfs/layerdb/sha256/61baa2539f1a2255c8cebe9ab6ba2ab9228a96a060e2cad7cde63268d5a2f38b: directory not empty'
 ```
- 
+
 This can be treated by first running:
 ```
 du --exclude=tar-split.json.gz -s /var/lib/docker/image/btrfs/layerdb/sha256/* | grep '^0'
@@ -1742,7 +1751,7 @@ If that still didn't work, ping Petros, it's his kind of thing :)
 ### Misc
 #### raspberry-pi
 **How to use one-wire temperature sensor:**
-Add: 
+Add:
 ```
 dtoverlay=w1-gpio
 ```
@@ -1750,5 +1759,5 @@ to `/boot/config.txt`
 See https://resin.io/blog/updating-config-txt-remotely/ on how to do that.
 
 The container should also `modprobe w1-gpio && modprobe w1-therm`. Then the temperature probe should show up under `/sys/bus/w1/devices`
- 
- 
+
+
