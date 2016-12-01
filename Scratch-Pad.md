@@ -1133,7 +1133,7 @@ If a device is showing offline but you suspect it's the VPN not functioning or t
 
 Access the known working device via `ssh -A -o HostName=<uuid.vpn> resin`, then once inside the device, run:
 ```
-ssh -A -p 22222 root@<device ip>
+ssh -p 22222 root@<device ip>
 ```
 If you are unable to determine the IP of the device, you will need to run something similar to an ARP scan. The host os will not have this installed, but you can try this in the supervisor container in a pinch:
 ```
