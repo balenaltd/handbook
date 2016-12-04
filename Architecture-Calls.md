@@ -10,7 +10,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 3 Dec 2016 (ad-hoc @ London office)
 
-* Discussion on Device Image Contribution Workflow
+* Discussion on Device Image Community Contribution workflow
 
 https://docs.google.com/document/d/1daJJGYVuJXir-FRYyQygdMsukJrYlTnPfviXDUYRPuY/edit
 
