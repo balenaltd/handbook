@@ -8,6 +8,14 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 3 Dec 2016 (ad-hoc @ London office)
+
+* Discussion on Device Image Contribution Workflow
+
+https://docs.google.com/document/d/1daJJGYVuJXir-FRYyQygdMsukJrYlTnPfviXDUYRPuY/edit
+
+=== 
+
 ### 28-29 Nov 2016
 
 * Discussion on introducing a VPN resin-redirect component to work around restrictive client firewalls 
