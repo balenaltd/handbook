@@ -1076,7 +1076,7 @@ Solution(s):
    project](https://github.com/resin-io/resin-ssh-keys), at
    `systemd/services/add_ssh_keys_[your name].service`, using one of the
    existing files as a template.
-2. Add an ExecStart line in manager.service
+2. Add an ExecStart line in `add_ssh_keys.service`
    (located in the same directory), using another line as a template.
 3. PR these changes, have them merged in and ask the appropriate dudes to deploy
    them to the server,
