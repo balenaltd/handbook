@@ -8,6 +8,14 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 5 Dec 2016
+* Zendesk / Front Integration
+  * **[Action Item]**: Need to look into the APIs and discuss in specific what needs to be done
+* Supervisor Update lock
+  * **[Action Item]**: Write spec on the proposed solutions during the arch call
+
+===
+
 ### 3 Dec 2016 (ad-hoc @ London office)
 
 * Discussion on Device Image Community Contribution workflow
@@ -19,17 +27,17 @@ https://docs.google.com/document/d/1daJJGYVuJXir-FRYyQygdMsukJrYlTnPfviXDUYRPuY/
 ### 28-29 Nov 2016
 
 * Discussion on introducing a VPN resin-redirect component to work around restrictive client firewalls 
-  * [Action item 1]: We need some experimentation to get a better idea of the work needed before writing an actual spec:
+  * **[Action item 1]**: We need some experimentation to get a better idea of the work needed before writing an actual spec:
     * Is there a firewall that will easily accept a hostname and handle changing IPs
     * How are the user application containers affected with regards to network access?
 * Question by Shaun on multicontainer support: Will the devices have compose on the actual device to run the composition of containers and related stuff (also applies to resinOS)
-  * [Action item 1]: We have to try and understand all pieces and start working towards multicontainer support, which we must have ready soon
-  * [Action item 2]: Reevaluate the alternative ways of running docker compose on resin.io / resinOS devices
-  * [Action item 3]: Research the alternative of having writeable usb device
+  * **[Action item 1]**: We have to try and understand all pieces and start working towards multicontainer support, which we must have ready soon
+  * **[Action item 2]**: Reevaluate the alternative ways of running docker compose on resin.io / resinOS devices
+  * **[Action item 3]**: Research the alternative of having writeable usb device
 * Automatically deploying resinos images
-  * [Action item 1]: Write a spec on the changes required to jenkins/image maker to support automatic resinOS image deployments
-  * [Action item 2]: Implement/Deploy an hybrid image maker, with 3 subfolders coupled with the current structure
-  * [Action item 3]:  Work on resinos.io to automatically pick up new versions of deployed images
+  * **[Action item 1]**: Write a spec on the changes required to jenkins/image maker to support automatic resinOS image deployments
+  * **[Action item 2]**: Implement/Deploy an hybrid image maker, with 3 subfolders coupled with the current structure
+  * **[Action item 3]**:  Work on resinos.io to automatically pick up new versions of deployed images
 * Morty PR and discussion on having a compatibility layer
   * Discussed a few items but meeting was postponed for the coming Monday
 
@@ -40,7 +48,7 @@ https://docs.google.com/document/d/18lYiY1Mi6qkVKptfcd7nmmVi4n2O7xOnrugIa6sMnxI/
 ### 24 Nov 2016
 
 * Allowing users to select and change their usernames
-  * [Action required]: Draft a spec
+  * **[Action required]**: Draft a spec
 * Discussion on understanding the Etcher/resin.io connection
   * https://docs.google.com/drawings/d/1ulscHze6R2pG2-7y8MY0K1KwuoCg4Yn7UyaECMzGd0w/edit
 
@@ -51,9 +59,9 @@ https://docs.google.com/document/d/1yXzolkALQSw6DkbcoJ9oBQ2IsY_B4iWNlwicdYPr9Do/
 ### 21 Nov 2016
 
 * Combining emmc and sd boot images
-  * [Action required 1]: Introducing the notion of flashing will require more steps on the hostOS; more research is required on this item because these steps are not obvious at the moment
-  * [Action required 2]: There was discussion on contacting OpenROV to figure out exactly what they need and how close they are to the particular device type (beaglebone)
-  * [Action required 3]: Also need to discuss more on flasher-type devices in general
+  * **[Action required 1]**: Introducing the notion of flashing will require more steps on the hostOS; more research is required on this item because these steps are not obvious at the moment
+  * **[Action required 2]**: There was discussion on contacting OpenROV to figure out exactly what they need and how close they are to the particular device type (beaglebone)
+  * **[Action required 3]**: Also need to discuss more on flasher-type devices in general
 * Signed images (EVRYTHNG request)
 
 https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/edit
@@ -63,13 +71,13 @@ https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/
 ### 15 Nov 2016
 
 * How to mark Resin 2.0 development devices
-  * Action required: Write spec on how to mark dev/prod and debug
+  * **[Action required]**: Write spec on how to mark dev/prod and debug
 * Handling transitions when moving Apps and handling update locks
-  * Action required: Write spec on how the supervisor should automatically purge /data when an app is moved
+  * **[Action required]**: Write spec on how the supervisor should automatically purge /data when an app is moved
 * Need to improve instructions on boards that support multi baseboard
-  * Action required: Should specify the TS baseboard in instructions
+  * **[Action required]**: Should specify the TS baseboard in instructions
 * Process/Roadmap tracking
-  * Action required: Create excel sheet to facilitate ticket ranking from all facets (marketing, sales, devops, security etc.)
-  * Action required: All facet stakeholders should pick their top 5 issues, and add weight (1-5) in the excel sheet
+  * **[Action required]**: Create excel sheet to facilitate ticket ranking from all facets (marketing, sales, devops, security etc.)
+  * **[Action required]**: All facet stakeholders should pick their top 5 issues, and add weight (1-5) in the excel sheet
 
 https://docs.google.com/document/d/1kMlpNSqW7YWOL3hcmsXEkuKUiphztibyjRkMfc-CRog/edit
