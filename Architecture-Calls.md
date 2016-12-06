@@ -10,9 +10,10 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 5 Dec 2016
 * Zendesk / Front Integration
-  * **[Action Item]**: Need to look into the APIs and discuss in specific what needs to be done
+  * **[Action Item]**: We need to look into Zendesk/Front APIs, discuss in specific what needs to be done and see if we can find a better solution.
+
 * Supervisor Update lock
-  * **[Action Item]**: Write spec on the proposed solutions during the arch call
+  * **[Action Item]**: We need to write a spec
 
 https://docs.google.com/document/d/1-07hveuJd0Zw8ou-iV8cN7qLhNOj88HI34rJtiW3kYU/edit
 
