@@ -970,21 +970,23 @@ echo CHANGE_ME | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
 ```
 >Please let us know if you have trouble with the above procedure.
 
-**Verifying Users Response**
+**Verifying Users Response via SSH Challenge** 
 __Note:__ You'll need a GNU version of openssl to run this.
 
 1. Go to their ssh key tab in preferences https://dashboard.resin.io/preferences?tab=sshkeys
-2. You first convert it into a PEM encoded RSA public key using this command:
+2. For each key, copypasta into a local file with a name like `userskey.pub`.
+Open Terminal, run file as:
 ```
-ssh-keygen -f users-key.pub -e -m pem > users-key.pem
-```
+ssh-keygen -f userskey.pub -e -m pem > userskey.pem
+
+In Finder, there's a new file called userskey.pem. 
 
 3. Next, you have to convert that to a PEM encoded (plain? not sure what this format is called) public key using this command:
 ```
-openssl rsa -in users-key.pem -RSAPublicKey_in -pubout > users-key.plain.pem
+openssl rsa -in userskey.pem -RSAPublicKey_in -pubout > userskey.plain.pem
 ```
 4. Now you're ready to verify whatever the user sent you
-Say he sent you this as a response to the challenge
+Say they sent you this response:
 ```
 o7+ga4dl8cNB+O/9kxvEZj6UP5r3Tx3bno1ukYNdBd/hd0zNk7y153qxHfj9MOlmG6+VuaqXLZmJ
 8rEOUjsGxqq377SSV9OEs0PkvvVhKyjtYxb3Vm2apJLal9Mfhktr/QW3pht1kX4XgZmzo8CcbL5q
@@ -997,6 +999,17 @@ You put this in a file, say `response.base64` and then do:
 cat response.base64 | base64 -d | openssl rsautl -verify -inkey users-key.plain.pem -pubin
 ```
 This should print the original random challenge you sent him. i.e if you sent `echo foobarfoobar`, then the above command should print `foobarfoobar`
+
+If the user's key doesn't match, you'll see 
+They may have another SSH key to try.
+If not, it means we don't have a unique way to confirm the account.
+
+If the key does match, and there's reason to believe that the computer is compromised, the next challenge is to ask the user to confirm private information about their account.
+>Thank you for sending the key. We think it's prudent to ask you one more security question. Please reply with both the name and device type for an application associated with your account.
+
+If the key does match, and there's no reason to believe the computer is compromised, log in as the user and disable 2FA. 
+>Thank you for confirming. I've disabled two-factor authentication for your account.
+
 
 **IT IS REALLY IMPORTANT TO VERIFY THE WHOLE STRING**
 
