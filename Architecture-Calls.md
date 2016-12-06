@@ -14,6 +14,8 @@ Many interesting technical discussions often produce very long threads that are 
 * Supervisor Update lock
   * **[Action Item]**: Write spec on the proposed solutions during the arch call
 
+https://docs.google.com/document/d/1-07hveuJd0Zw8ou-iV8cN7qLhNOj88HI34rJtiW3kYU/edit
+
 ===
 
 ### 3 Dec 2016 (ad-hoc @ London office)
