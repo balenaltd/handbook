@@ -4,7 +4,7 @@ Architecture calls take place several times a week (usually 2 or 3). It is the t
 
 ### Using the #architecture Flowdock tag
 
-Many interesting technical discussions often produce very long threads that are difficult to follow. There are no hard-defined rules on when a Flowdock thread should be discussed in an architecture call, but if you think it should, please tag the thread by adding a comment with the `#architecture` tag **and** a small summary. The reason is that Hubot picks these `#architecture`-tagged comments up and sends them to the `architecture` FrontApp inbox, which largely forms our next meeting agenda.
+Many interesting technical discussions often produce very long threads that are difficult to follow, so what we do  instead is have a call, keep meeting minutes and come up with an action plan. There are no hard-defined rules on when a Flowdock thread should be discussed in an architecture call, but if you think it should, please tag the thread by adding a comment with the `#architecture` tag **and** a small summary. The reason is that Hubot picks these `#architecture`-tagged comments up and sends them to the `architecture` FrontApp inbox, which largely forms our next meeting agenda.
 
 ## Recent Meeting Notes
 
