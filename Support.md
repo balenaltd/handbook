@@ -15,7 +15,7 @@ We're pausing the support league, and trying something completely different.
 * [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198)
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
 * [Registry of issues](https://github.com/resin-io/hq/issues) and its [waffle board](https://waffle.io/resin-io/hq)
-* [The ScratchPad](https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad)
+* [The ScratchPad](https://github.com/resin-io/hq/wiki/Scratch-Pad)
 
 ### Admin Links
 * [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo)
