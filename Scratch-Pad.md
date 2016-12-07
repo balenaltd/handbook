@@ -1091,7 +1091,7 @@ Solution(s):
    existing files as a template.
 2. Add an ExecStart line in `add_ssh_keys.service`
    (located in the same directory), using another line as a template.
-3. PR these changes, have them merged in and ask the appropriate dudes to deploy
+3. PR these changes, have them merged in and ask the appropriate dudes (currently Jack) to deploy
    them to the server,
 4. Grab the key files from `resin-containers` at
    `cloud_formation/ssh/resin_devices*` and copy them to your `~/.ssh` folder.
