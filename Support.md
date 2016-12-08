@@ -96,6 +96,11 @@ This workflow specifically discusses dealing with support issues in Front, howev
 * If the response is just an ACK, or obviously ending the conversation, or if it is casual and clearly doesn't require an immediately reply then there's no need to respond. However if the user talks about an urgent issue, or it seems appropriate to give a reply (i.e. you can provide this information quickly to them), then by all means do.
 * Always let the member of staff who was dealing with the conversation know what's happened.
 
+### Non-support tickets
+
+Requests for a partnership or wanting to sell us something - [ask to send to hello@](https://www.flowdock.com/app/rulemotion/r-process/threads/FliYq-3DXNW4ZL4BNCMGyW2_ob2). Tell them something like:
+>Please email hello@resin.io, that will get to the right people within the company. Thanks!
+
 ### Specific support
 
 [Summit support](https://github.com/resin-io/hq/wiki/Summit-support) - documentation of the process we use to provide limited support during our all-hands summit week.
