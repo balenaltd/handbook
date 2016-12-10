@@ -1717,7 +1717,7 @@ Make sure that the user's app container is running and supervisor is indeed dead
 $ docker ps -a
 ```
 
-If the above command says for the supervisor STATUS is "Removal In Progress", then you have the bug https://github.com/docker/docker/issues/22312 . To fix this, stop docker, stop resin-supervisor, delete the supervisor container, start docker, start resin-supervisor:
+If the above command says for the supervisor STATUS is "Removal In Progress" and it has been like this for a sensible while, then you have the bug https://github.com/docker/docker/issues/22312 . To fix this, stop docker, stop resin-supervisor, delete the supervisor container, start docker, start resin-supervisor:
 
 ```
 # systemctl stop docker
