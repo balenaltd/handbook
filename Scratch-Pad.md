@@ -1717,6 +1717,18 @@ Make sure that the user's app container is running and supervisor is indeed dead
 $ docker ps -a
 ```
 
+If the above command says for the supervisor STATUS is "Removal In Progress", then you have the bug https://github.com/docker/docker/issues/22312 . To fix this, stop docker, stop resin-supervisor, delete the supervisor container, start docker, start resin-supervisor:
+
+```
+# systemctl stop docker
+# systemctl stop resin-supervisor
+# rm -r /var/lib/docker/containers/<CONTAINER ID as reported by "docker ps -a">
+# systemctl start docker
+# systemctl start resin-supervisor
+```
+
+After this, the supervisor container should start correctly. If not, read bellow for other info if any, it means you are not this lucky :)
+
 Check journalctl for the error:
 
 ```
