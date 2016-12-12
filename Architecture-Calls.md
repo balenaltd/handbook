@@ -12,9 +12,9 @@ Many interesting technical discussions often produce very long threads that are 
 * Resin-on-Resin deployment
   * **[Action Item]**: Keep going with resin-on-resin for high-level stuff (marketing/ui etc.) and experiment with starting/managing a kubernetes cluster
 * Supervisor Rearchitecture
-  **[Action Item]**: Iterate on the supervisor rearchitecture spec - aim to re-architect supervisor internally before breaking it out to separate modules and rewriting them as services.
+  * **[Action Item]**: Iterate on the supervisor rearchitecture spec - aim to re-architect supervisor internally before breaking it out to separate modules and rewriting them as services.
 * Morty compatibility layer
-  * **[Action Item]**: Aim to esolve it by end of next week (need morty for a ge board in january)
+  * **[Action Item]**: Aim to resolve this by end of next week (need morty for a ge board in january)
 
 https://docs.google.com/document/d/17O-M8D8eYqGVXkbJP3CnYJ7BSGjd56rjXlfGcyw5twc/edit
 
