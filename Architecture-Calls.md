@@ -8,6 +8,23 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+## 12 Dec 2016
+
+* Supervisor / Device State
+  * **[Action Item]**: Need to check the current codebase and get a definitive list of things that have state in the device/supervisor in order to move the rearchitecture discussion forward.
+* Image maker: discuss the future of distributing .zip files
+  * **[Action Item]**: re-enable .zip image downloads - this isn’t super high-priority, also we still need an image maintainer and someone who is willing to tackle this
+* backend/git/proxy: resin-base, resin-closed-base, resin-closed-ssh, and generalising usage of ssh
+  * **[Action Item 1]**: Remove resin-closed-base dependency from git & proxy
+  * **[Action Item 1]**: Extract a docker image from resin-git with just the SSH bits
+  * **[Action Item 1]**: Explore the Go-based SSH server as a backwards compatible, easily extendable, single-package solution to replace the current OpenSSH/libc intricacies 
+* Automating changelog/version commits to master
+  * **[Action Item]**: Move forward with automated versionist commits to master using github hooks - Still To-Be-Defined is the service (e.g. heroku/AWS) where the automated versionist bot will be hosted
+
+https://docs.google.com/document/d/1x1cI-OQpk3-6mz2bxmvmTU2P3exWAmdFjQIWnPiH3RI/edit
+
+===
+
 ### 8 Dec 2016
 * Resin-on-Resin deployment
   * **[Action Item]**: Keep going with resin-on-resin for high-level stuff (marketing/ui etc.) and experiment with starting/managing a kubernetes cluster
