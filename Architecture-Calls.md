@@ -8,6 +8,18 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 8 Dec 2016
+* Resin-on-Resin deployment
+  * **[Action Item]**: Keep going with resin-on-resin for high-level stuff (marketing/ui etc.) and experiment with starting/managing a kubernetes cluster
+* Supervisor Rearchitecture
+  **[Action Item]**: Iterate on the supervisor rearchitecture spec - aim to re-architect supervisor internally before breaking it out to separate modules and rewriting them as services.
+* Morty compatibility layer
+  * **[Action Item]**: Aim to esolve it by end of next week (need morty for a ge board in january)
+
+https://docs.google.com/document/d/17O-M8D8eYqGVXkbJP3CnYJ7BSGjd56rjXlfGcyw5twc/edit
+
+===
+
 ### 5 Dec 2016
 * Zendesk / Front Integration
   * **[Action Item]**: We need to look into Zendesk/Front APIs, discuss in specific what needs to be done and see if we can find a better solution.
