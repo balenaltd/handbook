@@ -70,6 +70,8 @@ The heavy-duty helpdesk app we used, though we access it through Front. Please d
 #### Front
 All roads lead to Front, and those roads break sometimes. Something to be aware of. (We can add more helpful information here as we get it.)
 
+#### Github Gist
+How do you send a file through Front/Intercom? You can't, so instead it maybe well worth C+Ping that file into a private Gist that you can then send to a customer, should the need arise. Gist is [here](https://gist.github.com/).
 
 ## The Support Week
 * **IMPORTANT** - During your 4 hour slot, covering support is your full time and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, Gitter and Resin Talk, responding as quickly and as accurately as possible to any new message.
