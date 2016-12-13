@@ -1424,7 +1424,7 @@ from orbit - see the [remote reprovisioning][nuke] section from the scratch pad
 for details.
 
 [faq-free-space]:https://btrfs.wiki.kernel.org/index.php/FAQ#How_much_free_space_do_I_have.3F
-[nuke]:https://resinio.atlassian.net/wiki/display/RES/Scratch+Pad#ScratchPad-Remotelyreprovisioning(i.e.nuking)adevice
+[nuke]:https://github.com/resin-io/hq/wiki/Scratch-Pad#remotely-reprovisioning-ie-nuking-a-device
 [docker-btrfs-practice]:https://docs.docker.com/engine/userguide/storagedriver/btrfs-driver/
 
 ### Authorisation Tokens
