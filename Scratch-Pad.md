@@ -123,6 +123,7 @@
   - [1. Checking Disk Space Usage](#1-checking-disk-space-usage)
     - [Pre-3.18](#pre-318)
   - [2. Clearing Down Space](#2-clearing-down-space)
+    - [Using btrfs-fix](#using-btrfs-fix)
     - [Fixing the Inability to Delete Files](#fixing-the-inability-to-delete-files)
     - [2.1 Clearing Down Space](#21-clearing-down-space)
     - [2.2 Removing Orphaned Subvolumes](#22-removing-orphaned-subvolumes)
@@ -1299,6 +1300,17 @@ is out of metadata space.
 Generally it seems that metadata usage of 75% or above is problematic. See the
 `Metadata,DUP` line in the `btrfs fi usage /var/lib/docker` or `btrfs fi df
 /var/lib/docker` output to check this.
+
+### Using btrfs-fix
+
+The [btrfs-fix](https://github.com/resin-os/btrfs-fix) tool can be used to automate
+the steps mentioned in the next sections (fixing inability to delete files, clearing
+down space, remove orphaned subvolumes and returning back to normal) in one big swoop.
+
+`btrfs-fix` addresses the image/container ID mismatch mentioned in the 
+'Removing orphaned subvolumes' section and should work in both older and newer (>=1.10) docker versions.
+`./fix.sh [device uuid]` will run DIAGNOSIS on specified production device, while 
+running `./fix.sh --fix [device uuid]` attempt to fix the space issues on the device.
 
 ### Fixing the Inability to Delete Files
 
