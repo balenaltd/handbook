@@ -17,3 +17,10 @@
 4. Wait for AWS to predict the changes that will occur, and confirm that the only 2 are related to the manager
 5. Accept. AWS will restart the manager of the cluster
 6. SSH in to manager.resinstaging.io (or the appropriate host) and confirm that the key is set correctly. It may take a few minutes to show up.
+
+## Add a user as an admin
+
+1. Have the user set up `<name>@resin.io` accounts on both prod and staging
+2. SSH into `manager@resin.io` and `manager@resinstaging.io` and run `etcdctl set /resin/api/admins <admins emails>`
+  * Multiple emails should be separated by spaces
+3. Run a deploy for prod and staging to pick up the new admins
