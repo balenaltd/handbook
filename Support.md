@@ -47,7 +47,7 @@ Weekend cover isn't expected to be as intense as weekday work, rather you make s
     * [Front](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - Regular paid/trial support. Usually highest volume.
     * [intercom.io](https://intercom.io) - This is just used for the realtime chat portion of Front, you wont spend much time in it. 
     * [Gitter](https://gitter.im/resin-io/chat) - Our community portal.
-    * [Resin Talk](https://talk.resin.io) - our legacy forum which is on its way out.
+    * [Resin Talk](https://talk.resin.io)
     * [admin.resin.io](https://admin.resin.io) - make sure you your resin.io account has admin access.
 2. Make sure all the accounts you have setup above have a good picture of you and an updated profile.
 3. Bookmark and keep open all links in the [Important Links](#important-links) section at the top of this page.
