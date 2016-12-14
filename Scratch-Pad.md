@@ -1309,8 +1309,8 @@ down space, remove orphaned subvolumes and returning back to normal) in one big 
 
 `btrfs-fix` addresses the image/container ID mismatch mentioned in the 
 'Removing orphaned subvolumes' section and should work in both older and newer (>=1.10) docker versions.
-`./fix.sh [device uuid]` will run DIAGNOSIS on specified production device, while 
-running `./fix.sh --fix [device uuid]` attempt to fix the space issues on the device.
+`./fix.sh [device uuid]` will run diagnostics on specified production device, while 
+running `./fix.sh --fix [device uuid]` will attempt to fix the space issues on the device.
 
 ### Fixing the Inability to Delete Files
 
