@@ -8,7 +8,19 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
-## 12 Dec 2016
+### 13 Dec 2016
+
+* Migrating to resinOS 2.X (remaining tasks & providing images as non-recommended entries in dashboard)
+  * **[Action item]:** Need jenkins jobs to produce images (3 initially, then 4) (related to https://github.com/resin-io/hq/wiki/Architecture-Calls#28-29-nov-2016)
+* Aggregating all remaining issues in a github milestone
+  * **[Action item]:**  Need a spec that will aggregate the list of remaining items for 2.x
+* Discussion on multicontainers, user-defined mounts, what we allow/disallow in resin-compose.yml
+
+https://docs.google.com/document/d/1eKftQ1aduV0g1wqMupJepItwIYRGvVHj2c7pn2twFzY/edit
+
+===
+
+### 12 Dec 2016
 
 * Supervisor / Device State
   * **[Action Item]**: Need to check the current codebase and get a definitive list of things that have state in the device/supervisor in order to move the rearchitecture discussion forward.
