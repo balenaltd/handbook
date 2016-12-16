@@ -2,10 +2,7 @@
 
 This page is a repository for everything you need to know when doing customer support at resin.io
 
-
-
 ## Who On Support This Week? (updated: 21 Nov 2016)
-We're pausing the support league, and trying something completely different.
 * [Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
 * [Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
 
@@ -28,19 +25,11 @@ At resin.io we do support differently - firstly, every engineer does it, and sec
 If you're interested in the philosophy behind this approach, check out our [Support-driven Development blog post](https://resin.io/blog/support-driven-development/) which goes into a lot more detail.
 
 ## How is support assigned?
-**This is on pause. See Who Is On Support This Week for the details**
-
-Each week we assign 4 engineers to each watch a 4 hour period during their work day. This allows us to cover a 16 hour period from 07:00 - 23:00 (UTC) ever day.
-We try to choose who does support as fairly as we can by manually scoring conversations based on effort and quality. We use the sum of this score divided by the number of weeks worked to rank employees in the [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo). The 4 engineers for the week are selected based on their score and their timezone availability.
-
-We feel this is a fair measurement as it doesn't disadvantage people who've only recently joined or ignore work done in the past by people who have been here longer, and spreads the work evenly across the team.
-
-### Accumulating extra points
-You can do support outside of a support week to gain additional points, we are happy for people to jump in whenever they would like to.
+See Who Is On Support This Week for the details
 
 ### Weekend cover
 We run a voluntary system for weekend support cover - you get double points on the weekend, and each weekend you keep an eye on support you will receive an extra 1/2 day's annual leave to use as you wish (if you cover a single day you receive 1/4 day.)
-Weekend cover isn't expected to be as intense as weekday work, rather you make sure you quickly respond to requests for at least 8 hours for each of the days. Some weekends this can involve little to no work, others more but it's always significantly less than weekday volumes.
+Weekend cover isn't expected to be as intense as weekday work, rather you check in on the channels periodically (like every hour?) and make sure you respond to requests that can't wait till Monday for at least 8 hours for each of the days. Some weekends this can involve little to no work, others more but it's always significantly less than weekday volumes.
 
 ## Getting set up
 1. Make sure you have accounts at the following place, ask Apostolis (@apostolism) if you don't:
