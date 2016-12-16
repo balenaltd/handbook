@@ -1,7 +1,7 @@
 ### Hotfixes
 **16/12/2016:** The certificate bundle for the `resindev.io` TLD has now been moved, along with the rest of the certificates, to a separate repo. To ensure that HAproxy works (and therefore that the rest of the DevEnv does), once you have cloned the `resin-containers` repo, carry out the following on your host (not in the VM):
     
-    cd cloud_formation && git clone https://github.com/resin-io/resin-ssl && mv resin-ssl ssl
+    cd cloud_formation && git clone https://github.com/resin-io/resin-ssl ssl
 You can now `vagrant up` as per normal.
 
 # Overview
