@@ -9,18 +9,19 @@ We're pausing the support league, and trying something completely different.
 * [Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
 * [Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
 
-## Important Links
-* [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
-* [S/intercom](https://app.frontapp.com/inboxes/shared/intercom/open/latest)
-* [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198)
+## Support channels (where to look for messages, in approximate order of importance)
+* [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198) - paid customers
+* [S/intercom](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - paid and unpaid customers (paid customers get tagged)
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
-* [Registry of issues](https://github.com/resin-io/hq/issues) and its [waffle board](https://waffle.io/resin-io/hq)
-* [The ScratchPad](https://github.com/resin-io/hq/wiki/Scratch-Pad)
 * [Forums](https://talk.resin.io/)
 
-### Admin Links
-* [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo)
-* [Support Weekly Report](https://docs.google.com/spreadsheets/d/1oR9vCO_qRA55hIsX_-hW62yHlM_oC4uJhXHByakDpes/edit#gid=0)
+### Helpful Links 
+* [The ScratchPad](https://github.com/resin-io/hq/wiki/Scratch-Pad) - **the cheat sheet for support!**
+* [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
+* [Registry of issues](https://github.com/resin-io/hq/issues) and its [waffle board](https://waffle.io/resin-io/hq)
+* [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo) (legacy from support league)
+* [Support Weekly Report](https://docs.google.com/spreadsheets/d/1oR9vCO_qRA55hIsX_-hW62yHlM_oC4uJhXHByakDpes/edit#gid=0) (legacy from support league)
+
 
 ## Introduction
 At resin.io we do support differently - firstly, every engineer does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve.
