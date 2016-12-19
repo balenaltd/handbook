@@ -15,7 +15,7 @@ Many interesting technical discussions often produce very long threads that are 
 * Device Actions
   * **[Action item]:** Make a list of all 'scripty' actions (`leech`, `btrfs-fix`, `resin sync` etc.)
   * **[Action item]:** Create a spec
-** Device Types ++
+* Device Types ++
   * **[Action item]:** Create a spec
 
 ### 13 Dec 2016
