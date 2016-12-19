@@ -13,7 +13,7 @@ This page is a repository for everything you need to know when doing customer su
 * [Forums](https://talk.resin.io/)
 
 ### Helpful Links 
-* [The ScratchPad](https://github.com/resin-io/hq/wiki/Scratch-Pad) - **the cheat sheet for support!**
+* [The ScratchPad](https://github.com/resin-io/hq/wiki/Scratch-Pad) - **the cheat sheet for support!** Full explanation [here](https://github.com/resin-io/hq/wiki/Support#support-tools-scratchpad).
 * [Zendesk recently update tickets](https://resin.zendesk.com/agent/filters/69240918)
 * [Registry of issues](https://github.com/resin-io/hq/issues) and its [waffle board](https://waffle.io/resin-io/hq)
 * [Support League Table](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo) (legacy from support league)
