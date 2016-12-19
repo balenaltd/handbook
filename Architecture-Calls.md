@@ -8,6 +8,16 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 15 Dec 2016
+
+* Setting up a OAuth 2.0 provider on resin.io
+  * **[Action item]:** Let's create a spec
+* Device Actions
+  * **[Action item]:** Make a list of all 'scripty' actions (`leech`, `btrfs-fix`, `resin sync` etc.)
+  * **[Action item]:** Create a spec
+** Device Types ++
+  * **[Action item]:** Create a spec
+
 ### 13 Dec 2016
 
 * Migrating to resinOS 2.X (remaining tasks & providing images as non-recommended entries in dashboard)
