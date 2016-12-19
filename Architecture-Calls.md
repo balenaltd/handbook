@@ -18,6 +18,10 @@ Many interesting technical discussions often produce very long threads that are 
 * Device Types ++
   * **[Action item]:** Create a spec
 
+https://docs.google.com/document/d/1HQymDK7SAqxGuZgqon-jEpfThUkLHKs-MhT54d0etOY/edit
+
+===
+
 ### 13 Dec 2016
 
 * Migrating to resinOS 2.X (remaining tasks & providing images as non-recommended entries in dashboard)
