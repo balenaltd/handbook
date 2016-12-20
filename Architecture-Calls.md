@@ -106,7 +106,7 @@ https://docs.google.com/document/d/18lYiY1Mi6qkVKptfcd7nmmVi4n2O7xOnrugIa6sMnxI/
 ### 24 Nov 2016
 
 * Allowing users to select and change their usernames
-  * **[Action required]**: Draft a spec
+  * ~~**[Action required]**: Draft a spec~~ - https://github.com/resin-io/hq/pull/450
 * Discussion on understanding the Etcher/resin.io connection
   * https://docs.google.com/drawings/d/1ulscHze6R2pG2-7y8MY0K1KwuoCg4Yn7UyaECMzGd0w/edit
 
