@@ -13,7 +13,16 @@ Welcome to the resin.io wiki.
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
     - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
-  - Taking leave
+  - Policies and procedured
+    - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
+    - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
+    - Time-off policy
+      - Employees
+      - Full-time contractors
+      - Part-time contractors
+    - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
+    - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
+    - [Travel](https://github.com/resin-io/hq/wiki/Travel)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
