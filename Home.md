@@ -8,8 +8,12 @@ Welcome to the resin.io wiki.
   - Joining resin.io
     - [What to expect working at resin.io](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
     - Basic Tool Setup & Tips (Front, Flowdock, Passpack, Github, Staffsquared &c?)
+  - Company culture
+    - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
+    - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
+    - [Summit](https://github.com/resin-io/hq/wiki/Summit)
+    - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
   - Taking leave
-  - [Friday Hacks](Friday-Hacks)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
