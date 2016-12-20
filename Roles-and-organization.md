@@ -1,0 +1,5 @@
+We try to keep the organization as flat and as lightweight as possible. It’s a small company and people are encouraged to take charge of their work independently. You should be able to figure out how to help yourself and help others with as little management intervention as possible.
+
+This doesn’t mean that you’re on your own here. We’ve got your back and altogether we try making our everyday life easier. When you identify tasks that can be made consistent, you’re encouraged to discuss them with the team and raise them internally as well as to draw up a process to handle them. Will we be doing this often enough to automate it? How could this be automated? How would someone do this if we were a 100 people company? In other words, we are very flexible in solving new problems, but we try to solve them in ways that will be efficient today and scalable in the future.
+
+For some things, you’ll need a senior person to fall back on, or ask for advice. For anything related to product development and technology, that’s Petros. For everything related to sales, marketing, finance, HR or business development, that’s Bryan.
