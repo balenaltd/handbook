@@ -1,0 +1,5 @@
+You may be required to travel, from time to time, for business purposes such as events, meetings with customers etc. The company will cover all work-related travel expenses. This includes lodging and meals for the business trip. We really want our team members to be productive and not need to worry about travel arrangements and stuff. Feel free to reach your destination a day or two earlier to prepare for the event/meeting. 
+
+The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
+
+Always have a credit/debit card with you. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was prepaid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
