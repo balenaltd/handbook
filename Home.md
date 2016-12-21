@@ -13,7 +13,7 @@ Welcome to the resin.io wiki.
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
     - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
-  - Policies and procedured
+  - Policies and procedures
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
     - Time-off policy
