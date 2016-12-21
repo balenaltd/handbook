@@ -65,3 +65,18 @@ Example rooms:
 * pub - Anything goes. Nothing particularly good, except the meeting announcements and the occasional all-company announcement
 
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
+
+##hashtags
+Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags in to our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes.
+
+So, a:
+* #architecture sends an email to Front’s D/Architecture inbox and will be discussed at the Architecture Call
+* #blog, #writeup or #toblogfor sends an email to Front’s M/Blog inbox as an idea for the resin blog
+* #devops sends an email to Front’s D/Devops inbox and will be discussed at the DevOps Call
+* #devices sends an email to Front’s D/Devices inbox and will be discussed at the Devices Call
+* #docs sends an email to Front’s S/Docs inbox
+* #newsletter sends an email to Front’s M/Newsletter inbox as an idea that could make it to the resin newsletter
+* #incident or #reliability sends an email to Front’s D/Reliability inbox
+* #processfail, #processincident or #process sends an email to Front’s /Process inbox and will be discussed at the Process Call.
+
+Please keep in mind that the message that contains the hashtag should have all the info of the incident. Sterile hashtags with up-arrows won’t work.
