@@ -29,7 +29,8 @@ Welcome to the resin.io wiki.
     - [your @resin.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@resin.io-e-mail-account)
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
     - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
-    - Flowdock
+    - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
+  - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
