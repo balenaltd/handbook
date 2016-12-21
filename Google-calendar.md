@@ -1,0 +1,30 @@
+Part of your daily routine may include meetings with other team members, the team that you’re part of, clients and more. Also, you will often be required to start a meeting and invite some of your colleagues. You should always check your calendar and other team members’ calendar before inviting someone to a call or before scheduling a new call, to make sure it doesn’t overlap with other important calls.
+
+Before we proceed, please make sure that you have access to the company calendar (ownership of admin@resin.io).
+
+##See a colleague’s calendar
+Let’s say you need to schedule a call where one of your colleagues need to be invited but you’re not sure whether he has any open slots. One solution would be to ask him/her directly about availability. This would mean that you both will need to stop what you’re doing and work on scheduling that call.
+
+Google calendar has a feature which allows you to add a coworker’s calendar to your calendar. Let’s see how you can do that:
+
+1. Log in to your @resin.io e-mail account and go to calendar.google.com
+1. At the Other calendars section, and more specific in the Add a coworker’s calendar field, write the name or the @resin.io e-mail address of the coworker whose calendar you want to see and click on it
+1. Coworker’s calendar entries will show up in your calendar
+
+![](https://lh6.googleusercontent.com/cuVU94WqpS1zQyY-uoMW_f1i3tPSj4j0qVVM07EXxnk9gGCsw4R-gPZAhAB6IFlYAKeO_FTv_wOQn0Uf_8LuVQgrzcTnjdd8B7PQadw9Xxsimq12nTeboOcYhquzXvOQ6B-ur4mo)
+
+Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
+
+##Add an event to your calendar
+In resin.io, we try to keep our company events open for all team members. Anyone can join any meeting they would like to, as long as that’s a company meeting. How would you know if an event is a company/event or open to everyone? The answer is that it’ll be on the company calendar (admin@resin.io) which you can access already.
+
+So, let’s say you’d like to add a repeating event to you calendar and get reminders about it. The best way to do this is to:
+
+1. Log in to your @resin.io e-mail account and go to calendar.google.com
+1. Click on the event title that you’re interested in, or click on the coloured space next to event’s title and click More details
+![](https://lh5.googleusercontent.com/wktBAFzY7yu0rzd6hdzHcqQvq_aigunvMhM-Cl0A6YSqs9Ih7_XCYLD5jNQToqF11EWVDdKy1WbKutLLMWtzn61wiOj_sNVtFRemt9fWChzeW3cKORnjbnru0_RlWHrhjMmp4MyE)
+1. Go to the Add: Guests filed and complete with your @resin.io e-mail address
+![](https://lh4.googleusercontent.com/VL7BtEKT-hpoHnR417uXtFt9S75CxPSSruJTiZ-iiM8tnweDZXuZMLFPRBtp6cjSX-Y_mDWIEFjMto3nUq31HIv1WS63btTnzrK4bHTpywS_VUMsYiIYqvrBoaBwDSZt_E7GJkPT)
+1. Click Add
+
+From now on, you will receive notifications and reminder with regards to this event.
