@@ -33,6 +33,7 @@ Welcome to the resin.io wiki.
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Meeting minutes](https://github.com/resin-io/hq/wiki/Meeting-minutes)
       - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
+      - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
