@@ -32,6 +32,7 @@ Welcome to the resin.io wiki.
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - Meeting minutes
+      - Company call
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
