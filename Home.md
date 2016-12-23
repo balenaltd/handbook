@@ -31,8 +31,8 @@ Welcome to the resin.io wiki.
     - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
-    - Meeting minutes
-      - Company call
+    - [Meeting minutes](https://github.com/resin-io/hq/wiki/Meeting-minutes)
+      - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
