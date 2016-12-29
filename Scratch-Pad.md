@@ -979,6 +979,7 @@ __Note:__ You'll need a GNU version of openssl to run this.
 Open Terminal, run file as:
 ```
 ssh-keygen -f userskey.pub -e -m pem > userskey.pem
+```
 
 In Finder, there's a new file called userskey.pem. 
 
