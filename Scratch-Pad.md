@@ -1560,6 +1560,49 @@ Logs from the command will be output to nohup.out, check that to ensure that it 
 ### Remotely reprovisioning (i.e. nuking) a device
 __NOTE:__ Check the below 'Fixing failure to mount resin-data partition' tip
 
+#### Updated Remote Reprovision Instructions
+If dmesg shows:
+```
+[1457340.910669] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+[1457341.923549] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+[1457342.936517] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+[1457343.948401] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+[1457344.960486] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+[1457345.983949] BTRFS warning (device mmcblk0p6): csum failed ino 40931 off 0 csum 3454425842 expected csum 4290359512
+```
+
+Remote nuke of btrfs:
+1. Note down the supervisor docker image name and tag
+`docker images`
+```
+root@raspberrypi3:~# docker images
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+resin/armv7hf-supervisor   latest              f473e316acb9        9 weeks ago         62.07 MB
+resin/armv7hf-supervisor   v2.7.1              f473e316acb9        9 weeks ago         62.07 MB
+```
+
+1. Unmount the data partition:
+`systemctl stop mat-data.mount`
+
+2. Recreate the btrfs partition, replace `[partition device]` with something like mmcblk0p6:
+`mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]`
+
+3. label the btrfs partition, , replace `[partition device]` with something like mmcblk0p6:
+`btrfs filesystem label /dev/[partition device] resin-data`
+
+4. reboot the device:
+`reboot`
+
+5. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1.
+`docker pull resin/armv7hf-supervisor:v2.7.1`
+
+6. Tag the supervisor as latest.
+`docker tag resin/armv7hf-supervisor:v2.7.1 resin/armv7hf-supervisor:latest`
+
+7. Restart the supervisor:
+`systemctl start resin-supervisor`
+
+**[below are LEGACY instructions]**
 Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, **check with colleagues to make sure this is the appropriate supervisor to pull.**
 
 * Determine which block device contains the main BTRFS data partition - if the partition is still mounted, `run mount | grep /mnt/data` to determine this. If it is not mounted, logs should indicate the correct device, or you can run `lsblk` and the device with the largest listed space will be the one in question. The naming will be something like `/dev/mmcblk0p6`.
@@ -1588,6 +1631,7 @@ rce tag registry.resinstaging.io/resin/armv7hf-supervisor:<version> resin/armv7h
 ```
 systemctl start resin-supervisor
 ```
+**[End of LEGACY instructions]**
 
 ### Resetting VPN devices state
 
