@@ -1038,14 +1038,12 @@ Now if you push to the appropriate remote (eg. 'appone'), only those devices att
 You can easily move devices between applications by selecting a device from a current application, then selecting 'Actions' and then 'Move device'.
 
 ### User wants to delete account
-It is currently not possible for a user to delete his own account from the dashboard, so an admin must handle this manually. In order to avoid any unfortunate accidents by using the admin's credentials directly, please use the 'login as' admin panel feature, copy the user's auth token and run `./del.sh "<userId> "<userAuthToken>"` using the following script:
+It is currently not possible for a user to delete their account using the dashboard.  However it is possible to do so using a direct API request with the *user's* auth token (the auth token must belong to the account being deleted), so either the user can perform the request with their auth token from the preferences panel or an admin can use the 'login as' admin panel feature to copy the user's auth token and run the request themself.
 
 ```sh
-#!/bin/bash
-set -u
-
-curl -X DELETE "https://api.resin.io/v2/user($1)" -H "Authorization: Bearer $2" --compressed
-
+userId="..."
+userAuthToken="..."
+curl -X DELETE "https://api.resin.io/v2/user($userId)" -H "Authorization: Bearer $userAuthToken" --compressed
 ```
 
 You should get an `OK` response on successful account deletion.
