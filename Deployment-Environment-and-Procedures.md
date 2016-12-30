@@ -156,7 +156,7 @@ The above can be done selectively for services.
   WARNING: Do not update a majority of instances at once since it can cause
   issues with etcd.
 
-## Gaining access to the instances
+### Gaining access to the instances
 
 Your access to Staging and Production Environments are controlled by service
 files in the resin-containers/cloudformation/systemd directory.
@@ -166,162 +166,144 @@ enable access.
 You can ssh into the manager instance with `ssh -A
 core@manager.resinstaging.io`.
 
-## Deploying an update to git
+### Deploying an update to git
 
-  Build the image as you normally would:
+Build the image as you normally would:
+```
+sudo resinctl build git production
+```
 
-  sudo resinctl build git production
+SSH into the git host
 
-  SSH into the git host
+Run
+```
+docker pull resin/resin-git:production
+```
 
-  Run
+Restart the service:
 
-  docker pull resin/resin-git:production
+```
+sudo systemctl restart resin-git@production.service
+```
 
-  Restart the service:
+### Deploying resin-proxy
 
-  sudo systemctl restart resin-git@production.service
+1. Trigger a build of proxy with `resinctl build proxy production`
+2. Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices` to your clipboard
+3. Deploy the proxy with `resinctl deploy proxy production`
+4. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
 
-## Deploying resin-proxy
+        mkdir -p /root/.ssh
+        vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
+        export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
+        chmod 0400 /root/.ssh/resin_devices
+        ssh-add /root/.ssh/resin_devices
+        rm /root/.ssh/resin_devices
+5. Done.
 
-  1. Trigger a build of proxy with `resinctl build proxy production`
-  2. Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices`
-  to your clipboard
-  3. Deploy the proxy with `resinctl deploy proxy production`
-  4. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT
-  APPROPRIATELY):
-    ```
-      mkdir -p /root/.ssh
-      vi /root/.ssh/resin_devices # add the contents of
-      resin-containers/cloud_formation/ssh/resin_devices
-      export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
-      chmod 0400 /root/.ssh/resin_devices
-      ssh-add /root/.ssh/resin_devices
-      rm /root/.ssh/resin_devices
-      ```
-      5. Done.
+### Deploying an Upgrade to CoreOS
 
-## Deploying an Upgrade to CoreOS
+During an upgrade to CoreOS, the CoreOS version is changed in the VPC.template, which immediately re-creates the the manager, git, and vpn instances. This will then drop them out of the etctd cluster because the manager is tho sole leader, and you can't join a cluster without a leader.
+To do this deploy do the following:
 
-      During an upgrade to CoreOS, the CoreOS version is changed in the
-      VPC.template, which immediately re-creates the the manager, git, and vpn
-      instances. This will then drop them out of the etctd cluster because the
-      manager is tho sole leader, and you can't join a cluster without a leader.
-      To do this deploy do the following:
-
-      Ensure that you've scheduled downtime ~24 hours prior to doing the
-      release.
-  Make sure AWS is set up to launch instances with your public key (this is
-  important so you can ssh into the new manager instance!). Verify in the EC2
-  dashboard.
+Ensure that you've scheduled downtime ~24 hours prior to doing the release.
+Make sure AWS is set up to launch instances with your public key (this is important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
 Update the VPC template (change CoreOS ami)
 
-  Upload the new VPC template but don't submit it yet
-  Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update
-  the value in the CloudFormation form
-  Go through the fields in the CloudFormation form and make sure everything's
-  filled in that should be (especially new fields). Verify that the desired
-  number of instances matches what's currently set in the auto-scaling groups.
-  Ensure that new instances are set up to launch with your SSH key
-  Go into EC2 in another tab and detach the EBS volume from the git instance.
-  This won't happen yet.
-  Shut down the git instance. Watch the EBS volumes and wait for it to be
-  detached.
-  Check https://admin.resin.io/top-level-numbers for current number of connected
-  devices. Remember this number.
-  Submit the VPC template. This will recreate manager, git, and vpn instances.
+Upload the new VPC template but don't submit it yet
+Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update the value in the CloudFormation form
+Go through the fields in the CloudFormation form and make sure everything's filled in that should be (especially new fields). Verify that the desired number of instances matches what's currently set in the auto-scaling groups.
+Ensure that new instances are set up to launch with your SSH key
+Go into EC2 in another tab and detach the EBS volume from the git instance.
+This won't happen yet.
+Shut down the git instance. Watch the EBS volumes and wait for it to be detached.
+Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
+Submit the VPC template. This will recreate manager, git, and vpn instances.
 
-  SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
 
-    git clone git@github.com:resin-io/resin-containers.git
-    cd resin-containers/cloud_formation/systemd/services
-    git checkout production
-    fleetctl submit *
-    fleetctl start manager@production.service
+```
+git clone git@github.com:resin-io/resin-containers.git
+cd resin-containers/cloud_formation/systemd/services
+git checkout production
+fleetctl submit *
+fleetctl start manager@production.service
+```
 
-    Deploy the proxy server:
+### Deploy the proxy server:
 
-    sudo resinctl deploy proxy production
+```
+sudo resinctl deploy proxy production
+```
 
-    SSH into the new proxy server and run the following:
+SSH into the new proxy server and run the following:
 
-    mkdir -p /root/.ssh
-    vi /root/.ssh/resin_devices # add the contents of
-    resin-containers/cloud_formation/ssh/resin_devices
-    export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
-    chmod 0400 /root/.ssh/resin_devices
-    ssh-add /root/.ssh/resin_devices
-    rm /root/.ssh/resin_devices
+```
+mkdir -p /root/.ssh
+vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
+export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
+chmod 0400 /root/.ssh/resin_devices
+ssh-add /root/.ssh/resin_devices
+rm /root/.ssh/resin_devices
+```
 
-    Go back to https://admin.resin.io/top-level-numbers and make sure that the
-    number of online devices is back up close to what it was originally.
+Go back to https://admin.resin.io/top-level-numbers and make sure that the number of online devices is back up close to what it was originally.
 
-    Re-deploy each of the other services to pick up the new discovery token and
-    join the new cluster (and get the new CoreOS version, of course).
+Re-deploy each of the other services to pick up the new discovery token and join the new cluster (and get the new CoreOS version, of course).
 
-    for service in delta registry admin img ui registry2 builder; do
-    deploying $service to production...
-    sudo resinctl deploy $service production
-    done
+```
+for service in delta registry admin img ui registry2 builder; do
+  deploying $service to production...
+  sudo resinctl deploy $service production
+done
+```
 
 ### Deploying interrupted services (git, vpn)
 
-    In the case of vpn:
+In the case of vpn:
 
-    1. Schedule downtime on statuspage.io
-    1. Do the usual fast-forwarding of production to the selected deploy commit,
-    and push
-    1. Update CHANGELOG on master. Push
-    1. Check https://admin.resin.io/top-level-numbers for number of connected
-    devices. Remember this number
-    1. Run `resinctl build vpn production`
-    1. Wait for the scheduled downtime window
-    1. Run `sudo resinctl deploy vpn production`
-    1. Once it's up, confirm that the number of connected devices at
-    https://admin.resin.io/top-level-numbers matches pre-deploy numbers
+1. Schedule downtime on statuspage.io
+2. Do the usual fast-forwarding of production to the selected deploy commit, and push
+3. Update CHANGELOG on master. Push
+4. Check https://admin.resin.io/top-level-numbers for number of connected devices. Remember this number
+5. Run `resinctl build vpn production`
+6. Wait for the scheduled downtime window
+7. Run `sudo resinctl deploy vpn production`
+8. Once it's up, confirm that the number of connected devices at https://admin.resin.io/top-level-numbers matches pre-deploy numbers
 
-    Ooops
-    etcd is broken
+## Ooops etcd is broken
 
-    Stop all the etcd instances on the manager and git
+Stop all the etcd instances on the manager and git
+```
+sudo systemctl stop etcd2 load-etcd
+```
 
-    sudo systemctl stop etcd2 load-etcd
+Clean etcd data dirs:
+```
+sudo rm -rf /var/lib/etcd2/*
+```
 
-    Clean etcd data dirs:
+Change the discovery url in cloudformation
+Add all the services to fleet
 
-    sudo rm -rf /var/lib/etcd2/*
+```
+cd resin-containers/cloudformation/systemd/services  && fleetctl start manager@master.service
+```
 
-                                 Change the discovery url in cloudformation
-                                 Add all the services to fleet
+Restart the etcd instance on git (it is done automatically on manager by the cloudformation change):
+```
+sudo systemctl start etcd2
+```
 
-                                 cd
-                                 resin-containers/cloudformation/systemd/services
-                                 && fleetctl start manager@master.service
-
-                                 Restart the etcd instance on git (it is done
-                                 automatically on manager by the cloudformation
-                                 change):
-
-                                 sudo systemctl start etcd2
-
-                                 Bring missing instances back into fleet:
-
-                                 ssh $INSTANCE_IP
-                                 sudo rm -rf /var/lib/etcd2/*
-                                 sudo systemctl restart etcd2
+Bring missing instances back into fleet:
+```
+ssh $INSTANCE_IP
+sudo rm -rf /var/lib/etcd2/*
+sudo systemctl restart etcd2
+```
 
 
 
+# TODO/NOTES
 
-
-                                 TODO/NOTES
-
-                                 AUTOSCALE POLICIES EXIST ONLY FOR DOCKERFILE
-                                 BUILDER - DISCUSS AND ADD FOR OTHERS.
-                                 The AMI's used are in the beta channel as fleet
-                                 global loading is currently only supported in
-                                 beta - Need to revert this once the stable
-                                 CoreOS[410] changes to release 444.4.0 or
-                                 above.
-
-
+AUTOSCALE POLICIES EXIST ONLY FOR DOCKERFILE BUILDER - DISCUSS AND ADD FOR OTHERS.
