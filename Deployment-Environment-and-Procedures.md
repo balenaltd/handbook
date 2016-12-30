@@ -204,21 +204,22 @@ sudo systemctl restart resin-git@production.service
 ### Deploying an Upgrade to CoreOS
 
 During an upgrade to CoreOS, the CoreOS version is changed in the VPC.template, which immediately re-creates the the manager, git, and vpn instances. This will then drop them out of the etctd cluster because the manager is tho sole leader, and you can't join a cluster without a leader.
+
 To do this deploy do the following:
 
 Ensure that you've scheduled downtime ~24 hours prior to doing the release.
-Make sure AWS is set up to launch instances with your public key (this is important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
-Update the VPC template (change CoreOS ami)
 
-Upload the new VPC template but don't submit it yet
-Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update the value in the CloudFormation form
-Go through the fields in the CloudFormation form and make sure everything's filled in that should be (especially new fields). Verify that the desired number of instances matches what's currently set in the auto-scaling groups.
-Ensure that new instances are set up to launch with your SSH key
-Go into EC2 in another tab and detach the EBS volume from the git instance.
-This won't happen yet.
-Shut down the git instance. Watch the EBS volumes and wait for it to be detached.
-Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
-Submit the VPC template. This will recreate manager, git, and vpn instances.
+* Make sure AWS is set up to launch instances with your public key (this is important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
+* Update the VPC template (change CoreOS ami)
+* Upload the new VPC template but don't submit it yet
+* Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update the value in the CloudFormation form
+* Go through the fields in the CloudFormation form and make sure everything's filled in that should be (especially new fields). Verify that the desired number of instances matches what's currently set in the auto-scaling groups.
+* Ensure that new instances are set up to launch with your SSH key
+* Go into EC2 in another tab and detach the EBS volume from the git instance.
+* This won't happen yet.
+* Shut down the git instance. Watch the EBS volumes and wait for it to be detached.
+* Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
+* Submit the VPC template. This will recreate manager, git, and vpn instances.
 
 SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
 
