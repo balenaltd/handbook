@@ -240,7 +240,7 @@ To do this deploy do the following:
   fleetctl start add_ssh_keys.service
   ```
 
-* Deploy the proxy server: See the section on deploying the proxy above
+* [Deploy the proxy server](#deploying-resin-proxy)
 * Re-deploy each of the other services to pick up the new discovery token and
   join the new cluster (and get the new CoreOS version, of course)
 
