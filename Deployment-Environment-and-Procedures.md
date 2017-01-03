@@ -81,7 +81,7 @@ We track code from PR to staging via the following process:
 * Once your PR has been merged, move its card in waffle to `waiting for staging`
   (or repo equivalent)
 * When you would like to see it on staging, check what else is in `waiting for
-  staging` and make sure you're okay with deploy all that
+  staging` and make sure you're okay with deploying all that
 * Go to the `resin-deploy` [Jenkins
   job](https://jenkins.dev.resin.io/view/DevOps/job/resin-deploy/build) and trigger a
   deploy, using the `update` action, specifying the component you would like
@@ -229,6 +229,10 @@ cd resin-containers/cloud_formation/systemd/services
 git checkout production
 fleetctl submit *
 fleetctl start manager@production.service
+cd ~
+git clone git@github.com:resin-io/resin-ssh-keys.git
+cd resin-ssh-keys/systemd/services
+fleetctl start add_ssh_keys.service
 ```
 
 ### Deploy the proxy server:
