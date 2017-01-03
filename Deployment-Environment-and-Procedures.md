@@ -1,3 +1,7 @@
+# Table of Contents
+
+* [Deploying resin-proxy](#deploying-resin-proxy)
+
 # Environment
 
 We use a combination of Amazon Cloud Formation and CoreOS for running our
