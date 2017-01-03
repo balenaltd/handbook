@@ -194,6 +194,7 @@ sudo systemctl restart resin-git@production.service
    devices. Note the number down somewhere for later
 4. Deploy the proxy with `resinctl deploy proxy production`
 5. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+
   ```
   mkdir -p /root/.ssh
   vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
@@ -202,6 +203,7 @@ sudo systemctl restart resin-git@production.service
   ssh-add /root/.ssh/resin_devices
   rm /root/.ssh/resin_devices
   ```
+
 6. Go back to https://admin.resin.io/top-level-numbers and make sure that the
    number of online devices is back up close to what it was originally
 7. Done
@@ -225,6 +227,7 @@ To do this deploy do the following:
 * Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
 * Submit the VPC template. This will recreate manager, git, and vpn instances.
 * SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+
   ```
   git clone git@github.com:resin-io/resin-containers.git
   cd resin-containers/cloud_formation/systemd/services
@@ -236,9 +239,11 @@ To do this deploy do the following:
   cd resin-ssh-keys/systemd/services
   fleetctl start add_ssh_keys.service
   ```
+
 * Deploy the proxy server: See the section on deploying the proxy above
 * Re-deploy each of the other services to pick up the new discovery token and
   join the new cluster (and get the new CoreOS version, of course)
+
   ```
   for service in delta registry admin img ui registry2 builder; do
     echo "deploying $service to production..."
