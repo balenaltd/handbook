@@ -190,16 +190,21 @@ sudo systemctl restart resin-git@production.service
 
 1. Trigger a build of proxy with `resinctl build proxy production`
 2. Copy the contents of `resin-containers/cloud_formation/ssh/resin_devices` to your clipboard
-3. Deploy the proxy with `resinctl deploy proxy production`
-4. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
-
-        mkdir -p /root/.ssh
-        vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
-        export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
-        chmod 0400 /root/.ssh/resin_devices
-        ssh-add /root/.ssh/resin_devices
-        rm /root/.ssh/resin_devices
-5. Done.
+3. Go to https://admin.resin.io/top-level-numbers and check the number of online
+   devices. Note the number down somewhere for later
+4. Deploy the proxy with `resinctl deploy proxy production`
+5. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+  ```
+  mkdir -p /root/.ssh
+  vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
+  export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
+  chmod 0400 /root/.ssh/resin_devices
+  ssh-add /root/.ssh/resin_devices
+  rm /root/.ssh/resin_devices
+  ```
+6. Go back to https://admin.resin.io/top-level-numbers and make sure that the
+   number of online devices is back up close to what it was originally
+7. Done
 
 ### Deploying an Upgrade to CoreOS
 
@@ -207,8 +212,7 @@ During an upgrade to CoreOS, the CoreOS version is changed in the VPC.template, 
 
 To do this deploy do the following:
 
-Ensure that you've scheduled downtime ~24 hours prior to doing the release.
-
+* Ensure that you've scheduled downtime ~24 hours prior to doing the release.
 * Make sure AWS is set up to launch instances with your public key (this is important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
 * Update the VPC template (change CoreOS ami)
 * Upload the new VPC template but don't submit it yet
@@ -220,48 +224,27 @@ Ensure that you've scheduled downtime ~24 hours prior to doing the release.
 * Shut down the git instance. Watch the EBS volumes and wait for it to be detached.
 * Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
 * Submit the VPC template. This will recreate manager, git, and vpn instances.
-
-SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
-
-```
-git clone git@github.com:resin-io/resin-containers.git
-cd resin-containers/cloud_formation/systemd/services
-git checkout production
-fleetctl submit *
-fleetctl start manager@production.service
-cd ~
-git clone git@github.com:resin-io/resin-ssh-keys.git
-cd resin-ssh-keys/systemd/services
-fleetctl start add_ssh_keys.service
-```
-
-### Deploy the proxy server:
-
-```
-sudo resinctl deploy proxy production
-```
-
-SSH into the new proxy server and run the following:
-
-```
-mkdir -p /root/.ssh
-vi /root/.ssh/resin_devices # add the contents of resin-containers/cloud_formation/ssh/resin_devices
-export SSH_AUTH_SOCK=/var/run/resin-proxy-ssh-agent
-chmod 0400 /root/.ssh/resin_devices
-ssh-add /root/.ssh/resin_devices
-rm /root/.ssh/resin_devices
-```
-
-Go back to https://admin.resin.io/top-level-numbers and make sure that the number of online devices is back up close to what it was originally.
-
-Re-deploy each of the other services to pick up the new discovery token and join the new cluster (and get the new CoreOS version, of course).
-
-```
-for service in delta registry admin img ui registry2 builder; do
-  deploying $service to production...
-  sudo resinctl deploy $service production
-done
-```
+* SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+  ```
+  git clone git@github.com:resin-io/resin-containers.git
+  cd resin-containers/cloud_formation/systemd/services
+  git checkout production
+  fleetctl submit *
+  fleetctl start manager@production.service
+  cd ~
+  git clone git@github.com:resin-io/resin-ssh-keys.git
+  cd resin-ssh-keys/systemd/services
+  fleetctl start add_ssh_keys.service
+  ```
+* Deploy the proxy server: See the section on deploying the proxy above
+* Re-deploy each of the other services to pick up the new discovery token and
+  join the new cluster (and get the new CoreOS version, of course)
+  ```
+  for service in delta registry admin img ui registry2 builder; do
+    echo "deploying $service to production..."
+    sudo resinctl deploy $service production
+  done
+  ```
 
 ### Deploying interrupted services (git, vpn)
 
@@ -276,7 +259,9 @@ In the case of vpn:
 7. Run `sudo resinctl deploy vpn production`
 8. Once it's up, confirm that the number of connected devices at https://admin.resin.io/top-level-numbers matches pre-deploy numbers
 
-## Ooops etcd is broken
+## Other Problems You May Encounter
+
+### Ooops etcd is broken
 
 Stop all the etcd instances on the manager and git
 ```
@@ -307,8 +292,3 @@ sudo rm -rf /var/lib/etcd2/*
 sudo systemctl restart etcd2
 ```
 
-
-
-# TODO/NOTES
-
-AUTOSCALE POLICIES EXIST ONLY FOR DOCKERFILE BUILDER - DISCUSS AND ADD FOR OTHERS.
