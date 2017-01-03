@@ -1,14 +1,18 @@
 # Customer Support @ resin.io
 
-This page is a repository for everything you need to know when doing customer support at resin.io
+This page documents what you need to know when doing customer support at resin.io
 
 ## Who On Support This Week? (updated: 21 Nov 2016)
-* [Explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#)
-* [Schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568)
+[Google calendar showing who's scheduled](https://calendar.google.com/calendar/embed?src=resin.io_2klk2f26ivo04qq5ktlkva1neg%40group.calendar.google.com&ctz=America/New_York)
+
+[Spread sheet where we collectively make the schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568) - ([explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#))
+
 
 ## Support channels (where to look for messages, in approximate order of importance)
 * [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198) - paid customers
-* [S/intercom](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - paid and unpaid customers (paid customers get tagged)
+* [S/intercom](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - paid and unpaid customers 
+ * tickets that have an SLA are tagged 'premium' - see SLA section below
+ * paid customers tagged 'paid' - they sometimes get preferential priority
 * [Community Chat on gitter](https://gitter.im/resin-io/chat)
 * [Forums](https://talk.resin.io/)
 
@@ -65,15 +69,14 @@ All roads lead to Front, and those roads break sometimes. Something to be aware 
 How do you send a file through Front/Intercom? You can't, so instead it may be well worth C+Ping that file into a private Gist that you can then send to a customer, should the need arise. Gist is [here](https://gist.github.com/).
 
 ## The Support Week
-* **IMPORTANT** - During your 4 hour slot, covering support is your full time and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, Gitter and Resin Talk, responding as quickly and as accurately as possible to any new message.
+* **IMPORTANT** - During your 4 hour slot, covering support is your full time and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, Gitter and forums.resion.io, responding as quickly and as accurately as possible to any new message.
 * **IMPORTANT** - always use the resin.io side panel to link tickets in front  to relevant conversations on Flowdock... If someone helps you out with a support ticket, but all their interaction is on flowdock, please ask them to create the link to the flowdock conversation where they contributed. If this is not done the assisting person **will not get any points** unfortunately. 
-* You will be assigned support in the Monday call, based on the Support League Table (see above) and will cover support from the end of the meeting until the start of the call on the following Monday, excluding the weekend (see above for details on benefits on offer for weekend cover however!)
-* Every day at 2pm GMT the 2 engineers covering the middle 2 slots (i.e.: 11:00 - 19:00) gathers on Mumble with the support lead to discuss currently open tickets and clear up the Front inboxes. Please make sure you are available to attend these meetings so we can discuss conversations you are involved in. If your time zone makes this particularly difficult, let the support lead know and we can make an alternative arrangement.
+* You can choose your own hours using the spreadsheet, or you'll be tapped to schedule a week of support (with a 4-hour shift each week day).
 * Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
-* When you support slot is coming to a close, remember to do a quick and informal handover with the support engineer who is replacing you. Just let him know what tickets are open and want things need attending to.
+* When you support slot is coming to a close, in Flowdock @mention the next support agent with what tickets are open and want things need attending to.
 
 ## Support Workflow
-This workflow specifically discusses dealing with support issues in Front, however these steps should be used for resin talk, zendesk and gitter with obvious adjustments - let the support lead know if you are unsure about this.
+This workflow specifically discusses dealing with support issues in Front, however these steps should be used for the forums, zendesk and gitter with obvious adjustments - let the support lead know if you are unsure about this.
 
 ### Important tips
 * We send a bunch of automated messages which users sometimes reply to. Occasionally they are sent as if they are from a member of the team, and are usually pretty obvious. One we send to every user is a hello/welcome message - sometimes users respond talking about what they want to do with resin and more rarely they use it as a thread to report an issue. Regardless it's important to note that we say `We read and reply to every message` here, so every time we get a reply to this message, it's vital to reply to it.
@@ -83,6 +86,11 @@ This workflow specifically discusses dealing with support issues in Front, howev
 
 ### When you shift starts
 * Check S/support and S/intercom inboxes to see if any new conversations have been started by a user, a user has replied to you or there are new messages from existing conversations with other members of staff which have not been answered yet. Go through and check each open conversation. Its important to look at the `Open` tab and not the `unassigned` tab in the Front inbox.
+* Any tickets labeled 'premium' have an SLA.
+ * Urgent (severity 1) - must be replied to in 60 minutes
+ * Severity 2 - must be replied to in 3 hours
+ * Severity 3- must be replied to in 24 hours
+ * Severity 4 - doesn't have an SLA! Woo. We still want to respond promptly, but it's definitely a lower priority than the others
 * If you are not sure about the state of existing conversations with others, ask the support engineer from the previous time slot to fill you in.
 * If the conversation is new or a user has replied to you, go ahead and respond, skip to the Replying workflow.
 * Otherwise, if a user has replied to an existing conversation with another member of staff and they're around, ping them to deal with it, or step in yourself if you know you can take it over. If they are not around you'll need to make a judgment call - read the conversation and see whether it would make sense for you to jump in and reply.
@@ -91,7 +99,7 @@ This workflow specifically discusses dealing with support issues in Front, howev
 
 ### Non-support tickets
 
-Requests for a partnership or wanting to sell us something - [ask to send to hello@](https://www.flowdock.com/app/rulemotion/r-process/threads/FliYq-3DXNW4ZL4BNCMGyW2_ob2). Tell them something like:
+Requests for a partnership or wanting to sell us something - [ask to send an email to hello@](https://www.flowdock.com/app/rulemotion/r-process/threads/FliYq-3DXNW4ZL4BNCMGyW2_ob2). Tell them something like:
 >Please email hello@resin.io, that will get to the right people within the company. Thanks!
 
 ### Specific support
