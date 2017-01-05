@@ -13,6 +13,8 @@ Many interesting technical discussions often produce very long threads that are 
 * Discuss golang ENM interface sharing
   * **[Action item]:** Needs more research (Joe)
 
+===
+
 ### 15 Dec 2016
 
 * Setting up a OAuth 2.0 provider on resin.io
