@@ -1,6 +1,9 @@
 ##Recent Meeting Notes
 ###Mon, Jan 9 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1ODnqLOvGsdkIi0uHxage8AE7FnfKpSrM5yX33Jsxkeo/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8YnRtQzQwb1RWWWc)
 
 ###Mon, Jan 2 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1rR4WvaLxOzLCZTbBq9xYRBJy8PnCQtuByynOwpIkb6U/edit?usp=sharing)
