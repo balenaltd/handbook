@@ -7,7 +7,7 @@ Welcome to the resin.io wiki.
 - [Team](Team)
   - Joining resin.io
     - [What to expect working at resin.io](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
-    - Basic Tool Setup & Tips (Front, Flowdock, Passpack, Github, Staffsquared &c?)
+    - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
   - Company culture
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
