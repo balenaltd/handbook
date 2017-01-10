@@ -8,7 +8,19 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
-### 5 Jan 2017
+### 9 Jan 2017
+
+* Discuss supervisor container conflict bug (recently hit on resinOS 1.24.1) / docker bug
+  * **[Action item]:** Device team should change how we restart supervisor with special care for the update script
+  * **[Action item]:** Work on maintaining internal docker fork (Yossi)
+* Discuss openROV issue: ESOCKETTIMEDOUT errors with deltas enabled 
+  * **[Action item]:** Requires investigation
+  * **[Action item]:** Look into precomputing deltas on builder
+  * **[Action item]:** Set a less scary supervisor error when deltas fail
+
+* ENM/supervisor architecture discussion / brainstorming session
+
+https://docs.google.com/document/d/1tEftM9-n3ObXrZ4deXms0eCm1itZJGa_cjKBlAJBj6Q/edit
 
 ===
 
