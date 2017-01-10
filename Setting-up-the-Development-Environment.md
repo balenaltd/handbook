@@ -228,6 +228,7 @@ eg:
 Cameron's seen several issues reliably getting the DevEnv running under Arch. The main cause of this has been the creation of the VirtualBox network bridges. Here's some things to check for:
 
 * The `vboxnet` bridge interface for the DevEnv isn't configured even though `vagrant up` has been run. This seems to be a persistent problem, and will stop you being able to access the Resin.io Dashboard/CLI. To correctly configure an interface (in the following example, a `vboxnet0` interface exists, but has no ip address), do the following:
+
     ```
     ip addr add 10.10.10.1/24 dev vboxnet0
     ip route add 10.10.10.0/24 via 10.10.10.1 dev vboxnet0
