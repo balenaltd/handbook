@@ -97,7 +97,7 @@ https://docs.google.com/document/d/17O-M8D8eYqGVXkbJP3CnYJ7BSGjd56rjXlfGcyw5twc/
 
 ### 5 Dec 2016
 * Zendesk / Front Integration
-  * **[Action Item]**: We need to look into Zendesk/Front APIs, discuss in specific what needs to be done and see if we can find a better solution.
+  * ~~**[Action Item]**: We need to look into Zendesk/Front APIs, discuss in specific what needs to be done and see if we can find a better solution.~~ Zendesk/Front integration issue is fixed
 
 * Supervisor Update lock
   * ~~**[Action Item]**: We need to write a spec~~ - https://github.com/resin-io/hq/pull/488
