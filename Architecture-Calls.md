@@ -161,7 +161,7 @@ https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/
 ### 15 Nov 2016
 
 * How to mark Resin 2.0 development devices
-  * **[Action required]**: Write spec on how to mark dev/prod and debug
+  * ~~**[Action required]**: Write spec on how to mark dev/prod and debug~~ https://github.com/resin-io/hq/pull/505
 * Handling transitions when moving Apps and handling update locks
   * **[Action required]**: Write spec on how the supervisor should automatically purge /data when an app is moved
 * Need to improve instructions on boards that support multi baseboard
