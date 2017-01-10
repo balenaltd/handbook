@@ -28,7 +28,7 @@ Many interesting technical discussions often produce very long threads that are 
   * **[Action item]:** Detect if we're running a recent OS and if so, do not change the hostname from the base image. The advertised hostname can be either <device-type>-<shortUUID> or resin-<uuid> (TBD)
 * rdt promote
   * **[Action item]:** Reiterate on the idea of users having their own openvpn server + ability to do openssh connection on the device, essentially a proxy - as part of resinOS story there'd be a resinOS control server, which basically is vpn and ssh that they can use to get into the devices. We could provide an easy to set up openvpn/command&control server (e.g. for aws) and also have a deployment guide on how to get to production and the steps to get access to the devices (using the provided resinos control server)
-  * **[Action item]:** Create spec on preparing proloaded images from a simple server
+  * **[Action item]:** Create spec on preparing preloaded images from a simple server
 * Update strategies
   * **[Action item]:** Continue work on document on data model for multicontainer/multiapp for GE
 * Deltas mad science and resumable deltas
