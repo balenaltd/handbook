@@ -32,9 +32,9 @@ Many interesting technical discussions often produce very long threads that are 
 * Update strategies
   * **[Action item]:** Continue work on document on data model for multicontainer/multiapp for GE
 * Deltas mad science and resumable deltas
-  **[Action item]:** Need to think more about resumable deltas and consider configurable timeouts
+  * **[Action item]:** Need to think more about resumable deltas and consider configurable timeouts
 * Decide whether to go ahead with https://github.com/resin-io/resin-supervisor/pull/273/files (making the supervisor ignore resinhup images - which has a bit of an ugly hardcoding)
-  **[Action item]:** We can pass for now
+  * ~~**[Action item]:** We can pass for now~~ PR closed - https://github.com/resin-io/resin-supervisor/pull/273#issuecomment-268359835
 
 https://docs.google.com/document/d/18eIBG-rpFMQnLrU-HHCPDAg6EM4VvV_iZiSVV8ggO0I/edit
 
