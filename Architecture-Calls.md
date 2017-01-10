@@ -8,6 +8,16 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 10 Jan 2017
+
+* Open Source Builder
+  * **[Action item]:** Write spec
+* Troubleshooting session/discussion on API/RDS performance issues
+
+https://docs.google.com/document/d/1-9IMrl5c6hPexItKqsEfKN6vKda5RBGmwLXFl_v9u_0/edit
+
+===
+
 ### 9 Jan 2017
 
 * Discuss supervisor container conflict bug (recently hit on resinOS 1.24.1) / docker bug
