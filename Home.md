@@ -17,9 +17,9 @@ Welcome to the resin.io wiki.
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
     - [Time-off policy](https://github.com/resin-io/hq/wiki/Time-off-policy)
-      - Employees
-      - Full-time contractors
-      - Part-time contractors
+      - [Employees](https://github.com/resin-io/hq/wiki/Employees-(time-off))
+      - [Full-time contractors](https://github.com/resin-io/hq/wiki/Full-time-contractors)
+      - [Part-time contractors](https://github.com/resin-io/hq/wiki/Part-time-contractors)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
     - [Travel](https://github.com/resin-io/hq/wiki/Travel)
