@@ -1,12 +1,12 @@
 ### Hotfixes
-**16/12/2016:** The certificate bundle for the `resindev.io` TLD has now been moved, along with the rest of the certificates, to a separate repo. To ensure that HAproxy works (and therefore that the rest of the DevEnv does), once you have cloned the `resin-containers` repo, carry out the following on your host (not in the VM):
-    
-    cd cloud_formation && git clone https://github.com/resin-io/resin-ssl ssl
-You can now `vagrant up` as per normal.
+
+Currently none.
 
 # Overview
 
 This document describes how a new user can get up and running with the Development Environment. A good chunk of this is taken from a document Akis wrote.
+
+At the bottom of this document is a Troubleshooting section. Should you have any issues with the DevEnv, check here first. Otherwise prod Heds on Flowdock.
 
 # Prerequisites
 
@@ -217,3 +217,19 @@ Additionally, if you want to nose around in the FS for a non-running container, 
 eg:
 
 `docker run --entrypoint=/bin/sh -it resin/resin-git:master -c /bin/sh`
+
+# Troubleshooting
+
+* `vagrant up` stalls on `==> resinvm: Running provisioner: file...`. The Vagrantfile copies everything in both your `~/.gitconfig` directory (and your `~/.vim` directory if the `EDITOR` envvar is set to `vim`). Ensure you don't have Megabytes (or more) of data in there it's trying to copy across. If so, either prune those directories or disable the provisioner from the `Vagrantfile`.
+
+* Strange errors from Docker when `dc up`ing, refusing to start containers. It's most likely you're running out of system resources; ensure that the virtual drive in the DevEnv isn't filling up, or that your host CPU/disk isn't near capacity. It's worth noting that by default, the DevEnv has 2 cores and 2048GB of memory assigned to it. If you can up this, do so.
+
+## Arch Linux
+Cameron's seen several issues reliably getting the DevEnv running under Arch. The main cause of this has been the creation of the VirtualBox network bridges. Here's some things to check for:
+
+* The `vboxnet` bridge interface for the DevEnv isn't configured even though `vagrant up` has been run. This seems to be a persistent problem, and will stop you being able to access the Resin.io Dashboard/CLI. To correctly configure an interface (in the following example, a `vboxnet0` interface exists, but has no ip address), do the following:
+    ```
+    ip addr add 10.10.10.1/24 dev vboxnet0
+    ip route add 10.10.10.0/24 via 10.10.10.1 dev vboxnet0
+    ```
+* Multiple `vboxnet` interfaces have been created, even though there's only one VirtualBox machine running. In this case, disable the interface that does not show any assigned IP address (`ip addr show`) and disable the other. If neither of them have an address signed, pick one for use and carry out the operations described above and disable the other.
