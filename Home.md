@@ -16,7 +16,7 @@ Welcome to the resin.io wiki.
   - Policies and procedures
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
-    - Time-off policy
+    - [Time-off policy](https://github.com/resin-io/hq/wiki/Time-off-policy)
       - Employees
       - Full-time contractors
       - Part-time contractors
