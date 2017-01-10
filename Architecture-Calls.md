@@ -17,7 +17,6 @@ Many interesting technical discussions often produce very long threads that are 
   * **[Action item]:** Requires investigation
   * **[Action item]:** Look into precomputing deltas on builder
   * **[Action item]:** Set a less scary supervisor error when deltas fail
-
 * ENM/supervisor architecture discussion / brainstorming session
 
 https://docs.google.com/document/d/1tEftM9-n3ObXrZ4deXms0eCm1itZJGa_cjKBlAJBj6Q/edit
@@ -25,6 +24,7 @@ https://docs.google.com/document/d/1tEftM9-n3ObXrZ4deXms0eCm1itZJGa_cjKBlAJBj6Q/
 ===
 
 ### 5 Jan 2017
+
 * API request max body size
   * **[Action item]:** Start truncating the logs at 512 kb and keep latest
 * resinhup - ENM fusion - brainstorming session
