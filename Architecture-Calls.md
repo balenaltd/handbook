@@ -11,7 +11,7 @@ Many interesting technical discussions often produce very long threads that are 
 ### 10 Jan 2017
 
 * Open Source Builder
-  * **[Action item]:** Write spec
+  * **[Action item]:** Write spec ([hq/541](https://github.com/resin-io/hq/issues/541))
 * Troubleshooting session/discussion on API/RDS performance issues
 
 https://docs.google.com/document/d/1-9IMrl5c6hPexItKqsEfKN6vKda5RBGmwLXFl_v9u_0/edit
