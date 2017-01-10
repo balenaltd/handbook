@@ -22,7 +22,7 @@ Many interesting technical discussions often produce very long threads that are 
 ### 20 Dec 2016
 
 * BBB image that boots from SD card (needs to autoboot, can't require button press) served from the dashboard
-  * **[Action item]:** Write spec
+  * ~~**[Action item]:** Write spec~~ https://github.com/resin-io/hq/pull/521 https://github.com/resin-io/hq/pull/520
 * Discuss how the hostname should be set in resin2.0 (resinOS or base images) Also the hostname format, the current format is <device-type>-<short UUID> but resinOS2.0 uses only <short UUID>
   * **[Action item]:** More investigation needed on how changing the hostname from the container affects the host OS one (are they shared or not?)
   * **[Action item]:** Detect if we're running a recent OS and if so, do not change the hostname from the base image. The advertised hostname can be either <device-type>-<shortUUID> or resin-<uuid> (TBD)
