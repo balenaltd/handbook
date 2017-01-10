@@ -7,6 +7,7 @@ Welcome to the resin.io wiki.
 - [Team](Team)
   - Joining resin.io
     - [What to expect working at resin.io](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
+    - [Live the resin.io user experience](https://github.com/resin-io/hq/wiki/Live-the-resin.io-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
   - Company culture
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
