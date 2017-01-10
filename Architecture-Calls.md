@@ -79,7 +79,7 @@ https://docs.google.com/document/d/18eIBG-rpFMQnLrU-HHCPDAg6EM4VvV_iZiSVV8ggO0I/
 ### 15 Dec 2016
 
 * Setting up a OAuth 2.0 provider on resin.io
-  * **[Action item]:** Let's create a spec
+  * **[Action item]:** Let's create a spec ([hq/509](https://github.com/resin-io/hq/issues/509))
 * Device Actions
   * **[Action item]:** Make a list of all 'scripty' actions (`leech`, `btrfs-fix`, `resin sync` etc.)
   * **[Action item]:** Create a spec
