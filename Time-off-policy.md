@@ -11,3 +11,5 @@ Here are the main points of the policy:
 * Someone can exceed the 30 days annual allowance and get unpaid holidays.
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 * Holiday allowance resets on each team member hire date anniversary.
+
+Regardless the group that you fall in, it’s really important that whenever you want to take some days off, you first check with the team and make sure that someone has got your back. For example, if a team consists of 2 people, it won’t be a good idea for both of them to be away at the same time. Speak to your colleague and make sure that someone will always have you covered. Think about others, protect your colleagues, protect the company.
