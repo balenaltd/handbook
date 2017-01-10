@@ -8,10 +8,35 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 9 Jan 2017
+
+===
+
 ### 3 Jan 2017
 
 * Discuss golang ENM interface sharing
-  * **[Action item]:** Needs more research (Joe)
+  * **[Action item]:** Bluetooth/nodejs related issue that needs more research (Joe)
+
+===
+
+### 20 Dec 2016
+
+* BBB image that boots from SD card (needs to autoboot, can't require button press) served from the dashboard
+  * **[Action item]:** Write spec
+* Discuss how the hostname should be set in resin2.0 (resinOS or base images) Also the hostname format, the current format is <device-type>-<short UUID> but resinOS2.0 uses only <short UUID>
+  * **[Action item]:** More investigation needed on how changing the hostname from the container affects the host OS one (are they shared or not?)
+  * **[Action item]:** Detect if we're running a recent OS and if so, do not change the hostname from the base image. The advertised hostname can be either <device-type>-<shortUUID> or resin-<uuid> (TBD)
+* rdt promote
+  * **[Action item]:** Reiterate on the idea of users having their own openvpn server + ability to do openssh connection on the device, essentially a proxy - as part of resinOS story there'd be a resinOS control server, which basically is vpn and ssh that they can use to get into the devices. We could provide an easy to set up openvpn/command&control server (e.g. for aws) and also have a deployment guide on how to get to production and the steps to get access to the devices (using the provided resinos control server)
+  * **[Action item]:** Create spec on preparing proloaded images from a simple server
+* Update strategies
+  * **[Action item]:** Continue work on document on data model for multicontainer/multiapp for GE
+* Deltas mad science and resumable deltas
+  **[Action item]:** Need to think more about resumable deltas and consider configurable timeouts
+* Decide whether to go ahead with https://github.com/resin-io/resin-supervisor/pull/273/files (making the supervisor ignore resinhup images - which has a bit of an ugly hardcoding)
+  **[Action item]:** We can pass for now
+
+https://docs.google.com/document/d/18eIBG-rpFMQnLrU-HHCPDAg6EM4VvV_iZiSVV8ggO0I/edit
 
 ===
 
