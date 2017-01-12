@@ -1,10 +1,5 @@
 ### Hotfixes
 
-**11-01-2017:** There appears to be a problem after moving to Docker 1.12. This means that a host will not be able to communicate with the resindev services. We're currently looking into what's gone wrong, but as a short term fix, ensure you checkout the last working version after cloning the DevEnv:
-
-    git checkout 40673ab6bfead23b54d08e68cf84e455cab35acb
-
-
 # Overview
 
 This document describes how a new user can get up and running with the Development Environment. A good chunk of this is taken from a document Akis wrote.
