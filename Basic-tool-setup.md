@@ -36,7 +36,7 @@ Resin.io admin
 
 1. Sign up to [resin.io](https://dashboard.resin.io/signup) with your @resin.io e-mail account
 1. Sign up to [resin.io staging](https://dashboard.resinstaging.io/signup) with your @resin.io e-mail account
-1. Let the Operations team know
+1. Let the Operations team know, in the Operations flow, in Flowdock
 
 _Note: These accounts should NOT be for daily use, but only for accessing the admin panel._
 
