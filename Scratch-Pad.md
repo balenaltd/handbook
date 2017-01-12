@@ -1581,7 +1581,7 @@ resin/armv7hf-supervisor   v2.7.1              f473e316acb9        9 weeks ago  
 ```
 
 1. Unmount the data partition:
-`systemctl stop mat-data.mount`
+`systemctl stop mnt-data.mount`
 
 2. Recreate the btrfs partition, replace `[partition device]` with something like mmcblk0p6:
 `mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]`
