@@ -68,6 +68,8 @@
     - [Treatment](#treatment-10)
   - [Beaglebone goes into 'read only' filesystem mode](#beaglebone-goes-into-read-only-filesystem-mode)
     - [Symptoms:](#symptoms)
+  - [409 While Uploading Metadata](#409-while-uploading-metadata)
+    - [Symptoms](#symptoms-6)
 - [Canned Responses](#canned-responses)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
     - [Host OS](#host-os)
@@ -572,6 +574,28 @@ This appears be down to how often the kernel tries to reclaim memory used for th
 ```
 This will reduce the chance of this occurring again on the device. If the fix is applied then the device rebooted, the device should hopefully not get into this state again. If reboot doesn't fix the situation and the FS is corrupted, then a re-provision of the device will be required. As Lorenzo noted, 'Think of this as a vaccine rather than a cure'.
 
+## 409 While Uploading Metadata
+### Symptoms
+
+In terminal during git push:
+
+```
+-----> Uploading image to registry...
+Retrying due to 'Error: HTTP code 409 while uploading metadata: "{\"error\": \"Cannot set this image checksum\"}"'
+       Image uploaded successfully
+```
+
+On device during image download:
+
+```
+Server error: 400 trying to fetch remote history for 89839ddbec51e95ea4f4659c91f1efd7ad357c9760153fd5033fb4f7d7dc6dc7
+```
+
+### Treatment
+
+None. This is a known issue with registry v1, solved in v2. Fixing in v1 is
+non-trivial to the point of not being worth it.
+
 # Canned Responses
 ### Static IP (resinOS 1.x **ONLY**)
 
@@ -971,7 +995,7 @@ echo CHANGE_ME | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
 ```
 >Please let us know if you have trouble with the above procedure.
 
-**Verifying Users Response via SSH Challenge** 
+**Verifying Users Response via SSH Challenge**
 __Note:__ You'll need a GNU version of openssl to run this.
 
 1. Go to their ssh key tab in preferences https://dashboard.resin.io/preferences?tab=sshkeys
@@ -981,7 +1005,7 @@ Open Terminal, run file as:
 ssh-keygen -f userskey.pub -e -m pem > userskey.pem
 ```
 
-In Finder, there's a new file called userskey.pem. 
+In Finder, there's a new file called userskey.pem.
 
 3. Next, you have to convert that to a PEM encoded (plain? not sure what this format is called) public key using this command:
 ```
@@ -1002,14 +1026,14 @@ cat response.base64 | base64 -d | openssl rsautl -verify -inkey users-key.plain.
 ```
 This should print the original random challenge you sent him. i.e if you sent `echo foobarfoobar`, then the above command should print `foobarfoobar`
 
-If the user's key doesn't match, you'll see 
+If the user's key doesn't match, you'll see
 They may have another SSH key to try.
 If not, it means we don't have a unique way to confirm the account.
 
 If the key does match, and there's reason to believe that the computer is compromised, the next challenge is to ask the user to confirm private information about their account.
 >Thank you for sending the key. We think it's prudent to ask you one more security question. Please reply with both the name and device type for an application associated with your account.
 
-If the key does match, and there's no reason to believe the computer is compromised, log in as the user and disable 2FA. 
+If the key does match, and there's no reason to believe the computer is compromised, log in as the user and disable 2FA.
 >Thank you for confirming. I've disabled two-factor authentication for your account.
 
 
@@ -1306,9 +1330,9 @@ The [btrfs-fix](https://github.com/resin-os/btrfs-fix) tool can be used to autom
 the steps mentioned in the next sections (fixing inability to delete files, clearing
 down space, remove orphaned subvolumes and returning back to normal) in one big swoop.
 
-`btrfs-fix` addresses the image/container ID mismatch mentioned in the 
+`btrfs-fix` addresses the image/container ID mismatch mentioned in the
 'Removing orphaned subvolumes' section and should work in both older and newer (>=1.10) docker versions.
-`./fix.sh [device uuid]` will run diagnostics on specified production device, while 
+`./fix.sh [device uuid]` will run diagnostics on specified production device, while
 running `./fix.sh --fix [device uuid]` will attempt to fix the space issues on the device.
 
 ### Fixing the Inability to Delete Files
