@@ -1,6 +1,6 @@
 ##Recent Meeting Notes
 
-###Mon, Jan 9 2017
+###Mon, Jan 16 2017
 * [Meeting minutes](https://drive.google.com/open?id=1Ei5kH6pSJtlwC1MfH9xvjFRJKgs7P0dmYhww0LzFNHs)
 * [Video]()
 * [Audio]()
