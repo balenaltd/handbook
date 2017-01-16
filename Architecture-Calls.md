@@ -13,6 +13,13 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 12 Jan 2017
+
+* [Notes/Action items pending]
+* [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
+
+===
+
 ### 10 Jan 2017
 
 * Open Source Builder
