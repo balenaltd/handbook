@@ -2,7 +2,7 @@
 
 ###Mon, Jan 16 2017
 * [Meeting minutes](https://drive.google.com/open?id=1Ei5kH6pSJtlwC1MfH9xvjFRJKgs7P0dmYhww0LzFNHs)
-* [Video]()
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8Z1R3U1JUcWRJdGM)
 * [Audio]()
 * [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8RVZFOXZ1eldUbWM)
 
