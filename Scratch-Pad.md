@@ -1628,27 +1628,33 @@ resin/armv7hf-supervisor   v2.7.1              f473e316acb9        9 weeks ago  
 **[below are LEGACY instructions]**
 Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, **check with colleagues to make sure this is the appropriate supervisor to pull.**
 
-* Determine which block device contains the main BTRFS data partition - if the partition is still mounted, `run mount | grep /mnt/data` to determine this. If it is not mounted, logs should indicate the correct device, or you can run `lsblk` and the device with the largest listed space will be the one in question. The naming will be something like `/dev/mmcblk0p6`.
+* Determine which block device contains the main BTRFS data partition - if the partition is still mounted, run `mount | grep /mnt/data` to determine this. If it is not mounted, logs should indicate the correct device, or you can run `lsblk` and the device with the largest listed space will be the one in question. The naming will be something like `/dev/mmcblk0p6`.
 * Now you know the device, unmount it (if mounted), create the btrfs filesystem, label it correctly and reboot the device:
-```
-unmount /dev/[partition device]
-mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]
-btrfs filesystem label /dev/[partition device] resin-data
+
+```Bash
+export PARTITION=/dev/mmcblk0p6
+umount ${PARTITION}
+# might need wait a bit for umount to finish
+mkfs.btrfs --mixed --metadata=single --force ${PARTITION}
+btrfs filesystem label ${PARTITION} resin-data
 reboot
 ```
 * After reboot, you will need to pull a new instance of the supervisor.
 
 NOTE: Update the tag accordingly. **Match the existing version of the supervisor**. It may risk issues if the host OS doesn't support features assumed to exist by a new supervisor. From supervisor 1.4.0 on we publish versions to the staging registry, older versions however are not guaranteed to be present. A member of the supervisor or infrastructure team might be able to push a required version there if necessary.
+
 ```
-rce pull registry.resinstaging.io/resin/rpi-supervisor:<version>
+export SUPERVISOR=v1.8.0
 ```
-If the device is an rpi:
+If the device is an RPi:
 ```
-rce tag registry.resinstaging.io/resin/rpi-supervisor:<version> resin/rpi-supervisor:latest
+rce pull registry.resinstaging.io/resin/rpi-supervisor:${SUPERVISOR}
+rce tag registry.resinstaging.io/resin/rpi-supervisor:${SUPERVISOR} resin/rpi-supervisor:latest
 ```
-If the device is an rpi2:
+If the device is an RPi2/RPi3:
 ```
-rce tag registry.resinstaging.io/resin/armv7hf-supervisor:<version> resin/armv7hf-supervisor:latest
+rce pull registry.resinstaging.io/resin/armv7hf-supervisor:${SUPERVISOR}
+rce tag registry.resinstaging.io/resin/armv7hf-supervisor:${SUPERVISOR} resin/armv7hf-supervisor:latest
 ```
 * Finally start the supervisor:
 ```
