@@ -50,11 +50,13 @@ Flowdock is the chat service we’re using for internal communication. Flowdock 
 
 Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package.
 
-Intercom is the service we use, for customer support, to receive the messages of our users/guests/clients from the “Contact us” form or when some user starts a new conversation from the resin.io dashboard.
+Intercom is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the resin.io dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
+
+Zendesk is the customer support helpdesk we provide to paid customers. All Zendesk messages are piped into Front, which is where we manage them. We only access Zendesk directly when the Front integration isn't working properly.
 
 Beegit is the service we’re using to produce our blog’s content and pipeline, and collaborate with other teammates on this. 
 
-Front is the service we use to gather all messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s connected with Gmail and Intercom.
+Front is the service we use to gather all messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s connected with Gmail, Flowdock, Intercom and Zendesk.
 
 Zoom is the main service we’re using for the company calls. From time to time, we may use also Hangouts, Skype or Mumble.
 
