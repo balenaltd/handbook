@@ -1,6 +1,7 @@
 # Table of Contents
 
 * [Deploying resin-proxy](#deploying-resin-proxy)
+* [Deploying an update to git](#deploying-an-update-to-git)
 
 # Environment
 
@@ -172,23 +173,23 @@ core@manager.resinstaging.io`.
 
 ### Deploying an update to git
 
-Build the image as you normally would:
-```
-sudo resinctl build git production
-```
+* Build the image as you normally would:
 
-SSH into the git host
+  ```
+  sudo resinctl build git production
+  ```
 
-Run
-```
-docker pull resin/resin-git:production
-```
+* SSH into the git host and run
 
-Restart the service:
+  ```
+  docker pull resin/resin-git:production
+  ```
 
-```
-sudo systemctl restart resin-git@production.service
-```
+* Restart the service:
+
+  ```
+  sudo systemctl restart resin-git@production.service
+  ```
 
 ### Deploying resin-proxy
 
