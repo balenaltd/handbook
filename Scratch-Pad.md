@@ -1616,14 +1616,8 @@ resin/armv7hf-supervisor   v2.7.1              f473e316acb9        9 weeks ago  
 4. reboot the device:
 `reboot`
 
-5. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1.
-`docker pull resin/armv7hf-supervisor:v2.7.1`
-
-6. Tag the supervisor as latest.
-`docker tag resin/armv7hf-supervisor:v2.7.1 resin/armv7hf-supervisor:latest`
-
-7. Restart the supervisor:
-`systemctl start resin-supervisor`
+5. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1, and `armv7hf` with the correct architecture if necessary.
+`update-resin-supervisor -i resin/armv7hf-supervisor -t v2.7.1`
 
 **[below are LEGACY instructions]**
 Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, **check with colleagues to make sure this is the appropriate supervisor to pull.**
