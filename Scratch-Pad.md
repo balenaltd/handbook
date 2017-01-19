@@ -1103,7 +1103,7 @@ Solution(s):
 * Change the bind-mount to the newer version (`/var/run/docker.sock`)
 * OR: Try symlinking the socket inside the supervisor
 
-***
+**
 
 # Internals
 ## Accessing User Devices
@@ -1111,57 +1111,68 @@ Solution(s):
 
 1. Add your SSH key to [resin-ssh-keys
    project](https://github.com/resin-io/resin-ssh-keys), at
-   `systemd/services/add_ssh_keys_[your name].service`, using one of the
+   `systemd/services/add_ssh_keys_[your_flowdock_handle].service`, using one of the
    existing files as a template.
 2. Add an ExecStart line in `add_ssh_keys.service`
    (located in the same directory), using another line as a template.
-3. PR these changes, have them merged in and ask the appropriate dudes (currently Jack) to deploy
+3. PR these changes, have them merged in and ask the appropriate people (currently Jack) to deploy
    them to the server,
 4. Grab the key files from `resin-containers` at
    `cloud_formation/ssh/resin_devices*` and copy them to your `~/.ssh` folder.
-   This key is password-protected, and is available from passpack. Ask Apostolis
-   or Aggelos for access.
+   This key is password-protected, and the key is available from passpack. Ask @apostolism
+   for access.
 
 ### Getting Access
 
 1. Make sure your ssh agent knows about the key you've added to the resin-containers `cloud_formation/systemd/services` folder, if it isn't your default key, by running:
-```
-ssh-add /path/to/private/key
-```
+
+  ```
+  ssh-add /path/to/private/key
+  ```
+
 2. Find the UUID of the device you want to access.
 3. Ensure the key is loaded into your ssh agent by running `ssh-add ~/.ssh/resin_devices`.
-4. If you are on mac, the old ssh installed will fail on the previous step complaining of a bad keyphrase even if it's correct. To get around this update your version:
-```
-brew install homebrew/dupes/openssh
-```
-This will install binaries into `/usr/local/bin`, symlinked into entries in `/usr/Cellar/openssh/[version]/bin`.
-On my local machine as of 16th December 2015, the version installed by default in /usr/bin/ssh is OpenSSH_6.9p1, LibreSSL 2.1.8 - this is the version that does not work.
+  * If you are on mac, the old ssh installed will fail on the previous step complaining of a bad keyphrase even if it's correct. To get around this update your version:
 
-After installing via openssh, /usr/local/bin/ssh reports version OpenSSH_7.1p1, OpenSSL 1.0.2e 3 Dec 2015. To determine version run `ssh -V`, and if you want to compare between these locations specify the whole path, e.g. `/usr/local/bin/ssh -V` (this will be what 'ssh' defaults unless your path has been edited unusually.)
+    ```
+    brew install homebrew/dupes/openssh
+    ```
 
-You may need to look at how ssh-agent starts/runs but experiments locally suggest it works out of the box .
+    This will install binaries into `/usr/local/bin`, symlinked into entries in `/usr/Cellar/openssh/[version]/bin`.
+    As of 16th December 2015, the version installed by default in /usr/bin/ssh is OpenSSH_6.9p1, LibreSSL 2.1.8 - this is the version that *does not work*.
 
-Another issue with ssh on mac is that the ssh-agent sometimes refuses to use the correct key if many keys are already loaded (ssh-add -l shows a list). Temporarily removing some keys (with ssd-add -d <key>) until there are only a few left (3 or 4, maybe less) mitigates the problem. When this problem arises, even forcing a specific key with the '-i' option will not work. This issue has been seen in version OpenSSH_7.1p2, OpenSSL 1.0.2e 3 Dec 2015.
+    After installing via openssh, /usr/local/bin/ssh reports version OpenSSH_7.1p1, OpenSSL 1.0.2e 3 Dec 2015. To determine version run `ssh -V`, and if you want to compare between these locations specify the whole path, e.g. `/usr/local/bin/ssh -V` (this will be what 'ssh' defaults unless your path has been edited unusually.)
+
+    You may need to look at how ssh-agent starts/runs but experiments locally suggest it works out of the box .
+
+    Another issue with ssh on mac is that the ssh-agent sometimes refuses to use the correct key if many keys are already loaded (ssh-add -l shows a list). Temporarily removing some keys (with ssd-add -d <key>) until there are only a few left (3 or 4, maybe less) mitigates the problem. When this problem arises, even forcing a specific key with the '-i' option will not work. This issue has been seen in version OpenSSH_7.1p2, OpenSSL 1.0.2e 3 Dec 2015.
 
 5. Set up aliases in ~/.ssh/config as follows:
-```
-Host resin
- User root
- Port 22222
- ProxyCommand ssh -A core@manager.resin.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
- StrictHostKeyChecking no
- UserKnownHostsFile /dev/null
-Host resinstaging
- User root
- Port 22222
- ProxyCommand ssh -A core@manager.resinstaging.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
- StrictHostKeyChecking no
- UserKnownHostsFile /dev/null
-```
 
-You can then log in to a users device using `ssh resin -o Hostname=${UUID}.vpn`
+  ```
+  Host resin
+   User root
+   Port 22222
+   ProxyCommand ssh -A core@manager.resin.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
+   StrictHostKeyChecking no
+   UserKnownHostsFile /dev/null
+  Host resinstaging
+   User root
+   Port 22222
+   ProxyCommand ssh -A core@manager.resinstaging.io 'enter vpn "sudo nsenter --target \$(docker inspect --format {{.State.Pid}} resin-vpn) --mount --net nc %h %p"'
+   StrictHostKeyChecking no
+   UserKnownHostsFile /dev/null
+  ```
+
+  Note: Even if you can think of other, more fun ways of setting up your
+  aliases, please use the form above, since some of our tooling you may use
+  while on support assumes aliases set up in the manner above. If you've got
+  good ideas to improve them, raise it in the devops channel on Flowdock.
+
+6. You can then log in to a users device using `ssh resin -o Hostname=${UUID}.vpn`
 
 ### On the Device
+
 Check `/var/volatile/vpnfile` - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
 
 Once on the (non-systemd, before resinOS 1.2) device, `/var/logs/*` is your friend. `rce` should be running, which is the `resin container engine`, i.e. our fork of docker.
