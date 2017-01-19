@@ -2,7 +2,7 @@
 
 This page documents what you need to know when doing customer support at resin.io
 
-## Every shift
+## Quick start for every shift
 This workflow specifically discusses dealing with support issues in Front, however these steps should be used for the forums, zendesk and gitter with obvious adjustments - let the support lead know if you are unsure about this.
 * Bookmark and keep open all links in the [Important Links](#Support-channels) section at the top of this page.
 * During your 4 hour slot, covering support is your full time job and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, and forums.resion.io, responding as quickly and as accurately as possible to any new message.
