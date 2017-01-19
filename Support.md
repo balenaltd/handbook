@@ -3,22 +3,22 @@
 This page documents what you need to know when doing customer support at resin.io
 
 ## Quick start for every shift
-This workflow specifically discusses dealing with support issues in Front, however these steps should be used for the forums, zendesk and gitter with obvious adjustments - let the support lead know if you are unsure about this.
-* Bookmark and keep open all links in the [Important Links](#Support-channels) section at the top of this page.
+This workflow specifically discusses dealing with support issues in Front, however these steps should be used for the forums and gitter with obvious adjustments - let the support lead know if you are unsure about this.
+* Bookmark and keep open all links in the [Important Links](#Support-channels) section.
 * During your 4 hour slot, covering support is your full time job and we aim to respond to all questions within 20 minutes or so. If you find reasonable gaps while working on support then by all means work on other tasks, however you should not allow this to interfere with your support duties. Keep a close eye on Front, Zendesk, and forums.resion.io, responding as quickly and as accurately as possible to any new message.
-* Remember to check the Front sidebar (toggle to Resin #1) for related Flowdock conversations. Always link tickets in Front to relevant conversations on Flowdock. This helps us know what discussion was had and what actions were taken -- useful insights for future support requests and product changes.
-* Add useful notes and tags as you go - existing GitHub issues, writing new GitHub issues, comments letting
-* [Once we have a closing/teardown flow set that will go here]
-* End your shift with a message in r/user_happiness to the next agent with helpful information to them about tickets that are mid-conversation, and what's been quiet. Ex: "@shaun-mulligan there are two tickets in s/intercom that need to be responded to and this forum post (link) that needs an answer."
-* Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
-
-### When you shift starts
-* Start with a triage - check S/support and S/intercom inboxes to see if any new conversations have been started by a user, a user has replied to you or there are new messages from existing conversations with other members of staff which have not been answered yet. Go through and check each open conversation. Its important to look at the `Open` tab and not the `unassigned` tab in the Front inbox.
 * Any s/intercom tickets labeled 'premium' and all Zendesk tickets have an SLA.
  * Urgent (severity 1) - must be replied to in 60 minutes
  * Severity 2 - must be replied to in 3 hours
  * Severity 3- must be replied to in 24 hours
  * Severity 4 - doesn't have an SLA! Woo. We still want to respond promptly, but it's definitely a lower priority than the others
+* Remember to check the Front sidebar (toggle to Resin #1) for related Flowdock conversations. Always link tickets in Front to relevant conversations on Flowdock. This helps us know what discussion was had and what actions were taken -- useful insights for future support requests and product changes.
+* Add useful notes and tags as you go - existing GitHub issues, writing new GitHub issues, comments explaining actions you've taken (that aren't captured in logs, Flowdock or your message to the user)
+* [Once we have a closing/teardown flow that will go here]
+* End your shift with a message in r/user_happiness to the next agent with helpful information to them about tickets that are mid-conversation, and what's been quiet. Ex: "@shaun-mulligan there are two tickets in s/intercom that need to be responded to and this forum post (link) that needs an answer."
+* Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
+
+### When you shift starts
+* Start with a triage - check S/support and S/intercom inboxes to see if any new conversations have been started by a user, a user has replied to you or there are new messages from existing conversations with other members of staff which have not been answered yet. Go through and check each open conversation. Its important to look at the `Open` tab and not the `unassigned` tab in the Front inbox.
 * If you are not sure about the state of existing conversations with others, ask the support engineer from the previous time slot to fill you in.
 * If the conversation is new or a user has replied to you, go ahead and respond, skip to the Replying workflow.
 * Otherwise, if a user has replied to an existing conversation with another member of staff and they're around, ping them to deal with it, or step in yourself if you know you can take it over. If they are not around you'll need to make a judgment call - read the conversation and see whether it would make sense for you to jump in and reply.
