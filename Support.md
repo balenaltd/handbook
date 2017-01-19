@@ -23,7 +23,6 @@ This workflow specifically discusses dealing with support issues in Front, howev
 * If the conversation is new or a user has replied to you, go ahead and respond, skip to the Replying workflow.
 * Otherwise, if a user has replied to an existing conversation with another member of staff and they're around, ping them to deal with it, or step in yourself if you know you can take it over. If they are not around you'll need to make a judgment call - read the conversation and see whether it would make sense for you to jump in and reply.
 * If the response is just an acknowledgement, thanks, or obviously ending the conversation, there's no need to respond. However if the user talks about an urgent issue, or it seems appropriate to give a reply (i.e. you can provide this information quickly to them), then by all means do.
-* Always let the member of staff who was dealing with the conversation know what's happened.
 
 ## Who On Support This Week?
 [Google calendar showing who's scheduled](https://calendar.google.com/calendar/embed?src=resin.io_2klk2f26ivo04qq5ktlkva1neg%40group.calendar.google.com&ctz=America/New_York)
