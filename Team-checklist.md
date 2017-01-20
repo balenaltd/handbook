@@ -1,4 +1,4 @@
-Before anything else let's check that everything is in order and that there's no other action pending. Here's all the actions you have done today. Please check carefully that all's in place.
+Before anything else let's check that everything is in order and that there's no other action pending. Here's all the different stuff you have been doing today. Please check carefully that all's in place.
 
 * Signed the contracts
 * Obtained a Resin.io email account
