@@ -27,6 +27,8 @@ There’s a distinction between primary and secondary services. You should have 
 
 _* this service requires additional information/steps before you get access to it._
 
+**Please bear in mind that to request and obtain any access to any service you need to get in touch with the operations team in the operations flow (r/operations).**
+
 ###How to access services that require additional information/steps.
 Github
 
