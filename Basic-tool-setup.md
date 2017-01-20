@@ -25,7 +25,7 @@ Secondary:
 
 There’s a distinction between primary and secondary services. You should have access to services of both categories but use the primary services on a daily basis. The secondary services will be used only in case of an “emergency”.
 
-**Please bear in mind that to request and obtain any access to any service you need to get in touch with the operations team in the operations flow (r/operations).**
+**Lastly but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow (r/operations).**
 
 _* this service requires additional information/steps before you get access to it._
 
