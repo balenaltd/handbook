@@ -10,7 +10,7 @@ Your inbox will be full of e-mails that our team has already sent you. These are
 As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. For now, make sure you have access to the following services:
 
 Primary:
-* Flowdock (www.flowdock.com)
+* [Flowdock](www.flowdock.com)
 * [Calamari](www.calamari.io)
 * [Beegit](www.beegit.com)
 * [Front](www.frontapp.com)
