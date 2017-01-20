@@ -84,3 +84,8 @@ So, a:
 * #processfail, #processincident or #process sends an email to Front’s /Process inbox and will be discussed at the Process Call.
 
 Please keep in mind that the message that contains the hashtag should have all the info of the incident. Sterile hashtags with up-arrows won’t work.
+
+##Your first message
+Now that you are an expert on Flowdock it's time for your first meeting with the team. You'll be introduced in the public folder by the Operations team.
+
+We would like to ask you to send a brief intro of yourself as your first task. Include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
