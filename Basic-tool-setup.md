@@ -11,13 +11,13 @@ As mentioned above, once you log into your @resin.io e-mail account, you’ll fi
 
 Primary:
 * [Flowdock](https://www.flowdock.com/app)
-* [Calamari](www.calamari.io)
-* [Beegit](www.beegit.com)
-* [Front](www.frontapp.com)
-* [Zoom](www.zoom.us)
-* [Github](www.github.com)*
+* [Calamari](https://calamari.io)
+* [Beegit](https://beegit.com)
+* [Front](https://frontapp.com/)
+* [Zoom](https://zoom.us/)
+* [Github](https://github.com)*
 * Resin.io admin*
-* [Timezone.io](www.timezone.io)*
+* [Timezone.io](https://timezone.io/)*
 
 Secondary:
 * Intercom
