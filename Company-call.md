@@ -1,5 +1,9 @@
 ##Recent Meeting Notes
 
+###Mon, Jan 23 2017
+* [Video](https://drive.google.com/open?id=0BwtKfQAiRlCQSlBRaWoxUm1yb0U)
+* [Audio](https://drive.google.com/open?id=0BwtKfQAiRlCQaVc1Uzg1bWxxUm8)
+
 ###Mon, Jan 16 2017
 * [Meeting minutes](https://drive.google.com/open?id=1Ei5kH6pSJtlwC1MfH9xvjFRJKgs7P0dmYhww0LzFNHs)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8Z1R3U1JUcWRJdGM)
