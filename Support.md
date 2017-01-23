@@ -14,7 +14,9 @@ This workflow specifically discusses dealing with support issues in Front, howev
 * If there is a conversation in Flowdock related to a Front conversation, always link them. This helps us know what discussion was had and what actions were taken -- useful insights for teardowns, future support requests and product changes.
  * How to link Flowdock to Front: in the sidebar (toggle to Resin #1), paste the tag in a Flowdock thread. You can also start a Flowdock conversation about the ticket from the sidebar, which will add the tag and a URL to the Front thread.
 * When responding to a ticket, remember to check the Front sidebar for related Flowdock conversations.
-* Add useful notes and tags as you go - existing GitHub issues, writing new GitHub issues, comments explaining actions you've taken (that aren't captured in logs, Flowdock or your message to the user)
+* Every time you touch a ticket, think if there's metadata to add:
+ * comments explaining actions you've taken (that aren't captured in logs, Flowdock or your message to the user)
+ * tags to GitHub issues - product specific, or HQ. At the top of the ticket is *+ TAG* > Add to GitHub > toggle to either create a new issue or add to issue (you can then search issues by name or ID).
 * [Once we have a closing/teardown flow that will go here]
 * End your shift with a message in r/user_happiness to the next agent with helpful information to them about tickets that are mid-conversation, and what's been quiet. Ex: "@shaun-mulligan there are two tickets in s/intercom that need to be responded to and this forum post (link) that needs an answer."
 * Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
