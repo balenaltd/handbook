@@ -14,7 +14,7 @@ This workflow specifically discusses dealing with support issues in Front, howev
 * If there is a conversation in Flowdock related to a Front conversation, always link them. This helps us know what discussion was had and what actions were taken -- useful insights for teardowns, future support requests and product changes.
  * How to link Flowdock to Front: in the sidebar (toggle to Resin #1), paste the tag in a Flowdock thread. You can also start a Flowdock conversation about the ticket from the sidebar, which will add the tag and a URL to the Front thread.
 * When responding to a ticket, remember to check the Front sidebar for related Flowdock conversations.
-* Every time you touch a ticket, think if there's metadata to add:
+* Every time you touch a ticket, consider what metadata you can add:
  * comments explaining actions you've taken (that aren't captured in logs, Flowdock or your message to the user)
  * tags to GitHub issues - product specific, or HQ. At the top of the ticket is *+ TAG* > Add to GitHub > toggle to either create a new issue or add to issue (you can then search issues by name or ID).
 * [Once we have a closing/teardown flow that will go here]
