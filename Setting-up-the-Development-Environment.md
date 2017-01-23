@@ -30,7 +30,7 @@ The guest additions allow easy communication between host (your machine) and gue
 
 The DevEnv is actually an integration that brings all of the Resin.io services together, and this is the `resin-containers` repo. Assuming you have access to the Resin repos, type:
 
-git clone --recursive https://github.com/resin-io/resin-containers.git
+    git clone --recursive https://github.com/resin-io/resin-containers.git
 
 Note that if you use TFA on Github, you'll need to have a Personal Access Token to correctly allow the submodules to be fetched. See [here](https://help.github.com/articles/providing-your-2fa-authentication-code/) for further details.
 
