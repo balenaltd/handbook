@@ -989,11 +989,11 @@ In the canned response, add the output of `openssl rand -hex 32` as `CHANGE_ME`
 
 >Therefore you will understand that we need to take extra measures to be sure that we are not disabling two-factor authentication for an attacker who learned your password.
 
->We would like to verify that you're in possession of the SSH key you have provided to us. To do this you'll have to run the following command and send us the output via your account's email. After we validate the signature we'll disable 2FA on your account and you'll be able to login with just your password.
+>We would like to verify that you're in possession of the SSH key you have provided to us. To do this you'll have to run the following command and send us the output from the email account associated with your resin account, to support@resin.com. After we validate the signature we'll disable 2FA on your account and you'll be able to login with just your password.
 ```
 echo CHANGE_ME | openssl rsautl -sign -inkey ~/.ssh/id_rsa | base64
 ```
->Please let us know if you have trouble with the above procedure.
+>If the command doesn't work, it may be that your SSH keys are stored elsewhere, you can edit the command to point to where your SSH keys are. Please let us know if you have trouble with these instructions.
 
 **Verifying Users Response via SSH Challenge**
 __Note:__ You'll need a GNU version of openssl to run this.
