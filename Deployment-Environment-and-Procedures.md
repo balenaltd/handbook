@@ -198,7 +198,7 @@ core@manager.resinstaging.io`.
 3. Go to https://admin.resin.io/top-level-numbers and check the number of online
    devices. Note the number down somewhere for later
 4. Deploy the proxy with `resinctl deploy proxy production`
-5. SSH into the new proxy instance and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
+5. SSH into the new proxy *CONTAINER* and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
 
   ```
   mkdir -p /root/.ssh
@@ -220,16 +220,21 @@ During an upgrade to CoreOS, the CoreOS version is changed in the VPC.template, 
 To do this deploy do the following:
 
 * Ensure that you've scheduled downtime ~24 hours prior to doing the release.
-* Make sure AWS is set up to launch instances with your public key (this is important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
+* Make sure AWS is set up to launch instances with your public key (this is
+  important so you can ssh into the new manager instance!). Verify in the EC2 dashboard.
 * Update the VPC template (change CoreOS ami)
 * Upload the new VPC template but don't submit it yet
-* Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update the value in the CloudFormation form
-* Go through the fields in the CloudFormation form and make sure everything's filled in that should be (especially new fields). Verify that the desired number of instances matches what's currently set in the auto-scaling groups.
+* Get a new discovery URL from https://discovery.etcd.io/new?size=1 and update
+  the value in the CloudFormation form
+* Go through the fields in the CloudFormation form and make sure everything's
+  filled in that should be (especially new fields). Verify that the desired
+  number of instances matches what's currently set in the auto-scaling groups.
 * Ensure that new instances are set up to launch with your SSH key
 * Go into EC2 in another tab and detach the EBS volume from the git instance.
-* This won't happen yet.
+  This won't happen yet.
 * Shut down the git instance. Watch the EBS volumes and wait for it to be detached.
-* Check https://admin.resin.io/top-level-numbers for current number of connected devices. Remember this number.
+* Check https://admin.resin.io/top-level-numbers for current number of connected
+  devices. Remember this number.
 * Submit the VPC template. This will recreate manager, git, and vpn instances.
 * SSH into the new manager and run (MODIFY THE ENVIRONMENT APPROPRIATELY):
 
@@ -251,7 +256,7 @@ To do this deploy do the following:
 
   ```
   for service in delta registry admin img ui registry2 builder; do
-    echo "deploying $service to production..."
+    echo "\n==> deploying $service to production..."
     sudo resinctl deploy $service production
   done
   ```
@@ -261,13 +266,16 @@ To do this deploy do the following:
 In the case of vpn:
 
 1. Schedule downtime on statuspage.io
-2. Do the usual fast-forwarding of production to the selected deploy commit, and push
+2. Do the usual fast-forwarding of production to the selected deploy commit,
+  and push
 3. Update CHANGELOG on master. Push
-4. Check https://admin.resin.io/top-level-numbers for number of connected devices. Remember this number
+4. Check https://admin.resin.io/top-level-numbers for number of connected
+  devices. Remember this number
 5. Run `resinctl build vpn production`
 6. Wait for the scheduled downtime window
 7. Run `sudo resinctl deploy vpn production`
-8. Once it's up, confirm that the number of connected devices at https://admin.resin.io/top-level-numbers matches pre-deploy numbers
+8. Once it's up, confirm that the number of connected devices at
+  https://admin.resin.io/top-level-numbers matches pre-deploy numbers
 
 ## Other Problems You May Encounter
 
