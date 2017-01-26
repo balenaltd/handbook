@@ -29,5 +29,3 @@ Led by @apostolism and @alisondavis17
 
 ##Hiring Pipeline
 Led by @apostolism
-
-Users → Add user   
