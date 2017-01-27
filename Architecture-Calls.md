@@ -42,6 +42,44 @@ Many interesting technical discussions often produce very long threads that are 
 
 ===
 
+### 16 Jan 2017
+
+#### [Persisting info on provision failures)[https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/195530293]
+  * Notes
+    * The current consensus was to store logs under `.meta/diagnostics`
+    * Idea: diagnostics could have a reconfix file that specifies how to parse various sources to create a diagnostics file. If etcher has support for visualising files, it could read diagnostics.
+      - We need a set of rules on what to pull (based on what is written in .meta), also need to know what this .meta/diagnostics structure will look
+      - Use case:  Etcher can detect manifest and pointed log files, but what does it do with those? Does it offer to email them on behalf of a user? Does it save them?
+  * **[Action]:** - Write spec (Shaun)
+
+#### Edge device types
+
+- Important to create a generic device type that is not downloadable
+- Add field that device type can be dependent or not and will be true for generic device
+- Action write it up - Kostas
+
+There is a set of device types:
+  - One is going to be generic
+  - The other will be specific  to the architecture (e.g. armv6,7,8 , x86)
+
+The generic one does not have an arch at all. This means that we need to introduce new things on the schema.
+In the device schema we will remove the `is dependent` field and will add a closely similar thing, which is `can be dependent`. The only one that can have the `can be dependent` flag as `true` is generic types
+
+When you look into 'Create dependent device type', it will only show devices that can be dependent (true)
+
+The UI will also not have download OS system at all
+
+  - Ideally the slugs will match the ones we use in the base images
+  - By doing this, we solve the dependent device problem and also make a step forward to create device / community support.
+  - build OS and use it on device
+  - In general, instead of having download OS, we can have download config.json button. A 'download config.json' button should be available for all devices probably
+
+resin-builder: when there's a completely generic device type, the builder should enforce no-architecture, which is to take any image and go with it. slug for generic should be 'unknown'
+
+* **[Action]:** Write it up (Kostas)
+
+===
+
 ### 12 Jan 2017
 
 [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
