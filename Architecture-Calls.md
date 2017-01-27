@@ -85,7 +85,7 @@ resin-builder: when there's a completely generic device type, the builder should
 [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
 
 #### [Discuss enabling update locking/blocking at the API level, so users can use this feature to do staged rollouts instead of abusing the update.lock on the devices](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/191718363)
-  * **[Action]:** Spec (Giovanni could lead this)
+  * **[Action]:** Spec (Giovanni could lead this) (https://github.com/resin-io/hq/issues/596)
 
 #### [ENM issues related to bluetooth interface](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204844096)
   * ~~**[Action]:** Debugging session with Petros (scheduled)~~
