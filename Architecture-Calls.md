@@ -24,7 +24,7 @@ Many interesting technical discussions often produce very long threads that are 
   * **Action:** Will move forward with [Theodor's proposal](https://github.com/resin-os/resinos/issues/126)
 * [image deployment](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211707638)
   * Context
-    * We need a deployment method that will handle all 4 types of resin images (resin.io/resinOS , managed/unmanaged) and decide on things like s3 structure. This is an open issue that we've been discussing at least since mid-November
+    * We need a deployment method that will handle all 4 types of resin images and decide on things like s3 structure. This is an open issue that we've been discussing at least since mid-November
     * There's a possible blocker/clash with the ongoing etcher/resin backend discussion
   * **Action:** This task requires Jenkins-specific modifications that Trong will lead
 * Enumerated possible resinHUP frameworks like swupdates/mender
