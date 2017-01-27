@@ -47,13 +47,15 @@ Many interesting technical discussions often produce very long threads that are 
 [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
 
 #### [Discuss enabling update locking/blocking at the API level, so users can use this feature to do staged rollouts instead of abusing the update.lock on the devices](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/191718363)
-  * **[Action]:** Spec (Giovanni can lead this)
+  * **[Action]:** Spec (Giovanni could lead this) (audio: 00:00 - 30:00)
 #### [ENM issues related to bluetooth interface](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204844096)
   * ~~**[Action]:** Debugging session with Petros (scheduled)
 #### Discussed DeviceURL/VPN speed issues
-  * **[Action]:** Needs investigation
-  
-
+  * **[Action]:** Needs investigation - (https://github.com/resin-io/hq/issues/283)
+#### Discuss how we can define a standard, easy to adopt way of informing users why a device failed to provision. It should be able to be used by other OS ditros outside of resin and recognisable/parseable by etcher. currently there is a spec in this vein here: https://github.com/resin-io/hq/pull/367 ) - [Front link](https://beta.frontapp.com/inboxes/shared/d_architecture/open/195530293)
+  * **[Action]:** Postponed - discuss again whether writing log file to boot partition would work
+##### [Discussed about the way dependent device types (currently 1 and no plan in adding more) are parsed and handled by the UI (and possibly the API itself)](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204875955)
+ 
 ===
 
 ### 10 Jan 2017
