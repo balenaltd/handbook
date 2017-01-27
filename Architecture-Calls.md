@@ -47,7 +47,7 @@ Many interesting technical discussions often produce very long threads that are 
 [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
 
 #### [Discuss enabling update locking/blocking at the API level, so users can use this feature to do staged rollouts instead of abusing the update.lock on the devices](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/191718363)
-  * **[Action]:** Spec (Giovanni could lead this) (audio: 00:00 - 30:00)
+  * **[Action]:** Spec (Giovanni could lead this)
 #### [ENM issues related to bluetooth interface](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204844096)
   * ~~**[Action]:** Debugging session with Petros (scheduled)
 #### Discussed DeviceURL/VPN speed issues
