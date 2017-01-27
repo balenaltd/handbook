@@ -88,7 +88,7 @@ resin-builder: when there's a completely generic device type, the builder should
   * **[Action]:** Spec (Giovanni could lead this)
 
 #### [ENM issues related to bluetooth interface](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204844096)
-  * ~~**[Action]:** Debugging session with Petros (scheduled)
+  * ~~**[Action]:** Debugging session with Petros (scheduled)~~
 
 #### Discussed DeviceURL/VPN speed issues
   * **[Action]:** Needs investigation - (https://github.com/resin-io/hq/issues/283)
