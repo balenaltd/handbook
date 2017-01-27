@@ -19,16 +19,16 @@ Many interesting technical discussions often produce very long threads that are 
 #### resinOS 2.x - schedule and remaining items
 
 * [resinOS devices dual boot partition](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211384242)
-  * **Action:** We are moving forward with dual partition for Rpi device types only
+  * **[Action]:** We are moving forward with dual partition for Rpi device types only
 * [rootfs sizes](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211384242)
-  * **Action:** Will move forward with [Theodor's proposal](https://github.com/resin-os/resinos/issues/126)
+  * **[Action]:** Will move forward with [Theodor's proposal](https://github.com/resin-os/resinos/issues/126)
 * [image deployment](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211707638)
   * Context
     * We need a deployment method that will handle all 4 types of resin images and decide on things like s3 structure. This is an open issue that we've been discussing at least since mid-November
     * There's a possible blocker/clash with the ongoing etcher/resin backend discussion
-  * **Action:** This task requires Jenkins-specific modifications that Trong will lead
+  * **[Action]:** This task requires Jenkins-specific modifications that Trong will lead
 * Enumerated possible resinHUP frameworks like swupdates/mender
-  * **Action:** Needs investigation/task leader
+  * **[Action]:** Needs investigation/task leader
 * Discussed resinOS ssh/docker socket security hardening
   * Context
     * Atm ssh is passwordless and Docker socket is exposed
