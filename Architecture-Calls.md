@@ -13,6 +13,34 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 26 Jan 2017
+
+#### Attendees: Petros, Shaun, Andrei, Alexis, Kostas
+#### resinOS 2.x - schedule and remaining items
+
+* [resinOS devices dual boot partition](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211384242)
+  * **Action:** We are moving forward with dual partition for Rpi device types only
+* [rootfs sizes](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211384242)
+  * **Action:** Will move forward with [Theodor's proposal](https://github.com/resin-os/resinos/issues/126)
+* [image deployment](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211707638)
+  * Context
+    * We need a deployment method that will handle all 4 types of resin images (resin.io/resinOS , managed/unmanaged) and decide on things like s3 structure. This is an open issue that we've been discussing at least since mid-November
+    * There's a possible blocker/clash with the ongoing etcher/resin backend discussion
+  * **Action:** This task requires Jenkins-specific modifications that Trong will lead
+* Enumerated possible resinHUP frameworks like swupdates/mender
+  * **Action:** Needs investigation/task leader
+* Discussed resinOS ssh/docker socket security hardening
+  * Context
+    * Atm ssh is passwordless and Docker socket is exposed
+  * Notes
+    * It's still not clear how we should move forward with this. We discussed the possibility of extending `rdt` to support adding SSH keys into the image. The exposed Docker socket is also an issue because it provides unauthenticated access and even with SSH keys, one can simply create a container that binds to / and gain root access. Also, we have to carefully consider blocking Docker socket access because a) we already use it in some example projects b) there's no easy way for users to use `docker` and `docker-compose` over SSH so they'll be 'locked' to `rdt`
+* [self-service resinHUP improvements](https://beta.frontapp.com/inboxes/shared/d_architecture/all/211723016)
+  * Notes
+    * Currently resinHUP is restricted to versions that are safe to use (`1.x` and `>=1.16.0` only) . If we open it up to more versions we'll need to improve the warning/info message before the update - users should *first* test their app to the target os version they want to update to.
+    * Discussed on improving resinHUP progress. The most time-consuming operations atm are `docker pull`'s and reporting progress updates while these are running is hard. There's still no clear way forward
+    
+===
+
 ### 12 Jan 2017
 
 * [Notes/Action items pending]
