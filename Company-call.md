@@ -3,7 +3,7 @@
 ###Mon, Jan 30 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1QghoLPSbBSFuH-9UASYCYYq00hnwNvfEh_QNin64jAM/edit?usp=sharing)
 * [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8cXNncjYtdWk2bmM)
-* [Audio]
+* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8bmlZWC12aG9KaEE)
 * [Attendees] (https://drive.google.com/drive/folders/0B1xAg_Dw2iS8X19BbTFzc0RSUzQ)
 
 ###Mon, Jan 23 2017
