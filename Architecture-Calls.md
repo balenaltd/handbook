@@ -13,6 +13,41 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 30 Jan 2017
+
+[Flowdock Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/HDTJIwcAKb5dHabPeVRAXklnRdO)
+
+#### [resinHUP next steps](https://beta.frontapp.com/inboxes/shared/d_architecture/open/214454314)
+
+- Coupling supervisor Updates with OS
+  - resinHUP should always update to the supervisor version set in `/etc/supervisor.conf`
+  - **[Action]:** UX/UI: When a target hostOS version is selected for an update/downgrade, the user should also be able to see the supervisor version that his device will end up running. This needs a bit of research on the implementation details, because it's not clear how the UI will fetch the `/etc/supervisor.conf` supervisor version (e.g. is it available in the API/S3 image storage? Is it included in the image only?)
+- Fix update progress in device summary page
+  - `docker pull` is the main blocking step in the resinHUP process. Although there is a way forward (`docker pull` produces a stream that can be parsed and fed the API with more fine-grained device state info), it's not trivial to implement and in the meantime we can go with a [Zeno's progress bar](http://cerealnumber.livejournal.com/27537.html) to improve UX.
+  - **[Action]:** Make required changes in resinHUP to improve UX
+- Open resinHUP to more hostOS versions
+  - Anything pre () should be updatable from the Dashboard. Devices older than that should be updated manually by the devices team.
+  - **[Action]:** Update self-service resinHUP infra (UI/actions backend) to allow versions > 
+  - **[Action]:** Update UI warning to something in the lines of *'Users should test their apps to a device with the target host OS before upgrading'*
+
+#### [Device onwership](https://beta.frontapp.com/inboxes/shared/d_architecture/open/213042126)
+
+- **[Action]:** Open issue to the API with proposed solution until onwership is fixed properly with API keys
+
+#### [Device trees](https://beta.frontapp.com/inboxes/shared/d_architecture/open/214451817)
+
+- Discussed whether or not DTB should have a 'never breaks userspace' kernel-like approach
+- DTB compatibility references/material: [this flow](https://www.flowdock.com/app/rulemotion/resin-devices/threads/E4bTPBKPfaaBMOdNpiptf1sQOOJ)
+- resinHUP should probably just ignore DTBs
+- **[Action]:** Needs more discussion
+
+#### [Supervisor DoS mitigation](https://beta.frontapp.com/inboxes/shared/d_architecture/open/212486956)
+
+- Discussed ways to mitigate DoS in supervisor's endpoints
+- **[Action]:** Needs more research.
+
+===
+
 ### 26 Jan 2017
 
 #### Attendees: Petros, Shaun, Andrei, Alexis, Kostas
