@@ -4,7 +4,7 @@
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1QghoLPSbBSFuH-9UASYCYYq00hnwNvfEh_QNin64jAM/edit?usp=sharing)
 * [Video]
 * [Audio]
-* [Attendees]
+* [Attendees] (https://drive.google.com/drive/folders/0B1xAg_Dw2iS8X19BbTFzc0RSUzQ)
 
 ###Mon, Jan 23 2017
 * [RoadMap 2017] (https://docs.google.com/spreadsheets/d/15lYScfKIxzcKYQISxg9axPd7cTctRL_itRE9ICkvQD0/edit#gid=1580979837)
