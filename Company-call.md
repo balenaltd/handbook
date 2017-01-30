@@ -4,6 +4,8 @@
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1QghoLPSbBSFuH-9UASYCYYq00hnwNvfEh_QNin64jAM/edit?usp=sharing)
 
 ###Mon, Jan 23 2017
+* [RoadMap 2017] (https://docs.google.com/spreadsheets/d/15lYScfKIxzcKYQISxg9axPd7cTctRL_itRE9ICkvQD0/edit#gid=1580979837)
+* [Breakthrough Events] (https://docs.google.com/spreadsheets/d/1uzAmMe0ifB7eLB3gEbzjzwg5sOKxmMsheOHu540mhmc/edit#gid=0)
 * [Video](https://drive.google.com/open?id=0BwtKfQAiRlCQSlBRaWoxUm1yb0U)
 * [Audio](https://drive.google.com/open?id=0BwtKfQAiRlCQaVc1Uzg1bWxxUm8)
 
