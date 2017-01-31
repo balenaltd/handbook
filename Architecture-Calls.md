@@ -30,9 +30,9 @@ Many interesting technical discussions often produce very long threads that are 
   - **[Action]:** Update self-service resinHUP infra (UI/actions backend) to allow versions > 
   - **[Action]:** Update UI warning to something in the lines of *'Users should test their apps to a device with the target host OS before upgrading'*
 
-#### [Device onwership](https://beta.frontapp.com/inboxes/shared/d_architecture/open/213042126)
+#### [Device ownership](https://beta.frontapp.com/inboxes/shared/d_architecture/open/213042126)
 
-- **[Action]:** Open issue to the API with proposed solution until onwership is fixed properly with API keys
+- **[Action]:** ~~Open issue to the API with proposed solution until ownership is fixed properly with API keys~~ https://github.com/resin-io/resin-api/issues/97
 
 #### [Device trees](https://beta.frontapp.com/inboxes/shared/d_architecture/open/214451817)
 
@@ -79,13 +79,13 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 16 Jan 2017
 
-#### [Persisting info on provision failures)[https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/195530293]
+#### [Persisting info on provision failures](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/195530293]
   * Notes
     * The current consensus was to store logs under `.meta/diagnostics`
     * Idea: diagnostics could have a reconfix file that specifies how to parse various sources to create a diagnostics file. If etcher has support for visualising files, it could read diagnostics.
       - We need a set of rules on what to pull (based on what is written in .meta), also need to know what this .meta/diagnostics structure will look
       - Use case:  Etcher can detect manifest and pointed log files, but what does it do with those? Does it offer to email them on behalf of a user? Does it save them?
-  * **[Action]:** - Write spec (Shaun)
+  * **[Action]:** - Write spec (Shaun) (https://github.com/resin-io/resin-api/issues/97)
 
 #### Edge device types
 
@@ -95,7 +95,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 There is a set of device types:
   - One is going to be generic
-  - The other will be specific  to the architecture (e.g. armv6,7,8 , x86)
+  - The other will be specific to the architecture (e.g. armv6,7,8 , x86)
 
 The generic one does not have an arch at all. This means that we need to introduce new things on the schema.
 In the device schema we will remove the `is dependent` field and will add a closely similar thing, which is `can be dependent`. The only one that can have the `can be dependent` flag as `true` is generic types
