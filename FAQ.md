@@ -1,3 +1,5 @@
+_The questions and answers on this page are fictitious (not). Any apparent similarity to questions you may have asked is ~~not~~ intended by the author and is <u>definitely not</u> a coincidence or the product of your own troubled imagination._
+
 **Do I have to report the number of hours I work?** <br>
 No, nobody will ever ask you how many hours you have worked. On the other hand, you are expected to meet any milestones or deadlines you have agreed to and deliver your job on time. 
 
