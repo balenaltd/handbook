@@ -13,3 +13,6 @@ Here are the main points of the policy:
 * Holiday allowance resets on each team member hire date anniversary.
 
 Regardless the group that you fall in, it’s really important that whenever you want to take some days off, you first check with the team and make sure that someone has got your back. For example, if a team consists of 2 people, it won’t be a good idea for both of them to be away at the same time. Speak to your colleague and make sure that someone will always have you covered. Think about others, protect your colleagues, protect the company.
+
+Finally, please make sure that you place a time-off request using Calamari, the leave management service we're using.
+Read this [short Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) to find your way around it.
