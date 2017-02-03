@@ -24,8 +24,8 @@ Led by @halebr
 ##Support Postmortem Call
 In this call, user’s and support-related issues are discussed. Led by @sonyagreen and @shaunmulligan
 
-##Events Pipeline
-Led by @apostolism and @alisondavis17
+##Outreach Call
+Led by @alisondavis17
 
 ##Hiring Pipeline
 Led by @apostolism
