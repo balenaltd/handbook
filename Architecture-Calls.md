@@ -85,7 +85,7 @@ Many interesting technical discussions often produce very long threads that are 
     * Idea: diagnostics could have a reconfix file that specifies how to parse various sources to create a diagnostics file. If etcher has support for visualising files, it could read diagnostics.
       - We need a set of rules on what to pull (based on what is written in .meta), also need to know what this .meta/diagnostics structure will look
       - Use case:  Etcher can detect manifest and pointed log files, but what does it do with those? Does it offer to email them on behalf of a user? Does it save them?
-  * **[Action]:** - Write spec (Shaun) (https://github.com/resin-io/resin-api/issues/97)
+  * **[Action]:** - Write spec (Shaun) 
 
 #### Edge device types
 
