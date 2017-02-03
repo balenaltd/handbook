@@ -52,7 +52,7 @@ Timezone.io
 ###Short introduction to the services/tools we use
 Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific resin.io components and teams. This is the best place to communicate with other team members and ask any questions you have.
 
-Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package.
+Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile.
 
 Intercom is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the resin.io dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
 
