@@ -15,6 +15,29 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 30 Jan 2017
 
+[Flowdock thread/Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/K5e0ivSQsixPqRm37sZBKm2X_Om)
+
+* Discuss/Finalise talks about image size
+  - **[Action]:** We'll allocate 600 mb as an upper bound
+* Discussed about supervisor startup issues
+  - **[Action]:** Need to investigate why the supervisor container takes that long to start
+
+===
+
+### 31 Jan 2017
+
+No new items were present in the agenda, so we had an ad-hoc discussion on:
+
+* Jenkins problems
+* Multicontainer
+  - Still unclear if we'll go with `docker compose`
+* Discussed on setting udev rules as configuration
+  - **[Action]:** Need a spec/proposal for udev
+
+===
+
+### 30 Jan 2017
+
 [Flowdock Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/HDTJIwcAKb5dHabPeVRAXklnRdO)
 
 #### [resinHUP next steps](https://beta.frontapp.com/inboxes/shared/d_architecture/open/214454314)
