@@ -2,8 +2,8 @@
 
 ###Mon, Feb 06 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1HswhStUAWIBV_egKLjJ0yiQEhCajLxdjgtG6JWi7itE/edit?usp=sharing)
-* [Video] ()
-* [Audio] ()
+* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8TE8yQ1AxelkzVU0)
+* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8d3BXSWlKRkxHSFE)
 * [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8LWoteGlTNHhidmM)
 
 ###Mon, Jan 30 2017
