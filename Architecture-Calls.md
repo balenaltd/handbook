@@ -13,7 +13,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
-### 30 Jan 2017
+### 02 Feb 2017
 
 [Flowdock thread/Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/K5e0ivSQsixPqRm37sZBKm2X_Om)
 
