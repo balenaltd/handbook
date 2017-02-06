@@ -1864,6 +1864,35 @@ If that still didn't work, ask the user to reboot the device. Remember to discon
 
 If that still didn't work, ping Petros, it's his kind of thing :)
 
+### Beaglebone Filesystem becomes Read-only:
+
+A response from Petros on this issue:
+```
+First with the good news, your device is up and running again. We did a thorough investigation on the device and found that the reason it was getting filesystem errors was due to the eMMC subsystem being unable to fulfil read/write requests coming from the filesystem. And the reason the eMMC subsystem was failing was because it couldn't allocate memory, and the reason it couldn't allocate memory was due to memory fragmentation. This was indicated by dmesg logs like the following..
+    [ 3511.434696] edma 49000000.edma: edma_prep_slave_sg: Failed to allocate a descriptor
+    [ 3511.442410] omap_hsmmc 481d8000.mmc: prep_slave_sg() failed
+    [ 3511.448149] omap_hsmmc 481d8000.mmc: MMC start dma failure
+    [ 3511.922619] mmcblk0: unknown error -1 sending read/write command, card status 0x900
+    [ 3511.930544] blk_update_request: 1839 callbacks suppressed
+    [ 3511.936050] blk_update_request: I/O error, dev mmcblk0, sector 6357616
+..and it was further verified by inspecting /proc/buddyinfo.
+This issue seems to be happening at least since 2011[1] on beaglebones and keeps happening even with new kernels[2]. The suggested workaround in most threads was to set the sysctl parameter vm.min_free_kbytes to 8192[3]. This causes the kernel to more aggressively reclaim memory and reduce fragmentation. However, this didn't help and we were still hitting the problem on your device.
+The issue was fixed by increasing vm.min_free_kbytes to 65536. Your device has this setting persisted in its rootfs so it will be using this value even after reboot. We've also notified a member of our team that has much more experience on the kernel's memory subsystem to look into it. This setting seems like something we should add to our images, but we need to make sure it doesn't have other negative side effects.
+We should keep an eye on this device to see how it performs with this kernel tweak in the following days.
+[1] https://bugs.launchpad.net/ubuntu/+source/linux-ti-omap4/+bug/746137
+[2] https://groups.google.com/forum/#!topic/beagleboard/tdCUVMicDrk
+[3] http://www.keypressure.com/blog/yay-fedora-23-on-beaglebone-black/
+```
+
+#### Try the following to fix:
+add the following contents in `/etc/sysctl.d/fix-mmc-bbb.conf`
+```
+vm.min_free_kbytes=8192
+vm.dirty_ratio=5
+vm.dirty_background_ratio=10
+```
+Then reboot the device. If that does not work, you will need to remotely nuke data partition of device. See details earlier in the page.
+
 ### Misc
 #### raspberry-pi
 **How to use one-wire temperature sensor:**
