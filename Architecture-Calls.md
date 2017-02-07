@@ -86,7 +86,8 @@ in the past we had some issues where the vpn would reset all device status, caus
     - It was decided to abandon the ongoing shared docker layer approach and instead move forward with the Go server directly. The main advantages are:
       1. Docker layer can't be used as a component
       2. The docker layer solution keeps the current 'hacky' status where we essentially try to 'force' openssh to work with
-    - **[Action]:** Move forward with a using a simple Go server in place of OpenSSH, with the plan to reuse it in the Git server as well. 
+    - **[Action]:** Write spec
+    - **[Action]:** Move forward with a using a simple Go server in place of OpenSSH, with the plan to reuse it in the Git server as well.
     - **[Action]:** Rename `resin proxy` server to something more meaningful, like 'resin action' server
 
 ===
