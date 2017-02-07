@@ -13,6 +13,84 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 07 Feb 2017
+
+[Flowdock thread/Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/1TKE19xu9fm8OWwbvc0q1xDKM-n
+)
+
+* [Discuss AutoHAT issues with udev rules in the host OS so as to make this project a resin.io project](https://beta.frontapp.com/inboxes/shared/d_architecture/open/218004689)
+  * Context
+    - Autohat board has SD card reader
+    - Can't uniquely identify SD card connected to resin boards
+  * **[Action]:** Need more investigation to figure out to get this (i.e. udev rules) on resin
+
+* [Discuss VPN <> API synchronisation solution and VPN scaling](https://beta.frontapp.com/inboxes/shared/d_architecture/open/216832552)
+
+  - Overview:
+    - Online/offline status that you can see in your dashboard
+    - on/off means if its connected or not to the api. The API offers a rest api to the ui and is horizontally scaled. The VPN is currently a singleton server.
+
+  - Question: How will a device record have the correct online/offline status if a device disappears? Currently the VPN won't update the status to offline.
+
+  - Problems:
+    - Synchronising status of the VPN with the database/API
+whenever a device connects it will generate an event to the vpn server and change the state in the api (offline/online)
+in the past we had some issues where the vpn would reset all device status, causing spikes to the API
+
+  - Solution/Desired target state:
+    - Spread out the updates in a controllable fashion so that they don't DDoS the API
+    - Need to have a VPN heartbeat to the device and a threshold; if the threshold is passed the VPN should mark the device as offline.
+
+  - Brainstormed on scaling VPN
+
+  - Improving our current API device status model:
+    - Note that the current timestamp field in devices indicates when it came online or offline
+    - We need the following fields:
+      - Field 1: State field (read by the UI)
+      - Field 2: timestamp to indicate when the state changed (when was it toggled)
+      - Field 3: timestamp to indicate how fresh the information is
+    - If the 'freshness' threshold is passed and there's no update, the device is considered offline
+    - The VPN will set, every X seconds, the state of the all the devices that are connected to it
+    - Every VPN server will set the state of their devices
+    - Optimisations:
+        - If this loop runs every 10 seconds, we can immediately set the device offline in the next cycle
+
+    - There will be two loops:
+      - A 'slow' loop between API/VPN - the recurring synchronisation job between them (the loop that sets the devices status) can fire up at bigger intervals
+      - A 'fast' loop between VPN/devices - when a disconnect happens there the device status of a device can be updated immediately
+
+   - Heartbeat interval:
+    - Use the active VPN tcp connection to poll for connectivity status of dependent devices.
+
+  - Actions:
+    * **[Action]:** Write a spec
+    * **[Action]:** Fix spike and DDoS with a heartbeat approach. The API should have 'last heartbeat'
+    * Need to sort out permissions on who can change the device state
+      * Issue: can't set permissions on a field-level yet - if we have mixed data in the device state we can't have finegrained permissions
+    * We need field-level permissions - state that is controlled by the device must be READONLY by the user
+      * Idea: Might actually be correct to have a resource that is exclusively reflecting what the device has
+    * **[Action]:** Need spec for introducing a current vs target state model in the database/API
+      * Currently we have one table for device that has things/fields that:
+        - Don't change (e.g. device name)
+        - Others that change more often (e.g. commit hash)
+      * Need a new resource (`Actual State`) that include volatile fields like the commit hash
+        * Supervisor can only change actual state
+      * Need another resource (`Target State`)
+        * API can only change target state
+
+* [Discuss next steps in resin-proxy (short term fixes to resin-ssh-base issues wrt ssh-agent, current status with Go SSH server)](https://beta.frontapp.com/inboxes/shared/d_architecture/open/218381546)
+  * Context
+    - We're currently working on the [Shared git/proxy SSH authentication](https://github.com/resin-io/hq/pull/452) spec, which is based on reusing a docker layer. The wip is already in staging and need more work.
+    - Meanwhile there was progress with a hack-friday project to use Go as an SSH backend
+  * Actions
+    - It was decided to abandon the ongoing shared docker layer approach and instead move forward with the Go server directly. The main advantages are:
+      1. Docker layer can't be used as a component
+      2. The docker layer solution keeps the current 'hacky' status where we essentially try to 'force' openssh to work with
+    - **[Action]:** Move forward with a using a simple Go server in place of OpenSSH, with the plan to reuse it in the Git server as well. 
+    - **[Action]:** Rename `resin proxy` server to something more meaningful, like 'resin action' server
+
+===
+
 ### 02 Feb 2017
 
 [Flowdock thread/Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/K5e0ivSQsixPqRm37sZBKm2X_Om)
