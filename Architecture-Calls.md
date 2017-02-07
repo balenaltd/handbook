@@ -15,6 +15,40 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 07 Feb 2017
 
+[Flowdock agenda/items](https://www.flowdock.com/app/rulemotion/r-process/threads/8BYFUGNd77gKrYIR2LzLCiXxac1)
+
+* **Pushing directly docker containers instead of using git**
+
+  - Still looking for a way to map this properly with multi container
+  - In the proposed model, containers are objects in the DB
+  - Build is basically a release
+  - We don't want to do docker push , want extra metadata. but, with docker push we get authentication (it'll prompt you for credentials, it won't print the unicorn which want to)
+  - Instead, it could handled by resin-cli or rdt push
+  - In the case of pushing locally built containers we'd basically need the results of docker save (a container). There are security considerations here with regards to checksums that we need to keep in mind.
+  - Another option, instead of pushing a container, is to point to another repo (e.g. dockerhub). This would mean that you push wherever you want and send metadata to the builder that point it where to pull from
+  - Pulling from a third party registry should allow us to use deltas, caching and shouldn't be a blocker for features like rollbacks
+  - Idea/Proposal: Need to detach the build pipeline from the deployment pipeline
+  - Idea/Proposal: git push a docker compose file - we'll need a way to pass build secrets because containers might be located in private registries. We can use this approach as a starting point and allow users pushing yaml files
+  - Idea/Proposal: Break-out builder as a separate product - extra features include building yocto images and we're not aware of any service offering this currently.
+  - **[Action]:** spec builder secrets
+
+* [resinOS (unmanaged) and its production applicability](https://beta.frontapp.com/inboxes/shared/d_architecture/unassigned/218955868)
+
+  - Context:
+    - The resinOS device will have a local command/api to promote it to a resin.io device
+    - We also want to release a server (e.g. amazon AMI resin vpn server) that will handle authenticated connectivity to device do promote
+    - The server will be optional but highy encouraged
+  - Discussed auth issues with openvpn:
+    - the rdt promote endpoint on the device is available to the container
+    - if the container exposes that to the world (open http server) the device can then be hijacked
+  - Discussed whether or not we should move forward with the  proxy/vpn idea that allows rdt promote remotely
+  - Also discussed on rdt promote in general and how we should plan our next steps on converging rdt and resin.io
+features (to be discussed in a product call)
+
+===
+
+### 06 Feb 2017
+
 [Flowdock thread/Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/1TKE19xu9fm8OWwbvc0q1xDKM-n
 )
 
