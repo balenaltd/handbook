@@ -1,1 +1,0 @@
-Issue, Commit and PR guidelines are now maintained at https://github.com/resin-io/hq/blob/master/process/Commit_and_PR_Guidelines.md
