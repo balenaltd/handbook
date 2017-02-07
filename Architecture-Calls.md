@@ -17,7 +17,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Flowdock agenda/items](https://www.flowdock.com/app/rulemotion/r-process/threads/8BYFUGNd77gKrYIR2LzLCiXxac1)
 
-* **Pushing directly docker containers instead of using git**
+* **Pushing docker container directly**
 
   - Still looking for a way to map this properly with multi container
   - In the proposed model, containers are objects in the DB
