@@ -51,9 +51,9 @@ Welcome to the resin.io wiki.
           - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
         - [Devices](https://github.com/resin-io/hq/wiki/Devices)
         - [Exporting the development environment](https://github.com/resin-io/hq/wiki/Exporting-the-Development-Environment)
-      - [Commit Guidelines & Issues](https://github.com/resin-io/hq/wiki/Commit-Guidelines-&-Issues)
-      - [Pull Request and Code Review](https://github.com/resin-io/hq/wiki/Pull-Request-and-Code-Review)
+      - [Issue, Commit and PR guidelines](https://github.com/resin-io/hq/blob/master/process/Commit_and_PR_Guidelines.md)
       - [Coding Standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
+      - [Writing a Specification](https://github.com/resin-io/hq/blob/master/specs/README.md)
     - [Starting a new project](https://github.com/resin-io/hq/wiki/Starting-a-new-project)
     - Maintaining a project
 - DevOps
