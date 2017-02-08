@@ -1196,7 +1196,14 @@ If your key and the device key are configured correctly but you are unable to lo
 sign_and_send_pubkey: signing failed: agent refused operation
 ```
 
-you may need to disable any keychain manager you have running in your desktop environment and restart the ssh-agent.  An example of this for a default Ubuntu GNOME environment is here: http://askubuntu.com/a/861328/349
+you may need to disable any keychain manager you have running in your desktop environment and restart the ssh-agent.  An example of this for a default Ubuntu GNOME environment is here: http://askubuntu.com/a/861328/349 but short instructions are:
+
+1. Remove gnome-keyring from startup applications
+2. `killall ssh-agent ; killall gnome-keyring-daemon`
+3. `eval \`ssh-agent -s\``
+4. Re-add keys (`ssh-add ; ssh-add ~/.ssh/resin_devices`) and verify they are there (`ssh-add -l`)
+
+You should now be able to ssh to devices.
 
 ### On the Device
 
