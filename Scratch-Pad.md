@@ -116,6 +116,7 @@
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
     - [Getting Access](#getting-access)
+    - [Troubleshooting](#troubleshooting-1)
     - [On the Device](#on-the-device)
     - [Accessing Devices via Another Device](#accessing-devices-via-another-device)
     - [Fixing the Bash/Node Race (Legacy??)](#fixing-the-bashnode-race-legacy)
