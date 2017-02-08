@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Facts](#facts)
 - [Troubleshooting](#troubleshooting)
+  - [Device stuck in "Stopping" state](#device-stuck-in-stopping-state)
   - [(can't) Swap on BTRFS](#cant-swap-on-btrfs)
   - [Issues with Line Endings](#issues-with-line-endings)
     - [Signs and Symptoms](#signs-and-symptoms)
@@ -179,6 +180,24 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 
 
 # Troubleshooting
+## Device stuck in "Stopping" state
+```
+root@a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb:~# docker stop 96ab365559fd
+Failed to stop container (96ab365559fd): Error response from daemon: Cannot stop container 96ab365559fd: [2] Container does not exist: container destroyed
+```
+
+```
+Feb 08 16:26:08 a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb docker[6864]: .time="2017-02-08T16:26:08.190083187Z" level=error msg="Failed to load container 7ae3cc4275964c5f4207b79cff6d0d4f27d08
+1b689dcc203895585d2d8f9dc7c: open /var/lib/docker/containers/7ae3cc4275964c5f4207b79cff6d0d4f27d081b689dcc203895585d2d8f9dc7c/config.v2.json: no such file or directory"
+Feb 08 16:26:08 a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb docker[6864]: .time="2017-02-08T16:26:08.191308853Z" level=error msg="Failed to load container e8ef07b736f2883c35e85ec2f49f1f45f5849
+22f23e21c1f129f02d318187864: open /var/lib/docker/containers/e8ef07b736f2883c35e85ec2f49f1f45f584922f23e21c1f129f02d318187864/config.v2.json: no such file or directory"
+```
+
+Workaround:
+* systemctl stop docker
+* mv /var/lib/docker/containers/$UUID /tmp/
+* systemctl start docker
+* systemctl restart resin-supervisor
 
 ## (can't) Swap on BTRFS
 **About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
