@@ -1189,6 +1189,15 @@ Solution(s):
 
 6. You can then log in to a users device using `ssh resin -o Hostname=${UUID}.vpn`
 
+### Troubleshooting
+If your key and the device key are configured correctly but you are unable to log in and seeing errors like the following:
+
+```
+sign_and_send_pubkey: signing failed: agent refused operation
+```
+
+you may need to disable any keychain manager you have running in your desktop environment and restart the ssh-agent.  An example of this for a default Ubuntu GNOME environment is here: http://askubuntu.com/a/861328/349
+
 ### On the Device
 
 Check `/var/volatile/vpnfile` - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
