@@ -28,8 +28,7 @@ Many interesting technical discussions often produce very long threads that are 
   - BBGW still needs a device type of its own
   - Pending discussion with Juanchi on device types
 
-- **Discussed OS Versioning**
-  - The current scheme has some pitfalls. An alternative one was proposed by Alexandros and there was a general
+- **Discussed OS Versioning and investigated better alternatives to the current approach**
 
 - [Device Types](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220226168)
 
