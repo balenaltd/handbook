@@ -13,6 +13,30 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 09 Feb 2017
+
+[Flowdock Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/zm1rDvgUaOKuCnRp5uHx8yREnGU)
+
+- [Discussed OSS builder](https://beta.frontapp.com/inboxes/shared/d_architecture/open/218001908)
+  - Dockerfile module should be able to be used by rdt
+  - Users ask for resin.io features in rdt, like Dockerfile templates, node.js etc.
+  - Talked about buildpacks
+    - Action: need to look more into buildbacks
+    - Action: research alternatives (e.g. tutum )
+
+- [Merging BBB BBG in a single type](https://beta.frontapp.com/inboxes/shared/d_architecture/open/219443527)
+  - BBGW still needs a device type of its own
+  - Pending discussion with Juanchi on device types
+
+- **Discussed OS Versioning**
+  - The current scheme has some pitfalls. An alternative one was proposed by Alexandros and there was a general
+
+- [Device Types](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220226168)
+
+- **Discussed VPN - API (architecture overview)**
+
+===
+
 ### 07 Feb 2017
 
 [Flowdock agenda/items](https://www.flowdock.com/app/rulemotion/r-process/threads/8BYFUGNd77gKrYIR2LzLCiXxac1)
