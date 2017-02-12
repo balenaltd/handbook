@@ -1,5 +1,8 @@
 ##Recent Meeting Notes
 
+###Mon, Feb 13 2017
+* [Meeting minutes](https://docs.google.com/document/d/1enx6O6tFn2bTYbBh_RxOjyj-SUr_Q8f5GCi8LOeAAUg/edit)
+
 ###Mon, Feb 06 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1HswhStUAWIBV_egKLjJ0yiQEhCajLxdjgtG6JWi7itE/edit?usp=sharing)
 * [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8TE8yQ1AxelkzVU0)
