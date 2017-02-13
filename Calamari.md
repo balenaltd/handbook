@@ -1,3 +1,5 @@
+![](https://www.getapp.com/hr-employee-management-software/a/calamari-for-it-teams/#screenshots)
+
 Hi team! Here’s a guide of how-to-use the main features of our new time-off service.
 
 Link: calamari.io
