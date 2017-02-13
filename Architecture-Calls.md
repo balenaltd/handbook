@@ -9,9 +9,32 @@ Many interesting technical discussions often produce very long threads that are 
 ## Pinned Agenda Items
 
 * Supervisor rearchitecture
-* ENM/resinup/supervisor fusion
+* ENM/resinhup/supervisor fusion
+* VPN latency issues
 
 ## Recent Meeting Notes
+
+### 13 Feb 2017
+
+[Flowdock Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/OPh3F6mmpQuKhVamU9OUygul8S_)
+
+#### Discussed items
+
+* [Unifying/sharing tools between the ui and etcher](https://beta.frontapp.com/inboxes/shared/d_architecture/open/221657695)
+  - Brainstormed on ideas, frameworks (e.g. ngReact) and processes (swap team members to get the two projects closer) to unify UI/Etcher
+* [Supervisor re-architecture](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220226447
+  - Focus on the device state API
+  - Pablo's re-architecture notes: https://docs.google.com/document/d/198WxgntVwAoehYhuWWO7RK1Nbeok6a6fv8CVwv6yY8A/edit#
+* VPN
+  - Next steps
+    - Discussed about using an ngrok-like approach to create VPN tunnels to mitigate delays that are very possibly linked to tcp timer/retransmission issues due to tcp-over-tcp 
+      - This approach should bring us closer to the desired goal of having per-device letsencrypt 
+    - Discussed about having the VPN as a separate service
+  - Fixing latency
+    - Attempting to fine-tune openvpn configuration settings can be risky, because a server-side change can result in incompatible changes with the current client-side configuration, possibly resulting in bricked devices
+    - **Action:** Create benchmark and continue investigation (Will)
+
+===
 
 ### 09 Feb 2017
 
