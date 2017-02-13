@@ -22,7 +22,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 * [Unifying/sharing tools between the ui and etcher](https://beta.frontapp.com/inboxes/shared/d_architecture/open/221657695)
   - Brainstormed on ideas, frameworks (e.g. ngReact) and processes (swap team members to get the two projects closer) to unify UI/Etcher
-* [Supervisor re-architecture](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220226447
+* [Supervisor re-architecture](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220226447)
   - Focus on the device state API
   - Pablo's re-architecture notes: https://docs.google.com/document/d/198WxgntVwAoehYhuWWO7RK1Nbeok6a6fv8CVwv6yY8A/edit#
 * VPN
