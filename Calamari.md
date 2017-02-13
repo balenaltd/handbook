@@ -6,12 +6,12 @@ At first, you can log in with your @resin.io e-mail account, using the Google lo
 Time-off request
 To request time-off just press “Request absence” then check out the following screenshots.
 
-First step
+## First step
 
 To successfully request absence you need to choose type of absence you are requesting for. 
 Use the drop-down menu to check the absence types. The “annual leave” is the 30 days that we all have available and the “support leave” refers to the extra time-off that employees gain for working on weekends. “Sick leave” is, obviously, the absence type you should choose when sick.
 
-Second step
+## Second step
 
 After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you to estimate the proper period you are requesting for.
 
