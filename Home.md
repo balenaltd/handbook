@@ -31,6 +31,7 @@ Welcome to the resin.io wiki.
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
     - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
+    - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
     - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
