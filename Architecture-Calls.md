@@ -32,7 +32,7 @@ Many interesting technical discussions often produce very long threads that are 
     - Discussed about having the VPN as a separate service
   - Fixing latency
     - Attempting to fine-tune openvpn configuration settings can be risky, because a server-side change can result in incompatible changes with the current client-side configuration, possibly resulting in bricked devices
-    - **Action:** Create benchmark and continue investigation (Will)
+    - **Action:** Create benchmark and continue investigation
 
 ===
 
