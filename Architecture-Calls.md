@@ -30,7 +30,7 @@ Many interesting technical discussions often produce very long threads that are 
     - Discussed about using an ngrok-like approach to create VPN tunnels to mitigate delays that are very possibly linked to tcp timer/retransmission issues due to tcp-over-tcp 
       - This approach should bring us closer to the desired goal of having per-device letsencrypt 
     - Discussed about having the VPN as a separate service
-  - Fixing latency
+  - [Fixing latency](https://beta.frontapp.com/inboxes/shared/d_architecture/open/220304085)
     - Attempting to fine-tune openvpn configuration settings can be risky, because a server-side change can result in incompatible changes with the current client-side configuration, possibly resulting in bricked devices
     - **Action:** Create benchmark and continue investigation
 
