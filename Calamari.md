@@ -15,31 +15,31 @@ Use the drop-down menu to check the absence types. The “annual leave” is the
 
 After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you to estimate the proper period you are requesting for.
 
-Third and last step
+## Third and last step
 
 The simplest way to request absences, is by marking the requested period and by selecting it on the calendar. 
 
-My requests
+## My requests
 
 This is the menu option which allows you to check the status and the history of your requests.
 
-Resin.io absence overview
+## Resin.io absence overview
 
 Here you can easily find all absence requests of the team. You can filter results by teams, positions or dates, to find more easily information you need.
 
-Personal available absence time (holiday allowance)
+## Personal available absence time (holiday allowance)
 
 At the “entitlement” option, on the left side menu, you will always find your current absence allowance. 
 
-Time-off calendar
+## Time-off calendar
 
 Note that you should be able to see all approved time-off days, for all team members, at your @resin.io e-mail calendar.
 
-Support
+## Support
 
 For whatever reason, if you need any help with Calamari, feel free to reach out to the operations team. Calamari is still a young and small startup and they offer exceptional support to their customers. They already implemented features we requested and they’re happy to do even more for us.
 
-FAQ
+## FAQ
 
 What does "Manually edited" field means in Calamari under the Entitlement / Annual leave ?
 The days in the "Manually edited" field are the days (Full amount) you're entitled to from the 1st of January to your anniversary hire date.
