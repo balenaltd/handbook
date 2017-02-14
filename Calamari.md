@@ -55,7 +55,7 @@ For whatever reason, if you need any help with Calamari, feel free to reach out 
 
 ## FAQ
 
-### What does "Manually edited" field means in Calamari under the Entitlement / Annual leave ?
+**What does "Manually edited" field means in Calamari under the Entitlement / Annual leave?**
 
 The days in the "Manually edited" field are the days (Full amount) you're entitled to from the 1st of January to your anniversary hire date.
 
