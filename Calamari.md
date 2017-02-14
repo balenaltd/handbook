@@ -11,8 +11,6 @@ To request time-off just press “Request absence” then check out the followin
 To successfully request absence you need to choose type of absence you are requesting for. 
 Use the drop-down menu to check the absence types. The “annual leave” is the 30 days that we all have available and the “support leave” refers to the extra time-off that employees gain for working on weekends. “Sick leave” is, obviously, the absence type you should choose when sick.
 
-![First step](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8bGJSNzM0Z2FZcFU)
-
 ## Second step
 
 After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you to estimate the proper period you are requesting for.
