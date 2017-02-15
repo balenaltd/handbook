@@ -22,7 +22,7 @@ This workflow specifically discusses dealing with support issues in Front, howev
 * Make yourself available for direct notifications in the r/user_happiness Flowdock room and on Front. These should be replied to as quickly as you reasonably can do.
 
 ### When you shift starts
-* Start with a triage - check S/support and S/intercom inboxes to see if any new conversations have been started by a user, a user has replied to you or there are new messages from existing conversations with other members of staff which have not been answered yet. Go through and check each open conversation. Its important to look at the `Open` tab and not the `unassigned` tab in the Front inbox.
+* Start with a triage - check S/premium and S/support inboxes to see if any new conversations have been started by a user, a user has replied to you or there are new messages from existing conversations with other members of staff which have not been answered yet. Go through and check each open conversation. Its important to look at the `Open` tab and not the `unassigned` tab in the Front inbox.
 * If you are not sure about the state of existing conversations with others, ask the support engineer from the previous time slot to fill you in.
 * If the conversation is new or a user has replied to you, go ahead and respond, skip to the Replying workflow.
 * Otherwise, if a user has replied to an existing conversation with another member of staff and they're around, ping them to deal with it, or step in yourself if you know you can take it over. If they are not around you'll need to make a judgment call - read the conversation and see whether it would make sense for you to jump in and reply.
@@ -38,12 +38,16 @@ At resin.io we do support differently - firstly, every engineer does it, and sec
 
 ## Support channels
 Where to look for messages, in order of response importance
-* Front inbox: [S/Support](https://app.frontapp.com/inboxes/shared/support/open/121516198) - customers who have a service level agreement (contract) that we'll respond to them within a timeframe. More below.
-* Front inbox: [S/intercom](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - paid and unpaid customers 
+* Front inbox: [S/premium](https://app.frontapp.com/inboxes/shared/support/open/121516198) - customers who have a service level agreement (contract) that we'll respond to them within a timeframe. More below.
+ * messages originate from Zendesk or from premium@resin.io
+* Front inbox: [S/support](https://app.frontapp.com/inboxes/shared/intercom/open/latest) - paid and unpaid customers
+ * messages originate from Intercom or support@resin.io
  * tickets that have an SLA are tagged 'premium' - see SLA section below
  * paid customers tagged 'paid' - they sometimes get preferential priority
-* [Forums](https://talk.resin.io/) - everyone! This is lower in importance than responding to 
-* [Community Chat on gitter](https://gitter.im/resin-io/chat) - this is not a channel we want to promote as a place to receive support from us. Our presence there should be more about community building and encouraging folks to answer each others' questions.
+* [Forums](https://talk.resin.io/) - everyone, paid and free users alike. Check the Troubleshooting section for questions. As we build up our community in the forums, support agents should respond to questions as soon as they're able (after s/premium and s/support). Eventually we can start waiting to answer questions to give users a chance to answer, but first we need to get the community using the forums in the first place.
+
+
+Note: [Community Chat on gitter](https://gitter.im/resin-io/chat) is no longer a channel we want to promote as a place to receive support from us. Our presence there should be more about community building and encouraging folks to answer each others' questions.
  * has private messaging, but please don't use it (unless it's an emergency), because we can't capture the conversation in a way that lets other folks see what's going on and help.
 
 ### Other links you'll need during a support shift 
