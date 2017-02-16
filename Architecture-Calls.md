@@ -30,8 +30,10 @@ Many interesting technical discussions often produce very long threads that are 
 #### UX Regression in staging
 * Discussed a few ways to mitigate it
 * **Action**: needs more investigation 
+
 #### Lerna
 * **Action**: start with pine, maybe ui/etcher - showcase in sdk
+
 #### VPN <-> API overview discussion
 * **Action**: Spec is written and has received some comments, meanwhile we can continue with the implementation of some parts
 
