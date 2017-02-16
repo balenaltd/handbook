@@ -14,6 +14,29 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 14 Feb 2017
+
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ZXBF1znkIOCZqecNnVXq7ay5kPf)
+
+#### AutoHat interface
+* If AutoHAT was a product, what would its interface be?
+* Its currently limited to:
+  * rpi, nuc, bbb
+  * boots devices, toggles buttons (e.g. for bbb can provision flash) and that's all
+* AutoHAT only controls SD Card and power
+* If it was controlling network as well, it could get a device's ip
+* **Action**: spec on what to write in SD Card/container to get ip
+
+#### UX Regression in staging
+* Discussed a few ways to mitigate it
+* **Action**: needs more investigation 
+#### Lerna
+* **Action**: start with pine, maybe ui/etcher - showcase in sdk
+#### VPN <-> API overview discussion
+* **Action**: Spec is written and has received some comments, meanwhile we can continue with the implementation of some parts
+
+===
+
 ### 13 Feb 2017
 
 [Flowdock Agenda](https://www.flowdock.com/app/rulemotion/r-process/threads/OPh3F6mmpQuKhVamU9OUygul8S_)
