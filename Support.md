@@ -33,7 +33,7 @@ This workflow specifically discusses dealing with support issues in Front, howev
 
 [Spread sheet where we collectively make the schedule](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=108544568) - ([explanation](https://docs.google.com/document/d/1FLpAuDRxCzTyzoauz7fYk6MNDC52fgR5o2Mjk3cZO4M/edit#))
 
-## Introduction
+## Support Driven Development
 At resin.io we do support differently - firstly, every engineer does it, and secondly we treat it as about the best source of data on our product we have. In support you see exactly the problems users are facing, how they are using our product and what we need to improve. If you're interested in the philosophy behind this approach, check out our [Support-driven Development blog post](https://resin.io/blog/support-driven-development/) which goes into a lot more detail.
 
 ## Support channels
@@ -64,6 +64,14 @@ Note: [Community Chat on gitter](https://gitter.im/resin-io/chat) is no longer a
 ### Support tools troubleshooting
 #### Front
 All roads lead to Front, and those roads break sometimes. The two main integrations are Intercom and Zendesk.
+
+There is a custom resin sidebar integration, please use it to link Flowdock conversations.
+*. Open the sidebar
+1. Click to open dropdown, choose Resin #1
+2. EITHER click the clipboard to get the tag, to include in an existing Flowdock convo (with no link to the ticket)
+3. OR click the blue button to create a new Flowdock thread including the tag and a link to the ticket ([example](https://www.flowdock.com/app/rulemotion/user_happiness/threads/Nlck847nsXvsHNifhZINWydp-7U)). Using the dropdown arrow you can change in which room the thread is created.
+4. Here's where you can see previous conversations. Click them and they'll open a browser with the Flowdock thread
+![](https://cloud.githubusercontent.com/assets/1054720/23095895/ea4384c6-f5df-11e6-9eb8-1cae8c40fc35.png)
 
 Intercom
 * If a user complains that they don't see the icon on the website, they may be blocking it. You can ask them to disable the blocker.
