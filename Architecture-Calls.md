@@ -14,6 +14,15 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 16 Feb 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/lZoZCWsYA4m4Dm0C9JJxmplU8_5)
+
+* **Versionbot PR tagging and building - (carried over item from devops call)**
+* **VPN latency issues**
+
+===
+
 ### 14 Feb 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ZXBF1znkIOCZqecNnVXq7ay5kPf)
