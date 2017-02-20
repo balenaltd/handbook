@@ -6,6 +6,64 @@
 
 # Recent meeting notes
 
+## Devices call on 2017-02-20 #meeting-notes
+
+### Attendees
+
+* Andrei Gherzan @agherzan
+* Florin Sarbu @floion
+* Michal Mazurek @michal-mazurek
+* Shaun Mulligan @shaunmulligan
+
+### Devices team status
+
+----------
+
+#### @michal-mazurek - [currently assigned tasks in github](https://github.com/pulls?utf8=%E2%9C%93&q=is:open%20assignee:michal-mazurek)
+
+##### Actively working on:
+* [[issue link](https://github.com/resin-os/resinos/issues/163)] Deploy bmaps file in yocto - do it on BBB and working on implementing support in resin-yocto-scripts
+* [[issue link](https://github.com/resin-os/resinos/issues/113)] Morty update on RaspberryPi - almost finished
+* [[issue link](https://github.com/resin-os/resinos/issues/113)] Morty update on artik(7) - almost finished
+
+##### Blocked on:
+
+##### Done since last meeting:
+
+----------
+
+#### @floion - [currently assigned tasks in github](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+assignee%3Afloion)
+
+##### Actively working on:
+
+* [[issue link](https://github.com/resin-os/resinos/issues/113)] Migrate beaglebone on morty and test (2.X) - test resinhup interface
+* [no issue] Test am57xx board and deploy to production - in progress
+* [[issue link](https://github.com/resin-os/resinos/issues/168)] Fix edison on 2.0
+
+##### Blocked on:
+
+##### Done since last meeting:
+* [[issue link](https://github.com/resin-os/resinos/issues/167)] AUFS issues on artik10
+* [no issue] WiFi instability on artik7
+* [[issue link](https://github.com/resin-os/resinos/issues/175)] AUFS issues on artik5
+
+----------
+
+#### @agherzan - [currently assigned tasks in github](https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+assignee%3Aagherzan)
+
+##### Actively working on:
+* [[issue link](https://github.com/resin-os/resinos/issues/126)] RootFS size and fs labels - wip as we need to decide on the final rootfs size (600/700)
+* [[issue link](https://github.com/resin-os/resinos/issues/182)] Switch to tags in jenkins - not started
+* [[issue link](https://github.com/resin-os/resinos/issues/170)] All resin types deployed in jenkins - not started
+
+##### Blocked on:
+* [[issue link](https://github.com/resin-os/resinos/issues/198)] UP board support in resin - PRed waiting for review
+* [[issue link](https://github.com/resin-os/resinos/issues/188)] Deploy all device tree overlays available in linux raspberrypi - wait until we migrate to morty to check that this PR still includes all the dt overlay files
+
+##### Done since last meeting:
+
+----------
+
 ## Devices call on 2017-02-16 #meeting-notes
 
 ### Attendees
