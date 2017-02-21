@@ -58,6 +58,7 @@ Welcome to the resin.io wiki.
       - [Writing a Specification](https://github.com/resin-io/hq/blob/master/specs/README.md)
     - [Starting a new project](https://github.com/resin-io/hq/wiki/Starting-a-new-project)
     - Maintaining a project
+    - [Open Sourcing Resin](https://github.com/resin-io/hq/wiki/Open-Sourcing-Resin)
 - DevOps
   - [DevOps Task Manual](https://github.com/resin-io/hq/wiki/DevOps-Task-Manual)
   - Deployment
