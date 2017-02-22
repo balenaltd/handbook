@@ -117,6 +117,8 @@ The expectation is that you check in hourly during at least an 8-hour spread, an
 
 Each day you keep an eye on support you will receive an extra 1/4 day's annual leave to use as you wish. Some weekends this can involve little to no work, others more but it's always significantly less than weekday volumes. You can also choose to shift your schedule to do a full day's work, and take a day off the next week - it's your responsibility to let teammates know and not miss any meetings.
 
+The paid time off (PTO) is added to Calamari after every weekend (on Tuesday, to give a chance to make changes in the spreadsheet if there was a last minute swap). You can see if the PTO was added to Calamari in the "Support Bonus" section, and you can see where the data comes from [in the PTO tab of the spreadsheet](https://docs.google.com/spreadsheets/d/1SUMuvULnDWc1kOeEtbuZXahyA_8SPKcLOCwkRhia1Wo/edit#gid=1437169638). (Once Stefanos adds the data to Calamari he marks the column grey.)
+
 
 ### Specific support
 
