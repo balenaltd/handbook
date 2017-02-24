@@ -1,7 +1,7 @@
 ##Recent Meeting Notes
 
 ###Mon, Feb 27 2017
-* [Meeting minutes]()
+* [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1Q69AxyWuBj82w5_i4gWJ0CJb5p-17sez5VkEAeHhi9Q/edit?usp=sharing)
 * [Video] ()
 * [Audio] ()
 * [Attendees] ()
