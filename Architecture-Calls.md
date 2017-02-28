@@ -37,6 +37,10 @@ ssh will be protected by the key, that the user will have to put when flashing t
   * **Action**: need a spec
 * HostOS size
   * 700mb - approved
+* [Transitioning users to community support / Set up API as OAuth2 provider](https://beta.frontapp.com/inboxes/shared/d_architecture/open/226356340)
+  * **Action**: We'll move forward with OAuth2.
+  * We will probably have to go with openid
+
 ===
 
 ### 16 Feb 2017
