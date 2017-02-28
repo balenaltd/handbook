@@ -2,9 +2,9 @@
 
 ###Mon, Feb 27 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1Q69AxyWuBj82w5_i4gWJ0CJb5p-17sez5VkEAeHhi9Q/edit?usp=sharing)
-* [Video] ()
-* [Audio] ()
-* [Attendees] ()
+* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8MGkwWk05NUZtYzg)
+* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8cVJNZEtIWGl5U1E)
+* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8bmpqTmwtRDNzbzQ)
 
 ###Tue, Feb 21 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1YPdUTjDzc_Kh57IRHBLhJaZnsyjY691zL45fG9ZmqZM/edit?usp=sharing)
