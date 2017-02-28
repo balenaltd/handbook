@@ -20,9 +20,23 @@ Many interesting technical discussions often produce very long threads that are 
 
 * [Discuss how people can preload images + configuration](https://beta.frontapp.com/inboxes/shared/d_architecture/open/223871093)
   * No action
-* 
-* 
-
+* [Provisioning logs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/224611626)
+  * **Action**: Write spec / describe in more detail `.meta/diagnostics`
+* [Limited permissions user to allow user-side troubleshooting actions](https://beta.frontapp.com/inboxes/shared/d_architecture/open/221813982)
+  * Desirable in development device mode
+  * **Action**: discuss in a next arch call
+* [rdt: authenticating the docker daemon socket](https://beta.frontapp.com/inboxes/shared/d_architecture/open/223225069)
+  * docker daemon can be set to validate the clients and vice versa
+  * to do it properly, both should verify each other
+  * device generates a certificate, and then we need a second certificates. Actually, we need one cert for rdt clients. 
+  * The question is, how does rdt get hold for that? Device has both certs and you can use ssh to establish 
+ssh will be protected by the key, that the user will have to put when flashing the device
+* [Disruptive Technologies 3G modem issue](https://beta.frontapp.com/inboxes/shared/d_architecture/open/228050605)
+  * **Action**: set up a call
+* [Discuss .resin.yml build-time variables and overlaps with Multicontainer/resin-compose.yml roadmap](https://beta.frontapp.com/inboxes/shared/d_architecture/open/227150505)
+  * **Action**: need a spec
+* HostOS size
+  * 700mb - approved
 ===
 
 ### 16 Feb 2017
