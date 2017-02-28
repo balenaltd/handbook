@@ -14,6 +14,17 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 23 Feb 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/I2Z--KslGt3ZKp_zl5WzJDy-33V)
+
+* [Discuss how people can preload images + configuration](https://beta.frontapp.com/inboxes/shared/d_architecture/open/223871093)
+  * No action
+* 
+* 
+
+===
+
 ### 16 Feb 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/lZoZCWsYA4m4Dm0C9JJxmplU8_5)
