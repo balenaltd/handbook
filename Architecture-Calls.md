@@ -9,7 +9,6 @@ Many interesting technical discussions often produce very long threads that are 
 ## Pinned Agenda Items
 
 * Supervisor rearchitecture
-* ENM/resinhup/supervisor fusion
 * VPN latency issues
 
 ## Recent Meeting Notes
