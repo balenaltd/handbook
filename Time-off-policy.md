@@ -1,7 +1,7 @@
 As to time-off, resin.io team is divided into three groups: 
-* Employees
-* Full-Time Contractors
-* Part-Time Contractors
+* [Employees](https://github.com/resin-io/hq/wiki/Employees-(time-off))
+* [Full-Time Contractors](https://github.com/resin-io/hq/wiki/Full-time-contractors)
+* [Part-Time Contractors](https://github.com/resin-io/hq/wiki/Part-time-contractors)
 
 You'll notice a lot of similarities between the policies and the reason for this is that we tried to create a company-wide, fair, straightforward time-off policy, respecting the needs of the team members.
 
