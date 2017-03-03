@@ -13,6 +13,34 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 3 Mar 2017
+
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/VG2lboCLFLyugX5Nr6VXtCzwEFT)
+
+[hubot vs procbots](https://beta.frontapp.com/inboxes/shared/d_architecture/open/232595583)
+- We have two separate automation frameworks, it's not clear what is the right thing for the right job
+- Processbots: have the ability to be triggered by events, they can have multiple source of events and multiple destinations. They support specialised execution / internal inheritance hierarchy and are currently stateless
+- Hubot is limited by a single event source
+- Similarities/differences between aws lamda and procbots
+- Hubot - We'd like sight modifications to send responses to different channels other than the source
+- Personal Hubot and personal credential management
+- Want to connect github/front/discourse/intercom/gitter
+- OSS roadmap
+- Idea: Instead of having a bot, we could have a chrome extension
+
+[NM modem for Disruptive Tech](https://beta.frontapp.com/signin?redirect_url=%2Finboxes%2Fshared%2Fd_architecture%2Fopen%2F232902357)
+- To be continued, hardware is in London and we can start working on it on Monday
+
+VPN Latency
+- reproduced on devenv, next step is to test on staging
+- server side only VPN configuration improves speed 
+
+[Prebuild task containers](https://beta.frontapp.com/inboxes/shared/d_architecture/open/235540125)
+- Discussed implications of running buildpacks in pre-build container
+- Will stay with current approach , will discuss again
+
+Supervisor Rearchitecture
+
 ### 23 Feb 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/I2Z--KslGt3ZKp_zl5WzJDy-33V)
