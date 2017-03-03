@@ -44,7 +44,7 @@ Where to look for messages, in order of response importance
  * messages originate from Intercom or support@resin.io
  * tickets that have an SLA are tagged 'premium' - see SLA section below
  * paid customers tagged 'paid' - they sometimes get preferential priority
-* [Forums](https://talk.resin.io/) - everyone, paid and free users alike. Check the Troubleshooting section for questions. As we build up our community in the forums, support agents should respond to questions as soon as they're able (after s/premium and s/support). Eventually we can start waiting to answer questions to give users a chance to answer, but first we need to get the community using the forums in the first place.
+* [Forums](https://forums.resin.io/) - everyone, paid and free users alike. Check the Troubleshooting section for questions. As we build up our community in the forums, support agents should respond to questions as soon as they're able (after s/premium and s/support). Eventually we can start waiting to answer questions to give users a chance to answer, but first we need to get the community using the forums in the first place.
 
 
 Note: [Community Chat on gitter](https://gitter.im/resin-io/chat) is no longer a channel we want to promote as a place to receive support from us. Our presence there should be more about community building and encouraging folks to answer each others' questions.
