@@ -47,6 +47,16 @@ VPN Latency
 
 ===
 
+### 1 Mar 2017
+
+- Arch call postponed (board meeting)
+
+===
+
+### 27 Feb 2017
+
+- [vpn-api batching pros and cons](https://beta.frontapp.com/inboxes/shared/d_architecture/all/224033850)
+
 ### 23 Feb 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/I2Z--KslGt3ZKp_zl5WzJDy-33V)
