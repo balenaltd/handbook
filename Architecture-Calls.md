@@ -39,7 +39,11 @@ VPN Latency
 - Discussed implications of running buildpacks in pre-build container
 - Will stay with current approach , will discuss again
 
-Supervisor Rearchitecture
+[Supervisor Rearchitecture](https://beta.frontapp.com/inboxes/shared/d_architecture/open/235478503)
+- Supervisor should run on the host
+- We want to keep everything on the DB, and we must make the supervisor initialize any other host services that currently use config.json
+- How does the ECT authenticate with registries (possibly external) or delta server (and how does the delta server itself authenticate with registries) **TBD**
+- resin-compose injects special variables like supervisor API key, resin appId, etc to the container
 
 ===
 
