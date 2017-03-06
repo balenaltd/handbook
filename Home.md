@@ -41,7 +41,7 @@ Welcome to the resin.io wiki.
 - Product
   - Aspects
     - [Support](https://github.com/resin-io/hq/wiki/Support)
-    - Sales
+    - [Sales](https://github.com/resin-io/hq/wiki/Sales)
     - Reliability
   - Speccing
   - Prioritising
