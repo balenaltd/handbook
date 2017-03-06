@@ -2,8 +2,8 @@
 
 ###Mon, Marc 06 2017
 * [Meeting minutes](https://drive.google.com/open?id=1PkwF_2ObRtzEkeu4iIsPPxISwCnie0stnJg2GrHdmGk)
-* [Video] ()
-* [Audio] ()
+* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8LUhvTWp4SU1INmM)
+* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8WUktZEdfRF93N1E)
 * [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk8tY2NJN1M0M28)
 
 ###Mon, Feb 27 2017
