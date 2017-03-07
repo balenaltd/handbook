@@ -12,7 +12,7 @@ This workflow specifically discusses dealing with support issues in Front, howev
  * Severity 3- must be replied to in 24 hours
  * Severity 4 - doesn't have an SLA! Woo. We still want to respond promptly, but it's definitely a lower priority than the others
 * If there is a conversation in Flowdock related to a Front conversation, always link them. This helps us know what discussion was had and what actions were taken -- useful insights for teardowns, future support requests and product changes.
- * How to link Flowdock to Front: in the sidebar (toggle to Resin #1), paste the tag in a Flowdock thread. You can also start a Flowdock conversation about the ticket from the sidebar, which will add the tag and a URL to the Front thread.
+ * How to link Flowdock to Front: in the sidebar (toggle to Resin), paste the tag in a Flowdock thread. You can also start a Flowdock conversation about the ticket from the sidebar, which will add the tag and a URL to the Front thread.
 * When responding to a ticket, remember to check the Front sidebar for related Flowdock conversations.
 * Every time you touch a ticket, consider what metadata you can add:
  * comments explaining actions you've taken (that aren't captured in logs, Flowdock or your message to the user)
@@ -67,7 +67,7 @@ All roads lead to Front, and those roads break sometimes. The two main integrati
 
 There is a custom resin sidebar integration, please use it to link Flowdock conversations.
 *. Open the sidebar
-1. Click to open dropdown, choose Resin #1
+1. Click to open dropdown, choose Resin
 2. EITHER click the clipboard to get the tag, to include in an existing Flowdock convo (with no link to the ticket)
 3. OR click the blue button to create a new Flowdock thread including the tag and a link to the ticket ([example](https://www.flowdock.com/app/rulemotion/user_happiness/threads/Nlck847nsXvsHNifhZINWydp-7U)). Using the dropdown arrow you can change in which room the thread is created.
 4. Here's where you can see previous conversations. Click them and they'll open a browser with the Flowdock thread
