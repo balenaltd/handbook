@@ -11,7 +11,7 @@ able to book them under the `rooms, etc` tab of an event.
 * https://zoom.us/j/9839199714
 
 ##Ad Hoc
-These are managed via the Hubot 'get a zoom' command in flowdock and can be 
+These are managed via the Hubot `get a zoom` command in flowdock and can be 
 used for any ad-hoc calls you require.
 
 * https://zoom.us/j/2957354266
