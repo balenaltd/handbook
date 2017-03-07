@@ -1081,6 +1081,9 @@ Now if you push to the appropriate remote (eg. 'appone'), only those devices att
 You can easily move devices between applications by selecting a device from a current application, then selecting 'Actions' and then 'Move device'.
 
 ### User wants to delete account
+
+**IMPORTANT!!!** Do not help users delete their accounts until you are 100% sure that they are not collaborators with one of our customers, because deleting their account will cause any devices they created for the company be deleted as well.
+
 It is currently not possible for a user to delete their account using the dashboard.  However it is possible to do so using a direct API request with the *user's* auth token (the auth token must belong to the account being deleted), so either the user can perform the request with their auth token from the preferences panel or an admin can use the 'login as' admin panel feature to copy the user's auth token and run the request themself.
 
 ```sh
