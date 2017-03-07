@@ -28,6 +28,10 @@ If you’d like to automatically unwatch all new repos go to Github/Settings/Not
 
 Note that unwatch shouldn’t mean ignore. Especially if you choose to automatically unwatch the new repos, make sure to manually watch those that are related to your job and to your tasks.
 
+##Adding SSH Keys
+
+Once you have found your way around github and all the organizations don't neglect to add your SSH keys to the relevant repos. In case you are not familiar with the procedure you can find more info on how to to do that in the Support Scratch Pad here: (https://github.com/resin-io/hq/wiki/Scratch-Pad)
+
 For more Github secrets see https://github.com/blog/967-github-secrets
 
 In case you’re not familiar with git and Github, we suggest following Github’s [Hello World guide](https://guides.github.com/activities/hello-world/).
