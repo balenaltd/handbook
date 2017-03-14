@@ -8,42 +8,42 @@
 
 ###Mon, Mar 06 2017
 * [Meeting minutes](https://drive.google.com/open?id=1PkwF_2ObRtzEkeu4iIsPPxISwCnie0stnJg2GrHdmGk)
-* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8LUhvTWp4SU1INmM)
-* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8WUktZEdfRF93N1E)
-* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk8tY2NJN1M0M28)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8LUhvTWp4SU1INmM)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8WUktZEdfRF93N1E)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk8tY2NJN1M0M28)
 
 ###Mon, Feb 27 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1Q69AxyWuBj82w5_i4gWJ0CJb5p-17sez5VkEAeHhi9Q/edit?usp=sharing)
-* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8MGkwWk05NUZtYzg)
-* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8cVJNZEtIWGl5U1E)
-* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8bmpqTmwtRDNzbzQ)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8MGkwWk05NUZtYzg)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8cVJNZEtIWGl5U1E)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8bmpqTmwtRDNzbzQ)
 
 ###Tue, Feb 21 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1YPdUTjDzc_Kh57IRHBLhJaZnsyjY691zL45fG9ZmqZM/edit?usp=sharing)
-* [Video] (https://drive.google.com/open?id=0BwtKfQAiRlCQb0lQR1B3SnF5NFE)
-* [Audio] (https://drive.google.com/open?id=0BwtKfQAiRlCQWGJfUkNwckRQVXc)
-* [Attendees] (https://drive.google.com/open?id=0BwtKfQAiRlCQVzZRVEpnRVd5M00)
+* [Video](https://drive.google.com/open?id=0BwtKfQAiRlCQb0lQR1B3SnF5NFE)
+* [Audio](https://drive.google.com/open?id=0BwtKfQAiRlCQWGJfUkNwckRQVXc)
+* [Attendees](https://drive.google.com/open?id=0BwtKfQAiRlCQVzZRVEpnRVd5M00)
 
 ###Mon, Feb 13 2017
 * [Meeting minutes](https://docs.google.com/document/d/1enx6O6tFn2bTYbBh_RxOjyj-SUr_Q8f5GCi8LOeAAUg/edit)
-* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8cDRER3RPdzc4RGc)
-* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8SVpzR0Myb1J4Nzg)
-* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8aFppVjdpYW83SzA)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8cDRER3RPdzc4RGc)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8SVpzR0Myb1J4Nzg)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8aFppVjdpYW83SzA)
 
 ###Mon, Feb 06 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1HswhStUAWIBV_egKLjJ0yiQEhCajLxdjgtG6JWi7itE/edit?usp=sharing)
-* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8TE8yQ1AxelkzVU0)
-* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8d3BXSWlKRkxHSFE)
-* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8LWoteGlTNHhidmM)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8TE8yQ1AxelkzVU0)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8d3BXSWlKRkxHSFE)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8LWoteGlTNHhidmM)
 
 ###Mon, Jan 30 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1QghoLPSbBSFuH-9UASYCYYq00hnwNvfEh_QNin64jAM/edit?usp=sharing)
-* [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8cXNncjYtdWk2bmM)
-* [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8bmlZWC12aG9KaEE)
-* [Attendees] (https://drive.google.com/drive/folders/0B1xAg_Dw2iS8X19BbTFzc0RSUzQ)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8cXNncjYtdWk2bmM)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8bmlZWC12aG9KaEE)
+* [Attendees](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8X19BbTFzc0RSUzQ)
 
 ###Mon, Jan 23 2017
-* [RoadMap 2017] (https://docs.google.com/spreadsheets/d/15lYScfKIxzcKYQISxg9axPd7cTctRL_itRE9ICkvQD0/edit#gid=1580979837)
+* [RoadMap 2017](https://docs.google.com/spreadsheets/d/15lYScfKIxzcKYQISxg9axPd7cTctRL_itRE9ICkvQD0/edit#gid=1580979837)
 * [Breakthrough Events] (https://docs.google.com/spreadsheets/d/1uzAmMe0ifB7eLB3gEbzjzwg5sOKxmMsheOHu540mhmc/edit#gid=0)
 * [Video](https://drive.google.com/open?id=0BwtKfQAiRlCQSlBRaWoxUm1yb0U)
 * [Audio](https://drive.google.com/open?id=0BwtKfQAiRlCQaVc1Uzg1bWxxUm8)
