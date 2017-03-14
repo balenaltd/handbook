@@ -1,12 +1,12 @@
 ##Recent Meeting Notes
 
-###Mon, Marc 13 2017
+###Mon, Mar 13 2017
 * [Meeting minutes](https://drive.google.com/open?id=1c87aWYgYo2YFawF92Xy5ZzpHXReVTuQq_-Lk58lhtPY)
 * [Video] ()
 * [Audio] ()
 * [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8ZE5kNURxbm96U2c)
 
-###Mon, Marc 06 2017
+###Mon, Mar 06 2017
 * [Meeting minutes](https://drive.google.com/open?id=1PkwF_2ObRtzEkeu4iIsPPxISwCnie0stnJg2GrHdmGk)
 * [Video] (https://drive.google.com/open?id=0B1xAg_Dw2iS8LUhvTWp4SU1INmM)
 * [Audio] (https://drive.google.com/open?id=0B1xAg_Dw2iS8WUktZEdfRF93N1E)
