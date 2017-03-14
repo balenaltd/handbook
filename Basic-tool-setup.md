@@ -6,7 +6,7 @@ First things first! Before you get access to any of the services we’re using a
 
 Your inbox will be full of e-mails that our team has already sent you. These are invitations to tools we use, guides and other material that will help you get started.
 
-###Basic tools
+### Basic tools<br>
 As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. For now, make sure you have access to the following services:
 
 Primary:
@@ -30,7 +30,7 @@ There’s a distinction between primary and secondary services. You should have 
 _* this service requires additional information/steps before you get access to it._
 
 
-###How to access services that require additional information/steps.
+### How to access services that require additional information/steps.
 Github
 
 1. Share your username with the Operations team
@@ -49,7 +49,7 @@ Timezone.io
 1. Go to https://timezone.io/join/9310ab3ee831a921 and sign up
 1. Go to https://timezone.io/team/resinio to confirm you've signed up successfully
 
-###Short introduction to the services/tools we use
+### Short introduction to the services/tools we use
 Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific resin.io components and teams. This is the best place to communicate with other team members and ask any questions you have.
 
 Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile. Here's a short [Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
@@ -70,7 +70,7 @@ Resin.io admin means the resin.io administrator dashboard. By having access to t
 
 Timezone.io is a one-page website that shows each of the team’s member timezone.
 
-###Photos
+### Photos
 We're putting a lot of effort into simplifying and maintaining the remote working culture, making it as easy and friendly for team members to work in it.
 
 Thus, we'd like to ask you to upload a photo to the everyday services you'll be using, such as your @resin.io e-mail and Flowdock. You can use the same photo you use for your social media profiles as long as it is an actual photo of you, as normal as possible! Please send your photo to the Operations team, at operations@resin.io or 1-to-1 in Flowdock, to be used in the [team page](www.resin.io/team).
