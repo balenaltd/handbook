@@ -1,8 +1,8 @@
-#Resin.io Wiki
+# Resin.io Wiki
 
 Welcome to the resin.io wiki.
 
-##How to get things done (resin.io processes)
+## How to get things done (resin.io processes)
 
 - [Team](Team)
   - Joining resin.io
