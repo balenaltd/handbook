@@ -1,10 +1,10 @@
-###Recent Meeting Notes
+##Recent Meeting Notes
 
 ###Mon, Mar 13 2017
 * [Meeting minutes](https://drive.google.com/open?id=1c87aWYgYo2YFawF92Xy5ZzpHXReVTuQq_-Lk58lhtPY)
-* [Video] (https://drive.google.com/open?id=0BwtKfQAiRlCQWHZDanNUamRkSEE)
-* [Audio] (https://drive.google.com/open?id=0BwtKfQAiRlCQSkJFZUxjSlZTeHM)
-* [Attendees] (https://drive.google.com/open?id=0B1xAg_Dw2iS8ZE5kNURxbm96U2c)
+* [Video](https://drive.google.com/open?id=0BwtKfQAiRlCQWHZDanNUamRkSEE)
+* [Audio](https://drive.google.com/open?id=0BwtKfQAiRlCQSkJFZUxjSlZTeHM)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8ZE5kNURxbm96U2c)
 
 ###Mon, Mar 06 2017
 * [Meeting minutes](https://drive.google.com/open?id=1PkwF_2ObRtzEkeu4iIsPPxISwCnie0stnJg2GrHdmGk)
