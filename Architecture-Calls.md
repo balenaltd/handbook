@@ -31,7 +31,7 @@ Bots Discussion (continuing from last arch call)
     - Users that leave can delete the device
     - Need to revisit this item.
 
-===
+---
 
 ### 3 Mar 2017
 
@@ -65,13 +65,13 @@ VPN Latency
 - How does the ECT authenticate with registries (possibly external) or delta server (and how does the delta server itself authenticate with registries) **TBD**
 - resin-compose injects special variables like supervisor API key, resin appId, etc to the container
 
-===
+---
 
 ### 1 Mar 2017
 
 - Arch call postponed (board meeting)
 
-===
+---
 
 ### 27 Feb 2017
 
@@ -104,7 +104,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
   * **Action**: We'll move forward with OAuth2.
   * We will probably have to go with openid
 
-===
+---
 
 ### 16 Feb 2017
 
@@ -113,7 +113,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
 * **Versionbot PR tagging and building - (carried over item from devops call)**
 * **VPN latency issues**
 
-===
+---
 
 ### 14 Feb 2017
 
@@ -138,7 +138,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
 #### VPN <-> API overview discussion
 * **Action**: Spec is written and has received some comments, meanwhile we can continue with the implementation of some parts
 
-===
+---
 
 ### 13 Feb 2017
 
@@ -160,7 +160,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
     - Attempting to fine-tune openvpn configuration settings can be risky, because a server-side change can result in incompatible changes with the current client-side configuration, possibly resulting in bricked devices
     - **Action:** Create benchmark and continue investigation
 
-===
+---
 
 ### 09 Feb 2017
 
@@ -183,7 +183,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
 
 - **Discussed VPN - API (architecture overview)**
 
-===
+---
 
 ### 07 Feb 2017
 
@@ -217,7 +217,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
   - Also discussed on rdt promote in general and how we should plan our next steps on converging rdt and resin.io
 features (to be discussed in a product call)
 
-===
+---
 
 ### 06 Feb 2017
 
@@ -296,7 +296,7 @@ in the past we had some issues where the vpn would reset all device status, caus
     - **[Action]:** Move forward with a using a simple Go server in place of OpenSSH, with the plan to reuse it in the Git server as well.
     - **[Action]:** Rename `resin proxy` server to something more meaningful, like 'resin action' server
 
-===
+---
 
 ### 02 Feb 2017
 
@@ -307,7 +307,7 @@ in the past we had some issues where the vpn would reset all device status, caus
 * Discussed about supervisor startup issues
   - **[Action]:** Need to investigate why the supervisor container takes that long to start
 
-===
+---
 
 ### 31 Jan 2017
 
@@ -319,7 +319,7 @@ No new items were present in the agenda, so we had an ad-hoc discussion on:
 * Discussed on setting udev rules as configuration
   - **[Action]:** Need a spec/proposal for udev
 
-===
+---
 
 ### 30 Jan 2017
 
