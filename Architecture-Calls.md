@@ -354,7 +354,7 @@ No new items were present in the agenda, so we had an ad-hoc discussion on:
 - Discussed ways to mitigate DoS in supervisor's endpoints
 - **[Action]:** Needs more research.
 
-===
+---
 
 ### 26 Jan 2017
 
@@ -383,7 +383,7 @@ No new items were present in the agenda, so we had an ad-hoc discussion on:
     * Discussed on improving resinHUP progress. The most time-consuming operations atm are `docker pull`'s and reporting progress updates while these are running is hard. There's still no clear way forward. (Replacing progress bar with milestones was suggested, however this will not address the long delays)
     * Also discussed coupling OS with supervisor updates. The main reason why we updated supervisor separately is that the OS update was hard. This is changing with self-serve hostOS updates, which brings us closer to melding supervisor into the OS. We also discussed which supervisor versions/tags should be fetched during the update (it shouldn't be the `latest` tag but one that is guaranteed to work with the particular OS version)
 
-===
+---
 
 ### 16 Jan 2017
 
@@ -421,7 +421,7 @@ resin-builder: when there's a completely generic device type, the builder should
 
 * **[Action]:** Write it up (Kostas)
 
-===
+---
 
 ### 12 Jan 2017
 
@@ -441,7 +441,7 @@ resin-builder: when there's a completely generic device type, the builder should
 
 #### [Discussed about the way dependent device types (currently 1 and no plan in adding more) are parsed and handled by the UI (and possibly the API itself)](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204875955)
  
-===
+---
 
 ### 10 Jan 2017
 
@@ -451,7 +451,7 @@ resin-builder: when there's a completely generic device type, the builder should
 
 https://docs.google.com/document/d/1-9IMrl5c6hPexItKqsEfKN6vKda5RBGmwLXFl_v9u_0/edit
 
-===
+---
 
 ### 9 Jan 2017
 
@@ -466,7 +466,7 @@ https://docs.google.com/document/d/1-9IMrl5c6hPexItKqsEfKN6vKda5RBGmwLXFl_v9u_0/
 
 https://docs.google.com/document/d/1tEftM9-n3ObXrZ4deXms0eCm1itZJGa_cjKBlAJBj6Q/edit
 
-===
+---
 
 ### 5 Jan 2017
 
@@ -476,14 +476,14 @@ https://docs.google.com/document/d/1tEftM9-n3ObXrZ4deXms0eCm1itZJGa_cjKBlAJBj6Q/
 
 https://docs.google.com/document/d/1sP9oGmySedmjCQxGlpwIQlQyqiSy9Szk3oNDzptU6vc/edit
 
-===
+---
 
 ### 3 Jan 2017
 
 * Discuss golang ENM interface sharing
   * **[Action item]:** Bluetooth/nodejs related issue that needs more research (Joe)
 
-===
+---
 
 ### 20 Dec 2016
 
@@ -504,7 +504,7 @@ https://docs.google.com/document/d/1sP9oGmySedmjCQxGlpwIQlQyqiSy9Szk3oNDzptU6vc/
 
 https://docs.google.com/document/d/18eIBG-rpFMQnLrU-HHCPDAg6EM4VvV_iZiSVV8ggO0I/edit
 
-===
+---
 
 ### 15 Dec 2016
 
@@ -518,7 +518,7 @@ https://docs.google.com/document/d/18eIBG-rpFMQnLrU-HHCPDAg6EM4VvV_iZiSVV8ggO0I/
 
 https://docs.google.com/document/d/1HQymDK7SAqxGuZgqon-jEpfThUkLHKs-MhT54d0etOY/edit
 
-===
+---
 
 ### 13 Dec 2016
 
@@ -530,7 +530,7 @@ https://docs.google.com/document/d/1HQymDK7SAqxGuZgqon-jEpfThUkLHKs-MhT54d0etOY/
 
 https://docs.google.com/document/d/1eKftQ1aduV0g1wqMupJepItwIYRGvVHj2c7pn2twFzY/edit
 
-===
+---
 
 ### 12 Dec 2016
 
@@ -547,7 +547,7 @@ https://docs.google.com/document/d/1eKftQ1aduV0g1wqMupJepItwIYRGvVHj2c7pn2twFzY/
 
 https://docs.google.com/document/d/1x1cI-OQpk3-6mz2bxmvmTU2P3exWAmdFjQIWnPiH3RI/edit
 
-===
+---
 
 ### 8 Dec 2016
 * Resin-on-Resin deployment
@@ -559,7 +559,7 @@ https://docs.google.com/document/d/1x1cI-OQpk3-6mz2bxmvmTU2P3exWAmdFjQIWnPiH3RI/
 
 https://docs.google.com/document/d/17O-M8D8eYqGVXkbJP3CnYJ7BSGjd56rjXlfGcyw5twc/edit
 
-===
+---
 
 ### 5 Dec 2016
 * Zendesk / Front Integration
@@ -570,7 +570,7 @@ https://docs.google.com/document/d/17O-M8D8eYqGVXkbJP3CnYJ7BSGjd56rjXlfGcyw5twc/
 
 https://docs.google.com/document/d/1-07hveuJd0Zw8ou-iV8cN7qLhNOj88HI34rJtiW3kYU/edit
 
-===
+---
 
 ### 3 Dec 2016 (ad-hoc @ London office)
 
@@ -578,7 +578,7 @@ https://docs.google.com/document/d/1-07hveuJd0Zw8ou-iV8cN7qLhNOj88HI34rJtiW3kYU/
 
 https://docs.google.com/document/d/1daJJGYVuJXir-FRYyQygdMsukJrYlTnPfviXDUYRPuY/edit
 
-=== 
+---
 
 ### 28-29 Nov 2016
 
@@ -599,7 +599,7 @@ https://docs.google.com/document/d/1daJJGYVuJXir-FRYyQygdMsukJrYlTnPfviXDUYRPuY/
 
 https://docs.google.com/document/d/18lYiY1Mi6qkVKptfcd7nmmVi4n2O7xOnrugIa6sMnxI/edit
 
-===
+---
 
 ### 24 Nov 2016
 
@@ -610,7 +610,7 @@ https://docs.google.com/document/d/18lYiY1Mi6qkVKptfcd7nmmVi4n2O7xOnrugIa6sMnxI/
 
 https://docs.google.com/document/d/1yXzolkALQSw6DkbcoJ9oBQ2IsY_B4iWNlwicdYPr9Do/edit
 
-===
+---
 
 ### 21 Nov 2016
 
@@ -622,7 +622,7 @@ https://docs.google.com/document/d/1yXzolkALQSw6DkbcoJ9oBQ2IsY_B4iWNlwicdYPr9Do/
 
 https://docs.google.com/document/d/1KTDulTx1ojVXXyvFD1sdKpq3mn7qOv18leheGh7rbDE/edit
 
-===
+---
 
 ### 15 Nov 2016
 
