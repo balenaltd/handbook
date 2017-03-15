@@ -13,6 +13,107 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 15 Mar 2017
+
+https://beta.frontapp.com/inboxes/shared/d_architecture/open/243045479
+
+##### Security Overview
+
+[Supervisor API responses](https://beta.frontapp.com/inboxes/shared/d_architecture/open/239093475)
+
+JSON of the /supervisor endpoints
+JSON or these 5 strings (API)
+stack traces should be encapsulated in JSON
+
+**Action:** see if there are requests in api and check the user agent, check who uses them
+**Action:** we fix in supervisor before release v2 that everything is JSON
+for v2 allow on JSON , 5 generic strings (legitimate supervisor responses)
+errors should be in JSON as well
+
+[Backend services](https://beta.frontapp.com/inboxes/shared/d_architecture/open/247795387)
+
+resin-builder
+    - gets user token from git, can use it to do all things in resin api
+    - still, user token is too much power to be handed out, because resin builder should apply it
+    to specific app, not every thing owned by user
+    - probably the token 
+
+- resin-git is a powerful service. api trusts git to check ssh key, git gets auth token for every user. If we wanted
+    to move decision/trust problem away, we'd have to validate ssh key within API
+- api could instead issue limited JWT for specific app/build id
+- pinejs fine grained permission control
+**Action:**
+    - Prioritise making services unprivileged, then trim down permissions in JWT tokens
+
+- resin-proxy
+    - master ssh key
+    - external service
+    - vault project
+        - one-time password
+        - device can ask vault (shell script)
+        - device creates https connection , sends it username/password it received (which are one-time)
+
+Proposal:
+  - remove master ssh key from services and use a server like vault
+  - Hybrid system with vault / user and master ssh keys
+
+Problem:
+  - Marketing story has to be easy to communicate / users want to see certificates. We should look into that
+
+**Action:**
+  - Check certificates infrastructure / PKI
+
+Registry
+  - Currently unauthenticated
+  
+[Discuss how builder could synchronise state across hosts, to combat concurrent builds](https://beta.frontapp.com/inboxes/shared/d_architecture/open/243045479)
+
+[Versionbot merging without changelogs and version bumps](https://beta.frontapp.com/inboxes/shared/d_architecture/open/248258891)
+
+It is a bit unusual to have versions unpublished, because the rest of the ecosystem does
+Discussed option of having opt-in versioning
+
+Proposed action:
+- Use branch per version, (e.g next-major)
+- Versionist should generate changelog when major branch gets merged onto master
+- All PRs to master get versioned and released
+- Use next branch to group major versions
+
+[Trusted boot for for Cree](https://beta.frontapp.com/inboxes/shared/d_architecture/open/248461345)
+- What would we need to decide whether or not we can do it
+- Trusted boot will work on imx6 platform
+- Action: need to figure out their trust zone
+
+Discussed Docker (item brought up by Yossi)
+- We're currently having issues with failing network integration checks
+
+[CircleCI vs TravisCI](https://beta.frontapp.com/inboxes/shared/d_architecture/open/239387731)
+- Are there any arch considerations on whether we use circle or travis?
+- Petros: No
+- Alex wanted a logical separation e.g linux builds on circle etc, windows on travis etc.
+- Jack prefers Circle (had issues with travis)
+- Travis also has issue with OS X needs
+**Action item:** Try both, get feedback
+
+[Open Sourcing](https://beta.frontapp.com/inboxes/shared/d_architecture/open/240223961)
+- need to hold up things that could result in competitive product, like
+  - multitenancy
+  - collaboration/groups
+
+[How/when "deploys" are cut from sets of versionbot-made versions](https://beta.frontapp.com/inboxes/shared/d_architecture/open/240291711)
+- Keep a next branch, when you are ready only then
+- Need a system to keep 'next' fresh (manual rebase and/or have versionbot block merges if next is not based on top of current master)
+
+[Merging usernames](https://beta.frontapp.com/inboxes/shared/d_architecture/open/225776394)
+
+**Actions**:
+- implement email verification
+- should require an email per user
+- should block social logins without an email
+- make api keys a first class thing
+
+---
+
 ### 6 Mar 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/PvHttIMmYSpYUuxA2LnTcXJqxAt)
