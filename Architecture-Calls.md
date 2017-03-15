@@ -13,6 +13,26 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 6 Mar 2017
+
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/PvHttIMmYSpYUuxA2LnTcXJqxAt)
+
+Bots Discussion (continuing from last arch call)
+
+[Modelling builder behaviour in the database](https://beta.frontapp.com/inboxes/shared/d_architecture/open/232969841)
+
+[Discuss the moving app fix or the user ownership change for devices](https://beta.frontapp.com/inboxes/shared/d_architecture/open/232670227)
+  - OK for devices to have an owner
+  - Think about devices not having an owner
+  - Why is a non owner allowed to move a device?
+  - Assigning someone as a collaborator essentially means that you are a fleet owner except for adding new collaborators
+  - Actions: 
+    - Before removing a collaborator (who owns a device) mention which devices will not be able to receive an update. Removing a collaborator means removing devices
+    - Users that leave can delete the device
+    - Need to revisit this item.
+
+===
+
 ### 3 Mar 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/VG2lboCLFLyugX5Nr6VXtCzwEFT)
