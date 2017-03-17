@@ -42,33 +42,7 @@ Welcome to the resin.io wiki.
   - [FAQ](https://github.com/resin-io/hq/wiki/FAQ)
 - Product
   - Aspects
-    - [Support](https://github.com/resin-io/hq/wiki/Support)
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
-    - Reliability
-  - Speccing
-  - Prioritising
-  - Development
-    - Contributing
-      - [Setting up the development environment](https://github.com/resin-io/hq/wiki/Setting-up-the-Development-Environment)
-        - [Front end](https://github.com/resin-io/hq/wiki/Frontend)
-        - Services
-          - [Newbie Services Guide](https://github.com/resin-io/hq/wiki/Newbie-Services-Guide)
-        - [Devices](https://github.com/resin-io/hq/wiki/Devices)
-        - [Exporting the development environment](https://github.com/resin-io/hq/wiki/Exporting-the-Development-Environment)
-      - [Issue, Commit and PR guidelines](https://github.com/resin-io/hq/blob/master/process/Commit_and_PR_Guidelines.md)
-      - [Coding Standards](https://github.com/resin-io/hq/wiki/Coding-Standards)
-      - [Writing a Specification](https://github.com/resin-io/hq/blob/master/specs/README.md)
-    - [Starting a new project](https://github.com/resin-io/hq/wiki/Starting-a-new-project)
-    - Maintaining a project
-    - [Open Sourcing Resin](https://github.com/resin-io/hq/wiki/Open-Sourcing-Resin)
-- DevOps
-  - [DevOps Task Manual](https://github.com/resin-io/hq/wiki/DevOps-Task-Manual)
-  - Deployment
-    - Regular flow
-    - Hot Patching
-    - [Deployment Environment and Procedures](https://github.com/resin-io/hq/wiki/Deployment-Environment-and-Procedures)
-- Infrastructure
-  - [TLS Certs](https://github.com/resin-io/hq/wiki/TLS)
+    - For Development, Support and DevOps Process documents please check the process repo [here](https://github.com/resin-io/process/blob/master/README.md)
 
-1. Commit directly to production branch
-2. Pull request the commits with the normal workflow for the master branch
+
