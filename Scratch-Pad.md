@@ -514,6 +514,8 @@ This is thought to be due to a problem with the device connection resulting in a
 Deltas will strongly mitigate this issue, as explained in this snippet that can be passed on to a user:
 > To mitigate this issue, you can set `RESIN_SUPERVISOR_DELTA` in the Fleet Configuration menu to a value of `1`. This will enable binary delta updates, download size should be significantly reduced on update and devices will have the ability to resume layer downloads that have failed. In the future DELTA updates will become the default update method.
 
+If you bump into this during support, please link the Front ticket to [this issue](https://github.com/resin-io/hq/issues/712)
+
 ## Wifi connect app stops working when systemd enabled (should only affect very old versions of resinOS)
 ### Symptoms
 wlan de-authenticates immediately after authentication with error code = 3
