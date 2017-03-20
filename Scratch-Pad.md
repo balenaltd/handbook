@@ -1211,6 +1211,13 @@ you may need to disable any keychain manager you have running in your desktop en
 
 You should now be able to ssh to devices.
 
+If you are seeing errors like the following:
+
+```
+1234567.vpn: forward host lookup failed: Unknown server error : Invalid argument
+```
+Then this is because you are not using the full UUID.  If you use the clipboard link by the UUID field then the full UUID will be put on your clipboard, and should work in the command above.
+
 ### On the Device
 
 Check `/var/volatile/vpnfile` - this should contain the UUID of the device you are looking at, check this to ensure that a stale VPN IP address or some other issue hasn't occurred (that might land you in an unrelated device.)
