@@ -23,7 +23,7 @@ Open architecture items for today's call (right after the all hands call)
   * [Container sideload API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/230278347)
 * [Discuss multi-container issues and roadmap](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/254103805)
 * [What are the pros/cons of running VersionBot as a User rather than an Integration](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/253944283)
-* [Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297) cc @agherzan
+* [Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297)
 * [Discuss ways to disable audit](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/251614869)
 
 ---
