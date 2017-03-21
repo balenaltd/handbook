@@ -13,17 +13,29 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 20 Mar 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Bf1cfAGAGztLrPBi2Eunv4KUdxs)
+
+Open architecture items for today's call (right after the all hands call)
+
+* Supervisor rearchitecture cc @pcarranzav
+  * [Container sideload API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/230278347)
+* [Discuss multi-container issues and roadmap](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/254103805)
+* [What are the pros/cons of running VersionBot as a User rather than an Integration](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/253944283)
+* [Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297) cc @agherzan
+* [Discuss ways to disable audit](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/251614869)
+
+---
+
 ### 16 Mar 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/c92aUFLx6n2fwJT-qxKQpOpOSna)
 
-[Discuss components module + redux module with etcher/ui/marketing team](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250213367)
-
-[Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297)
-
-[Components need better error reporting](https://beta.frontapp.com/inboxes/shared/d_architecture/open/249321755)
-
-[Discuss system and process for tagging and tracking paid customers](https://beta.frontapp.com/inboxes/shared/d_architecture/open/222966103)
+* [Discuss components module + redux module with etcher/ui/marketing team](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250213367)
+* [Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297)
+* [Components need better error reporting](https://beta.frontapp.com/inboxes/shared/d_architecture/open/249321755)
+* [Discuss system and process for tagging and tracking paid customers](https://beta.frontapp.com/inboxes/shared/d_architecture/open/222966103)
 
 ---
 
