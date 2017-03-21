@@ -13,6 +13,21 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 16 Mar 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/c92aUFLx6n2fwJT-qxKQpOpOSna)
+
+[Discuss components module + redux module with etcher/ui/marketing team](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250213367)
+
+[Discuss the problem of duplication in resin-boards when using one machine per repository](https://beta.frontapp.com/inboxes/shared/d_architecture/open/250127297)
+
+[Components need better error reporting](https://beta.frontapp.com/inboxes/shared/d_architecture/open/249321755)
+
+[Discuss system and process for tagging and tracking paid customers](https://beta.frontapp.com/inboxes/shared/d_architecture/open/222966103)
+
+---
+
+
 ### 15 Mar 2017
 
 https://beta.frontapp.com/inboxes/shared/d_architecture/open/243045479
