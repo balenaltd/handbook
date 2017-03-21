@@ -19,7 +19,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 Open architecture items for today's call (right after the all hands call)
 
-* Supervisor rearchitecture cc @pcarranzav
+* Supervisor rearchitecture
   * [Container sideload API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/230278347)
 * [Discuss multi-container issues and roadmap](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/254103805)
 * [What are the pros/cons of running VersionBot as a User rather than an Integration](https://app.frontapp.com/inboxes/shared/d_architecture/unassigned/253944283)
