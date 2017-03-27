@@ -15,23 +15,33 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 24 Mar 2017
 
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/B_EoMLEGFAGybioGwfU1QM9YlmF)
+
+* [Discuss change of plans regarding the hybrid registry](https://beta.frontapp.com/inboxes/shared/d_architecture/open/256674053)
+  * PR in supervisor still actively reviewed
+* [Discuss labelling, filtering, and deploying for groups of devices](https://front.frontapp.com/inboxes/shared/d_architecture/open/258092291)
+  * 
+* [Dev process: Discuss only allowing rebase merges in GH repos](https://front.frontapp.com/inboxes/shared/d_architecture/open/243061323)
+  * We will avoid rebase merging for these main reasons:
+    * Verified commits are lost with github rebase
+    * It messes up history, because there is no merge commit and adds commits on top of master (you can't easily tell if a series of commits belong to a single PR)
 
 ---
 
 ### 22 Mar 2017
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/X3OuWtflVwEiIIdwSZShlT027SE)
 
-[Discuss deployment process plan for Backend (service containers), npm modules, supervisor (and more)](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255942643)
-* With regards to signalling a keyframe deployment in the repo, the suggested process is to make a PR that will  get merged after the deployment has succeeded.
+* [Discuss deployment process plan for Backend (service containers), npm modules, supervisor (and more)](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255942643)
+  * With regards to signalling a keyframe deployment in the repo, the suggested process is to make a PR that will  get merged after the deployment has succeeded.
 
-[Discuss managing contracts spec](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255992405)
-* Resolved a few outstanding questions and briefly discussed remaining open items
+* [Discuss managing contracts spec](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255992405)
+  * Resolved a few outstanding questions and briefly discussed remaining open items
 
-[Discuss how volumes in multicontainer will work](https://beta.frontapp.com/inboxes/shared/d_architecture/open/256748599)
-* Will need purge per app and per container
+* [Discuss how volumes in multicontainer will work](https://beta.frontapp.com/inboxes/shared/d_architecture/open/256748599)
+  * Will need purge per app and per container
 
-[Discuss enabling DLM by default](https://beta.frontapp.com/inboxes/shared/d_architecture/open/241944239)
-* This is a module included in the mainline kernel so we could probably do it
+* [Discuss enabling DLM by default](https://beta.frontapp.com/inboxes/shared/d_architecture/open/241944239)
+  * This is a module included in the mainline kernel so we could probably do it
 
 ---
 
