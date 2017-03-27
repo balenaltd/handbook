@@ -13,6 +13,28 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 24 Mar 2017
+
+
+---
+
+### 22 Mar 2017
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/X3OuWtflVwEiIIdwSZShlT027SE)
+
+[Discuss deployment process plan for Backend (service containers), npm modules, supervisor (and more)](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255942643)
+* With regards to signalling a keyframe deployment in the repo, the suggested process is to make a PR that will  get merged after the deployment has succeeded.
+
+[Discuss managing contracts spec](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255992405)
+* Resolved a few outstanding questions and briefly discussed remaining open items
+
+[Discuss how volumes in multicontainer will work](https://beta.frontapp.com/inboxes/shared/d_architecture/open/256748599)
+* Will need purge per app and per container
+
+[Discuss enabling DLM by default](https://beta.frontapp.com/inboxes/shared/d_architecture/open/241944239)
+* This is a module included in the mainline kernel so we could probably do it
+
+---
+
 ### 20 Mar 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Bf1cfAGAGztLrPBi2Eunv4KUdxs)
