@@ -1,7 +1,7 @@
 ## Recent Meeting Notes
 
 ### Tue, Mar 28 2017 (Facets)
-* [Video]()
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NkNTNEktekxqbnM)
 * [Audio]()
 * [Facets presentation]()
 
