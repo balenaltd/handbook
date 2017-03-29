@@ -17,6 +17,8 @@ Many interesting technical discussions often produce very long threads that are 
 
 * [Discuss next steps for VPN issues](https://beta.frontapp.com/inboxes/shared/d_architecture/open/261567383)
   * Past incident when we deployed https://github.com/resin-io/resin-vpn/pull/20 on production - https://app.datadoghq.com/dash/137608/vpn-tcp-stats?live=true&page=0&is_auto=false&from_ts=1488217295201&to_ts=1490809295201&tile_size=m
+  * TCP Mem dropped significantly
+    * Note on previous tcp mem issue we had on vpn (caused by eternal FIN wait connections) (https://github.com/resin-io/node-tunnel/pull/8)  
   * Praneeth is working on a script to simulate devices for stress testing
   * Stress tests will also help us identify the current VPN bottleneck, which we haven't hit yet with the current number of devices
   * On the speed issue
