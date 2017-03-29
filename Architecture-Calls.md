@@ -13,6 +13,40 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 29 Mar 2017
+
+* [Discuss next steps for VPN issues](https://beta.frontapp.com/inboxes/shared/d_architecture/open/261567383)
+  * Past incident when we deployed https://github.com/resin-io/resin-vpn/pull/20 on production - https://app.datadoghq.com/dash/137608/vpn-tcp-stats?live=true&page=0&is_auto=false&from_ts=1488217295201&to_ts=1490809295201&tile_size=m
+  * Praneeth is working on a script to simulate devices for stress testing
+  * Stress tests will also help us identify the current VPN bottleneck, which we haven't hit yet with the current number of devices
+  * On the speed issue
+    * Latency/Speed issues were reproduced on devenv
+    * The original fix seemed to address issues on latency/speed on staging (5x faster)
+  * **[Action]**: stress test in an environnment that is an exact copy of production (resin-playground)
+  * **[Action]**: Look into tuning TCP settings on the machines that host `resin-vpn` container.
+
+* [Discuss strategy and implementation for deleting accounts](https://beta.frontapp.com/inboxes/shared/d_architecture/open/255935333)
+  * Currently DELETE endpoint doesn't require 2FA
+  * Maybe soft delete for devices will most likely also be desirable
+  * Undelete feature may be related to historical data spec
+
+  * Actions
+    * Add Delete Button
+    * Change what happens when a device is added from a collab
+    * confirm that you'll delete these devices when deleting your account
+
+* [Discuss a sane deprecation policy for APIs that are device facing](https://beta.frontapp.com/inboxes/shared/d_architecture/open/263272359)
+
+* [Discuss what is the best way forward for the implementation of per device target state given the deadlines and the roadblocks in pine](https://beta.frontapp.com/inboxes/shared/d_architecture/open/263382649)
+
+---
+
+### 27 Mar 2017
+
+Postponed
+
+---
+
 ### 24 Mar 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/B_EoMLEGFAGybioGwfU1QM9YlmF)
