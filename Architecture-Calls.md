@@ -29,15 +29,24 @@ Many interesting technical discussions often produce very long threads that are 
   * Currently DELETE endpoint doesn't require 2FA
   * Maybe soft delete for devices will most likely also be desirable
   * Undelete feature may be related to historical data spec
-
+  * Discussion also related to https://github.com/resin-io/hq/wiki/Architecture-Calls#6-mar-2017
   * Actions
     * Add Delete Button
-    * Change what happens when a device is added from a collab
-    * confirm that you'll delete these devices when deleting your account
+    * Have extra information/notification when adding devices from a collaborator
+    * Have an extra confirmation on devices that will be deleted when deleting an account
 
 * [Discuss a sane deprecation policy for APIs that are device facing](https://beta.frontapp.com/inboxes/shared/d_architecture/open/263272359)
+  * In general, we are conservative with regards to API deprecation (haven't broken any API endpoints till now)
+  * Even if that happens, if the device is connected to the VPN we can fix it
 
 * [Discuss what is the best way forward for the implementation of per device target state given the deadlines and the roadblocks in pine](https://beta.frontapp.com/inboxes/shared/d_architecture/open/263382649)
+
+  * We want to change references to be builds instead of commit string
+  * Link everything to builds, when deploying change target to build
+  * Currently it's challenging for pine to have an SBVR model like:
+    * `Device should have 'build'`
+    * `Device runs 'build'`
+    * **[Action]**: needs pine changes
 
 ---
 
