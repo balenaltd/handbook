@@ -1,7 +1,7 @@
 ## Recent Meeting Notes
 
 ### Mon, Apr 03 2017
-* [Meeting minutes](https://drive.google.com/open?id=1bCymM6HcLHZ-Eu7wp7svTkjoeRS1npyu3hN3wCCyCco )
+* [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1jx_v24Z2wDIWrySptpTp7cjXPtVD_Ro1RyINdQAzgVQ/edit?usp=sharing)
 * [Video]()
 * [Audio]()
 * [Attendees]()
