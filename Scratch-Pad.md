@@ -1049,7 +1049,17 @@ This should print the original random challenge you sent him. i.e if you sent `e
 
 If the user's key doesn't match, you'll see
 They may have another SSH key to try.
-If not, it means we don't have a unique way to confirm the account.
+If not, it means we don't have a unique way to confirm the account. Here's a potential canned response that ensures the user knows why we can't disable 2FA and hopefully reduces frustration.
+
+> At Resin we believe that security is one of the cornerstones of a reliable service. As such, we need to be absolutely sure that in cases where users have mislaid their credentials we can authenticate them using other means.
+>
+> Where Two Factor Authentication (2FA) is involved, we need to ensure that the account does belong to you. To allow us to do this we ask you to sign a unique passphrase with the public key associated with your account; this enables us to validate your ownership of the account.
+>
+> Unfortunately, in this case, without the ability to verify your ownership we cannot disable 2FA for the account.
+>
+> However, there is nothing stopping (and we actively encourage!) you to create a new account to continue using the Resin service.
+>
+> Thank you for your understanding, and please let us know if we may assist you any further.
 
 If the key does match, and there's reason to believe that the computer is compromised, the next challenge is to ask the user to confirm private information about their account.
 >Thank you for sending the key. We think it's prudent to ask you one more security question. Please reply with both the name and device type for an application associated with your account.
