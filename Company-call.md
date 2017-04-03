@@ -3,7 +3,7 @@
 
 ### Mon, Apr 03 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1jx_v24Z2wDIWrySptpTp7cjXPtVD_Ro1RyINdQAzgVQ/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NzhzWGhuTkppdW8)
 * [Audio]()
 * [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8VHBMbjlkbTlDLUk)
 
