@@ -5,7 +5,7 @@
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1jx_v24Z2wDIWrySptpTp7cjXPtVD_Ro1RyINdQAzgVQ/edit?usp=sharing)
 * [Video]()
 * [Audio]()
-* [Attendees]()
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8VHBMbjlkbTlDLUk)
 
 ### Mon, Mar 27 2017
 * [Meeting minutes](https://drive.google.com/open?id=1faS4PwGBBB6UdpyGyt8U8FqqB1QXQ1QrLYaed0GQ76o)
