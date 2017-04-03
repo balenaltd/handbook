@@ -1,4 +1,5 @@
 ## Recent Meeting Notes
+Company call [Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 
 ### Mon, Apr 03 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1jx_v24Z2wDIWrySptpTp7cjXPtVD_Ro1RyINdQAzgVQ/edit?usp=sharing)
