@@ -10,7 +10,7 @@
 ### Tue, Mar 21 2017 (Multicontainers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8aXRxNHVUaEVYVWc)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8c2xmcDNzUWt2LUU)
-* [Multicontainers presentation](https://docs.google.com/a/resin.io/document/d/1_X8sNuuyqWcTgruH6GZiaEs7S7S24AX2KcVUOBmu5Sg/edit?usp=sharing)
+* [Multicontainers presentation](https://docs.google.com/a/resin.io/presentation/d/1rLaIE5_XkYA1Nj77KKYXcXYXFw6SBxfftWW0Y5nPecQ/edit?usp=sharing)
 
 ### Tue, Mar 14 2017 (Forums support rollout, Kubernetes @ resin.io)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8eUJDWkx0eV8tV3c)
