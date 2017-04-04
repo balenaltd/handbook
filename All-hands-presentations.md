@@ -5,7 +5,7 @@
 ### Tue, Mar 28 2017 (Facets)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NkNTNEktekxqbnM)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8YVYwN1V6ZWlMcFE)
-* [Facets presentation - Expected soon]()
+* [Facets presentation (Expected soon)]()
 
 ### Tue, Mar 21 2017 (Multicontainers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8aXRxNHVUaEVYVWc)
@@ -16,3 +16,4 @@
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8eUJDWkx0eV8tV3c)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8ZG5zOEFiSjFGREk)
 * [Forums support rollout presentation](https://docs.google.com/a/resin.io/document/d/1_X8sNuuyqWcTgruH6GZiaEs7S7S24AX2KcVUOBmu5Sg/edit?usp=sharing)
+* [Kubernetes @ resin.io (Expected soon)]()
