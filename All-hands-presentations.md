@@ -5,7 +5,7 @@
 ### Tue, Mar 28 2017 (Facets)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NkNTNEktekxqbnM)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8YVYwN1V6ZWlMcFE)
-* [Facets presentation](Expected)
+* [Facets presentation - Expected soon]()
 
 ### Tue, Mar 21 2017 (Multicontainers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8aXRxNHVUaEVYVWc)
