@@ -13,6 +13,41 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 03 Apr 2017
+
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/AbfvBdHEdIk8XFVhoZfClGlc5Ah)
+
+[Several customers and prospects would like to be able to use private docker registries for their images. We would need a way to manage their credentials for this process.](https://beta.frontapp.com/inboxes/shared/d_architecture/open/260785461)
+- We'd prefer not to store registry credentials
+- Half of the prospects have mentioned legal reasons/teams
+- We could tell interested customers we are working on trustless resin and that we are adding authenticated access to registries (ETA: 1-2 months)
+
+[How should we deal with the non-semver version format for ResinOS 2 breaking existing code in our other components?](https://beta.frontapp.com/inboxes/shared/d_architecture/open/269284163)
+- Actions: 
+  - proposed version from now on : 2.0.0+revision, use + build metadata scheme 
+  - rebuild 2.0
+  - Remove dev/prod from pretty name
+  - Store variant in separate field in os-release (os_variant) , which needs to be an API field as well
+  - Supervisor can send additional data to API without issue
+  - API - side needs an extra os_variant sbvr field and migration
+
+[Can we start using autohat to automatically test the cli, and what changes would we need to make to the framework to do that?]
+- Actions
+  - Extend e2e test workflow to include cli 
+  - Need to add cli tests in robot framework
+  - Before adding more, we need to transform UI sets to robot framework from selenium
+  - We want to gradually to 
+    - move away from robot to JS framework
+    - add implementation of tests into repos
+  - Shouldn't be hard to transform to cucumber, most tests run `resin-cli` commands
+
+[Discuss the problem of env vars disappearing from the api and not being altered in the config.txt](https://beta.frontapp.com/inboxes/shared/d_architecture/open/268368959)
+- Discussed overlaying options in appending vars at the end of config.txt which would shadow previously set vars
+  - 
+- We'll probably use the local sqlite db to hold default config.txt vals
+
+---
+
 ### 29 Mar 2017
 
 * [Discuss next steps for VPN issues](https://beta.frontapp.com/inboxes/shared/d_architecture/open/261567383)
