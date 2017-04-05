@@ -23,12 +23,12 @@ Many interesting technical discussions often produce very long threads that are 
 - The desired outcome for us is having a single image, prebundled with the union of standalone/resin.io images. Whenever we do a resin.io build we can release it as a resinOS image too.
 
 - Supervisor will be part of resinOS
-- Added value from having Supervisor shipped with our resinOS
+- Added value from having Supervisor shipped with resinOS:
   - For users:
-    - rdt stuff (probably, probably not)
-    - preloaded
+    - preloaded apps work
     - APIS for reboot/identify etc. available
     - wifi connect
+    - (probably) rdt features
   - For us internally:
     - We build a single image
     - It simplifies the provisioning/promoting story
