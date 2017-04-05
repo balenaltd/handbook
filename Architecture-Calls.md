@@ -31,7 +31,7 @@ Many interesting technical discussions often produce very long threads that are 
   - Supervisor can send additional data to API without issue
   - API - side needs an extra os_variant sbvr field and migration
 
-[Can we start using autohat to automatically test the cli, and what changes would we need to make to the framework to do that?]
+[Can we start using autohat to automatically test the cli, and what changes would we need to make to the framework to do that?](https://beta.frontapp.com/inboxes/shared/d_architecture/open/261434045)
 - Actions
   - Extend e2e test workflow to include cli 
   - Need to add cli tests in robot framework
