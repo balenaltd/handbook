@@ -29,7 +29,7 @@ Many interesting technical discussions often produce very long threads that are 
   - Remove dev/prod from pretty name
   - Store variant in separate field in os-release (os_variant) , which needs to be an API field as well
   - ~~Supervisor can send additional data to API without issue~~ https://github.com/resin-io/resin-supervisor/pull/418
-  - API - side needs an extra os_variant sbvr field and migration
+  - ~~API - side needs an extra os_variant sbvr field and migration~~ https://github.com/resin-io/resin-api/pull/166
 
 [Can we start using autohat to automatically test the cli, and what changes would we need to make to the framework to do that?](https://beta.frontapp.com/inboxes/shared/d_architecture/open/261434045)
 - Actions
