@@ -63,7 +63,7 @@ Suggestion
 - Create 'move device' action in the proxy
 
 Action:
-  - Create Spec
+  - Draft Spec
 
 **Discussed resin.io one-org-per-user**
 
@@ -74,7 +74,6 @@ Action:
   - Prevailing option was modify user's Dockerfile on-the-fly to include qemu instructions
 
 [Discuss getting latest docker version in our next os version](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272187053)
-
 
 ---
 
