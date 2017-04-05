@@ -43,7 +43,6 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Discuss the problem of env vars disappearing from the api and not being altered in the config.txt](https://beta.frontapp.com/inboxes/shared/d_architecture/open/268368959)
 - Discussed overlaying options in appending vars at the end of config.txt which would shadow previously set vars
-  - 
 - We'll probably use the local sqlite db to hold default config.txt vals
 
 ---
