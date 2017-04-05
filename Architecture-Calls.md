@@ -13,6 +13,69 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 05 Apr 2017
+
+[Discuss a new approach to the standalone images that won't require separate builds](https://beta.frontapp.com/inboxes/shared/d_architecture/open/270761573)
+
+- We don't want to have separate resinOS builds
+- The desired outcome for us is having a single image, prebundled with the union of standalone/resin.io images. Whenever we do a resin.io build we can release it as a resinOS image too.
+
+- Supervisor will be part of resinOS
+- Added value from having Supervisor shipped with our resinOS
+  - For users:
+    - rdt stuff (probably, probably not)
+    - preloaded
+    - APIS for reboot/identify etc. available
+    - wifi connect
+  - For us internally:
+    - We build a single image
+    - It simplifies the provisioning/promoting story
+
+Supervisor should start in offline mode, which:
+  - supports preloading
+  - doesn't try to provision
+  - doesn't check for updates
+  - basically does no external connections
+  - offline/online mode controlled by config.json flag
+
+Actions:
+  - Lack of keys could/should be interpreted as offline mode
+  - images will still have provisioner, the provisioner will not need to pull supervisor in
+  - The provisioner will have to be part of all images
+  - The provisioner can be in either host or supervisor / TBD
+  - (side task mentioned) Kill sideloading API (and make major semver change)
+
+[Discuss device ownership](https://beta.frontapp.com/inboxes/shared/d_architecture/open/268397659)
+
+What happens when you move an app to another and the other app is owned by a different person?
+Need to discuss this in the context of device api keys
+
+When we auth to the vpn, we use uuid and api key
+In the supervisor we use user-specific info for:
+- mixpanel events (username)
+- provisioning device and dependent devices (userid)
+
+Old images shouldn't have a problem provisioning if usernames are changes
+
+Suggestion
+- Create 'move device' action in the proxy
+
+Action:
+  - Create Spec
+
+**Discussed resin.io one-org-per-user**
+
+[Discuss what to do about emulated builds with local builds](https://beta.frontapp.com/inboxes/shared/d_architecture/open/271054087)
+
+- Related to [local builds spec](https://github.com/resin-io/hq/pull/732/files)
+Action:
+  - Prevailing option was modify user's Dockerfile on-the-fly to include qemu instructions
+
+[Discuss getting latest docker version in our next os version](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272187053)
+
+
+---
+
 ### 03 Apr 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/AbfvBdHEdIk8XFVhoZfClGlc5Ah)
