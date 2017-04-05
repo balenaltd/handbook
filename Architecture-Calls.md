@@ -15,6 +15,8 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 05 Apr 2017
 
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/8K_1Df0lCQ1audmxNHXFWl4IguY)
+
 [Discuss a new approach to the standalone images that won't require separate builds](https://beta.frontapp.com/inboxes/shared/d_architecture/open/270761573)
 
 - We don't want to have separate resinOS builds
