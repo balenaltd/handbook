@@ -19,12 +19,6 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Fixing resin promote issue with initramfs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/273526869)
 
-We want to give promote ability to activate services
-Provisioner does the following things:
-    activate services
-    activate supervisor
-    reboot board
-
 [Reducing impediments to external resinOS contributors e.g. jenkins, changelogs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/269684571)
 
 **Actions:**
@@ -32,11 +26,10 @@ Provisioner does the following things:
   - Try to fix the builds / jenkins accepting external repos
   - Then proceed to fix external contributor impediments, like not requiring changelogs
 
-
 [Discuss device behaviour when an app is deleted](https://beta.frontapp.com/inboxes/shared/d_architecture/open/268398079)
 
-Currently there's a foreign key that cascade-delete devices when an app is deleted
-We're thinking keeping devices around in a 'purgatory' state or default app
+- Currently there's a foreign key that cascade-delete devices when an app is deleted
+- We're thinking keeping devices around in a 'purgatory' state or default app
 
 **Action:**
 
@@ -44,13 +37,13 @@ We're thinking keeping devices around in a 'purgatory' state or default app
 
 [Short-term solution for custom device support](https://beta.frontapp.com/inboxes/shared/d_architecture/open/274752821)
 
-In the future we want people to push yocto builds
-Until then, you'll be getting a config.json and connect your device to a generic app
-People can then at least test their builds
+- In the future we want people to push yocto builds. 
+- Until then, you'll be getting a config.json and connect your device to a generic app
+- People can then at least test their builds
 
-E.g. for DT we took repo and integrated
-Getting a device support is a paying service (to get it under our control, integrate builds etc)
-ETA on getting generic apps ?
+- E.g. for DT we took repo and integrated
+- Getting a device support is a paying service (to get it under our control, integrate builds etc)
+- ETA on getting generic apps ?
 
 **Action:**
 
@@ -58,8 +51,8 @@ ETA on getting generic apps ?
 
 [Resource limits for builds, what should they be](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272855105)
 
-User talked about fork bomb
-Need to decide on limits/protection (memory limit, number of processes)
+- User talked about fork bomb
+- Need to decide on limits/protection (memory limit, number of processes)
 
 **Action:**
 
