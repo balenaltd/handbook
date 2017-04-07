@@ -13,6 +13,68 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 07 Apr 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/EA2nTW1_tA900VAMMzLxmQMX4Ck)
+
+[Fixing resin promote issue with initramfs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/273526869)
+
+We want to give promote ability to activate services
+Provisioner does the following things:
+    activate services
+    activate supervisor
+    reboot board
+
+[Reducing impediments to external resinOS contributors e.g. jenkins, changelogs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/269684571)
+
+**Actions:**
+
+  - Try to fix the builds / jenkins accepting external repos
+  - Then proceed to fix external contributor impediments, like not requiring changelogs
+
+
+[Discuss device behaviour when an app is deleted](https://beta.frontapp.com/inboxes/shared/d_architecture/open/268398079)
+
+Currently there's a foreign key that cascade-delete devices when an app is deleted
+We're thinking keeping devices around in a 'purgatory' state or default app
+
+**Action:**
+
+  - Needs spec (Shaun) (UI/Backend changes)
+
+[Short-term solution for custom device support](https://beta.frontapp.com/inboxes/shared/d_architecture/open/274752821)
+
+In the future we want people to push yocto builds
+Until then, you'll be getting a config.json and connect your device to a generic app
+People can then at least test their builds
+
+E.g. for DT we took repo and integrated
+Getting a device support is a paying service (to get it under our control, integrate builds etc)
+ETA on getting generic apps ?
+
+**Action:**
+
+  - Write spec on generic device types (Andrei)
+
+[Resource limits for builds, what should they be](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272855105)
+
+User talked about fork bomb
+Need to decide on limits/protection (memory limit, number of processes)
+
+**Action:**
+
+  - Give 70% memory to every build (Cameron)
+  - More investigation needed
+
+[Node version support in resin modules: do we support Node v4? Should modules like etcher-image-write be v4 compatible or should CLI/other consumers handle transpiling?](https://beta.frontapp.com/inboxes/shared/d_architecture/open/274834777)
+
+**Action:**
+
+    - We should support node v4
+    - Act on a case-by-case basis (e.g. etcher-image-write uses few ES6 features and module could be refactored to ES5)
+
+---
+
 ### 05 Apr 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/8K_1Df0lCQ1audmxNHXFWl4IguY)
