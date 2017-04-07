@@ -70,7 +70,7 @@ Need to decide on limits/protection (memory limit, number of processes)
 
 **Action:**
 
-  - We should support node v4
+  - We should support node v4 (Maintained till Apr '18)
   - Act on a case-by-case basis (e.g. etcher-image-write uses few ES6 features and module could be refactored to ES5)
 
 ---
