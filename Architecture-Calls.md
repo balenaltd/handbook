@@ -13,6 +13,46 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 10 Apr 2017
+
+[Flowdock thread](w.flowdock.com/app/rulemotion/r-process/threads/6gdAOAeDwEWH9ofoZ916tGDaPVf)
+
+[Figure out the process of spawning a Production identical environment to run load tests with simulated devices](https://beta.frontapp.com/inboxes/shared/d_architecture/open/274910663)
+
+- Modifying staging to prod will cost an estimated 2-3k / m
+- We can simple spawn a production clone (90 $ / day)
+  - Will probably cost less, there are redundancies we don't need in staging
+
+Actions
+  - Spawn a production clone
+  - Start with replicating the conditions that caused the VPN meltdown when we deployed with OpenVPN changes
+  - Proceed with API/DB and Registry tests
+
+[Discuss how to remove the need for sudo on resin local commands](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272283475)
+
+Actions
+  - Short term
+    - https://github.com/resin-io/resin-cli/issues/477
+  - Mid term
+    - Spec/Draft description 
+
+[Decide on an option for resin sync/ssh collaborator support in the WIP PR](https://beta.frontapp.com/inboxes/shared/d_architecture/open/277146009)
+
+Actions
+  - Do what git does (fetch JWT)
+  - Eventually we'll transition both git and proxy to api-backed ssh auth  
+
+[Define how we take on WiFi based microcontrollers and make sure we have a clear documentation/story to tell the users](https://beta.frontapp.com/inboxes/shared/d_architecture/open/273955829)
+
+
+[Discuss module that copies our standard configuration files to a project when included](https://beta.frontapp.com/inboxes/shared/d_architecture/open/270589483)
+
+Action
+  - Include es6 (and typescript, when it's ready) resin-lint
+  - Continue discussion in https://github.com/resin-io/process for adding more 'global' configuration files and possibly renaming resin-lint to something more general
+
+---
+
 ### 07 Apr 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/EA2nTW1_tA900VAMMzLxmQMX4Ck)
