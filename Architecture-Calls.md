@@ -23,20 +23,20 @@ Many interesting technical discussions often produce very long threads that are 
 - We can simple spawn a production clone (90 $ / day)
   - Will probably cost less, there are redundancies we don't need in staging
 
-Actions
+* **Actions**
   - Spawn a production clone
   - Start with replicating the conditions that caused the VPN meltdown when we deployed with OpenVPN changes
   - Proceed with API/DB and Registry tests
 
 [Discuss how to remove the need for sudo on resin local commands](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272283475)
 
-Actions
+* **Actions**
   - https://github.com/resin-io/resin-cli/issues/477
   - Spec/Draft description of suggested solution
 
 [Decide on an option for resin sync/ssh collaborator support in the WIP PR](https://beta.frontapp.com/inboxes/shared/d_architecture/open/277146009)
 
-Actions
+* **Actions**
   - Do what git does (fetch JWT)
   - Eventually we'll transition both git and proxy to api-backed ssh auth  
 
@@ -45,7 +45,7 @@ Actions
 
 [Discuss module that copies our standard configuration files to a project when included](https://beta.frontapp.com/inboxes/shared/d_architecture/open/270589483)
 
-Action
+* **Actions**
   - Include es6 (and typescript, when it's ready) resin-lint
   - Continue discussion in https://github.com/resin-io/process for adding more 'global' configuration files and possibly renaming resin-lint to something more general
 
