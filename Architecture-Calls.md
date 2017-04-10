@@ -31,10 +31,8 @@ Actions
 [Discuss how to remove the need for sudo on resin local commands](https://beta.frontapp.com/inboxes/shared/d_architecture/open/272283475)
 
 Actions
-  - Short term
-    - https://github.com/resin-io/resin-cli/issues/477
-  - Mid term
-    - Spec/Draft description 
+  - https://github.com/resin-io/resin-cli/issues/477
+  - Spec/Draft description of suggested solution
 
 [Decide on an option for resin sync/ssh collaborator support in the WIP PR](https://beta.frontapp.com/inboxes/shared/d_architecture/open/277146009)
 
