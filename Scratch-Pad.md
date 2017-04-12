@@ -1396,11 +1396,11 @@ Generally it seems that metadata usage of 75% or above is problematic. See the
 
 ### Using btrfs-fix
 
-The [btrfs-fix](https://github.com/resin-os/btrfs-fix) tool can be used to automate
+The [btrfs-fix tool](https://github.com/resin-os/btrfs-fix) can be used to automate
 the steps mentioned in the next sections (fixing inability to delete files, clearing
 down space, remove orphaned subvolumes and returning back to normal) in one big swoop.
 
-`btrfs-fix` addresses the image/container ID mismatch mentioned in the
+[btrfs-fix](https://github.com/resin-os/btrfs-fix) addresses the image/container ID mismatch mentioned in the
 'Removing orphaned subvolumes' section and should work in both older and newer (>=1.10) docker versions.
 `./fix.sh [device uuid]` will run diagnostics on specified production device, while
 running `./fix.sh --fix [device uuid]` will attempt to fix the space issues on the device.
