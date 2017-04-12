@@ -1405,6 +1405,8 @@ down space, remove orphaned subvolumes and returning back to normal) in one big 
 `./fix.sh [device uuid]` will run diagnostics on specified production device, while
 running `./fix.sh --fix [device uuid]` will attempt to fix the space issues on the device.
 
+Please link the front ticket to https://github.com/resin-io/hq/issues/251 to keep track of instances where this fix has been used.
+
 ### Fixing the Inability to Delete Files
 
 Regardless of the case you are faced with, you may find the system is so broken
