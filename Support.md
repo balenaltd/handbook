@@ -1,1 +1,1 @@
-Moved to https://github.com/resin-io/process/blob/master/process/README.md
+Moved to https://github.com/resin-io/process/blob/master/process/support/README.md
