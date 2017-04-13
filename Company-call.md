@@ -2,7 +2,7 @@
 ### [Company call Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 
 ### Mon, Apr 17 2017
-* [Meeting minutes]()
+* [Meeting minutes](https://drive.google.com/open?id=1mvB5PmymFha4Q1rLjT7bkXloTOUOMQ8Z2P0PDxqgONM)
 * [Video](To be added)
 * [Audio](To be added)
 * [Attendees](To Be Added)
