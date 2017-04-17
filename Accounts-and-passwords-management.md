@@ -1,1 +1,3 @@
 Resin.io uses a variety of services, to some of which you’ll need to have access to, depending on your team and your tasks, as part of the team or with the company account. In any case, the way to get access to a service is by requesting it from the Operations team. We’re using Passpack to share company’s passwords with the team. If you get access to a service using your @resin.io e-mail account as part of a team, you’ll be responsible for keeping the credentials of your account safe. You’ll never get a password over e-mail, chat or in any other mean that’s not secure.
+
+The [list of accounts](https://github.com/resin-io/hq/wiki/Team-checklist) that most folks need access to.
