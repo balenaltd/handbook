@@ -2,7 +2,7 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
-### Tue, Apr 18 2017 (Amber)
+### Tue, Apr 18 2017 (Amber: a resin.io board project)
 * [Video](To be added)
 * [Audio](To be added)
 * [Amber presentation](To be added)
