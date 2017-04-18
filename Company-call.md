@@ -3,9 +3,9 @@
 
 ### Mon, Apr 17 2017
 * [Meeting minutes](https://drive.google.com/open?id=1mvB5PmymFha4Q1rLjT7bkXloTOUOMQ8Z2P0PDxqgONM)
-* [Video](To be added)
-* [Audio](To be added)
-* [Attendees](To Be Added)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8OTJmVF9qVUhhMm8)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8NFg3MnFCWHNiMms)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8bFBMTy0yRnVuX2c)
 
 
 ### Mon, Apr 10 2017
