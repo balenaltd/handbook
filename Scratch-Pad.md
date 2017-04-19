@@ -4,6 +4,8 @@
 - [Introduction](#introduction)
 - [Facts](#facts)
 - [Troubleshooting](#troubleshooting)
+  - [Docker won't start](#docker-wont-start)
+    - [Address already in use](#address-already-in-use) 
   - [Device stuck in "Stopping" state](#device-stuck-in-stopping-state)
   - [(can't) Swap on BTRFS](#cant-swap-on-btrfs)
   - [Issues with Line Endings](#issues-with-line-endings)
@@ -181,6 +183,40 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 
 
 # Troubleshooting
+
+
+## Docker won't start
+
+Check `systemctl status docker.service` and `journalctl -xe`.
+
+### Address already in use
+
+Docker might be failing to create a network bridge at startup.
+
+You might see the following logs:
+
+```
+Error starting daemon: Error initializing network controller: Error creating default "bridge" network: failed to allocate gateway (X.X.X.X): Address already in use
+```
+
+In order to fix it, delete the network files:
+
+```sh
+rm -rf /var/lib/docker/network/files/*
+```
+
+Start docker:
+
+```sh
+systemctl start docker
+```
+
+Start the supervisor:
+
+```sh
+systemctl start resin-supervisor
+```
+
 ## Device stuck in "Stopping" state
 ```
 root@a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb:~# docker stop 96ab365559fd
