@@ -3,9 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
 ### Tue, Apr 18 2017 (Amber: a resin.io board project)
-* [Video](To be added)
-* [Audio](To be added)
-* [Amber presentation](To be added)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8RDhobWotdVdYVTQ)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8TmlfaTJ5aHo2U1U)
+* [Amber presentation](https://drive.google.com/open?id=1eUrs_QQwCOOlJSbvU1Vpu74WVVFQeNNpyA7xOFvLQhY)
 
 ### Tue, Mar 28 2017 (Facets)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NkNTNEktekxqbnM)
