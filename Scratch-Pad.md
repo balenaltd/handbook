@@ -1715,16 +1715,17 @@ resin/armv7hf-supervisor   v2.7.1              f473e316acb9        9 weeks ago  
 1. Unmount the data partition:
 `systemctl stop mnt-data.mount`
 
-2. Recreate the btrfs partition, replace `[partition device]` with something like mmcblk0p6:
-`mkfs.btrfs --mixed --metadata=single --force /dev/[partition device]`
+2. Recreate the btrfs partition with the required label, replace `DATA_PARTITION` with something like `mmcblk0p6`:
 
-3. label the btrfs partition, , replace `[partition device]` with something like mmcblk0p6:
-`btrfs filesystem label /dev/[partition device] resin-data`
+```
+export DATA_PARTITION=mmcblk0p6
+mkfs.btrfs --mixed --metadata=single --label resin-data --force /dev/${DATA_PARTITION}
+```
 
-4. reboot the device:
+3. reboot the device:
 `reboot`
 
-5. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1, and `armv7hf` with the correct architecture if necessary.
+4. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1, and `armv7hf` with the correct architecture if necessary.
 `update-resin-supervisor -i resin/armv7hf-supervisor -t v2.7.1`
 
 **[below are LEGACY instructions]**
