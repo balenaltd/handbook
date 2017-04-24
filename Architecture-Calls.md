@@ -41,7 +41,7 @@ Introduce version field for application as a number
   - new users should only have 2
 
 Action: 
-  - Work through migration plan (Sonya/Alison/Shaun)
+  - Work through migration plan (Sonya/Alison/Shaun) - https://github.com/resin-io/hq/issues/790
 
 [resin device spawn -  creating a docker-based (or vm-based) resinOS resin-managed device, for users without a device](https://front.frontapp.com/inboxes/shared/d_architecture/open/288551435)
 
@@ -54,7 +54,7 @@ Action:
 - For docker for windows it'll need to switch to a linux mode
 - Seems useful to have, as a primitive, as a technology that will enable us to do things
 Action: 
-  * Need more investigation on how to actually implement this
+  * Need more investigation on how to actually implement this - https://github.com/resin-io/hq/issues/791
 
 ---
 
