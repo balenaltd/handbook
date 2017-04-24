@@ -13,9 +13,54 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 19 Apr 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/YGJERRm4PzEyq4Erpcm4PBqux2W)
+
+[Transitioning an app to auth registry](https://front.frontapp.com/inboxes/shared/d_architecture/open/285871953)
+
+- Builder will stop pushing in the old format at some point
+- Question: How are we going to data mine this? 
+  - When we start pushing to the new format, old devices won't be able to use it
+
+- 2.0 only fleet enforces pushing to authenticated registry
+
+- What do we gain by saying that a fleet is a 2.0 only?
+- Any app created after a certain point of time becomes 2.0 
+- Problems:
+  - We have old apps with 1.x devices
+
+- Every non paying customer should be locked into 2.0, for new applications only
+- Idea: Give a notice that in 6 months 1.x will stop receiving updates
+
+Use switch box, when it's on it affects OS you see on download and the push behaviour as well. 
+  - We could name it as 'secure registry mode'
+
+Introduce version field for application as a number
+  - Existing users should have 1
+  - new users should only have 2
+
+Action: 
+  - Work through migration plan (Sonya/Alison/Shaun)
+
+[resin device spawn -  creating a docker-based (or vm-based) resinOS resin-managed device, for users without a device](https://front.frontapp.com/inboxes/shared/d_architecture/open/288551435)
+
+- We could bundle qemu (or require it to be installled)
+- We can use docker and on mac it will be running inside hyperkit
+
+- Follow getting started guide instead of flashing card
+  - You can use `resin spawn` and device pops up (or even have a bunch to test fleet stuff)
+- The cli will need docker as a dependency
+- For docker for windows it'll need to switch to a linux mode
+- Seems useful to have, as a primitive, as a technology that will enable us to do things
+Action: 
+  * Need more investigation on how to actually implement this
+
+---
+
 ### 10 Apr 2017
 
-[Flowdock thread](w.flowdock.com/app/rulemotion/r-process/threads/6gdAOAeDwEWH9ofoZ916tGDaPVf)
+[Flowdock thread](www.flowdock.com/app/rulemotion/r-process/threads/6gdAOAeDwEWH9ofoZ916tGDaPVf)
 
 [Figure out the process of spawning a Production identical environment to run load tests with simulated devices](https://beta.frontapp.com/inboxes/shared/d_architecture/open/274910663)
 
