@@ -3,9 +3,9 @@
 
 ### Mon, Apr 24 2017
 * [Meeting minutes](https://drive.google.com/open?id=1ZqGHOWZgzhmY18nUnrG7T30PRz4G_Kac1zv68V2_tB4)
-* [Video](To be added)
-* [Audio](To be added)
-* [Attendees](To be added)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8RE9HQ09rLUphR1k)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8VWNVNU1mWGVkUkE)
+* [Attendees](https://drive.google.com/a/resin.io/file/d/0B1xAg_Dw2iS8UHBwNzk1OXp5c1U/view?usp=sharing)
 
 ### Mon, Apr 17 2017
 * [Meeting minutes](https://drive.google.com/open?id=1mvB5PmymFha4Q1rLjT7bkXloTOUOMQ8Z2P0PDxqgONM)
