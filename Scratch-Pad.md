@@ -133,6 +133,7 @@
     - [2.1 Clearing Down Space](#21-clearing-down-space)
     - [2.2 Removing Orphaned Subvolumes](#22-removing-orphaned-subvolumes)
     - [Getting Back to Normal](#getting-back-to-normal)
+  - [3. Clearing Down Space (aufs/resinOS 2.x)](#3-clearing-down-space-aufsresinos-2x)
   - [Fix Superblock Corruption](#fix-superblock-corruption)
     - [Authorisation Tokens](#authorisation-tokens)
     - [Build Hanging (**Legacy**)](#build-hanging-legacy)
@@ -1547,6 +1548,26 @@ If this is not appropriate, you can start the resin supervisor up again by
 running `systemctl start resin-supervisor.service`. In this case, if you stopped
 the `update-resin-supervisor` timer above, start it again via `systemctl start
 update-resin-supervisor.timer`.
+
+## 3. Clearing Down Space (aufs/resinOS 2.x)
+
+We've noticed a few 2.x devices where deltas or docker pull had failed a bunch of times because docker never cleaned up `/var/lib/docker/tmp` . Symptoms of this issue include `df -h` reporting a filled up `/mnt/data` partition and supervisor errors like this can also be reported:
+
+```
+Failed to download application 'registry2.resin.io/rpi3customers2/9049638af1dea245daaf9b3110a2663bc742126b' due
+     to 'write /var/lib/docker/tmp/GetImageBlob685611256: no space left on device'
+    24.04.17 11:35:23 (+0300) Downloading application 'registry2.resin.io/rpi3customers2/9049638af1dea245daaf9b3110a2663bc742126b'
+```
+
+ The current workaround here is to simply delete this folder:
+
+```
+# systemctl stop resin-supervisor
+# systemctl stop docker
+# rm -r /var/lib/docker/tmp/*
+# systemctl start docker
+# systemctl start resin-supervisor
+```
 
 ## Fix Superblock Corruption
 
