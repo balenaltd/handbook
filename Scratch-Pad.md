@@ -1871,6 +1871,14 @@ See [this flowdock thread](https://www.flowdock.com/app/rulemotion/user_happines
 
 ### Updating supervisor
 
+1. Use the admin panel to log in as the user
+2. Go to the dashboard of the specific device
+3. From the supervisor drop-down select the desired version
+4. ssh to user's device
+5. `update-resin-supervisor -i resin/armv7hf-supervisor -t <desired_version>`
+
+## The following instructions are obsolete
+
 1. Hotfix target devices to make sure they have the latest fixes (if you don't do this and they need them then bad bad things can happen), see https://bitbucket.org/rulemotion/hotfix/ and ask Lorenzo Stoakes for more details.  If the device is older (contains `/usr/bin/resin-device-update` then check with Pagan Gazzard to see if it requires any additional hotfixes added to the repo - no devices this old have been updated since the introduction of the hotfix repo).
 2. Add a supervisor release entry, eg INSERT INTO "supervisor release" ("supervisor version", "image name") VALUES ('v1.1.0', 'registry.resin.io/resin/rpi-supervisor') RETURNING "id";
 3. Update device's target supervisor release, eg UPDATE "device" SET "supervisor release" = 23 WHERE "id" IN (1, 2);
