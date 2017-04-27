@@ -13,6 +13,16 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 24 Apr 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/VJW1A0SaHBnYl49adOexM3fApSK)
+
+[Decide some next steps for resinHUP. Decisions around file-based or image-based, implementation language/libraries/tools, key design goals](https://beta.frontapp.com/inboxes/shared/d_architecture/open/288513607)
+
+  * Meeting notes: https://docs.google.com/document/d/1YApOfPT9IU_ChQvVYSI82vFhfQf5FeggQWitjYOuoSg/edit
+
+---
+
 ### 19 Apr 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/YGJERRm4PzEyq4Erpcm4PBqux2W)
