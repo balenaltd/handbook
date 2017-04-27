@@ -1,4 +1,8 @@
-#  Post-Sales Master Checklist
+# Sales Resources
+* [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
+* [Post-sales master checklist](#post-sales-master-checklist)
+
+##  Post-Sales Master Checklist
 
 ### Administrative Tasks
 Things to update:
