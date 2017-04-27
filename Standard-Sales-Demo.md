@@ -1,5 +1,15 @@
 # Standard Sales Demo
 
+## Table of Contents:
+* [Environment overview](#overview)
+* Environments
+ * [Seattle](#seattle)
+ * [London](#london)
+ * [Athens](#athens)
+ * [Global/combined](#combined)
+* [Project code](#project-code)
+* [Demo script](#demo)
+
 ## Environment
 ### Overview
 There are currently two demo environments, one in Seattle and one in London.  A third will be online in Athens soon.
@@ -54,6 +64,8 @@ Copy it once for each environment:
 `cp --recursive beast microbeastAthens`
 `cp --recursive beast microbeastGlobal`
 Copy the resin endpoint (top right of each application page) and run that command in the proper directory for each application.
+
+![git remote location](https://github.com/resin-io/hq/blob/master/images/git-remote.png)
 
 I.e. you should:
 `cd microbeastSeattle`
