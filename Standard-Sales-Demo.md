@@ -27,50 +27,59 @@ A calendar is available for each environment and should be checked before using 
 
 ### Environments
 #### Seattle
-Nest camera URL: [https://video.nest.com/live/yCZmOyvz1e](https://video.nest.com/live/yCZmOyvz1e)
-Application: [microBeastSeattle](https://dashboard.resin.io/apps/116732)
+* Nest camera URL: [https://video.nest.com/live/yCZmOyvz1e](https://video.nest.com/live/yCZmOyvz1e)
+* Application: [microBeastSeattle](https://dashboard.resin.io/apps/116732)
 
 #### London
-Nest camera URL: [https://video.nest.com/live/wYUOUK](https://video.nest.com/live/wYUOUK)
-Application: [microBeastLondon](https://dashboard.resin.io/apps/114299)
+* Nest camera URL: [https://video.nest.com/live/wYUOUK](https://video.nest.com/live/wYUOUK)
+* Application: [microBeastLondon](https://dashboard.resin.io/apps/114299)
 
 #### Athens
-Nest camera URL: TODO
-Application: TODO
+* Nest camera URL: TODO
+* Application: TODO
 
 #### Combined
-Nest camera URL: N/A (you will need to open all the cameras)
-Application: [microBeastGlobal](https://dashboard.resin.io/apps/130151)
+* Nest camera URL: N/A (you will need to open all the cameras)
+* Application: [microBeastGlobal](https://dashboard.resin.io/apps/130151)
 
 There is a set of scripts that is used to combine the devices from the different regional environments into a single "microBeastGlobal" project.  The project should be cloned from GitHub: [https://github.com/resin-io-playground/manage_beasts](https://github.com/resin-io-playground/manage_beasts)
 
 Once you have cloned this project, you can use these scripts to combine the various devices into the microBeastGlobal application or split them up into their regional applications, like so:
 
-`# combine the devices into one global application:`
-`./combine.sh`
+```
+# combine the devices into one global application:
+./combine.sh
+```
 
-`# split the devices back up:`
-`./split.sh`
+```
+# split the devices back up:
+./split.sh
+```
 
 ### Project code
 All the regional applications as well as the global application use the same code, which is available on GitHub here: [https://github.com/resin-io-projects/beast](https://github.com/resin-io-projects/beast)
 
 To use this, you will need to:
-Clone the project:
+1. Clone the project:
 `git clone https://github.com/resin-io-projects/beast`
-Copy it once for each environment:
+2. Copy it once for each environment:
 `cp --recursive beast microbeastSeattle`
 `cp --recursive beast microbeastLondon`
 `cp --recursive beast microbeastAthens`
 `cp --recursive beast microbeastGlobal`
-Copy the resin endpoint (top right of each application page) and run that command in the proper directory for each application.
-
+3. Copy the resin endpoint (top right of each application page) and run that command in the proper directory for each application.
 ![git remote location](https://github.com/resin-io/hq/blob/master/images/git-remote.png)
-
+  
 I.e. you should:
-`cd microbeastSeattle`
-then go to the Seattle application in the dashboard and copy the git remote line from that page and run it.  Then
-`cd microbeastLondon`
+```
+cd microbeastSeattle
+```
+then go to the Seattle application in the dashboard and copy the git remote line from that page and run it.
+  
+Then
+```
+cd microbeastLondon
+```
 and go to the London application in the dashboard and do the same.  Be sure to get the right page in the dashboard for each project.
 
 
@@ -103,11 +112,15 @@ The first line adds all changed or new files to the list of files to be pushed. 
 
 ### Push to resin.io
 Finally, push the new code to resin.io:
+```
 git push resin master
+```
 This will push your local 'master' code branch to resin.io.
 
 NB: If you get an error message telling you that there is a conflict, **don't panic**!  It just means someone else has pushed code and you haven't synced up with them, which we really don't care about.  Just do:
-`git push resin master --force`
+```
+git push resin master --force
+```
 
 Once you push the code, resin.io will receive the push and build an image, wrap it in a Docker container, and put it in our Docker registry (which is where devices will be able to access it).
 
