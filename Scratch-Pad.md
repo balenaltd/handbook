@@ -217,6 +217,7 @@ Start the supervisor:
 ```sh
 systemctl start resin-supervisor
 ```
+[Add GitHub issue https://github.com/resin-io/hq/issues/784 to ticket](https://github.com/resin-io/hq/issues/784)
 
 ## Device stuck in "Stopping" state
 ```
