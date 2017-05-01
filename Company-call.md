@@ -1,6 +1,12 @@
 ## Recent Meeting Notes
 ### [Company call Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 
+### Mon, May 01 2017
+* [Meeting minutes](https://drive.google.com/open?id=1ZqGHOWZgzhmY18nUnrG7T30PRz4G_Kac1zv68V2_tB4)
+* [Video](To be added)
+* [Audio](To be added)
+* [Attendees](To be added)
+
 ### Mon, Apr 24 2017
 * [Meeting minutes](https://drive.google.com/open?id=1ZqGHOWZgzhmY18nUnrG7T30PRz4G_Kac1zv68V2_tB4)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8RE9HQ09rLUphR1k)
