@@ -199,6 +199,10 @@ You might see the following logs:
 ```
 Error starting daemon: Error initializing network controller: Error creating default "bridge" network: failed to allocate gateway (X.X.X.X): Address already in use
 ```
+Or this:
+```
+Error starting daemon: Error initializing network controller: error obtaining controller instance: failed to get bridge network configurations from store: error while populating kmap: meta1 error: checksum error
+```
 
 In order to fix it, delete the network files:
 
