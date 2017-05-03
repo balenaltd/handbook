@@ -48,5 +48,5 @@ No, we don't formally have a probationary period. <br>
 There's always a period that new team members need to adjust to the tech and workflow, though.
 
 **When am I paid, and will I be paid this month?** <br>
-We're getting paid on a monthly basis and Payments are done within the last few days of each month. <br>
+All employees but US employees get paid on a monthly basis and Payments are done within the last few days of each month. US employees on the contrary get paid bimonthly. <br>
 That includes the first month as well, regardless of your starting date. You will get paid for the days you worked rather than a month’s salary.
