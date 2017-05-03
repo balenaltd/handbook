@@ -49,6 +49,9 @@ An output of the update script will look something like this:
 [000000021][LOG][2/3] Updating <uuid2....> on resin.
 [000000040][LOG][3/3] Updating <uuid3....> on resin.
 [000000061][LOG]Waiting for all threads to finish...
+[000001140][LOG]Updating <uuid2....> succeeded.
+[000001310][LOG]Updating <uuid3....> succeeded.
+[000001412][LOG]Updating <uuid1....> succeeded.
 
 ```
 
