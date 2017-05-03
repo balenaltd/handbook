@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Tue, May 02 2017 (Host OS apps)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8a19JNnJhdk1wMUU)
+* [Audio](To be added)
+* [Host OS apps presentation](To be added)
+
 ### Tue, Apr 18 2017 (Amber: a resin.io board project)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8RDhobWotdVdYVTQ)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8TmlfaTJ5aHo2U1U)
