@@ -55,7 +55,7 @@ An output of the update script will look something like this:
 
 ```
 
-The log should finish with something like:
+Each device's log should finish with something like this:
 
 ```
 ...
