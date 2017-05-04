@@ -2,6 +2,8 @@
 
 How to use resinHUP to update devices that are not eligible for self-service update, or require manual update.
 
+**IMPORTANT: read the entire document before embarking on a resinHUP process, to be aware of potential gotchas!***
+
 ## Overview
 
 At the time of writing, the eligible devices are the Raspberry Pi series, BeagleBone Black, and Intel NUC. Updates currently work only from 1.x to 1.x.
@@ -52,7 +54,6 @@ An output of the update script will look something like this:
 [000001140][LOG]Updating <uuid2....> succeeded.
 [000001310][LOG]Updating <uuid3....> succeeded.
 [000001412][LOG]Updating <uuid1....> succeeded.
-
 ```
 
 Each device's log should finish with something like this:
