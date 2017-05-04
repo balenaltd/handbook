@@ -65,7 +65,7 @@ Each device's log should finish with something like this:
 ```
 and should see it reboot if you are checking the device dashboard. The dasboard displays the stage of the update as well.
 
-Congratulations, you've updated a device!
+Congratulations, you've updated a device! 🎉
 
 ## Standard procedures and rules of thumb
 
