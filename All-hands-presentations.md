@@ -4,8 +4,8 @@
 
 ### Tue, May 02 2017 (Host OS apps)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8a19JNnJhdk1wMUU)
-* [Audio](To be added)
-* [Host OS apps presentation](To be added)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8SjRHQmgyOEZKQTA)
+* [Host OS apps presentation](https://drive.google.com/open?id=0By019SeLv53TRXowZzdBVnlKSDA)
 
 ### Tue, Apr 18 2017 (Amber: a resin.io board project)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8RDhobWotdVdYVTQ)
