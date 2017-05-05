@@ -13,6 +13,40 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 05 May 2017
+
+[Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/LGmS2vG4DWr3bWnzWy53A4uon5a)
+
+[resin wifi connect next steps](https://beta.frontapp.com/inboxes/shared/d_architecture/open/294484437)
+
+[Tableau data connection](https://beta.frontapp.com/inboxes/shared/d_architecture/open/304884511)
+
+* Option 1
+  - expose db ports and restrict access to tableau server IPs
+    - Can we restrict tableau's view?
+    - It's almost certain that we can
+    - limit a specific user account to specific source ip
+    - make said user read only
+    - limit their view to specific tables of the slave DB instance
+    - Ideally we'd like to 'blind' visibility of env var values, make only names available
+    - will be a read slave db
+* Option 2 
+  - a. run their 'sync' script/program (which only works on windows) on a Windows server
+  - b. have a laptop in the office that does that
+* Option 3
+  - Tableau cloud is not desirable
+
+* Actions:
+  - Need whitelist of tables/fields to hide (Andreas)
+  - After that, use an API mechanism to actually implement this (SQL configuration?) (Page)
+  - Expose the DB to specific subnets (Jack)
+
+[Per device target state](https://beta.frontapp.com/inboxes/shared/d_architecture/open/306115535)
+ - DT only needs an API endpoint initially and they will enable per-device target state programmatically
+ - UI/CLI interaction with this is not a high priority for our Mid-May due date
+
+---
+
 ### 03 May 2017
 
 [VPN latency issues](https://front.frontapp.com/inboxes/shared/d_architecture/open/304121413)
