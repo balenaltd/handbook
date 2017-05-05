@@ -24,6 +24,12 @@ Many interesting technical discussions often produce very long threads that are 
   * Install networking tools by default in the vpn containers (Kostas)
   * Longer term - consider measuring bandwidth usage from users
 
+[Discuss using websockets to update the dashboard](https://front.frontapp.com/inboxes/shared/d_architecture/open/303550217)
+
+* Actions:
+  * Will pursue this as a Pinejs feature, an extention to the OData API (use OData queries again for other reasons)
+  * Needs a spec for Pine after chatting with Page and Giovanni about it
+
 ---
 
 ### 24 Apr 2017
