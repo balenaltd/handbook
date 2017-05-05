@@ -18,6 +18,24 @@ Many interesting technical discussions often produce very long threads that are 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/LGmS2vG4DWr3bWnzWy53A4uon5a)
 
 [resin wifi connect next steps](https://beta.frontapp.com/inboxes/shared/d_architecture/open/294484437)
+* core is the one-shot flow we are writing https://github.com/resin-io/resin-wifi-connect/tree/server
+* network-manager backend https://github.com/resin-io-modules/network_manager
+* first release, same control flow and interface as v2 (uses core and network-manager backend), also release core for people to wrap as they like
+
+* Need to decide on sane defaults and control flow for the next version
+* release for raspbian - backend for netctl
+* release for edison - some way to run device specific code - modprobe
+* load custom resource, html etc.
+  * boot partition
+  * endpoints impl in the user container
+  * 
+* Different front ends i.e. bluetooth, touchscreen
+* packaging apt-get etc.
+* network maintainer service, always try to maintain a connection
+  * what rules, configurability
+  * cascade through interfaces and connections continually trying to connect
+  * restart the service
+  * reboot the device
 
 [Tableau data connection](https://beta.frontapp.com/inboxes/shared/d_architecture/open/304884511)
 
