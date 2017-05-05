@@ -42,8 +42,10 @@ Many interesting technical discussions often produce very long threads that are 
   - Expose the DB to specific subnets (Jack)
 
 [Per device target state](https://beta.frontapp.com/inboxes/shared/d_architecture/open/306115535)
- - DT only needs an API endpoint initially and they will enable per-device target state programmatically
- - UI/CLI interaction with this is not a high priority for our Mid-May due date
+
+- DT only needs an API endpoint initially and they will enable per-device target state programmatically
+- UI/CLI interaction is desirable but not a high priority for now
+- We are currently on track with regards to our  Mid-May due date
 
 ---
 
