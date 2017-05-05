@@ -224,23 +224,17 @@ systemctl start resin-supervisor
 [Add GitHub issue https://github.com/resin-io/hq/issues/784 to ticket](https://github.com/resin-io/hq/issues/784)
 
 ## Device stuck in "Stopping" state
-```
-root@a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb:~# docker stop 96ab365559fd
-Failed to stop container (96ab365559fd): Error response from daemon: Cannot stop container 96ab365559fd: [2] Container does not exist: container destroyed
-```
 
+This is usually a symptom of the Supervisor being dead. Most times this is caused by https://github.com/resin-io/hq/issues/401 - refer to the workaround there. If it is **not** that issue (i.e. logs don't show the "name already taken" error), then the same fix might still work, but **please get as many logs from the device and send them to the Supervisor team** (e.g. @pcarranzav) for diagnosis.
+Logs that can be useful:
 ```
-Feb 08 16:26:08 a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb docker[6864]: .time="2017-02-08T16:26:08.190083187Z" level=error msg="Failed to load container 7ae3cc4275964c5f4207b79cff6d0d4f27d08
-1b689dcc203895585d2d8f9dc7c: open /var/lib/docker/containers/7ae3cc4275964c5f4207b79cff6d0d4f27d081b689dcc203895585d2d8f9dc7c/config.v2.json: no such file or directory"
-Feb 08 16:26:08 a20ba5d177edbf55fe38468ee6331dfb28e5eef00c77fc3db91e0711562deb docker[6864]: .time="2017-02-08T16:26:08.191308853Z" level=error msg="Failed to load container e8ef07b736f2883c35e85ec2f49f1f45f5849
-22f23e21c1f129f02d318187864: open /var/lib/docker/containers/e8ef07b736f2883c35e85ec2f49f1f45f584922f23e21c1f129f02d318187864/config.v2.json: no such file or directory"
+journalctl -fn 100 -u resin-supervisor
+journalctl -fn 100 -u docker
+dmesg | tail -n 100
+docker ps -a # before and after applying any fixes
+docker images
 ```
-
-Workaround:
-* systemctl stop docker
-* mv /var/lib/docker/containers/$UUID /tmp/
-* systemctl start docker
-* systemctl restart resin-supervisor
+Running [leech](https://github.com/resin-io/leech) also helps and we're working on improving and automating it.
 
 ## (can't) Swap on BTRFS
 **About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
