@@ -1,6 +1,7 @@
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
 * [Post-sales master checklist](#post-sales-master-checklist)
+* [Lead Qualification Tasks](#lead-qualification-tasks)
 
 ##  Post-Sales Master Checklist
 
@@ -122,9 +123,9 @@ A few things to make sure:
 
 
 ***
+## Lead Qualification Tasks
 
-
-BH Note 20170505: This is a temporary doc to track some of the outstanding items to more fully polish up our process of routing and qualifying new sales leads. 
+**BH Note 20170505:** This is a temporary doc to track some of the outstanding items to more fully polish up our process of routing and qualifying new sales leads. 
 
 Items for the front-end team or data team 
 * Contact forms on our website (primarily the demo form) should create new leads in salesforce
