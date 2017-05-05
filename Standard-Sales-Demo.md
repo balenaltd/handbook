@@ -46,6 +46,10 @@ There is a set of scripts that is used to combine the devices from the different
 
 Once you have cloned this project, you can use these scripts to combine the various devices into the microBeastGlobal application or split them up into their regional applications, like so:
 
+NB: On certain browsers, including Chrome, you may see this message when attempting to obtain the video feed: "No compatible source was found for this media." You need to make an exception for the Nest cam: 
+Settings->Advanced Settings->Privacy->Content Settings->Flash->Manage Exceptions. 
+Then add the exception [*.]nest.com
+
 ```
 # combine the devices into one global application:
 ./combine.sh
