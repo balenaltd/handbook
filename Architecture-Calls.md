@@ -13,6 +13,19 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 05 May 2017
+
+[VPN latency issues](https://front.frontapp.com/inboxes/shared/d_architecture/open/304121413)
+
+* Actions:
+  * Add artificial latency on the device side (Will)
+  * Emulate web url traffic (check if traffic load is inbound/outbound) (Will)
+  * Install network monitoring tools on resin-vpn in production, compare collected metrics with the playground environment (Kostas)
+  * Install networking tools by default in the vpn containers (Kostas)
+  * Longer term - consider measuring bandwidth usage from users
+
+---
+
 ### 24 Apr 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/VJW1A0SaHBnYl49adOexM3fApSK)
