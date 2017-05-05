@@ -28,7 +28,6 @@ Many interesting technical discussions often produce very long threads that are 
 * load custom resource, html etc.
   * boot partition
   * endpoints impl in the user container
-  * 
 * Different front ends i.e. bluetooth, touchscreen
 * packaging apt-get etc.
 * network maintainer service, always try to maintain a connection
