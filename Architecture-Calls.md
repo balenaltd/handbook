@@ -13,7 +13,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
-### 05 May 2017
+### 03 May 2017
 
 [VPN latency issues](https://front.frontapp.com/inboxes/shared/d_architecture/open/304121413)
 
