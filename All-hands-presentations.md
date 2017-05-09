@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Tue, May 09 2017 (Resin Process for new Resineers)
+* [Video](To be added)
+* [Audio](To be added)
+* [Resin Process for new Resineers presentation](To be added)
+
 ### Tue, May 02 2017 (Host OS apps)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8a19JNnJhdk1wMUU)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8SjRHQmgyOEZKQTA)
