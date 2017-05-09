@@ -135,7 +135,7 @@ Items for the front-end team or data team
 
 Items for PA and BH to tackle
 * Investigate simple lead nurturing campaigns to drop commercially viable leads into => auto-archive at the end
-* Refine industry picklist and make consistent across leads/account
+* ~~Refine industry picklist and make consistent across leads/account~~
 * Delete old recurly plans (they will stay active for existing custoemrs) 
 * Create a rule in salesforce that auto-archives any open leads more than XX days old (30?)
 
