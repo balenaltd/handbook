@@ -53,7 +53,7 @@ suggestion:
  - Have device query public ssh keys from api (possibly not doable with dropbear)
  - proxy could create ssh key pair and send it to the API
 
-Action:
+**Action:**
   - De-entagle the ssh key story (needs investigation)
   - Look into integrating proxy with Vault
 
