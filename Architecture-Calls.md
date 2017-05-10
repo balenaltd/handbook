@@ -13,6 +13,53 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 08 May 2017
+
+[Discuss dev process for rust reconfix](https://beta.frontapp.com/inboxes/shared/d_architecture/open/308416933)
+
+Internal, private, needed by the build context repos
+
+One of the first users of will be image maker
+
+**Action**
+* Make a branch on reconfix and start rewrite in rust
+* Setup Travis
+
+[Allow the jenkins container build to be able to access private github repositories](https://beta.frontapp.com/inboxes/shared/d_architecture/open/308421153)
+
+Main issue:
+* The key exposed to the build context had access to more things that the thing we needed to clone
+* Solution 1
+    * Expose key that has access to that repo only
+
+We can store credentials in jenkins
+We'd need to manually load them into a keyring/agent
+Forward socket to the build system
+
+[Come up with a better process for adding/removing admin privileges](https://beta.frontapp.com/inboxes/shared/d_architecture/open/301509725)
+
+Have finer level permissions for:
+- Support level access (bigger group of people)
+- Admin level access (smaller group of people)
+
+**Action/Plan**:
+  1. Solve Jack's problem , allow doing what Jack does over the admin panel
+  2. Fix key problem, which is allow people access devices without private key
+  3. Fix user problem, add some type of user authorization, we need to figure out levels of access to grant engineers, and how these will be granted
+  4. Add proxy/vpn support for selected users to ssh to hostOS
+
+Also discussed how to drop the all powerful ssh key
+suggestion:
+ - Have device query public ssh keys from api (possibly not doable with dropbear)
+ - proxy could create ssh key pair and send it to the API
+
+Action:
+  - De-entagle the ssh key story (needs investigation)
+  - Look into integrating proxy with Vault
+
+
+---
+
 ### 05 May 2017
 
 [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/LGmS2vG4DWr3bWnzWy53A4uon5a)
