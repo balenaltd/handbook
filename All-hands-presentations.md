@@ -5,7 +5,7 @@
 ### Tue, May 09 2017 (Resin Process for new Resineers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8UEY0bHVmZHVZZG8)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk5qOFlrSjF5UW8)
-* [Resin Process for new Resineers presentation](To be added)
+* [Resin Process for new Resineers presentation](https://drive.google.com/open?id=0B1xAg_Dw2iS8amNtU3dkeG1lNjA)
 
 ### Tue, May 02 2017 (Host OS apps)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8a19JNnJhdk1wMUU)
