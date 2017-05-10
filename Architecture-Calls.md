@@ -13,6 +13,70 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 10 May 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/M5lVyZsDm-1TvOG0r-tM_C-aw0g)
+
+[Discuss our approach to api keys](https://beta.frontapp.com/inboxes/shared/d_architecture/open/308810507)
+
+They key in config.json does not expire and don't have revocation implemented
+
+Users have JWT keys, but they expire - however they can be renewed
+JWT cannot be revoked easily , currently we do it by rotating jwt secret per user
+
+We need to define where we want to use API keys. Based on this, we can decide what to use
+(JWT, api tokens etc)
+
+I want to create an API key that only has read access for specific parts (env vars, specific device, application etc.)
+  - We can do this with our current permissions model
+We could also store hash value of api key and only show the user the API key once , on creation
+
+We could change the permissions of the api key to only renew.
+This needs supervisor changes as well (there should be an implementation for renewal in place but we haven't tested it - yet)
+
+Workflow:
+Users can create keys
+These should work for the cli/sdk
+We want to remove the JWT from the cli
+If we make the transition correctly, we probably can use it in older cli versions (actually we probably won't be able since cli reads jwt for info e.g. username for `resin whoami')
+
+Currently dashboard, cli, sdk are using JWT
+Dashboard renews tokens automatically
+In the cli/sdk we want to switch and use the new API keys
+
+Usecase: Have API keys that never expire and don't require. Ephemeral keys can be JWT, longer-lived ones must be proper API keys
+
+**Actions**
+  - Write a spec (Ariel)
+  - We'd like an extra tab in the 'Preferences' section and have one similar to Github's, where users can select scopes and create API keys. At first
+    users won't be able to select anything (no scopes in the first iteration)
+  - The functionality to create API keys is already there (e.g. when trying to download an image the api key is injected into config.json of the downloaded image)
+  - Test if key rotation works in the supervisor
+
+[Avoiding sql queries to manage admin permissions in production](https://beta.frontapp.com/inboxes/shared/d_architecture/open/310948799)
+
+**Action:**
+  - Will add a dropdown in resin admin (Ariel)
+
+**VPN Speed Discussion**
+
+In the maintainance we used a beefy machine
+Result: the more powerful machines with our current setup made no difference
+
+Next steps:
+- Arrange another maintainance window to test playground options
+- We were able to recreate the failure mode in the playground environment and found a way 
+  to fix it. The biggest impact seems to be by increasing TLS timeout value
+
+Question: Why, without the fixes, devices fail to connect in the first place? We still try to figure this out.
+
+**Actions:**
+  - Try new configuration for tcp buffers and TLS timeouts
+  - Verify that we have tcp no delay there
+  - Select a maintainance window to test VPN configuration
+  - Collect iperf data to between vpn server / device during the experiments to try to isolate the the problem in
+   a specific network link
+
 ### 08 May 2017
 
 [Discuss dev process for rust reconfix](https://beta.frontapp.com/inboxes/shared/d_architecture/open/308416933)
