@@ -60,20 +60,20 @@ Usecase: Have API keys that never expire and don't require. Ephemeral keys can b
 
 **VPN Speed Discussion**
 
-In the maintainance we used a beefy machine
+In the maintenance we used a beefy machine
 Result: the more powerful machines with our current setup made no difference
 
 Next steps:
-- Arrange another maintainance window to test playground options
+- Arrange another maintenance window to test playground options
 - We were able to recreate the failure mode in the playground environment and found a way 
   to fix it. The biggest impact seems to be by increasing TLS timeout value
 
 Question: Why, without the fixes, devices fail to connect in the first place? We still try to figure this out.
 
-**Actions:**
+**Actions:** (Will is leading the charge on this)
   - Try new configuration for tcp buffers and TLS timeouts
   - Verify that we have tcp no delay there
-  - Select a maintainance window to test VPN configuration
+  - Select a maintenance window to test VPN configuration
   - Collect iperf data to between vpn server / device during the experiments to try to isolate the the problem in
    a specific network link
 
