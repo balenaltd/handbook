@@ -2,6 +2,7 @@
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
 * [Post-sales master checklist](#post-sales-master-checklist)
 * [Lead Qualification Tasks](#lead-qualification-tasks)
+* [Pricing Guidelines] (#pricing)
 
 ##  Post-Sales Master Checklist
 
@@ -121,6 +122,18 @@ A few things to make sure:
 * Start date should match salesforce
 * devices/developers match recurly and salesforce
 
+## Pricing guidelines
+Standard Org pricing: 
+$299 for 5 users and 20 devices
+Additional users are $49
+Additional devices are $1
+
+Guidelines:
+0-1000     $1.00
+1k-5k      $0.80
+5k-10k     $0.60
+10k+       $0.50
+
 
 ***
 ## Lead Qualification Tasks
@@ -143,6 +156,11 @@ Items related to the tools we use
 * The "Create lead" button in front sidebar does not properly map first name and last name to salesforce
 * We should map new "lighthouse" tag in front with checkbox in salesforce
 * Figure out how to get salesforce sidebar to load for all users, regardless of whether they have a salesforce account. Other than sharing sfdc credentials, is there a good way to do this? 
+
+
+
+
+
 
 
 
