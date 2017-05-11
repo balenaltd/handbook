@@ -143,6 +143,7 @@ Guidelines:
 
 Items for the front-end team or data team 
 * Contact forms on our website (primarily the demo form) should create new leads in salesforce
+* Demo requests should go to /Sales instead of /Hello
 * We should get rid of the reliance on zapier and just have our sign up form (for free accounts) generate new leads in salesforce directly
 * Enhance tableau report or admin panel so we can see entitled devices, overage, email address and company name in same pane of glass 
 * Sign up and contact forms should have (optional) fields for address, phone, title, etc to populate salesforce records
