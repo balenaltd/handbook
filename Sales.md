@@ -123,15 +123,15 @@ A few things to make sure:
 * devices/developers match recurly and salesforce
 
 ## Pricing guidelines
-Standard Org pricing: 
-$299 for 5 users and 20 devices
-Additional users are $49
+Standard Org pricing:   
+$299 for 5 users and 20 devices .  
+Additional users are $49 .  
 Additional devices are $1
 
 Guidelines:
-0-1000     $1.00
-1k-5k      $0.80
-5k-10k     $0.60
+0-1000     $1.00 . 
+1k-5k      $0.80 .  
+5k-10k     $0.60 .  
 10k+       $0.50
 
 
