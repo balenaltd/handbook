@@ -1745,8 +1745,11 @@ mkfs.btrfs --mixed --metadata=single --label resin-data --force /dev/${DATA_PART
 3. reboot the device:
 `reboot`
 
-4. Pull the correct supervisor version, replacing v2.7.1 (from resinOS 1.19) with whatever version the device had originally, from step 1, and `armv7hf` with the correct architecture if necessary.
-`update-resin-supervisor -i resin/armv7hf-supervisor -t v2.7.1`
+4. Pull the correct supervisor version, that is now given by the API, so whatever supervisor version the device was set for. Replace `armv7hf` with the correct architecture if necessary.
+
+```
+update-resin-supervisor -i resin/armv7hf-supervisor
+```
 
 **[below are LEGACY instructions]**
 Note the below instructions are currently only for rpi/rpi2. I am not sure on the status of supervisor versions for other devices, plus the below may even be out of date by the time you try this, **check with colleagues to make sure this is the appropriate supervisor to pull.**
