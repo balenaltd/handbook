@@ -1,7 +1,7 @@
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
 * [Post-sales master checklist](#post-sales-master-checklist)
-* [Pricing Guidelines] (#pricing)
+* [Pricing Guidelines](#pricing)
 * [Lead Qualification Tasks](#lead-qualification-tasks)
 
 
