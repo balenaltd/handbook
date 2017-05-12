@@ -3,6 +3,12 @@
 
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+### Mon, May 15 2017
+* [Meeting minutes](https://drive.google.com/open?id=1-uvPxUj8wK1j-85sXChjD0okd-7v7K_tXdD5wHcyGGg)
+* [Video](To be added)
+* [Audio](To be added)
+* [Attendees](To be added)
+
 ### Mon, May 08 2017
 * [Meeting minutes](https://drive.google.com/open?id=18dNUxxbv2u3V-hBwFPdurdk077P3xTrACZGR7o3XpA0)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8WGY1QVdjNEwwUDQ)
