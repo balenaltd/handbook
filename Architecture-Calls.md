@@ -112,8 +112,7 @@ Have finer level permissions for:
   3. Fix user problem, add some type of user authorization, we need to figure out levels of access to grant engineers, and how these will be granted
   4. Add proxy/vpn support for selected users to ssh to hostOS
 
-Also discussed how to drop the all powerful ssh key
-suggestion:
+*Extra: discussed how to drop the all powerful ssh key*
  - Have device query public ssh keys from api (possibly not doable with dropbear)
  - proxy could create ssh key pair and send it to the API
 
