@@ -6,7 +6,7 @@
 ### Mon, May 15 2017
 * [Meeting minutes](https://drive.google.com/open?id=1-uvPxUj8wK1j-85sXChjD0okd-7v7K_tXdD5wHcyGGg)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8bU5DS2xMTU5GWE0)
-* [Audio](To be added)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8aXB4bHlFRzUzNEE)
 * [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8R2lFUE1jU3NSRms)
 
 ### Mon, May 08 2017
