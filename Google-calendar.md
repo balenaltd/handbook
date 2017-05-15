@@ -21,7 +21,7 @@ In resin.io, we try to keep our company events open for all team members. Anyone
 So, let’s say you’d like to add a repeating event to your calendar and get reminders about it. The best way to do this is to:
 
 1. Log in to your @resin.io e-mail account and go to calendar.google.com
-1. Click on the event title that you’re interested in, or click on the coloured space next to event’s title and click More details
+1. Click on the event title that you’re interested in, or click on the coloured space next to event’s title and click More details. (note: make sure that you've clicked on the original event and not on the event someone added/copied to their calendar)
 ![](https://lh5.googleusercontent.com/wktBAFzY7yu0rzd6hdzHcqQvq_aigunvMhM-Cl0A6YSqs9Ih7_XCYLD5jNQToqF11EWVDdKy1WbKutLLMWtzn61wiOj_sNVtFRemt9fWChzeW3cKORnjbnru0_RlWHrhjMmp4MyE)
 1. Go to the Add: Guests filed and complete with your @resin.io e-mail address
 ![](https://lh4.googleusercontent.com/VL7BtEKT-hpoHnR417uXtFt9S75CxPSSruJTiZ-iiM8tnweDZXuZMLFPRBtp6cjSX-Y_mDWIEFjMto3nUq31HIv1WS63btTnzrK4bHTpywS_VUMsYiIYqvrBoaBwDSZt_E7GJkPT)
