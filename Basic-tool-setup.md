@@ -7,13 +7,20 @@ First things first! Before you get access to any of the services we’re using a
 Your inbox will be full of e-mails that our team has already sent you. These are invitations to tools we use, guides and other material that will help you get started.
 
 ### Basic tools<br>
-As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. For now, make sure you have access to the following services:
+As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
+
+**NOTE:** Important! You **MUST** use the same handle across Flowdock, Beegit, Front and GitHub. This is because
+of integrations we have between the services that rely on matching handles. It will also make your life easier
+when it comes to auto-completing @-mentions. You **SHOULD** use the same handle on the forums, but this is not strictly necessary.
+
+For now, make sure you have access to the following services:
 
 Primary:
 * [Flowdock](https://www.flowdock.com/app)
 * [Calamari](https://calamari.io)
 * [Beegit](https://beegit.com)
 * [Front](https://frontapp.com/)
+* [Resin.io Forums](https://forums.resin.io/)
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)*
 * Resin.io admin*
@@ -65,6 +72,10 @@ Front is the service we use to gather all messages and emails and unite them in 
 Zoom is the main service we’re using for the company calls. From time to time, we may use also Hangouts, Skype or Mumble.
 
 Github* hosts all our public repos as well as the majority of our private repos. It’s also part of the developer's workflow since this is the place where all issues and tasks are hosted.
+
+The forums are used by our free users for support requests, and generally for discussion about the product, hack
+Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
+users.
 
 Resin.io admin means the resin.io administrator dashboard. By having access to the admin dashboard, you have access to user’s devices, stats and additional information. It’s really useful when you provide customer support.
 
