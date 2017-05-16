@@ -11,16 +11,16 @@ Before you start, make sure that have access to the following organizations:
 
 Note that you’ll receive as many invites as the Github organizations you are requested to join.
 
-##Filtering notifications
+## Filtering notifications
 We’ve found it really useful to filter the notifications we receive in our e-mail inbox.
 ![](https://lh6.googleusercontent.com/peN8WHu_UOQI2olDvu0FI5-AZRMgkzQVsqesdBc0YH_sl4EqDvTc2Jqe67W6IYSqtfI4BDKf1uA4zqnfEuXkYiO5Bfh-ojZO_tTxQQK6lPdC0IXv2cFHIbxTv_v9Cvvceki8_FNS)
 
 > Email notifications for Issues, Pull Requests, and Gists can easily be filtered by the List-ID header. Look for this header value to sort your notifications, or even forward them to a more appropriate email account. You can filter on *.org.github.com to filter out emails by organization, or repo.org.github.com to filter out emails from a specific repo.
 
-##E-mail notifications routing
+## E-mail notifications routing
 You can choose which orgs’ e-mails to receive to which inbox by visiting Github/Settings/Notifications/Notification e-mail/Custom routing. Try sending all company related notifications to your @resin.io inbox.
 
-##Unwatch repos
+## Unwatch repos
 Did you know you can, automatically, unwatch the repos that you don’t work on directly? This way, you’ll only get notifications on mentions and assigned issues/PRs. Open the repo you’d like to unwatch and click the Unwatch button which is next to the Star button.
 ![](https://lh5.googleusercontent.com/ECeRQg8PjInLwYrop-94VlVwrhoq09aeSD5DQBLsmlY3Yj2f-7Dh5lDXp8bSjHpznoCBwLvKDrzFDlkRrstCn6FHJPhwPjmc-jTsgNtK_hRe7JDVmLD52OVMWby470AF8MXIKN9a)
 
@@ -30,7 +30,7 @@ Note that unwatch shouldn’t mean ignore. Especially if you choose to automatic
 
 In addition you can unsubscribe from notifications from a particular PR thread on the lower right of the right side menu. 
 
-##Adding SSH Keys
+## Adding SSH Keys
 
 Once you have found your way around github and all the organizations don't neglect to add your SSH keys to the relevant repos. In case you are not familiar with the procedure you can find more info on how to to do that in the Support Scratch Pad here: (https://github.com/resin-io/hq/wiki/Scratch-Pad)
 
