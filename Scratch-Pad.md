@@ -1950,6 +1950,8 @@ If the above command says for the supervisor STATUS is "Removal In Progress" and
 
 After this, the supervisor container should start correctly. If not, read bellow for other info if any, it means you are not this lucky :)
 
+If you are, make sure to convey to the user that he should upgrade resinOS, otherwise the issue is likely to happen again.
+
 Check journalctl for the error:
 
 ```
