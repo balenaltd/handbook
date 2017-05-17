@@ -13,6 +13,62 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 15 May 2017
+
+[Discuss based on on Alex comments/plan on how to start testing resinOS images in production](https://beta.frontapp.com/inboxes/shared/d_architecture/open/313248423)
+
+Idea:
+- If resinOS can run in a container, it could be an intermediate step of the update process
+- Then you'd have a host, in a container
+    Questions:
+        - What happens with the partitions that are already mounted?
+        - Ditto on already running processes
+
+**Actions:**
+- Testing should be done in production
+- Should still be done in staging to make sure 
+- Hybrid: test staging image maker and everything else in production
+
+[Discuss use cases and reasons behind pipage (streaming pipelines node module) to create a better understanding of it, and identify other potential uses](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315723805)
+
+When you make a pipeline you have to attach an error handler on every part of the pipeline, or else an error in the pipeline  will cause the whole thing to blow up
+A usual pattern in pattern is pipe a -> b and b -> c and all handlers are configured to reject promises when fail
+Pipage needs a single handler and makes sure that you dont get unhandled exceptions and crash
+
+**Actions**
+- Push adoption of pipage internally
+- Pipage can be used in the builder and image maker as well
+- We could organise a talk about this
+- Blog about it!
+
+[Discuss next steps for 1.x -> 2.x and 2.x -> 2.x resinhup](https://beta.frontapp.com/inboxes/shared/d_architecture/open/310909629)
+
+Will worked on updating partition table
+
+**Action:**
+- Release 1.26 and then move to 2.x
+- For the data partition, we plan to keep btrfs and only change to ext4 when we switch to 2.0
+- We want to test 1.8 in staging
+- We want to keep the self service hostOS update for 1.8 -> 1.26 and continue on the vendoring approach on the proxy
+- Going far back: Finish 1.8 expansion, then move back to docker 1.10 and then attempt to move even further
+- Events from proxy AND UI in mixpanel for resinHUP (https://github.com/resin-io/resin-proxy/issues/77)
+
+[User inquiry: 'Is it possible to get download points for both resin-image-flasher AND resin-image'](https://beta.frontapp.com/inboxes/shared/d_architecture/open/308402565)
+
+For every flasher device we create two images already
+
+**Actions**
+- The UI will be fixed by having a drop down
+- We'll follow a similar approach to what we did for dev images (separate directories in S3)
+
+[Discuss simple+harmless tasks recurrently evolving to large+risky refactors](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315731567)
+
+improving review speed
+broadening scope of solutions
+incremental approach to big changes
+  - Can only be done in case by case
+---
+
 ### 10 May 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/M5lVyZsDm-1TvOG0r-tM_C-aw0g)
