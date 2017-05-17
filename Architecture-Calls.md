@@ -67,6 +67,10 @@ improving review speed
 broadening scope of solutions
 incremental approach to big changes
   - Can only be done in case by case
+
+**VPN is now working properly 🎉**
+
+
 ---
 
 ### 10 May 2017
