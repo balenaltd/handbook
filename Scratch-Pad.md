@@ -1948,9 +1948,10 @@ If the above command says for the supervisor STATUS is "Removal In Progress" and
 # systemctl start resin-supervisor
 ```
 
-After this, the supervisor container should start correctly. If not, read bellow for other info if any, it means you are not this lucky :)
+After this, the supervisor container should start correctly. If not, read below for other info if any, it means you are not this lucky :)
 
-If you are, make sure to convey to the user that he should upgrade resinOS, otherwise the issue is likely to happen again.
+**Either way, make sure to convey to the user that they should upgrade resinOS to at least 1.26**, otherwise the issue is likely to happen again. Here's a nice snippet to use:
+>We have issued a fix for this particular bug in resinOS 1.26, so if you wish to avoid this issue in the future, you can upgrade this device to resinOS 1.26. This can be done by navigating to the devices "Actions" page and clicking on the action that says "ResinOS Update", this will give you an interactive prompt and you can select resinOS 1.26 from the list.
 
 Check journalctl for the error:
 
