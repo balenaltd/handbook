@@ -14,6 +14,8 @@ Many interesting technical discussions often produce very long threads that are 
 
 ### 17 May 2017
 
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fPI66-t8cOV0-vo58edcVmRGM03)
+
 [Discuss image-maker](https://beta.frontapp.com/inboxes/shared/d_architecture/open/318097795)
 
 We've been working with Lucian to change the way it interacts with image maker.We should discuss this more broadly. 
