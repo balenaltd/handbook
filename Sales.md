@@ -123,6 +123,9 @@ A few things to make sure:
 * Start date should match salesforce
 * devices/developers match recurly and salesforce
 
+### Flowdock
+Send #ringthebell message in /Sales
+
 ## Pricing Guidelines
 Standard Org pricing:   
 $299 for 5 users and 20 devices   
