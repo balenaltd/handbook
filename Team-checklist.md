@@ -4,10 +4,10 @@ Before anything else let's check that everything is in order and that there's no
 * Obtained a @resin.io email account
 * Have access to the company calendar and to the support calendar
 * Have access to the following services
-   * Flowdock
+   * Flowdock - username should be GitHub username
    * Calamari
    * Beegit
-   * Front
+   * Front - username should be GitHub username
    * Zoom
    * Github
    * Resin.io admin
