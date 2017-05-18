@@ -64,7 +64,7 @@ Discussed about how easy would it be to use nodejs-rust bindings
 
 **Action:**
 - Ariel can build another resin-admin interface similar to the one that is in progress for permissions management
-- Make sure there is an API to update the supervisor versions that can will eventually be used by the supervisor deployment process
+- Make sure there is an API to update the supervisor versions that can will eventually be used by the automated supervisor deployment process
 
 ---
 
