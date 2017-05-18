@@ -12,6 +12,60 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 17 May 2017
+
+[Discuss image-maker](https://beta.frontapp.com/inboxes/shared/d_architecture/open/318097795)
+
+We've been working with Lucian to change the way it interacts with image maker.We should discuss this more broadly. 
+ResinOS 2.0 has set new requirements
+
+Right now the API is an intermediate between UI/image maker - downloads are proxied through it
+We'd like to have UI downloading directly from image maker
+
+The config.json does not apply to 2.0 images
+It seems like the API is prescribing the format of the config.json
+
+There's an assumption that all the configuration is  in the config.json file, which is no longer true
+
+Problems
+
+- There's a generic config file (prob in API) that creates config with ssid/pass
+- It's version agnostic, so even if you ask for 2.0 image it'll still return this file
+- API (or img maker) should send the config schema to UI
+
+The image maker must be an unprivileged component
+Idea: use aws lamdas for image maker
+
+The image maker should be receiving a request to create everything that the image needs (that request will be POST)
+Some fields from the schema sent to the UI could be autofilled
+
+Need to break up configuration file in two parts/steps:
+- UI fills up some fields
+- API filling up the remaining fields
+Q: How does the UI knows which fields to fill in?
+  - We can have a 'filled-by-machine-only' flag in the schema
+
+There is consensus that the API is required to fill the 'filled-by-machine-only' configuration fields
+
+Discussed about how easy would it be to use nodejs-rust bindings
+
+**Actions:**
+- High level objective - we want to make the image maker much simpler than it is right now
+- Need to move to reconfix
+- Work towards getting size estimate directly from S3
+- Focus on extfs
+  - Implement file operations in extfs
+  - Shared interface with fatfs module, then use it in image maker
+  - By the time this is done, we should have reconfix by device team and then can integrate with image maker
+
+[How to add supervisor releases to the API without direct database modification](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315611261)
+
+**Action:**
+- Ariel will just build another one for permissions
+- Make sure there is an API to update the supervisor versions that can will eventually be used by the supervisor deployment process
+
+---
+
 ### 15 May 2017
 
 [Discuss based on on Alex comments/plan on how to start testing resinOS images in production](https://beta.frontapp.com/inboxes/shared/d_architecture/open/313248423)
