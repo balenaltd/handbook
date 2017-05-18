@@ -63,7 +63,7 @@ Discussed about how easy would it be to use nodejs-rust bindings
 [How to add supervisor releases to the API without direct database modification](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315611261)
 
 **Action:**
-- Ariel will just build another one for permissions
+- Ariel will build another resin-admin interface similar to the one that is in progress for permissions management
 - Make sure there is an API to update the supervisor versions that can will eventually be used by the supervisor deployment process
 
 ---
