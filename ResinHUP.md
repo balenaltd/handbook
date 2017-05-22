@@ -84,11 +84,11 @@ You need to check this section before you are updating a specific device for spe
 
 For some versions (e.g. `1.1.4`) the fingerprints are known to fail because of issues with fingerprint generations. If in the test update the fingerprints fail but they fail on system files, only some, fails on some files that don't actually exist in the filesysmtem, and the files otherwise look good - might be this issue. Then proceed with the update using `--force`, but be vigilant.
 
-When updating from an `rce` version (some before `1.8.0`), on the next boot with the new system, the docker containers need to be transformed to be addressed by their hash. That's a time-consuming procedure, and the `docker` service might time out during that, and thus will be continuously restarting after the update, and never finishing the conversion. If that's the case, stop the service, and run the docker start command manually; see the `docker.service`. Should be (but check!)
+When updating from an `rce` version (some before `1.8.0`), on the next boot with the new system, the docker containers need to be transformed to be addressed by their hash. That's a time-consuming procedure, and the `docker` service might time out during that, and thus will be continuously restarting after the update, and never finishing the conversion. If that's the case, stop the service, and run the docker start command manually, without a socket to connect to (no `-H`); see the `docker.service`. Should be (but check!)
 
 ```
 systemctl stop docker
-/usr/bin/docker daemon --log-driver=journald -s btrfs --dns 172.17.0.1`
+/usr/bin/docker daemon --log-driver=journald -s btrfs --dns 172.17.0.1
 ```
 When finished and docker is up and running fine, reboot:
 
