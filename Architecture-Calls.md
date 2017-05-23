@@ -8,7 +8,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Pinned Agenda Items
 
-* Supervisor rearchitecture
+* 
 
 ## Recent Meeting Notes
 
