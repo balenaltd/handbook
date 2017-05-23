@@ -70,6 +70,8 @@ Discussed about how easy would it be to use nodejs-rust bindings
 
 ### 15 May 2017
 
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/gq0b1ediFN1ckwk6u9-7MSAInFN)
+
 [Discuss based on on Alex comments/plan on how to start testing resinOS images in production](https://beta.frontapp.com/inboxes/shared/d_architecture/open/313248423)
 
 Idea:
