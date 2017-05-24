@@ -12,6 +12,85 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 22 May 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/DHS5eSzMyAUP2dG1Nwu8AM1fbeK)
+
+[Discuss how to distribute container images of device types so that they can be consumed by flasher/resinhup and run standalone with docker](https://beta.frontapp.com/inboxes/shared/d_architecture/open/319364093)
+
+* Raised by @lifeeth
+* Goal: The idea is to have a `resin device spawn` and start a device of any type
+* Praneeth has done some work on qemu device type
+* The idea is to have a single, runnable image and not a separate one
+* If our changes are generic we could get rpi1 and run it under qemu
+
+**Actions:**
+- More work/investigation needed
+
+[Support channels 12 & 13 for WiFi on Pi Zero W ](https://beta.frontapp.com/inboxes/shared/d_architecture/open/322827943)
+
+* Raised by @floion
+* Relevant to https://github.com/resin-os/resinos/issues/309
+* We want the user to select country and our OS will select correct channels
+* Wifi issue - some bands are illegal
+
+**Actions:**
+* The first step is to create test setup by putting country code in config.json in the right format and have crda to get that info
+* The end goal is to have this configuration added in config.json during download time by the users from the UI
+* In the meantime we will inform users of the workaround i.e. using iw command in the container
+
+# Building images for DT
+
+* We want to make their life easier 
+
+**Actions**
+* We'll give them image that they'll use, won't be able to download that image from resin panel but will be ok for them till we give private device support and hostOS apps
+* We should provide both dev and prod images
+* We'll push artifacts in google drive plan (Florin/Carlo can upload them there)
+* We'll then share images with DT
+* Need to schedule a call with Niklas
+
+[Which automated tests should be run against production, and how should we mitigate their impact there](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317799637)
+
+* Main problem - sdk tests are a lot, hammer api, take 30 mins to run, create reasonable amount of traffic to api, send emails, are noisy in general to sales/emails/analytics
+* Should we throttle?
+* Running tests is painfully slow already , throttling will make them even slower
+
+**Actions:**
+* Add extra property in the model that this is a test account
+* e2e tests should create a new user to test user creation as well
+* Let's add a flag ('fake') 
+
+[Adding webhook capability to the api](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317859865)
+
+* UI is doing a lot of polling. Note that with the current configuration it should already stop, or at least decrease, polling when the page is inactive.
+* This came up with the sign up email workflow: when you post to the user resource, wait 10 minutes and then send mail
+* Cannot easily do websockets / the hook can happen on any instance while the websocket connection will be in one only
+* Discussed pinejs-backed hooks:
+  - We'll also need it for integration with cloud providers
+  - If users ask for this, let's make it a paid feature
+  - Excample: a device gets created, API needs to figure out which hooks to run and these are associated with the user.
+  - Hooks are resources
+
+**Actions:**
+- Have API endpoint that says I want to listen for this resource and then calls the submitted request url/hook
+- Need a WIP spec (drafted by Page, prob. implemented by Giovanni or Ilias)
+- If resin's services could create hooks we'd solve many problems
+
+[Asking 'have you gotten permission from the user?' and asking resineer  to enter 'yes' before proceeding](https://beta.frontapp.com/inboxes/shared/d_architecture/open/321163595)
+
+Two approaches
+- Have a 'yes' or sth that asks you to confirm in the ssh script
+- Ask you to confirm that you won't use this access without asking the user before merging your resindeploy key (that allows you to access devices)
+
+- As part of our support access process, we could use resin ssh 
+- Concerns were raised on cli having extra features that users might not use (but we already do this for UI)
+
+**Action:**
+Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers
+
+===
+
 ### 17 May 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fPI66-t8cOV0-vo58edcVmRGM03)
