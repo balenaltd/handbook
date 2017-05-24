@@ -18,7 +18,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Discuss how to distribute container images of device types so that they can be consumed by flasher/resinhup and run standalone with docker](https://beta.frontapp.com/inboxes/shared/d_architecture/open/319364093)
 
-* Raised by @lifeeth
+* Raised by lifeeth
 * Goal: The idea is to have a `resin device spawn` and start a device of any type
 * Praneeth has done some work on qemu device type
 * The idea is to have a single, runnable image and not a separate one
@@ -29,7 +29,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Support channels 12 & 13 for WiFi on Pi Zero W ](https://beta.frontapp.com/inboxes/shared/d_architecture/open/322827943)
 
-* Raised by @floion
+* Raised by floion
 * Relevant to https://github.com/resin-os/resinos/issues/309
 * We want the user to select country and our OS will select correct channels
 * Wifi issue - some bands are illegal
@@ -52,7 +52,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Which automated tests should be run against production, and how should we mitigate their impact there](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317799637)
 
-* Raised by @pimterry
+* Raised by pimterry
 * Main problem - sdk tests are a lot, hammer api, take 30 mins to run, create reasonable amount of traffic to api, send emails, are noisy in general to sales/emails/analytics
 * Should we throttle?
 * Running tests is painfully slow already , throttling will make them even slower
@@ -64,7 +64,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Adding webhook capability to the api](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317859865)
 
-* Raised by @pimterry
+* Raised by pimterry
 * UI is doing a lot of polling. Note that with the current configuration it should already stop, or at least decrease, polling when the page is inactive.
 * This came up with the sign up email workflow: when you post to the user resource, wait 10 minutes and then send mail
 * Cannot easily do websockets / the hook can happen on any instance while the websocket connection will be in one only
@@ -81,7 +81,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Asking 'have you gotten permission from the user?' and asking resineer  to enter 'yes' before proceeding](https://beta.frontapp.com/inboxes/shared/d_architecture/open/321163595)
 
-* Raised by @sonyagreen
+* Raised by sonyagreen
 
 Two approaches
 - Have a 'yes' or sth that asks you to confirm in the ssh script
@@ -91,7 +91,7 @@ Two approaches
 - Concerns were raised on cli having extra features that users might not use (but we already do this for UI)
 
 **Action:**
-Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers (Jack or Hedley)
+Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers (Jack or Hedley could work on this)
 
 ---
 
