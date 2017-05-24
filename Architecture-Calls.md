@@ -52,6 +52,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Which automated tests should be run against production, and how should we mitigate their impact there](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317799637)
 
+* Raised by @pimterry
 * Main problem - sdk tests are a lot, hammer api, take 30 mins to run, create reasonable amount of traffic to api, send emails, are noisy in general to sales/emails/analytics
 * Should we throttle?
 * Running tests is painfully slow already , throttling will make them even slower
@@ -63,6 +64,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Adding webhook capability to the api](https://beta.frontapp.com/inboxes/shared/d_architecture/open/317859865)
 
+* Raised by @pimterry
 * UI is doing a lot of polling. Note that with the current configuration it should already stop, or at least decrease, polling when the page is inactive.
 * This came up with the sign up email workflow: when you post to the user resource, wait 10 minutes and then send mail
 * Cannot easily do websockets / the hook can happen on any instance while the websocket connection will be in one only
@@ -79,6 +81,8 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Asking 'have you gotten permission from the user?' and asking resineer  to enter 'yes' before proceeding](https://beta.frontapp.com/inboxes/shared/d_architecture/open/321163595)
 
+* Raised by @sonyagreen
+
 Two approaches
 - Have a 'yes' or sth that asks you to confirm in the ssh script
 - Ask you to confirm that you won't use this access without asking the user before merging your resindeploy key (that allows you to access devices)
@@ -87,7 +91,7 @@ Two approaches
 - Concerns were raised on cli having extra features that users might not use (but we already do this for UI)
 
 **Action:**
-Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers
+Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers (Jack or Hedley)
 
 ===
 
