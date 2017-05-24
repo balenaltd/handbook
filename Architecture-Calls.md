@@ -39,7 +39,7 @@ Many interesting technical discussions often produce very long threads that are 
 * The end goal is to have this configuration added in config.json during download time by the users from the UI
 * In the meantime we will inform users of the workaround i.e. using iw command in the container
 
-# Building images for DT
+**Building images for DT**
 
 * We want to make their life easier 
 
