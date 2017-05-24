@@ -93,7 +93,7 @@ Two approaches
 **Action:**
 Short term solution: Add confirmation prompt on script that handles admin ssh access in resindeploy servers (Jack or Hedley)
 
-===
+---
 
 ### 17 May 2017
 
