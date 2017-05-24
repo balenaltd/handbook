@@ -2,6 +2,12 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Tue, May 23 2017 (The Pipage)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8eDZUUFotWHVSa0k)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8aGRkYW9OVV9QLTA)
+* [The Pipage presentation](https://drive.google.com/open?id=0ByKIZhPDOWkiRUxYVzg1cVlTeXc)
+* [Demos](https://drive.google.com/open?id=0ByKIZhPDOWkiQXMxdnNxZWtWUTA)
+
 ### Tue, May 09 2017 (Resin Process for new Resineers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8UEY0bHVmZHVZZG8)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk5qOFlrSjF5UW8)
