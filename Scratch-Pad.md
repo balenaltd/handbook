@@ -73,6 +73,7 @@
   - [409 While Uploading Metadata](#409-while-uploading-metadata)
     - [Symptoms](#symptoms-6)
 - [Canned Responses](#canned-responses)
+    - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
     - [Host OS](#host-os)
     - [Device Configuration](#device-configuration)
@@ -654,6 +655,11 @@ None. This is a known issue with registry v1, solved in v2. Fixing in v1 is
 non-trivial to the point of not being worth it.
 
 # Canned Responses
+
+### Generic 1.x SD card corruption issues and suggesting a move to 2.x
+
+In resinOS 2.x [a number of changes were introduced](https://docs.resin.io/runtime/migrate-to-2.0/), one of which is improved file system reliability. Moving to resinOS 2.x currently requires an SD card reflash; soon it will be possible to perform the hostOS update action remotely. As a last note, please make sure that your application is working as expected in resinOS 2.x in test environment before deploying it to a production setting.
+
 ### Static IP (resinOS 1.x **ONLY**)
 
 In order to configure static IP on a pre-provisioned SD card (we don't currently have an easy means of changing network settings on a provisioned device SD card) perform the following steps:-
