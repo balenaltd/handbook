@@ -553,6 +553,10 @@ Deltas will strongly mitigate this issue, as explained in this snippet that can 
 
 If you bump into this during support, please link the Front ticket to [this issue](https://github.com/resin-io/hq/issues/712)
 
+*[26 May 2017] Note: while we still don't know the underlying cause of this, we suspect that it might have to do with registry v1 as opposing to registry v2. If you bump into this you can attempt to pull from a registry v2 by following these teardown instructions from https://beta.frontapp.com/inboxes/shared/intercom/all/319610155:*
+
+> In the end I checked Docker on the device is >=1.6, pulled the image from registry v2, tagged it as a registry1 image and started the supervisor. I probably cheated and that "fix" only kicked the can down the road, it's possible the device will hit the same issues again on next update. we'll have to see.
+
 ## Wifi connect app stops working when systemd enabled (should only affect very old versions of resinOS)
 ### Symptoms
 wlan de-authenticates immediately after authentication with error code = 3
