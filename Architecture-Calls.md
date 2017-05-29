@@ -14,6 +14,59 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 24 May 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/SEEDVeQZuHnGy11DIy0-vUcD56Y)
+
+[Scaling VPN](https://beta.frontapp.com/inboxes/shared/d_architecture/open/323213443)
+
+- Relates to pen source + soracom roadmap
+- Would be nice to migrate vpn to present server
+- idea to have vpn offer rest of infra a service - tells you if a device is online, where you can reach it etc.
+- if so , the vpn is only one of other potential ways to do that
+- you could have ngrok, other experimental thing, soracom, even open internet if device has ip
+- the default is no-vpn - i.e. periodic polling from device
+
+- How can we separate it. We could:
+  - Separate it in presence server to say if device is online and if it can send messages
+  - We could offer a full-fledged tcp path to the device
+  - With presence server we could combine it with the vpn
+  - The API could also be the presence server
+
+- Device connects to vpn 
+- Over vpn protocol, it uses some form of pinging/communication that allows the openvpn server to know when it is connected or not
+- The API interface is more abstracted, device uuid is online/offline
+- The API does not manage heartbeat etc.
+
+- Example: ipv6
+  - What type of work would it take to work with ipv6 devices without vpn?
+  - It'd be easy to do if we were fine to pass traffic through resin.
+  - openvpn client would have a program to say to some server that 'I'm online, here's my ipv6 addr'
+  - public urls would hit proxy server, which would then connect directly to the device
+  - Ideally, public url would resolve to ipv6 device directly. In that case we'd have to work on the DNS level
+
+- Example: integrating with soracom
+  - We'd have to allow multiple VPN servers to exist (curently we have 1)
+  - Need to scale VPN / more instances
+  - We'd then a have more types of them / e.g. VPN servers for soracom devices, so soracom devices urls would go through soracom server
+
+- Example: ngrok:
+  - If device can maintain multiple ngrok tunnels open
+  - You need one control tunnel / can be just a connection to our ngrok controller
+
+- Ideally, we'd like to be able to see, for a single device, the status of OpenVPN and soracom links
+
+- Actions:
+  - Spec 1 : how to scale VPN
+  - Spec 2: How can we add different types of servers (presence/tunneling servers) that have interfaces to tell you
+    1. online status of device
+    2. how to reach a device
+
+[Implementation details on how to merge managed and unmanaged builds.](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315492071)
+
+[Nested Changelogs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/324349667)
+
+
 ### 22 May 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/DHS5eSzMyAUP2dG1Nwu8AM1fbeK)
