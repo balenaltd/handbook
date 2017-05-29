@@ -56,13 +56,51 @@ Many interesting technical discussions often produce very long threads that are 
 
 - Ideally, we'd like to be able to see, for a single device, the status of OpenVPN and soracom links
 
-- Actions:
+- **Actions:**
   - Spec 1 : how to scale VPN
   - Spec 2: How can we add different types of servers (presence/tunneling servers) that have interfaces to tell you
     1. online status of device
     2. how to reach a device
 
 [Implementation details on how to merge managed and unmanaged builds.](https://beta.frontapp.com/inboxes/shared/d_architecture/open/315492071)
+
+- Suggestion: have 'resin_server' property in 'config.json' and behave accordingly for managed/unmanaged images
+
+- In unmanaged
+  - supervisor will still start, but it should behave differently
+  - vpn could be configurable .
+  - vpn needs 3 things to start:
+    - uuid
+    - api key / this will be missing from unmanaged / openvpn client should handle this and not start if this is missing
+    - openvpn server address
+  - The provisioner could be simplified by injecting missing info ^ (after interacting user)
+
+- We could inject a vpn configuration file only for managed builds
+
+- For flasher images we don't start supervisor and resin-device-register only runs in flasher images
+- resin-provisioner downloads supervisor and creates a managed device from an unmanaged one
+- In rpi3 the host creates UUID (openssl rand key) , same routine for a key called api_key. Then , it starts supervisor which takes over provisioning process
+- Should start moving registration to hostOS , it needs these credentials
+- The only reason we have  resin-device-register is for flasher types
+- Can we use supervisor during flashing?
+
+- We could add rust binary to remove code duplication
+
+**Actions:**
+  - Make supevisor to run in mode for unmanaged devices
+  - It already supports setting mode (could be as simple as setting offline to true in config.json) - Need to check with Pablo
+  - Make systemd conditional on vpn credential file
+  - We need an object that if exists it'll mean connect (managed device) and will contain all needed info, if not it'll be unmanaged
+  - Notes
+    - Need to decide on implementation details on how to activate services
+    - in managed, atm openvpn client tries to connect indefintely
+    - in unmanaged, we won't have to change anything because the openvpn config won't be there at all. So systemd service will not start, because the file condition will not be met
+    - in summary, there's no need for differentiation as long as the openvpn config does not exist in the unmanaged version
+    - vpn configuration will exist in all builds (managed/unmanaged)
+    - for vpn file to be created we need api key and uuid
+    - til that the openvpn client uses the provisioning key , which fails at first
+    - wrt to uuid gen - even if hostOS generates it, supervisor stores it so if you try to reprovision it won't work. We have duplication of uuid / supervisor sqlite and config.json - this will get fixed
+    - issue because even if you remove config.json entry for uuid, supervisor will use sqlite one and it will fail
 
 [Nested Changelogs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/324349667)
 
