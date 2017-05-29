@@ -3,7 +3,7 @@
 
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
-### Mon, May 29 2017
+### Tue, May 30 2017
 * [Meeting minutes](https://drive.google.com/open?id=1bTUDqWFeMuapZdOTEkjYhXXvl2VY-5vIKFqczqUox1Q)
 * [Video](To be added)
 * [Audio](To be added)
