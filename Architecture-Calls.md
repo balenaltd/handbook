@@ -104,6 +104,81 @@ Many interesting technical discussions often produce very long threads that are 
 
 [Nested Changelogs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/324349667)
 
+- Some dependency changelog entries might not be relevant
+- Example of etcher deps we'd like nested changelogs for:
+  - drivelist
+  - image write
+  - mount utils
+
+- There's a build vs source division
+- Nested changelogs should be for build artifacts and not for source code
+- Etcher has nailed-down components in source tree (npm-shrinkwrap.json)
+- It also has multiple artifacts created from that source tree
+- If you put changelog in build artifacts you'd have a changelog for every version
+- We want one big changelog for windows, mac etc fixes
+
+- Idea: there's an intermediate step , when all source deps. are locked and this is where nested changelogs are about
+- Idea: have a single build (e.g. SDK ) to generate nested changelog
+
+- We'd generate nested changelogs during build and not during versioning of the source
+- In etcher this becomes problematic - we have multiple builds
+- We have intermediate state - source + locked deps
+- Preference to have a single changelog
+
+- Talk about bump + branch approach
+
+- Bump + branch: we don't want the build process to put the shrinkwrap in master, cause subsequent builds won't be updated, so we branch off, commit shrinkwrap , maybe other files like docker deps and that's the commit that gets tagged as the frozen source from which all builds will be produced and deployed to npm , dockerhub etc.
+
+- In etcher, where you already have shrinkwrap, you do nothing as far as shrinkwrap is concerned, if there are other things that move around the branch would be the place to lock them.
+- In case of ecther, the main usecase of npm shrinkwrap is that we don't want anything get updated without us knowing it
+- In the bump-and-branch, you're only intersted in reproducing a specific builds
+- Having everything moving loosely , on one hand, you get fixes/features, on the other hand you things can break
+
+- In etcher, we could have resin specific modules with floating versions, or packages we trust in general. In that case, these will still be locked just before build in a bump and branch
+- npm allows partial shrinkwraps (npm 3 issue https://github.com/npm/npm/issues/7108)
+- (npm 4 doesn't support partial npm shrinkwrap)
+- npm 5 just got out (need to check)
+
+- Etcher idea: have node_modules as a tarball available somewhere
+- We can consider it as build artifact
+
+- Bump and branch: versionbot is going to make a new version, then a branch, nail down all deps and put them in the branch
+on that branch, the builder will run
+
+- Are there any transformation before publishing? Like doc generation, png generation - any shared step of the builds could go in this first step
+
+- Packaging and build implementation
+  - The etcher team has a method to get frozen source tree and generate a bunch of things
+  - sdk/cli/gui , even on the gui it branches and creates a windows version (appveyor) a mac version (on travis) a linux image if run w/ an image flag and recently .deb and .rpm 
+  - It does incremental builds (tries to cache pre build)
+
+- Build system:
+  - consists of many bash scripts (30-40) per task
+  - e.g. signing
+  - they are orchestrated by Makefile
+  - tons of scripts for things like cli packaging, rpm etc.
+  - Makefile detects your OS, allows you to select target arch (64/86)
+  - In linux you can generate everything except app image (needs container)
+  - Creates a frozen source
+  - Targeted for nodejs/electron projects
+
+- cli , rust, enm, wifi-connect will all need generating packages - these worlds should collide
+
+- etcher has a per PR versioning scheme
+- Vanity semver approach / marketing semver
+
+- Talking about using versionbot to enforce internal/external contirbution patterns
+
+Adding publishing
+- idea: the commit that upgrades your dependency mentions that it affects the cli/ use commit scopes
+- idea: for floaring deps, we won't have commits to say ' this dep is for ui and this dep is for gui etc.
+  - we could mark 'core' components  that are used by all components / common deps
+e.g.
+- nested_changelogs:
+  - dep
+     - category: [core]
+
+- We'd like the nested changelog to be on master - https://www.flowdock.com/app/rulemotion/r-etcherprv/threads/zuFJKu9-wKumVpw40lBK3RceaGD
 
 ### 22 May 2017
 
