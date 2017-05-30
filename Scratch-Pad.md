@@ -1113,7 +1113,7 @@ If not, it means we don't have a unique way to confirm the account. Here's a pot
 If the key does match, and there's reason to believe that the computer is compromised, the next challenge is to ask the user to confirm private information about their account.
 >Thank you for sending the key. We think it's prudent to ask you one more security question. Please reply with both the name and device type for an application associated with your account.
 
-If the key does match, and there's no reason to believe the computer is compromised, log in as the user and disable 2FA.
+If the key does match, and there's no reason to believe the computer is compromised, 2FA can be disabled. (Currently, this requires directly editing the database. Petros can do this, possibly others.)
 >Thank you for confirming. I've disabled two-factor authentication for your account.
 
 
