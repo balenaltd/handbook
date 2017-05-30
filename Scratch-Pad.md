@@ -1556,7 +1556,7 @@ btrfs subvolume delete -C /var/lib/docker/btrfs/subvolumes/<id>
 
 [Note: needs review]
 
-ref: 
+ref: https://lebkowski.name/docker-volumes/
 
 > Now, since there is no tool to list volumes and their state, it’s easy to leave them on disk even after all processes exited and all containers are removed. The following command inspects all containers (running or not) and compares them to created volumes, printing only the paths that are not referenced by any container:
 
