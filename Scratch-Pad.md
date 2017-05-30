@@ -133,6 +133,7 @@
     - [Fixing the Inability to Delete Files](#fixing-the-inability-to-delete-files)
     - [2.1 Clearing Down Space](#21-clearing-down-space)
     - [2.2 Removing Orphaned Subvolumes](#22-removing-orphaned-subvolumes)
+    - [2.3 Removing Dangling Volumes](#23-removing-dangling-volumes)
     - [Getting Back to Normal](#getting-back-to-normal)
   - [3. Clearing Down Space (aufs/resinOS 2.x)](#3-clearing-down-space-aufsresinos-2x)
   - [Fix Superblock Corruption](#fix-superblock-corruption)
@@ -1550,6 +1551,28 @@ To remove orphaned subvolumes run the below for each `<id>` discovered above:
 ```bash
 btrfs subvolume delete -C /var/lib/docker/btrfs/subvolumes/<id>
 ```
+
+### 2.3 Removing Dangling Volumes
+
+[Note: needs review]
+
+ref: 
+
+> Now, since there is no tool to list volumes and their state, it’s easy to leave them on disk even after all processes exited and all containers are removed. The following command inspects all containers (running or not) and compares them to created volumes, printing only the paths that are not referenced by any container:
+
+```
+find '/var/lib/docker/volumes/' -mindepth 1 -maxdepth 1 -type d | grep -vFf <(
+  docker ps -aq | xargs docker inspect | jq -r '.[]|.Mounts|.[]|.Name|select(.)'
+)
+What it does, step by step:
+
+- List all created volumes
+- List all containers and inspect them, creating a JSON array with all the entries
+- Format the output using jq to get all the names of every mounted volume
+- Exclude (grep -vFf) mounted volumes form the list of all volumes
+
+>The command doesn’t remove anything, but simply passing the results to xargs -r rm -fr does so.
+
 
 ### Getting Back to Normal
 
