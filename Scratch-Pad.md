@@ -1573,6 +1573,11 @@ find '/var/lib/docker/volumes/' -mindepth 1 -maxdepth 1 -type d | grep -vFf <(
 > - Exclude (grep -vFf) mounted volumes form the list of all volumes
 
 > The command doesn’t remove anything, but simply passing the results to xargs -r rm -fr does so.
+> For >= docker 1.9 this is equivalent to 
+
+```
+docker volume ls -qf dangling=true | xargs -r docker volume rm
+```
 
 ### Getting Back to Normal
 
