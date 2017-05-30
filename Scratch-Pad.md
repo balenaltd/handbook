@@ -1564,15 +1564,15 @@ ref:
 find '/var/lib/docker/volumes/' -mindepth 1 -maxdepth 1 -type d | grep -vFf <(
   docker ps -aq | xargs docker inspect | jq -r '.[]|.Mounts|.[]|.Name|select(.)'
 )
-What it does, step by step:
+```
+> What it does, step by step:
 
-- List all created volumes
-- List all containers and inspect them, creating a JSON array with all the entries
-- Format the output using jq to get all the names of every mounted volume
-- Exclude (grep -vFf) mounted volumes form the list of all volumes
+> - List all created volumes
+> - List all containers and inspect them, creating a JSON array with all the entries
+> - Format the output using jq to get all the names of every mounted volume
+> - Exclude (grep -vFf) mounted volumes form the list of all volumes
 
->The command doesn’t remove anything, but simply passing the results to xargs -r rm -fr does so.
-
+> The command doesn’t remove anything, but simply passing the results to xargs -r rm -fr does so.
 
 ### Getting Back to Normal
 
