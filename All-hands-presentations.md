@@ -3,7 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
 ### Tue, May 30 2017 (ProcBots)
-* [Slides](https://drive.google.com/open?id=0B0xOid60TZZAU216YjZNZGlxa28)
+* [Video](https://drive.google.com/open?id=0B8b02_AxDQoVSVBUckV3ZjhMQmM)
+* [Audio](https://drive.google.com/open?id=0B8b02_AxDQoVdFZHZjZMcXRhTm8)
+* [ProcBots presentation](https://drive.google.com/open?id=0B0xOid60TZZAU216YjZNZGlxa28)
 * [Demo FortuneBot](https://github.com/resin-io-modules/resin-procbots/blob/fortunebot/lib/bots/fortunebot.ts)
 
 
