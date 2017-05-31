@@ -5,9 +5,8 @@
 
 ### Tue, May 30 2017
 * [Meeting minutes](https://drive.google.com/open?id=1bTUDqWFeMuapZdOTEkjYhXXvl2VY-5vIKFqczqUox1Q)
-* [Video](To be added)
-* [Audio](To be added)
-* [Attendees](To be added)
+* [Video](https://drive.google.com/open?id=0B8b02_AxDQoVcjlpUy0xNUlIUlE)
+* [Audio](https://drive.google.com/open?id=0B8b02_AxDQoVS1BvaDNqRS1kMHM)
 
 ### Mon, May 22 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1M5U5Ek_8i9EF_eSpiI3f7ruGZglwBFjz3edLfMAjrZY/edit?usp=sharing)
