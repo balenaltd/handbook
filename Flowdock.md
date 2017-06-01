@@ -92,4 +92,3 @@ Following the customary greetings it would be great if you took the time to crea
 
 ## Changing the look and feel
 Petros has created a CSS file to remove some of the clutter from the Flowdock interface.  To use, install the Stylebot extension (if using Chrome -- is there one for Firefox?) and use this CSS file: https://gist.github.com/petrosagg/2d3c53a9d0ba5dcd7887eaad635ad87d
-![](https://drive.google.com/file/d/0B6cDFLPz_SL-MkhNc1E5czhzU1U/view?usp=sharing)
