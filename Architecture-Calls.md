@@ -8,11 +8,11 @@ Many interesting technical discussions often produce very long threads that are 
 
 `#architecture` and Architecture Calls related discussions live in the [`r-process` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-process).
 
-## Architecture call recordings
+### Architecture call recordings
 
 We are uploading architecture call recordings as a convenience to people who might not be able to attend a specific architecture call and want finer-grained details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
 
-## Pinned Agenda Items
+### Pinned Agenda Items
 
 
 ## Recent Meeting Notes
