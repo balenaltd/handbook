@@ -14,6 +14,40 @@ Many interesting technical discussions often produce very long threads that are 
 
 ## Recent Meeting Notes
 
+### 31 May 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/PfqLoSYpNEAQJ7GuJdqCrRTZEFK)
+
+Recordings (my computer crashed, hence the two recordings):
+- https://drive.google.com/open?id=0B0NS-URBofBLbm5ObWE3QmRwNUU
+- https://drive.google.com/open?id=0B0NS-URBofBLRWhuZkhsdVdJT3M
+
+* [Discuss event status model, soft deletes (if that's the best way to proceed) and the corresponding details](https://beta.frontapp.com/inboxes/shared/d_architecture/open/331704993)
+
+- Update data to have 'deleted_at'
+- Update pine to set 'deleted_at' instead of actually deleting
+- Also create universal permission filter to hide 'deleted_at' items / analytics accounts will be whitelisted to have access to that
+- There will be a constraint to hide devices that are deleted (like, for instance, devices that are not owned by the user are filtered out)
+ -Current problem is that names don't get reclaimed
+
+- Good soft-delete case - users accidentally delete device, currently we have to dive into logs to recover info
+
+Actions:
+* Conversation to-be-continued (Alexandros, Petros, Page, Ilias)
+
+[Discuss running git gc in resin-git](https://beta.frontapp.com/inboxes/shared/d_architecture/open/329595901)
+
+Actions:
+* Move to EFS instead of running git gc (Devops team to handle the transition)
+
+[Discuss adding the ability to modify ntp servers either by directly letting users add a timesyncd.conf in resin-boot or by adding a config.json field for it](https://beta.frontapp.com/inboxes/shared/d_architecture/open/327078889)
+
+Actions:
+- We can put it in config.json - no objections were raised on this
+- Specifics to be discussed with device team
+
+---
+
 ### 24 May 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/SEEDVeQZuHnGy11DIy0-vUcD56Y)
