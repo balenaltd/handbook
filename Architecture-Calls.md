@@ -22,7 +22,7 @@ Recordings (my computer crashed, hence the two recordings):
 - https://drive.google.com/open?id=0B0NS-URBofBLbm5ObWE3QmRwNUU
 - https://drive.google.com/open?id=0B0NS-URBofBLRWhuZkhsdVdJT3M
 
-* [Discuss event status model, soft deletes (if that's the best way to proceed) and the corresponding details](https://beta.frontapp.com/inboxes/shared/d_architecture/open/331704993)
+[Discuss event status model, soft deletes (if that's the best way to proceed) and the corresponding details](https://beta.frontapp.com/inboxes/shared/d_architecture/open/331704993)
 
 - Update data to have 'deleted_at'
 - Update pine to set 'deleted_at' instead of actually deleting
