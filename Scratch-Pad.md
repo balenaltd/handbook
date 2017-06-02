@@ -1109,7 +1109,7 @@ jQLi+rLohLBZDlsBxtQuxBYK4NVhnj01wzkThw==
 ```
 You put this in a file, say `response.base64` and then do:
 ```
-cat response.base64 | base64 -d | openssl rsautl -verify -inkey users-key.plain.pem -pubin
+cat response.base64 | base64 -d | openssl rsautl -verify -inkey userskey.plain.pem -pubin
 ```
 This should print the original random challenge you sent him. i.e if you sent `echo foobarfoobar`, then the above command should print `foobarfoobar`
 
