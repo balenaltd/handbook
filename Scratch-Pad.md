@@ -599,6 +599,22 @@ The reason for this is an issue with overlay storage from Docker. Detail here: h
 There is a workaround here by adding `--ignore-installed` to `pip install` commands to make sure it won't uninstall existing packages which are not in the same layer.
 Another workaround is: take everything to one layer only by executing all pip commands under single `RUN` command in Dockerfile.
 
+## Build hangs because of `pip install`
+### Symptoms
+
+User does a pip install, and the builder seems to hang forever.
+
+### Treatment
+
+This can be confirmed by asking the user to run the pip install using the `-v` flag for verbose output, which will confirm that one of the dependencies of their desired install package is numpy or scipy.
+
+To fix this, users can install the system package manager versions for numpy or scipy, for example in debian:
+```
+apt-get install python-numpy python-scipy
+or
+apt-get install python3-numpy python3-scipy
+```
+
 ## User software fails with cannot resolve `$(hostname)` issue
 ### Symptoms
 This is because these pieces of software assume that `$(hostname)` resolves to an IP address. Known offenders are tomcat and rabbitmq.
