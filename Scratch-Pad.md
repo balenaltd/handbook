@@ -59,6 +59,7 @@
   - [Build fails because of `pip install`](#build-fails-because-of-pip-install)
     - [Symptoms](#symptoms-2)
     - [Treatment](#treatment-7)
+  - [Build hangs because of pip install`](#build-hangs-because-of-pip-install)
   - [User software fails with cannot resolve `$(hostname)` issue](#user-software-fails-with-cannot-resolve-hostname-issue)
     - [Symptoms](#symptoms-3)
     - [Treatment](#treatment-8)
