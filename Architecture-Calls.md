@@ -68,6 +68,12 @@ Actions:
 - We'll rename resin-lint gh project to node-resin-lint; we'll keep resin-lint module name in npm
 - We'll need per-language/framework linters, e.g. separate tool for Rust, Golang etc.
 
+[Discuss requesting a resin vendor zone for NTP pool, and use that in resinOS devices by default](https://beta.frontapp.com/inboxes/shared/d_architecture/open/332082615) (Gergely)
+
+Actions:
+- Submitted application (https://www.flowdock.com/app/rulemotion/resin-ideas/threads/ASZAalJ0dX_AiClfpiy90VpEF6b)
+- When this is done, we'll test/configure meta-resin accordingly 
+
 ---
 
 ### 31 May 2017
