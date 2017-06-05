@@ -7,7 +7,7 @@
 * [Meeting minutes](https://docs.google.com/document/d/14IIBBem2JaFn83wf9xrcM6_t9h39RGAt4BLrPinfMbk/edit)
 * [Video](To be added)
 * [Audio](To be added)
-* [Attendees](To be added)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8NlQ4OXBkMXNHT0E)
 
 ### Tue, May 30 2017
 * [Meeting minutes](https://drive.google.com/open?id=1bTUDqWFeMuapZdOTEkjYhXXvl2VY-5vIKFqczqUox1Q)
