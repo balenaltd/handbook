@@ -54,6 +54,14 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ['edge' vs 'generic' device types](https://app.frontapp.com/open/cnv_5icubz) (Joe)
 
+Actions:
+* Find out if anyone is using the edge device type outside of the resin
+* Create a new generic device type @ https://github.com/resin-os/resin-generic
+    * generic-architecture (e.g. generic-x86) to be created inside the resin-generic repo (similar to resin-raspberrypi)
+* Improve the builder to give a nice error if a user attempts to use templates with the generic device type
+* Phase out the edge device type by hiding it on from the UI (eventually we will remove it completely)
+* Phase in generic device type, making it the default option when creating a dependent device
+
 [Future of resin-lint & linting for other languages](https://beta.frontapp.com/inboxes/shared/d_architecture/open/334608865)
 
 Actions:
