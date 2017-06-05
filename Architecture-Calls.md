@@ -32,9 +32,10 @@ We are uploading architecture call recordings as a convenience to people who mig
   - Revisit spec to not include vault and only limit access to support agents
 
 [We need to determine how to implement the white listing for tableau integration in the API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/329801683)
+- Actions:
+  - We'll proceed with writing a migration / more details to be discussed with Page (Ariel is on it)
 
 **resin.io analytics modules for top-level components**
-
 - Discussed if we should use separate Sentry/Mixpanel modules or resin-corvus
 - Current preference is resin-corvus, we'll discuss again on Wednesday's arch call
 
