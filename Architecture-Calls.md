@@ -48,6 +48,11 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Managed/unmanaged behavior in one image](https://app.frontapp.com/open/cnv_5j2q73) (Andrei)
 
+Actions:
+- Management_services was decided as config.json object to determine managed behavior
+- Yocto build will produce by default unmanaged images
+- We will let prepare openvpn service to fail in the case of unmanaged
+
 [Etcher / glibc 2.15 in resin base image](https://app.frontapp.com/open/cnv_5iqdd5) (Juanchi)
 
 ( We can create a scoped build environment with a custom glibc support, but we decided that the amount of effort needed outweighs the burden of not being able to unify the Etcher base images
