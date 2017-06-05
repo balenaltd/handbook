@@ -32,7 +32,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 [We need to determine how to implement the white listing for tableau integration in the API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/329801683)
 **resin.io analytics modules for top-level components**
 - Discussed if we should use separate Sentry/Mixpanel modules or resin-corvus
-- Current preference is resin-corvus, we'll revisit on Wednesday
+- Current preference is resin-corvus, we'll discuss again on Wednesday's arch call
 
 ### 2 Jun 2017
 
