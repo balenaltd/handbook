@@ -14,8 +14,25 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
+* [No items pinned currently]
 
 ## Recent Meeting Notes
+
+### 5 Jun 2017
+
+[Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLM0xjYlMyaW01elU)
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fZtCT8zVJHwkAAaPO_G_OhDB2OY)
+
+**Pipage discussion**
+[Discuss operation of vault server](https://beta.frontapp.com/inboxes/shared/d_architecture/open/330404867)
+- Spec PR: https://github.com/resin-io/hq/pull/857
+- In summary, it is still not entirely clear whether we need Vault or not
+- Actions:
+  - Revisit spec to not include vault and only limit access to support agents
+[We need to determine how to implement the white listing for tableau integration in the API](https://beta.frontapp.com/inboxes/shared/d_architecture/open/329801683)
+**resin.io analytics modules for top-level components**
+- Discussed if we should use separate Sentry/Mixpanel modules or resin-corvus
+- Current preference is resin-corvus, we'll revisit on Wednesday
 
 ### 2 Jun 2017
 
