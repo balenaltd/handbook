@@ -6,7 +6,7 @@
 ### Mon, June 5 2017
 * [Meeting minutes](https://docs.google.com/document/d/14IIBBem2JaFn83wf9xrcM6_t9h39RGAt4BLrPinfMbk/edit)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8SjUxZ0NtUS04cjg)
-* [Audio](To be added)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8cmxTbjE1bE9qajA)
 * [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8NlQ4OXBkMXNHT0E)
 
 ### Tue, May 30 2017
