@@ -17,6 +17,44 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 2 Jun 2017
+
+[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/1scKcudoTFLBmSmpCL5glUg_nBS)
+
+[Api keys](https://app.frontapp.com/open/cnv_5is5xr) (Ariel)
+
+Should we list api keys that are not created through the new UI (with a name?)?
+-> No, only show those with name
+
+We said no scopes first, so currently user-level api keys, right?
+-> Yes
+
+Should we use a different token format for the new api keys to differentiate them at the application-level?
+-> No
+
+Will we add the token name as a new field on api key? It is defined on PineJS
+-> Yes, coordinate with Page. Probably migration has to be on the api
+
+We'll hash the API Key string before storing? If so we need a field to indicate it was hashed and how?
+-> Don't hash keys for now
+-> Eventually migrate all keys by applying hashing to all of them on the DB.
+-> Alex asked for this to have rollback 
+
+Is the token-auth module only there to be compliant with Docker Registry authentication?
+-> Yes, no need to do anything about it
+JUN 2 22:01
+
+Should I focus on the API side and leave UI for later?
+-> Alex: UI will be handled by UI team, product meeting is needed to define the UI
+
+[Managed/unmanaged behavior in one image](https://app.frontapp.com/open/cnv_5j2q73) (Andrei)
+
+[Etcher / glibc 2.15 in resin base image](https://app.frontapp.com/open/cnv_5iqdd5) (Juanchi)
+
+['edge' vs 'generic' device types](https://app.frontapp.com/open/cnv_5icubz) (Joe)
+
+---
+
 ### 31 May 2017
 
 [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/PfqLoSYpNEAQJ7GuJdqCrRTZEFK)
