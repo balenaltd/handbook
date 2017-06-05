@@ -20,8 +20,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 5 Jun 2017
 
-[Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLM0xjYlMyaW01elU)
-[Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fZtCT8zVJHwkAAaPO_G_OhDB2OY)
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLM0xjYlMyaW01elU)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fZtCT8zVJHwkAAaPO_G_OhDB2OY)
 
 **Pipage discussion**
 [Discuss operation of vault server](https://beta.frontapp.com/inboxes/shared/d_architecture/open/330404867)
