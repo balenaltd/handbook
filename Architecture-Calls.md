@@ -54,6 +54,12 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ['edge' vs 'generic' device types](https://app.frontapp.com/open/cnv_5icubz) (Joe)
 
+[Future of resin-lint & linting for other languages](https://beta.frontapp.com/inboxes/shared/d_architecture/open/334608865)
+
+Actions:
+- We'll rename resin-lint gh project to node-resin-lint; we'll keep resin-lint module name in npm
+- We'll need per-language/framework linters, e.g. separate tool for Rust, Golang etc.
+
 ---
 
 ### 31 May 2017
