@@ -73,6 +73,7 @@
     - [Symptoms:](#symptoms)
   - [409 While Uploading Metadata](#409-while-uploading-metadata)
     - [Symptoms](#symptoms-6)
+  - [Debugging CLI issues](#debugging-cli-issues)
 - [Canned Responses](#canned-responses)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
@@ -177,7 +178,6 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 * You use [this link](http://jenkins.dev.resin.io/securityRealm/addUser) to add a user to jenkins.
 * The only officially support wifi adapters are ones using the `Broadcom bcm43143 chipset`, however many others should work.
 * connmanctl can be used to control networking settings from within the container (but this requires access to the host OS dbus). In resinOS 2.x the network can be controlled via NetworkManager dbus API.
-* Further resin CLI troubleshooting tips can be found in the [troubleshooting doc](http://docs.resin.io/troubleshooting/cli-troubleshooting/).
 * When an app gets killed, the container gets a `SIGTERM` which users can catch and react to. After a grace period, though, the app will get a `SIGKILL` which can't be caught.
 * Installing openssh via a Dockerfile causes ssh-keygen to be triggered in the build, however this will result in each device having the same keys across the fleet.
 * When you see `{"message":"HTTP code is 500 which indicates error: ` entries in the supervisor logs, this `500` error refers to an error that docker is receiving from its daemon **NOT** an actual server. Any real server error will be described in the remainder of the error message.
@@ -677,6 +677,16 @@ Server error: 400 trying to fetch remote history for 89839ddbec51e95ea4f4659c91f
 
 None. This is a known issue with registry v1, solved in v2. Fixing in v1 is
 non-trivial to the point of not being worth it.
+
+## Debugging CLI issues
+
+If the issue isn't obvious, the first step here is almost always to ask the user to update their CLI, if they're not on the latest version. 
+
+Modern versions (5.6.1+) of the CLI should log any errors received to Sentry, which can provide further useful detail. You can browse these at https://sentry.io/resinio/cli/. More modern versions (5.10.0+) include user and full CLI argument information with all errors. For these, you can query by user with https://sentry.io/resinio/cli/?query=user%3Aid%3AUSERNAME to get the full trace for the issue the user is seeing, as well as every package version they're using, see previous errors they might've hit, and other debug data.
+
+Miscellaneous more specific resin CLI troubleshooting tips can be found in the [public troubleshooting doc](http://docs.resin.io/troubleshooting/cli-troubleshooting/).
+
+Asking the user to set the `DEBUG` env var (to any non-empty value) will also produce some extra output for the user locally, including a full stack trace (though that should also be available in Sentry) and background debug-level logging generally.
 
 # Canned Responses
 
