@@ -23,6 +23,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLNHhyUEk0dG5HaXM)
 - [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/va0FwaYlZYeZZ7uFW-7uO8ZzfgB)
 
+Agenda:
+
 - [Discuss about self billing related DB changes](https://beta.frontapp.com/inboxes/shared/d_architecture/open/337869829)
 - [Should we enforce a minimum supervisor version, which is multi-container ready, for application v2s](https://beta.frontapp.com/inboxes/shared/d_architecture/open/339832683)
 - ['fingerprint' build contexts to stop rebuilding of containers if we don't need to [multicontainer]](https://beta.frontapp.com/inboxes/shared/d_architecture/open/337947831)
