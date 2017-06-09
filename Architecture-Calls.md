@@ -23,6 +23,12 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLNHhyUEk0dG5HaXM)
 - [Flowdock Thread](https://www.flowdock.com/app/rulemotion/r-process/threads/va0FwaYlZYeZZ7uFW-7uO8ZzfgB)
 
+- [Discuss about self billing related DB changes](https://beta.frontapp.com/inboxes/shared/d_architecture/open/337869829)
+- [Should we enforce a minimum supervisor version, which is multi-container ready, for application v2s](https://beta.frontapp.com/inboxes/shared/d_architecture/open/339832683)
+- ['fingerprint' build contexts to stop rebuilding of containers if we don't need to [multicontainer]](https://beta.frontapp.com/inboxes/shared/d_architecture/open/337947831)
+- [Axillera request: The need to initialize a completely assembled system where access to the SD card is not available. (first identified as net-booting a system)](https://beta.frontapp.com/inboxes/shared/d_architecture/open/338638693)
+- [discuss contingency plan for watty.io who have flashed 1000 devices with a custom resinOS build that doesn't have the resinHUP prerequisites](https://beta.frontapp.com/inboxes/shared/d_architecture/open/337978305)
+
 ---
 
 ### 5 Jun 2017
