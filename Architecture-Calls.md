@@ -148,7 +148,7 @@ Actions:
 
 Actions:
 - We can put it in config.json - no objections were raised on this
-- Specifics to be discussed with device team
+- Specifics to be discussed with device team - https://github.com/resin-io/hq/issues/755
 
 ---
 
