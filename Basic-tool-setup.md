@@ -67,7 +67,7 @@ Zendesk is the customer support helpdesk we provide to paid customers. All Zende
 
 Beegit is the service we’re using to produce our blog’s content and pipeline, and collaborate with other teammates on this. 
 
-Front is the service we use to gather all messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s connected with Gmail, Flowdock, Intercom and Zendesk. Please note that all the Front inboxes you see are not personal so please do not archive or delete any messages you see.
+Front is the service we use to gather all  team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Flowdock, Intercom, and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing.
 
 Zoom is the main service we’re using for the company calls. From time to time, we may use also Hangouts, Skype or Mumble.
 
