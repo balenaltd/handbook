@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Tue, Jun 13 2017 (Host OS)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8QWIzUHQzU2x6N00)
+* [Audio](to be added)
+* [Host OS presentation](to be added)
+
 ### Tue, Jun 06 2017 (Multicontainers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8a1A4dEVyRlUzSkE)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8bUZxUnZTMldYbUk)
