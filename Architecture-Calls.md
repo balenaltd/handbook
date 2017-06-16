@@ -14,9 +14,24 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-* [No items pinned currently]
+* Analytics & error tracking approach
 
 ## Recent Meeting Notes
+
+### 12 Jun 2017
+
+- [Meeting Recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/cxUpl2z6StLKF8fEpixllDN3l-k)
+
+- Items Covered
+  - Discuss our analytics & error tracking approach
+  - RPI 64 support
+  - Self service resinhup - Should it update supervisor?
+    - Action
+      - It should, logic will be implemented in resinhup script. Coordination with action server on the proxy side will also be needed
+
+
+
 
 ### 7 Jun 2017
 
