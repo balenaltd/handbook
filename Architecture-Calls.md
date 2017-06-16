@@ -20,11 +20,12 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 12 Jun 2017
 
-- [Meeting Recording]()
+- [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLcDhVM0FPMW9icTQ)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/cxUpl2z6StLKF8fEpixllDN3l-k)
 
 - Items Covered
   - Discuss our analytics & error tracking approach
+    - Needs more research
   - RPI 64 support
   - Self service resinhup - Should it update supervisor?
     - Action
