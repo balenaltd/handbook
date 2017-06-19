@@ -74,8 +74,18 @@ We are uploading architecture call recordings as a convenience to people who mig
   - **Actions**
     - We'll use an 'almost JSON' approach with quotes and commas only (no brackets)
     - This special format will **only be used** for config.txt variables
+    - We are OK with uploading the initial config.txt env values to the API when the supervisor is updated, there are state machine concerns however
+  
+- Discussed supervisor update process and state
+  - Relevant to supervisor.conf
+  - Problem: there are two places where we set supervisor version that a device should be running
+  - One is /etc/supervisor.conf, the other is the API
+  - This can lead to weird interactions. 
+  - Supervisor.conf should be updated with the version in API
+  - We discussed about resinHUP and how it should handle OS updates. We'd originally said that it should first find the supervisor version running on he device and update the file.
+  - **Actions**
+    - Consensus is that we need to fix this, will be brought up in Monday's arch call
 
-- **Discussed supervisor update/state**
 ---
 
 ### 12 Jun 2017
@@ -91,8 +101,7 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Action
       - It should, logic will be implemented in resinhup script. Coordination with action server on the proxy side will also be needed
 
-
-
+---
 
 ### 7 Jun 2017
 
