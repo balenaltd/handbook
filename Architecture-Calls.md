@@ -18,6 +18,23 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 16 Jun 2017
+
+- [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLWHIxdzNHTVNnekU)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/crEqlSoWS9FT-ldNttwx5pxiPTl)
+
+- [Discuss potential UX improvements to the prod/dev image selection](https://app.frontapp.com/open/cnv_5rzxgb)
+  - **Actions**
+    - Moved to product call
+    - Need to get designs for that, looks like it's a usability issue
+    - We might also change versioning scheme, though not soon
+- [Discuss next steps of reconfix and resin-image-fs](https://app.frontapp.com/open/cnv_5pp8e9)
+- [Discuss changing the behaviour of moving devices between apps so that it removed the App data by default.](https://app.frontapp.com/open/cnv_5stiyh)
+- [boot to root migration: root space, rpi uboot, 1.X line](https://app.frontapp.com/open/cnv_5sjs55)
+  - ref: https://github.com/resin-io/hq/pull/921
+- [We should decide and move forward on what to do for config.txt](https://app.frontapp.com/open/cnv_5ks0b3)
+---
+
 ### 12 Jun 2017
 
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLcDhVM0FPMW9icTQ)
