@@ -83,6 +83,7 @@ We are uploading architecture call recordings as a convenience to people who mig
   - This can lead to weird interactions. 
   - Supervisor.conf should be updated with the version in API
   - We discussed about resinHUP and how it should handle OS updates. We'd originally said that it should first find the supervisor version running on he device and update the file.
+  - Is supervisor.conf a 'dumb' file (a reflection from API info) or can it be used to determine version (i.e. target)
   - **Actions**
     - Consensus is that we need to fix this, will be brought up in Monday's arch call
 
