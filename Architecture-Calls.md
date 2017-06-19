@@ -57,24 +57,25 @@ We are uploading architecture call recordings as a convenience to people who mig
      - solution 2: add underscore and index to values
      - Example config.txt values:
      ```
-enable_uart=1
-dtparam=i2c_arm=on
-dtparam=spi=on
-disable_splash=1
-avoid_warnings=1
-dtparam=audio=on
-dtoverlay=foo,param1=val1,param2=val2
+     enable_uart=1
+     dtparam=i2c_arm=on
+     dtparam=spi=on
+     disable_splash=1
+     avoid_warnings=1
+     dtparam=audio=on
+     dtoverlay=foo,param1=val1,param2=val2
      ```
     - dtparam is sugar for dtoverlay 
-    - examples: 
+    - examples/suggestions during the call (we ended up with the last two suggestions): 
       - dtparam=["audio=on", "param1=bar"]
       - "audio=on","spi=off"
       - "foo,param=val","bar,param2=val2"
-      - "foo,param1=val1,param2=val2"
-      - W
-This format will only be used for config.txt variables
+      - "foo,param1=val1,param2=val2"   
   - **Actions**
     - We'll use an 'almost JSON' approach with quotes and commas only (no brackets)
+    - This special format will **only be used** for config.txt variables
+
+- **Discussed supervisor update/state**
 ---
 
 ### 12 Jun 2017
