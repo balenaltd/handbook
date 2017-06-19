@@ -29,10 +29,43 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Need to get designs for that, looks like it's a usability issue
     - We might also change versioning scheme, though not soon
 - [Discuss next steps of reconfix and resin-image-fs](https://app.frontapp.com/open/cnv_5pp8e9)
-- [Discuss changing the behaviour of moving devices between apps so that it removed the App data by default.](https://app.frontapp.com/open/cnv_5stiyh)
+  - Idea: we could run the image maker reconfiguration logic in the browser
+  - **Actions**
+    - The first step is to integrate reconfix to have it working with images. There's a node version of reconfix we can use
+    - We can create a image maker endpoint that'll take reconfigx schema and configuration
+    - @zvin is leading this
+- [Discuss changing the behaviour of moving devices between apps so that it removed the App data by default.]
+(https://app.frontapp.com/open/cnv_5stiyh)
+  - **Actions**
+    - There was consensus on doing it https://github.com/resin-io/resin-supervisor/issues/110
 - [boot to root migration: root space, rpi uboot, 1.X line](https://app.frontapp.com/open/cnv_5sjs55)
   - ref: https://github.com/resin-io/hq/pull/921
+  - **Actions**
+    - We will be writing tests in https://mochajs.org/
+    - We will start with a test for provisioning a device
+    - We will try to migrate and automate as much as possible from testlodge, resinos-tests (github), autohat (kernel modules, fingerprints etc)
+    - The tests will be using the cli and/or sdk
+- [ResinHUP 1.X to 2.X: partition table migration is ready and the scripts are pushed to resinhup respository](https://app.frontapp.com/open/cnv_5q9vo3)
+  - **Actions**
+    - For 1.x to 2.x, let's use what we have (resinhup script), we don't need to reimplement anything since it will be phased out
+    - Need to find which ResinOS version was live when we announced that resin is out of beta (@imrehg is leading this)
 - [We should decide and move forward on what to do for config.txt](https://app.frontapp.com/open/cnv_5ks0b3)
+  - Problem:
+    - Users don't know what variables are already in the initial config.txt , so when asked to add, they don't know the current state
+    - With current key/value we can't set keys that can have multiple values
+     - solution 1: use array syntax - can't use comma as a delimiter since it's used as a value
+     - solution 2: add underscore and index to values
+     - Example config.txt values:
+     ```
+enable_uart=1
+dtparam=i2c_arm=on
+dtparam=spi=on
+disable_splash=1
+avoid_warnings=1
+dtparam=audio=on
+dtoverlay=foo,param1=val1,param2=val2
+     ```
+  - **Actions**
 ---
 
 ### 12 Jun 2017
