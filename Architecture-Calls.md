@@ -48,7 +48,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [ResinHUP 1.X to 2.X: partition table migration is ready and the scripts are pushed to resinhup respository](https://app.frontapp.com/open/cnv_5q9vo3)
   - **Actions**
     - For 1.x to 2.x, let's use what we have (resinhup script), we don't need to reimplement anything since it will be phased out
-    - Need to find which ResinOS version was live when we announced that resin is out of beta (@imrehg is leading this)
+    - Need to find which ResinOS version was live when we announced that resin is out of beta (@imrehg is leading this) - https://github.com/resin-io/hq/issues/924
 - [We should decide and move forward on what to do for config.txt](https://app.frontapp.com/open/cnv_5ks0b3)
   - Problem:
     - Users don't know what variables are already in the initial config.txt , so when asked to add, they don't know the current state
@@ -65,7 +65,16 @@ avoid_warnings=1
 dtparam=audio=on
 dtoverlay=foo,param1=val1,param2=val2
      ```
+    - dtparam is sugar for dtoverlay 
+    - examples: 
+      - dtparam=["audio=on", "param1=bar"]
+      - "audio=on","spi=off"
+      - "foo,param=val","bar,param2=val2"
+      - "foo,param1=val1,param2=val2"
+      - W
+This format will only be used for config.txt variables
   - **Actions**
+    - We'll use an 'almost JSON' approach with quotes and commas only (no brackets)
 ---
 
 ### 12 Jun 2017
