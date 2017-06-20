@@ -3,6 +3,7 @@
 * [Post-sales master checklist](#post-sales-master-checklist)
 * [Pricing Guidelines](#pricing-guidelines)
 * [Lead Qualification Tasks](#lead-qualification-tasks)
+* [Sales Content Index](https://docs.google.com/document/d/1aHO7hNgISnEkhJ4Ij0ySeqIWc5Uc1FKn8YjXbEuU7Xg/edit)
 
 
 ##  Post-Sales Master Checklist
