@@ -228,8 +228,9 @@ systemctl start resin-supervisor
 
 ## Device stuck in "Stopping" state
 
-This is usually a symptom of the Supervisor being dead. Most times this is caused by https://github.com/resin-io/hq/issues/401 - refer to the workaround there. If it is **not** that issue (i.e. logs don't show the "name already taken" error), then the same fix might still work, but **please get as many logs from the device and send them to the Supervisor team** (e.g. @pcarranzav) for diagnosis.
-Logs that can be useful:
+This is usually a symptom of the Supervisor being dead. Most times this is caused by https://github.com/resin-io/hq/issues/401 - refer to the workaround there. If it is **not** that issue (i.e. logs don't show the "name already taken" error), then the same fix might still work, but first **please run [leech](https://github.com/resin-io/leech), attach to the ticket as a .txt file, and ping the Supervisor team** (e.g. @pcarranzav) for diagnosis. Then fix the device.
+
+Other logs that can be useful:
 ```
 journalctl -fn 100 -u resin-supervisor
 journalctl -fn 100 -u docker
@@ -237,7 +238,6 @@ dmesg | tail -n 100
 docker ps -a # before and after applying any fixes
 docker images
 ```
-Running [leech](https://github.com/resin-io/leech) also helps and we're working on improving and automating it.
 
 ## (can't) Swap on BTRFS
 **About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
