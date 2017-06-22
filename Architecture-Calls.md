@@ -32,10 +32,10 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [How to merge all beaglebone applications into a single device type.](https://app.frontapp.com/open/cnv_5u4xpz)
 - Not sure if we should merge beaglebone types or deprecate and ignore
     - Deploy beaglebone type and follow a 'compatible with' OS/device type approach 
- - **Actions:**
-    - We should start with creating a new beaglebone device type
-    - Then implement deprecation in UI/CLI/SDK. This means that we won't list them , but if an app has them it should act as normal    
-    - Needs a brief spec to track/organise work & deprecation process (@shaunmulligan)
+    - **Actions:**
+      - We should start with creating a new beaglebone device type
+      - Then implement deprecation in UI/CLI/SDK. This means that we won't list them , but if an app has them it should act as normal    
+      - Needs a brief spec to track/organise work & deprecation process (@shaunmulligan)
 
 - [Best way to give ARM builds personalities](https://app.frontapp.com/open/cnv_5u92hp)
   - Parse dockerfile, prepend commands with special binary and then it will run
