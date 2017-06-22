@@ -24,6 +24,11 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GXbffmqkIc9bbXTgapw48kBU-gZ)
 
 - [Discuss our analytics & error tracking approach](https://app.frontapp.com/open/cnv_5kll9t)
+  - Checked segment
+  - Shimming didn't work in our first attempts, we're not sure which browser APIs failed
+  - **Action:** 
+    - write custom integration for node/mixpanel and see how it goes 
+
 - [How to merge all beaglebone applications into a single device type.](https://app.frontapp.com/open/cnv_5u4xpz)
 - [Best way to give ARM builds personalities](https://app.frontapp.com/open/cnv_5u92hp)
   - Parse dockerfile, prepend commands with special binary and then it will run
