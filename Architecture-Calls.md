@@ -63,6 +63,7 @@ We are uploading architecture call recordings as a convenience to people who mig
     - we should do it to everything but the last build (for multistage builds)
     - bind-mount SECRET bind file
     - Need more discussion w/ @afitzek
+    - ref: https://github.com/resin-io/hq/issues/12
 
 - [hass.io request: custom ovpnvpn or ssh keys configuration](https://app.frontapp.com/open/cnv_5u3xu3)
   - **Action:**
