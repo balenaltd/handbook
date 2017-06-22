@@ -26,8 +26,32 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Discuss our analytics & error tracking approach](https://app.frontapp.com/open/cnv_5kll9t)
 - [How to merge all beaglebone applications into a single device type.](https://app.frontapp.com/open/cnv_5u4xpz)
 - [Best way to give ARM builds personalities](https://app.frontapp.com/open/cnv_5u92hp)
+  - Parse dockerfile, prepend commands with special binary and then it will run
+  - **Action:** 
+    - use similar solution with qemu
+
 - [Discuss supervisor update process and state (/etc/supervisor.conf vs API)](https://app.frontapp.com/open/cnv_5u3k3b)
+  - Update supervisor with resinHUP
+  - update-supervisor script - we are reimplementing that in resinHUP
+  - the new operating system will try to get latest, after 15 minutes it'll run which is a problem
+  - **Action:** 
+    - needs more discussion
+
 - [Discuss build time secrets. Or the "How do I pull code from a private github/npm account"](https://app.frontapp.com/open/cnv_5u81jt)
+
+  - raised by ray & goee
+  - they'd like to authenticate with 3rd party services during build
+  - idea: what if we had a keypair for every device
+  - They can commit secrets to Dockerfile, but that ends up in the device with multistage builds, args and keys we most likely have  a solution. The mechanism that extracts values is tricky to use, requires education
+  - **Actions:**
+    - offer encryption key
+    - specify them in ui or cli when you do your build
+    - builder starts build, decrypts encrypted files (e.g. resin-secrets.yml)
+    - the other question is, where do we expose the info? 
+    - we should do it to everything but the last build (for multistage builds)
+    - bind-mount SECRET bind file
+    - Need more discussion w/ @afitzek
+
 - [hass.io request: custom ovpnvpn or ssh keys configuration](https://app.frontapp.com/open/cnv_5u3xu3)
   - **Action:**
     - We'll have a call set up
