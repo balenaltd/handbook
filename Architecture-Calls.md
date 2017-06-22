@@ -43,11 +43,8 @@ We are uploading architecture call recordings as a convenience to people who mig
     - use similar solution with qemu
 
 - [Discuss supervisor update process and state (/etc/supervisor.conf vs API)](https://app.frontapp.com/open/cnv_5u3k3b)
-  - Update supervisor with resinHUP
-  - update-supervisor script - we are reimplementing that in resinHUP
-  - the new operating system will try to get latest, after 15 minutes it'll run which is a problem
-  - **Action:** 
-    - needs more discussion
+  - Discussed how we bundle the supervisor (should we tie the supervisor version to resinOS or not)
+  - No action, needs more discussion
 
 - [Discuss build time secrets. Or the "How do I pull code from a private github/npm account"](https://app.frontapp.com/open/cnv_5u81jt)
 
