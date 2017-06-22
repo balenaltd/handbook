@@ -18,6 +18,22 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 19 Jun 2017
+
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLVnM0MXF6X0x2blk)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GXbffmqkIc9bbXTgapw48kBU-gZ)
+
+- [Discuss our analytics & error tracking approach](https://app.frontapp.com/open/cnv_5kll9t)
+- [How to merge all beaglebone applications into a single device type.](https://app.frontapp.com/open/cnv_5u4xpz)
+- [Best way to give ARM builds personalities](https://app.frontapp.com/open/cnv_5u92hp)
+- [Discuss supervisor update process and state (/etc/supervisor.conf vs API)](https://app.frontapp.com/open/cnv_5u3k3b)
+- [Discuss build time secrets. Or the "How do I pull code from a private github/npm account"](https://app.frontapp.com/open/cnv_5u81jt)
+- [hass.io request: custom ovpnvpn or ssh keys configuration](https://app.frontapp.com/open/cnv_5u3xu3)
+  - **Action:**
+    - We'll have a call set up
+
+---
+
 ### 16 Jun 2017
 
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLWHIxdzNHTVNnekU)
