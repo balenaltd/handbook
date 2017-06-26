@@ -14,7 +14,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-* Analytics & error tracking approach
 * Supervisor update process
 
 ## Recent Meeting Notes
