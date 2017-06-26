@@ -32,7 +32,7 @@ We are uploading architecture call recordings as a convenience to people who mig
   - Should we use queues?
   - Need to decide on what kind of delivery guarantees we want. For instance, Front doesn't retry
   - **Action:**
-    - Continue discussion in spec
+    - Continue discussion in spec (https://github.com/resin-io/hq/pull/926)
 
 - Discussed Amber
 
