@@ -19,6 +19,25 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 22 Jun 2017
+
+- [Meeting recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/g7Y3Eee4oDLmAs9vM1Kc0RRnVff)
+
+[Discuss high-level architecture of the webhooks implementation](https://app.frontapp.com/open/cnv_5uxu6n)
+  - Discussing architecture parts of the spec
+  - Discussed whether this should be part of the API or a new component. Some arguments were:
+    - API has already a lot of responsibility
+    - too many sockets open in the API / could overload it
+  - Should we use queues?
+  - Need to decide on what kind of delivery guarantees we want. For instance, Front doesn't retry
+  - **Action:**
+    - Continue discussion in spec
+
+- Discussed Amber
+
+---
+
 ### 19 Jun 2017
 
 - [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLVnM0MXF6X0x2blk)
