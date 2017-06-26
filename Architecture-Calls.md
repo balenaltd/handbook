@@ -21,7 +21,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 22 Jun 2017
 
-- [Meeting recording]()
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLSFhCbkE2R1NQN1U)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/g7Y3Eee4oDLmAs9vM1Kc0RRnVff)
 
 [Discuss high-level architecture of the webhooks implementation](https://app.frontapp.com/open/cnv_5uxu6n)
