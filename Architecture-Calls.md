@@ -24,24 +24,32 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/nBrZR5Vw00Op1i7XgIZP13qDbKR)
 
 [Discuss our analytics & error tracking approach](https://app.frontapp.com/open/cnv_5kll9t)
-- **Actions:**
-  - 
+  - **Actions:**
+    - .
 
 [Discuss supervisor update process and state](https://app.frontapp.com/open/cnv_5u3k3b)
-- **Actions:**
-  - 
+  - **Actions:**
+    - .
 
 [Migrating from 1.X to 2.X (partition table) needs host tools that are not available in any version until now (1.26). These tools are: mkfs.ext4 and tar](https://app.frontapp.com/open/cnv_5udh1b)
-- **Actions:**
-  - 
+  - **Actions:**
+    - .
 
 [Discuss blockers with VersionBot as a ‘private’ Github App](https://app.frontapp.com/open/cnv_5utv1h)
-- **Actions:**
-  - 
+  - **Actions:**
+    - .
 
 [Discuss the necessity to have unique emails](https://app.frontapp.com/open/cnv_5xdkf5)
+  - **Actions:**
+    - .
+
 [Discuss and prioritise current delta issues.](https://app.frontapp.com/open/cnv_5xf0yn)
+  - **Actions:**
+    - .
+
 [Continue the actor model discussion in relation to the new user-generated api keys](https://app.frontapp.com/open/cnv_5xqgot)
+  - **Actions:**
+    - .
 
 ---
 
