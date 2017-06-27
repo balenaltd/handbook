@@ -18,6 +18,13 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 26 Jun 2016
+
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLQ2VwRnJNdjJtUE0)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/nBrZR5Vw00Op1i7XgIZP13qDbKR)
+
+---
+
 ### 22 Jun 2017
 
 - [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLSFhCbkE2R1NQN1U)
