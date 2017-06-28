@@ -14,11 +14,18 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-* Supervisor update process
+* 
 
 ## Recent Meeting Notes
 
-### 26 Jun 2016
+### 28 Jun 2017
+
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLbk12Q1dQbHotWE0)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/MYBF6W_rRV1C29e0n5cS1Mk3bsm)
+
+---
+
+### 26 Jun 2017
 
 - [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLQ2VwRnJNdjJtUE0)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/nBrZR5Vw00Op1i7XgIZP13qDbKR)
