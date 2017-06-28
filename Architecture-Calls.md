@@ -40,6 +40,7 @@ We are uploading architecture call recordings as a convenience to people who mig
   - **Actions:**
     - Will try to get rid of CI after version bump
     - Found a way forward on fetching branches from forked repos
+    - Post-call discussion: https://www.flowdock.com/app/rulemotion/r-process/threads/29dY1NyA5NsEirck8_kKJqOpmd1
 
 [Discuss the necessity to have unique emails](https://app.frontapp.com/open/cnv_5xdkf5)
   - **Actions:**
