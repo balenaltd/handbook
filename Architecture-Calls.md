@@ -25,7 +25,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Discuss our analytics & error tracking approach](https://app.frontapp.com/open/cnv_5kll9t)
   - **Actions:**
-    - .
+    - Create OSS fork from segment repo
+    - Look into corvus and integrate useful stuff from there
 
 [Discuss supervisor update process and state](https://app.frontapp.com/open/cnv_5u3k3b)
   - **Actions:**
@@ -37,7 +38,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Discuss blockers with VersionBot as a ‘private’ Github App](https://app.frontapp.com/open/cnv_5utv1h)
   - **Actions:**
-    - .
+    - Will try to get rid of CI after version bump
+    - Found a way forward on fetching branches from forked repos
 
 [Discuss the necessity to have unique emails](https://app.frontapp.com/open/cnv_5xdkf5)
   - **Actions:**
@@ -45,11 +47,16 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Discuss and prioritise current delta issues.](https://app.frontapp.com/open/cnv_5xf0yn)
   - **Actions:**
-    - .
+    - We need to prioritise:
+      - Reliability / Resiliency in bad networks
+      - Resumable deltas
+      - Tests
 
 [Continue the actor model discussion in relation to the new user-generated api keys](https://app.frontapp.com/open/cnv_5xqgot)
   - **Actions:**
-    - .
+    - Make a list of the endpoints/hooks that will break if req.user is missing
+    - Afterwards, if we agree, add a middleware to the api for all endpoints that, when an api key is used, tries to fill req.user with the user (if user found with actor id)
+    - Eventually migrate to pine
 
 ---
 
