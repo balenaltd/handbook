@@ -50,8 +50,15 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Post-call discussion: https://www.flowdock.com/app/rulemotion/r-process/threads/29dY1NyA5NsEirck8_kKJqOpmd1
 
 [Discuss the necessity to have unique emails](https://app.frontapp.com/open/cnv_5xdkf5)
+  - Discussed user support case where the user (for unclear reasons) wanted to convert a social account to email signup
+  - The current flow to do this is for the user to ask for a pass reset. That'll result in a password reset link, that will set a password to the account and in effect create a proper account
+
   - **Actions:**
-    - .
+    - Keep emails unique
+    - Collect and verify emails
+    - Account managing is complex. We want to continue the conversation about simplifying, which includes:
+      - Merging accounts
+      - Elevating the username to user visible information
 
 [Discuss and prioritise current delta issues.](https://app.frontapp.com/open/cnv_5xf0yn)
   - **Actions:**
