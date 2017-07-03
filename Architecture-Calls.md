@@ -36,8 +36,14 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Look into corvus and integrate useful stuff from there
 
 [Discuss supervisor update process and state](https://app.frontapp.com/open/cnv_5u3k3b)
+  - supervisor.conf contains image/tag of supervisor
+  - Need a cache for last confirmed working supervisor version.
+  - Why not use existing image/tag as last working?
+    - No matter what you do, you need either a file or a docker tag for last confirmed state
+    - There's no need to keep a cache of the target state locally, on the disk, because this is a runtime env
+    - One of the changes in meta-resin will be to use the value in resin-supervisor.conf instead of latest
   - **Actions:**
-    - .
+    - Already PR'ed a comment to supervisor.conf to note that this is the last confirmed working supervisor version
 
 [Migrating from 1.X to 2.X (partition table) needs host tools that are not available in any version until now (1.26). These tools are: mkfs.ext4 and tar](https://app.frontapp.com/open/cnv_5udh1b)
   - A requirement that came up is that we have to reboot after repartitioning
