@@ -40,6 +40,8 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Write spec (https://github.com/resin-io/hq/pull/938)
 
 [Discuss the bigger rootfs size for the Nvidia Jetson TX2](https://app.frontapp.com/open/cnv_5zkiof)
+  - **Action:**
+    - We should consider / decide on per-board rootFS sizes
 
 [Discuss ideas to implement some device health checks mechanisms / heuristics](https://app.frontapp.com/open/cnv_60m4a9)
 
