@@ -23,6 +23,17 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLbk12Q1dQbHotWE0)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/MYBF6W_rRV1C29e0n5cS1Mk3bsm)
 
+[How do we support a Node.js version of the resin-wifi-connect Rust rewrite](https://app.frontapp.com/open/cnv_5ysg61)
+
+[Discuss how we can transfer ownership of applications between users](https://app.frontapp.com/open/cnv_5z0nan)
+
+[Discuss the bigger rootfs size for the Nvidia Jetson TX2](https://app.frontapp.com/open/cnv_5zkiof)
+
+[Discuss ideas to implement some device health checks mechanisms / heuristics](https://app.frontapp.com/open/cnv_60m4a9)
+
+  - **Action:**
+    - Check existing spec (https://github.com/resin-io/hq/pull/278) and see if we can add supervisor state in the suggested model
+
 ---
 
 ### 26 Jun 2017
