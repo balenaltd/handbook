@@ -40,8 +40,10 @@ We are uploading architecture call recordings as a convenience to people who mig
     - .
 
 [Migrating from 1.X to 2.X (partition table) needs host tools that are not available in any version until now (1.26). These tools are: mkfs.ext4 and tar](https://app.frontapp.com/open/cnv_5udh1b)
+  - A requirement that came up is that we have to reboot after repartitioning
   - **Actions:**
-    - .
+    - The utils/user data must be persisted on disk in the inactive partition (archived and compressed), having them in ramdisk won't work because we have to reboot
+    - The inactive partition is the partition that will write the new file system. Until we use it, nothing uses it, so we can use it as scratch space to do the copying
 
 [Discuss blockers with VersionBot as a ‘private’ Github App](https://app.frontapp.com/open/cnv_5utv1h)
   - **Actions:**
