@@ -25,7 +25,19 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [How do we support a Node.js version of the resin-wifi-connect Rust rewrite](https://app.frontapp.com/open/cnv_5ysg61)
 
+  - We want to keep compatibility with the current resin-wifi-connect project
+  - The interface is a binary called with the same args
+  - We might have to write a small nodejs wrapper to call the rust binary
+  - Suggestion: release version of current wifi-connect version (2.x) and that one has a message that says
+  - 'this version is deprecated, we have released this (rust) that is better, native etc.) and 3.x version will be rust
+  - There's a build-time 'interface' wrt to how wifi connect is currently installed (Dockerfile instruction) that we do not think should be regarded as a contract / backwards compatible interface
+
+  - **Action:**
+    - Go with three repos
+
 [Discuss how we can transfer ownership of applications between users](https://app.frontapp.com/open/cnv_5z0nan)
+  - **Action:**
+    - Write spec (https://github.com/resin-io/hq/pull/938)
 
 [Discuss the bigger rootfs size for the Nvidia Jetson TX2](https://app.frontapp.com/open/cnv_5zkiof)
 
