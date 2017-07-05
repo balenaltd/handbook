@@ -23,11 +23,45 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Recording - pending]()
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Tc9ZM-o1yY3QQ8zcwePFpVDb7__)
 
-[]()
-[]()
+[Discuss where to host statically linked tools binaries for 1.x to 2.x resinhup](https://app.frontapp.com/open/cnv_6210qd)
+  - The first candidate/location is files.resin.io
+  - We need a scheme and process to store all different binaries
+  - **Actions:**
+    - We will store them in the git repo
 
+[Discuss migrating from armhf/alpine, and checking the alpine versions provided by resin.](https://app.frontapp.com/open/cnv_5hjhmn)
+  - **Actions:**
+    - We'd like to 'differentiate' our images, make them better and make them more 'ours'
 
-[]()[]()
+[Discuss next steps for leech and other fleet actions in resin-proxy](https://app.frontapp.com/open/cnv_63dg49)
+  - **Actions:**
+    - We'll continue with the vendoring approach for resinHUP and any other scripts we add (e.g. leech)
+    - We need to make proper vendoring, for instance by referencing scripts directly from the respective git repos.
+
+[Discuss using vault as a secret store for environment keyframe configurations](https://app.frontapp.com/open/cnv_5zsagn)
+
+  - problem: env/conf vars stored in production keyframe mean that we need to limit even read access, which complicates deployment process
+  - There is no need to store secrets in the same palce as the environment
+  - If not there, where?
+  - Vault is built for things like that, also solves the problem with cloudformation now (we could move immediately)
+  - The issue is how deploy bot will get the encrypted values
+  - The deploybot auths with vault, it has a key
+
+  - Worried that someone, because it's a git repo and replicated all over the place, there's no way to revoke old keys if someone gets old decryption pass / so there's no way to restrict access
+  - In vault, however, we can revoke the token or even take vault down. Tokens also have TTL
+Another option is to use our API and adequate permissions
+
+  - Vault has advantages like key rotation, but it's hard to operate
+
+  - Another option would be to create secrets in Kubernetes and reference them from keyframe
+in the interim deploybot can query secrets to kubernetes and port them to fleet
+
+  - Action:
+    - Use Kubernetes to store secrets
+    - Port a few repos (ui/api) to use as examples
+    - Need a spec for the move to kubernetes
+
+[]()
 ---
 ### 28 Jun 2017
 
