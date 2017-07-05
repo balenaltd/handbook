@@ -2017,6 +2017,20 @@ If the above command says for the supervisor STATUS is "Removal In Progress" and
 # systemctl start resin-supervisor
 ```
 
+or here's a complete script that you can copy-paste and run inside the hostOS to automate this:
+
+```
+CONTAINER=$(docker ps -a --no-trunc | grep Removal |  grep resin_supervisor | awk '{ print $1 }')     
+if [ ! -z "$CONTAINER" ]; then
+echo "Found removal in progress supervisor: ${CONTAINER}";   
+ systemctl stop resin-supervisor    
+ systemctl stop docker    
+ rm -r /var/lib/docker/containers/${CONTAINER}
+ systemctl start docker
+ systemctl start resin-supervisor
+fi
+```
+
 After this, the supervisor container should start correctly. If not, read below for other info if any, it means you are not this lucky :)
 
 **Either way, make sure to convey to the user that they should upgrade resinOS to at least 1.26**, otherwise the issue is likely to happen again. Here's a nice snippet to use:
