@@ -61,7 +61,8 @@ in the interim deploybot can query secrets to kubernetes and port them to fleet
     - Port a few repos (ui/api) to use as examples
     - Need a spec for the move to kubernetes
 
-[]()
+[Discuss progress of resin cam](https://app.frontapp.com/open/cnv_62im1d)
+
 ---
 ### 28 Jun 2017
 
