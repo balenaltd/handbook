@@ -56,7 +56,7 @@ Another option is to use our API and adequate permissions
   - Another option would be to create secrets in Kubernetes and reference them from keyframe
 in the interim deploybot can query secrets to kubernetes and port them to fleet
 
-  - Action:
+  - **Actions:**
     - Use Kubernetes to store secrets
     - Port a few repos (ui/api) to use as examples
     - Need a spec for the move to kubernetes
