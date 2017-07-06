@@ -1396,6 +1396,8 @@ serious trouble :)
 
 __NOTE:__ We only support 1.x to 1.x host os updates.
 
+[Matrix of possible version updates](https://docs.google.com/a/resin.io/spreadsheets/d/171cgf11Po5W_TKgg5mRKlj7fbsca4E21iOYMWLg2PMM/edit?usp=sharing)
+
 ### Scheduling an Update
 
 If a user asks for updating the host OS on some of their devices, or the whole
@@ -1407,7 +1409,7 @@ fleet:
 * Start an [issue in hq](https://github.com/resin-io/hq/issues) with the update
   request, with link to both the spreadsheet and the support conversation
 
-If a user is only asking for a small fleet update, then it seems currently acceptable to get them to give the URLs for the devices required and ping relevant device team members in the 'r/support' Flowdock channel using Front tagging.
+If a user is only asking for a small fleet update, then it seems currently acceptable to get them to give the URLs for the devices required, start a thread in flowdock as usual from the support sidebar, and make a "#deviceupdate" note on it, so proper notifications are sent.
 
 ## 1. Checking Disk Space Usage
 
