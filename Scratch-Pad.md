@@ -1394,6 +1394,8 @@ serious trouble :)
 
 ## Updating the Host OS
 
+__NOTE:__ We only support 1.x to 1.x host os updates.
+
 ### Scheduling an Update
 
 If a user asks for updating the host OS on some of their devices, or the whole
