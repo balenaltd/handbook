@@ -18,6 +18,19 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 05 Jul 2017
+
+- [Meeting Recording - pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/gQPU_JmqBOmIXsshqfxCu_sxPMe)
+
+[Discuss testing framework (mochaJS) ](https://app.frontapp.com/open/cnv_64m3ih)
+
+[Discuss the correct way to query (and set) supervisor versions](https://app.frontapp.com/open/cnv_63y71h)
+
+[How can admins know if a device in local mode, or the device is update-locked?](https://app.frontapp.com/open/cnv_64o65d)
+
+---
+
 ### 03 Jul 2017
 
 - [Meeting Recording - pending]()
