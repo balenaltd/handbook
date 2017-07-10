@@ -42,13 +42,13 @@ We are uploading architecture call recordings as a convenience to people who mig
 [How can admins know if a device in local mode, or the device is update-locked?](https://app.frontapp.com/open/cnv_64o65d)
 
 ##### Discussed admin access to device info (e.g. env vars)
- 
-  - Action
+
+  - **Action**
     - In the future, support agents won't have access to anything, unless users have enabled support to their device
     - Side effect: they won't be able to see stale devices anyway
 
 ##### Discuss next steps with app transfer and username changes
-  - Action
+  - **Action**
     - We are moving forward with resin-git changes (Kostas/Will to work on this)
 
 ---
