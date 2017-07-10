@@ -37,7 +37,7 @@ We are uploading architecture call recordings as a convenience to people who mig
     - supervisor_version is the current running one (as reported by device)
 
   - **Action**
-    - supervisor should add itself in the api on release
+    - supervisor should add itself in the api on release - https://github.com/resin-io/resin-supervisor/issues/471
 
 [How can admins know if a device in local mode, or the device is update-locked?](https://app.frontapp.com/open/cnv_64o65d)
 
