@@ -25,9 +25,31 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Discuss testing framework (mochaJS) ](https://app.frontapp.com/open/cnv_64m3ih)
 
+  - **Action**
+    - testing framework should stay in meta-resin
+    - resinos-tests as a candidate for name
+    - rename the existing 'tests' repo
+
 [Discuss the correct way to query (and set) supervisor versions](https://app.frontapp.com/open/cnv_63y71h)
 
+  - One endpoint is supervisor release , the other one is the device endpoint
+    - supervisor_release is target version, set by the cloud
+    - supervisor_version is the current running one (as reported by device)
+
+  - **Action**
+    - supervisor should add itself in the api on release
+
 [How can admins know if a device in local mode, or the device is update-locked?](https://app.frontapp.com/open/cnv_64o65d)
+
+##### Discussed admin access to device info (e.g. env vars)
+ 
+  - Action
+    - In the future, support agents won't have access to anything, unless users have enabled support to their device
+    - Side effect: they won't be able to see stale devices anyway
+
+##### Discuss next steps with app transfer and username changes
+  - Action
+    - We are moving forward with resin-git changes (Kostas/Will to work on this)
 
 ---
 
