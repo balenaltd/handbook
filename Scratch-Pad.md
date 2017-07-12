@@ -1508,7 +1508,7 @@ this temporary addition via:
 
 ```bash
 btrfs device delete $loopdev /var/lib/docker
-btrfs balance start -v -dusage=1 /var/lib/docker
+btrfs balance start -v -dusage=1 -musage=1 /var/lib/docker
 losetup -D
 rm /tmp/btrfs
 ```
