@@ -9,7 +9,7 @@
 ### Tue, Jun 27 2017 (Amber pt.2)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8YlZGVTRMTkNKNms)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8X1BCV1VjTzg2ZVE)
-* [Host Apps presentation](https://drive.google.com/open?id=1cHBfR8BoRCJhGh6vbpohDURvHAvag_ck11eWhI5lqRM)
+* [Amber pt.2 presentation](https://drive.google.com/open?id=1cHBfR8BoRCJhGh6vbpohDURvHAvag_ck11eWhI5lqRM)
 
 ### Tue, Jun 13 2017 (Host Apps)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8QWIzUHQzU2x6N00)
