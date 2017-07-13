@@ -8,6 +8,16 @@ Many interesting technical discussions often produce very long threads that are 
 
 `#architecture` and Architecture Calls related discussions live in the [`r-process` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-process).
 
+### Running an architecture call
+
+The steps to run an architecture call are:
+
+1. See open architecture call tickets in https://front.frontapp.com/inboxes/shared/d_architecture
+2. Create an architecture call agenda (e.g. check the top message of this thread https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf). When creating an agenda, the main concerns are:
+  - Add a short description with a link to the respective Front inbox ticket. This is so that all interested parties (and often the person who raised the item in the first place) can access the original ticket with the context it brings (e.g. the flowdock thread where the `#architecture` tag was raised)
+  - Ping the person that raised the issue along with other people that were also pinged in the message. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
+  - Release the agenda a couple of hours earlier to give time to people to ack on whether or not they can join the arch call
+
 ### Architecture call recordings
 
 We are uploading architecture call recordings as a convenience to people who might not be able to attend a specific architecture call and want finer-grained details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
