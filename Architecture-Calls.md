@@ -12,11 +12,24 @@ Many interesting technical discussions often produce very long threads that are 
 
 The steps to run an architecture call are:
 
-1. See open architecture call tickets in https://front.frontapp.com/inboxes/shared/d_architecture
-2. Create an architecture call agenda (e.g. check the top message of this thread https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf). When creating an agenda, the main concerns are:
+#### Before
+
+1. Get open architecture call tickets from https://front.frontapp.com/inboxes/shared/d_architecture and create the call agenda in r/process (e.g. check the top message of this thread https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf). When creating an agenda, the main concerns are:
   - Add a short description with a link to the respective Front inbox ticket. This is so that all interested parties (and often the person who raised the item in the first place) can access the original ticket with the context it brings (e.g. the flowdock thread where the `#architecture` tag was raised)
-  - Ping the person that raised the issue along with other people that were also pinged in the message. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
+  - Ping the person that raised the issue along with other people that were mentioned when this call item was first raised. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
   - Release the agenda a couple of hours earlier to give time to people to ack on whether or not they can join the arch call
+
+#### During
+
+1. Have the agenda available and pick the next item for discussion. This happens on a case-by-case basis based on the availability of people that have to attend specific items. If there are no other constraints, we try to disengage people from easter timezones first, so we pick items accordingly.
+
+2. Keep notes of the items discussed and make sure that action items, if any, are also logged. The reporter of the original issue can often help with clearing the action items, and even providing their own notes.
+
+#### After
+
+1. Add notes, the flowdock thread and a link to a recording (if it exists) in this wiki page. Please follow the template that is used in the recent calls.
+2. Paste the same notes in the r/process room by prepending them with a line like `#meeting-notes for 12 Jul Arch call`
+3. Archive the Front tickets of items that were discussed by first adding a comment with a link to the notes of the respective arch call (e.g. https://app.frontapp.com/open/cnv_68uhpn)
 
 ### Architecture call recordings
 
