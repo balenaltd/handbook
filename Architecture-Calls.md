@@ -75,9 +75,16 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Implement all this before starting with API keys and ship separately
     - No change should be needed on PineJS for all this at all
 
-- [Discuss load balancing/discovery for new packet arm builders](https://app.frontapp.com/open/cnv_60nlbh)
-
-- [Discuss how to distribute traffic to remote docker builds](https://app.frontapp.com/open/cnv_624qvl)
+[Discuss load balancing/discovery for new packet arm builders](https://app.frontapp.com/open/cnv_60nlbh)
+  - Actions
+    -  Prioritise ARM 32 bit builder
+    - setup hosts in packet that will have single daemon for 32 bits
+    - host info will be in etcd
+    - builders will use it and try to connect to arm builders
+    - if they fail , fallback to emulated builds
+    - no new name, no haproxy
+    - devops action:
+      - spin up two hosts on packet
 
 ### 05 Jul 2017
 
