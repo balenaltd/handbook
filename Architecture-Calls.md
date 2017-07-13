@@ -18,6 +18,31 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 10 Jul 2017
+
+- [Meeting Recording - pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf)
+
+[Discuss a method to improve the supervisor reliability and device autorecovery](https://app.frontapp.com/open/cnv_627zxb)
+  - Has been discussed afk
+[Webhooks spec](https://app.frontapp.com/open/cnv_66m5kv)
+  - Actions
+    - Update the spec first and foremost so we can agree on it
+    - Webhooks can be less than 100% reliable (no queue, no retries)
+    - Integrations (server) will provide more guarantees, based on the actual integration goal
+      - Maybe retries
+      - Surely self-healing (fetch state from resin and 3rd-party and sync)
+      - Devices created before webhook will be automatically fixed by the self-healing process
+[User-generated api keys (focus on `req.user`)](https://app.frontapp.com/open/cnv_66m63b)
+  - Actions
+    - Remove all the req.user possible
+    - Maintain req.user when JWT for PineJS
+    - Add a req.getUser() / getUser(req) whenever req.user is in the api
+    - Implement all this before starting with API keys and ship separately
+    - No change should be needed on PineJS for all this at all
+- [Discuss load balancing/discovery for new packet arm builders](https://app.frontapp.com/open/cnv_60nlbh)
+- [Discuss how to distribute traffic to remote docker builds](https://app.frontapp.com/open/cnv_624qvl)
+
 ### 05 Jul 2017
 
 - [Meeting Recording - pending]()
