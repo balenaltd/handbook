@@ -15,9 +15,9 @@ The steps to run an architecture call are:
 #### Before
 
 1. Get open architecture call tickets from https://front.frontapp.com/inboxes/shared/d_architecture and create the call agenda in r/process (e.g. check the top message of this thread https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf). When creating an agenda, the main concerns are:
-  - Add a short description with a link to the respective Front inbox ticket. This is so that all interested parties (and often the person who raised the item in the first place) can access the original ticket with the context it brings (e.g. the flowdock thread where the `#architecture` tag was raised)
-  - Ping the person that raised the issue along with other people that were mentioned when this call item was first raised. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
-  - Release the agenda a couple of hours earlier to give time to people to ack on whether or not they can join the arch call
+    - Add a short description with a link to the respective Front inbox ticket. This is so that all interested parties (and often the person who raised the item in the first place) can access the original ticket with the context it brings (e.g. the flowdock thread where the `#architecture` tag was raised)
+    - Ping the person that raised the issue along with other people that were mentioned when this call item was first raised. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
+    - Release the agenda in advance (usually 1-2 hours earlier is fine) to give time to people to ack on whether or not they can join the arch call. If people that are required for a raised item cannot attend, the respective item is postponed for a later call.
 
 #### During
 
