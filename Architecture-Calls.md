@@ -18,6 +18,38 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 12 Jul 2017
+
+- [Meeting Recording - pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf)
+
+[Short discussion about how to implement integrations using webhooks](https://app.frontapp.com/open/cnv_68uhpn)
+
+- Webhooks
+  - Registered/enabled per-application, no custom data
+  - Select with checkboxes to pick which events
+  - An app could have +1 webhook to it
+- Integrations
+  - Extra config parameters (access keys, etc.) are not sent on payload
+  - Integration server will fetch the data from the API
+  - (For integrations definition aka type) Use env var system with constraints
+  - Maybe integrate with AWS and others on the front-end opening a popup or sth like that, if not standard, UI will be our own
+  - Integrations server can have 2 parts, also handle front-end proxy integration to get user keys
+  - For now limit to our integrations, not maximum flexibility (plugins), one DB table per integration
+  - Maybe have a separate project or integrations (or per integration)
+  - Integration project can have ui stuff, backend code and even an sbvr or json. Both UI and API import them but take different parts of it
+  - Now there's no actual need to implement webhooks for this
+  - Leave webhooks for later, only integrations
+  - Self-healing will need to run on API, how to orchestrate multiple servers?
+  - We need proper cron jobs, how (?)
+- What was last said:
+  - Split webhooks spec into webhooks|integrations
+    - Finish and park webhooks feature
+    - We'll discuss more about integrations on Monday
+  - NPM modules with UI, server (pine hooks, endpoints) and sbvr or json file
+    - UI requires module and takes ui
+    - Server takes module and instantiates
+
 ### 10 Jul 2017
 
 - [Meeting Recording - pending]()
