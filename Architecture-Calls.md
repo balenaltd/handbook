@@ -41,6 +41,34 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 17 Jul 2017
+
+- [Meeting Recording - pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/r8cSA5HeDysvdkfkM0UuD-so1U7)
+
+[Should /data on resinOS be named volume (instead of host directory mount)?](https://app.frontapp.com/open/cnv_69mi5p)
+- The docker feature back then didn't exist
+- This should get fixed with multicontainer feature
+
+Actions:
+- PR opened on HQ, will be linked to multicontainer because it should be solved in there as well
+
+[Discuss approaches to improving jenkins throughput for yocto builds](https://app.frontapp.com/open/cnv_6a3r4t)
+- Yocto builds take hours
+- Pablo suggested migrating to Circle
+	- Alex said try to make a decent caching before switching build server
+
+Actions:
+- We'll provision more boxes on Hetzner
+
+[Discuss how we want to set up CI for Etcher in the Seattle office](https://app.frontapp.com/open/cnv_6c7xav)
+
+Actions:
+- Juanchi will prepare a document on how to implement concourse.ci
+- Lauren will provision a Mac NUC and a Windows NUC at the office and add Jack as collaborator
+
+---
+
 ### 12 Jul 2017
 
 - [Meeting Recording - pending]()
