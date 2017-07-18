@@ -43,7 +43,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 17 Jul 2017
 
-- [Meeting Recording - pending]()
+- [Meeting Recording](https://drive.google.com/open?id=0B1xAg_Dw2iS8NUt0VnhESTV3eW8)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/r8cSA5HeDysvdkfkM0UuD-so1U7)
 
 [Should /data on resinOS be named volume (instead of host directory mount)?](https://app.frontapp.com/open/cnv_69mi5p)
