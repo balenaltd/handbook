@@ -41,6 +41,38 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 19 Jul 2017
+
+- [Meeting Recording - pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/JbH8RBK3nx43WaytvBdmdPnLlgf)
+
+Shaun asked if API keys will be by-user or by-app
+- First step is to make them compatible with JWTs so by-user with their permissions
+- Later on we'll implement scopes that could enable stuff like per-app and such
+
+[Specify a property in resin-devicex repositories that will contain a list with the device capabilities.](https://app.frontapp.com/open/cnv_6cu9uh) 
+- **Actions:**
+  - We will not add a new `deviceCapabilities` property to the device-type files of the resin-devicex repos
+  - We will use the imageDownloadAlerts property (a pre-existing implementation used to display alerts in the download dialog) to warn that RPi3 is not capable to connect to 5GHz WiFi. EG: "Your device will not be able to connect to 5GHz WiFi networks unless you use an external WiFi adapter that supports it."
+  - For the RPiZeroW, (which shares the same device-type with RPi 1 & RPi Zero) we will state something like "Raspberry Pi Zero W is not capable of connecting to 5GHz WiFi networks unless you use an external WiFi adapter that supports it."
+
+[Follow-up discussion on 3rd-party integrations](https://app.frontapp.com/open/cnv_6c4zmt)
+- Implementation Levels
+  1. Every bit in their context (api, ui)
+  2. Separated to a module per integration
+  3. Integrations loaded at runtime
+  4. Plugins in general, integrations are one type of plugins
+- Petros suggested we can tie integrations to our events with transactions (and rollback), but we won't do it
+- Alex suggested a ghetto cronjob that checks if enough time passed since last execution on each api event
+
+- **Actions:**
+  - Integrations will be implemented "one-by-one" on the API & UI (as in no generic template)
+  - Integration data (access keys, secrets, etc) will be stored in our schema, either in `application` or a new Vocabulary where is integration type is a model
+  - Integration code will run within the same request that triggers the pertinent events (we won't rollback on errors)
+  - We'll implement some sort of cronjob that runs on a single API process each time
+  - The cronjob will fix sync errors by fetching our integrated apps+devices and comparing to 3rd-parties via their APIs
+----
+
 ### 17 Jul 2017
 
 - [Meeting Recording](https://drive.google.com/open?id=0B1xAg_Dw2iS8NUt0VnhESTV3eW8)
