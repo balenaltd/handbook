@@ -43,7 +43,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 19 Jul 2017
 
-- [Meeting Recording - pending]()
+- No Meeting Recording
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/JbH8RBK3nx43WaytvBdmdPnLlgf)
 
 Shaun asked if API keys will be by-user or by-app
