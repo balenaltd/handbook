@@ -74,6 +74,7 @@
   - [409 While Uploading Metadata](#409-while-uploading-metadata)
     - [Symptoms](#symptoms-6)
   - [Debugging CLI issues](#debugging-cli-issues)
+  - [Retrieving Dashboard URL from device UUID](#retrieving-a-dashboard-url-from-a-device-uuid)
 - [Canned Responses](#canned-responses)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
@@ -687,6 +688,16 @@ Modern versions (5.6.1+) of the CLI should log any errors received to Sentry, wh
 Miscellaneous more specific resin CLI troubleshooting tips can be found in the [public troubleshooting doc](http://docs.resin.io/troubleshooting/cli-troubleshooting/).
 
 Asking the user to set the `DEBUG` env var (to any non-empty value) will also produce some extra output for the user locally, including a full stack trace (though that should also be available in Sentry) and background debug-level logging generally.
+
+## Retrieving a Dashboard URL from a Device UUID
+
+Sometimes a user will only supply a UUID. In these cases, it's now possible to use `resin-cli` to retrieve the full Dashboard URL for the device. As an admin, login to `resin-cli` and run the following:
+
+```
+resin device <UUID>
+```
+
+This will return full details for the device (OS, IP addy, etc.) but also the Dashboard URL.
 
 # Canned Responses
 
