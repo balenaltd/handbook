@@ -43,6 +43,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 26 Jul 2017
 
+---
+
 ### 24 Jul 2017
 
 - Meeting Recording Pending
