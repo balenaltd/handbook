@@ -43,6 +43,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 26 Jul 2017
 
+### 24 Jul 2017
+
 - Meeting Recording Pending
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/87ofubeSF6BcfZqbNwqk-PmPqwq)
 
@@ -55,11 +57,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 [Use of a pending-master branch on VersionBot merges to try and ensure consistency with version bumping](https://app.frontapp.com/open/cnv_6h7x2r)
 
 [sync up on username changes](https://app.frontapp.com/open/cnv_6h8ut5)
-
-### 24 Jul 2017
-
-- No Meeting Recording
-- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/JbH8RBK3nx43WaytvBdmdPnLlgf)
 
 ### 19 Jul 2017
 
