@@ -1829,10 +1829,10 @@ mkfs.btrfs --mixed --metadata=single --label resin-data --force /dev/${DATA_PART
 3. reboot the device:
 `reboot`
 
-4. Pull the correct supervisor version, that is now given by the API, so whatever supervisor version the device was set for. Replace `armv7hf` with the correct architecture if necessary.
+4. Pull the correct supervisor version, that is now given by the API, so whatever supervisor version the device was set for. Replace `armv7hf` with the correct architecture if necessary. The pull is from the legacy registry for 1.x devices nowawadays:
 
 ```
-update-resin-supervisor -i resin/armv7hf-supervisor
+update-resin-supervisor -i registry.resinstaging.io/resin/armv7hf-supervisor
 ```
 
 **[below are LEGACY instructions]**
