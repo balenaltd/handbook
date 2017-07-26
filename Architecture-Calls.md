@@ -41,6 +41,26 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 26 Jul 2017
+
+- Meeting Recording Pending
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/87ofubeSF6BcfZqbNwqk-PmPqwq)
+
+[How do we want to see the profiles for users with multiple accounts appearing in our mixpanel analytics?](https://app.frontapp.com/open/cnv_6euxuj)
+
+[How should we unify our customer and user data, so we can do analysis across them, and build 360 views of a user or customer?](https://app.frontapp.com/open/cnv_6f5bud)
+
+[meta-resin has layers for old versions of yocto: daisy for example. Should we leave them there in case of board that we will need to support with old BSPs or remove them to not bother with support on those versions. We can always get them from git history anyway.](https://app.frontapp.com/open/cnv_6h3ibd)
+
+[Use of a pending-master branch on VersionBot merges to try and ensure consistency with version bumping](https://app.frontapp.com/open/cnv_6h7x2r)
+
+[sync up on username changes](https://app.frontapp.com/open/cnv_6h8ut5)
+
+### 24 Jul 2017
+
+- No Meeting Recording
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/JbH8RBK3nx43WaytvBdmdPnLlgf)
+
 ### 19 Jul 2017
 
 - No Meeting Recording
