@@ -47,7 +47,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 24 Jul 2017
 
-- Meeting Recording Pending
+- [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLTi1QNGdlYXNMM1U)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/87ofubeSF6BcfZqbNwqk-PmPqwq)
 
 [How do we want to see the profiles for users with multiple accounts appearing in our mixpanel analytics?](https://app.frontapp.com/open/cnv_6euxuj)
