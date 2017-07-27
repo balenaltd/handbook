@@ -43,6 +43,9 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 26 Jul 2017
 
+- [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLbGQwRlBJZFBJdE0)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/tz4RY2HNb1KcwC1L9f9omZ3Tnrt)
+
 ---
 
 ### 24 Jul 2017
