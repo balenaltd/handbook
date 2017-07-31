@@ -69,9 +69,8 @@ We are uploading architecture call recordings as a convenience to people who mig
   * This is problematic because we don’t give any guarantees on staging registry availability
   * Is it a trivial change, or do we have to update all devices?
   * There’s a concern on whether we have to give push credentials access to specific jobs in Jenkins
-
   * **Actions**
-   * We need to search for any occurrence where staging is used to fetch supervisor image [@imrehg]
+    * We need to search for any occurrence where staging is used to fetch supervisor image [@imrehg]
 
 
 [We discontinued a couple of boards this month but even though we documented this in the repositories the dashboard still offers experimental / released images for these boards. What is the way forward here? Removing images? Working on image maker to filter some out?](https://app.frontapp.com/open/cnv_6h8emz) 
@@ -111,7 +110,7 @@ Andrei: Changelog is used to communicate changes that affect users, a minor buil
 Suggestion: have additional marker to signify a source version that does not cause a new release (e.g. semver metadata)
 Downstream users expect more things from a version
 
-iT'S A presentation issue, we need to explicitly mention that a change-type is sub-patch / cosmetic
+It's a presentation issue, we need to explicitly mention that a change-type is sub-patch / cosmetic
 
 Versioning is also a matter of training our users wrt their expectations (even having links on top of changelog explaining our versioning)
 
