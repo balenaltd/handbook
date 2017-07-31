@@ -46,16 +46,11 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLS3dGQU1FV3lSRzQ)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Nek4My4UQmnFhFuzq6P07Y_4VvJ)
 
-## Product
-
 [We should review the billing plan permissions system & consolidate how/where self-billing implementation should retrieve its data.](https://app.frontapp.com/open/cnv_6iufyx) cc @thgreasi
 
 * **Actions**
    * Get v0 out 
    * For v1 make sure we’re doing good processing of data
-
-
-## Devices
 
 [Modifications to the plymouth scripts (e.g. changing the scaling factor) would currently block resinHUP on devices with those modifications. What would be the good way to handle this in particular, and splash screen resizes in general (has open HQ issue)](https://app.frontapp.com/open/cnv_6lj4mt) cc @imrehg
 
