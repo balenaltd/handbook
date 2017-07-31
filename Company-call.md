@@ -5,7 +5,9 @@
 
 ### Mon, Jul 31 2017
 * [Meeting minutes](https://docs.google.com/document/d/1vsGgEhL_yvMRLirIrksjM3PXZgh5cq4ZT1NqxV7JFko/edit)
-
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8bDhTYTgyV0hPSFk)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8bVRoSFlCUkw1RGc)
+* [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8a2w5Q2pKZ0lHSk0)
 
 ### Mon, Jul 24 2017
 * [Meeting minutes](https://drive.google.com/open?id=1ekjYzatAOfZgSLMqbsKTvVXEJM7ymcTMvnUBtrME18s)
