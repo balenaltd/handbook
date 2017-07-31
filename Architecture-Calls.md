@@ -46,6 +46,36 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLbGQwRlBJZFBJdE0)
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/tz4RY2HNb1KcwC1L9f9omZ3Tnrt)
 
+[Should we continue to generate deltas on the builder, given that the builder no longer has immediate access to the old and new images](https://app.frontapp.com/open/cnv_6hy8vh)
+
+- Action: 
+  - disable deltas for arm builds
+
+[Discuss about the behaviour of the build pipeline when a git push is cancelled by the user (using ctrl+C)](https://app.frontapp.com/open/cnv_6gzsrn) 
+
+[Semver - We have the occasional issue where changes are made to a repository, but should not really be added to a Changelog (as it would essentially be noise) or published (should it be an NPM/Crate, etc.). We’ve discussed this in the process call, but we need to continue on an Arch call with Petros](https://app.frontapp.com/open/cnv_6i2vsx)
+
+Alex: not convinced that we should allow some changes not get versions (slippery slope)
+Arguments against: noise in the changelog, also different convention in Yocto
+Use case: small changes (e.g. typos) will cut new version
+Andrei: Changelog is used to communicate changes that affect users, a minor build fix might not warrant a changelog entry
+
+Suggestion: have additional marker to signify a source version that does not cause a new release (e.g. semver metadata)
+Downstream users expect more things from a version
+
+iT'S A presentation issue, we need to explicitly mention that a change-type is sub-patch / cosmetic
+
+Versioning is also a matter of training our users wrt their expectations (even having links on top of changelog explaining our versioning)
+
+Discussed whether we should go full circle and explicitly mark release versions
+
+[Allowing username renames sync up](https://app.frontapp.com/open/cnv_6irxjf)
+
+[User would like to have an application image that can be rolled back to, (e.g. factory reset)](https://app.frontapp.com/open/cnv_6invjv)
+
+- Action
+  - Needs a spec
+
 ---
 
 ### 24 Jul 2017
