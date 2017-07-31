@@ -41,6 +41,59 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 31 Jul 2017
+
+- [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLS3dGQU1FV3lSRzQ)
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Nek4My4UQmnFhFuzq6P07Y_4VvJ)
+
+## Product
+
+[We should review the billing plan permissions system & consolidate how/where self-billing implementation should retrieve its data.](https://app.frontapp.com/open/cnv_6iufyx) cc @thgreasi
+
+* **Actions**
+   * Get v0 out 
+   * For v1 make sure we’re doing good processing of data
+
+
+## Devices
+
+[Modifications to the plymouth scripts (e.g. changing the scaling factor) would currently block resinHUP on devices with those modifications. What would be the good way to handle this in particular, and splash screen resizes in general (has open HQ issue)](https://app.frontapp.com/open/cnv_6lj4mt) cc @imrehg
+
+* **Actions**
+  * 100% scaling
+   * Make logo accommodate for borders if we want to 
+   * Create new resinOS version (both 1.x and 2.x) 
+   * This particular customer (novavision) will be updated with manual migration of the altered plymouth script.
+
+
+[We'll need to decide what to do with resinhup images since Alex and several people expressed disagreement with using the staging registry for production means - will we use our production registry or some other v1 registry, or keep using staging?](https://app.frontapp.com/open/cnv_6i0h05) cc @brownjohnf @imrehg
+
+  * Some devices with docker daemon don’t support registry v2
+  * This is why we used v1
+  * There’s no particular reason why we are using staging registry
+  * This is problematic because we don’t give any guarantees on staging registry availability
+  * Is it a trivial change, or do we have to update all devices?
+  * There’s a concern on whether we have to give push credentials access to specific jobs in Jenkins
+
+  * **Actions**
+   * We need to search for any occurrence where staging is used to fetch supervisor image [@imrehg]
+
+
+[We discontinued a couple of boards this month but even though we documented this in the repositories the dashboard still offers experimental / released images for these boards. What is the way forward here? Removing images? Working on image maker to filter some out?](https://app.frontapp.com/open/cnv_6h8emz) 
+
+  * Do we have any remaining blockers ?
+  * **Actions**
+    * There must be a last build that only add the ‘discontinued’ flag, make a last build that is uploaded to the S3 and UI will pick up the device type info that simply passes through the image-maker cc @willnewton @thgreasi
+    * We’ll reject app creation on the SDK cc @pimterry
+    * We don’t care what happens with direct API calls
+
+Addressing issue on VPN scaling PR cc @wrboyce
+  
+  * Systemd service launching systemd service
+  * **Actions**:
+    * Launch instance as a child process from nodeJS
+---
+
 ### 26 Jul 2017
 
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLbGQwRlBJZFBJdE0)
