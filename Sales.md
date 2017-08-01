@@ -90,6 +90,7 @@ To update the database:
 1. Search for the user using their username 
 1. Click the row associated with the user
 1. Update:
+    * Billing Account Code (same as Recurly Account Code)
     * Billing plan
     * Privilege (Note: you have to click “add” for the support entitlement to be added)
 1. “Save Changes”
