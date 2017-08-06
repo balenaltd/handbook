@@ -41,6 +41,29 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 02 Aug 2017
+
+- [Recording - Pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/R7q9Ui_3H4CmsZkWFVNqewHa87_)
+
+[Discuss getUser(req) + req.user/req.creds https://github.com/resin-io/resin-api/pull/409#discussion_r130453721](https://app.frontapp.com/open/cnv_6lz14r)
+
+- Actions
+  - The final solution is to make login atomic (creds+2fa) and get rid of req.creds
+  - if solution above is long, for now we can either:
+    - Keep using req.creds where it is, or
+    - getUser() throws if req.creds (won't return a user) and we handle with catch
+
+[Re-work the (hash) feature in Flowdock to be a bi-directional communication with Front. ](https://app.frontapp.com/open/cnv_6lhigl)
+
+[Discuss API rate limiting ](https://app.frontapp.com/open/cnv_6m8z6l)
+
+[Discuss adopting Etcher JS code style guidelines (eslint and respective conf) in our repositories (are there any strong reasons not to?)](https://app.frontapp.com/open/cnv_6miwsv)
+
+[Discuss possible JWT implications with username changes](https://app.frontapp.com/open/cnv_6mx7tt)
+
+---
+
 ### 31 Jul 2017
 
 - [Meeting Recording](https://drive.google.com/open?id=0B0NS-URBofBLS3dGQU1FV3lSRzQ)
