@@ -54,13 +54,16 @@ We are uploading architecture call recordings as a convenience to people who mig
     - Keep using req.creds where it is, or
     - getUser() throws if req.creds (won't return a user) and we handle with catch
 
-[Re-work the (hash) feature in Flowdock to be a bi-directional communication with Front. ](https://app.frontapp.com/open/cnv_6lhigl)
+[Re-work the (hash) feature in Flowdock to be a bi-directional communication with Front.](https://app.frontapp.com/open/cnv_6lhigl)
 
 [Discuss API rate limiting ](https://app.frontapp.com/open/cnv_6m8z6l)
 
 [Discuss adopting Etcher JS code style guidelines (eslint and respective conf) in our repositories (are there any strong reasons not to?)](https://app.frontapp.com/open/cnv_6miwsv)
 
 [Discuss possible JWT implications with username changes](https://app.frontapp.com/open/cnv_6mx7tt)
+
+- Actions:
+  - JWTs are refreshed after username changes with the /user/username endpoint
 
 ---
 
