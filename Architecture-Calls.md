@@ -41,6 +41,28 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 07 Aug 2017
+
+- [Recording - Pending]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Igd8Ks3kyuDFmOugsBrJU4ZWsBY)
+
+[decide on way forward for unified resinOS images that can accommodate the hass.io guys (if possible)](https://app.frontapp.com/open/cnv_6oi1h9) cc @shaunmulligan
+**Actions**
+- Shaun will attempt to setup a call with them to figure out how to make meta-resin and their layer work together
+
+[discuss trying to align the output of `uname` with our `RESIN_ARCH` dockerfile template variables (which come from the image maker). This helps with automatic install scripts which find the correct architecture to download.
+](https://app.frontapp.com/open/cnv_6p655h) cc @CameronDiver
+**Actions**
+- Cameron will look on ways we can make uname behave like it should for the appropriate architectures. If that fails we'll augment the template context with an additional variable (e.g RESIN_UNAME_ARCH) that is the correct uname arch string for that build
+
+[Discuss mirroring our repos to a second git remote (could be hosted or otherwise)](https://app.frontapp.com/open/cnv_6ploqh) cc @brownjohnf
+**Actions**
+- Given the very low probability of Github losing data unless we find a trivial solution to this problem it doesn't make sense invest time on it.
+
+[discuss solutions for the "/mnt/data/docker/tmp/ grows large and eventually /mnt/data/ is filled" bug](https://app.frontapp.com/open/cnv_6ptx71) cc @imrehg
+**Actions**
+- This is a non-issue after we upgrade to docker 17.06
+
 ### 02 Aug 2017
 
 - [Recording - Pending]()
