@@ -2136,4 +2136,30 @@ See https://resin.io/blog/updating-config-txt-remotely/ on how to do that.
 
 The container should also `modprobe w1-gpio && modprobe w1-therm`. Then the temperature probe should show up under `/sys/bus/w1/devices`
 
+## Checking if an application or a device open for support
+
+If you are using an admin account, you gain access to all devices and applications. With the new `support agent` role, the account will be limited to only gain read access to devices and applications that are open for support. The customer can open a device for support in the UI. Until we transition all support agents to the `support agent` role, we need a way for an admin account to check if a device or an application is open for support. More information on this will be !INSERT LINK AFTER PR IS DONE! This can be done with the following commands:
+
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\(<DEVICEID>\)
+```
+Search for `support_expiry_date`, this date should be in the future! This date is UTC time!
+
+or with `jq`:
+ 
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\(<DEVICEID>\) --silent | jq .d[0].support_expiry_date
+```
+
+or 
+
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/application\(<APPLICATIONID>\)
+```
+Search for `support_expiry_date`, this date should be in the future! This date is UTC time!
+
+or with `jq`:
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/application\(<APPLICATIONID>\) --silent | jq .d[0].support_expiry_date
+```
 
