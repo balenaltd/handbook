@@ -161,6 +161,7 @@
     - [The name "/resin_supervisor" is already in use by container`](#the-name-resin_supervisor-is-already-in-use-by-container)
     - [Misc](#misc)
       - [raspberry-pi](#raspberry-pi)
+    - [Checking if an application or a device open for support]
 
 
 # Introduction
