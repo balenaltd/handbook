@@ -41,6 +41,23 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 09 Aug 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/xRiEznQqGoEbrnbQtl0Ul2S3roy)
+
+**Actions**
+- We will make the 1.x into 2.x schemas, we'll bake those in the CLI, if they change we'll add more
+- In parallel, Theodor will put a latest on meta-resin's schema
+
+[discuss implications of api keys being able to generate JWTs and more](https://app.frontapp.com/open/cnv_6s9x3n) cc @flesler @afitzek
+
+In the new API keys branch, user-level api keys (new & legacy) could use endpoints to generate api keys or JWTs with higher permissions than they have. Meaning, they can promote themselves.
+
+**Actions**
+- Add a new permission to `default-user` (but not the new api keys) that is required on all the endpoints that can create this higher level tokens
+
+---
+
 ### 07 Aug 2017
 
 - [Recording - Pending]()
@@ -66,6 +83,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 **Actions**
 - This is a non-issue after we upgrade to docker 17.06
+
+---
 
 ### 02 Aug 2017
 
