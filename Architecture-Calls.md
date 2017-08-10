@@ -45,6 +45,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/xRiEznQqGoEbrnbQtl0Ul2S3roy)
 
+[testing framework check in](https://app.frontapp.com/open/cnv_6oi871) cc @telphan
+
 **Actions**
 - We will make the 1.x into 2.x schemas, we'll bake those in the CLI, if they change we'll add more
 - In parallel, Theodor will put a latest on meta-resin's schema
