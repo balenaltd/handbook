@@ -4,7 +4,7 @@ Welcome to the resin.io wiki.
 
 ## How to get things done (resin.io processes)
 
-- [Team](Team)
+- Team
   - Joining resin.io
     - [What to expect working at resin.io](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
     - [Live the resin.io user experience](https://github.com/resin-io/hq/wiki/Live-the-resin.io-user-experience)
