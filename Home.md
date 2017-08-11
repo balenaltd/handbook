@@ -9,7 +9,7 @@ Welcome to the resin.io wiki.
     - [What to expect working at resin.io](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
     - [Live the resin.io user experience](https://github.com/resin-io/hq/wiki/Live-the-resin.io-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
-    - [Development, Support and Process guidelines can be found in the process repo](https://github.com/resin-io/process/blob/master/README.md)
+    - [Development, Support and Process guidelines](https://github.com/resin-io/hq/wiki/Development,-Support-and-Process-Guidelines)
   - Company culture
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
