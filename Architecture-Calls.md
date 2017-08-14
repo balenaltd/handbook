@@ -41,6 +41,56 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 14 Aug 2017
+
+- [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/NenMslL7iYnpkrEgO5KwwK3TLPl)
+
+[DevEnv changes for PoC Siemens on-prem. Initial Questions: 1) Single VM instance deploy?, 2) DNS/Networking (local subnet or more)?, 3) DevEnv image pre-loading? Future image upgrades required? 4) Load (how many devices)?](https://app.frontapp.com/open/cnv_6sxf3h) cc @hedss @mccollam
+
+**Actions:**
+- Ronald to determine network conditions on sites where PoC will run, access to private DNS. Also determine if they're expecting to build apps in the DevEnv or if they'll build elsewhere and push to the DevEnv for deploy
+- Alex/Petros to determine if we're going to supply custom OS images or modify the Image Maker for configs
+- Heds to write a spec. to nail down what they'll get from a DevEnv POV
+
+[discuss options for open sourcing container registry](https://app.frontapp.com/open/cnv_6u7h29) cc @alisondavis17 @dfunckt @shaunmulligan @brownjohnf
+
+**Actions:**
+- lazy creation of git repos on app creation (on resin-api and resin-git), think about the consequences
+- needs further discussion on how to extract and distribute deployment-related bits of functionality out of resin-builder to other components
+
+[discuss plans for open sourcing the networking stack](https://app.frontapp.com/open/cnv_6u7hon) cc @alisondavis17 @wrboyce @shaunmulligan
+
+**Actions:**
+- formalise the http-connect style interface for establishing tunnels
+- prove that the system can work without a vpn service
+
+**Bonus**: Discussion about removing PubNub
+
+**Actions:**
+- @flesler will finish SDK side of user-generated API keys and then we'll define the order for:
+	- Logs
+	- 3rd-party integrations
+
+[discuss open sourcing pines](https://app.frontapp.com/open/cnv_6v5tsf) cc @alisondavis17 @nazrhom @shaunmulligan
+
+**Actions:**
+- Immediate
+	- apply proper permissions on odata query filters (bug)
+	- check that all the dependency used are open already
+- After
+	- documentation pinejs-client
+	- migrations
+	- SBVRjs
+	- GraphQL
+
+**Bonus**: Deprecating unused endpoint /my_applications cc @Page
+
+**Actions:**
+- Yes, deprecate it
+
+
+---
+
 ### 09 Aug 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/xRiEznQqGoEbrnbQtl0Ul2S3roy)
