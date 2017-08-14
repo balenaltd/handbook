@@ -98,7 +98,7 @@ To update the database:
 
 
 ### Updating Front
-To make sure customers have the correct support prioritization (i.e. premium accounts get a response inline with their SLA), all of the users have to be added to the appropriate “group”.
+To make sure Premium (SLA) customers have the correct support prioritization (i.e. premium accounts get a response inline with their SLA), all of the premium users have to be added to the "Premium Customers" group.
 
 From the Front web client:
 
@@ -107,9 +107,7 @@ From the Front web client:
 1. If you can’t find the contact, you will need to manually add them 
     * “New Contact” button is to the left of the search bar
 1. Click “Add to group +”
-1. Two options:
-    * “Paid Customer”: for customers that DO NOT have an SLA
-    * “Premium Customer”: for customers with an SLA
+1. Select “Premium Customers" for customers with an SLA
 
 ### Updating Zendesk
 For premium customers -- SLA is included with their contract -- we will need to add them to Zendesk…talk to Sonya.
