@@ -5,8 +5,8 @@
 
 ### Mon, Aug 14 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/16nkCw0rCvgyq_X5bh7jiLMAkkhTGQIlp-Luc14IScEM/edit?usp=sharing)
-* Video
-* Audio
+* [Video](https://drive.google.com/open?id=0B8b02_AxDQoVYjdSb3VBeVE0Qzg)
+* [Audio](https://drive.google.com/open?id=0B8b02_AxDQoVTjRranUyUFJ4aDQ)
 * [Attendees](https://drive.google.com/open?id=0B8b02_AxDQoVRnNQVHpubll0Z0U)
 
 ### Mon, Aug 7 2017
