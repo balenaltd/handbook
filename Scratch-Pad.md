@@ -1993,6 +1993,8 @@ It's possible our builders to fail to push to one of the two Docker registries, 
 
 (step 3 requires login to our registry, which unless you're Page won't have access to, but you can run steps 1 and 2 only on the device and it should work).
 
+**Also, make sure to convey to the user that they should upgrade resinOS to at least 1.26**, in order to get a newer docker that will pull from registry v2.
+
 ### Failed to register layer: rename, directory not empty
 
 Since ResinOS 1.2.1 we have docker 1.10.3 on the device, the docker pull of layers now happen in parallel which is great, but sometime if a power cut or something interupts it the device gets into an ugly state with the following error:
