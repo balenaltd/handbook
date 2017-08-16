@@ -2141,7 +2141,9 @@ The container should also `modprobe w1-gpio && modprobe w1-therm`. Then the temp
 
 ## Checking if an application or a device open for support
 
-If you are using an admin account, you gain access to all devices and applications. With the new `support agent` role, the account will be limited to only gain read access to devices and applications that are open for support. The customer can open a device for support in the UI. Until we transition all support agents to the `support agent` role, we need a way for an admin account to check if a device or an application is open for support. More information on this can be found here: [https://github.com/resin-io/process/blob/master/process/support/accessing_user_accounts.md](https://github.com/resin-io/process/blob/master/process/support/accessing_user_accounts.md) This can be done with the following commands:
+If you are using an admin account, you gain access to all devices and applications. With the new `support agent` role, the account will be limited to only gain read access to devices and applications that are open for support. The customer can open a device for support in the UI.  The process for this, and the canned response to send the user is found here: [https://github.com/resin-io/process/blob/master/process/support/accessing_user_accounts.md](https://github.com/resin-io/process/blob/master/process/support/accessing_user_accounts.md)
+
+Until we transition all support agents to the `support agent` role, we need a way for an admin account to check if a device or an application is open for support. This can be done with the following commands:
 
 ```
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\(<DEVICEID>\)
