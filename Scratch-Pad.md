@@ -2168,3 +2168,20 @@ or with `jq`:
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/application\(<APPLICATIONID>\) --silent | jq .d[0].support_expiry_date
 ```
 
+To see all applications and devices (that are support accessible because support access to the application is granted, one can use this curl request with an admin account or a support account:
+
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/application\?\$filter\=\(support_expiry_date%20gt%20now\(\)\)\&\$expand\=device
+```
+
+To see all devices that are open for support (only support access was granted on a device level), one can use this curl request with an admin account or a support account:
+
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\?\$filter\=\(support_expiry_date%20gt%20now\(\)\)
+```
+
+To see all devices that are open for support and your own devices ( but since you are not supposed to use the current admin account for projects, these should only be the devices open for support ;) ), one can use this curl request with a support account (**do not run this with your admin account, this would fetch ALL devices):
+
+```
+curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device
+```
