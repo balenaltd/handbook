@@ -2180,7 +2180,7 @@ To see all devices that are open for support (only support access was granted on
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\?\$filter\=\(support_expiry_date%20gt%20now\(\)\)
 ```
 
-To see all devices that are open for support and your own devices ( but since you are not supposed to use the current admin account for projects, these should only be the devices open for support ;) ), one can use this curl request with a support account (**do not run this with your admin account, this would fetch ALL devices):
+To see all devices that are open for support and your own devices ( but since you are not supposed to use the current admin account for projects, these should only be the devices open for support ;) ), one can use this curl request with a support account (**do not run this with your admin account, this would fetch ALL devices**):
 
 ```
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device
