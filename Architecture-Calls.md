@@ -130,7 +130,7 @@ Mixpanel plan:
 - The uboot update window is small, we don't feel that it's much of a problem
 - Depending on the hardware, uboot update could be atomic. There are boards that we could make this atomic
 
-Devenv and Siemens
+**Devenv and Siemens**
 
 - DNS, image importing, app building
 - There's a recommendation at the bottom
@@ -161,6 +161,11 @@ Devenv and Siemens
   - the closer we get to OSS entirely, we should be able to differentiate from someone else running OSS clone
   - resin is not a pluggable service
   - we need to discuss this more
+
+**Actions:**
+
+- Revisit next week
+- Discuss about build pipeline rearchitecture
 
 [360 data](https://app.frontapp.com/open/cnv_6y8a09)
 
