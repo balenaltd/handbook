@@ -41,6 +41,158 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 21 Aug 2017
+
+- [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ah52oRCUwGeCpwnkMYE3RVkUr8U)
+
+[Discuss Username change problems.](https://app.frontapp.com/open/cnv_6p9e3r)
+
+Single identifier is user id - we should not
+
+How aliasing works?
+All users get distinct id assigned from mixpanel
+Aliasing only happens during anonymous user 
+e.g. supervisor doesn't alias, it states it's username
+
+scenario: 
+- create petrosagg account
+- I change username
+- Another user gets petrosagg
+- Example: 
+ - we have ui. cli, supervisor mixpanel clients
+ - problem with old clients that use mixpanel distinct id in the events they track
+ - we do have a redirect endpoint in the api and do a rewrite for old supervisor versions
+
+Intercom problem
+- if you have an old session it'll send the old 
+
+Intercom plan:
+  - create a new column, like "intercom id used"
+  - at the moment of creation it should be false for all the existig users and true for all the new users
+  - this migration should go with the change to the /config endpoint:
+    - if the column is true compute the intercomUsername based on the user ID (rather than the username)
+  - in the background run the migration that will rename the Intercom users to the new-style IDs and update this column (taking the Intercom API rate limiting into account)
+  - when done delete this column in another migration
+    - and remove the check for this column
+Mixpanel plan:
+   - make the supervisor use the API mixpanel proxy / redirect
+  - in the API proxy endpoint rewrite th deistinct_id to be based on the user ID
+    - and run the alias if needed?
+    - which means a similar column to not run this alias all the time
+ 
+- Eugene is leading this
+
+[discuss issue in devices getting stuck because the downloaded delta can’t be applied because it’s generated from a different source image. And that’s because it’s possible for different images to be uploaded to the registry under the same name](https://app.frontapp.com/open/cnv_703p97)
+
+- Race condition with the builds
+- Not all devices use a state endpoint
+- The problem happens when user pushes ctrl + c and pushes again
+- I git push, the build goes through, I move to a previous commit (git reset) and push again
+- When the ctrl + c fix is out we won't see it that often in production
+
+Action
+- Continue discussion in the spec
+- resinOS 2.x and spec solve the issue
+- ctrl + c fix also mitigates the issue
+- Akis is leading this
+
+
+ [Discuss the encryption of customer data on a device and allowing them to grab it via SDK/Dashboard. Potential idea is via public SSH key (although this probably only works with particular cypher types](https://app.frontapp.com/open/cnv_6rnasn)
+
+- We could add a feature to encrypt sensitive data on the device using the user's ssh key
+- The idea is to add this as a simple button
+- Different from the case of having access to registry images, it gets hairy with our user's users data (e.g. financial transaction info)
+- If we had a button that streams /data to their machine, it'd solves the problem
+- Passing this interaction from support (i.e. getting sensitive data) does get hairy
+- This looks like a simple actions server action, for the general case (i.e build the button)
+- Handling /data during support (i.e. device reachable only through another device and not directly over VPN)
+ - discussed using public keys in order to encrypt
+- openssl supports such functionality to run encryption using rsa keys
+- Petros will look into this (the non general case)
+- The solution is not easy, the case seems niche
+
+- Action: 
+
+  - formalise GPG solution and add in scratchpad
+  - support agent is on a device (possibly through another, gateway device)
+  - user creates gpg key
+  - agent imports it in device that we want to get /data out
+  - tar /data
+  - to ggp encrypt on device (we ship with gpg)
+  - download file locally and send it to them, probably with a command line example on how to decrypt it
+  - Hedss is leading this
+
+[Discuss what to do about OS versions we have deployed to production that don't have the uboot resinhup adaptions and how much of a problem we feel this]()
+
+- The uboot update window is small, we don't feel that it's much of a problem
+- Depending on the hardware, uboot update could be atomic. There are boards that we could make this atomic
+
+Devenv and Siemens
+
+- DNS, image importing, app building
+- There's a recommendation at the bottom
+- We're waiting for answers. If some things are not available, we'll reiterate on our solutions
+- Suggestion: they'll set up a private DNS to point resindev.io to 10.10.10.10
+  - Maybe we should select a subnet that is not private
+- All resin command in cli (e.g. resin build / resin deploy) can point to the devenv (resindev.io)
+- resin build will build an image locally and push it to local registry
+- we'll integrate cli the devenv
+- look into network manager configuration
+- Hedss is leading this
+
+[Talk about network bonding on resinOS and why the behavior is different from Raspbian](https://app.frontapp.com/open/cnv_6yhfel) 
+
+Action:
+- run more tests
+- Enable debug flag in kernel to get more info
+- Make sure that network manager has same version in resinos/raspbian when testing again (should be the same, need to make sure)
+- Joe is leading this
+
+[OSS progress](https://app.frontapp.com/open/cnv_6vocqp)
+
+- pinejs: resolving last open questions with Page, then coordinate with ops for OSS release
+- registry: need to re-architect build pipeline
+  - the idea was that OSS resin should be much simpler , that is a single server tha creates clear distinctions between resin , the service and resin, the project
+  - atm resin is hard to setup, keep running etc. 
+  - the closer we get to OSS entirely, we should be able to differentiate from someone else running OSS clone
+  - resin is not a pluggable service
+  - we need to discuss this more
+
+[360 data](https://app.frontapp.com/open/cnv_6y8a09)
+
+- In the simple case of agents taking notes , the tricky part is where this data will be stored in the future
+- Notes should probably be stored in the DB
+- Info like who is the account manager can also be added in the DB
+- The tricky bit with acct mgmt and sales data is that they are attached to different model
+  - salesforce data revolve around accounts and contacts. These don't exactly align with orgs
+- Salesforce has a lot of functionality and we can't replicate everything
+- When we are talking about people who don't have opened a resin account yet we could
+  - a. extend model to include people w/o account and later match
+  - b. use salesforce till a user has created account
+- We need to draw a line wrt to what data we keep in salesforce
+- We want to have a sidebar that unifies all the data
+- One of the problems we have is that not every support agent has access there (otherwise we could have the support sidebar draw data from there)
+- Discussed whether we could have a single salesforce user that will read/write on behalf of agents
+- Examples of data in salesforce
+  - when someone comes in support, we want to see in the sidebar info on the opportunity (e.g. trying to sell them X)
+  - Discussed on having a single source of truth that will include support and sales info
+- The issue is how easy it is to give access to data to the whole team. We don't want to create silos which salesforces appears to encourage
+- The idea of having all data in one place will not happen
+- next best thing is clear division of labour/data and use API to coordinate (e.g. intercom should never create salesforce accts)
+
+Action:
+  - Need to find out how much of salesforce we use
+  - need to identify a subset that we can keep in salesforce
+  - No blockers for support notes
+  - for sales/acct mgmt data no blockers in having 1-1 CRM model with salesforce
+    - why not front? Front is not a very good store for leads/customers/companies/contacts
+  - Let's keep going with org notes and we'll get there for the rest
+  - Open Q: How are we going to surface non-salesforce in salesforce? Answer: currently exploring using Front for this
+  - Pinned item 
+  - Tim is leading this
+
+---
+
 ### 14 Aug 2017
 
 - [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/NenMslL7iYnpkrEgO5KwwK3TLPl)
