@@ -63,6 +63,8 @@ scenario:
  - problem with old clients that use mixpanel distinct id in the events they track
  - we do have a redirect endpoint in the api and do a rewrite for old supervisor versions
 
+**Actions:**
+
 Intercom problem
 - if you have an old session it'll send the old 
 
@@ -90,7 +92,8 @@ Mixpanel plan:
 - I git push, the build goes through, I move to a previous commit (git reset) and push again
 - When the ctrl + c fix is out we won't see it that often in production
 
-Action
+**Actions:**
+
 - Continue discussion in the spec
 - resinOS 2.x and spec solve the issue
 - ctrl + c fix also mitigates the issue
@@ -111,7 +114,7 @@ Action
 - Petros will look into this (the non general case)
 - The solution is not easy, the case seems niche
 
-- Action: 
+**Actions:**
 
   - formalise GPG solution and add in scratchpad
   - support agent is on a device (possibly through another, gateway device)
@@ -122,7 +125,7 @@ Action
   - download file locally and send it to them, probably with a command line example on how to decrypt it
   - Hedss is leading this
 
-[Discuss what to do about OS versions we have deployed to production that don't have the uboot resinhup adaptions and how much of a problem we feel this]()
+[Discuss what to do about OS versions we have deployed to production that don't have the uboot resinhup adaptions and how much of a problem we feel this](https://app.frontapp.com/open/cnv_6t04ll)
 
 - The uboot update window is small, we don't feel that it's much of a problem
 - Depending on the hardware, uboot update could be atomic. There are boards that we could make this atomic
@@ -142,7 +145,8 @@ Devenv and Siemens
 
 [Talk about network bonding on resinOS and why the behavior is different from Raspbian](https://app.frontapp.com/open/cnv_6yhfel) 
 
-Action:
+**Actions:**
+
 - run more tests
 - Enable debug flag in kernel to get more info
 - Make sure that network manager has same version in resinos/raspbian when testing again (should be the same, need to make sure)
@@ -180,7 +184,7 @@ Action:
 - The idea of having all data in one place will not happen
 - next best thing is clear division of labour/data and use API to coordinate (e.g. intercom should never create salesforce accts)
 
-Action:
+**Actions:**
   - Need to find out how much of salesforce we use
   - need to identify a subset that we can keep in salesforce
   - No blockers for support notes
