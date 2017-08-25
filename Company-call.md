@@ -2,6 +2,13 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
+
+### Mon, Aug 28 2017
+* [Meeting minutes](https://docs.google.com/document/d/1I90OOMGjebN4qKkhi5Il8XZvDXJV-91CjQ0vC-COI-E/edit#)
+* [Video]
+* [Audio]
+* [Attendees]
+
 ### Mon, Aug 21 2017
 * [Meeting minutes](https://drive.google.com/open?id=1EK8npUr7UCg_YBm1EzxRu9ojo_mxV_wiHg9K5rl7O50)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8NVo0M3Z3b21XeUE)
