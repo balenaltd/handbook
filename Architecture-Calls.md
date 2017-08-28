@@ -46,7 +46,65 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread]()
 - [Meeting recording]()
 
+[Open source status check: pinejs, networking stack, and container registry](https://app.frontapp.com/open/cnv_6vocqp) cc @nazrhom @wrboyce @dfunckt @alisondavis17
 
+
+* Actions
+   * Discussed about having a pinejs-private repo (similar to node private) to work on sensitive fixes
+   * OSS abstract sql
+   * Documentation (e.g. client is poorly documented)
+   * Add VersionBot and add a process that add CI service for automatic npm release (see sdk and cli)
+
+
+
+
+[Talk about the possibility of setting up a temporary staging for using the supervisor, ui, builder and api](https://app.frontapp.com/open/cnv_73aliv) cc @CameronDiver
+
+
+* Actions
+   * Use devenv / e2e
+
+
+[Talk about new multicontainer model](https://app.frontapp.com/open/cnv_73alo9) cc @CameronDiver
+
+
+* Actions
+   * Discussed ‘multibuild’ naming
+   * Need further discussion on model
+   * https://docs.google.com/drawings/d/1YiY5BsnEQC1VMFrbGHSs4ywUc4LjkQehL_pnJKM7OI8/edit
+
+
+[Feature request: have the ability to customise openvpn configuration for custom vpn servers](https://app.frontapp.com/open/cnv_707vzh) cc @agherzan
+* See: https://github.com/resin-os/meta-resin/issues/800
+
+
+* Current solution is to create a new layer, but we don’t want to recommend that
+* Question: do we want this to be a resinOS feature? Sounds like we don’t want to
+* The motivation if for resinOS promote
+* Doesn’t look core enough, so the options are
+   * Install openvpn client to container
+   * Add configuration in new layer
+* Discussed Reconfix as a consistent resinOS configuration framework
+* Vision/example: read state partition with old reconfix and write it again with new reconfix file e.g. NM/conman style migration is possible with reconfix
+* Actions
+   * Convey to the user something in the lines of: we consider it a valid request, don’t have bandwidth to and will offer guidance on what needs to be done if they’re open to contribute this as a core feature of resinOS
+   * Suggest to use an openvpn/ directory to add whatever conf and keys for the connection
+
+
+
+
+[Discuss how to handle devices behind the Great Firewall that cannot use our VPN or (apparently?) access AWS resources hosted outside of .cn](https://app.frontapp.com/open/cnv_6x4l6h) cc @mccollam
+
+
+* GFW is unpredictable because they don’t have a defined set of rules , someth
+* OpenVPN connections in China should work / maybe that’s a reason why Amazon has resources in the country, GFW probable won’t block that
+* Action
+   * Consider asking separate fleets/platforms for China
+   * Q: is Amzn allowed to proxy from China to West Virginia data centers?
+   * We can maybe ask people/companies who’ve been there before
+      * Pablo used rackspace server in .hk
+   * Probably not worth pursuing at the moment
+   * TBD during summit
 
 ---
 
