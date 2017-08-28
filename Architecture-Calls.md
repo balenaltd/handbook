@@ -43,7 +43,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 28 Aug 2017
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/CUGh5xomdu6k0XxeEKhRDoVyerZ)
 - [Meeting recording]()
 
 [Open source status check: pinejs, networking stack, and container registry](https://app.frontapp.com/open/cnv_6vocqp) cc @nazrhom @wrboyce @dfunckt @alisondavis17
