@@ -75,6 +75,7 @@
     - [Symptoms](#symptoms-6)
   - [Debugging CLI issues](#debugging-cli-issues)
   - [Retrieving Dashboard URL from device UUID](#retrieving-a-dashboard-url-from-a-device-uuid)
+  - [Start-stop-daemon unable to start resin service on Alpine Linux base images](#start-stop-daemon-unable-to-start-resin-service-on-Alpine-Linux-base-images)
 - [Canned Responses](#canned-responses)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
@@ -699,6 +700,20 @@ resin device <UUID>
 ```
 
 This will return full details for the device (OS, IP addy, etc.) but also the Dashboard URL.
+
+## Start-stop-daemon unable to start resin service on Alpine Linux base images
+
+If we see these logs on the dashboard:
+```
+* start-stop-daemon: caught an interrupt
+* start-stop-daemon: /etc/resinApp.sh died
+```
+or
+```
+start-stop-daemon: /etc/resinApp.sh is already running
+```
+
+We should look at what the user has in the CMD instruction to investigate the issue. With OpenRC, the same as systemd, we put user CMD instruction in /etc/resinApp.sh and run it as an OpenRC service. On init, OpenRC will execute the script (and store the PID at /var/run/resinapp.pid). When user restarts the service, OpenRC will stop the process with that PID and start the script again. These logs indicate something is wrong when OpenRC executes or kills `/etc/resinApp.sh` so we should start investigating on its content.
 
 # Canned Responses
 
