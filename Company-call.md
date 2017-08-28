@@ -5,8 +5,8 @@
 
 ### Mon, Aug 28 2017
 * [Meeting minutes](https://docs.google.com/document/d/1I90OOMGjebN4qKkhi5Il8XZvDXJV-91CjQ0vC-COI-E/edit#)
-* [Video]
-* [Audio]
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8R25VTi04NjRhZU0)
+* [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8ZUozcWYzb3pYWms)
 * [Attendees](https://drive.google.com/open?id=0B1xAg_Dw2iS8LU4tTDY2ZVRlSUE)
 
 ### Mon, Aug 21 2017
