@@ -713,7 +713,7 @@ or
 start-stop-daemon: /etc/resinApp.sh is already running
 ```
 
-We should look at what the user has in the CMD instruction to investigate the issue. With OpenRC, the same as systemd, we put user CMD instruction in /etc/resinApp.sh and run it as an OpenRC service. On init, OpenRC will execute the script (and store the PID at /var/run/resinapp.pid). When user restarts the service, OpenRC will stop the process with that PID and start the script again. These logs indicate something is wrong when OpenRC executes or kills `/etc/resinApp.sh` so we should start investigating on its content.
+We should look at what the user has in the CMD instruction to investigate the issue. With OpenRC, the same as systemd, we put user CMD instruction in /etc/resinApp.sh and run it as an OpenRC service. On init, OpenRC will execute the script (and store the PID at /var/run/resinapp.pid). When user restarts the service, OpenRC will stop the process with that PID and start the script again. These logs indicate something is wrong when OpenRC executes or kills `/etc/resinApp.sh` so we should start investigating from its content.
 
 # Canned Responses
 
