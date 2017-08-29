@@ -3,6 +3,10 @@
 
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+### Mon, Sept 04 2017
+* [Meeting minutes](https://docs.google.com/document/d/1m0qatc8Dk12PV3gd_LsZY3Q46y3wzLPGku0piiWA1bM/edit#)
+
+
 ### Mon, Aug 28 2017
 * [Meeting minutes](https://docs.google.com/document/d/1I90OOMGjebN4qKkhi5Il8XZvDXJV-91CjQ0vC-COI-E/edit#)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8R25VTi04NjRhZU0)
