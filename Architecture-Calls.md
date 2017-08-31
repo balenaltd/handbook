@@ -37,9 +37,61 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-* 
+* OSS status update (Mondays)
 
 ## Recent Meeting Notes
+
+### 30 Aug 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Xbc9EHI3PTBBe_M7z6eaT_PFLQb)
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLcE9PZGhYWVBaeVk)
+
+[With the advent of user-based permission to access a device directly from the Dashboard, we will no longer be able to rescue devices that aren’t connected to the resin backend but are reachable locally on the same network as a connected device.](https://app.frontapp.com/open/cnv_71pd6n) cc @afitzek @hedss
+
+* We want to implementing hopping workflow in the proxy (give me a shell from device X to device Y)
+* Action: 
+* Adapt the proxy to tunnel through gateway devices to devices in the same LAN that have lost vpn connectivity Check target device for enabled support access 
+
+[Proposal for sharing UI components](https://app.frontapp.com/open/cnv_7557al) cc @lucianbuzzo
+
+* See: https://docs.google.com/a/resin.io/document/d/1OAAyFAysctdBjI97OF1zSqNRM5qY7Wa30PA3Z5Y8dik/edit?usp=sharing
+* Suggestion: Use ‘preact’ (MIT License)
+
+[Discuss how/whether we can take advantage of the image name changes to move current devices to unique image names as well](https://app.frontapp.com/open/cnv_75xt6l) cc @dfunckt
+
+* Problem where deltas cannot be applied if multiple builds exist for the same commit
+   * We’ve agreed on using a temporary workaround on not allowing this to happen (because it breaks deltas). At some point we should allow this.
+   * The problem with this case is that we cannot rollback to old commit hash
+   * Check oldest supervisor that support the state endpoint (2.5)
+   * Need to find how many devices are online running a version older than that
+   * Solution: put in DB what actually happens in registry, at the same time it’s not a good place to be. We need to change the image scheme. Once we do that, we can remove the unique constraint, because we should be able to build multiple times.
+* Actions
+   * First step — disable pushing previously pushed commits on the builder; add unique constraint for commit in the DB. Discuss the UX with Shaun.
+   * Later step — change to an image name format that makes each build produce unique images. Remove installed DB constraint. Can only move forward with this when all devices are updated to a Supervisor capable of getting image info from the state endpoint (i.e. >= 2.5). As of now, there are approx. 500 online devices with older Supervisors.
+
+[How to proceed with the chip chp image format](https://app.frontapp.com/open/cnv_74rrxr) cc @jhermsmeier
+
+* Where are we going with the Chip format?
+* We want a good flow for resin.io support for chip, something reasonable (not ‘download this VM’-style guidelines). We are not restrictive wrt how we will get there
+* Action
+   * Download the chip VM, understand the workflow (how partitions are allocated in the device) , check if the tools are OSS, portable etc. @michal-mazurek has dived a bit on this
+   * Maybe we can replicate it relatively painlessly in a docker container
+
+[How to manage turning services (vpn and resin-info) on and off given that the feature is broken with ro rootfs]() cc @pcarranzav
+
+* Problem: Given that rootfs is ro, if i we restart resin-info or vpn it won’t persist . Systemd resolves dependencies before bind mount
+* If you try systemctl disable supervisor will be a noop. The reason is that , in order to enable/disable a service, you need  a symlink but in our state parition it’s a file not a symlink.
+* Even when bind mounts happen afterwards, the file should not be there
+* This issue ^ is a problem with the way we reset state partition (we reset it at reboot)
+* Suggestion: Do nothing in prod images, if it’s a dev image write things in tty and override this behavior with config.json field.
+* Suggestion 2: have service shipped but not enabled and have supervisor start or not start - (we don’t want to do that). We want to maintain supervisor/vpn independence .
+* Discuss in summit about transitioning bits of the supervisor to the os
+
+[Multicontainer model](https://app.frontapp.com/open/cnv_75x5sl)
+
+* See: https://docs.google.com/drawings/d/1YiY5BsnEQC1VMFrbGHSs4ywUc4LjkQehL_pnJKM7OI8/edit
+
+---
 
 ### 28 Aug 2017
 
