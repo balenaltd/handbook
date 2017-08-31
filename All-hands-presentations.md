@@ -2,6 +2,10 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Tue, Aug 30 2017 (Amber pt.3)
+* [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8VU01TEM1Q2piQ3c)
+* [Audio]
+
 ### Tue, Jul 11 2017 (Deploying with Keyframes)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8Q0R6eER3bU9xR28)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8Rkx2RkFSN09vMFE)
