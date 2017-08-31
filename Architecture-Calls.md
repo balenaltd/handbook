@@ -86,7 +86,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 * Suggestion: Do nothing in prod images, if it’s a dev image write things in tty and override this behavior with config.json field.
 * Suggestion 2: have service shipped but not enabled and have supervisor start or not start - (we don’t want to do that). We want to maintain supervisor/vpn independence .
 * Discuss in summit about transitioning bits of the supervisor to the os
-
+* Action
+  * code a workaround to do the bind mount before systemd starts (https://github.com/resin-os/meta-resin/issues/825)
 [Multicontainer model](https://app.frontapp.com/open/cnv_75x5sl)
 
 * See: https://docs.google.com/drawings/d/1YiY5BsnEQC1VMFrbGHSs4ywUc4LjkQehL_pnJKM7OI8/edit
