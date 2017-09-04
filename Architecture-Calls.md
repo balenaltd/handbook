@@ -43,11 +43,10 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 04 Sep 2017
 
-- [Flowdock thread]()
-- [Meeting recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/x5NvvHI0Z8EV_bFceygZfNYP74k)
+- [Meeting recording](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLUG1CU21ZdDJVOVU)
 
-Reusable bare-minimal typings for external modules we're using cc @emirotin @pimterry
-
+[Reusable bare-minimal typings for external modules we're using](https://app.frontapp.com/open/cnv_77mpxb) cc @emirotin @pimterry
 
 - The problem: we're using some modules that don't have native, nor DefinitelyTyped typings
 -  We used to have the minimal typings for them inside of the specific projects, example: https://github.com/resin-io/resin-ui/tree/master/src/typings
@@ -55,11 +54,7 @@ Reusable bare-minimal typings for external modules we're using cc @emirotin @pim
 - It's not cool cause some of these modules are used across multiple packages, esp. in the SDK cluster.
   - So we've come up with the solution for the SDK cluster that we'd like to discuss and suggest for the rest of the org (or get replaced with something different). It's our own DefinitelyTyped-like repo: https://github.com/resin-io-modules/ts-types . But it does not require you to provide the complete typings
 
-
-
-
-Discuss the gooee issue with needing to add some env to uboot; we have uboot without env (using built-in env and no possibility to saveenv); they need this env to uniquely identify devices cc @agherzan
-
+[Discuss the gooee issue with needing to add some env to uboot; we have uboot without env (using built-in env and no possibility to saveenv); they need this env to uniquely identify devices](https://app.frontapp.com/open/cnv_71yy5x) cc @agherzan @telphan @floion
 
 Context:
 * They want to inject data during manufacturing process
@@ -75,7 +70,6 @@ Context:
 * Sounds like a legitimate request for hw configuration set by manufacturer (e.g. mac address)
 * Should we use a config file separate to config.json to store manufacturer-specific configuration?
 
-
 * Actions
    * Need a platform-wide solution for devices without uboot . Boot is most likely not the place to add this info
    * Instead of going the uboot way, we are going to build a feature that the manufacturer will add whatever env vars they need. We’ll use a separate config file next to config.json. and split config vars and env vars.
@@ -84,9 +78,8 @@ Context:
 
 Self service resinHUP cc @imrehg @agherzan
 
-
 * Actions:
-   * Ideally we’ll have self-service resinHUP (1.x -> 2.x, 2.x -> 2.x) available to our users before/around summit
+   * The goal is to have self-service resinHUP (1.x -> 2.x, 2.x -> 2.x) available to our users before/around summit
 
 
 TX2 - Pyro - Wifi firmware and license cc @telphan @agherzan
@@ -99,19 +92,16 @@ TX2 - Pyro - Wifi firmware and license cc @telphan @agherzan
    * Suggestion: drop new kernel sources and see if it works. The problem is it’s not easy to test: we have to test the demos, libraries etc. connected to the kernel
 
 
-What heuristics should we use to determine what image to use as a delta source? cc @pcarranzav , @afitzek , @CameronDiver @dfunckt
-
+[What heuristics should we use to determine what image to use as a delta source?](https://app.frontapp.com/open/cnv_76mmnt) cc @pcarranzav , @afitzek , @CameronDiver @dfunckt
 
 - So far we've been matching by application name from the image name (i.e. if we have `registry.resin.io/appName/commit1` and we want `registry.resin.io/appName/commit2`, we use the former as deltaSrc because appName matches). But with multicontainer we'll have a different image naming scheme (have we decided what it's gonna be yet @afitzek?) and more options to choose from.
 - We obviously should first try to use the previous version of the same service. Possibly we can switch to just using that directly if we know we have it instead of trying to match the image name.
 - But if that's not available yet, should we try to use an image from another service, or the supervisor, or just fall back to scratch? (as we currently do). 
 - And for a future version of deltas, would it be possible to tell the delta server *all* the images we have available and get the optimised delta from that?
 
-
 * What’s the plan when new docker ships in latest resinOS?
    * We need to update supervisor, builder and delta server in order to produce/consume new deltas
    * For mixed fleets (e.g. latest devices w/ new deltas and old deltas/devices), we’ll have to calculate both deltas which will be a bit slower
-
 
 * Actions
    * Suggestion: start simple and use the delta from same service; diff form previous to next version
