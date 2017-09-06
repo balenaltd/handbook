@@ -41,6 +41,108 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 06 Sep 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ACM32KhlOCvmwTxmyg3F1ffezxz)
+- [Meeting recordings](https://drive.google.com/open?id=0B0NS-URBofBLY2RSR1BYZk16bTA)
+
+- [Discuss OSS resin process and roadmap](https://app.frontapp.com/open/cnv_6zzpx1) cc @dfunckt @shaunmulligan
+
+
+* The plan for OSS resin is to make a simplified version that doesn’t need all peripheral components that we already have , ideally the less components the better
+* API, docker registry should be enough. Potentially the registry won’t be needed in the future (e.g. use dockerhub or other registry)
+* Still not sure whether or not we need VPN . Still hard to say if we will include it.
+* There are feature that will be cut off (e.g. git push pipeline)
+* We need to define what is the interface between devices/backend that currently OpenVPN implements and OpenVPN should become optional plugin to resin infra.
+* For some features there are substitutes, some will be dropped
+* We need to separate building and deployment parts
+* For an OSS resin that you use CLI to build image, you need a way to deploy container to device. Currently this requires the builder, which is problematic
+* Ideally, we’d like the API to receive image , a very simple API-based deployment flow
+   * If we had that, our closed source builder can be a plugin
+   * Both build and deployment pipelines should be plugins
+* If we wanted to use dockerhub to store all the images:
+   * When you login to docker you exchange user/pass with a jwt that has access to specific repo and has specific permissions (r/w). That jwt is all that’s needed for the docker pull.
+   * We could have a simple API endpoint that will initiate request to dockerhub, hand over jwt to device and have device initiate docker pull.
+   * We need to explore this path, needs more research
+   * Workflow would require resin.io connect to user’s dockerhub account. They’d have to have resin-specific account
+* We want to explore docker push to API endpoint
+* We want a ‘private’ pinejs model, excluded from OSS (e.g. for billing)
+* For non OSS resin we’d need to ‘glue’ OSS and private pinejs models
+
+
+* Actions
+   * Investigate how we can have api/registry only to have OSS resin
+   * Key architecture goals is to keep extra stuff to a minimum. Should work with existing components , probably with alternative configuration
+   * We don’t want a fork, we want to do it on resin first. Resin will be a clean extension of OSS that will utilise the OSS interface. We ‘ll refactor our interfaces wherever needed
+   * Need interfaces for deployment, building, VPN
+   * First step should be to identify what needs to be done (builder as a plugin, vpn interface etc.)
+   * Planning/coordination with other component maintainers will be needed
+   * Deliverable: a full product, an experience, not only code. Assume someone wants to set up their own instance of resin. The flows we make available with OSS resin should function smoothly.
+   * @dfunckt is project-managing this
+
+
+
+
+- Devops cc @brownjohnf
+
+
+Discuss Blog
+* Our blogs are not running in containers
+* We are running in potentially conflicting dependencies in different components (e.g. node versions), and we can’t have all of them run happily side by side on the same host
+* Discussed helm (https://github.com/kubernetes/helm) vs keyframes for kubernetes deployments / haven’t had time to evaluate it
+
+
+* Actions
+   * Migrate to mysql (from sqlite)
+   * Run blog containers on GCE / kubernetes
+      * Easier to setup, persistence conf should also be easier to add
+      * Also good experiment for GCE
+   * Investigate helm
+
+
+  - [Discuss exploring https://cloud.google.com/logging/ for our logging, monitoring, alerting etc](https://app.frontapp.com/open/cnv_727b0j)
+
+
+* Evaluating https://cloud.google.com/logging/  (stackdriver logging) as a logentries alternative
+* We have a bunch of products that integrate , more or less, happiliy together (logentries, datadog, pagerduty etc.)
+* Given that long-term we’re interested in GCE in the long-term
+* You can use this agent on any host
+* Pricing was also promising
+* Discussed sysdig (looks to be more container oriented than datadog)
+* Sysdig: google maps for your infrastructure ™ 
+
+
+* Actions
+   * Investigate both solutions (sysdig/stackdriver)
+
+
+  - [How to best grant read-access to our DB for the analytics team](https://app.frontapp.com/open/cnv_74p4sv) cc @alisondavis17
+
+
+* Tableau needs laptop to create charts
+* Should we consider drop tableau in favor of chart.io
+* Discussed DB read access policy
+   * Not easy to manage
+* Concerns were raised on Tableau usability
+* Discussed Chart.io: supports github, recurly, google sheets integrations
+
+
+* Actions
+   * Explore chart.io / wrt to cloud - friendliness, it looks far better than tableau
+
+
+  - [Discuss using heroku as secure enclave for bots](https://app.frontapp.com/open/cnv_75hafx) cc @jviotti
+
+
+* What if we made an account in heroku with limited access and use that as an enclave w/ a git push deployment to update our bots?
+* The problem is that we don’t want to have bots in the same deployment env with our infrastructure
+
+
+* Actions
+   * Needs more discussion
+
+---
+
 ### 04 Sep 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/x5NvvHI0Z8EV_bFceygZfNYP74k)
