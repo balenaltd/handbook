@@ -1421,7 +1421,7 @@ serious trouble :)
 
 ## Updating the Host OS
 
-__NOTE:__ We only support 1.x to 1.x host os updates.
+__NOTE:__ We support most hostOS update types (1.x->1.x, 1.x->2.x, 2.x->2.x), but many of it are manual updates. Here's an update matrix for info, if not sure ask @imrehg in the Support channel before promising an update to the user!
 
 [Matrix of possible version updates](https://docs.google.com/a/resin.io/spreadsheets/d/171cgf11Po5W_TKgg5mRKlj7fbsca4E21iOYMWLg2PMM/edit?usp=sharing)
 
