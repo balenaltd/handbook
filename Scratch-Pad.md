@@ -1430,7 +1430,7 @@ __NOTE:__ We support most hostOS update types (1.x->1.x, 1.x->2.x, 2.x->2.x), bu
 If a user asks for updating the host OS on some of their devices, or the whole
 fleet:
 
-* start a thread in flowdock as usual from the support sidebar, and make a "#deviceupdate" hashtag on it, so proper notifications are sent, and give some context there, so the FleetOps team can pick it up!
+* start a thread in Flowdock `r/support` as usual from the support sidebar, and make a "#deviceupdate" hashtag on it, so proper notifications are sent, and give some context there, so the FleetOps team can pick it up!
 
 ## 1. Checking Disk Space Usage
 
