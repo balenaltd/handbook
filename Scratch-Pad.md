@@ -1430,13 +1430,7 @@ __NOTE:__ We only support 1.x to 1.x host os updates.
 If a user asks for updating the host OS on some of their devices, or the whole
 fleet:
 
-* Check [this spreadsheet](https://docs.google.com/a/resin.io/spreadsheets/d/1w5qumNWpqm1C1zYTQ13I1jsMEVC-avU4pLV9_dv9M3c/edit?usp=sharing) on Google Drive
-* Make a copy of the spreadsheet, rename it to include the customer's name in the title and make sure you enable write access for the customer. Save it to the 'D-Devices/Update Requests' directory on Google Drive ([here](https://drive.google.com/drive/u/0/folders/0B2Os9XLYS_LZNnJnekx3NTQ0SlU))
-* Share a link with the customer so they will fill it out
-* Start an [issue in hq](https://github.com/resin-io/hq/issues) with the update
-  request, with link to both the spreadsheet and the support conversation
-
-If a user is only asking for a small fleet update, then it seems currently acceptable to get them to give the URLs for the devices required, start a thread in flowdock as usual from the support sidebar, and make a "#deviceupdate" note on it, so proper notifications are sent.
+* start a thread in flowdock as usual from the support sidebar, and make a "#deviceupdate" hashtag on it, so proper notifications are sent, and give some context there, so the FleetOps team can pick it up!
 
 ## 1. Checking Disk Space Usage
 
