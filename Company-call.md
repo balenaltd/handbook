@@ -2,6 +2,11 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
+### Mon, Sept 25 2017
+* [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1z7owBytW6JfYLF9pOiTZq1gZMRwN6bU1n9GFt-5JFMk/edit?usp=sharing)
+
+### Mon, Sept 18 2017
+* No meeting (Summit 2017)
 
 ### Mon, Sept 11 2017
 * [Meeting minutes](https://docs.google.com/document/d/1PNarH0wqiSRwMgbaXEq_tfiSwIormYtEVnRGBR0OgXg/edit)
