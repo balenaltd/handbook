@@ -4,6 +4,9 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 ### Mon, Sept 25 2017
 * [Meeting minutes](https://docs.google.com/a/resin.io/document/d/1z7owBytW6JfYLF9pOiTZq1gZMRwN6bU1n9GFt-5JFMk/edit?usp=sharing)
+* [Video]
+* [Audio]
+* [Attendees](https://drive.google.com/open?id=0B8b02_AxDQoVendoOTVTNlFxbTA)
 
 ### Mon, Sept 18 2017
 * No meeting (Summit 2017)
