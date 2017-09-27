@@ -44,7 +44,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 ### 25 Sep 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/wIgR2fHouOl6H8HPZiwnlYs89M1)
-- [Meeting recording]()
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLaDkzMEVwTFloWWs)
 
 [Discuss dropping fingerprint checking from 2.x](https://app.frontapp.com/open/cnv_7dsvvp) @imrehg @agherzan
 
@@ -53,13 +53,13 @@ We are uploading architecture call recordings as a convenience to people who mig
 * Actions
    * Drop resin-root/resin-boot fingerprints in hostApps resinOS versions
 
-[How would resinhup need to change (or the next generation be architected) so hostOS updates are possible in an on-premises deployment that we are working on.](https://app.frontapp.com/open/cnv_7fmrtl) @imrehg 
+[How would resinhup need to change (or the next generation be architected) so hostOS updates are possible in an on-premises deployment that we are working on.](https://app.frontapp.com/open/cnv_7fnavt) @imrehg 
 
 * Actions
    * We have /resinos namespace in dockerhub, we should follow a similar approach in our registry
    * We deploy with docker push
 
-[How would supervisor updates and resinos supervisor release info work in the world of host apps?]() @imrehg @agherzan
+[How would supervisor updates and resinos supervisor release info work in the world of host apps?](https://app.frontapp.com/open/cnv_7fmrtl) @imrehg @agherzan
 
 * Actions
    * Spec/arch doc on:
@@ -76,7 +76,7 @@ We are uploading architecture call recordings as a convenience to people who mig
       * App statistics
    * Put versions for custom endpoints
 
-[Discuss building a unified version handling library]() cc @pimterry @jviotti @lucianbuzzo
+[Discuss building a unified version handling library](https://app.frontapp.com/open/cnv_7ntxrn) cc @pimterry @jviotti @lucianbuzzo
 
 * Discussed resin-semver module
 * Contracts can work with or without semver (not tied to it)
