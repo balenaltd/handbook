@@ -41,6 +41,55 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 25 Sep 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/wIgR2fHouOl6H8HPZiwnlYs89M1)
+- [Meeting recording]()
+
+#meeting-notes 
+
+[Discuss dropping fingerprint checking from 2.x](https://app.frontapp.com/open/cnv_7dsvvp) @imrehg @agherzan
+
+* Can be dropped for hostOS
+* We don’t need to use fingerprints for hostApps
+* Actions
+   * Drop resin-root/resin-boot fingerprints in hostApps resinOS versions
+
+[How would resinhup need to change (or the next generation be architected) so hostOS updates are possible in an on-premises deployment that we are working on.](https://app.frontapp.com/open/cnv_7fmrtl) @imrehg 
+
+* Actions
+   * We have /resinos namespace in dockerhub, we should follow a similar approach in our registry
+   * We deploy with docker push
+
+[How would supervisor updates and resinos supervisor release info work in the world of host apps?]() @imrehg @agherzan
+
+* Actions
+   * Spec/arch doc on:
+      * supervisor.conf reflection of latest version from api
+      * supervisor.default.conf - yocto-installed version
+      * @agherzan is on it
+   * hostOS updates don’t touch that file, they work with the default one
+
+[Discuss how the sidebar should manage authentication to access our support/sales data]() cc @pimterry
+
+* Actions
+   * We are fine with using API endpoints for 
+      * salesforce proxy
+      * App statistics
+   * Put versions for custom endpoints
+
+[Discuss building a unified version handling library]() cc @pimterry @jviotti @lucianbuzzo
+
+* Discussed resin-semver module
+* Contracts can work with or without semver (not tied to it)
+* Context: https://www.flowdock.com/app/rulemotion/resin-frontend/threads/nV4peeCwbBU5NlAsv7T5E4sdMKh
+* resinos-version-utils would be a better name probably. resin-semver is a confusing name
+* Conversation will be continued
+
+[Discuss space limiting for user applications, what options we have on the table currently, or what's planned for multicontainer]() cc @imrehg @pcarranzav @camerondiver
+
+* Technology we can use is fs quotas. ext4 and docker support is available after certain kernel versions
+
 ### 06 Sep 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ACM32KhlOCvmwTxmyg3F1ffezxz)
