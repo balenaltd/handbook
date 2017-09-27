@@ -46,8 +46,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/wIgR2fHouOl6H8HPZiwnlYs89M1)
 - [Meeting recording]()
 
-#meeting-notes 
-
 [Discuss dropping fingerprint checking from 2.x](https://app.frontapp.com/open/cnv_7dsvvp) @imrehg @agherzan
 
 * Can be dropped for hostOS
@@ -70,7 +68,7 @@ We are uploading architecture call recordings as a convenience to people who mig
       * @agherzan is on it
    * hostOS updates don’t touch that file, they work with the default one
 
-[Discuss how the sidebar should manage authentication to access our support/sales data]() cc @pimterry
+[Discuss how the sidebar should manage authentication to access our support/sales data](https://app.frontapp.com/open/cnv_77ley1) cc @pimterry
 
 * Actions
    * We are fine with using API endpoints for 
