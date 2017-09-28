@@ -98,3 +98,17 @@ ResinOS releases with supervisor `0.0.14` and newer seem to be running systemd. 
 ### Built images
 
 The earliest images that can be rebuilt seem to be resinOS `1.1.4`, from [`meta-resin`](https://github.com/resin-os/meta-resin) (instructions incoming).
+
+
+## Historical notes on resinOS versions
+
+There are a number of differences between resinOS versions, and it is crucial to extract them from Changelogs and code, otherwise it's impossible to create a hostOS updater that can account for all the transitions and settings between them. Adding notes here on the differences found
+
+### BBB
+
+#### BBB RootFS name
+
+Finding the root device with `findmnt -n --raw --evaluate --output=source /`, the results are like:
+
+* 1.26.0: `/dev/mmcblk1p2`
+* 2.x (tested up to 2.4.2+rev1): `/dev/disk/by-partuuid/93956da0-02` (the other parts are `01`, ...)
