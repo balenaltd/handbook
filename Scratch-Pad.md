@@ -5,7 +5,7 @@
 - [Facts](#facts)
 - [Troubleshooting](#troubleshooting)
   - [Docker won't start](#docker-wont-start)
-    - [Address already in use](#address-already-in-use) 
+    - [Address already in use](#address-already-in-use)
   - [Device stuck in "Stopping" state](#device-stuck-in-stopping-state)
   - [(can't) Swap on BTRFS](#cant-swap-on-btrfs)
   - [Issues with Line Endings](#issues-with-line-endings)
@@ -693,7 +693,7 @@ non-trivial to the point of not being worth it.
 
 ## Debugging CLI issues
 
-If the issue isn't obvious, the first step here is almost always to ask the user to update their CLI, if they're not on the latest version. 
+If the issue isn't obvious, the first step here is almost always to ask the user to update their CLI, if they're not on the latest version.
 
 Modern versions (5.6.1+) of the CLI should log any errors received to Sentry, which can provide further useful detail. You can browse these at https://sentry.io/resinio/cli/. More modern versions (5.10.0+) include user and full CLI argument information with all errors. For these, you can query by user with https://sentry.io/resinio/cli/?query=user%3Aid%3AUSERNAME to get the full trace for the issue the user is seeing, as well as every package version they're using, see previous errors they might've hit, and other debug data.
 
@@ -1112,6 +1112,9 @@ You can enable deltas by simply creating a fleet config variable named `RESIN_SU
 Set `RESIN_SUPERVISOR_LOG_CONTROL` env var to `false`, see https://resin.io/blog/device-bandwidthdata-usage-how-low-can-we-go/ for more details.
 
 ### Can you disable 2FA so I can recover my account
+
+__MOVED TO PENSIEVE__
+
 __Note:__ replace `CHANGE_ME` with a unique string. You can generate one by running:
 ```
 openssl rand -hex 32
@@ -1635,7 +1638,7 @@ find '/var/lib/docker/volumes/' -mindepth 1 -maxdepth 1 -type d | grep -vFf <(
 > - Exclude (grep -vFf) mounted volumes form the list of all volumes
 
 > The command doesn’t remove anything, but simply passing the results to xargs -r rm -fr does so.
-> For >= docker 1.9 this is equivalent to 
+> For >= docker 1.9 this is equivalent to
 
 ```
 docker volume ls -qf dangling=true | xargs -r docker volume rm
@@ -2057,11 +2060,11 @@ If the above command says for the supervisor STATUS is "Removal In Progress" and
 or here's a complete script that you can copy-paste and run inside the hostOS to automate this:
 
 ```
-CONTAINER=$(docker ps -a --no-trunc | grep Removal |  grep resin_supervisor | awk '{ print $1 }')     
+CONTAINER=$(docker ps -a --no-trunc | grep Removal |  grep resin_supervisor | awk '{ print $1 }')
 if [ ! -z "$CONTAINER" ]; then
-echo "Found removal in progress supervisor: ${CONTAINER}";   
- systemctl stop resin-supervisor    
- systemctl stop docker    
+echo "Found removal in progress supervisor: ${CONTAINER}";
+ systemctl stop resin-supervisor
+ systemctl stop docker
  rm -r /var/lib/docker/containers/${CONTAINER}
  systemctl start docker
  systemctl start resin-supervisor
@@ -2170,12 +2173,12 @@ curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/devi
 Search for `support_expiry_date`, this date should be in the future! This date is UTC time!
 
 or with `jq`:
- 
+
 ```
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/device\(<DEVICEID>\) --silent | jq .d[0].support_expiry_date
 ```
 
-or 
+or
 
 ```
 curl -H 'Authorization: Bearer <YOURADMINTOKEN>' https://api.resin.io/resin/application\(<APPLICATIONID>\)
