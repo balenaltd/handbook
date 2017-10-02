@@ -1,7 +1,7 @@
 # Contents
 
 - [Contents](#contents)
-- [Introduction](#introduction) - and migration plans
+- [Introduction](#introduction) - and Pensieve migration plans
 - [Facts](#facts)
 - [Troubleshooting](#troubleshooting)
   - [Docker won't start](#docker-wont-start)
