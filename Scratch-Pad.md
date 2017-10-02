@@ -174,8 +174,8 @@ __IMPORTANT:__ The information contained here might be outdated, proceed with ca
 ------
 
 We are in the process of migrating this to Scratchpad V2. Please move entries over when you read or use them, and leave a note at the top of the entry in this scratchpad saying "Moved to Pensieve". This way we start to migrate the most recently used entries first, making the new Pensieve useful to start testing with real data. At the same time, you won't have to search two databases at the same time. This should be a short phase.
-* [instance of Pensieve](https://resin-io.github.io/scratchpad/)
-* [repo with the Pensieve app](https://github.com/resin-io/pensieve)
+* [our instance of Pensieve](https://resin-io.github.io/scratchpad/) - for entries
+* [repo with the Pensieve app](https://github.com/resin-io/pensieve) - for issues
 
 If you need to edit an entry, please edit both. Because seriously, this duplicate phase should be super short.
 
