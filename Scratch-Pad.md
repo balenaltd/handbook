@@ -1,7 +1,7 @@
 # Contents
 
 - [Contents](#contents)
-- [Introduction](#introduction)
+- [Introduction](#introduction) - and migration plans
 - [Facts](#facts)
 - [Troubleshooting](#troubleshooting)
   - [Docker won't start](#docker-wont-start)
@@ -168,6 +168,11 @@
 # Introduction
 This is a raw scratchpad for centralised knowledge both in terms of user support as well as internal technical documentation we've picked up along the way. It's intended to be a staging point for stuff which will later be ported to the appropriate places.
 Having this here, raw and with no expectation as to quality is useful, since it means the knowledge goes somewhere, rather than being scattered disparately around.
+
+We are in the process of migrating this to Scratchpad V2. 
+* [Link to our instance of Pensieve](https://resin-io.github.io/scratchpad/) - move entries over when you read or use them, and leave a note at the top of the entry in this scratchpad saying "Moved to Pensieve". This way we start to migrate the most recently used entries first, making the new Pensieve useful to start testing with real data. At the same time, you won't have to search two databases at the same time. This should be a short phase.
+
+If you need to edit an entry, please edit both. Because seriously, this duplicate phase should be super short.
 
 __IMPORTANT:__ The information contained here might be outdated, proceed with caution + check to make sure the steps you are following are correct.
 
