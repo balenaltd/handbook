@@ -1113,8 +1113,6 @@ Set `RESIN_SUPERVISOR_LOG_CONTROL` env var to `false`, see https://resin.io/blog
 
 ### Can you disable 2FA so I can recover my account
 
-__MOVED TO PENSIEVE__
-
 __Note:__ replace `CHANGE_ME` with a unique string. You can generate one by running:
 ```
 openssl rand -hex 32
@@ -1185,6 +1183,17 @@ If the key does match, and there's no reason to believe the computer is compromi
 
 
 **IT IS REALLY IMPORTANT TO VERIFY THE WHOLE STRING**
+
+Once you're __sure__ that it's safe to remove the 2fa, you need to run the
+following SQL in the database.
+
+```
+UPDATE "user"
+SET "is two factor protected" = 0
+WHERE "id" = <user_id>
+```
+
+Currently, Page, Petros and Jack have production database access.
 
 ### Get image download size with the Resin SDK
 The stream object resolved by [resin.models.os.download()](https://github.com/resin-io/resin-sdk/blob/master/DOCUMENTATION.md#resin.models.os.download) contains the original `node-request` response as a `.response` property. User can check the HTTP headers in `stream.response.headers` to determine the size, before deciding to pipe to a location.
