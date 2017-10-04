@@ -85,15 +85,16 @@ https://api.resin.io/whoami
 https://api.resin.io/device/register
 https://api.resin.io/application/APPID/generate-api-key
 
-In sales convos we mention that the CLI and SDK are stable interfaces that users can rely on
-If users start using random things it’s hard to keep track and their apps will break
-Even if the CLI breaks we have a way to notify users of new CLI versions
-The problem is that we’re planning a CLI redesign that will break the current command interface]
-We should document and version our API endpoints
-DT use whoami, device register, generate api key endpoint and a few more. The generate api key is already deprecated. THe user’s argument is that the CLI is hard to use as a dependency
-There’s a new endpoint to get provision key
-The problem is that if a user downloads an old resinOS version, that version will still use the old endpoint (https://api.resin.io/application/APPID/generate-api-key)
-In fact, new resinOS versions still use it but it’ll be deprecated in next versions
+- In sales convos we mention that the CLI and SDK are stable interfaces that users can rely on
+- If users start using random things it’s hard to keep track and their apps will break
+- Even if the CLI breaks we have a way to notify users of new CLI versions
+
+- The problem is that we’re planning a CLI redesign that will break the current command interface]
+- We should document and version our API endpoints
+- DT use whoami, device register, generate api key endpoint and a few more. The generate api key is already deprecated. The user’s argument is that the CLI is hard to use as a dependency
+- There’s a new endpoint to get provision key
+- The problem is that if a user downloads an old resinOS version, that version will still use the old endpoint (https://api.resin.io/application/APPID/generate-api-key)
+- In fact, new resinOS versions still use it but it’ll be deprecated in next versions
 
 - **Actions**
   - Endpoints need versioning 
