@@ -44,7 +44,60 @@ We are uploading architecture call recordings as a convenience to people who mig
 ### 02 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/FBbdTK4Xga_qPqxGqQr4nQpk4pB)
-- [Meeting recording]()
+- [Meeting recording](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLYThBaW9fT2luTTg)
+
+- [Way forward for managed / unmanaged unification.](https://app.frontapp.com/open/cnv_7ruhid) cc @agherzan
+
+Need specific API endpoint
+How would you configure credentials for specific API key
+Need to configure:
+Public ssh key
+Config.json
+Ariel or Akis can help for the API side
+
+  - [Discuss how application/service restart will work on multicontainer.](https://app.frontapp.com/open/cnv_7gnxcx) cc @pcarranzav @camerondiver
+
+Currently we use an env var to do supervisor restarts
+Action:
+Use a supervisor endpoint for this action
+
+  - [Discuss the behavior of local mode setting in multicontainer](https://app.frontapp.com/open/cnv_7gnxyl)
+
+  - [Discuss the folders to use for app-wide communication with supervisor (resin-updates.lock) and service-wide (resin-kill-me)](https://app.frontapp.com/open/cnv_7gnzw7) cc @pcarranzav @camerondiver
+
+Files to use:
+/run/resin/service
+/run/resin/app
+
+- [Discuss adding labels to the model]()
+
+- [What guarantees do we give our users about unversioned API endpoints, is there a way they can use these safely, and how would we inform people of breaking changes in them?](https://app.frontapp.com/open/cnv_7wbnm9) cc @pimterry
+
+‘Offending’ endpoints
+https://api.resin.io/download-config
+https://api.resin.io/whoami
+https://api.resin.io/device/register
+https://api.resin.io/application/APPID/generate-api-key
+
+In sales convos we mention that the CLI and SDK are stable interfaces that users can rely on
+If users start using random things it’s hard to keep track and their apps will break
+Even if the CLI breaks we have a way to notify users of new CLI versions
+The problem is that we’re planning a CLI redesign that will break the current command interface]
+We should document and version our API endpoints
+DT use whoami, device register, generate api key endpoint and a few more. The generate api key is already deprecated. THe user’s argument is that the CLI is hard to use as a dependency
+There’s a new endpoint to get provision key
+The problem is that if a user downloads an old resinOS version, that version will still use the old endpoint (https://api.resin.io/application/APPID/generate-api-key)
+In fact, new resinOS versions still use it but it’ll be deprecated in next versions
+Actions
+Endpoints need versioning 
+https://api.resin.io/device/register
+https://api.resin.io/whoami
+https://api.resin.io/download-config 
+Deprecate https://api.resin.io/application/APPID/generate-api-key and /api-key/application/:appId/provisioning cc @page-
+Let users know that endpoints will be versioned cc @afitzek
+
+  - [Discuss the how SyncBot should reconcile the difference between Front, Flowdock and Discourse’s philosophy on hashtags.](https://app.frontapp.com/open/cnv_7qpfdp)
+
 
 ### 25 Sep 2017
 
