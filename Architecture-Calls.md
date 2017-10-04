@@ -61,15 +61,21 @@ Currently we use an env var to do supervisor restarts
 - **Actions:**
 Use a supervisor endpoint for this action
 
-  - [Discuss the behavior of local mode setting in multicontainer](https://app.frontapp.com/open/cnv_7gnxyl)
+[Discuss the behavior of local mode setting in multicontainer](https://app.frontapp.com/open/cnv_7gnxyl)
 
-  - [Discuss the folders to use for app-wide communication with supervisor (resin-updates.lock) and service-wide (resin-kill-me)](https://app.frontapp.com/open/cnv_7gnzw7) cc @pcarranzav @camerondiver
+- Brainstorm
+
+[Discuss the folders to use for app-wide communication with supervisor (resin-updates.lock) and service-wide (resin-kill-me)](https://app.frontapp.com/open/cnv_7gnzw7) cc @pcarranzav @camerondiver
+
+- Brainstorm
 
 Files to use:
 /run/resin/service
 /run/resin/app
 
 [Discuss adding labels to the model]()
+
+- Brainstorm
 
 [What guarantees do we give our users about unversioned API endpoints, is there a way they can use these safely, and how would we inform people of breaking changes in them?](https://app.frontapp.com/open/cnv_7wbnm9) cc @pimterry
 
@@ -98,6 +104,8 @@ In fact, new resinOS versions still use it but it’ll be deprecated in next ver
     - Let users know that endpoints will be versioned cc @afitzek
 
 [Discuss the how SyncBot should reconcile the difference between Front, Flowdock and Discourse’s philosophy on hashtags.](https://app.frontapp.com/open/cnv_7qpfdp)
+
+- Brainstorm
 
 
 ### 25 Sep 2017
