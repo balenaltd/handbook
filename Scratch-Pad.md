@@ -1221,7 +1221,18 @@ You can easily move devices between applications by selecting a device from a cu
 
 **IMPORTANT!!!** Do not help users delete their accounts until you are 100% sure that they are not collaborators with one of our customers, because deleting their account will cause any devices they created for the company be deleted as well.
 
-It is currently not possible for a user to delete their account using the dashboard.  However it is possible to do so using a direct API request with the *user's* auth token (the auth token must belong to the account being deleted), so either the user can perform the request with their auth token from the preferences panel or an admin can use the 'login as' admin panel feature to copy the user's auth token and run the request themself.
+If the user is a collaborator and there are too many devices to check individually, you can use this script - as long as none of the devices are attributed to the user account you'd like to delete you're safe.
+```#!/bin/bash
+
+TOKEN="userToken"
+
+resin devices \
+    | awk '{print $1}' \
+    | grep -v 'ID' \
+    | xargs -I{} curl -s 'https://api.resin.io/v2/device({})?$expand=user' -H "authorization: Bearer $TOKEN" --compressed \
+    | jq '.d[0] | "\(.id) \(.application.__id) \(.user[0].username)"'
+```
+It is currently not possible for a user to delete their account using the dashboard.  However it is possible to do so using a direct API request with the *user's* auth token (the auth token must belong to the account being deleted), so either the user can perform the request with their auth token from the preferences panel or an admin can use the 'login as' admin panel feature to copy the user's auth token and run the request themselves.
 
 ```sh
 userId="..."
