@@ -48,12 +48,12 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Way forward for managed / unmanaged unification.](https://app.frontapp.com/open/cnv_7ruhid) cc @agherzan
 
-Need specific API endpoint
-How would you configure credentials for specific API key
-Need to configure:
-Public ssh key
-Config.json
-Ariel or Akis can help for the API side
+- Need specific API endpoint
+- How would you configure credentials for specific API key
+- Need to configure:
+  - Public ssh key
+  - Config.json
+  - @flesler or @dfunckt can help for the API side
 
 [Discuss how application/service restart will work on multicontainer.](https://app.frontapp.com/open/cnv_7gnxcx) cc @pcarranzav @camerondiver
 
