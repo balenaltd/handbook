@@ -37,9 +37,95 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-* OSS status update (Mondays)
+- (None currently)
 
 ## Recent Meeting Notes
+
+### 07 Oct 2017
+
+- [Flowdock thread]()
+- [Meeting recording]()
+
+https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLX2ZHY0Q2eldLbUU
+
+
+[currently when generating a config.json for an unexpected os version the api defaults to 1.x resin os settings, ie registry v1, should it default to newer versions instead?](https://app.frontapp.com/open/cnv_87uymp) cc @page-
+
+* You can download config.json but for any version
+* The endpoint should definitely not give out the old api keys
+* Action
+   * If we don’t specify a version to the endpoint, it should default to registry v2 and provision keys
+
+[The API attempts to contact both Mixpanel and geocode hosts. Depending on the way DNS has been setup, this can cause timeouts in an airgapped DevEnv (ie. the OnPrem) which affect responses from the API (including timeouts). There are a few possible ways forward (configurable hosts, making request attempts optional).](https://app.frontapp.com/open/cnv_8c6juh) cc @hedss @page-
+
+* Hedss probably track it down this week
+* What it probabaly comes down to is
+   * Create application, attempt to download, it will always blocks
+* Actions
+   * Remove mixpanel hooks wherever they are blocking the request
+   * Make sure there’s proper (i.e. bigger) timeout for DNS resolution in general 
+
+[Discuss agile licensing next arch call ](https://app.frontapp.com/open/cnv_8c9rtl) cc @craig-mulligan
+
+* Related to Agile EU project
+* Using EPL license 
+* Asked that they use Apache licence, they refused
+* There’s code we’ve written for Agile and they want to license it as EPL
+* The worrying part is that they need some update mechanism implemented. This piece of code will be part of our contribution.
+* Actions
+   * We’d rather fight the fight of not licensing under EPL and use Apache instead
+   * Need to find out if we are obligated or if they are simply pushing for it
+   * Need to setup a call w/ Agile
+
+[Raspberry Pi Compute Modules require a specific dt-blob.bin to be put on the boot partition in order to define the PIN mappings that make the Camera and Display work. We need (ideally) to find a way to make this mechanism dynamic so that we won't be required to make additional device types. This also affects ofc Amber.](https://app.frontapp.com/open/cnv_8g2k1d) cc @curcuz @agherzan @petrosagg
+  - More info here: https://www.raspberrypi.org/documentation/hardware/computemodule/cm-peri-sw-guide.md
+
+* There’s a dtb file we need to drop into the /boot partition
+* We want mixed fleets (Ambers and pis, for instance)
+* In that world, a generic OS might still need some specialization (specific things for specific devices)
+* On the device itself, apart from the OS, we need to store , at least a copy of the device type description (e.g. this is an Amber). For resinOS , when it is Amber it means that we need to copy the DTB blob to some specific location.
+* Actions
+   * Prioritise:
+      * Autodetect / identifying the device through it’s hardware/EEPROM, 
+      * Investigate if dynamic dtb dynamic loading can work from userspace. If it’s a kernel module we can ship it with resinOS and it’ll work
+   * If autodetect and/or dynamic dtb are not viable solutions, we’ll move with the subtype alternative (which we’ll need anyway)
+      * Extend config.json with device-subtype. Part of the update mechanism is:
+         * Check subtype, if it’s an Amber copy the dtb to the specific location
+         * In the download screen we’ll probably need to specify that it’s an Amber
+
+[Discuss the adding of a resource to the multicontainer model which holds information about the state of a dependent app download (and 
+other metadata?](https://app.frontapp.com/open/cnv_8hxgtd) cc @camerondiver @pcarranzav
+
+* When the supervisor downloads either managed app container or app container it uses the same download progress
+* Possible solution:
+   * Hard coding dependent devices in the model
+* We don’t want special cases in the model for dependent devices
+* Need more time to think about it
+
+[We've decided that we do want labels to be a first class citizen in the model, but it's not obvious where they should go. They get defined in a composition, and attached to a service, but if they are attached to a service in the model, it implies that they will also be applied when the matching string is taken out of the composition.](https://app.frontapp.com/open/cnv_8jugf5) cc @camerondiver
+
+* In the docker compose file (i.e. the composition) you can add labels for features like BT, access to supervisor etc. It comes from a release.
+* We want to add this information in the API. We have a composition resource in the API
+   * Clarification: it is not a resource, it’s a field. There’s a composition object.
+* Need to bring the model discussion up to a product/arch call
+* Are images immutable?
+* If the images are immutable, do we share image resources between releases that didnt change the image?
+
+[Use the `@sha256:[hash]` section of an image to allow the supervisor to know whether to update an image on-device? We will create a new Image entry in the API to keep things simple, and the supervisor will still know what's going on](https://app.frontapp.com/open/cnv_8jzgn5) cc @camerondiver @pcarranzav
+
+* Take context from the supervisor
+* If it’s only for the url, we probably don’t need a separate model
+* Action
+   * Let’s store hash as a separate field
+   * If for whatever reason we change registry urls, we’ll keep the same stuff
+   * Docker hash should always be the same
+
+**USB-Boot check in / troubleshooting session**
+* We’re sending over two files to the device
+   * boot-code.bin
+   * Start.elf
+* It could be that the difference from usb boot vs starting from emc storage , is different start.elf
+* https://www.flowdock.com/app/rulemotion/r-etcherprv/threads/0pb6BQn2eT1Q1WdW9kWy7D2gv2S
 
 ### 04 Oct 2017
 
