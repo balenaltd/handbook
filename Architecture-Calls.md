@@ -41,13 +41,10 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
-### 07 Oct 2017
+### 09 Oct 2017
 
-- [Flowdock thread]()
-- [Meeting recording]()
-
-https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLX2ZHY0Q2eldLbUU
-
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Z5B3TISRTSozD1vcmw2TWPFW6UP)
+- [Meeting recording](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLX2ZHY0Q2eldLbUU)
 
 [currently when generating a config.json for an unexpected os version the api defaults to 1.x resin os settings, ie registry v1, should it default to newer versions instead?](https://app.frontapp.com/open/cnv_87uymp) cc @page-
 
@@ -151,6 +148,7 @@ other metadata?](https://app.frontapp.com/open/cnv_8hxgtd) cc @camerondiver @pca
 Actions:
 
 * @izavits to look into mixpanel migration (should be orthogonal with other changes in the API/supervisor)
+* See spec: https://github.com/resin-io/hq/pull/938
 
 ### 02 Oct 2017
 
