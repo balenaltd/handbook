@@ -41,6 +41,33 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 04 Oct 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/HlZSCeLUEdiaix6Yq99FuDr1Jvg)
+- [Meeting recording](https://drive.google.com/open?id=0B0NS-URBofBLTENKMVhsekxma3M)
+
+[Discuss building a unified version handling library](https://app.frontapp.com/open/cnv_7ntxrn) cc  @jviotti, @lucianbuzzo @pimterry
+
+
+* We need function for semver, dot seperated numbers, resinOS, ubuntu specific, dates etc.
+* Maybe the interface should be two functions
+   * A comparator function
+   * A validate() function (is it valid resinOS, dates etc)
+
+* Actions
+   * rename resin-semver to resinos-version (or sth like that)
+   * Contracts need to be able to choose between versioning schemes and use appropriate ‘compare()’ function
+   * Would it be possible to do versioning comparison in contracts this out of the job?
+   * It is, but what happens when the algo gets it wrong?
+   * We could use a fallback option and let the user choose their versioning scheme
+
+[Moving forward with mixpanel migration to handle username changes, which is the current blocker for app/device transfer](https://app.frontapp.com/open/cnv_85518h) cc @pimterry @flesler @izavits
+
+Actions:
+
+* @izavits to look into mixpanel migration (should be orthogonal with other changes in the API/supervisor)
+
+
 ### 02 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/FBbdTK4Xga_qPqxGqQr4nQpk4pB)
