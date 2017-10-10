@@ -48,7 +48,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [Discuss building a unified version handling library](https://app.frontapp.com/open/cnv_7ntxrn) cc  @jviotti, @lucianbuzzo @pimterry
 
-
 * We need function for semver, dot seperated numbers, resinOS, ubuntu specific, dates etc.
 * Maybe the interface should be two functions
    * A comparator function
@@ -66,7 +65,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 Actions:
 
 * @izavits to look into mixpanel migration (should be orthogonal with other changes in the API/supervisor)
-
 
 ### 02 Oct 2017
 
