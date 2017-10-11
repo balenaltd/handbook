@@ -4,10 +4,10 @@ Expenses made must be reported to the Operations team together with all relevant
 
 Please read on for more info depending if you are an employee or a contractor.
 
-##Contractors
+## Contractors
 
 All contractors just include reimbursable expenses in their monthly invoices. In order to get reimbursed you will need to include a receipt/invoice of the purchased item(s).
 
-##Employees
+## Employees
 
 All employees get reimbursed through a service we use called [Expensify](https://www.expensify.com). In order to get access to the service you need to contact the Operations Team to send you an invite. After you sign up please follow this [Expensify guide](https://docs.expensify.com/setup-for-submitters/day-1-with-expensify-submitters) to get more familiar with the service and send in your expenses.
