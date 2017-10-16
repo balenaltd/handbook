@@ -41,6 +41,62 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 16 Oct 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GYI5AlFnv0ZZZuZfzG6VWvS4yxX)
+- [Meeting Notes](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLUUZ3LXJOLXQzbWs)
+
+[Now that React has an MIT license, I’d like to use it for our components library and dashboard instead of Preact. This will improve development speed as we will have better third-party library support and better TypeScript integrations.](https://app.frontapp.com/open/cnv_8z7pcx) cc @lucianbuzzo
+
+
+* Action
+   * Move to React
+
+
+[Moving builds that require private credentials (e.g. npm/Front) from CircleCI to Concourse](https://app.frontapp.com/open/cnv_8p1a3l)  cc @hedss @afitzek
+
+
+* CircleCI can expose sensitive vars on PR build, before merge
+* Forked PRs are a resolved problem, we only have an issue with PRs from within the team
+* Most projects require private credentials (e.g. projects that require NPM publishing)
+* Possible solution
+   * Every build creates an artifact
+   * There’s a separate process that gets this artifact and deploys it in a staging area
+   * Long term solution - do we have something that can run now?
+* Action
+   * For now we will consider keys stored to circle being secure, we already share keys with the team
+   * We accept this window
+   * Sensitive credentials: dockerhub, npm (rust?)
+   * We can use Circle to automatic publish/deploy modules/components
+
+
+[Neon for Reconfix issue: Neon currently does not allow persistent handles to v8 data. Essentially, this means that Rust code can hold references to things like functions outside the current call stack](https://app.frontapp.com/open/cnv_901fep) cc @abrodersen
+* Not a reconfix blocker
+* Neon does not allow to reference native js objects
+
+
+[Discuss spec on replacing pubnub](https://app.frontapp.com/open/cnv_8zhrrd) cc @flesler
+* Brainstorming session
+* Idea: use in memory, volatile storage
+* Mentioned using having the UI connected with a websocket connection to the logs server (logs.resin.io) and have device logs streamed directly to the clients (instead of having the Dashboard polling)
+* 1 log line per row - is it a good or a bad idea?
+* Need more concrete metrics on performance (space and time)
+* Currently the db averages ~5.5iops, with a baseline performance of 300 iops (it uses a credit system so can burst up to 3000iops for periods as need be)
+* 829.6M messages in PubNub over the last month
+* Estimated 320 msgs/second
+* Devices send an estimated 1 mesage per 15 seconds
+* We don’t have an estimated log lines per message
+* Action
+   * Projecting metrics has not worked well for us in the past, we should not make vague assumptions
+   * Need to know limits, the usage we currently have, figure out the guarantees we want to have
+   * Get metrics from Pubnub, create a model
+   * Check if we can use automatic sharding
+   * Tests to try:
+      * AWS playground DB / pine logging model
+      * Check Partitioning in RDS
+      * Putting PubNub load in test DB
+      * Monitor iops in AWS  
+
 ### 09 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Z5B3TISRTSozD1vcmw2TWPFW6UP)
