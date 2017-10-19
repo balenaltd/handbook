@@ -725,6 +725,53 @@ start-stop-daemon: /etc/resinApp.sh is already running
 
 We should look at what the user has in the CMD instruction to investigate the issue. With OpenRC, the same as systemd, we put user CMD instruction in /etc/resinApp.sh and run it as an OpenRC service. On init, OpenRC will execute the script (and store the PID at /var/run/resinapp.pid). When user restarts the service, OpenRC will stop the process with that PID and start the script again. These logs indicate something is wrong when OpenRC executes or kills `/etc/resinApp.sh` so we should start investigating from its content.
 
+## update-resin-supervisor does not run properly by itself  (in Pensieve)
+
+https://github.com/resin-os/meta-resin/pull/864
+https://github.com/resin-os/meta-resin/pull/864
+
+### Problem
+A typo in update-resin-supervisor makes it unable to pull a supervisor based on API response, as the API call is done incorrectly using the device API key.
+
+### Solution
+Use the update-resin-supervisor from the fixed version, after the new version was tagged in the API, log into the device and run:
+```
+curl -o /tmp/update-resin-supervisor https://raw.githubusercontent.com/resin-os/meta-resin/v2.7.0/meta-resin-common/recipes-containers/docker-disk/docker-resin-supervisor-disk/update-resin-supervisor
+bash /tmp/update-resin-supervisor
+```
+### Versions Affected
+>=2.0.8 || < 2.7.0
+
+### Fixed in Version
+2.7.0
+
+## On device supervisor update for support agents (in Pensieve)
+### Problem
+Support agents cannot log in as the user to update the supervisor. Here's a script to do that on the device with SSH access only.
+### Solution
+
+* Check the available supervisor versions at [https://api.resin.io/v3/supervisor_release](https://api.resin.io/v3/supervisor_release), for the device type, and note the `vX.Y.Z` number, e.g. `v6.3.5`
+* SSH into the device
+* set the `TAG` shell variable to that, eg `TAG=v6.3.5`
+* copy and paste the below script into the shell to run it - it will take the device's credentials, calls the API for the supervisor for cross-check, and then update the database for this device.
+
+```
+if [ -z "$TAG" ]; then
+  echo "Please set TAG=vX.Y.Z supervisor version (e.g TAG=v6.3.5)"
+else
+  read -r APIKEY DEVICEID API_ENDPOINT SLUG <<<$(jq -r '.apiKey // .deviceApiKey,.deviceId,.apiEndpoint,.deviceType' /mnt/boot/config.json)
+  SUPERVISOR_ID=$(curl -s "${API_ENDPOINT}/v3/supervisor_release?\$select=id,image_name&\$filter=((device_type%20eq%20'$SLUG')%20and%20(supervisor_version%20eq%20'$TAG'))&apikey=${APIKEY}" | jq -e -r '.d[0].id')
+  echo "Extracted supervisor ID: $SUPERVISOR_ID"
+  curl -s "${API_ENDPOINT}/v2/device($DEVICEID)?apikey=$APIKEY" -X PATCH -H 'Content-Type: application/json;charset=UTF-8' --data-binary "{\"supervisor_release\": \"$SUPERVISOR_ID\"}"
+fi
+```
+
+After this, run `update-resin-supervisor` (or see the other issues, if you are on version `>=2.0.8 || < 2.7.0`, as it needs patched updater)
+
+### Versions affected
+>1.0.0
+
+
 # Canned Responses
 
 ### Generic 1.x SD card corruption issues and suggesting a move to 2.x
