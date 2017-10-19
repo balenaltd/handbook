@@ -769,7 +769,7 @@ fi
 After this, run `update-resin-supervisor` (or see the other issues, if you are on version `>=2.0.8 || < 2.7.0`, as it needs patched updater)
 
 ### Versions affected
->1.0.0
+`>1.0.0`
 
 
 # Canned Responses
