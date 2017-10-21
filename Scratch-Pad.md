@@ -78,6 +78,7 @@
   - [Start-stop-daemon unable to start resin service on Alpine Linux base images](#start-stop-daemon-unable-to-start-resin-service-on-alpine-linux-base-images)
   - [update-resin-supervisor does not run properly by itself (in Pensieve)](#update-resin-supervisor-does-not-run-properly-by-itself--in-pensieve)
   - [On device supervisor update for support agents (in Pensieve)](#on-device-supervisor-update-for-support-agents-in-pensieve)
+  - [Changing Wifi Credentials on a 2.x device](#changing-wifi-credentials-on-a-2x-device)
 
 - [Canned Responses](#canned-responses)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
