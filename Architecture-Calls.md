@@ -48,6 +48,14 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 [How we can migrate BBB and RPI3 to overlay2 storage driver and what implications it would have](https://app.frontapp.com/open/cnv_8s2bbl) cc @shaunmulligan
 * Brainstormed on overlay2
+* Docker is now recommending overlay2
+* The problem that we will have to solve is the migration of the docker storage when we actually do the hostOS update. Next time the device starts up , it'll be nice to a) don't download everyhing 2) not leave garbage in data partition
+  * Fortunately, aufs/overlay2 have very similar FS structures, so we can write a utility to do that.
+
+* Actions
+  * Write the migration tool
+  * When we update from a AUFS resinOS version to an overlay2 resinOS one, we need to make sure this data partition migration is performed
+  * Not a high priority
 
 [Discuss Orgs spec  roadmap](https://app.frontapp.com/open/cnv_8sheq9) cc @shaunmulligan @afitzek @thgreasi
 * Brainstorming Session for the most part of the arch call (1 ½ hours)
