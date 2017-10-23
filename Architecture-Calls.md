@@ -47,7 +47,9 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Meeting Notes](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLaHVRRDN4QjZraDg)
 
 [How we can migrate BBB and RPI3 to overlay2 storage driver and what implications it would have](https://app.frontapp.com/open/cnv_8s2bbl) cc @shaunmulligan
-* [Discuss Orgs spec  roadmap](https://app.frontapp.com/open/cnv_8sheq9) cc @shaunmulligan @afitzek @thgreasi
+* Brainstormed on overlay2
+
+[Discuss Orgs spec  roadmap](https://app.frontapp.com/open/cnv_8sheq9) cc @shaunmulligan @afitzek @thgreasi
 * Brainstorming Session for the most part of the arch call (1 ½ hours)
 * Spec: https://github.com/resin-io/hq/pull/887
 * Version 0 for the PR
@@ -66,7 +68,6 @@ We are uploading architecture call recordings as a convenience to people who mig
    * 
 
 [Discuss the next steps for Pine. The choice being moving towards GraphQL support as an OData alternative or sbvrJS which is meant to be an alternative to plain SBVR to express the model](https://app.frontapp.com/open/cnv_97jhpl) cc @nazrhom
-
 
 * Options
    * GraphQL support
