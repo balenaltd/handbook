@@ -41,6 +41,50 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 18 Oct 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/uT1-Zp1yC2wLXGoNWXKGW9wvU9-)
+- [Meeting Notes](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLaHVRRDN4QjZraDg)
+
+[How we can migrate BBB and RPI3 to overlay2 storage driver and what implications it would have](https://app.frontapp.com/open/cnv_8s2bbl) cc @shaunmulligan
+* [Discuss Orgs spec  roadmap](https://app.frontapp.com/open/cnv_8sheq9) cc @shaunmulligan @afitzek @thgreasi
+* Brainstorming Session for the most part of the arch call (1 ½ hours)
+* Spec: https://github.com/resin-io/hq/pull/887
+* Version 0 for the PR
+* Version 1 change ownership of apps and devices and add orgs membership relation with rights per user
+* Version 2 add teams for application scoping
+
+
+[Discuss how to handle private device types when hostapp-update need the relevant reinos images in a registry accessible for the device. Conundrum as it has to be private but accessible for the device to pull from](https://app.frontapp.com/open/cnv_971mrt) cc @imrehg
+* Planning a DT update for demo of hostApps
+* For demo purposes, it could work to have a private docker repo and login from the device in that private docker repo
+* Can be handled on demo level, not on production
+* DT devices are registering as Hummingboard. The device type conf on the device should have the correct device type name
+* If resinHUP based its decision based on the API device type it’d be a problem, but now it shouldn’t
+* Actions
+   * Build a blacklist for self service resinHUP not running in specific device types. E.g. checking if device-type.json config is in agreement. If not, print an error message
+   * 
+
+[Discuss the next steps for Pine. The choice being moving towards GraphQL support as an OData alternative or sbvrJS which is meant to be an alternative to plain SBVR to express the model](https://app.frontapp.com/open/cnv_97jhpl) cc @nazrhom
+
+
+* Options
+   * GraphQL support
+   * sbvrJS
+      * expressing sbvr in js
+   * Column-based permissions
+
+
+* Actions
+   * We could proceed with design for sbvrJS
+   * Batch request support
+   * GraphQL is more straightforward, something we could start implementing now
+   * Learn more about GraphQL APIs
+      * https://graph.cool
+      * http://graphql.org/learn/
+
+---
+
 ### 16 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GYI5AlFnv0ZZZuZfzG6VWvS4yxX)
