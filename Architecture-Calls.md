@@ -41,6 +41,59 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 24 Oct 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/rnA5HZp_4XEdN-FhBfc2H10eVwF)
+- [Meeting notes](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLZ0RZX0QtYmhKelU)
+
+As we move to keyframes without contracts (yet - a temporary situation), we run into a few problems. As a short term gain, we could keep the current deployment process, but include a NotifyBot endpoint that takes component, old version and new version, which resinctl could use during deployments to ensure PRs/Front convos are updated cc @hedss @browhn
+
+
+* Maybe a good interim solution would be to have an API in NotifyBot
+* Suggestion: resinctl calls endpoint in NotifyBot with component, old version, new version
+* Postponed for next week
+
+
+
+
+Discuss how to represent current state in some cases when there might be two containers for the same imageId on a device (e.g. handover) cc @CameronDiver @pcarranzav
+* Two possibilities:
+   * Add other id instead of image id (e.g. container id) that won’t be relevant to the API
+   * Force one image install per container
+* Why is this in scope of describing the handover in the API?
+* One choice is to simply not do it
+* We are probably looking for a device release id
+* Terminology: In the model we have a release (multiple images) i.e. a collection of images
+* Action/Proposal:
+   * Add a release to the image install
+   * Add a rule that enforces the consistency of these two pointers
+   * Supervisor will mutate the existing image install in the case a noop installation happens
+
+
+Discuss metrics related to pubnub replacement cc @flesler
+* Can we enable wildcard subscription in PubNub?
+   * Probably not due to security considerations
+   * Action: test it on staging
+   * If we can get a wildcard that works for a specific key, we’ll do it (preferable solution)
+* Alternatively we can get all channels from the API
+* Action
+   * Test API in AWS playground
+
+
+Discuss removing v1 micros api and the delete/update hooks cc @josephroberts
+* We want to remove delete/update from v2
+* We shouldn’t keep v1 
+* We’ve only done some simple demos in Merck
+* Action
+   * Update Merck’s demo (Joe)
+   * Remove /v1
+* Second item: remove update hook
+   * The update hook fires when there’s a new update for a dependent device
+   * Suggestion: Users should poll. 
+   * Counter arg: users can simply ignore supervisor’s update events.
+
+---
+
 ### 18 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/uT1-Zp1yC2wLXGoNWXKGW9wvU9-)
