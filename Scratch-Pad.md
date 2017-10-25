@@ -744,10 +744,10 @@ curl -o /tmp/update-resin-supervisor https://raw.githubusercontent.com/resin-os/
 bash /tmp/update-resin-supervisor
 ```
 ### Versions Affected
->=2.0.8 || < 2.7.0
+`>=2.0.8 || < 2.7.0`
 
 ### Fixed in Version
-2.7.0
+`2.7.0`
 
 ## On device supervisor update for support agents (in Pensieve)
 ### Problem
