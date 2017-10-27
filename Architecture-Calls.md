@@ -1293,7 +1293,7 @@ in the interim deploybot can query secrets to kubernetes and port them to fleet
   - **Actions:**
     - Use Kubernetes to store secrets
     - Port a few repos (ui/api) to use as examples
-    - Need a spec for the move to kubernetes
+    - ~~Need a spec for the move to kubernetes~~ https://github.com/resin-io/hq/pull/939
 
 [Discuss progress of resin cam](https://app.frontapp.com/open/cnv_62im1d)
 
@@ -1317,7 +1317,7 @@ in the interim deploybot can query secrets to kubernetes and port them to fleet
 
 [Discuss how we can transfer ownership of applications between users](https://app.frontapp.com/open/cnv_5z0nan)
   - **Action:**
-    - Write spec (https://github.com/resin-io/hq/pull/938)
+    - ~~Write spec on app/device transfer~~ (https://github.com/resin-io/hq/pull/938)
 
 [Discuss the bigger rootfs size for the Nvidia Jetson TX2](https://app.frontapp.com/open/cnv_5zkiof)
   - **Action:**
@@ -1424,7 +1424,7 @@ in the interim deploybot can query secrets to kubernetes and port them to fleet
     - **Actions:**
       - We should start with creating a new beaglebone device type
       - Then implement deprecation in UI/CLI/SDK. This means that we won't list them , but if an app has them it should act as normal    
-      - Needs a brief spec to track/organise work & deprecation process (@shaunmulligan)
+      - ~~Needs a brief spec to track/organise work & deprecation process (@shaunmulligan)~~ https://github.com/resin-io/hq/pull/785
 
 - [Best way to give ARM builds personalities](https://app.frontapp.com/open/cnv_5u92hp)
   - Parse dockerfile, prepend commands with special binary and then it will run
@@ -1720,7 +1720,7 @@ Actions:
 - Ideally, we'd like to be able to see, for a single device, the status of OpenVPN and soracom links
 
 - **Actions:**
-  - Spec 1 : how to scale VPN
+  - ~~Spec 1 : how to scale VPN~~ https://github.com/resin-io/hq/pull/930
   - Spec 2: How can we add different types of servers (presence/tunneling servers) that have interfaces to tell you
     1. online status of device
     2. how to reach a device
@@ -1907,7 +1907,7 @@ e.g.
 
 **Actions:**
 - Have API endpoint that says I want to listen for this resource and then calls the submitted request url/hook
-- Need a WIP spec (drafted by Page, prob. implemented by Giovanni or Ilias)
+- ~~Need a WIP spec (drafted by Page, prob. implemented by Giovanni or Ilias)~~ https://github.com/resin-io/hq/pull/926
 - If resin's services could create hooks we'd solve many problems
 
 [Asking 'have you gotten permission from the user?' and asking resineer  to enter 'yes' before proceeding](https://beta.frontapp.com/inboxes/shared/d_architecture/open/321163595)
@@ -2078,7 +2078,7 @@ In the cli/sdk we want to switch and use the new API keys
 Usecase: Have API keys that never expire and don't require. Ephemeral keys can be JWT, longer-lived ones must be proper API keys
 
 **Actions**
-  - Write a spec (Ariel)
+  - ~~Write a spec (Ariel)~~ https://github.com/resin-io/hq/pull/861
   - We'd like an extra tab in the 'Preferences' section and have one similar to Github's, where users can select scopes and create API keys. At first
     users won't be able to select anything (no scopes in the first iteration)
   - The functionality to create API keys is already there (e.g. when trying to download an image the api key is injected into config.json of the downloaded image)
@@ -2749,7 +2749,7 @@ VPN Latency
 * [Discuss how people can preload images + configuration](https://beta.frontapp.com/inboxes/shared/d_architecture/open/223871093)
   * No action
 * [Provisioning logs](https://beta.frontapp.com/inboxes/shared/d_architecture/open/224611626)
-  * **Action**: Write spec / describe in more detail `.meta/diagnostics`
+  * **Action**: ~~Write spec / describe in more detail `.meta/diagnostics`~~ https://github.com/resin-io/hq/pull/367
 * [Limited permissions user to allow user-side troubleshooting actions](https://beta.frontapp.com/inboxes/shared/d_architecture/open/221813982)
   * Desirable in development device mode
   * **Action**: discuss in a next arch call
@@ -2867,7 +2867,7 @@ ssh will be protected by the key, that the user will have to put when flashing t
   - Idea/Proposal: Need to detach the build pipeline from the deployment pipeline
   - Idea/Proposal: git push a docker compose file - we'll need a way to pass build secrets because containers might be located in private registries. We can use this approach as a starting point and allow users pushing yaml files
   - Idea/Proposal: Break-out builder as a separate product - extra features include building yocto images and we're not aware of any service offering this currently.
-  - **[Action]:** spec builder secrets
+  - **[Action]:** ~~spec builder secrets~~ pending: https://github.com/resin-io/hq/issues/12
 
 * [resinOS (unmanaged) and its production applicability](https://beta.frontapp.com/inboxes/shared/d_architecture/unassigned/218955868)
 
@@ -2940,7 +2940,7 @@ in the past we had some issues where the vpn would reset all device status, caus
       * Issue: can't set permissions on a field-level yet - if we have mixed data in the device state we can't have finegrained permissions
     * We need field-level permissions - state that is controlled by the device must be READONLY by the user
       * Idea: Might actually be correct to have a resource that is exclusively reflecting what the device has
-    * **[Action]:** Need spec for introducing a current vs target state model in the database/API
+    * **[Action]:** ~~Need spec for introducing a current vs target state model in the database/API~~ https://github.com/resin-io/hq/pull/636
       * Currently we have one table for device that has things/fields that:
         - Don't change (e.g. device name)
         - Others that change more often (e.g. commit hash)
@@ -3093,7 +3093,7 @@ resin-builder: when there's a completely generic device type, the builder should
 [Recorded call](https://drive.google.com/open?id=0B0NS-URBofBLUGdMcG1DMG8waEU)
 
 #### [Discuss enabling update locking/blocking at the API level, so users can use this feature to do staged rollouts instead of abusing the update.lock on the devices](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/191718363)
-  * **[Action]:** Spec (Giovanni could lead this) (https://github.com/resin-io/hq/issues/596)
+  * **[Action]:** ~~Spec (Giovanni could lead this) (https://github.com/resin-io/hq/issues/596)~~ https://github.com/resin-io/hq/pull/745
 
 #### [ENM issues related to bluetooth interface](https://front.frontapp.com/inboxes/shared/d_architecture/unassigned/204844096)
   * ~~**[Action]:** Debugging session with Petros (scheduled)~~
@@ -3111,7 +3111,7 @@ resin-builder: when there's a completely generic device type, the builder should
 ### 10 Jan 2017
 
 * Open Source Builder
-  * **[Action item]:** Write spec ([hq/541](https://github.com/resin-io/hq/issues/541))
+  * **[Action item]:** ~~Write spec ~~ ([hq/541](https://github.com/resin-io/hq/issues/541))
 * Troubleshooting session/discussion on API/RDS performance issues
 
 https://docs.google.com/document/d/1-9IMrl5c6hPexItKqsEfKN6vKda5RBGmwLXFl_v9u_0/edit
