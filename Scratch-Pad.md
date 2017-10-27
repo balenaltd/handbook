@@ -799,9 +799,7 @@ This will set up a new connection. You can use `nmcli c up resin-wifi2` to try t
 
 ### User wants to know the biggest fleet size we have
 
-```
-Fleet size depends quite a bit on the individual use case. Across our ~100 paid customers, typically the consumer device fleets are the ones scaling towards 1,000s of devices and the more industrial device fleets tend to comprise a small number of more actively managed and mission critical devices.
-```
+"Fleet size depends quite a bit on the individual use case. Across our ~100 paid customers, typically the consumer device fleets are the ones scaling towards 1,000s of devices and the more industrial device fleets tend to comprise a small number of more actively managed and mission critical devices."
 
 ### Generic 1.x SD card corruption issues and suggesting a move to 2.x
 
