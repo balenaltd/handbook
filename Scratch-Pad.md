@@ -81,6 +81,7 @@
   - [Changing Wifi Credentials on a 2.x device](#changing-wifi-credentials-on-a-2x-device)
 
 - [Canned Responses](#canned-responses)
+    - [User wants to know the biggest fleet size we have](#user-wants-to-know-the-biggest-fleet-size-we-have)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
     - [Static IP (resinOS 1.x **ONLY**)](#static-ip-resinos-1x-only)
     - [Host OS](#host-os)
@@ -795,6 +796,12 @@ nmcli c modify resin-wifi2 wifi.ssid NEWSSID wifi-sec.psk NEWPASSWORD
 This will set up a new connection. You can use `nmcli c up resin-wifi2` to try to connect to it then (will likely break you current connection, if everything goes well). If need to remove old connections, don't forget not just removing with `nmcli c delete <CONNECTIONNAME>`, but also from `/mnt/boot/system-connections` too, otherwise it will be copied back from there on the next boot.
 
 # Canned Responses
+
+### User wants to know the biggest fleet size we have
+
+```
+Fleet size depends quite a bit on the individual use case. Across our ~100 paid customers, typically the consumer device fleets are the ones scaling towards 1,000s of devices and the more industrial device fleets tend to comprise a small number of more actively managed and mission critical devices.
+```
 
 ### Generic 1.x SD card corruption issues and suggesting a move to 2.x
 
