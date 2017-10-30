@@ -4,6 +4,9 @@
 
 ### Mon, Oct 30 2017
 * [Meeting minutes](https://docs.google.com/document/d/1JhfMhdZcDj-nAqa2pLy0uRP0gJsBMOiuKIdMkXoAmK4/edit)
+* [Video]()
+* [Audio]()
+* [Attendees]()
 
 ### Mon, Oct 23 2017
 * [Meeting minutes](https://drive.google.com/open?id=1zOrtaaR5PxYX4bFdBiPBwOq_zUf40ywDO0EjhJlME5g)
