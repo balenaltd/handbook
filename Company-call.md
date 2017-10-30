@@ -6,7 +6,7 @@
 * [Meeting minutes](https://docs.google.com/document/d/1JhfMhdZcDj-nAqa2pLy0uRP0gJsBMOiuKIdMkXoAmK4/edit)
 * [Video]()
 * [Audio]()
-* [Attendees]()
+* [Attendees](https://drive.google.com/open?id=0B8b02_AxDQoVWUlzcGJJcU1hVm8)
 
 ### Mon, Oct 23 2017
 * [Meeting minutes](https://drive.google.com/open?id=1zOrtaaR5PxYX4bFdBiPBwOq_zUf40ywDO0EjhJlME5g)
