@@ -41,6 +41,70 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 30 Oct 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/V0nO_CAG0txvm81ATirHoFBG7fQ)
+- [Meeting notes](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLMjk3Tkh5S1NBbGc)
+
+Discuss new device url schema using UUIDs instead of the numeric IDs.  cc: @pimterry @thgreasi
+
+* We can stick with the current format, but it’d be nice to change it
+* Actions
+  * Work on moving to the new url schema for the device page that only has a UUID as a parameter.
+  * Continue supporting the old url schema by transparently redirecting to the new one.
+  * Confirm with @Petros whether the DB has real devices with wierd custom UUIDs.
+  * Add the hook in the API to ensure that the UUID passed during device registration is in a proper format (32 or 62 hex chars).
+
+If a user stores a file at /data the container will refuse to come up because of bindmounts. Do we get the builder to refuse this image if /data is a file at the expense of a little bit of usability? cc @camerondiver
+
+* Option 1 - run container without /data
+* Option 2 - ignore file and put the directory anyway
+* A normal bind mount won’t work out of the box. One things we could do on the builder is , as a last step always create that directory or do that as part of the supervisor
+* Actions: 
+  * supervisor should detect if a file exists in a bindmounted location, and print a warning, and start the container with a warning being printed
+  * multicontainer builder will check volume locations and also the produced images and print warnings at that point as well
+  * See: https://www.flowdock.com/app/rulemotion/r-supervisor/threads/E3n0_6LKdstGR2fWRNsAtckSCm0
+https://www.flowdock.com/app/rulemotion/r-supervisor/threads/E3n0_6LKdstGR2fWRNsAtckSCm0
+
+SyncBot & Discourse 'all users' token cc @sqweelygig, @afitzek
+
+* Action
+  * Use the all users token, also research if we can have a reduced permissions all users token
+
+Discuss how delta hostos update images should be provided, so resinhup/hostapps-update can take advantage of them. cc @imrehg
+
+* If you want to do non delta updates you can just use dockeruhub images.
+* When it comes to delta updates, there probably have to be discovery/generation mechanisms.
+* This will tie up with the same system that we’ll use for use images
+
+Provisioning keys don't work in resinOS and are reverted in production cc @petrosagg @agherzan
+
+* Needs meta-resin release and api changes
+* Api was not picking up new credentials
+* Part of the problem was with the openvpn client
+* Device team needs to know exactly how the whole provisioning process works
+* Actions
+  * Deploy API so next version of resinOS will have proper provisioning keys (meta-resin 2.7.5, so 2.7.5 based release of all boards)
+  * Device team must have a clear understanding of the key provisioning process / we should take actions like more documentation if needed to make sure this happens.
+
+Discuss Zynq 7000 secure boot integration from cryptotronix cc @afitzek @agherzan @imrehg
+
+* Action: Set up disco call
+
+As we move to keyframes without contracts (yet - a temporary situation), we run into a few problems. As a short term gain, we could keep the current deployment process, but include a NotifyBot endpoint that takes component, old version and new version, which resinctlcould use during deployments to ensure PRs/Front convos are updated.cc @hedss @brownjohnf
+
+* Deployment problems with resinctl
+* Without contracts, keyframes are going to be hard to do in an automated fashion
+* It shouldn’t fall to anyone to push deploys forward to production. Some automation should indicate when something’s ready for production. Everything marked as tested should be deployable to production
+
+* Action: Will be discussed afk
+
+Discuss running resinctl as server on Heroku cc @brownjohnf
+
+* Action: Will be discussed afk
+
+---
+
 ### 23 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/rnA5HZp_4XEdN-FhBfc2H10eVwF)
