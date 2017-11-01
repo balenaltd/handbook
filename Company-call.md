@@ -3,6 +3,9 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 ### Mon, Oct 30 2017
+* [Meeting minutes](https://docs.google.com/document/d/17TxhuFLGSZ0D4FK-QSklKpbXKe7W80IMok2HmVy7Xxo/edit#heading=h.5v3961pdlcu2)
+
+### Mon, Oct 30 2017
 * [Meeting minutes](https://docs.google.com/document/d/1JhfMhdZcDj-nAqa2pLy0uRP0gJsBMOiuKIdMkXoAmK4/edit)
 * [Video](https://drive.google.com/open?id=0B8b02_AxDQoVTk54Tlh5clVWRU0)
 * [Audio](https://drive.google.com/open?id=0B8b02_AxDQoVV3N6aWxsTXdncWs)
