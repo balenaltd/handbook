@@ -41,6 +41,83 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 01 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GDTrhTD9QbxQ8m-N7zRfTYk2yUt)
+- [Minutes and recording](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLdEVIVW9nTzJrRFE)
+
+Discuss our plans for implementing the new device support process, as discussed in summit cc @alisondavis17 @agherzan @floion @jviotti @shaunmulligan
+
+* See https://docs.google.com/drawings/d/16qZRQAoM0MESF91_S7M6fNKjcjbwP5ZlOk0BJ17FHz4/edit
+* Many of the steps in the diagram should be as simple as creating the respective github repositories
+* The diagram addresses problems like visibility of the device support process (active, pending etc.)
+* https://github.com/resin-io/contracts/tree/master/contracts/hw.device-type has the OSS device types only (we’ll need a separate for private ones)
+* We want a central private place to track all device types 
+* We are transitioning to make device type support like any other feature, a feature that product team runs
+* How is adding e.g. rpi4 a product feature? Discussed why tracking device support should be handled by the product team.
+* Device support is not very predictable (tx2/quark) , need some kind of PM to coordinate the efforts in that facet.
+
+
+
+What work is left to do to get resinOS running in a docker container. There are several projects that would benefit from a containerised resinOS, so I want to understand what the current state is and what still needs to be done. cc @shaunmulligan
+
+
+* Current state: a PR from Praneeth
+   * Probably not an approach we want now
+* We need this for Porsche / Pilot project for now
+* The output of Yocto process should be a container. Currently one of the outputs is one
+   * Every other output must be generated from the container output
+* The container output should have some properties
+* Automotive domain development is super slow
+* Porsche already has docker in their architecture
+* Aruba/Toyota also asked for that
+* The gist: The are tied to a hostos they can’t get rid off and want to run resinOS on top
+* Useful for cli option (resin spawn) and stress testing as well
+* In a perfect world, we’ll have a container that can
+   * Serve as a HUP package (to update a device)
+   * Run on its own (act as a device)
+   * With the right privileges resinOS container can update itself using the underlying docker daemon as boot loader (container self update is a later consideration)
+* We’ll need this for a reasonably advanced version of host Apps (not that far away)
+   * Actions(@agherzan)
+      * Write a spec 
+      * Additional piece to this spec, turning this in an image - container is the only output of the Yocto process and the image maker turns this in an image later, when it needs it.
+      * Desirable result of this container: docker pull and docker run with a proper config.json should show up in my dashboard , with no additional requirements
+
+
+AI from last architecture call about managed/unmanaged unification: find bits that need to go in the API. cc @agherzan
+
+* dropbear has the fallback pubkey in /var/lib/dropbear/authorized_keys -> /root/.ssh/authorized_keys (key will need to be in the API)
+* packagegroup: +resin-connectable (build system generates a conf file for this as a list a systemd service that are specific to managed - supervisor and openvpn) +resin-provisioner
+   * looks completely unneeded as supervisor will run unconditionally and openvpn will run based on the existence of a conf file
+* openvpn installs on managed builds certificate, conf file, services (api will need to provide the configuration file
+* Provisioner should be written in Rust
+* It’ll be part of the new supervisor if done properly
+* We’ll put some versioned metadata in the api for unmanaged->managed transitions
+* Ask an endpoint what versions/ranges are supported. resinOS will make the request and it already knows the configuration metadata version.
+* We’d like to avoid modifying meta-resin, only the metadata
+* Hairy situation where currently openvpn configuration refers to files . How do we define this? Should be doable with a sensible JSON schema. There are other ways around, we can improve on an initial schema.
+* We’d like the configuration to have sections (openvpn -> up/down sripts, certificates etc.)
+* Actions (@agherzan)
+   * Define a schema for expected metadata from API. Must be a versioned structure that will allow adding fields w/o breaking backwards compatibility. Probably a JSON object 
+   * Every resinOS version will work with a specific version of the configuration schema
+      * Assume we no longer use OpenVPN and use another one. Now the configuration file will have a new version, because we need a new configuration from the API (for the non-openVPN service on the device)
+
+
+Discuss how to have a more generic x86 image with EFI and MBR support (and have something reasonably supportable rather than telling people to try the NUC image) cc @mccollam
+
+* We want to move forward with this
+* Want to have a hybrid image to support efi/mbr
+* We could proceed with keeping the same slug and rename the device
+* When we implement device types/OSes we’ll be able to fix device slugs
+* Are we compiling NUC for core i7 ?
+* Actions (@agherzan)
+   * We want the same image to work in both modes and want to change the name
+   * Rename the device type to x86_64
+   * Yocto machine name and compilation options must use generic arch (not specifying i7) and that should be the architecture. The problem is that i3 is not forward compatible with i7 (there are new opcodes/instructions in i7)
+   * Also change the logo
+
+---
+
 ### 30 Oct 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/V0nO_CAG0txvm81ATirHoFBG7fQ)
