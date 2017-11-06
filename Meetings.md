@@ -1,6 +1,6 @@
 You are free to join all calls (except some Operations calls) but it’s not mandatory if you don’t belong to the specific team.
 
-##Company Call
+## Company Call
 This is the call where all resin team join once per week and talks, shares and gets notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Mondays. Led by @alexandrosm
 
 ##Architecture Call
