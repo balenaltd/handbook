@@ -41,6 +41,94 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 06 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Qt20-su760Ynz7l4x1-hAhqKgWT)
+- [Minutes and recording](https://drive.google.com/drive/u/2/folders/1nVtbMCHq3mXsWbyee289XZikHOhCy-E1)
+
+Device Types / HostOS apps
+
+Discuss how our migrations cause production meltdowns and how we can modify them to avoid those cc @flesler @brownjohnf @afitzek @page-
+
+* Why did we have a meltdown?
+* Postgres log reported a deadlock.
+* Migrations on staging went fine, in production we hit a deadlock scenario
+   * DB connections couldn’t get a result, this slowed down the API too much
+   * We don’t know exactly how the deadlock happened
+* Migrations don’t lock the resources they are about to change.
+   * Locking resources could solve the issue
+* If we have a migration that changes multiple tables, how do they run?
+   * All migrations run in transactions, in these there are alter table instructions
+* If we start a migration and we have ‘alter table users’ it should take a table-wide lock.
+   * If that’s the case we shouldn’t have a deadlock
+   * The update users happens and then there’s a second alter table
+   * Tables A and B. Table-wide lock on A, another one table-wide lock on B, this could cause a deadlock.
+* Massive congestion situation could be caused if many requests piled up while the users table is locked for the migration. But this doesn’t sound and shouldn’t be reported as a deadlock because the migration is active
+* We apply migrations in alphanumeric order, it’s possible that the migrations in staging and production ran with different order.
+* Actions
+   * Pick up a snapshot of DB before the incident and run offending migrations , see what happens
+   * Instead of using dates, we need something that will cause conflicts so we’ll start using sequence numbers e.g. migration-1, migration-2 etc.
+   * Ongoing discussion: https://www.flowdock.com/app/rulemotion/resin-devops/threads/cydBGnPkKBTHQExU_d536-PsBlg
+
+Email verifications spec sync up cc @thgreasi
+
+* Questions
+* New signup that never clicks verification within grace period.
+   * Whenever one tries to signup with the user that already exists it sends an email that says ‘click here to login’, same way that the verification email says ‘click here to verify email’. ‘click here to login’ also verifies the email
+   * We can use automatic verification infra and get rid of automatic login code
+* To sum up, whenever someone signs up
+   * If the user exists, we create a pending email change request. We send an email that says someone tried to sign up, if it’s you click to login. Your email gets verified and you log in
+   * If the user didn’t exist, you create the user, the exact same email request but the email message changes (‘welcome to resin, click here to login’)
+   * The url/mechanism is the same in both cases under the hood
+* Unverified user must be able to login but not modify/read resources
+   * These users are authenticated, but not authorized
+   * After the grace period we shouldn’t deactivate any users or remove the emails. Users should be able to login but not do anything. It’ll ask email verification.
+* Unverified users can change their emails (e.g. if original email has typo)
+* Should be easy in PineJS
+* The API or the UI must be backwards compatible, we don’t do concurrent deployments
+* Actions
+   * Add email verification test cases
+   * UI -> API -> UI deployment plan likely
+   * Remove grace period
+      * New users are forced to go through verification process because they don’t have anything
+      * Old users get nudged to update
+
+Balena on resinOS session
+
+Discuss the current state of multicontainer, and whether our aim for a demo next week will be viable cc @camerondiver @page-
+
+* Blocked on translations
+* Page will resume work this week
+* Cameron/Page to do a checkin this week (probably on Wednesday)
+Discuss Open Source Resin spec from https://github.com/resin-io/hq/pull/1074/files cc @dfunckt
+* Petros to review the spec
+* Device management: Anything involving vpn/proxy, what’s our take there. Resin VPN won’t be included in OSR
+   * Solution: Make VPN pluggable
+   * resinOS unification spec is related: There has to be a provisioning scenario where the device doesn’t use openvpn, no-vpn should be available as well
+      * E.g. for soracom provisioned devices we have soracom-networking
+* At the component level we’ll split open source components to their separate repos (e.g. api, db registries) and we’ll need an extra repo with compose file, readme etc.
+* In the closed source resin we extend the OSS components that are not identical
+   * Etcd configuration shouldn’t be an issue since we’re moving on kubernetes. We’d prefer to have an extra etcd container/components to avoid differentiating closed/open components on etcd conf only
+* Target state: components depending on etcd (e.g. registry) should work with both etcd and env vars to facilitate the kubernetes transition and OSR
+* There should be separate, atomic units of third party endpoints
+
+Discuss and confirm the 360 sidebar plan cc @pimterry
+
+* The approach is: there is a sidebar running on Front (for now) that is client side code and either talks directly to our data apis or there’s stateless proxying/authentication when there’s a third party api. The api doesn’t do copying of data over other things, maybe in the future it’ll do caching
+   * That was the core element of spec, confirmed - talks either directly api , either directly for data model or for other services
+
+Discuss how to avoid arch mismatches on some device types. Example. The artik710 base images are armv7 but the RESIN_ARCH resolves to aarch64 cc @shaunmulligan @nghiant2710
+
+* Default wifi-connect uses resin device architecture in dockerile templates
+* Artik710 has a weird setup because it (resin_arch) resolves to arch64 but all base images are armv7 , so it breaks completely.
+* Rust compiler fetches 64 binary that breaks on 32 image
+* Why are we using resin_arch to decide what binary to run?
+   * resin_arch describes arch of the kernel, not the cpu
+   * Probably problem of the dockerfile. The base image itself should say, prob with a different env var, its arch
+* Action: correct architecture should be stated as an env var in base images
+
+---
+
 ### 01 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/GDTrhTD9QbxQ8m-N7zRfTYk2yUt)
