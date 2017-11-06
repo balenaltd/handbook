@@ -8,10 +8,10 @@ Let’s say you need to schedule a call where one of your colleagues need to be 
 Google calendar has a feature which allows you to add a coworker’s calendar to your calendar. Let’s see how you can do that:
 
 1. Log in to your @resin.io e-mail account and go to calendar.google.com
-1. At the Other calendars section, and more specific in the Add a coworker’s calendar field, write the name or the @resin.io e-mail address of the coworker whose calendar you want to see and click on it
+1. At the "Add a coworkers's calendar" field, write the name or the @resin.io e-mail address of the coworker whose calendar you want to see and click on it
 1. Coworker’s calendar entries will show up in your calendar
 
-![](https://lh6.googleusercontent.com/cuVU94WqpS1zQyY-uoMW_f1i3tPSj4j0qVVM07EXxnk9gGCsw4R-gPZAhAB6IFlYAKeO_FTv_wOQn0Uf_8LuVQgrzcTnjdd8B7PQadw9Xxsimq12nTeboOcYhquzXvOQ6B-ur4mo)
+![](https://drive.google.com/open?id=161cEQnBpCL0LaJmM9wigy8vCAr5bGE1i)
 
 Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
 
