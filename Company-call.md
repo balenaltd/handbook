@@ -4,6 +4,9 @@
 
 ### Mon, Nov 6 2017
 * [Meeting minutes](https://docs.google.com/document/d/17TxhuFLGSZ0D4FK-QSklKpbXKe7W80IMok2HmVy7Xxo/edit#heading=h.5v3961pdlcu2)
+* [Video](https://drive.google.com/open?id=1l9K-l26lBz3lNUovl4ILfnY7KAuNbzST)
+* [Audio](https://drive.google.com/open?id=1ODx0bv-Ja0l7WaZB0lalVcCl3SxwNpOi)
+* [Attendees](https://drive.google.com/open?id=1bH_k9GMtv45t3zMk38XinzkWAKMnCo-I)
 
 ### Mon, Oct 30 2017
 * [Meeting minutes](https://docs.google.com/document/d/1JhfMhdZcDj-nAqa2pLy0uRP0gJsBMOiuKIdMkXoAmK4/edit)
