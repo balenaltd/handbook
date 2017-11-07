@@ -4,4 +4,14 @@ The company can accommodate custom requests. It is OK to stay longer on your tri
 
 Always have a credit/debit card with you. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was prepaid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
 
-Please note that we are trying to minimize the effort you need to put on this, thus we are using NexTravel for our travel arrangements. Take some time to read this [short NexTravel guide](https://www.nextravel.com/guide/user), before you need to travel, and do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
+Please note that we are trying to minimize the effort you need to put on this, thus we are using NexTravel for our travel arrangements. 
+
+## NexTravel
+
+Take some time to read this [short NexTravel guide](https://www.nextravel.com/guide/user), before you need to travel. 
+
+Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. You just have to find the flight or hotel you wish and an approval email is sent to the Ops team. Once approved, you receive a confirmation email with all your reservation details.
+
+NexTravel offers a number of features that includes a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your centralized.
+
+Please do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
