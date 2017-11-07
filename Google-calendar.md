@@ -25,7 +25,7 @@ So, let’s say you’d like to add a repeating event to your calendar and get r
 
 ![](http://i66.tinypic.com/2nbynfl.png)
 
-1. Go to the Options choice (the 3 dots on the upper right) and select the calendar you wish to include the event to.
+3. Go to the Options choice (the 3 dots on the upper right) and select the calendar you wish to include the event to.
 
 ![](http://i67.tinypic.com/b3rhmt.png)
 
