@@ -10,8 +10,15 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 Take some time to read this [short NexTravel guide](https://www.nextravel.com/guide/user), before you need to travel. 
 
-Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. You just have to find the flight or hotel you wish and an approval email is sent to the Ops team. Once approved, you receive a confirmation email with all your reservation details.
+Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. The steps are very easy:
 
-NexTravel offers a number of features that include a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your reservations centralized.
+- You have to find the flight or hotel you wish
+- Double check your reservation dates, personal info etc. are all correct
+- Don't forget to complete your reservation
+![](http://i67.tinypic.com/2hdxw6w.png)
+- When you complete your request, an approval email is sent to the Ops team
+- Once approved, you receive a confirmation email with all your reservation details.
+
+Moreover, NexTravel offers a number of features that include a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your reservations centralized.
 
 Please do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
