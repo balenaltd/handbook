@@ -15,7 +15,7 @@ Using NexTravel is quite easy and very similar to the way you book flights and h
 - You have to find the flight or hotel you wish
 - Double check your reservation dates, personal info etc. are all correct
 - Don't forget to complete your reservation
-![](http://i67.tinypic.com/2hdxw6w.png)
+![](http://i68.tinypic.com/mt8odf.png)
 - When you complete your request, an approval email is sent to the Ops team
 - Once approved, you receive a confirmation email with all your reservation details.
 
