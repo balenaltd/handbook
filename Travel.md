@@ -21,6 +21,6 @@ Using NexTravel is quite easy and very similar to the way you book flights and h
 - When you complete your request, an approval email is sent to the Ops team
 - Once approved, you receive a confirmation email with all your reservation details.
 
-Moreover, NexTravel offers a number of features that include a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your reservations centralized.
+Moreover, NexTravel offers a number of features that include a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your reservations and bookings centralized.
 
 Please do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
