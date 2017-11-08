@@ -1,4 +1,4 @@
-You may be required to travel, from time to time, for business purposes such as events, meetings with customers etc. The company will cover all work-related travel expenses. This includes lodging and meals for the business trip. We really want our team members to be productive and not need to worry about travel arrangements and stuff. Feel free to reach your destination a day or two earlier to prepare for the event/meeting. 
+You may be required to travel, from time to time, for business purposes such as events, meetings with customers etc. The company will cover all work-related travel expenses. This includes lodging and meals for the business trip. We really want our team members to be productive and not need to worry about travel or other arrangements. Feel free to reach your destination a day or two earlier to prepare for the event/meeting. 
 
 The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
 
@@ -12,6 +12,6 @@ Take some time to read this [short NexTravel guide](https://www.nextravel.com/gu
 
 Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. You just have to find the flight or hotel you wish and an approval email is sent to the Ops team. Once approved, you receive a confirmation email with all your reservation details.
 
-NexTravel offers a number of features that includes a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your centralized.
+NexTravel offers a number of features that include a centralize Open Booking functionality. The Open Booking feature allows you to import reservations that were booked outside of NexTravel into the NexTravel platform. This feature allows you to keep all of your reservations centralized.
 
 Please do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
