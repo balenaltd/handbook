@@ -44,7 +44,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 ### 13 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Re_YQRu_p9i7Lzp2FmkbJwE_FOr)
-- [Meeting notes](https://drive.google.com/drive/u/2/folders/1oXCj5ia2RJbTadmDKVm73EEsVwiAZL2K)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1oXCj5ia2RJbTadmDKVm73EEsVwiAZL2K)
 
 User is requesting to have a way to be notified in case of kernel update (rpi). This is because they use custom kernel modules and they need to recompile when that happens. Cc @agherzan
 
