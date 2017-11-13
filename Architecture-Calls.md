@@ -46,6 +46,79 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Re_YQRu_p9i7Lzp2FmkbJwE_FOr)
 - [Meeting notes](https://drive.google.com/drive/u/2/folders/1oXCj5ia2RJbTadmDKVm73EEsVwiAZL2K)
 
+User is requesting to have a way to be notified in case of kernel update (rpi). This is because they use custom kernel modules and they need to recompile when that happens. Cc @agherzan
+
+* Ref.:  Issue #144: Could you note in the change log when an update includes a linux kernel version change? by BrianAdams in resin-os/resin-raspberrypi on GitHub
+* Should check if there’s a new kernel
+* Should we have a changelog entry for kernel updates? We never update kernel specifically, we update the bsp that may or may not have a new kernel
+* We should list kernel versions in the changelog. We’ll have to dig into the changes to check if this is done. It’s likely hard to script but it’s an overhead we‘ll deal with. 
+
+Linux kernel, docker version, systemd are quite integral, core components that we should probably track and show anyway.
+
+* Useful internally for us internally as well
+* The component metadata has to be stored ‘somewhere’, could be handled by contracts
+* Action: 
+   * We’ll start adding the kernel version in the changelog for our logs. (@agherzan)
+   * Need spec on how we will handle resinOS core component metadata (@agherzan - https://github.com/resin-io/hq/issues/1084)
+      * Will require Image maker & UI changes 
+      * Need ‘approved builds’ metadata/file
+
+Discuss the current state of multicontainer, and whether our aim for a demo next week will be viable cc @CameronDiver
+
+* Discussed creating a new environment to unblock staging and demo MultiContainer
+* We’ll need a supervisor deploy mechanism for this new environment
+* Resin in a box could be used as well
+* Caught up with translations in the API
+* Actions
+   * We’ll setup a new environment for MC demo (@brownjohnf)
+   * @Page- will help with prep work with the new environment
+
+Open Source Resin cc @dfunckt
+
+* Device types: image maker won’t make it in OSR, all device types come from this so provisioning/registering is breaking.
+* Great opportunity to fix this problem - image maker shouldn’t have anything to do with this.
+* Two possible ways to fix this:
+   * Rip out the relevant code from image maker, add it in API and have img maker use the API instead of keeping this state internally
+   * Currently for every env we host we have separate S3 buckets. OSR could point to the same buckets, however there’s an issue with OSR supporting custom device types (it’s a big value item)
+   * We can start with pointing it to resin.io S3 buckets
+   * There’s a concern that we won’t be able to update/remove artifacts from S3 buckets
+   * We need an environment to show metadata of artifacts
+   * Some friction on testing images in production before releasing them
+      * .admin extention idea for image files to stop image maker from exposing the said images. This would facilitate testing while not releasing images for everyone but for admins only
+* We’re doing things in the API that require ‘root’ privileges in the model
+* Integration should happen in the code level with extra schemas, hooks etc.
+* Actions/Moving forward
+   * Point to production resin image files / S3 Bucket for OSR
+   * Rip code out of img maker and into the API
+   * Managed/Unmanaged unification is a prerequisite
+   * Making pine a framework /  thin API framework that imports pine
+   * Break API in two parts
+      * Application / api logic
+      * Loader - loads pine and logic, starts everything in correct sequence
+   * If the loader mature we can import it in pine
+   * We’d likely prefer importing pine framework, OSR as npm modules rather than doing the integration on the Dockerfile level
+
+Discuss how we're managing the code that runs our visualisations, how we make sure it's optimal (or close to it), and in general how to add some versioning and review over it, since it's code like everything else. cc @dimosgp
+
+* Approach: git repo that whenever we merge to master it sends whatever code we have to chart.io - for production diagrams
+* Need some info that if given to someone else they’d be able to re-create the exact diagrams in chart.io
+* Actions (@dimosgp)
+   * Need to define what the repo looks like, how we described the diagrams and write code that takes these files and deploy them to chart.io 
+   * Investigate if chart.io provides an API to re-create what we want and devise a developer workflow
+   * Ask chart.io if there’s an automatic way to create charts
+
+Discuss how our migrations cause production meltdowns and how we can modify them to avoid those cc @flesler @brownjohnf @afitzek
+
+* Discussed postgresql locking and how we can tune/prevent the meltdown from happening again
+        
+Discuss doing a breaking change release of pine that makes $selectmandatory and disallow $select=*. Basically the client needs to know what it expects, otherwise it won't get it cc @nazrhom
+
+* Spec doesn’t say that this is required
+* All versions should be optional
+* Should be a huge performance improvement
+* Action
+   * Implement mandatory selects in pine (@nazrhom)
+
 ---
 
 ### 06 Nov 2017
