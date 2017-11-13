@@ -107,7 +107,9 @@ Discuss the current state of multicontainer, and whether our aim for a demo next
 * Blocked on translations
 * Page will resume work this week
 * Cameron/Page to do a checkin this week (probably on Wednesday)
+
 Discuss Open Source Resin spec from https://github.com/resin-io/hq/pull/1074/files cc @dfunckt
+
 * Petros to review the spec
 * Device management: Anything involving vpn/proxy, what’s our take there. Resin VPN won’t be included in OSR
    * Solution: Make VPN pluggable
