@@ -41,6 +41,74 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 15 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/XHGgxyewJO8q3EqyzLPs6AlGkke)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1JocmnEtgPFBBlWjzGFsplWmJYvI5hdK8)
+
+Discuss how to get the current user's details (user id, username, and notably email) when using API keys, to continue to support the various SDK methods and CLI commands that do so when auth with both JWTs & API keys is allowed
+
+* We’re trying to add support for API keys and CLI
+* Emails are not in the whitelist so you cannot get user’s email from API key
+* You need userid and username because there’s a bunch of commands that use it.
+* /whoami endpoint on the API currently returns a refreshed JWT 
+* Actions (@pimterry)
+   * Version /whoami endpoint
+   * Add a properly named refresh endpoint
+
+We want postgres's data to be stored outside of the devenv's vm cc @zvin
+
+* Postgres requires creating hard links which VirtualBox does not support in shared folders.
+* For now the idea is to put postgres's data in an ext4 partition image and mount it in the VM. This prevents us from seeing the data on the host but it shouldn't be a big deal.
+* Do we have a better solution? Should we do the same thing for s3 and git data?
+* Idea: partition image stored in host and mounted in the vm
+* Actions
+   * Investigate if VBox supports forwarding/mounting a file as a block device (@zvin)
+   * Need to transfer postgres outside in order to perform data migration
+      * Alternatively we could have an export tool/function that enters the VM (instead of having the data in a ‘constant’ exported state)
+
+Replacing PubNub sync-up
+
+* We have two endpoints that fetch data from pubnub
+* Need to coordinate for supervisor parts, also need to see how it plays with MC
+* Other question: CLI (local mode) should be able to stream logs out of the device, how will this work?
+   * Local mode will likely have to change completely for MC
+* @flesler will resume benchmarking
+* With regards to schema, we shouldn’t use uuid and a bunch of logs, since we’ll need to filter logs per service/image
+* Gzip should be enough and we’ll likely not need to optimize for json property name length in the logs. Ideally the format will converge with what we’re using in resin-device-logs
+* Actions (@flesler)
+   * We'll output JSON from the device, the format won't be translated by the logs-proxy so doing local logs is easier
+   * We will use longer keys on the JSONs, matching the API format (underscore) and output them as NDJSON
+   * We will surely use a separate DB for the logs
+
+Discuss how to fix is_online (can we use Pine translations?) 
+
+* If pine translations work, the general pattern is fine (we need to test though)
+* Some performance concerns, so we’ll need to test impact, since we’ll have to expand to get to service_last_connectivity_event
+* Performance issues will be largely mitigated by requiring explicit selects in pine in future, and services table is actually a pretty cheap join
+* It would be good to not have internal data called is_online that doesn’t match the external representation (but only very occasionally) since that will definitely confuse us later.
+* We can do that without a breaking API change, as only internal services write to is_online. We can create a new column (online_at_last_reporting or similar), make internal services write to the old & new columns, generate is_online from the new column + last_connectivity_event, then remove the old column entirely from everywhere.
+* Actions:
+   * @Page- to investigate whether translations can do things like this
+   * @pimterry to close the SDK issue
+
+What should an 'image reconfiguration bundle' look like, since nowadays config.json alone is not sufficient? 
+
+* Currently the CLI allows you configure images (resinOS 1.x and 2.x)
+* For resinOS 1.x it allowed config.json configuration
+* Suggestion: define a ‘bundle’, that will contain image configuration
+   * Use case: customers will send an image and a bundle per device that they will provision. Bundle will then be applied on top of the image
+* Should the bundle be a json or another file format?
+* Manufacturers are likely open to run resin cli, in which case we can ship a JSON bundle (e.g. skycatch). In the future we might need to find more elaborate ways to do that.
+* This JSON configuration/bundle should be a reconfix-generated 
+* Need to add a version file in /boot in resinOS that can be easily accessible
+* Action
+   * Create issue in resinOS to add vesion in /boot
+   * Configuration bundle, which will be representation of reconfix
+   * Manufacturing process will use CLI to apply configuration to devices
+
+===
+
 ### 13 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/Re_YQRu_p9i7Lzp2FmkbJwE_FOr)
