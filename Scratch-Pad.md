@@ -1293,6 +1293,22 @@ You can easily move devices between applications by selecting a device from a cu
 
 ### User wants to delete account
 
+First of all we need to check if it's a customer. Are they a paid user?
+
+Check https://admin.resin.io/users - the billing plan will say 'free' or a number of paid plans.
+
+If paid user then we must inform the Sales team: create a FlowDock thread in r/Sales to review before taking action. This is a situation that should typically be handled by sales initially, in particular the customer interaction. There may be an opportunity, for example, to see if a downgrade is an option.
+
+There are also a number of steps on the sales backend that need to be addressed, like Salesforce and Recurly account updating, as well as some other documentation related to revenue tracking.
+
+So the main steps that the sales team will do are:
+
+- Sales will remove user from Recurly
+- Sales may schedule an exit interview
+- Sales comment on what got done and what is needed to be done by the support agent
+
+The support agent should provide a summary of what has been done, what info we have about the user, devices, etc in the corresponding front thread as a note.
+
 **IMPORTANT!!!** Do not help users delete their accounts until you are 100% sure that they are not collaborators with one of our customers, because deleting their account will cause any devices they created for the company be deleted as well.
 
 If the user is a collaborator and there are too many devices to check individually, you can use this script - as long as none of the devices are attributed to the user account you'd like to delete you're safe.
