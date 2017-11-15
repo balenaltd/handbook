@@ -1293,6 +1293,9 @@ You can easily move devices between applications by selecting a device from a cu
 
 ### User wants to delete account
 
+Pull request is in process: https://github.com/resin-io/process/pull/122
+
+**Notes here:**
 First of all we need to check if it's a customer. Are they a paid user?
 
 Check https://admin.resin.io/users - the billing plan will say 'free' or a number of paid plans.
