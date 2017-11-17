@@ -884,7 +884,7 @@ connect <service-id>
 ### Getting a Permanent API Key
 We plan to add this to the API properly in future, for the time being there is an early access workaround:
 
-1. Using your auth token do a POST request to https://api.resin.io/application/#{application.id}/generate-api-key(sending the token in the Auth header) - see https://github.com/resin-io/resin-sdk/blob/397c0e5dc570c3d094561b6d3d27ae3254d9a141/build/models/application.js#L324 for example usage
+1. Using your auth token do a POST request to https://api.resin.io/application/#{application.id}/generate-api-key (sending the token in the Auth header) - see https://github.com/resin-io/resin-sdk/blob/397c0e5dc570c3d094561b6d3d27ae3254d9a141/build/models/application.js#L324 for example usage
 2. The server should reply with an API key (json-encoded string, so you may need to strip an extra pair of quotes)
 Add `?apikey=API_KEY` to all your API requests and do __not__ send the token header anymore.
 
