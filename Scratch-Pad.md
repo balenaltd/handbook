@@ -79,7 +79,7 @@
   - [update-resin-supervisor does not run properly by itself (in Pensieve)](#update-resin-supervisor-does-not-run-properly-by-itself--in-pensieve)
   - [On device supervisor update for support agents (in Pensieve)](#on-device-supervisor-update-for-support-agents-in-pensieve)
   - [Changing Wifi Credentials on a 2.x device](#changing-wifi-credentials-on-a-2x-device)
-
+  - [No network in the containers](#no-network-in-the-containers)
 - [Canned Responses](#canned-responses)
     - [User wants to know the biggest fleet size we have](#user-wants-to-know-the-biggest-fleet-size-we-have)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
@@ -794,6 +794,29 @@ nmcli c clone resin-wifi resin-wifi2
 nmcli c modify resin-wifi2 wifi.ssid NEWSSID wifi-sec.psk NEWPASSWORD
 ```
 This will set up a new connection. You can use `nmcli c up resin-wifi2` to try to connect to it then (will likely break you current connection, if everything goes well). If need to remove old connections, don't forget not just removing with `nmcli c delete <CONNECTIONNAME>`, but also from `/mnt/boot/system-connections` too, otherwise it will be copied back from there on the next boot.
+
+## No network in the containers
+
+### Issue
+
+On >=2.0.0 and <=2.2.0 devices it is possible that the containers lose networking. It can happen if the IP address  assigned to `docker0` changes. Diagnose it with `ifconfig docker0`, it should show on those versions `172.17.0.1`. If it doesn't, networking inside containers might not work. Diagnose that with `docker exec -ti resin_supervisor /bin/sh` and then `ping google.com`. If it cannot ping, then this is likely the issue (can see whether `/etc/resolv.conf` inside the container contains the same IP as `ifconfig docker0` shows)
+
+### Fix
+
+Need to coerce docker to use the given IP address. Stop docker, start manually with the required settings, stop that, and restart the system docker. This is a full script to do that in one go:
+
+```
+systemctl stop resin-supervisor && \
+systemctl stop docker && \
+(timeout 15 /usr/bin/dockerd --log-driver=journald -s aufs --dns 172.17.0.1 --bip 172.17.0.1/24 || true ) && \
+systemctl start docker && \
+systemctl start resin-supervisor && \
+echo "Done"
+```
+
+(Note that `systemctl stop docker` can take a while, depending on the user application).
+
+Also, recommend using resinOS 2.3.0+ (which does not have this potential issue).
 
 # Canned Responses
 
