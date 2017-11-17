@@ -33,6 +33,8 @@ The steps to run an architecture call are:
 
 ### Architecture call recordings
 
+The full archive can be found in [this google drive folder](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLN0xOWHNDTVV0cFk)
+
 We are uploading architecture call recordings as a convenience to people who might not be able to attend a specific architecture call and want finer-grained details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
 
 ### Pinned Agenda Items
