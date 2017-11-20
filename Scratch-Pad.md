@@ -709,6 +709,10 @@ Asking the user to set the `DEBUG` env var (to any non-empty value) will also pr
 
 ## Retrieving a Dashboard URL from a Device UUID
 
+As of Dashboard v1.80 we now use the following url schema which also supports short uuids
+> https://dashboard.resinstaging.io/devices/<deviceUuid>
+
+### Legacy
 Sometimes a user will only supply a UUID. In these cases, it's now possible to use `resin-cli` to retrieve the full Dashboard URL for the device. As an admin, login to `resin-cli` and run the following:
 
 ```
