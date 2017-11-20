@@ -125,6 +125,7 @@
     - [User wants to delete account](#user-wants-to-delete-account)
     - [ENOENT on docker.sock](#enoent-docker-sock)
     - [User want's to find the Device ID](#user-wants-to-find-the-device-id)
+    - [User want's staged releases to a fleet of devices](#user-wants-staged-releases-to-a-fleet-of-devices)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
@@ -1408,6 +1409,12 @@ In case that a user needs the DeviceID to use it in one of our user facing APIs/
 > In the meantime, the best thing I can propose is to use the resin-CLI to retrieve the device ID. Specifically `$ resin device <deviceUuid>` should retrieve all the device information. Additionally, let me share with you a link to the respective documentation page of the CLI: https://docs.resin.io/tools/cli/#device-60-uuid-62-
 
 > An alternative would be to use the API directly to retrieve the same information like this: `curl "https://api.resin.io/v1/device?\$filter=uuid%20eq%20'<the_device_uuid>'" -H "Content-Type: application/json" -H "Authorization: Bearer <your_auth_token>"`. Here is also the documentation page for our API https://docs.resin.io/runtime/data-api/
+
+### User want's staged releases to a fleet of devices
+Alt title: User want's to set some devices to run a specific app commit
+
+Solution:
+The [staged-releases repo](https://github.com/resin-io-playground/staged-releases) is a collection of scripts that demonstrate some of the new API endpoints offered on resin.io to enable the more fine grained control of app updates across a fleet of devices. These scripts simply show how to use the available primitives and in the near future this functionality will be surfaced on the UI and via the CLI.
 
 # Internals
 ## Accessing User Devices
