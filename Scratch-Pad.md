@@ -124,8 +124,8 @@
     - [User wants to update only some Devices attached to an Application](#user-wants-to-update-only-some-devices-attached-to-an-application)
     - [User wants to delete account](#user-wants-to-delete-account)
     - [ENOENT on docker.sock](#enoent-docker-sock)
-    - [User want's to find the Device ID](#user-wants-to-find-the-device-id)
-    - [User want's staged releases to a fleet of devices](#user-wants-staged-releases-to-a-fleet-of-devices)
+    - [User wants to find the Device ID](#user-wants-to-find-the-device-id)
+    - [User wants staged releases to a fleet of devices](#user-wants-staged-releases-to-a-fleet-of-devices)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
@@ -1399,7 +1399,7 @@ Solution(s):
 
 **
 
-### User want's to find the Device ID
+### User wants to find the Device ID
 
 Dashboard v1.80 no longer exposes the DeviceID and only shows the Device UUID.
 In general we are going to hide Device IDs from all our user facing APIs/Components.
@@ -1410,8 +1410,8 @@ In case that a user needs the DeviceID to use it in one of our user facing APIs/
 
 > An alternative would be to use the API directly to retrieve the same information like this: `curl "https://api.resin.io/v1/device?\$filter=uuid%20eq%20'<the_device_uuid>'" -H "Content-Type: application/json" -H "Authorization: Bearer <your_auth_token>"`. Here is also the documentation page for our API https://docs.resin.io/runtime/data-api/
 
-### User want's staged releases to a fleet of devices
-Alt title: User want's to set some devices to run a specific app commit
+### User wants staged releases to a fleet of devices
+Alt title: User wants to set some devices to run a specific app commit
 
 Solution:
 The [staged-releases repo](https://github.com/resin-io-playground/staged-releases) is a collection of scripts that demonstrate some of the new API endpoints offered on resin.io to enable the more fine grained control of app updates across a fleet of devices. These scripts simply show how to use the available primitives and in the near future this functionality will be surfaced on the UI and via the CLI.
