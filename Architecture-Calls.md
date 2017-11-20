@@ -43,6 +43,66 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 20 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/YT-o8-es4T7xTGkqAFeQPwZXWBC)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1l8azrLITMVl8og_F-S7_kHGeQGQyNYTf)
+
+Discuss doing a breaking change release of pine that makes $select mandatory and disallow $select=*. Basically the client needs to know what it expects, otherwise it won't get it cc @nazrhom
+
+* Actions
+  * No blockers, let's start working on this
+
+Open Source Resin cc @dfunckt
+
+* Discussed device types and merging image maker parts into API
+* Extending OSS version to create managed resin
+* New questions have arised
+* Git: resin-api is dependent on it on app creation, because it calls and endpoint on git server to create the repo
+   * We want to remove this dependency
+* The commit has to be renamed to something else (e.g. ‘description of the build’) and refer to builds with ids we have in the database. We want non git ways to deploy where commit is irrelevant so we should use release id.
+   * Description is very generic, probably not something we want to use
+   * We have a unique id already (the DB id) that uniquely identifies the build
+   * Different sources of releases need to attach metadata specific to them
+   * Tags/labels could be used
+   * We want to move away from commits in general, not only for the OSR context
+   * Note: currently commit id is not the actual commit
+* We’ve been talking about making the deploy endpoit a more full fledged endpoint that git also uses
+* Deploy endpoint should be on the API
+* Builder currently exposes an endpoint (/v1/push) directly to the user, this can be problematic because we’d like a single point where all information/user flows pass
+* Action
+   * App creation should succeed and not create a repo in git. The repo should be created on git push
+
+PubNub logging sync up cc @flesler @pimterry @pcarranzav
+
+* No blockers
+* In multicontainer logs are per service so uuid will not be enough
+* The log server should serve requests of the form ‘give me logs of a particular service’
+* Logs should attach to image install
+* Actions
+   * Logs server will poll the DB (& PubNub?), it won't use any streaming mechanism (neither in-memory or PubNub subscribe)
+   * The server will always first try the DB and if there's no log there, it will try PubNub
+   * We'll re-check permissions and which DB to rely on every 1 hour
+
+Discuss self-signed certificates in OnPrem and supervisor.  cc @hedss @page- @pcarranzav
+
+* See https://app.frontapp.com/open/cnv_byxol5 and https://app.frontapp.com/open/cnv_cclg41
+* Devices need to know that they’re talking to the correct server. There are defaults CAs 
+* When running with a custom CA (e.g. OnPrem scenarios with self-signed CAs), this custom CA needs to be installed on resinOS. 
+* Can be fixed by updating nodeJS version in the supervisor
+* If it’s in a known location in resinOS CA extras can be accessed from the supervisor because we bind mount root (/)
+* Probably better idea to bind mount the specific file (ca extras) directly into supervisor. The reason is that we need a well defined interface between os/supervisor
+* We’d like CA ‘injection’ a first class feature and not something to be maintained as an  OnPrem-only feature on devices
+* Environment files could be the solution of shipping CAs
+* We would need an abstraction similar to NM in order to fall back if a CA update is faulty (so that the device does not get locked out)
+* Affects OnPrem, Open Source Resin, also Cert-based authentication
+* If users (e.g. Merck) can use a certificate signed by a known CA we might not need to add self signed CAs in resinOS
+* Actions
+   * We need at least 6.10 nodeJS (@pcarranzav)
+   * Only need new arch specific nodeJS base images (if we don’t already have) (@nghiant2710)
+
+---
+
 ### 15 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/XHGgxyewJO8q3EqyzLPs6AlGkke)
