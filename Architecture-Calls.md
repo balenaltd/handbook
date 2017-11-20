@@ -169,7 +169,7 @@ What should an 'image reconfiguration bundle' look like, since nowadays config.j
    * Configuration bundle, which will be representation of reconfix
    * Manufacturing process will use CLI to apply configuration to devices
 
-===
+---
 
 ### 13 Nov 2017
 
