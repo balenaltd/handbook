@@ -124,6 +124,7 @@
     - [User wants to update only some Devices attached to an Application](#user-wants-to-update-only-some-devices-attached-to-an-application)
     - [User wants to delete account](#user-wants-to-delete-account)
     - [ENOENT on docker.sock](#enoent-docker-sock)
+    - [User want's to find the Device ID](#user-wants-to-find-device-id)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
@@ -1390,6 +1391,17 @@ Solution(s):
 * OR: Try symlinking the socket inside the supervisor
 
 **
+
+### User want's to find the Device ID
+
+Dashboard v1.80 no longer exposes the DeviceID and only shows the Device UUID.
+In general we are going to hide Device IDs from all our user facing APIs/Components.
+In case that a user needs the DeviceID to use it in one of our user facing APIs/Components that still uses Device IDs
+1. Open an issue to update that component to use Device UUIDs
+1. Give the user a workaround like the following canned response:
+> In the meantime, the best thing I can propose is to use the resin-CLI to retrieve the device ID. Specifically `$ resin device <deviceUuid>` should retrieve all the device information. Additionally, let me share with you a link to the respective documentation page of the CLI: https://docs.resin.io/tools/cli/#device-60-uuid-62-
+
+> An alternative would be to use the API directly to retrieve the same information like this: `curl "https://api.resin.io/v1/device?\$filter=uuid%20eq%20'<the_device_uuid>'" -H "Content-Type: application/json" -H "Authorization: Bearer <your_auth_token>"`. Here is also the documentation page for our API https://docs.resin.io/runtime/data-api/
 
 # Internals
 ## Accessing User Devices
