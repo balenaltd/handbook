@@ -124,7 +124,7 @@
     - [User wants to update only some Devices attached to an Application](#user-wants-to-update-only-some-devices-attached-to-an-application)
     - [User wants to delete account](#user-wants-to-delete-account)
     - [ENOENT on docker.sock](#enoent-docker-sock)
-    - [User want's to find the Device ID](#user-wants-to-find-device-id)
+    - [User want's to find the Device ID](#user-wants-to-find-the-device-id)
 - [Internals](#internals)
   - [Accessing User Devices](#accessing-user-devices)
     - [Setting Up](#setting-up)
