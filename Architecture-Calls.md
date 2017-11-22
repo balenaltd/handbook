@@ -43,6 +43,117 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 22 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/3x7BCZcdJvxahF_PCrAN8vtAyhR)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/11a3N8QAhMsm4YwgCoi8ECQVGDaquyDmf)
+
+WiFi Connect does not cover the use case where a user would like to move his device to a different WiFi network. Currently it exits directly if it cannot connect to any stored network. It should launch AP instead. Additionally it clears stored network credentials in the second mode it runs, which is not useful. It is better to have one execution mode only. Changing those, will need a major version update. 
+
+* User request to support multiple request profiles
+   * Use case: move devices to different networks
+* Both moving and coming back are not currently allowed
+* https://github.com/resin-io/resin-wifi-connect/blob/master/docs/state-flow-diagram.md
+* Previous releases supported both NM and connman
+* Wifi connect should go to AP mode when you run it
+   * Timeout feature (e.g. exiting after 5 minutes) sounds like a good idea
+* We support env vars to change things like IP of captive portal, the new version will have no arguments
+* Actions (@majorz)
+   * Make new version that does not support connman
+   * Will need a new major release
+   * Need example shell script on how to run it
+   * Be very clear on what it does, and what it does not do
+   * Move old scripts to examples/ folder
+
+
+Open Source Resin: Discuss about the delivery/deploy API cc @dfunckt @camerondiver
+
+* The end goal is, given the OSS API and the registry, a user should be able to upload a docker image (probably using the CLI) and upload it to their app, essentially creating a new release
+* Ideally this setup will leverage the resin push (deploy?) CLI command
+* Two alternatives
+   * Push to registry and register that (As a release)
+   * Create new image in the api (create an image resource w/ a placeholder registry url)
+* When you create an image you get an image resource that has the repo path, which could be a random string
+* The deploy endpoint will be on the API (the current one is on the builder)
+* Suggestion
+   * The API should create an image, return a registry to push to
+   * Image should be marked as in progress (e.g. in case cli dies mid-push)
+   * Image digest can be added in the image resource afterwards
+   * Status can be an enum. The issue with enums is that our clients don’t have good support of them
+* The model needs a registry url
+* Logs can be optional
+* Custom thing: check that registry url is not random
+* The digest will be needed for validation in the end
+* Registry urls are not well formed but refer to the right thing
+* Flow: create image in api, returns registry url, push image to registry url, send digest to api
+* There have been 1.x releases with later supervisor
+* 2.0.0 has all prerequisites
+* >= 1.26 should be good (convenient because we’re not pushing people to upgrade from 1.x)
+* On-device Docker version should be fine
+* ~1000 devices that can’t use auth when pulling (pre 1.26)
+* 1.1 devices (~100) not a priority atm
+* Suggestion
+   * Deploy endpoint should not support legacy devices, even for CLI
+* Actions
+   * Create registry url datatype (@page-)
+   * We don’t need to make the legacy system work with a deploy endpoint
+   * Let’s make the deploy endpoint with app v2 assumptions
+   * When a push goes to the builder for legacy app it should push copies of the image to the legacy endpoint
+   * Single registry url per image
+   * Local builds and multicontainer must be compatible (customers ask for both)
+   * Add new deploy endpoint, use that endpoint directly when pushing containers with CLI
+   * @dfunckt will work on deploy endpoint
+      * Can probably be done on top of MC model
+
+Discuss whether to move away from using the commit hash as a method of defining what code a device should be running. This was initially done as a resource could not reference more than one of the same resource, but with pine 5 this is now possible.
+
+* This is something we want - now possible with the new model changes
+* Target state feature users: ~3-4 important users, ~80 devices (DT/Axilera, OpenDoor, Buddy)
+* No preference on implementing this in MC or afterwards
+* Term change to ‘app should be running build’
+* At some point the commit will be a label that may or may not be there
+* Action
+   * Let’s address this in a separate step, not as part of MC (@camerondiver)
+
+
+Should labels provided in the compose file be attached to the service or the image object?
+
+* Labels should be in the service object (not the image object)
+* We want labels to go across releases
+* We have labels in the service, we want to add them in the ‘image is part of release’ resource
+
+Discuss methods of debugging multicontainer builder failing with go panic of "no such file or directory" when using non-resin base images.
+* Fixed
+
+Discuss fleet data, joining 2 data sets (keen data and DB) for the creation of charts
+* DB/keen data structured differently, db more efficient, keen more easy to manage
+* We converted our db data to keen format
+* Suggestion
+   * Some devices were online on keen during the switch-over
+   * We could create an ‘online’ set
+* Discussed about vanished long-running devices
+   * Roughly 20 devices vanished
+   * Device id does not exist in device table, the connectivity table or other resources. 
+   * Device connectivity table does not forget about connectivity events
+   * If the device gets deleted, it’s removed from the device table (but can the id can still appear in the connectivity table)
+   * We could check old DB snapshots, we don’t do long retention (probably max 1-2 months)
+* Actions @dimosgp
+   * Getting # of devices on Aug 2
+   * Look into extending our DB snapshot retention cc @brownjohnf #devops
+   * Add initial events to DB
+   * Whenever a device is deleted we should probably add a hook that sends an event (w/ @flesler)
+   * Add ability to give access to analytics see the VPN events (w/ @flesler)
+
+Discuss problem with creating charts based on Rolling 28-days Count distinct due to long execution times
+
+* Calculation are simply too many to complete in the provided window
+* We should look into caching results
+* For a single user it takes > 20s
+* Action
+   * Check datastore feature - https://support.chartio.com/docs/datastores/ @dimosgp
+
+---
+
 ### 20 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/YT-o8-es4T7xTGkqAFeQPwZXWBC)
