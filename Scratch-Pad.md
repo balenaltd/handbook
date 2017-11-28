@@ -7,6 +7,7 @@
   - [Docker won't start](#docker-wont-start)
     - [Address already in use](#address-already-in-use)
   - [Device stuck in "Stopping" state](#device-stuck-in-stopping-state)
+  - [Device not getting updates after moving between apps (in Pensieve)](#device-not-getting-updates-after-moving-between-apps-in-pensieve)
   - [(can't) Swap on BTRFS](#cant-swap-on-btrfs)
   - [Issues with Line Endings](#issues-with-line-endings)
     - [Signs and Symptoms](#signs-and-symptoms)
@@ -258,6 +259,17 @@ dmesg | tail -n 100
 docker ps -a # before and after applying any fixes
 docker images
 ```
+
+## Device not getting updates after moving between apps (in Pensieve)
+
+Getting an errors like:
+```
+Failed to update application 'registry2.resin.io/...' due to 'container already stopped'
+
+Updates are locked: EEXIST: file already exists, open '/mnt/root/tmp/resin-supervisor/.../resin-updates.lock'
+```
+Can be a symptom of moving a device between apps while an update lock was present.
+As noted in https://github.com/resin-io/hq/issues/1007 , follow the instructions found in https://github.com/resin-io/resin-supervisor/issues/348
 
 ## (can't) Swap on BTRFS
 **About the issue:** http://superuser.com/questions/539287/swapon-failed-invalid-argument-on-a-linux-system-with-btrfs-filesystem
