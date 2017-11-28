@@ -39,9 +39,14 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### Pinned Agenda Items
 
-- (None currently)
+- We often have items that we want to keep revisiting. The process to do that is simply leaving the respective Front tickets open and also add a descriptive comments (e.g. `Pinned item for Mondays`)
 
 ## Recent Meeting Notes
+
+### 27 Nov 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/ugANbGR7UdNpF1HECoXXxMoDElk)
+- [Meeting notes](https://drive.google.com/drive/u/2/folders/1XYYTnoUuNHU7rQJ4fHBHnw7w4MuFv4HP)
 
 ### 22 Nov 2017
 
