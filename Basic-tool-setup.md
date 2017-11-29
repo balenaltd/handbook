@@ -75,7 +75,7 @@ Github* hosts all our public repos as well as the majority of our private repos.
 
 The forums are used by our free users for support requests, and generally for discussion about the product, hack
 Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
-users.
+users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock,front etc.)
 
 Resin.io admin means the resin.io administrator dashboard. By having access to the admin dashboard, you have access to user’s devices, stats and additional information. It’s really useful when you provide customer support.
 
