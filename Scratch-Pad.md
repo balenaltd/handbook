@@ -81,6 +81,7 @@
   - [On device supervisor update for support agents (in Pensieve)](#on-device-supervisor-update-for-support-agents-in-pensieve)
   - [Changing Wifi Credentials on a 2.x device](#changing-wifi-credentials-on-a-2x-device)
   - [No network in the containers](#no-network-in-the-containers)
+  - [New app commit doesn't work (in Pensieve)](#new-app-commit-doesnt-work-in-pensieve)
 - [Canned Responses](#canned-responses)
     - [User wants to know the biggest fleet size we have](#user-wants-to-know-the-biggest-fleet-size-we-have)
     - [Generic 1.x SD Card corruption issues and suggesting a move to 2.x](#generic-1x-sd-card-corruption-issues-and-suggesting-a-move-to-2x)
@@ -837,6 +838,16 @@ echo "Done"
 (Note that `systemctl stop docker` can take a while, depending on the user application).
 
 Also, recommend using resinOS 2.3.0+ (which does not have this potential issue).
+
+## New app commit doesn't work (in Pensieve)
+
+### Issue
+
+Pushing an older commit results a working app but making a seemingly innocent change result a broken app.
+
+### First diagnosis step
+
+When pushing the old working commit, the device will try to fetch a cached container from our registry (or some layers of it). So, the situation that the app runs when pushing an older commit but errors/loops with a new one, with seemingly innocent change, could be a sign that some of the dependencies that are installed/used got updated and might be responsible for the issue.
 
 # Canned Responses
 
