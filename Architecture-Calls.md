@@ -55,7 +55,7 @@ Should we introduce a new command called resinos in the proxy, that is exposed v
 * We should try to have a single command. Doesn’t make a lot of sense to have two separate commands for the same function
 * Suggestion: add a hidden flag
 * Action
-   * Add a custom endpoint that the proxy can use and check if a user is support agent (in which case they’ll be allowed to enter the host without any resinOS version restrictions) cc @afitzek
+   * Add a custom API endpoint that the proxy can use and check if a user is support agent (in which case they’ll be allowed to enter the host without any resinOS version restrictions) cc @afitzek
 
 ### 29 Nov 2017
 
