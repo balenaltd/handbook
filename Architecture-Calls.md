@@ -43,6 +43,20 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 11 Dec 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/EKRbQxO1XZKFZCaswvne1aurJNe)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1u5ifUuA8cuZWUsz4qCBVm7D3xwqf1G0C)
+
+Note, all items but one were postponed for the next scheduled arch call due to a Balena emergency.
+
+Should we introduce a new command called resinos in the proxy, that is exposed via the CLI, To implement hostOS access for customers? cc @afitzek
+* We’d prefer not to include a permissions check in the proxy (i.e have the proxy check if a user can access the host of a device)
+* We should try to have a single command. Doesn’t make a lot of sense to have two separate commands for the same function
+* Suggestion: add a hidden flag
+* Action
+   * Add a custom endpoint that the proxy can use and check if a user is support agent (in which case they’ll be allowed to enter the host without any resinOS version restrictions) cc @afitzek
+
 ### 29 Nov 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/tVA5wl6-c-7Q3c8IRWRhTuVY52a)
