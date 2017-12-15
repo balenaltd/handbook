@@ -5,7 +5,7 @@ Notes on legacy resinOS versions, and how to use them. Partly for historical rea
 There was [a discussion](https://www.flowdock.com/app/rulemotion/r-resinos/threads/m8UFn40WueuiNVxiC--Y_zuwqco) on how to get as early resinOS images. The nutshell is:
 
 *   The images are contained in the `resin/resin-img` containers.
-*   Login to docker with `resindev` user (password is [here](https://github.com/resin-io/resin-containers/blob/7a78d4ffcdc0011147288f90431204fbc4e430da/cloud_formation/systemd/services/docker_login.service#L11)), and then you can just `docker pull resin/resin-img`
+*   Login to docker with `resindev` user (password is [here](https://github.com/resin-io/resin-containers/blob/master/cloud_formation/systemd/services/docker_login.service#L11)), and then you can just `docker pull resin/resin-img`
 *   The tags of the image correspond to commits on [resin-image-maker](https://github.com/resin-io/resin-image-maker/), that the tags are shortened versions of the commit SHA for specific commits (not all commits, not all shortened, not all shortened the same way...)
 *   These files are huge in general! Not all commits contain resinOS images. [This spreadsheet](https://docs.google.com/a/resin.io/spreadsheets/d/1AGseXOAGpQfI9t4jXg_wD_a4knaocf1d8ZdCKquIVeg/edit?usp=sharing) is started to keep track of the commit SHA / docker image tags and the resinOS / supervisor version they contain. It's not a work in progress. To use, pick a supervisor version, and use the "docker image tag" column to pull that particular version.
 *   Get the resinOS image file out of the image by:
