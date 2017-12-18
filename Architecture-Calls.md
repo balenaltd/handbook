@@ -43,6 +43,122 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 13 Dec 2017
+
+- [Flowdock thread]()
+- [Meeting notes and recording]()
+
+Open Source Resin - sync up 
+
+* @dfunckt will work full time on OSR in the next couple of weeks
+* Chat with @hedss for the on prem tool on Monday
+
+Can we lower the requirements for resinOS devices so that the state endpoint tells them to use registry v2? cc @imrehg @pcarranzav, @dfunckt
+
+* Currently the tests are for resinOS >=2.0.0 and supervisor >=4.1.1; seems like resinOS since 1.2 (inclusive) could use registry v2, unless we've missed something (hence the question)
+* So should we alter that check to enable more devices to use v2? what versions to include? is there a downside, that this will trigger all the currently not v2 devices to update their application? (though it should be a noop according to Pablo). (that should be resinOS >=1.26.0 or other devices that are on newer supervisor due to been super-updated) If we can do this, updating the supervisor on more 1.x devices would immediately benefit them as we do that.
+* Pablo’s opinion: yes
+* 1.8 is tested and well covered, we’ll test lower than that
+* Discussed having a UI checkbox where users can opt out automatic updates to their hostOS/supervisor devices. Should free users have this option unavailable/greyed out? This is for 1.x -> 1.x , 2.x -> 2.x updates
+* Actions[a] (@imrehg)
+   * Test 1.x devices (pre 1.8), check if everything works with registry v2
+   * We can then lower the version limits in the API
+   * Add UI option to allow paid users opt out from OS/supervisor updates
+
+Discuss multi container deltas 
+
+* We need to extend the modules for balena deltas
+* More investigation on delta issues needed
+* Postponed for Monday 
+
+Adding a snooze directive to SyncBot's tricks, and the perils of reverse engineering HTTP requests 
+
+* We already have an archive function for flowdock -> front , discussing about adding a snooze command for flowdock -> front as well
+* Action
+   * Move forward with monitoring the snooze HTTP requests and replicate them (@sqweelygig)
+
+Discuss API rate limiting during SDK tests cc @afitzek @pimterry
+
+* Test are probably going to break rate limiting
+* Signup rate limiting prevents attackers from figuring out if an email address is taken, also prevents flooding our system with dummy users
+* Increasing the rate limiting, which we’ve already done (200 signups/day), should be fine
+* Action
+   * We’re fine with 200/day signup limit for now
+
+Discuss all certificates in resin and how we can ensure that no certificate ever expires
+
+* https://docs.google.com/a/resin.io/spreadsheets/d/19_rKfYnSID9RqVuf5I0pTpfox81wjhwxfogM3kAYDaA/edit?usp=sharing
+* Goals:
+   * Guaranteed auto renewal for all certificates before they expire
+   * Notifications to check if auto renewal worked
+   * Enter new items (certificates) into the system
+   * For specific certificates, team members must be notified when renewals are going to occur, and when they have occurred
+* We have multiple *.resin.io certificates
+* Builder CA, jwt, OpenVPN
+* Could we create a certificate in Amazon , for a fake domain, that will be automatically updated and converted to a JWT certificate?
+   * AWS certificates are free
+   * Can we automate that? How would it look like?
+* Actions (@afitzek)
+   * Use cloudflare for certificate auto renew of marketing site and everything under resin.io
+   * Move resindev.io to amazon
+   * Move away from RapidSSL
+   * See how we can use AWS to get certificates for them , see if we can use these certificates to auto renew jwt and cloud services
+   * Ideally we’d solve our problems w/o code
+   * The VPN transition needs some investigation (we have a couple of years till next expiry)
+
+Discuss how to securely implement a child worker process on Etcher architecture The GUI app runs as a normal user. On ‘flash’ , a new child process is spawned with 
+elevated perms (root)
+
+* Idea: have a root process that remains alive throughout the app lifetime to be used for elevated actions
+* Approach 1: spawn IPC, processes can communicate over this. We could have a shared secret between the elevated/non-elevated processes
+* Approach 2: Start elevation process first (on startup) , spawn child process w/ dropped privileges to run the UI
+* Counter argument - if malware runs as root, game is lost already. Even if malware runs as a user, it’s probable that etcher UI can be spoofed an steal user’s credentials.
+* Action cc @afitzek @jviotti
+   * Use asymmetric encryption, elliptic curve in specific for fast key generation. Flow: start etcher, it generates key, then it spawns privileged server that only accepts signed commands. We should use JWT
+
+Discuss how to store resinOS images for OnPrem, and how to let the proxy/resinHUP know which registry/repo to use in the updates cc @imrehg @hedss
+
+* Images will move in our registry (from dockerhub) when we have hostapps
+* For on prem, images will have to be environment dependent
+* Idea: provide similar interface in the API like what we have for supervisor releases (i.e. where to get images from)
+* Idea: add a parameter in resinHUP
+* For on prem we’ll have to manually push an image
+* We’ll need to constraint CI to push resinOS and resin supervisor, they shouldn’t be able to push from the user application repo
+
+
+Discuss the Porsche Architecture 
+
+* Use case: entertainment system with screen. Runs chromium
+* When the container is installed, the registration manager will make a few requests
+* The registration manager has registry of all apps, e.g. you click spotify app, it sends you to spotify service which is a container, all requests go there
+* They want to install apps through resin
+* They want something on our side (supervisor/hostos) to integrated their hooks
+* It will not need a custom supervisor
+* Porsche runs single-container apps
+* Similarities with micros architecture 
+* Suggested flow: container starts, finds service, registers itself, give whatever assets it has
+   * How does the manager find the container and vice versa
+   * Their manager must listen on a well know address, there are things they can do there
+   * When the container registers, it can give its up or the register service itself can find that out
+* resinOS will also have to register itself as an app in their system. We can alternatively have a core Porsche container that does that for us
+* Porsche unwilling to reveal more details about their registration system, so we can’t help them more
+* Need to make sure that the time we invest on is worth it (monetary-wise)
+* TBD on custarch call
+
+Discuss implementing API per-request timeouts
+
+* VPN side resolved with https://github.com/resin-io/resin-vpn/pull/73/files
+* Keep @nazrhom in the loop for the API side improvements we need to do
+
+Discuss timestamped data
+
+* Store query results over time and keep that
+* Ideally, we’d keep historical data 
+* Suggestion: save query results in a db table, point chart.io there
+   * I.e. turn device table in historical table
+* Action (@imrehg)
+   * Look into what it’d take to turn device table into a historic table cc @izavits
+
 ### 11 Dec 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/EKRbQxO1XZKFZCaswvne1aurJNe)
