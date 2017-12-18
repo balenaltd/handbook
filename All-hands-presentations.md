@@ -6,6 +6,7 @@
 * [Video](https://drive.google.com/open?id=12iW3jxyH4I32nJLYuGnmtt2GEZu2TfNf)
 * [Audio](https://drive.google.com/open?id=1nGas6e2aNFed3eIbOX5g0E7u27ebNYJ1)
 * [Syncbot presentation](https://github.com/resin-io-modules/resin-procbots/blob/366-presentation-teardown/docresources/SyncBot/syncbot-quickstart.md)
+* [Pensieve presentation](https://docs.google.com/a/resin.io/document/d/1sTZDMIBYz6ReWTz2S5KsPnogORcMySKwtspQmkybkhI/edit?usp=sharing)
 
 ### Tue, Aug 30 2017 (Amber pt.3)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8VU01TEM1Q2piQ3c)
