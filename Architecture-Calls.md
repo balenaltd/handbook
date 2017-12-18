@@ -53,7 +53,7 @@ Open Source Resin - sync up
 * @dfunckt will work full time on OSR in the next couple of weeks
 * Chat with @hedss for the on prem tool on Monday
 
-Can we lower the requirements for resinOS devices so that the state endpoint tells them to use registry v2? cc @imrehg @pcarranzav, @dfunckt
+Can we lower the requirements for resinOS devices so that the state endpoint tells them to use registry v2?
 
 * Currently the tests are for resinOS >=2.0.0 and supervisor >=4.1.1; seems like resinOS since 1.2 (inclusive) could use registry v2, unless we've missed something (hence the question)
 * So should we alter that check to enable more devices to use v2? what versions to include? is there a downside, that this will trigger all the currently not v2 devices to update their application? (though it should be a noop according to Pablo). (that should be resinOS >=1.26.0 or other devices that are on newer supervisor due to been super-updated) If we can do this, updating the supervisor on more 1.x devices would immediately benefit them as we do that.
@@ -61,9 +61,11 @@ Can we lower the requirements for resinOS devices so that the state endpoint tel
 * 1.8 is tested and well covered, we’ll test lower than that
 * Discussed having a UI checkbox where users can opt out automatic updates to their hostOS/supervisor devices. Should free users have this option unavailable/greyed out? This is for 1.x -> 1.x , 2.x -> 2.x updates
 * Actions[a] (@imrehg)
-   * Test 1.x devices (pre 1.8), check if everything works with registry v2
-   * We can then lower the version limits in the API
-   * Add UI option to allow paid users opt out from OS/supervisor updates
+  * Test 1.x devices (pre resinOS 1.8.0, ideally 1.2.0), check if everything works with registry v2; write up test results
+  * We can then lower the version limits in the API (lowering the resinOS version check, keeping the supervisor check in place
+  * Add UI option to allow paid users opt out from OS/supervisor updates to the Fleet Updates Plan spec and bring it to a product call
+  * Update resinOS supervisor version according to some agreed plan 
+  * Milestone: no resinOS version below that agreed cut-off point for registry v2; all other supervisors are updated to newer supervisor
 
 Discuss multi container deltas 
 
