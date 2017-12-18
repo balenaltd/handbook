@@ -45,8 +45,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 13 Dec 2017
 
-- [Flowdock thread]()
-- [Meeting notes and recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/yTo-ygzHdGgZYtbAQkc6QLHTPVp)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1RIUdUcG5_YIQ3Y2VaMYIDH4QKnreNDVC)
 
 Open Source Resin - sync up 
 
