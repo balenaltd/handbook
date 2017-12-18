@@ -5,7 +5,7 @@
 ### Wed, Dec 13 2017 (Syncbot & Pensieve)
 * [Video](https://drive.google.com/open?id=12iW3jxyH4I32nJLYuGnmtt2GEZu2TfNf)
 * [Audio](https://drive.google.com/open?id=1nGas6e2aNFed3eIbOX5g0E7u27ebNYJ1)
-* [Syncbot & Pensieve presentation](https://drive.google.com/open?id=1cHBfR8BoRCJhGh6vbpohDURvHAvag_ck11eWhI5lqRM)
+* [Syncbot presentation](https://github.com/resin-io-modules/resin-procbots/blob/366-presentation-teardown/docresources/SyncBot/syncbot-quickstart.md)
 
 ### Tue, Aug 30 2017 (Amber pt.3)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8VU01TEM1Q2piQ3c)
