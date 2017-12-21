@@ -43,6 +43,90 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 18 Dec 2017
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/yTo-ygzHdGgZYtbAQkc6QLHTPVp)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/17NJIFZoiNOzDZA1tqb2xrM1yy0z1dwZR)
+
+Open Source Resin cc @dfunckt
+
+* Sync up
+* Discuss whether/how on-prem tool can be used by Open Source Resin cc @hedss
+* Context: https://www.flowdock.com/app/rulemotion/resin-tech/threads/cWLubc0vt3hIsGSJ5MmzvOPxX1e
+* Export tool
+   * Takes devenv, strips out credentials
+   * Devenv has more things than needed for onprem, approach could be problematic especially with regards to credentials
+* The second tool migrates data
+   * How is the VM updated?
+   * Data can be migrated from old VM to new VM
+* Unifying resin between how we run it on production and how we run it on devenv/onprem
+   * VM Kubernetes, or resinOS for host OS ?
+   * We can run kubernetes on resinOS, either with the supervisor or running kubernetes on the side with resinos managing the host
+* Having a separate container for networking/dependencies that run on onprem and not devenv 
+* Incremental approach. If onprem is ‘smaller’ than devenv, we should build devenv on onprem. Same for OSS < on prem
+* Why do we need to give them instructions to install things outside the VM i.e. on the host
+* Dns, dhcp, ntp all run on the host
+* When you run a VM, your vm will get an ip address on the ethernet interface. It’ll appear as another machine connected to the network infrastructure
+   * When we run the vm for devenv, we have the 10.10.10.10 configuration. Vagrant has 3 adapters: nat, private network and public network
+   * We should be using the public network for on prem deployments, vm must be present on the network (we do)
+   * All traffic should go to the network
+   * That said, we don’t need to install anything on the host
+* Would resinOS network help here? Probably not
+   * The unpredictability factor we’re more resilient for is DNS
+* A container that could encapture onprem/devenv/open source resin and deal with a range of situations would be nice to have
+* Our VM is also the router of the network
+* If that extra container implements the router (as well as ntp, dhcp etc.) we shouldn’t be putting it on the Vagrant
+   * The problem is that it needs host networking, probably even privileged
+* Actions (@hedss)
+   * We should install all network services on in the Vagrant box
+   * The container is a step towards moving everything on the VM
+   * TBD again in the week
+
+Discuss how to store resinOS images, and how to let the proxy/resinHUP know which registry/repo to use in the updates cc @hedss
+
+* Previous arch call 1
+* Previous arch call 2
+* Can be archived
+
+Mass-provision of the TX2 cc @telphan
+
+* Postponed / they didn’t come back
+
+Discuss INITSYSTEM=on for multicontainer and cellular cc @shaunmulligan
+
+* Postponed
+
+Discuss how local mode will work in multicontainer cc @shaunmulligan
+
+* Proposal is the supervisor exposing an API for the CLI to set target state
+* Details
+* Postponed
+
+Discuss how to display combined device progress on multicontainer cc @lucianbuzzo
+
+* On device list
+   * If there’s something on device level, you just ignore that
+   * If there’s nothing going on on device level, you show an average of all things that are happening
+   * We can try displaying all info (x updating, n downloading etc) 
+* TBD in product call
+
+Discuss the future of CLI plugins 
+
+* PR #728: *BREAKING*: Remove support for plugins entirely by pimterry in resin-io/resin-cli on GitHub
+* Doesn’t work well with packaged cli
+* Plugin arch uses capitano, but does not rely on capitano
+* We care about build time capability
+* We need a well defined development loop
+* We can still rapidly iterate on separate functionalities e.g. resin sync
+* Actions cc @pimterry @MoranF
+   * We’re happy killing runtime plugins
+
+Discuss implementing API per-request timeouts VPN side is resolved with 
+
+* https://github.com/resin-io/resin-vpn/pull/73/files
+* Action
+   * @nazrhom - @page- syncup
+
 ### 13 Dec 2017
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/yTo-ygzHdGgZYtbAQkc6QLHTPVp)
