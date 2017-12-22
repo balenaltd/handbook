@@ -1,6 +1,6 @@
 Here’s a guide of how-to-use the main features of our new time-off service.
 
-Link: [Calamari] (https://resinio.calamari.io/login.do)
+Link: [Calamari](https://resinio.calamari.io/login.do)
 
 At first, you can log in with your @resin.io e-mail account, using the Google login option.
 Time-off request
