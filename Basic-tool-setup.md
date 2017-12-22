@@ -9,9 +9,8 @@ Your inbox will be full of e-mails that our team has already sent you. These are
 ### Basic tools<br>
 As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
 
-**NOTE:** Important! You **MUST** use the same handle across Flowdock, Beegit, Front, Resin.io forums and GitHub. This is because
-of integrations we have between the services that rely on matching handles. It will also make your life easier
-when it comes to auto-completing @-mentions. You **SHOULD** use the same handle on the forums, but this is not strictly necessary.
+**NOTE:** Important! You **MUST** use the same handle across Flowdock, Beegit, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
+when it comes to auto-completing @-mentions.
 
 For now, make sure you have access to the following services:
 
