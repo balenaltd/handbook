@@ -5,6 +5,7 @@
 ### Tue, Dec 26 2017
 * [Meeting minutes](https://drive.google.com/open?id=133UYZY8v9EmBLKZmS23anyTlZgr8cjHv6WghUYNFezA)
 * [Video](https://drive.google.com/open?id=1GjpJxBP3f110ajYZMXSltXCDfqa7j1Jx)
+* [Audio](https://drive.google.com/open?id=1LCJfyPPtFJZXO-34WrZQMudkkJYguOBY)
 
 ### Mon, Dec 18 2017
 * [Meeting minutes](https://docs.google.com/document/d/1Dk3Itp21sEaueyeO-AhJoMUgqkQ9Ettxs-8X43BivXQ/edit#heading=h.5v3961pdlcu2)
