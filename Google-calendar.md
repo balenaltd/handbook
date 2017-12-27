@@ -47,6 +47,6 @@ While you are creating an event or a meeting, you can also book a Zoom room. The
 
 ![](http://i67.tinypic.com/1okr39.png)
 
-4.	Click on an available room. When you’re done creating an event, Google Calendar shares  a Zoom URL.
+4.	Click on an available room. When you’re done creating the event, Google Calendar will share a Zoom URL.
 
 ![](http://i66.tinypic.com/2ltqznr.png)
