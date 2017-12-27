@@ -30,3 +30,9 @@ So, let’s say you’d like to add a repeating event to your calendar and get r
 ![](http://i67.tinypic.com/b3rhmt.png)
 
 From now on, you will receive notifications and reminder with regards to this event.
+
+## Booking a room in Google Calendar
+
+While you are creating an event or a meeting, you can also book a Zoom room. The steps are quite simple:   
+
+1. When creating an event, click on the “Rooms” tab next to the “Guests” tab.
