@@ -37,7 +37,7 @@ While you are creating an event or a meeting, you can also book a Zoom room. The
 
 1. When creating an event, click on the “ROOMS” tab next to the “GUESTS” tab.
 
-[IMG]http://i67.tinypic.com/2ykky1i.png[/IMG]
+![]([IMG]http://i67.tinypic.com/2ykky1i.png[/IMG])
 
 
 
