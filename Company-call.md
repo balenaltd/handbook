@@ -4,8 +4,8 @@
 
 ### Tue, Jan 2 2018
 * [Meeting minutes](https://drive.google.com/open?id=1yBFMJpSix84L1lMdaIMWOYBxjHKBbms_wveTIGdo_IM)
-* [Video]()
-* [Audio]()
+* [Video]
+* [Audio]
 
 ### Tue, Dec 26 2017
 * [Meeting minutes](https://drive.google.com/open?id=133UYZY8v9EmBLKZmS23anyTlZgr8cjHv6WghUYNFezA)
