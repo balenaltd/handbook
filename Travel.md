@@ -21,6 +21,8 @@ Using NexTravel is quite easy and very similar to the way you book flights and h
 - When you complete your request, an approval email will be sent to the Operations team.
 - Once approved, you'll receive a confirmation email with all your reservation details.
 
+Once it is checked by the Operations Team and all seems fine you receive your approval. In case of an emergency before or during your travels the NexTravel support team is available 24/7 by phone +1-844-800-9855 or via email support@nextravel.com.
+
 Moreover, NexTravel offers a number of features that include also a centralize Open Booking functionality. The Open Booking feature allows you to import reservations, that were booked outside of NexTravel, into the NexTravel platform. This feature allows you to keep all of your reservations and bookings centralized and share them also with the team.
 
 Do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
