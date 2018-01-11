@@ -24,7 +24,7 @@ Welcome to the resin.io wiki.
       - [Part-time contractors](https://github.com/resin-io/hq/wiki/Part-time-contractors)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
-    - [Travel](https://github.com/resin-io/hq/wiki/Travel)
+    - [Travel](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
   - Getting started with...
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
