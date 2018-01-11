@@ -10,7 +10,7 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 At resin.io.io we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your resin.io email. The process is quite easy. You choose your desired flight and send it to be approved. 
 
-Take some time to read this [short NexTravel guide](https://www.nextravel.com/guide/user), before you need to travel. 
+Take some time to read these [NexTravel guides & info](https://www.nextravel.com/guide/user), before you to travel. 
 
 Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. The steps are very easy:
 
