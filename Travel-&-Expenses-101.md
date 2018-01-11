@@ -55,7 +55,7 @@ In case the emergency requires an employee to pay for something that was suppose
 
 ## Do I have travel insurance?
 
-All Resin, Inc. employees (US) are covered by travel insurance. You can check out the blue card here. In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
+All Resin, Inc. employees (US) are covered by travel insurance. You can check out the blue card [here](https://drive.google.com/open?id=1_LBJM6eLHa6kiCzCK8VGBYj6Ii3cEbR_). In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
 
 ## How do I submit my expense report and when will it get reimbursed?
 
