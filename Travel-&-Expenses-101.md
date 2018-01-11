@@ -55,7 +55,7 @@ In case the emergency requires an employee to pay for something that was suppose
 
 ## Do I have travel insurance?
 
-All Resin Inc employees (US)  are covered by travel insurance. You can check out the blue card here. In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
+All Resin, Inc. employees (US) are covered by travel insurance. You can check out the blue card here. In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
 
 ## How do I submit my expense report and when will it get reimbursed?
 
@@ -63,26 +63,26 @@ You may be required to pay for business expenses, from time to time. You are res
 
 Authorization can be obtained with a simple message in Flowdock or just an email request. Expenses made must be reported to the Operations team together with all relevant invoices/receipts. Reported expenses are submitted to the financial team for approval and are reimbursed with payroll or invoice payment, usually at the end of each month. In cases where the value of expenses is high, the company will make every effort to reimburse the employee in the shortest time possible.
 
-For the time being employees forward all their expenses via a service we use called Expensify. Note that you should always keep a copy of the receipt in order to expense it. 
+For the time being, employees forward all their expenses via a service we use, called Expensify. Note that you should always keep a copy of the receipt in order to expense it. 
 
-Another important note is that when you submit a Travel expense please under the “department” option use the reason for travelling. If you are travelling for marketing purposes use “marketing”. In case you are travelling for “sales” purposes then use “sales. Here are a few examples:
+Another important note is that when you submit a Travel expense, under the “department” option, use the reason for traveling. If you are traveling for marketing purposes use “marketing”. In case you are traveling for “sales” purposes then use “sales. Here are a few examples:
 
-Let’s say a Software Engineer is asked to Travel to present a demo for a sales pitch. Even though the Engineer is under the “Engineering” department, for this travel specifically he/she would mark everything expensed under “Sales” department.
+Let’s say a Software Engineer is asked to Travel to present a demo for a sales pitch. Even though the Engineer is under the “Engineering” department, for this travel specifically he/she should mark everything expensed under “Sales” department.
 The same would happen if a Software Engineer was asked to go to an event. He/She would mark all expenses under the “Marketing” department.
 
-In addition please add a reason for expense under “comment” if it is not related to an Event.
+In addition please add a reason for the expense, under “comment”, if it is not related to an Event.
 
 Please check out [this guide](https://docs.expensify.com/setup-for-submitters/day-1-with-expensify-submitters) before forwarding any expenses.
 
-## Is there a limit on the money I can spend on food while I'm travelling?
+## Is there a limit on the money I can spend on food while I'm traveling?
 
-In resin.io, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that resin.io is still a startup. Just for reference an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch and 20$ Dinner). This is a sample of good will from resin.io towards its employees that a sensible way of spending money when travelling is embraced. 
+In resin.io, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that resin.io is still a startup. Just for reference an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from resin.io towards its employees that a sensible way of spending money when traveling is embraced. 
 
 On the other hand please note that all expenses are reviewed and any expense considered not to be reimbursable will be left out. 
 
-For example if you go out to a restaurant, while you’re on a trip for resin.io, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
+For example, if you go out to a restaurant, while you’re on a trip for resin.io, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
 
-On the other hand if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for resin.io, then that expense will not be reimbursed.
+On the other hand, if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for resin.io, then that expense will not be reimbursed.
 
 ## What kind of expenses are acceptable?
 
@@ -92,13 +92,13 @@ In addition please try to manage your budget as best as you can. For example, ge
 
 ### Food
  
-Breakfast, if not included in the accommodation, as well as lunch, dinner, coffee and snacks in between. 
+Breakfast, if not included in the accommodation, as well as lunch, dinner, coffee, and snacks in between. 
 Dinner for example at a restaurant is a reimbursable expense while a glass of wine with a city view on top of the Space Needle in Seattle is not reimbursable. 
 
 ### Transport 
 
-Taxi, train, bus or rental car costs for all the transport needs required for the duration of the travel. 
-Taking the train to and from the airport when travelling for resin.io is an expense that will be reimbursed. On the other hand, a ticket for a rollercoaster ride is not :)
+Taxi, train, bus or rental car costs for all the transport required for the duration of the travel. 
+Taking the train to and from the airport when traveling for resin.io is an expense that will be reimbursed. On the other hand, a ticket for a rollercoaster ride is not :)
 
 ### Business meetings 
 
@@ -106,10 +106,10 @@ Any cost related to a business meeting that has not been handled by the Operatio
 
 ### Hardware 
 
-In case an employee needs Hardware that either was not foreseen or couldn’t be transported then he will be reimbursed for that purchase. 
-If you are at an event for example and you buy a board because the one that you are using for a demo has malfunctioned, that will be reimbursed. Buying a new playstation control because the one you had brought with you broke, is not a reimbursable expense. 
+In case an employee needed to purchase Hardware that either was not foreseen or couldn’t be transported then the employee will be reimbursed for that purchase. 
+If you are at an event for example and you buy a board because the one that you are using for a demo has malfunctioned, that will be reimbursed. Buying a new PlayStation controller because the one you had brought with you broke, is not a reimbursable expense. 
 
 ### Emergencies
 
 In case an emergency requires a purchase please don’t hesitate to contact the Operations team.
-Let’s say that you got sick when on a journey with resin.io and you need medicine. That purchase is reimbursable. A flight adjustment to get back on time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
+Let’s say that you got sick when on a journey with resin.io and you need medicine. That purchase is reimbursable. A flight adjustment to get back in time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
