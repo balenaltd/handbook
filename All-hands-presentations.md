@@ -7,6 +7,10 @@
 * [Audio](https://drive.google.com/open?id=16WfBKblQNHsUmljcWTV0UpT9GcbEezlX)
 * [Process Review presentation](https://docs.google.com/presentation/d/1IFXGjHb9vrkAWqBxSyqDBRG3Q4XEkq4QeMpTN9rxByk/edit)
 
+### Wed, Dec 20 2017 (Board meeting greatest hits in an hour)
+* [Video](https://drive.google.com/open?id=1Z0EKxNnoG4NcpMCnYn3VaSkUC0jMU2De)
+* [Audio](https://drive.google.com/open?id=1otZjDDBwCYOaWyFmilumq_-AWS7JQl4O)
+
 ### Wed, Dec 13 2017 (Syncbot & Pensieve)
 * [Video](https://drive.google.com/open?id=12iW3jxyH4I32nJLYuGnmtt2GEZu2TfNf)
 * [Audio](https://drive.google.com/open?id=1nGas6e2aNFed3eIbOX5g0E7u27ebNYJ1)
