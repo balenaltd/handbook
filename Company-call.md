@@ -4,6 +4,10 @@
 
 ### Mon, Jan 15 2018
 * [Meeting minutes](https://drive.google.com/open?id=17vj18Qs6lupfK3XletMvujO1IDgIG6RobmDg8pWZ-Es)
+* [Video](https://drive.google.com/open?id=1yc9y4pUBh29fwUrODgRcDUCdECN5Z0F6)
+* [Audio](https://drive.google.com/open?id=18MDCQD5LLJxQfTnedpdjbZ39hwb5qIPp)
+* [Attendees](https://drive.google.com/open?id=1ZIurK8Y49eluY-Px7RjX38PxivdBxy_u)
+
 
 ### Mon, Jan 8 2018
 * [Meeting minutes](https://drive.google.com/open?id=18HUnfWSwDcYOD42paxTLyIlSufwf3Bv_o2XMMMLADBM)
