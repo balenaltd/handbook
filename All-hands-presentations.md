@@ -7,7 +7,7 @@
 * [Audio]()
 * [Architecture process call presentation](https://docs.google.com/presentation/d/1GRrRU636QVF7UAeV9BVwhkUFCoPGP3yGZrSQUgGq-6I/edit#slide=id.p)
 
-### Wed, Jan 10 2018 (Process Review)
+### Wed, Jan 10 2018 (Process review)
 * [Video](https://drive.google.com/open?id=1gsnmsJ2JJuqgtkS-ITEcO4uPAvJ1Iupu)
 * [Audio](https://drive.google.com/open?id=16WfBKblQNHsUmljcWTV0UpT9GcbEezlX)
 * [Process Review presentation](https://docs.google.com/presentation/d/1IFXGjHb9vrkAWqBxSyqDBRG3Q4XEkq4QeMpTN9rxByk/edit)
@@ -26,7 +26,7 @@
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8VU01TEM1Q2piQ3c)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8VUFLWWE5V2pWNk0)
 
-### Tue, Jul 11 2017 (Deploying with Keyframes)
+### Tue, Jul 11 2017 (Deploying with keyframes)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8Q0R6eER3bU9xR28)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8Rkx2RkFSN09vMFE)
 
@@ -61,7 +61,7 @@
 * [The Pipage presentation](https://drive.google.com/open?id=0ByKIZhPDOWkiRUxYVzg1cVlTeXc)
 * [Demos](https://drive.google.com/open?id=0ByKIZhPDOWkiQXMxdnNxZWtWUTA)
 
-### Tue, May 09 2017 (Resin Process for new Resineers)
+### Tue, May 09 2017 (Resin process for new Resineers)
 * [Video](https://drive.google.com/open?id=0B1xAg_Dw2iS8UEY0bHVmZHVZZG8)
 * [Audio](https://drive.google.com/open?id=0B1xAg_Dw2iS8Sk5qOFlrSjF5UW8)
 * [Resin Process for new Resineers presentation](https://drive.google.com/open?id=0B1xAg_Dw2iS8amNtU3dkeG1lNjA)
