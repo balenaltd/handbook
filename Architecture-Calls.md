@@ -45,6 +45,82 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 15 Jan 2018
 
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/cPWom6P22Rtl_wXbw3DVzcICrRp)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1uIsiNXKzpocCsCbt6Qeskw0TK6iwv3aU)
+
+Open source resin sync up 
+
+* Follow-up meeting on 16 Jan 2018
+
+Logging - batching - multicontainer 
+
+* Logging branches from multicontainer
+* PubNub relaying nearly ready, having an issue with PubNub API
+* Alex asked to store both server time and supervisor time in the log, not done yet
+* Switch to a custom endpoint and either use batching or not from within the API
+* Delays and problems to be escalated to Shaun and then Alex
+* Follow-up meeting on 16 Jan 2018
+
+Discuss configuring multiple networks for OS images, and how development overlaps with reconfix 
+
+* Can be closed for now
+
+canAccess endpoint
+
+* Action: move forward with PR merge
+
+Discuss using jsonschema to generate the forms used for configuring device images on the dashboard 
+
+* Objectives: 
+   * Support multiple networks (main objective)
+   * move away current options system for device types (longer term objective)
+* The options systems is an array of objects that we use to create forms in the UI
+   * Specifically image download configuration
+* Incompatible with how we do things now in the dashboard
+* Suggestion: Add a new property in device-type.json that contains json schema for device type configuration and eventually deprecate options
+   * The migration is not trivial. We’d have to make it backwards compatible and not re-release existing types
+* Other suggestion: create translation from current to next schema
+* Actions cc @lucianbuzzo
+   * Write translator
+   * Expand what’s in the system to support multiple networks
+
+Discussed Rubus schematics
+
+Discuss enabling deltas by default 
+
+* Enabling current (not balena ones) deltas by default
+* Makes sense to spend resources on new deltas
+* Action cc @dfunckt @pcarranzav
+   * Resumable deltas and better timeouts have improved things, so shift the underlying default (https://github.com/resin-io/resin-supervisor/issues/546)
+
+
+Discuss the future of the intel-nuc device type 
+
+* We don’t need to deprecate the nuc, it’s solved by the subtype solution
+* Actions cc @lucianbuzzo @floion @telphan
+   * Will keep intel nuc device type
+   * Move generic x86 into resin-intel repo and essentially start releasing it as the same image under intel-nuc 
+
+boot time graphs on current resinOS version (RPI 1) and the latest Raspbian on the same machine.
+
+* https://docs.google.com/spreadsheets/d/1b9g8iMivhJN4SonzHLcqS8Ol3RNC6dl5v8oGber108k/edit#gid=0
+* Trying to figure out 3x resinOS delay in kernel 
+
+Discuss how to handle orphaned diffs during resinhup / hostapp-update 
+
+* When resinHUP is interrupted we can’t clear up the download that’s happening in the background. So starting a new update we can get in an out-of-space situation
+* balena/docker prune
+* If you re-download the same image the old layers should be re-used
+* Needs some experimentation to see where the issue is with docker/balena pull
+* Re-review on Wednesday
+
+discuss proxy/hostname on supervisor configuration API endpoint (time sensitive due to Room Ready needing it) cc @pcarranzav
+
+* Suggestion: have hostname change in the same api as proxy change instead of config variable
+* We are fine with having a config endpoint that we will patch
+* Action
+   * Global config endpoint with PATCH requests
+
 ### 10 Jan 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/-VGh8EGAEgbsRwtl5A-d76C_l5t)
