@@ -43,12 +43,10 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
-### 18 Jan 2018
+### 17 Jan 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/WsT_F-EYKWLOFigvqlvAB6dfEWV)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1lyOAdluS4kbxoX2cRF0sygD2BK8JIW9N)
-
-# Customer Request Items
 
 Discuss fixing the non-compliant custom device UUID's issue for Disruptive Tech cc @thgreasi
 
@@ -74,8 +72,6 @@ Porsche architecture
 
    * Got additional info on how registration works
    * @petrosagg to join the next Porsche call
-
-# CLI / SDK
 
 Discuss how the CLI et al could better allow for incremental adoption of breaking API changes cc @pimterry
 
@@ -113,8 +109,6 @@ Discuss SDK roadmap (dev process, coordination between SDKs, what the expectatio
       * Look into intersection of GraphQL. GraphQL-to-data translator opens us up to GraphQL tools for automatic doc/sdk generation
       * Get VersionBot on python sdk
 
-# Devices / resinHUP
-
 Discuss how to handle orphaned diffs during resinhup / hostapp-update cc @agherzan @imrehg
 
    * hostApp update/balena pull, unplugging device leaves diffs behind, that are not cleaned up automatically, nor can be removed with balena tools. Retrying to pull update will create a new diff directory every time (and can run out of space)
@@ -122,8 +116,6 @@ Discuss how to handle orphaned diffs during resinhup / hostapp-update cc @agherz
    * resinOS 2.7.x (docker) appears to exhibit same behavior after power-cut
    * Actions
       * Register bugs as issues in the balena repo cc @imrehg
-
-# Devops / Concourse
 
 Discuss CloudFlare usage for resinio wrt to automatic certificate management cc @afitzek @brownjohnf
 
@@ -158,9 +150,10 @@ Develop a plan for stable concourse infrastructure on-prem cc @brownjohnf @jviot
    * Discussed if Concourse infra should be hosted on Kubernetes
    * Action
       * Add Vault and connect it to concourse
-# Sync up
 
 Logging / moving away from pubnub
+
+* Progress update
 
 ### 15 Jan 2018
 
