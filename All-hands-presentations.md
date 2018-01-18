@@ -3,8 +3,8 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
 ### Wed, Jan 17 2018 (Architecture call process)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/open?id=1d0zcH7KK4rg4116SBki1uK7VZnEI5Rtg)
+* [Audio](https://drive.google.com/open?id=1Ungn1WDWSghL8W5OakeB8Tethpt7luCy)
 * [Architecture process call presentation](https://docs.google.com/presentation/d/1GRrRU636QVF7UAeV9BVwhkUFCoPGP3yGZrSQUgGq-6I/edit#slide=id.p)
 
 ### Wed, Jan 10 2018 (Process review)
