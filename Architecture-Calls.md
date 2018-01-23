@@ -48,6 +48,81 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fz9wCaEgofU3-rYbZO1CCaKyDvr)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1aTPNtqzNWbaD4ew0gjMdI1vAYp7h8DjA)
 
+On-prem resinHUP spec kick off cc @hedss @imrehg
+
+* Spec: https://github.com/resin-io/hq/pull/1148
+* Format for archive w/manifest file with metadata about where to find relevant images
+* We should look into integrating the supervisor publishing design (introduced for on prem resinhup) in resin
+Currently we need to add the resin_devices key to the proxy manually on startup. We also need to be able to generate keys for rOP instances. There should be a good way of doing this, that ideally doesn’t require altering images for each rOP cc @hedss @imrehg @afitzek @wrboyce @lekkas
+* Discussed auto-generating device ssh key that will be injected in devices and the proxy
+* Suggestion: make API expose key that are valid and have devices add them in authorized_keys
+   * Authorized_keys should be part of the state partition / endpoint
+   * Dropbear should auto-detect this w/o restart
+   * Users should be able to add their own keys and blend the two lists (user/resin)
+      * Definitely a feature that users want
+* Idea: use hardware device/key to setup on prem environment
+* Moving forward
+   * resinOS: read ssh key from config.json
+      * Issue: how does cli (esp older versions) interact with config.json when generating one
+   * afitzek will look more into this after the current priorities/backlog
+
+
+Discuss 2FA for SSO accounts and security critical actions, that require a recent password entry. cc @afitzek @thgreasi
+
+* For accounts without social login
+   * sudo operations (e.g. enabling/disabling 2FA) will require password
+* For social login accounts
+   * we should remove 2FA
+   * For sudo operations we will ask social login provider (e.g. google) to re-authenticate (in essence requesting a fresh token from the auth provider)
+* Suggestion: user before getting to sudo mode. 
+
+Discuss how to store user Dashboard preferences (filter views & column selections) in the DB. Also consider the same for Collaborators & Orgs. cc @thgreasi  @lucianbuzzo
+
+* Currently we save views and column setting in the browser/localstorage
+* We’d like to persist these preferences on the backend to reuse from other browsers of private mode
+* Not sure if settings are deleted if different users login from the same browser
+* Suggestion: free-form / json field, same as localstorage
+   * We may want to think more of the schema e.g. views might be useful as a core pine term. One example is shared views across an organization
+* Should we model (in sbvr) or not views data
+* Discuss again on Wednesday
+
+Discuss the current process for moving an application from one account to another (directly for Delphi but larger question in general)
+
+* Spec: https://github.com/resin-io/hq/pull/938
+* Moving apps after in recent resinOS versions should be as easy as changing the user of the application
+* Action
+   * Need to figure out what devices do with users/usernames
+      * Supervisor sends username in mixpanel events
+      * @izavits @pimterry were looking into https://github.com/resin-io/resin-api/issues/443 for mixpanel blockers
+   * Provision app with a few devices, change userid to a new userid that, see if the new user can use the devices afterwards cc @mccollam
+   * In the mid term (after we establish that the backend is working) check if underlying data works we’ll need to think the UX for the feature cc @shaunmulligan
+
+
+Discuss how to handle support for boards based on the Raspberry Pi Compute Module cc @alisondavis17 @curcuz, @floion, @agherzan
+* This includes Rubus/Amber and other boards like the Revolution Pi, etc. that are built on the CM.
+   * Related to arch types - we’ll have arch-specific applications
+   * TBD in product call 
+
+Discuss current implementation of in container resin OS task and next steps. cc @agherzan
+
+   * We have the first implementation
+      * Should work on any device we support
+   * We should be able to spawn specific device types 
+   * Action
+      * We should somehow mark that specific features/actions (like the /reboot supervisor endpoint) need an actual, not-virtualized host, to run - needs a spec for small things that are needed in the dashboard /api / resinOS cc @agherzan will lead this as a low prio part in the porsche deliverable
+
+Refresh our plan/design on bump-n-branch cc @lekkas @jviotti
+
+* Spec: https://github.com/resin-io/hq/pull/630
+* For etcher
+   * Start branch, start a pre-build process that should be platform-independent which will fetch dependencies and start a build process
+   * On shrinkwrap
+      * We’ll not put dependencies we trust in the shrinkwrap
+      * On bump-n-branch we’ll generate a full shrinkwrap from pinned (untrusted) dependencies and floating (trusted) ones
+   * The branches will also be used generate the nested changelog
+* Actions
+   * Juan will lead this
+
 ### 17 Jan 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/WsT_F-EYKWLOFigvqlvAB6dfEWV)
