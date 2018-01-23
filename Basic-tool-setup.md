@@ -31,7 +31,7 @@ As needed (request access from the Ops team):
 * Zendesk
 * [Resin.io Forums Moderator Access](https://forums.resin.io/)
 
-Please note that Zendesk access specifically is given after the support on-boarding process has been concluded.
+Please note that Zendesk and Forums moderator access are added when a resineer joins support. If you need it sooner, please let the Ops team know.
 
 **Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow (r/operations).**
 
