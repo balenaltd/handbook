@@ -4,6 +4,9 @@
 
 ### Mon, Jan 22 2018
 * [Meeting minutes](https://drive.google.com/open?id=1_cfBazth1uUpKxI_g1cwgfevyfYT1R1dUs0_9t6uMh0)
+* [Video](https://drive.google.com/open?id=1cDBL4bDlDlyQN0CY0Rjr5X-DXHl1biAK)
+* [Audio](https://drive.google.com/open?id=1Tgi5vhYxgA_zxDg_JFtbtJ-jHuBkNGXc)
+* [Attendees](https://drive.google.com/open?id=18JDio_Iopk-gI_kWjaC-1058umKMv-Wh)
 
 ### Mon, Jan 15 2018
 * [Meeting minutes](https://drive.google.com/open?id=17vj18Qs6lupfK3XletMvujO1IDgIG6RobmDg8pWZ-Es)
