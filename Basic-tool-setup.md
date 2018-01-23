@@ -7,7 +7,7 @@ First things first! Before you get access to any of the services we’re using a
 Your inbox will be full of e-mails that our team has already sent you. These are invitations to tools we use, guides and other material that will help you get started.
 
 ### Basic tools<br>
-As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier. Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
+As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier.
 
 **NOTE:** Important! You **MUST** use the same handle across Flowdock, Beegit, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
 when it comes to auto-completing @-mentions.
@@ -24,12 +24,14 @@ Primary:
 * [Github](https://github.com)*
 * Resin.io admin*
 * [Timezone.io](https://timezone.io/)*
-
-Secondary:
 * Intercom
-* Zendesk
+Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
 
-There’s a distinction between primary and secondary services. You should have access to services of both categories but use the primary services on a daily basis. The secondary services will be used only in case of an “emergency”. Zendesk access specifically is given after the support on-boarding process has been concluded.
+As needed (request access from the Ops team):
+* Zendesk
+* [Resin.io Forums Moderator Access](https://forums.resin.io/)
+
+Please note that Zendesk access specifically is given after the support on-boarding process has been concluded.
 
 **Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow (r/operations).**
 
