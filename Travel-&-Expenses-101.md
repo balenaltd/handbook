@@ -113,3 +113,9 @@ If you are at an event for example and you buy a board because the one that you 
 
 In case an emergency requires a purchase please don’t hesitate to contact the Operations team.
 Let’s say that you got sick when on a journey with resin.io and you need medicine. That purchase is reimbursable. A flight adjustment to get back in time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
+
+## Can I use NexTravel to book a personal trip?
+
+The short answer is yes. You just need to follow the same procedure you follow for booking a business trip. Search for your flights/accommodation/etc., choose the option that satisfies you more, confirm the passenger details and click on the "Continue to Checkout" button. At the next screen, you would see the details of your trip and the total cost. By default, this is set to be a business related trip. If you wish to make this a personal trip, you need to click on the "Personal Trip" checkbox at the top right of your screen. By choosing this option, you will be required to add your payment information and complete checkout, using your personal information. 
+
+For the avoidance of any doubt, booking personal travel and anything related to it (payment, visa, accommodation, expenses etc) is your own responsibility.
