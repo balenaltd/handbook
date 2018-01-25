@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Wed, Jan 24 2018 (TeamOS Refresh 2018)
+* [Video](https://drive.google.com/open?id=1KWwTsfMkGhp23lkltH3SrVVmuvQ9Wuox)
+* [Audio]()
+* [Architecture process call presentation](https://docs.google.com/presentation/d/1GwZ5FEiZKoKwo0m8snhwHpKKr6uuyVRrqn5mAOaNiTM/edit?ts=5a687d7a#slide=id.g2f29a7c168_0_10)
+
 ### Wed, Jan 17 2018 (Architecture call process)
 * [Video](https://drive.google.com/open?id=1d0zcH7KK4rg4116SBki1uK7VZnEI5Rtg)
 * [Audio](https://drive.google.com/open?id=1Ungn1WDWSghL8W5OakeB8Tethpt7luCy)
