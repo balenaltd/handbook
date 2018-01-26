@@ -2,6 +2,9 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/a/resin.io/document/d/1WpjjN_98A2zhzG8LssyXUdI6dg9-LWTLi24YLfvC_Tg/edit?usp=sharing)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+### Mon, Jan 29 2018
+* [Meeting minutes](https://drive.google.com/open?id=17-VqSSUz1zoYSMOZm8uaReN2JnczfRCfO7SMUI-FPN0)
+
 ### Mon, Jan 22 2018
 * [Meeting minutes](https://drive.google.com/open?id=1_cfBazth1uUpKxI_g1cwgfevyfYT1R1dUs0_9t6uMh0)
 * [Video](https://drive.google.com/open?id=1cDBL4bDlDlyQN0CY0Rjr5X-DXHl1biAK)
