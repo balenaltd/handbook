@@ -5,7 +5,7 @@
 ### Wed, Jan 24 2018 (TeamOS Refresh 2018)
 * [Video](https://drive.google.com/open?id=1KWwTsfMkGhp23lkltH3SrVVmuvQ9Wuox)
 * [Audio](https://drive.google.com/open?id=1M50RJ3Qj17HSsaeC4TYnL3IgEqS0Q7Ly)
-* [Architecture process call presentation](https://docs.google.com/presentation/d/1GwZ5FEiZKoKwo0m8snhwHpKKr6uuyVRrqn5mAOaNiTM/edit?ts=5a687d7a#slide=id.g2f29a7c168_0_10)
+* [TeamOS call presentation](https://docs.google.com/presentation/d/1GwZ5FEiZKoKwo0m8snhwHpKKr6uuyVRrqn5mAOaNiTM/edit?ts=5a687d7a#slide=id.g2f29a7c168_0_10)
 
 ### Wed, Jan 17 2018 (Architecture call process)
 * [Video](https://drive.google.com/open?id=1d0zcH7KK4rg4116SBki1uK7VZnEI5Rtg)
