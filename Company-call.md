@@ -3,7 +3,7 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 ### Tue, Jan 30 2018
-* [Meeting minutes](https://docs.google.com/document/d/13pSEldlGTihcg1E6iTluk6NBkBlqV833kDz-YLHl_Bo/edit?usp=sharing)
+* [Meeting minutes](https://docs.google.com/document/d/17-VqSSUz1zoYSMOZm8uaReN2JnczfRCfO7SMUI-FPN0/edit?usp=sharing)
 
 ### Mon, Jan 22 2018
 * [Meeting minutes](https://drive.google.com/open?id=1_cfBazth1uUpKxI_g1cwgfevyfYT1R1dUs0_9t6uMh0)
