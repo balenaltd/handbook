@@ -4,6 +4,8 @@
 
 ### Tue, Jan 30 2018
 * [Meeting minutes](https://docs.google.com/document/d/17-VqSSUz1zoYSMOZm8uaReN2JnczfRCfO7SMUI-FPN0/edit?usp=sharing)
+* [Video](https://drive.google.com/open?id=1hrMW1BIme7H0o5DHR5sMaQBLHPeat64K)
+* [Audio](https://drive.google.com/open?id=1VMjwRe5MtrpERRLs6CeXwnerkwunt01r)
 * [Attendees](https://drive.google.com/open?id=1pTPTo8vdMX9hLv85o5OLJSM3Y9EcAW86)
 
 ### Mon, Jan 22 2018
