@@ -43,6 +43,20 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 24 Jan 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/zGSaALpEbH7ghXwqHogPWM9pyip)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1MipuubOBVZ29b1wluWf9JQrb4a5o5iRu)
+
+Currently we're using a release's commit as the ID in the dashboard. This isn't unique across releases unless you add the constraint of a success status. What way do we want to represent releases (especially with the rolling release stuff coming up)? 
+
+* It can be the release number
+   * We could have a link back to the release page (of the specific id)
+* The commit was transitional
+* Suggestion: update the model and have a foreign key to releases
+* Translation can be a tricky part
+   * We’ll need translations because a lot of thing will break
+
 ### 22 Jan 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/fz9wCaEgofU3-rYbZO1CCaKyDvr)
