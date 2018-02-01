@@ -33,7 +33,7 @@ From now on, you will receive notifications and reminder with regards to this ev
 
 ## Booking a Zoom room in Google Calendar
 
-Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting. Please bear in mind that the bookable zoom rooms are available to book **only** on the admin calendar. 
+Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting.
 
 Please check out the following steps to include a zoom room when creating an event:
 
