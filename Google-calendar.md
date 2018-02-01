@@ -16,7 +16,7 @@ Google calendar has a feature which allows you to add a coworker’s calendar to
 Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
 
 ## Add an event to your calendar
-In resin.io, we try to keep our company events open for all team members. Anyone can join any meeting they would like to, as long as that’s a company meeting. How would you know if an event is a company/event or open to everyone? The answer is that it’ll be on the company calendar (admin@resin.io) which you can access already.
+In resin.io, we try to keep our company events open for all team members. Anyone can join any meeting they would like to, as long as that’s a company meeting. How would you know if an event is a company/event or open to everyone? The answer is that it’ll be on the company calendar (admin@resin.io) which you can access already. 
 
 So, let’s say you’d like to add a repeating event to your calendar and get reminders about it. The best way to do this is to:
 
@@ -33,7 +33,9 @@ From now on, you will receive notifications and reminder with regards to this ev
 
 ## Booking a Zoom room in Google Calendar
 
-Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting. The steps are quite simple:   
+Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting. Please bear in mind that the bookable zoom rooms are available to book **only** on the admin calendar. 
+
+Please check out the following steps to include a zoom room when creating an event:
 
 1. When creating an event, click on the “ROOMS” tab next to the “GUESTS” tab.
 
