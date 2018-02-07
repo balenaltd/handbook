@@ -43,6 +43,73 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 06 Feb 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/rbSRmOI5xRA7MBkfkKknkaF9KMw)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/18j_Otq2cJUC3CggE9kiTrKMb6WkYaXIj)
+
+We need to ensure that during development of components nothing is added that assumes running on cloud environments, so that changes aren’t made that could break potentially break resin On Premises aren’t made 
+
+* resinHUP was reliant on github to download stuff
+* How do we get into devs mind that stuff in backend can potentially run in a closed environment
+* Examples
+   * Api makes calls to geolocation apis
+   * resinHUP as already mentioned
+* E2e testing in air-gapped environment e.g. on a VM is straightforward
+   * Take a VM and restrict internet access
+* Actions
+   * Move e2e tests to a VM
+      * Ideally pre-PR merge
+      * We’ll still run them in production
+   * @hedss / @jviotti to look into that after Siemens/Logging
+      * Related to Concourse/Pipelines
+
+Discuss resinOS boot times 
+
+* https://docs.google.com/spreadsheets/u/2/d/1b9g8iMivhJN4SonzHLcqS8Ol3RNC6dl5v8oGber108k/edit#gid=0
+* Actions cc @agherzan
+   * Look into with Initramfs  / mount service optimizations
+
+Discuss about deprecating the Odroid C1 cc @floion @agherzan
+
+* At some point we’ll deprecate it
+* Let’s discuss again deprecations in one month
+
+Discuss how to move forward with dependent devices cc @pcarranzav
+
+* Currently broken due to device type mismatch (generic vs generic-amd64). It can be fixed but affects backwards compatibility.
+* Plus there's WIP left by Joe that could be worked on.
+* Actions
+   * Fix generic name , it’s fine that it’s not backwards compatible
+   * Release multicontainer without affecting dependent devices, afterwards work on resuming Joe’s work
+
+Discuss adding Sentry to the supervisor cc @pcarranzav @jviotti
+
+* Bandwidth concerns
+   * We’d only send error logs
+   * We can have additional flags control log streaming to servers
+   * Supervisor should not throw exceptions on network errors
+* Sentry is being used for uncaught exceptions
+* Supervisor has been rewritten, our previous assumptions might not hold now
+* Action
+   * Implement hidden configuration that disables both Mixpanel and Sentry
+      * TBD the specifics on how switching off will be advertised
+   * Add Sentry in development images
+
+Discuss making tokens like the mixpanel token something that can change on devices, maybe as part of the target state endpoint cc @pcarranzav @jviotti
+
+* Supervisor has hardcoded mixpanel token
+* It’s in config.json currently, should probably be env-var accessible
+* Mixpanel should probably live in the mixpanel proxy
+* Look into introducing app level state endpoint
+
+Discussed Deltas
+
+* Supervisor never does deltas when starting from scratch
+* There shouldn’t be any technical blockers for using balena deltas
+* Actions
+   * Balena deltas the next thing @dfunckt will work on
+
 ### 24 Jan 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/zGSaALpEbH7ghXwqHogPWM9pyip)
