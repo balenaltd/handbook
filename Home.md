@@ -46,3 +46,5 @@ Welcome to the resin.io wiki.
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
   - Devices
     - [Legacy OS](https://github.com/resin-io/hq/wiki/Legacy-OS)
+- Process
+  - Teams
