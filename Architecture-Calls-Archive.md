@@ -1,7 +1,7 @@
 # Description
 
 This is an archive of architecture call meeting notes from [15 Nov 2016](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive#15-nov-2016) to [06 Sep 2017](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive#06-sep-2017)
-For recent architecture calls visit [this page]()
+For recent architecture calls visit [this page](https://github.com/resin-io/hq/wiki/Architecture-Calls)
 
 ### 06 Sep 2017
 
