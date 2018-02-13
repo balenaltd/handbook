@@ -37,7 +37,7 @@ The full archive can be found in [this google drive folder](https://drive.google
 
 We are uploading architecture call recordings as a convenience to people who might not be able to attend a specific architecture call and want finer-grained details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
 
-### [Architecture call Archive (from 25 Nov 2016 to 07 Sep 2017](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive)
+### [Architecture call Archive (from 15 Nov 2016 to 06 Sep 2017](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive)
 
 ### Pinned Agenda Items
 
