@@ -47,8 +47,78 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 12 Feb 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-process/threads/k3X7ZxKLW0grrZJ4IIYCO-nKxdD)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1n6qq2L5xbCWKbphYbeZDOBOZfdlYdaho)
+
+Can we expose the Docker socket to containers and docker/balena alias on the host OS to enable Foghorn support for Honeywell? cc @mccollam
+
+* Requests
+   * Alias from docker to balena
+   * Export docker socket
+* Open q: can all of Foghorn run into container?
+* Worried about making docker part of our API
+   * If we expose it, we’re tied to docker
+* Giving access to docker will likely be something that’s going to be asked a lot
+* Needs to be a label, like dbus, they will need to opt in to this docker api
+   * Arbitrary bind mounts can cause issues
+* Support implications
+   * Separate support package?
+   * Make expectations clear (e.g. deleting supervisor or performing other disruptive actions)
+* Actions cc @pcarranzav
+   * Hard requirement: feature will only work with multicontainer
+   * Io.resin.features.balena-socket label
+      * Bind mounts hosts balena socket to /var/run/balena.sock in container
+
+VPN sync up 
+
+* Vertical scaling PR in progress, requiring review
+* Horizontal scaling on staging for a few weeks, haven’t hit any issues so far (lower traffic though)
+* Downtime
+   * Depending on the app’s reconnection logic, a VPN redeploy will still cause noticeable connection drops
+   * The vpn client can smoothly roll over, the problem is on the server side because the proxy tunnel will break
+* Mentioned VPN alternatives https://www.wireguard.com/ https://www.tinc-vpn.org/ 
+* Actions cc @wrboyce @brownjohnf
+   * Move forward with rolling horizontal scaling out
+   * Next steps
+      * Make reconnection less of a massive event
+      * Add disconnect notifications
+
+Discuss deltas of compositions in multicontainer.
+
+* First time you pull a composition, nothing exists in the devices
+   * Creating a diff from nothing has no benefit
+* There’s a benefit when comparing in between containers
+* Composition deltas are highly leveraged (paid feature, super useful over LTE)
+* First pull algorithm
+* Delta source selection algorithm 
+   * First, we search images that match service name and app id
+   * Then only service name
+   * Then images from the same app
+
+Discuss providing the ability for extending NetworkManager's global configuration 
+
+* Randomized MAC address regression in recent NM versions that could be disabled in the NM global configuration (e.g. by adding a file in /etc/NetworkManager/conf.d/)
+* Currently we do not provide this ability in a way that will persist across Host OS updates
+* Current solution: use DBUS api
+
+Reconfix on Host
+
+* We’re currently working on the CLI reconfix PR
+* Unification will hopefully be a catalyst to include reconfix on the host
+
+ResinOS in a container. Where to store generic images? Un-Privileged container ideas? Default to overlayfs? 
+
+* We have generic type on the API
+* We’re introducing three new generic- types
+* +1 on unprivileged containers
+* Every new device type should default to overlayfs2
+   * we’ll handle migrations when we need to 
+
+Logging: Discuss solutions for device log ordering implementation 
+
+* Core of logging works, we only get out of order logs
+* Timestamps are unreliable - we can’t rely on it for ordering due to ntp changes
+* Discuss ordering again on Thursday
 
 ### 08 Feb 2018
 
