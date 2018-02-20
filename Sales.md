@@ -13,11 +13,13 @@ Things to update:
 * Salesforce
 * Recurly
 * Admin Database
-* Front
-* Zendesk*
-_Only premium customers get access to Zendesk_
-* Intercom
-* ARR Actuals Doc
+* Front *
+_Only premium customers_
+* Zendesk *
+_Only premium customers_
+* ARR Docs
+* Calendar
+* Flowdock
 
 ### Customer Satisfaction Tasks
 * All Paid Accounts
@@ -115,20 +117,25 @@ For premium customers -- SLA is included with their contract -- we will need to 
 ### Updating Intercom 
 TBD
 
-### Updating the ARR Actuals Doc
-Update the [doc here](https://docs.google.com/a/resin.io/spreadsheets/d/1H1KROKi-GRjEczy6oBnAL0xtLCaMDz9ep9019dhBIf4/edit?usp=sharing).
+### Updating the ARR Docs
+Update the [ARR Actuals here](https://docs.google.com/a/resin.io/spreadsheets/d/1H1KROKi-GRjEczy6oBnAL0xtLCaMDz9ep9019dhBIf4/edit?usp=sharing).
+
+Update the [ARR Model here](https://docs.google.com/spreadsheets/d/1yx4HWumAy23DGWySnKXQ2qORx1ziELiFnytT-QBFFqE/edit#gid=1831480890)
 
 A few things to make sure:
 * Link to recurly (salesforce otherwise)
 * Start date should match salesforce
 * devices/developers match recurly and salesforce
 
+### Calendar
+Enter calendar reminder for product follow up in 6 months
+
 ### Flowdock
-Send #ringthebell message in /Sales
+Send #ringthebell message in s/Sales
 
 ## Pricing Guidelines
-Standard Org pricing:   
-$299 for 5 users and 20 devices   
+Standard Pilot pricing:   
+$299 for 3 users and 20 devices   
 Additional users are $49   
 Additional devices are $1
 
