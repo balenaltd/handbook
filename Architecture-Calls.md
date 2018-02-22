@@ -45,6 +45,58 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 22 Feb 2018
+
+- [Flowdock thread]()
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1JLE99W4g_h_Ia19tIxi0_bduLMQh8PTr)
+
+### 20 Feb 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/kRUWSkfEgT82012KCmk_a3131Qc)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1cCzoRKn3n_TBBOU_G7xxNU8CL1hrgHrD)
+
+Clear up confusion about Proxy/VPN and Open Source Resin cc @dfunckt @wrboyce
+
+* See https://www.flowdock.com/app/rulemotion/p-opensource/threads/kiWq3Fw_vqV31rpRecnKpEFUANR for detailed points
+* OSR will work with local devices via "NoVPN" service
+* we need however to authenticate that we're communicating with the actual device
+* Actions:
+   * Akis will discuss with Will how this will work
+
+Discuss way forward with regards to deltas v3 and the fact that pine doesn’t support the rule we need to have to determine staleness cc @dfunckt
+
+* add SQL constraint that rounds down "update timestamp"
+* delta will send heartbeat every 10 minutes
+* stale is defined as: 20 minutes of inactivity
+* Actions:
+   * Akis will open pine issue regarding duration in rules
+
+
+The files in the image-maker S3 bucket have strange permissions when accessed through https://resin-production-img-cloudformation.s3.amazonaws.com/Key , on the first 1000 files 415 are accessible, 71 return a 403 and 514 return a 404. cc @zvin @abrodersen @jviotti
+
+* The 404 were due to not url encoding the + in the urls
+* The 403s are fixed in production
+
+
+Discuss kubernetes cluster spec cc @mikesimos @brownjohnf
+
+* Spec: https://github.com/resin-io/hq/pull/1207
+   * Is there an alternative approach to flannel/user space overlay networks?
+   * IPv6 is currently not a requirement. (rely on client network DNS64/NAT64)
+* Next steps:
+   * Sort out overlay networking alternatives
+   * Deploy staging cluster
+   * Deploy resin.io in staging custer (Coordinate on the changes required)
+   * Deploy prod cluster
+
+Talk about the TX2 flashing cc @telphan
+
+- Discussed and Fixed
+
+Discuss MC guards so that legacy devices don't try run compose projects
+
+- Discussed (see)
+
 ### 15 Feb 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/e9f0QcW3iafcCR0HozVEtytiAnv)
