@@ -95,7 +95,7 @@ Talk about the TX2 flashing cc @telphan
 
 Discuss MC guards so that legacy devices don't try run compose projects
 
-- Discussed (see)
+- Discussed (also see https://www.flowdock.com/app/rulemotion/p-multicontainer/threads/8JG1XTWMl99rtwAXLAcXUxs0_oY)
 
 ### 15 Feb 2018
 
