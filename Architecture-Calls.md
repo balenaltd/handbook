@@ -47,8 +47,54 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 22 Feb 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/RMYGDRbZrRB-GIKP6vU8unl0kua)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1JLE99W4g_h_Ia19tIxi0_bduLMQh8PTr)
+
+Discuss batch requests and hooks integration. 
+
+* Issue: In pine, in many places mainly in the hooks, we have two notions of what is request
+   * Our own request object with odata
+   * Express request
+* With patch you can have an external request turning into multiple internal requests
+* In some hooks information is accessed on expres request, other times access as internal request
+* In the translation, we have to inspect the resource and the use that to do other requests
+* Actions
+   * Translations need to be in pine
+
+Discuss device ownership, and what should happen/how to avoid the case when you have a device with an owner who can't see its application. 
+
+* When you’re a collaborator and provision a device in app you don’t own, that device should not have you as an owner. The device should always be owned by the user that owns the app
+   * What about moving devices?
+* There are devices that are owned by different people than the people who own the apps
+* If you have device access you should have read-only access to the app that owns the device
+* Currently devices are owned by the image downloader
+* Should devices be owned by the application (as opposed to the app owner)
+   * The app is an actor
+   * The user has practical ownership of the device because they own the app
+   * Suggestion: If you have a null user of the device and inherit from the application 
+   * Conceptual model: device owned by actor
+* Action
+   * Migration: reset device ownership
+      * Nullify all the owners
+   * Set user to ‘nothing’, inherit ownership status from app owner
+   * Add perms so that you can have access to the device if you own the application and the device does not have an owner
+   * Config.json user property will be ignored
+      * Breaking API change, possible that things will break (even user code) that depend on confg.json ‘user’ property
+   * We can use translations for the old API endpoints
+
+How should we model billing addons (extra devices/collaborators above plan base) in our DB? 
+
+* Moving forward
+   * Every instantiation of the plan
+   * We already have a discount, maybe we need to add some tweaking to the discount
+   * Need initial discount and final discount and when the discount ends (which is different when the plan ends)
+
+Can we enable the --experimental flag on bluez to allow ElectronRX to use BLE devices that require it? 
+
+* Actions
+   * We will do it
+
+Discussed Deltas v3
 
 ### 20 Feb 2018
 
