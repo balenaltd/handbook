@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Feb 22 2018 (Yubikeys in Resin)
+* [Video](https://drive.google.com/open?id=1DjrdgHgCILuuDKs1PGJ1FwuWunoXSRQG)
+* [Audio](https://drive.google.com/open?id=1A0Tr5haCazHRT1Y7xJwyhN8YTDA0Ov_9)
+* [Yubikeys in Resin presentation](https://docs.google.com/presentation/d/1nR_JCN3UCqlA3X1J8VPWzlX_Dn2V8efRpbPBfIEXuSs/edit#slide=id.g34091846e8_0_67)
+
 ### Thu, Feb 15 2018 (Project-Based Teams)
 * [Video](https://drive.google.com/open?id=1jXkM4KMWzlelck-mBjiUoSQpFSeu0643)
 * [Audio](https://drive.google.com/open?id=1Znvi2407h3BGBIL4221CoBkwk5fFwOGd)
