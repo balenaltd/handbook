@@ -39,7 +39,7 @@ Welcome to the resin.io wiki.
     - [Devices call](https://github.com/resin-io/hq/wiki/Devices-Team-Calls)
     - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
     - [Meeting rooms](https://github.com/resin-io/hq/wiki/Meeting-Rooms)
-    - [Monday Project Check-ins](https://drive.google.com/drive/folders/19e_hlbUZWvWD9N3nvwMGRkAeclCdrB3-)
+    - [Monday Project Check-ins](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
   - [Team checklist](https://github.com/resin-io/hq/wiki/Team-checklist)
   - [FAQ](https://github.com/resin-io/hq/wiki/FAQ)
 - Product
