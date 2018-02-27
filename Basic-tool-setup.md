@@ -9,7 +9,7 @@ Your inbox will be full of e-mails that our team has already sent you. These are
 ### Basic tools<br>
 As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier.
 
-**NOTE:** Important! You **MUST** use the same handle across Flowdock, Beegit, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
+**NOTE:** Important! You **MUST** use the same handle across Flowdock, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
 when it comes to auto-completing @-mentions.
 
 For now, make sure you have access to the following services:
@@ -17,7 +17,6 @@ For now, make sure you have access to the following services:
 Primary:
 * [Flowdock](https://www.flowdock.com/app)
 * [Calamari](https://calamari.io)
-* [Beegit](https://beegit.com)
 * [Front](https://frontapp.com/)
 * [Resin.io Forums](https://forums.resin.io/)
 * [Zoom](https://zoom.us/)
@@ -66,8 +65,6 @@ Calamari is the leave management service we’re using. You’ll be using Calama
 Intercom is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the resin.io dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
 
 Zendesk is the customer support helpdesk we provide to paid customers. All Zendesk messages are piped into Front, which is where we manage them. We only access Zendesk directly when the Front integration isn't working properly.
-
-Beegit is the service we’re using to produce our blog’s content and pipeline, and collaborate with other teammates on this. 
 
 Front is the service we use to gather all  team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Flowdock, Intercom, and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing.
 
