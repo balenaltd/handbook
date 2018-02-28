@@ -23,4 +23,4 @@ Project teams will have a quick check-ins on Mondays
 * Mark the state of the project as green/orange/red
 * Updates from project teams will flow into Tuesday call
 
-*This documentation began as [an all-hands presentation](https://github.com/resin-io/hq/wiki/All-hands-presentations#thu-feb-15-2018-project-based-teams).*
+*This documentation began as [an all-hands presentation when we rolled out project-based teams](https://github.com/resin-io/hq/wiki/All-hands-presentations#thu-feb-15-2018-project-based-teams).*
