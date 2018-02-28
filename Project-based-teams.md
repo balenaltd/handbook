@@ -22,3 +22,5 @@ Project teams will have a quick check-ins on Mondays
 * Create project-based update notes -- shared google doc (what used to be the check-in notes and updates in all-hands call).
 * Mark the state of the project as green/orange/red
 * Updates from project teams will flow into Tuesday call
+
+*This documentation began as [an all-hands presentation](https://github.com/resin-io/hq/wiki/All-hands-presentations#thu-feb-15-2018-project-based-teams).*
