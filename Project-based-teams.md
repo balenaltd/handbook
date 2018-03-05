@@ -1,3 +1,7 @@
+### Resources:
+[Project check-in notes](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
+
+### What are project-based teams?
 We base our teams around the groups who work together to make us successful.
 Each team has a Coordinator role, Contributor roles and a “keeping an eye” role.
 
