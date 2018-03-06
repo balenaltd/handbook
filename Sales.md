@@ -19,6 +19,7 @@ _Only premium customers_
 _Only premium customers_
 * ARR Docs
 * Calendar
+* Logo request
 * Flowdock
 
 ### Customer Satisfaction Tasks
@@ -129,6 +130,9 @@ A few things to make sure:
 
 ### Calendar
 Enter calendar reminder for product follow up in 6 months
+
+### Logo request
+Ask customer for their logo to put on our website
 
 ### Flowdock
 Send #ringthebell message in s/Sales
