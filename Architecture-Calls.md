@@ -50,6 +50,81 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/n5E4EL6lzQtXoBrcCqWuRYF_4Nq)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1_r8LSglsmHr6SoieBPGUn-LdS3izpTyX)
 
+Discuss admin panel access 
+
+* In response to incident where we deleted all applications
+* Review admin access
+* Actions cc @afitzek
+   * Change admin permissions to be read only
+   * Use ‘canaccess’ endpoint in API
+   * Andreas to review users that need admin write access
+
+Discuss introducing rudimentary intrusion detection/prevention in our infrastructure (e.g. fail2ban?) 
+
+* [Logentries query for last 30 days in git ssh](https://logentries.com/app/5915e005/search/log/b4bfc9dd?log_q=where(%2FNew TCP connection from (%3FP<ip>.%2B…) groupby(ip)&f=1519911925000&t=1520257525000)
+* ~250k connections from the 218.60.30.* ip range during the past month
+* Memory leak patterns observed in VPN and Git servers
+* Git bomb: 
+* Actions - @wrboyce 
+   * Investigate memory leaks
+      * In VPN and Git
+   * Git bomb protection
+      * We could add disk quotas
+   * Look into installing fail2ban
+
+Switching from etcd to envvars for confd configuration of resin components in k8s, requires some changes in confd TOML and template files of each component. Discuss about the transition plan 
+
+* Two options
+   * Only env var templates
+   * Use two env templates
+      * End state is cleaner, we should move forward with that
+* Actions
+   * Modify resin-base so confd allows you to toggle env var and etcd vars
+   * Per component, copy templates that use env var / etcd compatible templates
+   * Remove etcd ones when we’re done
+
+Should WiFi Connect wait forever after somebody connects to the captive portal or exit if no activity occurs after a user connects to the captive portal? 
+
+* “WiFi Connect has an `--activity-timeout`/`$ACTIVITY_TIMEOUT` configuration option. Currently the the application will exit if nobody connects to the captive portal for a given time (e.g. 600 for ten minutes). A user got confused, because he connected to the captive portal, but then abandoned it, and expected WiFi Connect to exit after 10 minutes. Given that this option is set, should WiFi Connect wait forever after somebody connects to the captive portal or exit if no activity occurs after a user connects to the captive portal?”
+* Actions
+   * It should exit
+Discuss reoccurring WiFi Connect request: add support for authenticating to networks with a captive portal.
+* Currently the the application will exit if nobody connects to the captive portal for a given time (e.g. 600 for ten minutes).
+* A user got confused, because he connected to the captive portal, but then abandoned it, and expected WiFi Connect to exit after 10 minutes.
+* https://wiki.archlinux.org/index.php/software_access_point#Wireless_client_and_software_AP_with_a_single_Wi-Fi_device 
+
+Discuss what is blocking us offering both "installer" and "raw" OS images on the dashboard. 
+
+* No device blockers, ui/dashboard planning needed
+* TBD in product call
+
+Discuss about deprecating the Odroid C1 cc @floion
+
+* We’ll not deprecate it
+
+Discussed adding custom uEnv/uboot configuration for the TX2 which will enable 6river
+
+
+Discuss moving forward with self-service troubleshooting actions that are now possible through hostOS access.
+
+* Example: users can technically update their supervisor, but should not, because of possible incompatibilities in the future (e.g. if they update to MC supervisor versions
+* Could be discussed in a product call first
+* If we gave users guidance to do troubleshoot themselves we’d lose insight from support
+* Actions
+   * Look into scratchpad, find items that could be safe
+      * E.g. dmesg, or reading data from the container
+   * Prioritise fixing bugs from our side, keep an eye on how many times agents had to intervene with console access. Automating troubleshooting user actions are not a priority atm 
+   * Look into keeping terminal logs which can also be used as audit log
+
+Discuss triggering updates from local paths 
+
+* Example: user can insert a USB stick and trigger the supervisor to apply an update from a path on the stick
+* Example: a device with limited two-way connectivity but that can receive satellite broadcasts could receive an update via satellite and store it in /data, then tell the supervisor to apply the update
+* They want to short circuit the download process but have anything else work through resin
+* Could we have a registry container in the MC world to use as the app registry?
+   * Circular problems (update registry with registry)
+* This is something @afitzek will likely lead, when it gets prioritised
+
 ### 22 Feb 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/RMYGDRbZrRB-GIKP6vU8unl0kua)
