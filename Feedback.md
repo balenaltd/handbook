@@ -22,7 +22,7 @@ These are anonymous messages you can send, to share any feedback you'd like to. 
 ### Cheers for Peers
 Since we don't have a way to mention "hey, good job with that project" while passing each other in the hallway, Cheers are a way to provide a way to give kudos to each other. Honestly, this is a default feature of TinyPulse, so we're just going to kind of go with it and see what happens. Currently, only the person sent a Cheers will see it (so it's like the hallway scenario), though we could opt to make all Cheers public (more like a Facebook-style wall). 
 
-**Cheers for Peers are not anonymous by default**, but anonymous option can be selected. Admins can not see anonymous cheers. The two requirements for Cheers are to specify a recipient and write a message.
+**Cheers for Peers are not anonymous by default**, but there's an option to make it anonymous. Admins can not see anonymous cheers. The two requirements for Cheers are to specify a recipient and write a message.
 
 ## Notes
 Some of this information is straight-up taken from TinyPulse's intro slide deck for employees, [which you can read all of here](https://docs.google.com/presentation/d/1mqEpEpfpxTL8HrW4M6wEoJvcU8YLv7auRoqCSoUkt8k/edit#slide=id.p16).
