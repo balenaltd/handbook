@@ -46,6 +46,7 @@ To update the Salesforce opportunity:
 1. Find and open the opportunity page for the account
 2. Click the “Edit” button near the top of the page
 3. In the “Opportunity Information” section of the page, edit these sections with the appropriate info:
+    * “Product”: Add/modify the product if necessary
     * “Type”: Change to “Customer - New”
     * “Use Case”
     * “Pricing Tier”
@@ -76,11 +77,15 @@ Now that you have that information, you will need to create an account in Recurl
 Now that the account is created, you need to add the appropriate plan and send the invoice out:
 
 1. Click “Add Subscription” in the upper right of the page
-1. From here, update the following information:
+2. From here, update the following information:
     * “Plan”: Our different pricing plans have already been created in Recurly. Make sure you choose right one based on the plan and payment terms (monthly, annually, qtrly)
-    * “Add-ons”: This is where you can add more devices or users beyond the base plan (e.g. For a Solo plan with 12 devices -- 2 more than the base -- add 2 device “add-ons”
     * “Collection Method”: Manual (Send Invoice)
-1. Click “Add Subscription” in the lower left of the page
+3. Click “Add Subscription” in the lower left of the page
+
+4. Add another subscription for Add-ons by clicking "Add Subscription" again
+    * “Add-ons”: This is where you can add more devices or users beyond the base plan (e.g. For a Pilot plan with 60 devices -- 10 more than the base -- add 10 device “add-ons” 
+    * “Collection Method”: Manual (Send Invoice)  
+5. Click “Add Subscription” in the lower left of the page
 
 ### Updating the Admin Database
 To assure the new customer receives the appropriate support entitlement for their plan, the admin database must be updated. Updating the database is straightforward, however, every user associated with the customer must be updated separately, so you will need all of their usernames (note: this will need to be continually updated over the course of the next few weeks/months to make sure it is accurate).
@@ -93,7 +98,7 @@ To update the database:
 1. Search for the user using their username 
 1. Click the row associated with the user
 1. Update:
-    * Billing Account Code (same as Recurly Account Code)
+    * Billing Account Code (same as Recurly Account Code) only for the individual responsible for billing
     * Billing plan
     * Privilege (Note: you have to click “add” for the support entitlement to be added)
 1. “Save Changes”
@@ -114,9 +119,6 @@ From the Front web client:
 
 ### Updating Zendesk
 For premium customers -- SLA is included with their contract -- we will need to add them to Zendesk…talk to Sonya.
-
-### Updating Intercom 
-TBD
 
 ### Updating the ARR Docs
 Update the [ARR Actuals here](https://docs.google.com/a/resin.io/spreadsheets/d/1H1KROKi-GRjEczy6oBnAL0xtLCaMDz9ep9019dhBIf4/edit?usp=sharing).
