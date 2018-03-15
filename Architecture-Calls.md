@@ -45,6 +45,85 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 14 Mar 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/elLTlLOrNlFWsKYnyktoyt4756g)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/13b-r3KDd2U3t1PPIGUsW-5Lh5-a-tuig)
+
+WiFi Connect: user wants to access his web application even without network connectivity through the access point network WiFi Connect creates. cc @majorz
+
+   * A possible easy to implement solution only needs configuring the listening port of WiFi Connect.
+   * Then both WiFi Connect and web application can be put behind a reverse proxy like nginx.
+* Alex: why don’t we break out captive portal or AP mode implementation from wifi-connect? (besides the question above)
+* Approach to take
+   * Wifi connect stays on the same port, but user can specify another port / full IP / container hostname, and wifi-connect checks that, if anything there, use that for UI
+   * @majorz will explore this options
+
+Discuss shortcoming of Etcher's multi-write performance, and potential remedies cc @jhermsmeier
+
+* Switched to a faster hash (md5)
+* The fastest hash us SHA512 on these boards, as they have instructions in the CPU for that - check if UP^2 has that?
+* Another change: on write stream reduced the number of validation hashes (from n where n is the number of write streams). What speeds we have with all parallel when reading?
+* In testing seen 350MB/s on 16 streams (Jonas)
+* Testing with i5 NUC
+* Hashing is not getting the max performace, still there’s some bottleneck
+* Found that used “o_sync” flag to try to bypass the cache but didn’t quite work as as was assumed. Now it’s removed, everything is faster. NUC: 600MB/s - but that’s going through the cache, so not actually meaningful test.
+* Now testing direct i/o (o_direct) - pending to do; expectation is that there’s no difference compared to o_sync.
+* The CPU is ~20% in the 350MB/s case. Have to check whether this is because of single-core performance?
+* Alex got 420-450MB/s on his test with dd
+* dd seems to be able to do 600MB/s. Has to verify it, whether we can do it with no checksumming, no validation? 
+* List of experiments:
+   * Verify that can 600MB/s without the o_direct flag, just fsync (called o_sync here)
+   * If that’s true, then do that in nodejs, since that’s easier than o_direct which needs
+   * If no (o_direct needed):
+      * Nodejs use it without checksum
+      * Nodejs use it with checksum
+   * Main focus goal: nodejs hit dd speed without checksum + investigating where our real bottlenecks are (all the whys)
+* Also, always use the o_sync flag, together with o_direct to be on the safe side (or be absolutely sure that not both needed)
+
+Discuss update locks for resinHUP cc @imrehg
+
+* One option: behaviour as the application lock check
+* We should check for the lock and grab them. If they are locked, then bail out.
+* Multiple tries and bail out (timeout, 5mins)
+
+Discuss exposing resinHUP through the API cc @imrehg
+
+* Is the HUP action long lived?
+   * Long lived ones are trouble if we go through the API
+* Add support in the CLI using the action server. The interface is the CLI
+Discuss where the configure endpoint from the os unification spec should get its data from (env vars, db, elsewhere?) cc @thgreasi @agherzan
+* See: https://github.com/resin-io/hq/pull/1077/files
+* * It needs dropbear:
+   * key
+* It needs Openvpn
+   * up/down script
+   * Certificate
+   * Configuration
+* https://github.com/resin-io/hq/pull/1077/files#diff-23cf838503f4ed6a155f7497a5ee6a89R146 this files ^^
+* Rename dropbear to SSH
+* Current idea: 5 env vars
+* The API aggregates these into a json with a specific schema
+* Idea: using some of these env vars in our current service; to stop having a hard-coded openvpn configuration; coordinate with @thgreasi & @wrboyce
+* Start a project: improve vpn servers - what else can we do with openVPN, and uninterrupted service, 
+* Seems like up/down scripts don’t belong to the OS side only, not to configuration. 
+* Actions TL;DR
+   * The configuration options will be made available to the API through env vars/etcd
+   * Rename dropbear property to ssh to make it less specific
+   * Drop the up & down scripts from the API json result
+
+Managed unmanaged unification: users seem to find supervisor as an intrusive component. Cc @agherzan
+
+* “We consider the supervisor an integral part of the system”
+* We are going to implement a recipe that prepares the data disk and have recipes that add images to the data and other metadata to rootfs
+
+Cust-arch (@mccollam)
+
+* Customer (Biobright) asking for full this encryption
+* Current proposal: encrypt a file as file system on /data, and decrypt it with some supplied key on an USB disk or something like that
+* TPM is on the roadmap
+* Also other customers asking as well (AD-Link)
+
 ### 08 Mar 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/AmlKxc4zg7K-HyCY3WBeIx0sAna)
