@@ -139,7 +139,9 @@ Discuss exposing resinHUP through the API cc @imrehg
 * Is the HUP action long lived?
    * Long lived ones are trouble if we go through the API
 * Add support in the CLI using the action server. The interface is the CLI
+
 Discuss where the configure endpoint from the os unification spec should get its data from (env vars, db, elsewhere?) cc @thgreasi @agherzan
+
 * See: https://github.com/resin-io/hq/pull/1077/files
 * * It needs dropbear:
    * key
