@@ -45,6 +45,53 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 20 Mar 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/YQFaZ86xMpK3dCG1akKhrsk2ggP)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1uzuS35Tawaqh9gwV4_PSUCKgy0vu6sYD)
+
+Discuss the future of devenv with regard to kubernetes migration. There are a few options to consider: a) Move to minikube + ingress/haproxy. b) maintain a fully functional minikube devenv in parallel. c) Minikube Hybrid environment (using haproxy for proxying some service/services to minikube). 
+
+* Actions
+   * We are fine to put on-prem on a minikube - needs investigation
+   * Once we have this working to minikube we’ll deploy in staging and then production
+
+WiFi Connect: continue the discussion about allowing applications to take advantage of the access point WiFi Connect provides. Possibly splitting the UI and the JSON API on separate ports: 80 and another one + ability to turn off the UI on port 80. 
+
+* Actions
+   * Add a CLI argument for changing the listen port of WiFi Connect. For now we will NOT split the UI and the JSON API into different services.
+
+Discuss whether it makes sense to add a RESIN_SUPERVISOR_LOCK config var for users to lock updates on a device manually (only advantage over pinned release: prevents updates when an env var changes) cc @pcarranzav
+
+* Actions
+   * We should tell the user that they can use either pinned releases or update lock
+
+Discuss what will happen with dependent devices / proxyvisor now that multicontainer is out (we still have the WIP PR that Joe left 
+
+* Actions
+   * No immediate actions
+   * Currently Pablo is the spec owner, but it needs reprioritization. 
+
+Log retention based on permissions 
+
+* Actions
+   * We’ll use a cache layer (memoizee module)
+
+Discuss custom device-trees for device-types. The TX2 in particular. cc @telphan
+
+* Actions
+   * Theodor will draft a spec
+
+Decide what we will call balena engine executable 
+
+* Actions
+   * The name we’ll use is balenadctl
+
+Discuss supporting the following scenario: A fleet of devices, each with a pinned release A. A default fleet release of B. A new device preloaded with release C, but not yet provisioned. When the new device comes online, it should continue to run release C, regardless of what the default fleet release is or becomes set to. At such a time when the device receives a new pinned version, it should then (and only then) update to that new pinned version. 
+
+* Actions
+   * Give device permission to enable “should be running release” on provisioning (needs api permission), then have supervisor support that
+
 ### 14 Mar 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/elLTlLOrNlFWsKYnyktoyt4756g)
