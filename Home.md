@@ -26,7 +26,7 @@ Welcome to the resin.io wiki.
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
     - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
-    - [Project-based Teams0(https://github.com/resin-io/hq/wiki/Project-based-teams)
+    - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
   - Getting started with...
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
