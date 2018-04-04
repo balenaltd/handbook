@@ -4,6 +4,9 @@
 
 ### Tue, Apr 03 2018
 * [Meeting minutes](https://drive.google.com/open?id=1-Wz1HZSWjxigl92Qcu_wZGeyfy2ckhpxOTTyt461d3Q)
+* [Video](https://drive.google.com/open?id=1_GVveAdnevTjDD_hhT4Mt3WqvbvhTF66)
+* [Audio](https://drive.google.com/open?id=1AYZYDGXUgbGuozkY2deA_2JlJqyCGhMs)
+* [Attendees](https://drive.google.com/open?id=1IVQrL8BpQsX9Vb2S-0hMTRkmxqLqmFoL)
 
 ### Tue, Mar 27 2018
 * [Meeting minutes](https://drive.google.com/open?id=1LlJ3PPyLAHze2h0OsGUY49Og3R3z8VqmqlnXvDc8ucg)
