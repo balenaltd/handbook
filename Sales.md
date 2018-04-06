@@ -57,7 +57,7 @@ To update the Salesforce opportunity:
     * “# Devices”: Total number of devices: base plan + add-ons 
     * “# Developers”: Total number of users: base plan + add-ons
 
-### Updating Recurly
+### Updating Recurly (self-serve customers will have most info already entered)
 To send an invoice to new customers, you’ll first need the following:
 * Full name of person signing the invoice
 * Email address of signee and other relevant cc’s (preferably work email) 
@@ -67,6 +67,7 @@ To send an invoice to new customers, you’ll first need the following:
 * Account code from salesforce:
     * Historically we use the account code generated in Salesforce. You can get this info by going to the customer’s account page (in Salesforce) and copying everything after “salesforce.com/” in the url
     * Ex: 0016100000rwZ68 is the account code for Utility Warehouse 
+    * Ex: Note: self-serve customers have an auto-generated account code to enter into Salesforce 
 
 Now that you have that information, you will need to create an account in Recurly: 
    
@@ -87,7 +88,7 @@ Now that the account is created, you need to add the appropriate plan and send t
     * “Collection Method”: Manual (Send Invoice)  
 5. Click “Add Subscription” in the lower left of the page
 
-### Updating the Admin Database
+### Updating the Admin Database (self-serve customers will have the primary user already entered)
 To assure the new customer receives the appropriate support entitlement for their plan, the admin database must be updated. Updating the database is straightforward, however, every user associated with the customer must be updated separately, so you will need all of their usernames (note: this will need to be continually updated over the course of the next few weeks/months to make sure it is accurate).
 
 To update the database:  
@@ -105,7 +106,7 @@ To update the database:
 1. Repeat for all users in the company
 
 
-### Updating Front
+### Updating Front (premium only)
 To make sure Premium (SLA) customers have the correct support prioritization (i.e. premium accounts get a response inline with their SLA), all of the premium users have to be added to the "Premium Customers" group.
 
 From the Front web client:
@@ -117,7 +118,7 @@ From the Front web client:
 1. Click “Add to group +”
 1. Select “Premium Customers" for customers with an SLA
 
-### Updating Zendesk
+### Updating Zendesk (premium only)
 For premium customers -- SLA is included with their contract -- we will need to add them to Zendesk…talk to Sonya.
 
 ### Updating the ARR Docs
@@ -140,10 +141,6 @@ Ask customer for their logo to put on our website
 Send #ringthebell message in s/Sales
 
 ## Pricing Guidelines
-Standard Pilot pricing:   
-$299 for 3 users and 20 devices   
-Additional users are $49   
-Additional devices are $1
 
 Guidelines:    
 0-1000     $1.00   
@@ -161,20 +158,12 @@ Items for the front-end team or data team
 * is it possible to have signups immediately associate with salesforce such that the salesforce sidebar will by default tell me who owns the lead, its status etc. right now i appears as if it comes from newsignups@Resin.io so all sidebar info based on a lookup of that email address
 * Contact forms on our website (primarily the demo form) should create new leads in salesforce
 * Demo requests should go to /Sales instead of /Hello
-* We should get rid of the reliance on zapier and just have our sign up form (for free accounts) generate new leads in salesforce directly
 * Enhance tableau report or admin panel so we can see entitled devices, overage, email address and company name in same pane of glass 
 * Sign up and contact forms should have (optional) fields for address, phone, title, etc to populate salesforce records
 
 Items related to the tools we use 
-* The "Create lead" button in front sidebar does not properly map first name and last name to salesforce
-* We should map new "lighthouse" tag in front with checkbox in salesforce
 * Figure out how to get salesforce sidebar to load for all users, regardless of whether they have a salesforce account. Other than sharing sfdc credentials, is there a good way to do this? 
 
-Items for PA and BH to tackle
-* Investigate simple lead nurturing campaigns to drop commercially viable leads into => auto-archive at the end
-* ~~Refine industry picklist and make consistent across leads/account~~
-* ~~Delete old recurly plans (they will stay active for existing custoemrs)~~ 
-* ~~Create a rule in salesforce that auto-archives any open leads more than XX days old (30?)~~
 
 
 
