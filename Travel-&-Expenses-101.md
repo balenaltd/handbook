@@ -16,6 +16,7 @@ Using NexTravel is quite easy and very similar to the way you book flights and h
 
 - Find the flight or hotel you wish.
 - Double check your reservation dates, personal info etc. are all correct.
+- For the field "Trip Purpose", please fill in there the purpose of your trip. (Ex. name of event, Summit 2018, etc.)
 - Complete your reservation by clicking the "Complete Checkout" button.
 
 ![](http://i68.tinypic.com/mt8odf.png)
