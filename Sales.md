@@ -138,6 +138,9 @@ Enter calendar reminder for product follow up in 6 months
 ### Post-sales disco call _(if fully self-serve signup)_
 Contact customer to learn about their project, use case, projected volumes, etc.
 
+Use the 
+[disco call template](https://docs.google.com/document/d/13fVFt9xRd84bLZJGn8ISowv6igS3DquOOn84SBNFrsc/edit)
+
 ### Logo request
 Ask customer for their logo to put on our website
 
