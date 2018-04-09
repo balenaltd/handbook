@@ -19,6 +19,7 @@ _Only premium customers_
 _Only premium customers_
 * ARR Docs
 * Calendar
+* Post-sales disco call _(if fully self-serve)_
 * Logo request
 * Flowdock
 
@@ -133,6 +134,9 @@ A few things to make sure:
 
 ### Calendar
 Enter calendar reminder for product follow up in 6 months
+
+### Post-sales disco call _(if fully self-serve signup)_
+Contact customer to learn about their project, use case, projected volumes, etc.
 
 ### Logo request
 Ask customer for their logo to put on our website
