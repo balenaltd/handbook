@@ -58,7 +58,9 @@ To update the Salesforce opportunity:
     * “# Devices”: Total number of devices: base plan + add-ons 
     * “# Developers”: Total number of users: base plan + add-ons
 
-### Updating Recurly (self-serve customers will have most info already entered)
+### Updating Recurly
+**Note: Self-serve customers will have most info already entered**
+
 To send an invoice to new customers, you’ll first need the following:
 * Full name of person signing the invoice
 * Email address of signee and other relevant cc’s (preferably work email) 
@@ -89,7 +91,9 @@ Now that the account is created, you need to add the appropriate plan and send t
     * “Collection Method”: Manual (Send Invoice)  
 5. Click “Add Subscription” in the lower left of the page
 
-### Updating the Admin Database (self-serve customers will have the primary user already entered)
+### Updating the Admin Database
+**Note: Self-serve customers will have the primary user already entered - it will be necessary to manually add additional users on Pilot plans and above**
+
 To assure the new customer receives the appropriate support entitlement for their plan, the admin database must be updated. Updating the database is straightforward, however, every user associated with the customer must be updated separately, so you will need all of their usernames (note: this will need to be continually updated over the course of the next few weeks/months to make sure it is accurate).
 
 To update the database:  
