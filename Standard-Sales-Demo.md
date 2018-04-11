@@ -61,11 +61,11 @@ Then add the exception [*.]nest.com
 ```
 
 ### Project code
-All the regional applications as well as the global application use the same code, which is available on GitHub here: [https://github.com/resin-io-projects/beast](https://github.com/resin-io-projects/beast)
+All the regional applications as well as the global application use the same code, which is available on GitHub here: [https://github.com/resin-io-playground/multiBeast](https://github.com/resin-io-playground/multiBeast)
 
 To use this, you will need to:
 1. Clone the project:
-`git clone https://github.com/resin-io-projects/beast`
+`git clone https://github.com/resin-io-playground/multiBeast`
 2. Copy it once for each environment:
 `cp --recursive beast microbeastSeattle`
 `cp --recursive beast microbeastLondon`
@@ -95,17 +95,21 @@ If you need to reflash a device, it's best practice to log into the admin accoun
 ### Set the stage
 First show the devices and dashboard.  Explain that these devices are Raspberry Pis with displays attached running a simple application to display an image.  (Similar to a digital signage application.)  Each device has a corresponding entry in the dashboard for monitoring and management.
 
+The code is divided into two services: a **frontend** service and a **backend** service.  These are then defined and linked together in the `docker-compose.yml` file.
+
+The backend service runs a webserver and holds one or more images that can be fetched for display.  It does not actually display anything or take any action when a request is not being made to the webserver.
+
+The frontend service contains a script that downloads an image from the backend every five seconds and then displays it on the device's display.  This container is marked as privileged in `docker-compose.yml` so that it has access to the raw hardware.
+
 ### The code
-Next show the code of the application.  If the audience is experienced with Docker or wants to know more detail about how Dockerfiles work, it is worthwhile to show the Dockerfile for the application.  It's a very short file and can help allay some fears that working with a resin.io managed device will be much more difficult than working with devices in a datacenter.
+Next show the code of the application.  If the audience is experienced with Docker or wants to know more detail about how Dockerfiles work, it is worthwhile to show the Dockerfile for the services.  It's a very short file and can help allay some fears that working with a resin.io managed device will be much more difficult than working with devices in a datacenter.
 
 It's important to make clear that while the "application" involved in this demo is a very simple shell script, this process is identical for any code.  Any language or runtime that works in Linux can be used here.  (C/C++, Java, Go, Python… even assembly if people want it.)  Resin.io is agnostic about what is deployed through our service and adds no special library or runtime requirements to applications.
 
 ### Making a change
 First go to Google Images (or similar) and find an image that the prospect would like to use.  (This can be basically any image type and you do not need to do any sort of conversion.)  Letting them pick the image reinforces that this is real and not a pre-canned demo.
 
-Click the image so that it is loaded and then right-click and save it.  Save the image to the "images" directory inside the project you are using.
-
-Next, edit the `start.sh` file and change the line that says `IMAGE="image.png"` to have the filename you saved above.  (Make sure the file extension matches!)  Save the file.
+Click the image so that it is loaded and then right-click and save it.  Convert it to a PNG file if necessary and save the it as "image.png" in the "images" directory inside the backend service of the project you are using.
 
 ### Add to git
 Now you will add the changes you just made to source control.  There are several ways to do this, but the most straightforward in my opinion is:
@@ -129,3 +133,5 @@ git push resin master --force
 Once you push the code, resin.io will receive the push and build an image, wrap it in a Docker container, and put it in our Docker registry (which is where devices will be able to access it).
 
 When the build finishes, you will see a unicorn in the terminal and the devices in the dashboard should almost immediately move from "Online" to "Downloading".  A minute or two later your new image will be on the devices.
+
+Note that since you have updated only the backend container, the frontend will not be updated or restarted.  You can illustrate this by showing the supervisor device logs in the dashboard: only the backend container will have "downloading", "killing", and "starting" events listed.
