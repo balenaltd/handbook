@@ -57,6 +57,7 @@ To update the Salesforce opportunity:
     * “Amount”: Make sure this is amount amortized for the year (not monthly amount)
     * “# Devices”: Total number of devices: base plan + add-ons 
     * “# Developers”: Total number of users: base plan + add-ons
+5. If the opportunity was generated through self-serve billing, the Recurly account code must be entered in the Account ID field under the Salesforce account.
 
 ### Updating Recurly
 **Note: Self-serve customers will have most info already entered**
