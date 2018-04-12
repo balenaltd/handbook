@@ -50,6 +50,41 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/YPQC7OFrgEs4yBi_21JC0I7l4gX)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1pXs3JSSIK0guw_90Un1Xm6eFpy47DD1l)
 
+Pick up “novpn” discussions and discuss approach for distributing resin with a vpn (or proxy?) component 
+
+* Actions / Next steps
+   * VPN to be released as part as open source solution (in its entirety?)
+   * No resin-proxy in open source resin, ssh acheived by resin-cli and direct comms with vpn
+   * “Jellyfish” to (eventually) replace actions service from resin-proxy (as standalone component)
+   * Remove `tunnel-proxy` service from resin-proxy
+
+Discuss methods of transferring secrets files to the builder, along with a tar file in the push endpoint 
+
+* Actions / Next steps
+  * Build secrets should not be able to reference arbitrary files on the file system, this is a massive security concern (for example “just pull my repo and push to resin”, all your private data can be stolen)
+  * This means that we need the files to be with the build context so that we can “know” that the user wants them transferred
+     * .resin/secrets/ ??
+  * Build arguments can still be specified within the .resin.yml file and this will be sent along to the builder
+  * All information flow will be sent within a tar archive, keeping the same interface as now, and the builder will extract the relevant entities.
+  * Take the interface to a process call, as some things needs resolved.
+  * In the meantime, focus on resin push just as a replacement for git push, if git push doesn’t support it, then neither does resin push (only for now of course).
+
+
+Revise logs in the database plan
+
+* Actions / Next steps
+   * Petros wants to see the benchmarks with an added oData cache
+   * Page will make a new version with the cache
+   * Ariel will benchmark this new Pine version
+
+Issue with the GE corporate proxy and getting resin.io to work through it. The customer expresses this as a dealbreaker, and I'd be prepared to believe them. I think it needs prompt and expert attention - https://www.flowdock.com/app/rulemotion/public-s-premium/threads/S1-QKBdZQ8rn0oiaFETeWvxFdao
+
+* SOCKS proxies DNS as well as data, http-proxy does not proxy DNS (which customer required)
+* @agherzan to try out configuration as outlined in thread, create product issue/OS issue
+
+Need a unified API (using reconfix) to manage network settings, configuration on resin-managed devices (which WiFi Connect can then talk to) - https://www.flowdock.com/app/rulemotion/public-s-premium/threads/S1-QKBdZQ8rn0oiaFETeWvxFdao 
+
+* @majorz to look at this once his current work winds down
 
 ### 05 Apr 2018
 
