@@ -45,6 +45,56 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 12 Apr 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/T-rak8dGtTefutgQVY_MiOcJ0b2)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1TAOwOUz873HB-q142ZDLC-ctoPiNCom-)
+
+At least a couple of users have had issues with hanging/crashing/restarting problems on x86 chips that seem to be caused by power management issues - should we offer c-state modification in the supervisor/fix it in os images/have users handle it on a case-by-case basis?
+
+* Actions/Next steps
+   * Will add for all Intel NUC boards the grub.cfg parameter that will fix this (downside is that idle c-states won’t be possible anymore, resulting in slightly more power consumption)
+
+Continue discussion about u-boot injection.
+
+* Actions/Next steps
+   * We will try 
+
+Discuss builder resource limitation implementation. Proposal keep resource limits and decisions in the API, have builder query custom endpoint to obtain limits from the API for the build at hand. cc @afitzek
+
+* Actions/Next steps
+   * Get access to chartio
+      * Get some metrics to determine free users build time
+      * Percentiles for build times (how long is X to contain 50%, 80% or 90% of all builds)
+      * Histogram for build times (how many builds finish within X)
+      * Build times per free users
+   * Create a custom endpoint in the API to hand out builder resource limits
+   * Use these limits in the builder
+
+Discuss how to support multiple domains on the API cc @brownjohnf @alisondavis17  @afitzek @wrboyce
+
+* The context here is that we want to run resin under both resin.io and balena-cloud.com simultaneously. The first use case for this is making the branding migration. The second is enable white-labeling of the platform in the future.
+* Actions/Next steps
+   * Should accept multiple valid names
+      * Need to identify specific error and send to page (@brownjohnf)
+   * After API can accept multiple domains, we can switch the domain passed via etcd to the new one (balena-cloud.com)
+
+How should we handle the license in meta-resin cc @agherzan
+
+* Especially for
+   * patches that we wrote
+   * yocto recipes that we imported from upstream but we needed to have some modifications to make them compatible with multiple yocto versions
+   * various configuration files (ex. dhclient.conf)
+* As well, how do we handle upstreaming changes given that yocto uses MIT as license.
+* Actions/Next steps
+* We will add the apache boilerplate to all the bits in meta-resin we wrote from scratch
+* Raise the issue for a process call
+
+[cust-arch] discuss how to provision devices in china without ability to connect to the internet - Skycatch wants to provision and bring up devices at their factory in China, but knows they can’t connect because of the GFW
+
+* Actions/Next steps
+   * Propose test containers to Skycatch (so that they can test devices in the factory but then provision outside of the GFW) and see if this meets their use case
+
 ### 10 Apr 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/YPQC7OFrgEs4yBi_21JC0I7l4gX)
