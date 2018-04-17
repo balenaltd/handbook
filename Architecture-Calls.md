@@ -45,6 +45,50 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 17 Apr 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/KSmJV3AbCA1HgxkHIGofk4r3nKf)
+- [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1g9LUEFksldW8UKr4t0j_RhaCAi460F6Q)
+
+WiFi Connect and multicontainer: WiFi Connect example start script starts the application after WiFi Connect has finished execution. With multicontainer the flow is parallel and we need a new example approach to this.
+
+* The common usage with single container application was to start WiFi Connect first and after it has completed execution to start the user application. One possibility we discussed is extending the WiFi Connect API with a route exposing WiFi Connect’s state, but for now we won’t take action in this direction as alternatives exists. One alternative is if somebody needs to ensure Internet connectivity before running his application, he may query NetworkManager through D-Bus for this.
+* Alex gave the idea of creating a minimal container from scratch that includes WiFi Connect and Dnsmasq, which will be uploaded on DockerHub for the different architectures we support. This will minimize greatly the size of the container that includes WiFi Connect. Zahari will work on implementing this.
+
+How do we allow the usage of private base images in builds, assuming we have build time args and build time secrets
+
+* We will specify a certain build secret/variable which defines authentication for any number of registries. We will then use this authentication to request a registry token for said registry and pull any base images using this token. (This will need to be done for base images and image: entries in the compose file)
+* Next steps
+   * Get Petros to look over the above
+   * Research for google’s Kaniko engine handles this
+   * Implement 
+
+Discuss cancellation PR in the API and how it will mitigate
+
+* https://www.flowdock.com/app/rulemotion/resin-devops/threads/-9CdYMXC1pwFPxhXdcyZDU8ecsM
+* Cancellation will mitigate the issues caused by excessive requests coming in, but doesn’t address the underlying issues:
+   * Why rate limiting didn’t kick in in this case
+   * Why it’s possible to DOS the API while staying under the rate limit
+* Next steps
+   * Discuss next week in arch call with @petrosagg
+
+Discuss SD card reliability and corruption troubleshooting. Should we look into filesystem metadata checksums?
+
+* https://www.jeffgeerling.com/blog/2018/raspberry-pi-microsd-card-performance-comparison-2018
+* https://news.ycombinator.com/item?id=16775768
+* https://ext4.wiki.kernel.org/index.php/Ext4_Metadata_Checksums
+* Not a mainstream project yet
+* Next steps
+   * We are interested in the solution, Andrei has looked into that a bit but we need more investigation. It’s something we would like to move forward. Will be discussed in the next arch.
+
+Cust-arch: Garret at SGS has a question/complaint about our API
+"We have code that moves a device from one application to another. If that device ID does not exist, then the API returns a 200 response with no body, so it looks like it succeeded. It would be very useful to return some error information (either via the HTTP error code or response body, I think in other cases you return 4xx codes)."
+* It's not fully clear what response we should return when you request an action on a device that does not exist or you do not have permission to access (maybe see what OData says?)
+* Might also want to return the number of devices affected
+* Next steps
+   * Revisit next week when @petrosagg is back
+   * @Page- to do some investigation into how we should handle this (especially for UUIDs vs. IDs)
+
 ### 12 Apr 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/T-rak8dGtTefutgQVY_MiOcJ0b2)
