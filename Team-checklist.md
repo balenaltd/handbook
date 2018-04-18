@@ -13,7 +13,6 @@ Before anything else let's check that everything is in order and that there's no
    * Resin.io admin
    * Timezone.io
    * Intercom
-   * Zendesk
 * Sent photo to the Operations Team
 * Shared my first day experience in flowdock (r/experience)
 
