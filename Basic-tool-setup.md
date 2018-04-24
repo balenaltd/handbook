@@ -70,7 +70,7 @@ Front is the service we use to gather all  team messages and emails and unite th
 
 Zoom is the main service we’re using for the company calls. From time to time, we may use also Hangouts, Skype or Mumble. Please use your personal zoom room for quick and emergency meeting calls. Bear in mind that your personal zoom room has a 40 minutes limit. To find your zoom room identity just log onto your account and under "My Profile" tab you can locate your personal zoom room meeting id. In addition, you can locate your zoom id by simply asking Hubot when using the ‘get my zoom’ command! 
 
-Github* hosts all our public repos as well as the majority of our private repos. It’s also part of the developer's workflow since this is the place where all issues and tasks are hosted.
+Github* hosts all our public repos as well as the majority of our private repos. It’s also part of the developer's workflow since this is the place where all issues and tasks are hosted. 2FA auth required!
 
 The forums are used by our free users for support requests, and generally for discussion about the product, hack
 Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
