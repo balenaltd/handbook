@@ -1,6 +1,6 @@
 First things first! Before you get access to any of the services we’re using and in order for the team to get you started, you need to have your e-mail account and calendar set up.
 * Log into your personal e-mail account (the one you’ve shared with us)
-* Open the “Welcome to Resin.io” e-mail
+* Open the “Welcome to Resin.io” e-mail (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * Follow instructions and set up your e-mail account
 * Go to calendar.google.com to see your schedule for today. All your onboarding meetings are already there.
 
@@ -20,7 +20,7 @@ Primary:
 * [Front](https://frontapp.com/)
 * [Resin.io Forums](https://forums.resin.io/)
 * [Zoom](https://zoom.us/)
-* [Github](https://github.com)*
+* [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * Resin.io admin*
 * [Timezone.io](https://timezone.io/)*
 * Intercom
