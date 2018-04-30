@@ -7,9 +7,9 @@ You'll notice a lot of similarities between the policies and the reason for this
 
 Here are the main points of the policy:
 * The general idea is that all team members have the same holiday allowance, which is 30 days per year.
-* This is a 'use it or lose it' policy, which means that someone cannot transfer days to next year's allowance.
 * Holiday allowance resets on each team member hire date anniversary.
-* Someone can exceed the 30 days annual allowance and get unpaid holidays. _(psst! If you run out of days but your anniversary date is close, request your holiday as usual and there's a great chance you borrow some days from your future holiday allowance)_
+* If you have days left at the end of your year, it's possible to transfer them to the next year. Ask the Ops team about this. 
+* If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, request your holiday as usual and there's a great chance you borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 
 Regardless the group that you fall in, it’s really important to ensure that whenever you want to take some days off (5+ days), you have taken the time to have a discussion with your team members (preferably in the flow your team uses and not 1-to-1) and have made sure that someone will be covering for you, prior to your time-off request.
