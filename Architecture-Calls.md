@@ -50,7 +50,82 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/L1iLI3fu6ThftYS8xLpVO2VQqwZ)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1I_sWMiRMPWYCozw0zTqmTh6-Q7BKUz7T)
 
+Including support for the fin in resin. Especially how to handle dt-blob file cc @agherzan @alisondavis17
 
+* Ref.: We used to have copy operations in the past in image maker https://github.com/resin-os/resin-parallella/blob/master/parallella-hdmi-resin.coffeeL48 .
+* We could deploy the dt-blob under a specific name and let image maker rename (copy) it when a certain UI element is set.
+* Next steps
+   * Requirement: We naeed to allow customers to add finds in the current rpi applications
+   * DB: Remove constraint from the db for the apps (app slug doesn’t need to match the device slug)
+   * OS: New device type for balena fin with subtype field (subtype_of = raspberrypi3) slug=fincm3 https://github.com/resin-os/resin-raspberrypi/issues/193
+   * UI - when `add device` be able to select what device you want (application device type + everything in the descending tree)
+   * Note: We can expand this subtype_of to additional device types in the future
+
+Discuss having some kind of license key that expires for on-prem deployments cc @hedss @chrisrwilkes
+
+* Pausing for a week for after Product call discussion.
+
+Discuss SD card reliability and corruption troubleshooting. Should we look into filesystem metadata checksums? cc @agherzan @pcarranzav
+
+* Previous arch call discussion: https://github.com/resin-io/hq/wiki/Architecture-Calls#17-apr-2018
+* Next steps (by @imrehg)
+   * Look at what are the system requirements for metadata checksums (kernel module)
+   * Check whether we need to create new file systems or can we convert existing file systems too?
+   * Enabling it would “create” more errors, that might prevent the system from running? (e.g. could an error be able to prevent systemd running if there’s a corruption in there that otherwise wouldn’t block stuff to operate to on some level) (e.g. rescue btrfs-corrupted devices) 
+   * Do research and get back to the thread
+
+How do we allow the usage of private base images in builds, assuming we have build time args and build time secrets cc @camerondiver
+
+* Previous arch call discussion: https://github.com/resin-io/hq/wiki/Architecture-Calls#17-apr-2018
+* Next steps
+   * `./.resin/resin-registries.json` will have authentication data for registries
+   * Secrets stored in `./.resin/secrets/`, as secret files, which will be mounted
+   * The builder will pull Dockerfile base images explicitly
+
+Discuss how/if the new env vars should have translations to the v3 env vars. Consumers of v3 API (eg sdk users) get confused when running operations on env vars which get reflected to the dashboard's service var pages. cc @thgreasi @afitzek (Andreas won't be around)
+
+* 4-5 user requests on support
+* Next steps
+* Suggested approach
+   * Should make the translations
+      * read from both envvars & service envvars, overlaying the service envvars on top
+      * When setting env vars, set the envvar and delete any existing service envvar with the same name
+   * Users using MC features shouldn’t be able to downgrade to legacy/classic
+   * Migrate service env vars of legacy, classic & essential apps to normal env vars (the new ones)
+   * Hide the service env vars on the UI for legacy, classic & essential app types
+   * Do the same for device env vars - device service env vars
+* Deploying that isn’t trivial,
+   * Release a UI version that
+      * Hides service env var pages
+      * Change the env var pages to also fetch and overlay the service envvars
+   * Release the new API
+   * Revert the UI changes (but still keep the service env var page hidden)
+* Thodoris is leading both the API & UI
+
+Discuss adding URL targets to the builder's supported build targets cc @camerondiver
+
+* Next steps
+   * Frozen, maybe will revisit
+
+Admin user's named API keys don't have admin access (as opposed to the JWT tokens which do). Is that intended and the correct solution? cc @imrehg
+
+* Next steps
+   * It is intended at the moment, and while our API keys story is not perfect, any changes will have to wait.
+   * Thus shelve it for the time being, will revisit this if it will be more pressing.
+
+Garret at SGS has a question/complaint about our API cc @mccollam
+
+* "We have code that moves a device from one application to another. If that device ID does not exist, then the API returns a 200 response with no body, so it looks like it succeeded. It would be very useful to return some error information (either via the HTTP error code or response body, I think in other cases you return 4xx codes)."
+* Previous arch call discussion: https://github.com/resin-io/hq/wiki/Architecture-Calls#17-apr-2018
+* Return 404 (or whatever the appropriate status is) if a user uses bracket notation on a device that does not exist
+* Return number of rows affected for groups
+
+Preben wants to store a certificate different per device on the device during manufacturing, where they do not have access to resin env vars. This file needs to survive under all circumstances (os updates, application updates, etc.), and needs to be accessible by the application.cc @mccollam
+
+* Preben followed up mentioning that they'll use /boot partition to store secrets/data
+   * https://app.frontapp.com/open/cnv_kp0ygp 
+* Using the boot partition might break in the future, so they should not do this and there's no guarantee that files on the boot partition will persist across host OS updates
+* Best option is to set env vars via the API (and we can build a sample project to show this -- @pcarranzav may be able to help here?)
 
 ### 17 Apr 2018
 
