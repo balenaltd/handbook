@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, May 03 2018 (Sales Process)
+* [Video](TBA)
+* [Audio](TBA)
+* [Sales process presentation](https://drive.google.com/file/d/1fysvGePuka6tDBL5NNa-RkZGzWJz4d4s/view?usp=sharing)
+
 ### Thu, Mar 15 2018 (Sysdig Presentation)
 * [Video](https://drive.google.com/open?id=1GZzjiN_JehqTME5HAd2ofJjndutK1iph)
 
