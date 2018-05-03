@@ -17,7 +17,7 @@ Things to update:
 _Only premium customers_
 * Zendesk *
 _Only premium customers_
-* ARR Docs
+* ARR Doc
 * Calendar
 * Post-sales disco call _(if fully self-serve)_
 * Logo request
@@ -68,10 +68,10 @@ To send an invoice to new customers, you’ll first need the following:
 * Company name
 * Username for customer’s main resin account
     * You can find this in one of two places: on the account page in Salesforce, and in the resin admin database
-* Account code from salesforce:
+* Account code from salesforce (if not auto-generated through self-signup):
     * Historically we use the account code generated in Salesforce. You can get this info by going to the customer’s account page (in Salesforce) and copying everything after “salesforce.com/” in the url
     * Ex: 0016100000rwZ68 is the account code for Utility Warehouse 
-    * Ex: Note: self-serve customers have an auto-generated account code to enter into Salesforce 
+    * Note: self-serve customers have an auto-generated account code to enter into Salesforce 
 
 Now that you have that information, you will need to create an account in Recurly: 
    
@@ -127,15 +127,14 @@ From the Front web client:
 ### Updating Zendesk (premium only)
 For premium customers -- SLA is included with their contract -- we will need to add them to Zendesk…talk to Sonya.
 
-### Updating the ARR Docs
-Update the [ARR Actuals here](https://docs.google.com/a/resin.io/spreadsheets/d/1H1KROKi-GRjEczy6oBnAL0xtLCaMDz9ep9019dhBIf4/edit?usp=sharing).
+### Updating the ARR Doc
 
 Update the [ARR Model here](https://docs.google.com/spreadsheets/d/1yx4HWumAy23DGWySnKXQ2qORx1ziELiFnytT-QBFFqE/edit#gid=1831480890)
 
 A few things to make sure:
-* Link to recurly (salesforce otherwise)
-* Start date should match salesforce
-* devices/developers match recurly and salesforce
+* Link to Recurly on first tab (salesforce otherwise)
+* Start date should match Salesforce
+* Devices/developers match Recurly and Salesforce
 
 ### Calendar
 Enter calendar reminder for product follow up in 6 months
