@@ -50,6 +50,59 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/PDfDqJNWXF4z9L-2DkDQ6Qqoikc)
 - [Meeting notes and recording](https://drive.google.com/drive/u/2/folders/1qbuCRAOW7GHMIWKLWc7gG4DC4bBpsu0T)
 
+Discuss db instance reservation. cc @mikesimos
+
+* Next steps
+   * Reserve db instance with the current size (m4.4xlarge) for a year with a partial upfront.
+   * TODO: raise an arch item with recommendation for reserving ec2 instances as well.
+
+Discuss ways to reduce S3 costs cc @mikesimos @CameronDiver @hedss
+
+* Reduce traffic charges: Remove associated public IPs for img, registry/2, and delta instances.
+* Reduce storage data (archive legacy/old images, maybe delete and rebuild on demand old user app images).
+* As applications are deleted, we currently don’t delete their images.
+* There are application images, that can’t be referenced from the API, yet persist in our registry
+* Next steps
+* Test removing the associated public IP from registry instances.
+* No steps for data cleanup for the moment.
+
+
+A customer wants to manage their configured NTP servers dynamically. Is there a way they can do that? What happens if their application stops our NTP server via dbus, and they just run their own inside the container? cc @agherzan
+
+* See https://app.frontapp.com/open/cnv_rn7v3n
+* Next steps
+   * Do something similar to what we did with redsocks/hostname. Have an interface based on which supervisor will set NTP servers in config.json and restart “some services”. Expose this interface to the user application.
+   * Issue: https://github.com/resin-io/resin-supervisor/issues/642
+   * Other things to consider: https://github.com/resin-os/meta-resin/issues/1068
+
+Discuss if there is a short term solution for udev cc @agherzan
+
+* Net steps
+   * To be brought offline with Petros for a long term solution but in the meanwhile, the intermediate solution is to recommend using sysfs.
+
+Discuss infomoss devices with multiple partitions. Suggested solution: cc @imrehg
+
+* adding new entries to config.json: a) how much the Data partition should be expanded to max; b) is there an extra partition?
+* the expansion size in integer GB values, and cannot have lower than the default 1GB that the yocto output comes with
+* these values are read on the first boot, and the data partition expanded (to all the space, or the max size), and an extra partition is added after resin-data. It's not formatted, etc.
+* since some devices have different number of partitions (TX2, Edison), the user needs some way to know what's the device name of the patition they should manipulate (/dev/sda7? /dev/mmcblk0p10?), could expose that throught the supervisor creating an env var for the user containers with that value.
+* Next steps
+   * Add new entries to config.json:
+   * Maximum expansion size of data partition is optional
+   * There’s only one possible “max expansion” setting
+   * For partitions provide size / type / name (label)
+   * Type can be raw (then they are on their own finding it)
+   * Check if gparted supports math grammar of `max-5G`, for example, when the user defines a 5GB partiton), or even in the case whenmultiple partitions defined
+   * Work with the OS team on this
+   * Specking (?)
+
+Discuss GDPR compliance and providing an appropriate DPA (Data Processing Addendum) for resin customers cc @philipall @sonyagreen
+
+* Next Steps
+   * Sonya will start more research on GDPR requirements
+   * Our plan is to figure out what the priorities of GDPR are, and focus on them first
+   * The DPA is top of the list of questions
+
 ### 01 May 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/L1iLI3fu6ThftYS8xLpVO2VQqwZ)
