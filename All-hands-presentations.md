@@ -3,7 +3,7 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
 ### Thu, May 03 2018 (Sales Process)
-* [Video] TBA
+* [Video](https://drive.google.com/open?id=186-Ll8agDPfRRYCgTvIpe6nhzfuWgBHJ)
 * [Audio] TBA
 * [Sales process presentation](https://drive.google.com/file/d/1fysvGePuka6tDBL5NNa-RkZGzWJz4d4s/view?usp=sharing)
 
