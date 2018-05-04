@@ -53,11 +53,7 @@ To update the Salesforce opportunity:
     * “Pricing Tier”
     * “Close Date”: Should be today’s date/the day you send the invoice
     * “Stage”: Move to “Closed Won”
-4. In the “Amounts” section of the page, edit the sections with the appropriate info:
-    * “Amount”: Make sure this is amount amortized for the year (not monthly amount)
-    * “# Devices”: Total number of devices: base plan + add-ons 
-    * “# Developers”: Total number of users: base plan + add-ons
-5. If the opportunity was generated through self-serve billing, the Recurly account code must be entered in the Account ID field under the Salesforce account.
+4. If the opportunity was generated through self-serve billing, the Recurly account code must be entered in the Account ID field under the Salesforce account.
 
 ### Updating Recurly
 **Note: Self-serve customers will have most info already entered**
