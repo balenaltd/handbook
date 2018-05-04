@@ -4,7 +4,7 @@
 
 ### Thu, May 03 2018 (Sales Process)
 * [Video](https://drive.google.com/open?id=186-Ll8agDPfRRYCgTvIpe6nhzfuWgBHJ)
-* [Audio] TBA
+* [Audio](https://drive.google.com/open?id=1mWcw3udD5NjHU3hf68_2l_ly0d3c8SDw)
 * [Sales process presentation](https://drive.google.com/file/d/1fysvGePuka6tDBL5NNa-RkZGzWJz4d4s/view?usp=sharing)
 
 ### Thu, Mar 15 2018 (Sysdig Presentation)
