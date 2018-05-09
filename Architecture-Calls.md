@@ -45,6 +45,62 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 08 May 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/LiQ3IuSV4zt07CAfAsoTVNd38Xi)
+- [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/1gzIpHfJhmSQF7HGJo8JPu6qLVnaQmCZQ)
+
+Discuss the balenaFin device subtype cc @agherzan @imrehg @konmouz @floion @alisondavis17 @lucianbuzzo @thgreasi @zwalchuk @dimitrisnl
+
+* We want to provision Fins in RPi3 applications
+* We want the Fin app type in the “Create Application” list for visibility
+* We want to provision RPi3s to Fin applications
+* Option 1
+   * In any application with app type X you should be able to add any device type with a compatible architecture
+   * There is not reason not to be able to provision other RPi version on a Fin application
+* Actions
+   * Drop the `subtype_of` (https://github.com/resin-os/resin-raspberrypi/issues/197)
+   * In the “Add Device” modal, allow choosing the device type. Show the app type + all the boards with a compatible architecture type. Default the selection on the application’s application type
+
+Discuss how to handle delta auth now that we’re changing api keys to be stored in a hashed form. cc @afitzek @dfunckt
+
+* We need the ability in the API to create scoped JWTs: https://github.com/resin-io/resin-api/issues/991
+* This work will become part of the Hashed API Keys work
+* Hashed API keys work is postponed in order to not block the new deltas
+* We'll pick it up again in the future, after Andreas' work on Orgs
+
+Discuss how the API should infer which UI url should be used for responses. cc @thgreasi
+
+* We currently have a UI_HOST env var which is used for:
+   * email content (eg: password reset)
+   * SSO callback urls
+   * will be needed on the U2F auth PR
+* There is also the ADMIN_HOST which atm is only used to populate the respective field in /config.
+* See: https://github.com/resin-io/resin-api/search?utf8=✓&q="env.UI_HOST"&type=
+* Actions
+   * TL;DR: No need for changes
+   * Always have the master domain name (now resin, later belena) in the UI_HOST and keep things as is.
+   * No need for whitelisting since we will redirect users to the new domains (UI, API, etc)
+   * Hold U2F until we change domain name
+      * So that registered keys do not suddenly stop working when we move to the balena domain
+      * Since cross-domain multifacet is prohibited by the U2F spec
+
+Discuss events & usage tracking approach for automated billing cc @pimterry
+
+* Updating Recurly usage via a nightly job would work, but has some downsides
+* Updating Recurly live (in hooks) is actually easier, we should do that:
+   * On every change to a relevant resource, recalculate the usage (from scratch - e.g. count the current number of devices) and update it in our DB, and Recurly (if it’s changed)
+* We’ll track historical usage numbers by tracking the events individually, as originally planned
+* Event tracking should be based off the old spec for exactly this: https://github.com/resin-io/hq/pull/316/files
+* Next steps
+   * @pimterry to investigate the old historical events spec, and start implementing it
+Discussion on packaging Reconfix schema in ResinOS images during build process. cc @abrodersen
+
+* Spec: https://github.com/resin-io/hq/pull/1253
+* Add reference support
+* Determine whether the generic schema should reference device specific schemas or vise versa
+* TBD with @jviotti and Alex during the next arch call
+
 ### 03 May 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/PDfDqJNWXF4z9L-2DkDQ6Qqoikc)
