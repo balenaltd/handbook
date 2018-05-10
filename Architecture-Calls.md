@@ -94,6 +94,7 @@ Discuss events & usage tracking approach for automated billing cc @pimterry
 * Event tracking should be based off the old spec for exactly this: https://github.com/resin-io/hq/pull/316/files
 * Next steps
    * @pimterry to investigate the old historical events spec, and start implementing it
+
 Discussion on packaging Reconfix schema in ResinOS images during build process. cc @abrodersen
 
 * Spec: https://github.com/resin-io/hq/pull/1253
