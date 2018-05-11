@@ -50,6 +50,47 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/35YREbR68awl_QeINpqKBMTohh4)
 - [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/1Mqsk-C1dOuP2O2qSAMOempMSRejqAHsT)
 
+On etcherPro we need to allow the user to configure network via a UI. wifi-connect does not expose (afawk) APIs for interacting with NetworkManager, so we are currently about to start implementing a completely unrelated DBUS wrapper for NM. ( we also need to cover edge cases on ethernet like static IP configuration ). We need to understand if these NM APIs should be integrated on wifi-connect, whether the NM DBUS wrapper can be decoupled from wifi-connect as a stand-alone component we can use, or we need to start implementing all of this from scratch. 
+
+* Integrate with WiFi Connect now, later with the future daemon that will handle those in the OS. Example Python web application that uses WiFi Connect's JSON API already exists - https://github.com/resin-io-projects/resin-wifi-connect-api. It can be used as a starting point for the etcherPro integration.
+
+Discuss publishing resin-electronjs base images. resin-electronjs handles architecture-specific graphic libraries with branches and it's far from ideal. A better approach could be having a script that builds and pushes base images every time a new release happens. 
+
+* Follow up with @nghiant2710 & @brownjohnf on base image building, @jviotti mentioned we might be able to automate this entirely through the Concourse CI pipeline to build the Docker base images
+* Use Dockerfile.{arch|deviceType} format to consolidate arch- / deviceType-specific branches into master
+
+Discuss whether we can/want to support custom logging drivers like AWS logging 
+
+* https://github.com/resin-io/hq/issues/1315
+* Petros could take a look at the size of the driver, but decision is we won't carry this forward because it would require restarting the balena daemon with env vars for AWS credentials.
+
+Discuss bringing back the RESIN_SUPERVISOR_UPDATE_STRATEGY config var, which would override any update strategies set in docker-compose.yml labels? or act as default? useful for users with mixed-resinOS-version fleets, and users who want strategies without multicontainer.
+
+* Config var will be a default (i.e. only affect services that don't have a label). This will be added to the composition in the device state endpoint. To be developed by @flesler
+
+Discuss if we can mark reported timestamps in the Dashboard as “unknown”, “booting” (or something else) when devices get online but don't know the time yet 
+* Problematic for devices with RTC. No real way to tell if time is accurate or not. So dropping.
+
+Discussion on packaging Reconfix schema in ResinOS images during build process. 
+
+* We need to discuss a proper way to split resinOS Reconfix schemas into what is device type specific and device type independent. This type of JSON Schema “inheritance” might be useful for Jellyfish as well, so it can yield very positive results if done right
+* We need to then figure out what parts of the Reconfix schema will be part of meta-resin (the device-independent part) and what parts will belong to each device specific layer
+* The combined Reconfix schemas will live in the resinOS images (in the boot partition along with the device type JSON file, etc). We should also host them online, so that if the client is connected to the internet, it can check if the online one is more up to date (we can start with just embedding it into the OS though)
+* In order to get the schemas injected, we should look at how device-type.json files get converted from JavaScript to a JSON file in the boot partition and follow the same pattern. See this piece of code
+   * https://github.com/resin-os/meta-resin/blob/master/meta-resin-common/classes/image-resin.bbclass#L52
+
+Discuss EC2 instance reservation (production & staging) cc @mikesimos
+
+* Production: 3 c5.large (masters) + [4 c5.xlarge or m5.xlarge] (workers)
+* Staging: 3 t2.small (masters) + [2 c5.large] (workers)
+* Next steps
+   * Partial upfront 1y option.
+   * Confirm with @brownjohnf and @page-. Then reserve 3 c5.large + 4 c5.xlarge instances in Production account, and 3 t2.small + 2 c5.large instances in Staging account.
+
+We want to be able to use etcher on resin images to burn attached block devices which contain resin images. How can we make sure boot doesn't break as the OS is relying on the filesystem labels and having multiple of the same value will result in race condition for udev? 
+
+* Next steps
+   * The plan is to store UUID at build time in the boot partition, let the OS generate new ones at first boot and use the for all the subsequent boot
 
 ### 08 May 2018
 
