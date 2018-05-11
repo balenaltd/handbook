@@ -79,7 +79,7 @@ Discussion on packaging Reconfix schema in ResinOS images during build process.
 * In order to get the schemas injected, we should look at how device-type.json files get converted from JavaScript to a JSON file in the boot partition and follow the same pattern. See this piece of code
    * https://github.com/resin-os/meta-resin/blob/master/meta-resin-common/classes/image-resin.bbclass#L52
 
-Discuss EC2 instance reservation (production & staging) cc @mikesimos
+Discuss EC2 instance reservation (production & staging) 
 
 * Production: 3 c5.large (masters) + [4 c5.xlarge or m5.xlarge] (workers)
 * Staging: 3 t2.small (masters) + [2 c5.large] (workers)
