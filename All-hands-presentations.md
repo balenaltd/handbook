@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, May 10 2018 (ResinHUP)
+* [Video](https://drive.google.com/open?id=1HNGChEpJz7rlLfgLn3xv4QzmBbl4q4-k)
+* [Audio](https://drive.google.com/open?id=1XgUB1Qr_kh3yHOsuS42SSl4SzqPOjYRp)
+* [ResinHUP presentation](https://drive.google.com/open?id=1n5jEgpIBx_uREg_vmbjNpH8Vv_huC3BmzuTOWvFnHyY)
+
 ### Thu, May 03 2018 (Sales Process)
 * [Video](https://drive.google.com/open?id=186-Ll8agDPfRRYCgTvIpe6nhzfuWgBHJ)
 * [Audio](https://drive.google.com/open?id=1mWcw3udD5NjHU3hf68_2l_ly0d3c8SDw)
