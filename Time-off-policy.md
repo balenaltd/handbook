@@ -3,13 +3,15 @@ As to time-off, resin.io team is divided into three groups:
 * [Full-Time Contractors](https://github.com/resin-io/hq/wiki/Full-time-contractors)
 * [Part-Time Contractors](https://github.com/resin-io/hq/wiki/Part-time-contractors)
 
-You'll notice a lot of similarities between the policies and the reason for this is that we tried to create a company-wide, fair, straightforward time-off policy, respecting the needs of the team members.
+You'll notice a lot of similarities between the policies and the reason for this is that we tried to create a company-wide, fair, straightforward time-off policy, respecting the needs of the team members. The general idea is that all team members have the same holiday allowance, which is 30 days per year.
 
-Here are the main points of the policy:
-* The general idea is that all team members have the same holiday allowance, which is 30 days per year.
+The general policy:
+* Before requesting time off, you are responsible for checking with your team(s) to see how your time-off affects the project(s) you're working on
+* you need to give two weeks notice for time off longer than one day, because the Ops team will make sure we always have the necessary skeleton crew needed to run resin. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
+* If you're taking just one day off, please request it as soon as you are able to, as the Ops team still checks the resin skeleton crew.
 * Holiday allowance resets on each team member hire date anniversary.
 * If you have days left at the end of your year, it's possible to transfer them to the next year. Ask the Ops team about rolling them over.
-* If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, request your holiday as usual and there's a great chance you borrow some days from your future holiday allowance)_
+* If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Ops team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 
 Regardless the group that you fall in, it’s really important to ensure that whenever you want to take some days off (5+ days), you have taken the time to have a discussion with your team members (preferably in the flow your team uses and not 1-to-1) and have made sure that someone will be covering for you, prior to your time-off request.
