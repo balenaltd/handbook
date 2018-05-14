@@ -7,7 +7,7 @@ You'll notice a lot of similarities between the policies and the reason for this
 
 The general policy:
 * Before requesting time off, you are responsible for checking with your team(s) to see how your time-off affects the project(s) you're working on
-* you need to give two weeks notice for time off longer than one day, because the Ops team will make sure we always have the necessary skeleton crew needed to run resin. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
+* you need to give two weeks notice for time off longer than one day, because the Ops team will make sure we always have the necessary skeleton crew needed to run resin, and for some folks this affects the support scheduling. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
 * If you're taking just one day off, please request it as soon as you are able to, as the Ops team still checks the resin skeleton crew.
 * Holiday allowance resets on each team member hire date anniversary.
 * If you have days left at the end of your year, it's possible to transfer them to the next year. Ask the Ops team about rolling them over.
