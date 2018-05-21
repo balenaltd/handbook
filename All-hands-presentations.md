@@ -2,6 +2,10 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, May 17 2018 (Balena Pipelines)
+* [Video](https://drive.google.com/open?id=1am6hsUeaTEmAoSydlLpaQh9RxZ_piBW6)
+* [Audio](https://drive.google.com/open?id=1EKD_5C-qrAzc97q9sLQDUEswn2N8ZvK0)
+
 ### Thu, May 10 2018 (ResinHUP)
 * [Video](https://drive.google.com/open?id=1HNGChEpJz7rlLfgLn3xv4QzmBbl4q4-k)
 * [Audio](https://drive.google.com/open?id=1XgUB1Qr_kh3yHOsuS42SSl4SzqPOjYRp)
