@@ -77,14 +77,16 @@ Now that you have that information, you will need to create an account in Recurl
 
 Now that the account is created, you need to add the appropriate plan and send the invoice out:
 
-1. Click “Add Subscription” in the upper right of the page
+1. Click “Add Subscription” for the base plan in the upper right of the page
 2. From here, update the following information:
     * “Plan”: Our different pricing plans have already been created in Recurly. Make sure you choose right one based on the plan and payment terms (monthly, annually, qtrly)
+    * “Timing”: Future Start Date - Pick the next round hour
     * “Collection Method”: Manual (Send Invoice)
 3. Click “Add Subscription” in the lower left of the page
 
 4. Add another subscription for Add-ons by clicking "Add Subscription" again
     * “Add-ons”: This is where you can add more devices or users beyond the base plan (e.g. For a Pilot plan with 60 devices -- 10 more than the base -- add 10 device “add-ons” 
+    * “Timing”: Future Start Date - Pick the exact time/date as the base plan
     * “Collection Method”: Manual (Send Invoice)  
 5. Click “Add Subscription” in the lower left of the page
 
