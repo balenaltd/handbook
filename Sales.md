@@ -17,7 +17,8 @@ Things to update:
 _Only premium customers_
 * Zendesk *
 _Only premium customers_
-* ARR Doc* ARR Doc
+* Trello Customer board
+* ARR Doc
 * Calendar
 * Post-sales disco call _(if fully self-serve)_
 * Logo request
@@ -124,6 +125,9 @@ From the Front web client:
 
 ### Updating Zendesk (premium only)
 For premium customers -- SLA is included with their contract -- we will need to add them to Zendesk…talk to Sonya.
+
+### Updating the Customer Trello board
+If the customer already has a Lead card, move it to the Customer board; otherwise, create a new customer card.
 
 ### Updating the ARR Doc
 
