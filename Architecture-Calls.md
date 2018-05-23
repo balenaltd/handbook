@@ -47,8 +47,45 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 15 May 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/Q5GAkk7mfgB9PIt91rbHFKm0vz8)
 - [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/19fJzO-QWYJSmghFmA9FjZaZduEM4rU4k)
+
+Discuss approach for soracom/vpn integration cc wrboyce
+
+* More detailed context at https://app.frontapp.com/open/cnv_rpjv4r
+* Next step: Arrange arch call with Alexis from Soracom
+* Considerations/thoughts: use device id as gsm auth and passthru to resin, enable soracom connectivity on a per-device basis?
+
+Discuss how we can allow users to add custom udev rules to the hostOS. cc shaunmulligan agherzan
+
+* Also raised by spanceac from a support ticket: This would be needed to solve issues like ModemManager trying to access a serial port to check if it is a modem, when the serial port is not a modem but another device
+* Next steps
+   * Assembly a project with Juanchi Andrei Zahari and Petros
+   * Put whatever is urgent in the OS in the meanwhile (udev rules that is)
+
+Discuss the supervisor issues that are pending for resinOS unification cc agherzan
+
+* Next steps
+   * Pablo to talk with Cameron about supervisor provisioning steps
+   * Note: ensure initialConfigReported is false after deprovision, or tied to an apiEndpoint
+   * Make target state tied to an apiEndpoint, and therefore null if apiEndpoint is gone
+   * Andrei has OS image for testing, ping him
+
+Should we consider fuzzy backoff (ie. some value between <min> and <max> seconds) timing in components to ensure that if a response does not occur (eg. from the API), then retries do not occur in a similar block of connectoins some ‘x’ seconds in the future (with the potential to continue an incident that might otherwise self-regulate if connections were attempted over a broader time period) cc hedss
+
+* Backoffs in general seem a good idea, it’s the VPN/Delta/Supervisor components that make the state calls. VPN should actually be limited in workers, so it shouldn’t be making a huge difference
+* Ongoing, I’ll look at the Supervisor as the priority and add backoffs in there, should make the most difference and give us some breathing room should a similar incident occur
+
+Discuss using config vars to allow users to modify uEnv.txt and extlinux.conf cc pcarranzav chriswilkes
+
+* To be added with the reconfix work mentioned above
+* in the meantime, add a config var for CPU affinity to unblock 6river (discuss with CameronDiver)
+
+Discuss method to inject device env vars on a file in the boot partition, that the supervisor would then post to the resin servers cc pcarranzav
+
+* Bash environment file called resin-env-vars or something similar
+* Supervisor reads file, sets env vars in resin API, deletes file
+* Pablo to implement quickly for DT and others
 
 ### 10 May 2018
 
