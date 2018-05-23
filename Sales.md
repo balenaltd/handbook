@@ -17,7 +17,7 @@ Things to update:
 _Only premium customers_
 * Zendesk *
 _Only premium customers_
-* ARR Doc
+* ARR Doc* ARR Doc
 * Calendar
 * Post-sales disco call _(if fully self-serve)_
 * Logo request
