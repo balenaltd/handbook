@@ -45,6 +45,36 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 17 May 2018
+
+- [Flowdock thread](https://docs.google.com/document/d/1RPi04ipP5mCbieea45_Tiukt75f19hNp09L8P-0gKQM/edit)
+- [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/1ebxytbXpjC9r7ttuwySz8gltI-zoOr_k)
+
+Discuss methods of allowing the mounting and using of external storage devices in multiple containers @CameronDiver
+
+* HostOS will automatically mount any external media with the label beginning with resin-external- onto /mnt
+* Labels on volume entries will inform the host to create a volume from the external
+* Cameron to talk to Andrei about the host OS side
+
+Discuss the state of IPv6 support for resin (and it might help with link-local support to have it up and running?) @imrehg @agherzan
+
+* Supervisor is IPv6 ready
+* Anything happening on meta-resin? (need to check)
+* We should have dual-stack networking - but it’s tricky:
+   * Dual stack on services, but on the host is IPv6-only - the request might not go anywhere (if it only tries the IPv6 stack)
+   * When the host has IPv4 networking, add a default route
+   * When the host has no-IPv4 networking, do not add a default route
+* Quick fix, possibly: enabling host networking
+* Tasking: the devices team
+
+Discuss architecture drivelist: discuss usage of /dev/disk/by-path and alternatives / fallbacks, as it's not available on all distros equally /cc @jhermsmeier @curcuz
+
+* /dev/disk/by-path does not exist on all distros (known to not exist on Ubuntu 14.04)
+* Just go deeper; look at the /sys/ fs 
+* Look at libudev (?) bindings for node
+* If all fails, read udev code & figure out how `test-builtin path_id` works
+* Figure out if libudev work regardless of whether the udev daemon is running on the system
+
 ### 15 May 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/Q5GAkk7mfgB9PIt91rbHFKm0vz8)
