@@ -4,7 +4,7 @@
 
 ### Wed, May 30 2018
 * [Meeting minutes](https://docs.google.com/document/d/1AK3NRe4hgfTb1vOOj1xePxh1EZKXAEPssI0s_4-ydBg/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/open?id=1xSImVnh4e9JJi3aM2L88c4dB-VYWX3Ie)
 * [Audio](https://drive.google.com/open?id=16TOXo6GXp34zSCAiGqzcpkrhqL3nQ6w6)
 
 ### Tue, May 22 2018
