@@ -50,6 +50,67 @@ We are uploading architecture call recordings as a convenience to people who mig
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/pVIHkx1DtKIit_tH8JW3JMZXLGb)
 - [Meeting notes and recording](https://drive.google.com/drive/u/0/folders/1sVpYntPsgvEq_LzBcVFz6lmMxyyL0gv4)
 
+Discuss orgs permissions implementation in the UI. The UI should probably hide the button to add a new device for an application (download the OS image) if the user is not allowed to do that. The UI can just know the current rules and implement them, but ideally we should make them dynamic and read from the API? cc @afitzek @thgreasi
+
+* Next steps
+* Initial ideas
+   * We could have the UI do many queries to the canAccess endpoint
+      * This might lead to many requests
+      * The canAccess endpoint can’t be used to determine record creation. It currently needs a record ID to work.
+   * We could we have a way to express the rules in the API and pass that to the UI
+      * It will be hard to define rules consumable by the UI that are now in hooks
+* Using API permissions and the canAccess endpoint seems the correct thing to do, regardless of whether we have to do many requests or we can combine them into a single one with batch
+   * Ideally we could retrieve all permissions/actions for a single resource
+* In theory you need to query for allowed operations on each item of a list (eg env vars) but in practice checking the first one might in most cases be enough.
+* It needs some more thought
+* Actions:
+   * Midterm solution
+      * In order to not block the Orgs, the UI will have the logic to allow/prohibit actions. The UI should “know” the allowed actions for each application member type and hold this information coded in a separate place
+   * Longterm
+      * Figure out all the actions that the UI does
+      * Extend the canAccess endpoint (for posts and patches) and use it in the UI
+      * We will then work that backwards and have the UI enable/disable actions based on the API’s responses
+      * Follow the single request per group of items hint, wherever it makes sense (eg env vars)
+      * Full general solution would be to have a custom endpoint, to query for a resource and a list of ids and request the allowed actions on these resources
+
+Discuss how to normalise the blog process (Build, deployment and hosting) cc @dimitrisnl
+
+* Next steps
+   * Merge less-whitespace to master
+   * Rebase PR over master
+   * (..)
+   * Check next versions for security issues - Worth to update?
+   * Check http://seclists.org/fulldisclosure/2017/Jan/49
+
+
+Discuss fsck on resin-data partition and the timeout in resin-expand script. A customers board (industrial pi 3 with emmc only ethernet cable plugged). Timeout in resin-data label caused fsck to not run. Corruption on resin-data prevented board from running properly. cc @zubairlk, @imrehg, @floion, @agherzan,
+
+* Next steps
+   * Fsck everything and reboot in case of timeout in resin-filesystem-expand
+
+resinOS: discuss adding plymouth to initramfs cc @zubairlk @agherzan
+
+* Boot splash displays earlier if plymouth is started in initramfs
+* Increases the initramfs size slightly.
+* Delays the time to init systemd by 0.5s (due to mounting /mnt/boot for the logo. Move logo?)
+* Have a flag file in /mnt/boot/splash/early (which tells initrd script in initramfs that early splash is needed. default disabled so people without screens don't need to delay boot times
+* Next steps
+* Remove initramfs. Move init scripts into the main root partition.
+* (labels/machine-id file. Hence the initramfs was needed. But should be fine now)
+
+The current implementation of build secrets creates a tmp directory on resin-builder's fs, but the remote arm builders cannot access this. Discuss methods of providing the secrets to these builds cc @camerondiver
+
+* Next steps
+   * We should create a container on the remote arm builders whose context is the build secrets, and the list of services etc. This will then create the secrets on the tmp directory, which will be mounted into the service specific builds
+
+Discuss the switch to Redis for storing device logs cc @flesler
+
+* Next steps
+   * Add a custom API endpoint for the SDK/CLI to abstract PubNub/Redis ASAP (ping Petros in PR)
+   * Do a performance test of Sorted Sets vs Lists + SUBSCRIBE (Circular Buffer) 
+   * Investigate how to handle legacy payloads coming from old supervisors once we patch them
+   * (said after the call) also make the post logs endpoint ready asap to take all the supervisors
+
 ### 17 May 2018
 
 - [Flowdock thread](https://docs.google.com/document/d/1RPi04ipP5mCbieea45_Tiukt75f19hNp09L8P-0gKQM/edit)
