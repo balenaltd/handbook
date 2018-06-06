@@ -1,6 +1,8 @@
 ### Resources:
 [Project check-in notes](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
 
+[Process for adding, updating and completing a project](https://github.com/resin-io/process/blob/master/process/projects.md)
+
 ### What are project-based teams?
 We base our teams around the groups who work together to make us successful.
 Each team has a Coordinator role, Contributor roles and a “keeping an eye” role.
@@ -20,7 +22,7 @@ Project teams come in three types: milestones, pipeline, and metric-focused.
 * Pipeline-focused teams work with a segment of the process (e.g. sales, device support, user support).
 * Milestone-focused teams maintain a spec which includes a roadmap of what must be done by when.
 
-Ongoing maintenance of core components lives alongside these project teams. for some people, maintenance will be a full time role, for others, it will be a smaller percentage (and this will fluctuate for different people over time)
+Ongoing maintenance of core components lives alongside these project teams. For some people, maintenance will be a full time role, for others, it will be a smaller percentage (and this will fluctuate for different people over time)
 
 Project teams will have a quick check-ins on Mondays
 * Create project-based update notes -- shared google doc (what used to be the check-in notes and updates in all-hands call).
