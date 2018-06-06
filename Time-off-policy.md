@@ -5,7 +5,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * you need to give two weeks notice for time off longer than one day, because the Ops team will make sure we always have the necessary skeleton crew needed to run resin, and for some folks this affects the support scheduling. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
 * If you're taking just one day off, please request it as soon as you are able to, as the Ops team still checks the resin skeleton crew.
 * Holiday allowance resets on each team member hire date anniversary.
-* If you have days left at the end of your year, it's possible to transfer them to the next year. Ask the Ops team about rolling them over.
+* If you have days left at the end of your year, you may be able some to transfer them to the next year. This is judged on a case-by-case basis. Ask the Ops team about this.
 * If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Ops team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 
