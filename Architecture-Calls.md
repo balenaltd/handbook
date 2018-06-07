@@ -45,10 +45,29 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 07 June 2018
+
+- [Flowdock thread]()
+- [Meeting notes and recording]()
+
+
 ### 05 June 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/sNK2L_9K3SLuWSrv5EzhimgcdOH)
 - [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/1Pt-u49gFHk5hWmqGW3wCq00vTYNXC0Jn)
+
+Discuss how we might carry out fingerprinting/licensing of resin backend stack (Devenv/rOP/OSS/…) cc @hedss
+
+* After discussion, the pain of implementing a full licensing solution would currently outweigh the potential of a rOP customer from ‘pirating’ it. However, it would be useful to have a soft warning for the customer that the end of a licensing period is fast approaching, or has expired
+* @hedss to propose a specification for how we could achieve this, that needs to go back to both the Product and Arch team
+
+Keyframes design review cc @brownjohnf, @mikesimos
+
+  * See: https://www.flowdock.com/app/rulemotion/e-onprem/threads/1ysBGdviOqDlYHueB32TAOMfo7Z
+  * Next steps[
+   * Each service should have an environment agnostic, core compose file. 
+   * Per environment extensions/customizations on top of the core compose file, can be declared by the annotation:  `extends: path/filename.yml` (syntax example: yaml-extend)
+   * Kompose can be used for translating docker-compose files to k8s manifests.
 
 ### 31 May 2018
 
