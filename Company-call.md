@@ -3,7 +3,10 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 ### Tue, June 12 2018
-* [Meeting minutes](https://docs.google.com/document/d/1jqDue0NGgS2kiosooKbj5wmtJk9666WQmkOmQVHacUY/edit#heading=h.5v3961pdlcu2)
+* [Meeting minutes](https://drive.google.com/open?id=1jqDue0NGgS2kiosooKbj5wmtJk9666WQmkOmQVHacUY)
+* [Video](https://drive.google.com/open?id=1xgmxRLu_ZB0poEJvNzd-gkcCGzHqPrEl)
+* [Audio](https://drive.google.com/open?id=11VZJbdkvfdvNSmbCvSrpsda6C8e-S2yI)
+* [Attendees](https://drive.google.com/open?id=1v2cL8faDvPOECICMu-Hyhqc51S8oz7WX)
 
 
 ### Tue, June 5 2018
