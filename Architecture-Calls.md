@@ -45,10 +45,60 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 21 June 2018
+
+- [Flowdock thread]()
+- [Meeting notes and recording]()
+
+### 19 June 2018
+
+- [Flowdock thread]()
+- [Meeting notes and recording]()
+
 ### 14 June 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/Mh636MGrEOvcr4GWXxiEWteFfJE)
 - [Meeting notes and recording](https://drive.google.com/drive/u/1/folders/1sJvRf1NrVNxTmb6LAqvy8w5ulKozUe_o)
+
+Discuss issue 'API v3 env var translations should use the new envvar resources' to clarify how to proceed. cc @richbayliss @thgreasi
+
+* See https://github.com/resin-io/resin-api/issues/1023
+* Next steps
+   * Deduplicate existing IDs
+   * Change schema so that IDs do not clash going forward
+
+resinOS: Discuss how to handle dtb overlays in pi-uboot cc @zubairlk @agherzan
+
+* See https://app.frontapp.com/open/cnv_u02usj for more context
+* Keep thinking
+* Investigate copying/moving/renaming dtb overlays in u-boot shell magic
+
+Discuss the impact of updating the device model record everytime the /device/v2/:uuid/state endpoint GET requested cc @richbayliss @CameronDiver, @afitzek
+
+* Next steps
+   * Pass update trigger to “new service”
+   * “new service” triggers API to notify of online/offline status & event
+   * Redis-backed cache
+      * Notification of expired records
+   * (Refer to VPN spec)
+   * (Refer to Online/Offline spec https://github.com/resin-io/hq/pull/278)
+
+Discuss a method to update a device that is temporarily offline (asked for by Skycatch, but still need to clarify how important it is for them) cc @pcarranzav
+
+* see https://github.com/resin-io/hq/issues/1352
+* see https://app.frontapp.com/open/cnv_rovpvf
+* See below
+
+Re-discuss a USB stick (or other removable media) based method to deploy an update to a device without connectivity. For Skycatch, they need it for customers in the Australian outback. cc @pcarranzav
+
+* Can be done at the application level with small supervisor changes
+* Basically, the supervisor would expose the same target state endpoint as in local mode, but without stopping trying to fetch target state from the resin API.
+* The app would load the containers into balena, and hit the target state endpoint on the resin API.
+* Propose this to Skycatch as prof. services? (but we'd keep IP)
+
+Discuss setting up a China-specific resin instance (would help skycatch and others, and product call conclusion was "yes, we want this") cc @pcarranzav
+
+* Not yet because of commercial issues charging to customers in China (would require a partnership with a Chinese company?)
 
 ### 12 June 2018
 
