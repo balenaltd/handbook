@@ -52,8 +52,10 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 19 June 2018
 
-- [Flowdock thread]()
-- [Meeting notes and recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/0uVUoqAI-hLQhfl5eEDRU57nKBV)
+- Meeting notes and recording
+  - https://drive.google.com/file/d/16WZ79pyozMnG7f7UsLCRr0F99YK2pec5/view
+  - https://docs.google.com/document/d/1YVXegsWq-AdShamljTAPPU8b7gI9iThV_nA90TzZJcA/edit
 
 ### 14 June 2018
 
