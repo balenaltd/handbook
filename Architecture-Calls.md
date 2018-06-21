@@ -57,6 +57,50 @@ We are uploading architecture call recordings as a convenience to people who mig
   - https://drive.google.com/file/d/16WZ79pyozMnG7f7UsLCRr0F99YK2pec5/view
   - https://docs.google.com/document/d/1YVXegsWq-AdShamljTAPPU8b7gI9iThV_nA90TzZJcA/edit
 
+Discuss how onprem could be scaled for ~10k devices (may be necessary for SCE)
+
+* Next steps
+   * Recommend a high spec. Machine to run the OnPrem instance on
+   * Concerns are load on API/DB from devices' steady state polling etc, and also the registry when 10k devices pull at once
+   * Reduce the device polling times to a higher value to ensure they don’t poll as much (move to thirty minute interval) - and in general propose some settings (e.g. deltas on, only staged releases)
+   * Ideally we want to get them to a resin-os-resinOS solution (or K8 deployment if required) but the current Ubuntu VM would work the same
+   * We need to find someone with some time to test provisioning 10,000 devices into an onprem instance (probably using resinos-in-container, and setting up the instance in a beefy NUC), and seeing how it performs
+   * Setup a call with SCE with @petrosagg to discuss exactly what they need
+
+Discuss the data we've collected on the DELETE queries during SDK test runs causing API incidents 
+
+* Next steps
+   * @thgreasi to collect logs of all requests made by the SDK tests
+   * @Page- to investigate tuning dropping requests when the pool is full
+   * @thgreasi and @brownjohnf to test SDK tests against staging, looking for the same behavior as in production
+      * Assuming we can duplicate the behavior, we’ll mess with the pool/timeout parameters and attempt to make the tests work or fail, but either way not to cause the API/DB to lock up
+
+Consider getting rid of buildpacks in our base images
+
+* We will get rid of any documentation that mentions buildpack deps as a way to start deprecating them
+* Buildpack deps will not be a thing anymore in the new re-designed balena base images
+* We still need to have some discussion about how to reorganize the new base images stacks, and at which granularity
+
+Can we impose a commit convention company wise and integrate that as a concourse check.
+
+* Next steps
+
+   * @jviotti to write a spec defining the conventions we intend to adopt
+      * versionist tags as they are currently used (cfr. resin-os team)
+      * enforce consistent language in commit messages (verb tense, whitespace, etc.)
+      * unify with resin-lint
+
+Discuss how to manage cache storage for yocto builds on ConcourseCI
+
+* Question: How much data does a given yocto build use/generate in cache?
+* We want to start moving yocto builds to Concourse, but we need to solve the cache storage issue. A few options:
+   * AWS EFS should work equivalently to how things work in Jenkins, but it could be very expensive (~1k/mo @ $0.30/GB/mo)
+   * Running our own NFS server in AWS (@0.10/GB/mo for gp2 EBS vols)
+   * Leaving the NFS store where it is in Hetzner. This could be done in conjunction with running the Concourse workers on Hetzner, or attempting to run NFS over the internet. Leaving the local network will have security challenges and latency issues.
+   * Use something like S3 or Backblaze B2 to cache objects instead of having a shared fs. I’m not sure of the implications of this for yocto builds, but it would be a lot of uploads/downloads
+* Next steps
+   * Convert Hetzner workers to Concourse workers, leaving the existing NFS infrastructure in place.
+
 ### 14 June 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/Mh636MGrEOvcr4GWXxiEWteFfJE)
