@@ -49,8 +49,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread]()
 - Meeting notes and recording
-  -
-  - 
+  - https://drive.google.com/drive/u/1/folders/1oyNqqdk9WtSF_bdagSApj8Z3xjAJbaAn
 
 ### 21 June 2018
 
