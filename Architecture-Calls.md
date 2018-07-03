@@ -45,6 +45,13 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 3 Jul 2018
+
+- [Flowdock thread]()
+- Meeting notes and recording
+  -
+  - 
+
 ### 21 June 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/1PlSFR7JwRclfN_YHpyy1sWgbQ3)
