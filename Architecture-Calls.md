@@ -47,8 +47,22 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 21 June 2018
 
-- [Flowdock thread]()
-- [Meeting notes and recording]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/1PlSFR7JwRclfN_YHpyy1sWgbQ3)
+- Meeting notes and recording
+  - https://drive.google.com/drive/u/1/folders/1XXIVt9VJPMk1kL2jCGfG8VkIbJ3A6heg
+
+Discuss S3 object lifecycle management policy, for reducing S3 storage cost. cc @mikesimos @brownjohnf
+S3 storage classes pricing , and info, lifecycle management info
+
+* Next steps
+   * Create reports for stale objects, object access profile, and object size.
+   * Follow up on FD
+
+Discuss methods of reducing latency between remote arm builders and our registry cc @CameronDiver @brownjohnf @mikesimos
+
+* Next steps
+   * Check if registries support mirror mode for both pull and push
+   * Cameron to create benchmarks which test if the problem is overall image size, or huge layers 
 
 ### 19 June 2018
 
