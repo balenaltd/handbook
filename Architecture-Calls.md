@@ -49,7 +49,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/8Lvpml1GsboRMuOaHaiidvWhIC5)
 - Meeting notes and recording
-  - https://drive.google.com/drive/u/1/folders/1oyNqqdk9WtSF_bdagSApj8Z3xjAJbaAn
+  - Minutes: https://drive.google.com/drive/u/1/folders/1oyNqqdk9WtSF_bdagSApj8Z3xjAJbaAn
+  - Recording: https://drive.google.com/open?id=1UBSHQa0iKvDGBGng7OGoMTqnylCnlQix
 
 Discuss migrating marketing website to React, preferably using GatsbyJS cc @dimitrisnl @pimterry, @lucianbuzzo, @thgreasi
 
