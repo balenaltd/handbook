@@ -47,9 +47,23 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 3 Jul 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/8Lvpml1GsboRMuOaHaiidvWhIC5)
 - Meeting notes and recording
   - https://drive.google.com/drive/u/1/folders/1oyNqqdk9WtSF_bdagSApj8Z3xjAJbaAn
+
+Discuss migrating marketing website to React, preferably using GatsbyJS cc @dimitrisnl @pimterry, @lucianbuzzo, @thgreasi
+
+* Talked about
+   * Benefits of making the transition
+   * Problems of current implementation
+   * Advantages that Gatsby could offer
+* Next steps
+   * Could proceed it fits the timeline and doesn’t push any deadlines back
+   * Keep using Heroku for now for the deployment process
+
+Discuss recent delta server memory issues in production cc @dfunckt
+* Next steps
+   * Reproduce locally (or maybe staging)
 
 ### 21 June 2018
 
