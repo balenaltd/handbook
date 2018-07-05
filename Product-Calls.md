@@ -12,4 +12,4 @@ All product call notes are kept here: https://docs.google.com/document/d/1_vkKIW
 
 ## Recordings 
 
-Coming soon! :) 
+July 5th, 2018: https://drive.google.com/file/d/1zhXtVeiX8D72RLIUzCsHDwA6zfSm6vkQ/view
