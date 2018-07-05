@@ -14,7 +14,7 @@ Before anything else let's check that everything is in order and that there's no
    * Timezone.io
    * Intercom
 * Sent photo to the Operations Team
-* Shared my first day experience in flowdock (r/experience)
+* Shared my first day experience in flowdock (r/product)
 
 If your checklist is full of ticks then it's time to contact the Operations Team (r/operations) and let them know. 
 
