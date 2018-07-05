@@ -16,6 +16,6 @@ Before anything else let's check that everything is in order and that there's no
 * Sent photo to the Operations Team
 * Shared my first day experience in flowdock (r/product)
 
-If your checklist is full of ticks then it's time to contact the Operations Team (r/operations) and let them know. 
+If your checklist is full of ticks then it's time to contact the Operations Team (t/operations) and let them know. 
 
 In case you're not aware of what your next task is yet you can always ask the Operations Team for further instructions. 
