@@ -12,7 +12,9 @@
 Things to update:
 * Salesforce
 * Recurly
-* Admin Database
+* Resin Database via Admin Panel
+    * Mark user(s) as paid
+    * Create organization
 * Front *
 _Only premium customers_
 * Zendesk *
@@ -94,6 +96,8 @@ Now that the account is created, you need to add the appropriate plan and send t
 ### Updating the Admin Database
 **Note: Self-serve customers will have the primary user already entered - it will be necessary to manually add additional users on Pilot plans and above**
 
+## Mark users as paid 
+
 To assure the new customer receives the appropriate support entitlement for their plan, the admin database must be updated. Updating the database is straightforward, however, every user associated with the customer must be updated separately, so you will need all of their usernames (note: this will need to be continually updated over the course of the next few weeks/months to make sure it is accurate).
 
 To update the database:  
@@ -110,6 +114,11 @@ To update the database:
 1. “Save Changes”
 1. Repeat for all users in the company
 
+## Create organization 
+
+Until organizations support is released, we need to manually create an organization in the resin database for each new customer account. You can do that via the admin panel from https://admin.resin.io/organizations. 
+
+Click "New Organization" to create a new org. Give the org the same name as the customer account in Recurly, the ARR sheet, etc. Search for known members of the org (be sure to add the member associated with the Recurly account via their Billing Account Code!). Click "add" for each member, and then click "save." 
 
 ### Updating Front (premium only)
 To make sure Premium (SLA) customers have the correct support prioritization (i.e. premium accounts get a response inline with their SLA), all of the premium users have to be added to the "Premium Customers" group.
