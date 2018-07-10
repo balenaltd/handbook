@@ -45,6 +45,61 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 10 Jul 2018
+
+- [Flowdock thread]()
+- Meeting notes and recording
+  - a
+  - b
+
+### 5 Jul 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/HEBn9ccEgg6si7NNgQWmg3EmCXP)
+- Meeting notes and recording
+  - https://docs.google.com/document/d/1iOL7rFxiJ8mwCP3Yn9DDnsFpFcQrZ2EJrWtYnvvGtjk/edit
+
+Discuss secret management in kubernetes for katapult deployments. cc @mikesimos
+
+* In katapult v0 secrets are expressed as environment variables with a SECRETS_ prefix in docker-compose Manifest file. We can remove this prefix during template generation, (for eliminating this naming convention limitation, and minimizing required changes in components)
+* The straightforward way forward for now is using kubernetes secrets. We can maintain a gpg encrypted secrets file per environment in a repo. (similar with this) 
+* Vault integration raises several concerns:
+   * Level of integration (use vault as confd backend? Integrate in app?)
+   * Security (wrt data resilience), 
+   * Versioning, etc.
+
+Discuss deployment strategies for DB migrations. We are transitioning to k8s and therefore rebuilding the deployment process, within this process, we should try to optimize it, by being able to easily deploy the API without any interruptions. This goes for small changes, but also for potential breaking changes, in the DB. Also we could design the process to potentially enable rollbacks. cc @afitzek @page- @mikesimos
+
+* Prepare a deployment strategy that can handle different kinds of migrations
+   * There are two different kinds of migrations:
+      * Schema migrations and data migrations
+      * For schema migrations
+         * One possibility is that the component provide versions and therefore successive keyframes, that have an intermediate version, that can operate on old and new database schemas.
+      * For data migrations
+         * We probably need a background process to perform the long running data migration, and component versions, that can still operate while the migration is executed
+   * Wrt to rollbacks, this is a feature that would be great to have
+* Come up with a concrete solution to implement this and then discuss this again in an arch call.
+
+Discuss update solution proposed for Infomoss' custom device case, and compare possible solutions (by us and them). cc @imrehg @chrisrwilkes
+
+* (outcome: a 3rd way)
+* Implement a more automatic update system on resin:
+   * HUP learns to respect update locks on devices
+   * API learns a target resinOS version state, which version the device should be on
+   * “Cronjob” on the action server going around looking for devices that are not on their target version and they are online, triggering update on them
+* @imrehg will create a spec for this to move forward till the next step
+
+Device update event table history cc @imrehg
+
+* Likely relevant for after the above feature
+* Similar to how device connectivity events work today, stored in the database, but more along the line of the future audit logs feature (still being developed)
+* Postpone till later, revisit it after the automatic updates above, try to have this feature in mind for the automatic updates
+
+Discuss how we can accelerate getting private device types, its a constant burden on the device and sales team cc @shaunmulligan
+
+* Add a field to device-type.json called “private”: [true|false]
+* For specific users we associate “extra device types” that they should see
+* Need to find engineering resources
+
 ### 3 Jul 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/8Lvpml1GsboRMuOaHaiidvWhIC5)
