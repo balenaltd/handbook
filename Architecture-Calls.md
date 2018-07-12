@@ -49,7 +49,6 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread]()
 - Meeting notes and recording
-  - 
 
 ### 10 Jul 2018
 
