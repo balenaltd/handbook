@@ -45,12 +45,45 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
-### 10 Jul 2018
+### 12 Jul 2018
 
 - [Flowdock thread]()
 - Meeting notes and recording
-  - a
-  - b
+  - 
+
+### 10 Jul 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/8A8yvAmg_LBvL1-uWWOHcVbanic)
+- Meeting notes and recording
+  - https://drive.google.com/open?id=1eStyvUiXbeY23HNJgYdRYWI0k8RrWJi2
+  - https://docs.google.com/document/d/1IhGM_c9w8_osU7a4DgTaGEMHMOzcTe0NndsDoKHxfVg/edit
+
+We use the set of HKPS pools at sks-keyservers.net to grab the right keys for several packages used in backend components (ui, registry2, etc.). However, these are becoming more and more flakey, sometimes requiring rebuilds to actually get the keys. We could hardcode keys into the repo or do SHA256 checks on them, instead, or try and find a far more reliable keyserver. cc @hedss
+
+* Whilst there’s no reason why we can’t put hashes into component Dockerfiles to check that the downloaded package is correct, it does mean a lot of refactoring of those components doing so. Looks like there may be a way to specify multiple specific keyservers at once, so @hedss will look into making these a lot more reliable if possible.
+
+Discuss if we should allow rebase and merge to master with the new concourse workflow cc @nazrhom @jviotti, @brownjohnf, @agherzan, @floion
+
+* Disallow rebase and merge for now. Some ways to support this feature were discussed, however the implementation effort is deemed not worth the benefit for the time being.
+* To support rebase and merge we need a way to associate between the commits that are rebased on top of master and the branch they originate from.
+
+With open sourcing resin-api, we'll split the SBVR in two files, where one is extending the other. What is the best way to discover and load these SBVRs into Pine? cc @dfunckt @Page- @richbayliss
+
+* discovery:
+   * as we currently do: hardcode paths in config.json -- potentially ugly as it means adding paths in node_modules
+   * each module/package declares its SBVR in its own config.json -- we then need a way to discover these modules in the first place
+   * ???
+* loading:
+   * concatenate the SBVRs before passing to pine -- seems to work nicely; we could instead have pine concatenate them internally
+   * ???
+* Next steps
+  - Put discovery and loading aside for the moment
+  - Focus on pine-launcher, part of a 4-part whole:
+    - api core (npm module)
+    - pine launcher (npm module)
+    - open-balena-api (top level component): configures pine launcher with "api core" and let's it start the server
+    - resin-api (top level component): configures pine launcher with "api core" and managed Resin' proprietary code and let's it start the server
+- @dfunckt and @richbayliss will get together to explore
 
 ### 5 Jul 2018
 
