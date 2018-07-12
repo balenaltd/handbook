@@ -22,6 +22,9 @@
 ### Tue, 29 May 2018
 * [Check-ins Doc](https://docs.google.com/document/d/10dj3vWDlII49z1ipIF02AUPkcXVdIcCY3kmSFF-EdVo/edit?usp=sharing)
 
+### Mon, 21 May 2018
+* Focus Week
+
 ### Mon, 14 May 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1LcsR-Ir6CATF9qbTC5UuZ8fq9sxEsqX5335l6Mq-s80)
 
@@ -30,6 +33,7 @@
 
 ### Mon, 30 Apr 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1SFUg_zeyHIkYWn56ij-4M5hk-PhQGSm4IeDpOTclQbg)
+
 ### Mon, 23 Apr 2018
 * [Focus Week](https://drive.google.com/open?id=1yjCwf7Kd233zwMQ1JTkm-2W2M7IgiQ181GnV184XZCo)
 
