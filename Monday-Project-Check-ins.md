@@ -7,8 +7,8 @@
 ### Mon, 2 July 2018
 * [Check-ins Doc](https://drive.google.com/open?id=16x7Rgv_mRJH4KDwcOokO44m_5QG8r_SBBZrhGMd7acE)
 
-### Mon, 25 June 2018
-* [Check-ins Doc](https://drive.google.com/open?id=1TTIL70qBPTQe3G0H25cz0faOfwMnFHJ3PJLbvQjL-PA)
+### Mon, 25 May 2018
+* Focus Week
 
 ### Mon, 18 June 2018
 * [Check-ins Doc](https://docs.google.com/document/d/1cD5sMR3xBayuCO5CwfKWo-ER5v3hGqrjkt84WtkhQc8/edit#heading=h.193mswm8qjsq)
