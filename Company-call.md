@@ -4,6 +4,9 @@
 
 ### Tue, July 10 2018
 * [Meeting minutes](https://drive.google.com/open?id=1TKxDaokWm88Yfqx-luYDHJl0VDhphA3JtbmXaREtOag)
+* [Video](https://drive.google.com/open?id=12_lrJ08VPED3YmR6pljLib7wAsNAHXjC)
+* [Audio](https://drive.google.com/open?id=1gCakD-qCGej0Hvbz7pS_ob_M78bd1rmi)
+* [Attendees](https://drive.google.com/open?id=1XP6ZCgaeTMFA-NEfeYaUTeFeb2RHJWoo)
 
 ### Tue, July 3 2018
 * [Meeting minutes](https://docs.google.com/document/d/1y8HEePnCNS6D3aRegNHIVw0v4aOs3qWgf8FVUDYr334/edit)
