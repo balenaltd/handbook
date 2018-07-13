@@ -47,8 +47,65 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 12 Jul 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/qAcaOWv4x66X-tqtArwnX9RgNHT)
 - Meeting notes and recording
+  - https://docs.google.com/document/d/1lccx_V9JX8k5PO43SAjK9kDZg86pe9MjWZQCK73fqXk/edit
+  - 
+
+Coordinate pubnub log effort cc @pimterry, @CameronDiver, @flesler, @imrehg
+
+* Aim to start making releases by the start of next week
+* Add a custom permission for writing logs and use canAccess
+* Petros needs to add some tweaks to the supervisor yet
+* Send a special log announcing the switch when the supervisor migrates
+* Make the key expiration a month
+* Limit API log buffer size
+* Try to implement back-pressure in the server, the supervisor is already ready for it
+* Can merge intermediate versions of the write endpoint if it works ok, since it won’t be used
+* On 415 in the write endpoint, abort the connection
+* For read permissions, if the caller can read the device, they can read the logs
+* Ping Petros and Kostas to get Ariel’s tomorrow’s support shift to someone else
+* (later that night) API was still expecting snake_case but new supervisor now sends camelCase, API will be tweaked to support both
+* (later that night) New supervisor was sending `isStderr` and was supposed to send `isStdErr`
+
+
+Customer stem wants to migrate ~800 brownfield devices to resinOS, starting with their custom x86 boards (~200), which we are currently building custom device support for, and eventually their beaglebone XM (~400) and black (~200) boards. cc @alisondavis17 @imrehg, @pcarranzav
+
+* Currently running custom Ubuntu 14. I’ve asked for the image.
+* Options could include:
+   * having Gergely help with remote host OS update, highly manual, likely would require services payment from Stem, need to see their image to evaluate possibility.
+   * running resinOS in container on existing host?
+* Ask about:
+   * are there variations in current OS between devices in the field
+   * what remote access they currently have (we need root)
+   * available free space
+   * if there's local data that needs to be preserved and its max size
+   * if they currently have an update solution
+   * what failure rate they could tolerate (potentially tricky question)
+* Quote will depend on the answers to these questions
+* If the BBXM and BBB are running similar setups, it's possible that much of the initial x86 work could be reused for them
+* We'll need a test setup with device and peripherals that match what they have in the field. Maybe even have some devices set up by them that we can test-drive in (and maybe break).
+
+Discuss etcher apt and deb packages repo transition process to bintray open source account cc @mikesimos @jviotti, @jhermsmeier
+
+* Moving to a new (open-source) bintray account will save ~500$/mo. (was 637.86$ in Feb)
+We have two options for that:
+   * Move all packages to the new account. Keep both accounts online for a while. Then, decommission resin-io account. We can inform etcher users to update their apt/rpm repos. Bintray doesn't have apt/deb mirror redirect feature. When we decommission resin-io account, resin-io repo will appear broken, (404  Not Found on apt update from all users that installed etcher via apt).
+   * Distribute an update, that updates etcher package repos
+(bintray key should be already in place) (the update can check /etc/apt/sources.list.d/etcher.list and replace deb https://dl.bintray.com/resin-io/debian stable etcher line. This should cover recommended installation described here. We could also check /etc/apt/sources.list.d/ files and maybe /etc/apt/sources.list as well?). We can then keep resin-io account for a while (1 month?). This would allow users to fetch the update that will update their package repos. When we decommission resin-io account, resin-io repo will appear broken, (404  Not Found on apt update) only for users that haven't run apt update for the last month.
+   * Next Steps
+   * Copy packages from resin-io to etcher bintray
+   * Setup a mirror URL we control, for redirecting etcher apt repos (similar with httpredir.debian.org).
+   * Distribute a package for notifying users, of the apt repo change. Replace all resin-io etcher versions with this package.
+   * We ll be keeping resin-io bintray account for a while, drastically reducing cost towards 150/month minimum pro edition account.
+
+
+A user has posted some patches in an issue on the supervisor repo, which reduce memory footprint at the expense of CPU cycles by adding node arguments, is this something we want to add to supervisors? cc @camerondiver @Page- @pcarranzav
+
+   *  Issue #690: Reduce memory usage by splitice in resin-io/resin-supervisor on GitHub
+   * Tell user that we’re happy with two of the options straight off, which are --optomise-for-size and --always-compact
+   * We’d need some more investigation into the other two options ( --stack_size=700 and --max_old_space_size=40)
+   *  Ask the user for a PR, and also for more information about the gains that the questionable options can provide us.
 
 ### 10 Jul 2018
 
