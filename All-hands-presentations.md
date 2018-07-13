@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Jul 13 2018 (How to maintain resin's open-source)
+* [Video](https://drive.google.com/open?id=1fhn6kusgtdjZoEzDZLHGv-DvBWkxY9Ke)
+* [Audio](https://drive.google.com/open?id=1M53otnwwF4KaDaGEq9IiiXDwcKDr5Dx3)
+* [How to maintain resin's open-source presentation](https://drive.google.com/open?id=13PqgGGTJOF9mf31Lc7DdyTat2eP_wITh)
+
 ### Thu, May 17 2018 (Balena Pipelines)
 * [Video](https://drive.google.com/open?id=1am6hsUeaTEmAoSydlLpaQh9RxZ_piBW6)
 * [Audio](https://drive.google.com/open?id=1EKD_5C-qrAzc97q9sLQDUEswn2N8ZvK0)
