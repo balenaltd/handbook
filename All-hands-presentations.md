@@ -2,7 +2,7 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
-### Thu, Jul 13 2018 (How to maintain resin's open-source)
+### Thu, Jul 12 2018 (How to maintain resin's open-source)
 * [Video](https://drive.google.com/open?id=1fhn6kusgtdjZoEzDZLHGv-DvBWkxY9Ke)
 * [Audio](https://drive.google.com/open?id=1M53otnwwF4KaDaGEq9IiiXDwcKDr5Dx3)
 * [How to maintain resin's open-source presentation](https://drive.google.com/open?id=13PqgGGTJOF9mf31Lc7DdyTat2eP_wITh)
