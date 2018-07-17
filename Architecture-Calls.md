@@ -52,7 +52,7 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 17 Jul 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/6o880C8svOHbr__4NoEcV7YXeSs)
 - Meeting notes and recording
 
 ### 12 Jul 2018
