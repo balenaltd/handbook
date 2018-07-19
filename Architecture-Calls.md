@@ -54,6 +54,23 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/6o880C8svOHbr__4NoEcV7YXeSs)
 - Meeting notes and recording
+  - https://drive.google.com/open?id=1OSjOgcXwiPJSAO_f5MOAcOSm9EtfWFzx
+  - https://docs.google.com/document/d/18eYRi3M60a_sdm-Qn1uA4DR4s5J1NM5c_4U10inPEvo/edit
+
+Have a diagnostic resin-os service that reports results of a predefined set of tests ran on the device and outputs them in the dashboard. For example report ro file system, report modified rootfs, report systemd failed services etc. cc @agherzan @zubairlk
+
+* Greg will take this item and supervise as it gets implemented
+* For now we will first get the leech script in the proxy actions
+* We will bring this in a product call after we have it as a proxy action
+
+Currently the API determines the IP address of the VPN service by using the IP the request has come from. This fails in the instance where the LB (HAProxy) exists within the same network as the other components, because it sets the X-Forwarded-For header to itself (ie. the gateway) rather than the VPN component. There is a way round this (move the LB to a diferent network, such as the host network in Docker), but do we want to specifically pass the service IPs to the API? (I believe there are potential future applications with Katapult here too). cc @hedss @wrboyce
+
+* Traffic for API from VPN goes via Docker bridge userland proxy, which rewrites the source IP, hence VPN can’t register. This needs some further thought; @hedss to come up with a minimal example that exhibits this that can be used as a base for discussion and experimentation.
+
+discuss possibility of having the resin-data partition in SD card when OS is in internal eMMC. voyage.auto would need it for the TX2, so that they can have huge docker images (~28GB, since they store maps) cc @pcarranzav
+
+* looks like it might just work
+* Andrei will test this and report to Pablo. The OS should *just work* by moving the data partition to another disk as long as we keep the label
 
 ### 12 Jul 2018
 
