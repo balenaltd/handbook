@@ -2,6 +2,12 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+### Tue, July 24 2018
+* [Meeting minutes](https://drive.google.com/open?id=1-8ymyeIjSd7Y6r4i8BdIyjNJ-fH8wIqf3MrQDkOMAKs)
+* [Video](https://drive.google.com/open?id=10gcfG4o08pvjofaZz0DoX7UOY9BfEUzF)
+* [Audio](https://drive.google.com/open?id=181OBVXVo9k95BnWo0_Xduraa9ror7X1-)
+* [Attendees](https://drive.google.com/open?id=1C4QnEX-hvIf9ZpfbVXSCcc4ZLuolwi0L)
+
 ### Tue, July 17 2018
 * [Meeting minutes](https://drive.google.com/open?id=1RUrVTj1mApVpfEwLsAdGPwQjG0-i-IlA-AOZ5znxkd8)
 * [Video](https://drive.google.com/open?id=1LQ6IF0gTfVKMxXvctM6M2YDPUBa93o7I)
