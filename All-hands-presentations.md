@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Jul 26 2018 (Commit guidelines)
+* [Video](https://drive.google.com/open?id=1L0NebRzYOxeDGHMeOUZMpekqkjbKmvj3)
+* [Audio](https://drive.google.com/open?id=1dYZX0X8rPBRjY7jzcJus_J5NuOX6fe40)
+* [Commit guidelines presentation]()
+
 ### Thu, Jul 12 2018 (How to maintain resin's open-source)
 * [Video](https://drive.google.com/open?id=1fhn6kusgtdjZoEzDZLHGv-DvBWkxY9Ke)
 * [Audio](https://drive.google.com/open?id=1M53otnwwF4KaDaGEq9IiiXDwcKDr5Dx3)
