@@ -1,6 +1,9 @@
 ###  [Monday Project Check-ins Template](https://drive.google.com/open?id=1qvFXSTtcp138DnNTatxHlPendBrK6boR-cwjwC1neag)
 ###  [Future Monday Project Check-ins](https://drive.google.com/open?id=1a5qua0PCYewuzhSkIlgjs51upUxF9Dbr)
 
+### Mon, 30 July 2018
+* [Check-ins Doc](https://drive.google.com/open?id=1Guten-_HxIQ2irz-Jq47iMRpEdd31wzhm5lTo2TrNmg)
+
 ### Mon, 16 July 2018
 * [Check-ins Doc](https://docs.google.com/document/d/163Li3QxByAila3bsNYLdtEzqrj8TZliouA4gzurnM8A/edit)
 
