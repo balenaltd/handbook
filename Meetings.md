@@ -1,7 +1,7 @@
 You are free to join all calls (except some Operations calls) but it’s not mandatory if you don’t belong to the specific team. Please note that all calls are included in the admin calendar that the Ops team has shared with you. In addition bear in mind that the admin calendar follows GMT (UTC +0) London time zone.
 
 ## Company Call
-This is the call where all resin team join once per week and talks, shares and gets notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Mondays. Led by @alexandrosm
+This is the call where all resin team join once per week and talks, shares and gets notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Tuesdays. Led by @alexandrosm
 
 ## Architecture Call
 This call is about the architectural stuff of resin. Led by @lekkas and @petrosagg
