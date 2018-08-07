@@ -45,6 +45,39 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 07 Aug 2018
+
+### 02 Aug 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/wkHHIyGx6ATkMC7aPqkwC_sfACH)
+- Meeting notes
+  - https://docs.google.com/document/d/1Gu6EjLnrqmerpxCRGhsySw4QRh8ZSBIqGo-KBxaNXHo/edit
+
+Discuss potential use of own gpg keys (instead of bintray's) for signing etcher packages (deb/rpm) cc @mikesimos
+
+* Next steps
+   * Create Master-key, and subkey for signing deb
+   * Create package for failing update (preinst), and printing sources list update message.
+
+how to create images from branches of external contributors cc @camerondiver
+* Cameron to chat to Giovanni or Jack to see what we’re going to do with versionbot
+
+Discuss fixing the race condition in the update lock: if after reboot, the supervisor comes up before the app has taken the lock, the supervisor will update the app. My proposal would be to implement the lock as an API endpoint on the supervisor API rather than a lockfile - that way the lock can be taken across reboots, and the app can query whether the lock is taken to avoid deadlocks. cc @pcarranzav @camerondiver
+
+* We want to move towards a lock based mechanism which will persist over reboots
+* We want to still support the current method, but have it based on the new persistent system
+* The new system should have a concept of ownership, so we can know who took the lock
+* Next steps
+  * Create an issue for this, allowing it to be attached to front tickets, and add it to Cameron’s todo list
+  * https://github.com/resin-io/resin-supervisor/issues/716 
+
+Discuss future of device logs limits and reading defaults @flesler
+
+* Default ?count for history is `1000`, default for subscribing is `0` (skip history)
+* We’ll still leave the count logic outside the backends, move it into RedisBackend once PubNubBackend goes away
+* We might have to implement pagination in the future, the current schema (rotating List) is quite incompatible with paging
+* Created an issue for this: https://github.com/resin-io/resin-api/issues/1234
+
 ### 31 Jul 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/s1TsGFs6zpYAuDGRGsAzIPiK3bS)
