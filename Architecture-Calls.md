@@ -45,7 +45,39 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 09 Aug 2018
+
+- [Flowdock thread]()
+- Meeting notes
+
+
 ### 07 Aug 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/0kXgND08eROsnaqaq9yl5LYUKSy)
+- Meeting notes
+  - https://drive.google.com/open?id=1TZU0UGu-Lla17MLIcKODOPZTGE1g4fg8
+  - https://docs.google.com/document/d/1hMF73fmgtoDE9n-CP6pIRXvWYFa7FQd4CD2-qbNra5E/edit
+
+Is uuid considered secret information? This came up during forum support, since as load increases, it's starting to becoming a pattern that users share dashboard urls in public channels cc @lekkas
+
+* It is not
+   * It used to be when uuid was part of the pubnub log channel id
+   * See https://www.flowdock.com/app/rulemotion/r-architecture/threads/039bt-cPo_8wiWt7NvA3pYdeXZ2
+
+Discuss how to use a better endpoint in the ALB to avoid false positives for healthy hosts architecture cc @brownjohnf @flesler, @mikesimos
+
+* Next steps
+   * Refine ping endpoint for covering database and redis status.
+   * Ping endpoint should check health of all API processes.
+
+Discuss e2e alerting for individual components and services, (that could enable automation of status page integration for most incidents). We could work on some/better health-check endpoints on services, that include checks to most/all dependences basic checks. These endpoints can be leveraged for automation of instances(fleet)/pods(k8s) rotation. cc @mikesimos
+
+* Next steps
+   * Refine health-checks across services.
+   * Refine monitoring metrics/alerts.
+   * Auto rotation threshold alerts (for instances rotated by ASG)
+   * Keep instances for debugging (detached from ASG, ALB/ELB)
+
 
 ### 02 Aug 2018
 
