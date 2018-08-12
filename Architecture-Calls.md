@@ -47,9 +47,49 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ### 09 Aug 2018
 
-- [Flowdock thread]()
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/yyZ7EOKBAVL21GpW3Mz3mVxWIit)
 - Meeting notes
+  - https://docs.google.com/document/d/1lUMkjUJDFqXiD6ebWtZZgxNKw6rGYT3q1cBPV2jpSXs/edit
 
+Discuss remaining billing model vs Recurly questions cc @pimterry
+
+* How to handle history/future subscriptions, and how to report usage to Recurly itself
+* DT are an interesting case: current have overlapping subscriptions in the ARR sheet. We can simplify this to sequential subscriptions.
+* Want to avoid needing Recurly webhooks to report usage
+* We can support a computed term which points to the current subscription
+* Next steps
+   * Tim to investigate rolling windows vs reporting billing usage attached to a specific time
+   * Tim to investigate scheduling billing changes with Recurly, if we can do this, we should include start/end times on our subscriptions
+
+We 're experiencing an outage on the discovery service our fleet clusters are using ( discovery.etcd.io ) for many hours. This is blocking new instances from joining our fleet cluster. Discuss architecture and plans for potential migration to own-managed discovery service. cc @mikesimos
+More info on the current status of discovery.etcd.io: https://github.com/coreos/etcd/issues/9978 
+
+* Next steps
+   * discovery.etcd.io recovered (after many hours).
+   * We have an own-managed discovery service deployed in k8s cluster (discovery.k8s.resin.io).
+   * We will combine the discovery url update with next coreOS update, or deploy if needed in case of any future discovery.etcd.io outage.
+
+Discuss automated test/release of resinOS cc @zubairlk
+
+* None. Wait for testbot work to happen
+
+Discuss options for hardware-level identification, which has uses for fixed device licenses, opendoor’s request to automaticalyl delete “duplicate” devices, etc. (hopefully arch is the right call for this) cc @alisondavis17
+
+* Technical implementation: 
+   * Every resinOS implementation for every device type will generate a “hardware UUID” that is deterministic and based on hardware attributes of that particular device
+      * I.e. Rpi could be CPU ID and MAC address
+      * I.e. for Fin might be wifi chip, or ARTIK identifier 
+      * Will need to define this for all device types 
+   * Change so that when device provisions to backend, reports hardware UUID, backend accepts and stored in the database, needs to be in all history tables for billing etc 
+* What happens when a duplicate device DOES provision, what happens to the old device? 
+   * Default: deactivate old device for free? (bring to product call) 
+      * But needs to be clear that deactivated-duplicates are different from other deactivated devices, so you can easily delete the deactivated-duplicates 
+   * But let user configure this as well with various triggers
+      * Might want to automatically delete the old device 
+         * But this has security implications
+         * Would need to make sure you overwrite previous data with random data to “truly” delete the device 
+            * We need to fix this anyway 
+      * Might also want new device to live in quarantine / be deactivated until you decide to activate it
 
 ### 07 Aug 2018
 
