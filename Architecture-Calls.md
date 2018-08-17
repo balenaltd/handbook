@@ -45,6 +45,61 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 16 Aug 2018
+
+- [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/GLf5DeaCnuGKIH1gJBa-o_2ekiG)
+- Meeting notes
+  - https://docs.google.com/document/d/1z_UAwy2v7ey3aBXXKlbwAessY12fuNp32E9EGmGCKkM/edit
+
+[Discuss Recurly reporting options](https://app.frontapp.com/open/cnv_ylligb) @pimterry
+* Yes, we should change to do simply scheduling Recurly usage reporting
+Schedule tasks very simply in the API somehow, such that only one API instance runs them, and we recover if that fails or that instance goes down.
+Look into Redis primitives to handle that synchronization
+* Next step
+  * Tim to look into this and get it built
+
+[Discuss release pinning for flasher types](https://app.frontapp.com/open/cnv_ymkhdv) @telphan
+* Fix this now with a quick hack in the resin-image-flasher (direct API call to pin the release)
+* Long term solution will be a unification of the provisioning process
+track here: https://github.com/resin-os/meta-resin/issues/1154
+
+[We’d like to add an uptime SLA to our production-level agreements with customers. to do that, we need to agree on a solid and reliable way of defining and measuring downtime. How can we best define and measure downtime?](https://app.frontapp.com/open/cnv_ynf82z) @alisondavis17 @brownjohnf, @pcarranzav
+* StatusPage has a way to calculate downtime, but only when there is an incident created (either automatically or manually) 
+  * This has to do with integration between nodeping and status page
+  * Could explore other status page products 
+  * Numbers are not currently public, but we could make it so
+  * 99.89 API uptime in past 90 days (2.4 hours of outage) - seems too low. 
+  * SLA should include ability to push an update
+    * API is a clear one then; dashboard too 
+    * What about the builder and git server too? Probably yes 
+    * Registry and Delta server too
+    * NOT imagemaker, device URLs, and VPN 
+* We will start making these public now (@brownjohnf and @mikesimos to check this) 
+* And we will work on making the calculations more accurate (@mikesimos to check this)
+* How we want to count degraded performance? 
+* StatusPage does partial outage *.3 to count towards overall downtime 
+* How should we handle outages that are, say, less than 5 or 10 minutes? 
+* We will see if we have a lot of outages that are this short that are being counted towards the total, and if so, we’ll figure out how to deal with it 
+* Note that nodeping will default to major outage so we need to know if it’s a partial outage to go in and mark it as such in the status page 
+
+[Discuss the dangling diffs problem we keep seeing on devices. We either need a mitigation, either to be done by support agents or the supervisor, or we need to fix the root cause, which as of now is unknown](https://app.frontapp.com/open/cnv_yo4qlf) @CameronDiver
+* Cameron to try to reproduce
+* Chat to Pepe again about a mitigation
+
+[How do we make devices which have been deleted from the dashboard stop spamming mixpanel with events](https://app.frontapp.com/open/cnv_yp9ky3) @CameronDiver
+* Ongoing discussion
+* Some ideas include returning empty state, or similar, so they stop running stuff, and also stop spamming mixpanel (possibly also pubnub) with events
+* There might also be multiple issues for the devices that are generally spamming mixpanel, so not just deleted devices, * but other issues too, so will need triage
+* Need to make mixpanel more useful as well, as curently the team is not checking it, so then what's the point
+* Need some care, investigating
+  * Michael will send a recent snapshot of overly chatty devices
+  * Petros wants to look at those, and see possible issues to solve
+  * … take it from there
+
+[Best way to mitigate the certificate not yet valid mixpanel issues. This is because the supervisor can start up before the NTP server, and start requesting the API. Methods I can think of are not reporting this at all, or making the supervisor pause it's updating while it waits for the NTP server.](https://app.frontapp.com/open/cnv_yp9umb) @CameronDiver
+* Will not report this error in the future in the supervisor
+
+
 ### 09 Aug 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/yyZ7EOKBAVL21GpW3Mz3mVxWIit)
