@@ -45,6 +45,29 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 21 Aug 2018
+
+- [Flowdock thread]()
+- Meeting notes
+
+discuss how to get on-prem ready with balena-on-balena for SoCal Edison cc @pcarranzav @hedss @CameronDiver
+katapult + build secrets should help make b-o-b closer to our production environment
+this should help avoid some tweaks currently done on. git server where we add keys to the image during build
+@hedss to PR a change to the git server that uses env vars instead, so no need for build secrets
+another issue is with changes in devenv's compose, an iptables NAT flush in the builder breaks DNS
+Heds PRd a change that uses an etcd variable to decide whether to do or not the NAT flush
+Petros suggests, instead, creating a separate iptables chain, so that rules can be flushed and readded there. @hedss will try it out.
+Supervisor changes required for networking creation/service network aliasing is required for VPN IP to be properly stored by API
+Another important thing for onprem is how to inject resinhup images. TBD with Greg on Thursday. Easiest solution would be to push to resin registry in the onprem. Nicer but trickier would be to make this part of a public resin application.
+Device types are added using minio to copy into the onprem S3.
+For emulation, we use a trick in the CLI since we can't assume the user has the right config. This adds extra build steps internally. We should consider using the same in the builder. This would require open sourcing the builder. Idea: getting the builder running with balena-in-docker when the user does resin push. (Or getting a subset of the builder)
+How do we update this? Need local push for unmanaged devices. We can discuss next week, but we can have a rough update mechanism at first and improve on it.
+
+Should we use the interface-name rule from tslint cc @sqweelygig
+Action agreed: research the coding convention of popular typescript repos and report back on Thursday [results](https://www.flowdock.com/rest/files/240548/aDj1B0dJwuGpA06JdiLskg/i_prefix.md)
+
+The Builder currently needs changes for Devenv/resinOS runs where the Docker iptables rules do not explicitly flush the NAT, as this stops external comms. This currently occurs as a bind-mounted file, or a rebuilt Builder container for resinOS. I’ve created a PR to use an etcd/envvar instead. Should we do something else? cc @hedss
+
 ### 16 Aug 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/GLf5DeaCnuGKIH1gJBa-o_2ekiG)
