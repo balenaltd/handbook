@@ -2,34 +2,34 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
-### Tue, August 28 2018
+### Tue, Aug 28 2018
 * [Meeting minutes](https://drive.google.com/open?id=17-rnDdrrVoYEvSP4B5ZiEnyJKEyI8H39H03qKF_1Mio)
 
-### Tue, August 21 2018
+### Tue, Aug 21 2018
 * [Meeting minutes](https://drive.google.com/open?id=14-jd0oeONH3g8Ll1pPnx7ByiXG_JN_XV44bM8jotQEg)
 * [Video](https://drive.google.com/open?id=1nBOsKafOuv9qug1hNTxcRVIQwGFt2QrP)
 * [Audio](https://drive.google.com/open?id=1aMdhLckrh_0_AAtg2Qcth47qD-I_8gnG)
 * [Attendees](https://drive.google.com/open?id=1LJrzrNlmnouKRdjEu51CODQfPfL7CmXQ)
 
-### Tue, August 14 2018
+### Tue, Aug 14 2018
 * [Meeting minutes](https://drive.google.com/open?id=1a7enAjMOAA9FcAOVSRx6kHbgS-is2NMyl4U5fs-l3A8)
 * [Video](https://drive.google.com/open?id=1G6t0Cokc4YwB2pDtoUXwDB4C5kVKovRL)
 * [Audio](https://drive.google.com/open?id=1WGB0m2hnAZaFdae5YpbBSgD5neW-BMj5)
 * [Attendees](https://drive.google.com/open?id=1a4fAfK8RU61b_vUjNm9jq7hq7ifAg8qc)
 
-### Tue, August 7 2018
+### Tue, Aug 7 2018
 * [Meeting minutes](https://drive.google.com/open?id=1LcIa2H0QnulNgcSZuy0Jy3br_E7N7d0fFvBbCfHua_k)
 * [Video](https://drive.google.com/open?id=1n_WBiqkOgK4CxpzGLKHwRaPhrk_HQ5bl)
 * [Audio](https://drive.google.com/open?id=1L6u52IC9vZAMhHhk7vljPwpHlfJnaDJv)
 * [Attendees](https://drive.google.com/open?id=1xFzuaaFQHOq5TqabYwN6UVanTsS3MYix)
 
-### Tue, July 31 2018
+### Tue, Jul 31 2018
 * [Meeting minutes](https://drive.google.com/open?id=1gUpo5iADKlSt2SF-j-1DVw24l7w1S6mQFmx_2FDNNC4)
 * [Video](https://drive.google.com/open?id=1LB9Uc-1P3G_4zPwNO2xkbNUE8cqkGp2Y)
 * [Audio](https://drive.google.com/open?id=1Kqs3O4yeDl8W6kpcAx9GnQcz6vy2GB0s)
 * [Attendees](https://drive.google.com/open?id=1_i8VXnb-daB0F-pJxs_0Gu-Zb4ZsUHtA)
 
-### Tue, July 24 2018
+### Tue, Jul 24 2018
 * [Meeting minutes](https://drive.google.com/open?id=1-8ymyeIjSd7Y6r4i8BdIyjNJ-fH8wIqf3MrQDkOMAKs)
 * [Video](https://drive.google.com/open?id=10gcfG4o08pvjofaZz0DoX7UOY9BfEUzF)
 * [Audio](https://drive.google.com/open?id=181OBVXVo9k95BnWo0_Xduraa9ror7X1-)
@@ -41,13 +41,13 @@
 * [Audio](https://drive.google.com/open?id=1riAytut8oab38gSYqLR2fT59O9NZ3BIV)
 * [Attendees](https://drive.google.com/open?id=1eD1F09CraLhMKRQdEhT-PIKmEVnWdI2H)
 
-### Tue, July 10 2018
+### Tue, Jul 10 2018
 * [Meeting minutes](https://drive.google.com/open?id=1TKxDaokWm88Yfqx-luYDHJl0VDhphA3JtbmXaREtOag)
 * [Video](https://drive.google.com/open?id=12_lrJ08VPED3YmR6pljLib7wAsNAHXjC)
 * [Audio](https://drive.google.com/open?id=1gCakD-qCGej0Hvbz7pS_ob_M78bd1rmi)
 * [Attendees](https://drive.google.com/open?id=1XP6ZCgaeTMFA-NEfeYaUTeFeb2RHJWoo)
 
-### Tue, July 3 2018
+### Tue, Jul 3 2018
 * [Meeting minutes](https://docs.google.com/document/d/1y8HEePnCNS6D3aRegNHIVw0v4aOs3qWgf8FVUDYr334/edit)
 * [Video](https://drive.google.com/open?id=15h4F2Sm68UufrjCVVUqn3hbcYpoLyg7Q)
 * [Audio](https://drive.google.com/open?id=1V1ui1BHytaPbNjqX6NCYF3p0pPJdAXzR)
@@ -59,20 +59,20 @@
 * [Audio](https://drive.google.com/open?id=1WEkTtehUD6qG7fdPX6DbehOVP9xw4ESb)
 * [Attendees](https://drive.google.com/open?id=1MFTAwtze8cFtoFk079psYDIuAdMvyjNO)
 
-### Tue, June 19 2018
+### Tue, Jun 19 2018
 * [Meeting minutes](https://drive.google.com/open?id=1J7CFR_056YXfFT-4ntYD9BBzkmwZOhApftqe1sMfdcI)
 * [Video](https://drive.google.com/open?id=1M4tnC0L5l05Nvt_s0MqcBya2tI27ADIC)
 * [Audio](https://drive.google.com/open?id=1BPQOiixgeXgu5u_diODNxm-jeRp20RMc)
 * [Attendees](https://drive.google.com/open?id=1ZU1NMastF67-WBCdJHmDbd4CVt7YI13e)
 
-### Tue, June 12 2018
+### Tue, Jun 12 2018
 * [Meeting minutes](https://drive.google.com/open?id=1jqDue0NGgS2kiosooKbj5wmtJk9666WQmkOmQVHacUY)
 * [Video](https://drive.google.com/open?id=1xgmxRLu_ZB0poEJvNzd-gkcCGzHqPrEl)
 * [Audio](https://drive.google.com/open?id=11VZJbdkvfdvNSmbCvSrpsda6C8e-S2yI)
 * [Attendees](https://drive.google.com/open?id=1v2cL8faDvPOECICMu-Hyhqc51S8oz7WX)
 
 
-### Tue, June 5 2018
+### Tue, Jun 5 2018
 * [Meeting minutes](https://docs.google.com/document/d/1Ppxe0dscnkh5iQ_Y8e6OvaUB_9m4xa2AQ-BgRoegVQk/edit)
 * [Video](https://drive.google.com/open?id=16Y2kxHqLSSqp-lQbtMOwvKdBFkjg-nDx)
 * [Audio](https://drive.google.com/open?id=1dlqHjJULJWfC961H0Fo-pdDbshbAp-nj)
