@@ -50,6 +50,8 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/QXVp-kzzYRylBThV7IsZlvaWhvS)
 - Meeting notes
+  - https://drive.google.com/open?id=1u0YvPgT7dom_BYQCtfxkjuu4ZEfmshhM
+  - https://docs.google.com/document/d/1bgUXKSifZmS5LPxhG-zWlUM4F4cevYgZ201R5bahYas/edit
 
 discuss how to get on-prem ready with balena-on-balena for SoCal Edison cc @pcarranzav @hedss @CameronDiver
 
