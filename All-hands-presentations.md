@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Aug 23 2018 (Linear programming a scheduling algo!)
+* [Video](https://drive.google.com/open?id=1soO-O8_VBkGMJxAXUSJ7yX4VCF3_xZBF)
+* [Audio](https://drive.google.com/open?id=1XI5MTtDatA8Az-rt7zsK4uYjJjFTZb-q)
+* [Linear programming a scheduling algo! presentation](https://drive.google.com/open?id=1cteP5GWktLlh6V6J-laz7-qR58xVCnUC)
+
 ### Thu, Jul 26 2018 (Commit guidelines)
 * [Video](https://drive.google.com/open?id=1L0NebRzYOxeDGHMeOUZMpekqkjbKmvj3)
 * [Audio](https://drive.google.com/open?id=1dYZX0X8rPBRjY7jzcJus_J5NuOX6fe40)
