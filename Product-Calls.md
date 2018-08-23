@@ -12,6 +12,8 @@ All product call notes are kept here: https://docs.google.com/document/d/1_vkKIW
 
 ## Recordings 
 
+Aug 23rd, 2018: https://drive.google.com/file/d/1nZqIMvaGQNpKPyCf-eoAm9d5s7InQIxe/view
+
 Aug 16th, 2018: https://drive.google.com/file/d/1L0OOVmDy6dQx0KpPR80zTk_-k9lnNoRB/view
 
 Aug 9th, 2018: https://drive.google.com/file/d/1z_xWTaGkJKMPJPICgryGqUsdomh9ttTB/view
