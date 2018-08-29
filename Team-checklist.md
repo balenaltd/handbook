@@ -6,7 +6,6 @@ Before anything else let's check that everything is in order and that there's no
 * Have access to the following services
    * Flowdock - username should be GitHub username
    * Calamari
-   * Beegit
    * Front - username should be GitHub username
    * Zoom
    * Github
