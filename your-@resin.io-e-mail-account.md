@@ -1,6 +1,7 @@
 One of the e-mails you received from resin.io on your starting day should be the invitation to create your @resin.io e-mail account. Following the instructions in the e-mail you should have set up your e-mail account. Please note that your @resin.io e-mail account is to be used mainly for external communication as we’re using other tools for internal communication, as much as we can.
 
-##Signature
+### Signature
+
 You might need to contact users, vendors etc. via e-mail. We encourage you to add a signature to your e-mails, with the following information:
 
 * Full name
