@@ -21,13 +21,13 @@ Some of this policy is specific to your employment status: employee, full-time c
 
 Speak to your colleague and make sure that someone will always have you covered. Think about others, protect your colleagues, protect the company. Note that the Ops team will be asking you about it at the time you submit a time-off request. For example, if a team consists of 2 people, it won’t be a good idea for both of them to be away at the same time. 
 
-** Why do I need to give two weeks notice for my time off?**
+**Why do I need to give two weeks notice for my time off?**
 
 The purposes of the two-week notification is to ensure that we maintain a fully operational status (like support scheduling) at all times and make certain that there is someone to treat any urgent matter that may arise. We want to grant your time off, so if you do your best, we'll do ours.
 
 There are a number of unpredictable reasons to need to ask for last-minute time off. If there's an emergency, email Apostolis and we'll sort the rest out later. If you find yourself in a non-emergency situation where you aren't able give proper notice, you still need to make sure you can leave your team and projects without major disruption. When you apply for the time off, be sure to include a reason for the last-minuteness.
 
 
-** How do I request and manage my time-off?**
+**How do I request and manage my time-off?**
 
 Request time-off using Calamari, the leave management service we're using. Read this [short Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) to find your way around it.
