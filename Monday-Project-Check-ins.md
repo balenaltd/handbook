@@ -4,9 +4,6 @@
 ### Mon, 03 Sep 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1Hajb0ycX23lpkS7Uf98uRE5tGa8AdUAAIeYXy-98h-I)
 
-### Mon, 27 Aug 2018
-* Focus Week
-
 ### Mon, 20 Aug 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1aqXHZeKdQkgI9Aofh5r70isgeZTSgiIU8AvizWBIuDY)
 
