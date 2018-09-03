@@ -5,7 +5,7 @@
 * [Check-ins Doc](https://drive.google.com/open?id=1Hajb0ycX23lpkS7Uf98uRE5tGa8AdUAAIeYXy-98h-I)
 
 ### Mon, 20 Aug 2018
-* [Check-ins Doc](https://drive.google.com/open?id=1aqXHZeKdQkgI9Aofh5r70isgeZTSgiIU8AvizWBIuDY)
+* [Check-ins Doc](https://docs.google.com/document/d/1m8URHS9Rxww7Q1Pe-uMAMF29z5EaDwHzMjSh0jUeHf0/edit#heading=h.ppdpk3mkyj4y)
 
 ### Mon, 13 Aug 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1Yr7UDj9LpN1thXeDAom1OtY8ouG6d_gavsWyTuQr5LY)
