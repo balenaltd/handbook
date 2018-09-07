@@ -1,3 +1,0 @@
-Visit the [process repo](https://github.com/resin-io/process/blob/master/README.md) to find out more about different aspects of our product, development guidelines, support guidelines, and more information about the internal processes. 
-
-Keep in mind that the process repo is getting updated frequently, as our processes evolve and are maintained by the Process team. All team members are welcome to join the process weekly calls and be part forming the company processes and policies. 
