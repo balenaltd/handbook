@@ -2,6 +2,12 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Sep 06 2018 (The new schema DSL - For Reconfix and beyond)
+* [Video](https://drive.google.com/open?id=1Ks1AeGn_jb13TE9dX0QNTY8RLjPQr7B0)
+* [Audio](TBA)
+* [The new schema DSL - For Reconfix and beyond presentation](https://drive.google.com/open?id=1vmW0Ox-FhoY4UF0FbuZGCjBiZ10MhWZ7Ll2Oyq4WRMM)
+* [The new schema DSL - For Reconfix and beyond presentation pdf](https://drive.google.com/open?id=1QY1ZuXt-owdRAdeooVvWkN7KoV8ho3Vb)
+
 ### Thu, Aug 23 2018 (Linear programming a scheduling algo!)
 * [Video](https://drive.google.com/open?id=1soO-O8_VBkGMJxAXUSJ7yX4VCF3_xZBF)
 * [Audio](https://drive.google.com/open?id=1XI5MTtDatA8Az-rt7zsK4uYjJjFTZb-q)
