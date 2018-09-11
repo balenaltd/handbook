@@ -23,6 +23,10 @@
 * [Audio](https://drive.google.com/open?id=1M53otnwwF4KaDaGEq9IiiXDwcKDr5Dx3)
 * [How to maintain resin's open-source presentation](https://drive.google.com/open?id=13PqgGGTJOF9mf31Lc7DdyTat2eP_wITh)
 
+### Thu, June 01 2018 (Stock Options 101)
+* [Stock options 101 presentation](https://drive.google.com/drive/folders/1gLggEbNspmT4lpnuNoDACcWXDsGO6saM)
+* We didn't record the presentation because it had sensitive financial information in it.
+
 ### Thu, May 17 2018 (Balena Pipelines)
 * [Video](https://drive.google.com/open?id=1am6hsUeaTEmAoSydlLpaQh9RxZ_piBW6)
 * [Audio](https://drive.google.com/open?id=1EKD_5C-qrAzc97q9sLQDUEswn2N8ZvK0)
