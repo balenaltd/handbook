@@ -44,13 +44,13 @@ Github
 1. Share your username with the Operations team
 1. Accept the invitations you'll receive to the inbox connected to your Github account, to join the relevant Github organizations.
 
-Resin.io admin
+Resin.io support agent access 
 
-1. Sign up to [resin.io](https://dashboard.resin.io/signup) with your @resin.io e-mail account
-1. Sign up to [resin.io staging](https://dashboard.resinstaging.io/signup) with your @resin.io e-mail account
+1. Sign up to [resin.io](https://resin.io/signup) with your @resin.io e-mail account
+1. Sign up to [resin.io staging](https://resinstaging.io/signup) with your @resin.io e-mail account
 1. Let the Operations team know, in the Operations flow, in Flowdock
 
-_Note: These accounts should NOT be for daily use, but only for accessing the admin dashboard._
+_Note: These accounts should NOT be for daily use, but only for your support role._
 
 Timezone.io
 
@@ -76,7 +76,7 @@ The forums are used by our free users for support requests, and generally for di
 Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
 users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock,front etc.)
 
-Resin.io admin means the resin.io administrator dashboard. By having access to the admin dashboard, you have access to user’s devices, stats and additional information. It’s really useful when you provide customer support.
+Resin.io support agent access means that you have access to certain user applications. It’s really useful when you provide customer support.
 
 Timezone.io is a one-page website that shows each of the team’s member timezone.
 
