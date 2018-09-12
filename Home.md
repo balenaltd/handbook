@@ -25,6 +25,7 @@ Welcome to the resin.io wiki.
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
     - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
+    - [Stock Options 101](https://github.com/resin-io/hq/wiki/Stock-options-information)
     - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
   - Getting started with...
