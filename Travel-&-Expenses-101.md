@@ -77,9 +77,9 @@ Please check out [this guide](https://docs.expensify.com/setup-for-submitters/da
 
 ## Is there a limit on the money I can spend on food while I'm traveling?
 
-In resin.io, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that resin.io is still a startup. Just for reference an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from resin.io towards its employees that a sensible way of spending money when traveling is embraced. 
+In resin.io, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that resin.io is still a startup. Just for reference, an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from resin.io towards its employees that a sensible way of spending money when traveling is embraced. 
 
-On the other hand please note that all expenses are reviewed and any expense considered not to be reimbursable will be left out. 
+On the other hand, please note that all expenses are reviewed and any expense considered not to be reimbursable will be left out. 
 
 For example, if you go out to a restaurant, while you’re on a trip for resin.io, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
 
