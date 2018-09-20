@@ -1,20 +1,30 @@
 
 ## Description
 
-Architecture calls take place several times a week (usually 2 or 3). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the resin.io platform. This call is usually technically oriented and the subjects range from resin.io backend, devices, cli tools etc. Everyone from the resin.io team is welcome to join.
+Architecture calls take place several times a week (usually 2 or 3). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the resin.io platform. This call is usually technically oriented and the subjects range from resin.io backend, devices, cli tools etc. Everyone in the resin.io team is welcome to join.
 
 ### Using the #architecture Flowdock tag
 
-Many interesting technical discussions often produce very long threads that are difficult to follow, so what we do  instead is have a call, keep meeting minutes and come up with an action plan. There are no hard-defined rules on when a Flowdock thread should be discussed in an architecture call, but if you think it should, please tag the thread by adding a comment with the `#architecture` tag **and** a small summary: 
+Many interesting technical discussions often produce very long threads that are difficult to follow, so what we do  instead is have a call, keep meeting minutes and come up with an action plan. There are no hard-defined rules on when a Flowdock thread should be discussed in an architecture call, but if you think it should, the process to bring it up is to send a Flowdock reply, ideally in a Flowdock thread that has context of the discussion, and use the following convention: 
+
+```
+#architecture [brief description] cc [pings to people who need to attend or be kept in the loop]
+
+Example:
 
 ```
 #architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
 ```
 
-You can add a newline and a larger description, but only the first line will be fetched for the arch call agenda.
+You can add a bigger multiline description, if you feel like it, but only the first line will be fetched for the arch call agenda. Example:
 
+```
+#architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
 
-Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 . The agenda and the notes are posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture).
+[More lines with more context that will be ignored from the agenda description]
+```
+
+Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 . The agenda and the notes will be posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture).
 
 ### Running an architecture call
 
