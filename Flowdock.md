@@ -64,9 +64,13 @@ Example rooms:
 
 * r/experience - User Interface (Web & CLI), docker images, funnel, and anything else experience-related
 * r/infrastructure - Server-side backend conversations
-* r/supervisor - Talk about our agent that runs on the device
-* r/devices - Yocto, device OS conversations
+* i/supervisor - Talk about our agent that runs on the device
+* i/devices - Yocto, device OS conversations
 * pub - Anything goes. Nothing particularly good, except the meeting announcements and the occasional all-company announcement
+
+The room name prefixes align them with stages of a process:  
+(s)ensing => (r)easoning => (i)mplementation => (d)eployment => (e)nvironment  
+Other prefixes mean (t)eam, (f)\_? and (p)\_?.
 
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
 
