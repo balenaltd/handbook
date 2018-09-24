@@ -21,7 +21,7 @@ Primary:
 * [Resin.io Forums](https://forums.resin.io/)
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
-* Resin.io admin*
+* Resin.io support access*
 * [Timezone.io](https://timezone.io/)*
 * Intercom
 
