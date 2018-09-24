@@ -68,9 +68,9 @@ Example rooms:
 * i/devices - Yocto, device OS conversations
 * pub - Anything goes. Nothing particularly good, except the meeting announcements and the occasional all-company announcement
 
-The room name prefixes align them with stages of a process:  
-(s)ensing => (r)easoning => (i)mplementation => (d)eployment => (e)nvironment  
-Other prefixes mean (t)eam, (f)\_? and (p)\_?.
+Some room name prefixes (r/, i/...) align the rooms with stages of a process:  
+  (s)ensing => (r)easoning => (i)mplementation => (d)eployment => (e)nvironment  
+Other prefixes mean (f)ramework, (p)rojects and (t)eam.
 
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
 
