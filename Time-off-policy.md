@@ -10,6 +10,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * If you have days left at the end of your year, you may be able some to transfer them to the next year. This is judged on a case-by-case basis. Ask the Ops team about this.
 * If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Ops team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
+* If you're going to a professional conference or event and would resin to consider providing the time off, please send a message to Sonya. Include a link to the conference, and a bit about what professional development it's providing.
 
 ### Specific policy information:
 * [Employees](https://github.com/resin-io/hq/wiki/Employees-(time-off))
@@ -31,3 +32,6 @@ There are a number of unpredictable reasons to need to ask for last-minute time 
 **How do I request and manage my time-off?**
 
 Request time-off using Calamari, the leave management service we're using. Read this [short Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) to find your way around it.
+
+**What if I want to take a day off to attend a conference?**
+
