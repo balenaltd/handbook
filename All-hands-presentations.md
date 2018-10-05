@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Oct 04 2018 (Summit 2018 presentation)
+* [Video](https://drive.google.com/open?id=1BqlKyRf_wzDNbIpWbIOS-ZyyWMggVjeG)
+* [Audio](https://drive.google.com/open?id=12lyh7PYLWYbKp6gbeUjjhzWXzp7M_kxA)
+* [Summit 2018 presentation](https://docs.google.com/document/d/1QMBw4MiDm2LsMvbo6eH9MblhQNExkv2XI4_RvstER_o/edit#)
+
 ### Thu, Sep 06 2018 (The new schema DSL - For Reconfix and beyond)
 * [Video](https://drive.google.com/open?id=1Ks1AeGn_jb13TE9dX0QNTY8RLjPQr7B0)
 * [Audio](https://drive.google.com/open?id=1mU9U_myAyzCt2Zng_BQ0J3tqVMkH-VfP)
