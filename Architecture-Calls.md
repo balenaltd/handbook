@@ -9,6 +9,7 @@ Many interesting technical discussions often produce very long threads that are 
 
 ```
 #architecture [brief description] cc [pings to people who need to attend or be kept in the loop]
+```
 
 Example:
 
