@@ -116,6 +116,23 @@ we will devote engineering resources to improving resource consumption and boot 
 
 This can only be solved via webhooks as the events API does not expose that event. The workaround for the time being is to manually trigger a build with `@resinci retest` after a PR update. This can be done either by a resineer or directly by the external contributor. This will be solved by using JF to feed events to concourse since JF will collect events with webhooks
 
+### 2 Oct 2018
+
+**Revisit Artik 530 and 710 'S' support with Petros. (Customer potentially willing to pay for custom device support to cover development.)**
+- Reporter: @joehounsham
+- Front Ticket: https://app.frontapp.com/open/cnv_10kwzdf
+- Summary (author: @lekkas)
+
+Artik security support for the 'S' range of boards, discussions to continue offline between Alex, Petros and Joe .
+
+
+**Discuss petrosagg's proposal to use ZFS for build caching. brownjohnf will have a draft proposal to discuss. One general question is where we want to create ZFS pool. Logical choices would be AWS or Hetzner.**
+- Reporter: @brownjohnf
+- Mentions: @petrosagg @jviotti
+- Front Ticket: https://app.frontapp.com/open/cnv_102483n
+- Summary (author: @brownjohnf)
+
+We have a plan for the caching, and I'm going to begin implementing the server setup and api for it. We can then test the setup on a hetzner linux concourse workere
 
 ### 21 Aug 2018
 
