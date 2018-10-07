@@ -64,6 +64,59 @@ We are uploading architecture call recordings as a convenience to people who mig
 
 ## Recent Meeting Notes
 
+### 4 Oct 2018
+
+**discuss the certiicate not yet valid issue on devices, and the mitigations which might be performed by the supervisor to automatically handle this cc pcarranzav**
+- Reporter: @CameronDiver
+- Mentions: @pcarranzav
+- Front Ticket: https://app.frontapp.com/open/cnv_zwr0h7
+- Summary (author: @camerondiver)
+
+more investigation needed will raise again when time allows
+
+
+**discuss methods of allowing resin push to work with massive input directories, which currently fails with payload too large errors**
+- Reporter: @CameronDiver
+- Front Ticket: https://app.frontapp.com/open/cnv_zx8mxv
+- Summary (author: @camerondiver)
+
+more investigation needed. Will re-raise after this.
+
+
+**For new devexp, katapult currently has hardcoded `resindev.io` certs. Each host needs to be able to identify itself as `*.<hostUUID>.local` so that requests work. We need to be able to ideally use a CA chain that doesn’t need installing (LetsEncrypt perhaps). How do we get to a point where we can get a working CA chain for devices**
+- Reporter: @hedss
+- Front Ticket: https://app.frontapp.com/open/cnv_11a8w2b
+- Summary (author: @hedss)
+
+The 'nice' way to do this is to ensure that each device has a specific certificate for itself, via its UUID. We could create an external service that obtains a suitable certificate (*.<uuid>.resindev.io) for the development device from LetsEncrypt and installs the certificate into the deployed docker-compose artefact (or even on-device in resin-haproxy). Heds is looking into this.
+
+
+**arch We’ve historically matched version tags on a repo with built images (ie. `resin/resin-s3-minio:v1.2.3`). ResinCI’s prefers not prefixing the version number with `v`. Should we be dropping this altogether? If so, then we should probably do it in repos too, to stay consistent**
+- Reporter: @hedss
+- Front Ticket: https://app.frontapp.com/open/cnv_113lqv7
+- Summary (author: @hedss)
+
+We should drop the v prefix for registries, but keep them for repositories. This means updating the Circle configs for those components still using them.
+
+
+**cust-arch discuss Rombit’s fast boot question. They are currently seeing 20 second boot time and need to get it down to 10 seconds for their automotive use case. ( lekkas the cust-arch hashtag will still make it into the arch call noes, right?)**
+- Reporter: @alisondavis17
+- Mentions: @lekkas
+- Front Ticket: https://app.frontapp.com/open/cnv_111ydaz
+- Summary (author: @alisondavis17)
+
+we will devote engineering resources to improving resource consumption and boot times between now and the end of the year. Fundamental architecture is now in place and this will be a next big push.
+
+
+**Discuss how to solve the problem that push events for forked repo PRs (external contributors) don't show up in our org timeline.**
+- Reporter: @brownjohnf
+- Mentions: @jviotti @nazrhom @hedss
+- Front Ticket: https://app.frontapp.com/open/cnv_104qwjv
+- Summary (author: @nazrhom)
+
+This can only be solved via webhooks as the events API does not expose that event. The workaround for the time being is to manually trigger a build with `@resinci retest` after a PR update. This can be done either by a resineer or directly by the external contributor. This will be solved by using JF to feed events to concourse since JF will collect events with webhooks
+
+
 ### 21 Aug 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/QXVp-kzzYRylBThV7IsZlvaWhvS)
