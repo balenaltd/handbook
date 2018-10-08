@@ -2,7 +2,7 @@
 ###  [Future Monday Project Check-ins](https://drive.google.com/open?id=1a5qua0PCYewuzhSkIlgjs51upUxF9Dbr)
 
 ### Mon, 08 Oct 2018
-* [Check-ins Doc](https://drive.google.com/open?id=1VrIWqnilni0xXwPDaFaah_ezRuIrLWw81SZCU2WDV_Q)
+* [Check-ins Doc](https://drive.google.com/open?id=1cRx8CtN3bc8awKbz5B9F7K1A1SZUwKR4k9CSjnjD99s)
 
 ### Mon, 01 Oct 2018
 * [Check-ins Doc](https://drive.google.com/open?id=1VrIWqnilni0xXwPDaFaah_ezRuIrLWw81SZCU2WDV_Q)
