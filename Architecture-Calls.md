@@ -116,6 +116,17 @@ we will devote engineering resources to improving resource consumption and boot 
 
 This can only be solved via webhooks as the events API does not expose that event. The workaround for the time being is to manually trigger a build with `@resinci retest` after a PR update. This can be done either by a resineer or directly by the external contributor. This will be solved by using JF to feed events to concourse since JF will collect events with webhooks
 
+**and in case Alex and Petros don’t see this, I’ll tag for architecture (for the solutions section): Opendoor accidentally deleted a few hundred devices a few months ago, and they are asking if we can help them remotely reinstate the devices. It sounds like we have a process, albeit a labor intensive one, to do that. I’m thinking about offering to do it as a “fleetops service” for a fee. Does that sound reasonable?**
+- Reporter: @alisondavis17
+- Front Ticket: https://app.frontapp.com/open/cnv_11b69n7
+- Summary (author: @imrehg)
+
+* altering the VPN, that when unknown devices connect, they connect under a namespaced identifier
+* unknown devices might shown in the admin panel
+* get whitelisted deivces from the VPN, check if devices online, getting their API key, etc, and recreate it
+* devices were deleted on or around July 17, some hundred....
+* Alison will follow up with them if no reply today
+
 ### 2 Oct 2018
 
 **Revisit Artik 530 and 710 'S' support with Petros. (Customer potentially willing to pay for custom device support to cover development.)**
