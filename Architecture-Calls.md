@@ -145,6 +145,54 @@ Artik security support for the 'S' range of boards, discussions to continue offl
 
 We have a plan for the caching, and I'm going to begin implementing the server setup and api for it. We can then test the setup on a hetzner linux concourse workere
 
+**Discuss what kind of connectivity or other checks to put in place for automated rollbacks**
+- Reporter: @zubairlk
+- Mentions: @shaunmulligan @agherzan @imrehg
+- Front Ticket: https://app.frontapp.com/open/cnv_10wj1mb
+- Summary (author: @zubairlk)
+
+
+- Discussed on Friday
+- VPN check before/after HUP
+- Balena basic health check
+
+### 20 Sep 2018
+
+**Discuss how to proceed with the orgs project to finish it asap.**
+- Reporter: @afitzek
+- Mentions: @pimterry @alisondavis17 @thgreasi
+- Front Link: https://app.frontapp.com/open/cnv_10kesej
+- Summary (author: @afitzek)
+
+Org notes:
+
+org admins + owners will also gain admin (app user access) to all application: 
+done in the permission system
+
+user - is member of application
+- can manage org with right
+- belongs to team 
+- has access to application
+
+Change the model:
+
+user__is_member_of__organization
+ -> can manage org with right (Member, Administrator, Owner)
+    grants administrative rights to the org
+ -> belongs_to_team (associate the or membership with a team, not the user)
+    each team has a link with rights to applications, that grant access
+ -> has_access_to_application (user is member of application)
+    migrate the user is member of application to this relationship
+
+for each user the highest presented right, will be payed for
+
+Migration:
+ - Collaborators stay as they are
+ - delete org members which are not associated with any application atm
+ - add org members which are collaborators atm, and link the user__is_member_of__organization to them
+
+Some model changes where discussed see the summary above. @afitzek will update the org spec accordingly.
+
 ### 21 Aug 2018
 
 - [Flowdock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/QXVp-kzzYRylBThV7IsZlvaWhvS)
