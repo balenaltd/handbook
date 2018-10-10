@@ -4,6 +4,8 @@
 
 ### Tue, Oct 09 2018
 * [Meeting minutes](https://drive.google.com/open?id=1yV94U1_x-VROMVLZkVtQThG4_DlCSUFxp6MrZwplECE)
+* [Video](https://drive.google.com/open?id=1mRL7vjTnHI2pJbzpZx2m9CbYTfpIDULD)
+* [Audio](https://drive.google.com/open?id=1YaqhNFqJpTlpxW4YvntfdsqlIunvB3w1)
 
 ### Tue, Oct 02 2018
 * [Meeting minutes](https://drive.google.com/open?id=1tbdKiI78fdDFiw1wyafWqMVldGDTFImRIuJN37Ht8Vc)
