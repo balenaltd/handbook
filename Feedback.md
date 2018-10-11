@@ -2,9 +2,11 @@
 
 We're using TinyPulse as one way to ask and receive feedback about how you're doing, about how things are going, and provide a place to bring up anything you want to. It's a place to share the triumphs you're seeing -- share that dopamine hit with the rest of us! And, while we're a small company we think it's important that we have an anonymous way to share, because it’s important to be able to raise problems you see, without worrying about how it reflects on you.
 
+When new resineers start, they receive several (clearly labeled!) non-anonymous survey questions about how their onboarding is going. Their first survey is non-anonymous, and is sent during their second week.
+
 As always, this is an experiment -- we'll adjust how we're using this app as we figure out how it's useful to us. If a feature has other options for how we use/share the feedback, it's noted in this documentation.
 
-Currently, Sonya is the only admin, and thus the only person who can see survey or suggestion text responses.
+The strategy team can read survey or suggestion text responses.
 
 ## TinyPulse features
 
