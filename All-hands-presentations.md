@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
+### Thu, Oct 11 2018 (Summit 2018 second presentation)
+* [Video](https://drive.google.com/open?id=16wjy1J83oDSMj8aEv7ku0uUJBLehxY_Z)
+* [Audio](https://drive.google.com/open?id=1U7Uz1S8AIisOuRW3oqZWRjAPse3PAAfL)
+* [Summit 2018 second presentation](https://drive.google.com/open?id=10fmaWCA9WaYJ4p41nRE0yVciOL7BZbESjrZIYBpbYA8)
+
 ### Thu, Oct 04 2018 (Summit 2018 presentation)
 * [Video](https://drive.google.com/open?id=1BqlKyRf_wzDNbIpWbIOS-ZyyWMggVjeG)
 * [Audio](https://drive.google.com/open?id=12lyh7PYLWYbKp6gbeUjjhzWXzp7M_kxA)
