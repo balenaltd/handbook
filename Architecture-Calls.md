@@ -5,7 +5,9 @@ Architecture calls take place several times a week (usually 2 or 3). It is the t
 
 ### Using the #architecture Flowdock tag
 
-Many interesting technical discussions often produce very long threads that are difficult to follow, so what we do  instead is have a call, keep meeting minutes and come up with an action plan. There are no hard-defined rules on when a Flowdock thread should be discussed in an architecture call, but if you think it should, the process to bring it up is to send a Flowdock reply, ideally in a Flowdock thread that has context of the discussion, and use the following convention: 
+Many interesting technical discussions often produce very long threads that are difficult to follow. Also, we've found that it's more efficient to have all core architects present and discuss solutions through till we find a way forward. 
+
+There are no hard-defined rules on when an issue should be discussed in an architecture call, but if you think it should, the process to bring it up is to simply send a Flowdock message, ideally in a Flowdock thread that has context of the discussion, and use the following convention: 
 
 ```
 #architecture [brief description] cc [pings to people who need to attend or be kept in the loop]
@@ -17,7 +19,7 @@ Example:
 #architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
 ```
 
-You can add a bigger multiline description, if you feel like it, but only the first line will be fetched for the arch call agenda. Example:
+You can add a bigger multiline description, if you feel like it, but remember that only the first line will be fetched for the arch call agenda. Example:
 
 ```
 #architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
