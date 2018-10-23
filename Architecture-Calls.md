@@ -3,11 +3,17 @@
 
 Architecture calls take place several times a week (usually 2 or 3). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the resin.io platform. This call is usually technically oriented and the subjects range from resin.io backend, devices, cli tools etc. Everyone in the resin.io team is welcome to join.
 
+### Process overview
+
+- Post #architecture message (see guidelines on using the hashtag below)
+- Follow the instructions when you get pinged for your item. You will need to take some actions if the item needs to be archived, postponed, or if you cannot attend the call and the issue your raised must be discussed. Guidelines will be posted along with the heads up message so please make sure you follow them. If you have more questions, ping @lekkas
+- After the call, you can find the notes here: https://github.com/resin-io/balena/wiki/Architecture-Calls/
+
 ### Using the #architecture Flowdock tag
 
 Many interesting technical discussions often produce very long threads that are difficult to follow. Also, we've found that it's more efficient to have all core architects present and discuss solutions through till we find a way forward. 
 
-There are no hard-defined rules on when an issue should be discussed in an architecture call, but if you think it should, the process to bring it up is to simply send a Flowdock message, ideally in a Flowdock thread that has context of the discussion, and use the following convention: 
+There are no hard-defined rules on when an issue should be discussed in an architecture call, but if you think it should, the process to bring it up is to simply send a message, ideally in a Flowdock thread that has context of the discussion, and use the following convention: 
 
 ```
 #architecture [brief description] cc [pings to people who need to attend or be kept in the loop]
