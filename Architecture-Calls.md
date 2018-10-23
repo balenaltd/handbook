@@ -25,7 +25,11 @@ You can add a bigger multiline description, if you feel like it, but only the fi
 [More lines with more context that will be ignored from the agenda description]
 ```
 
-Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 . The agenda and the notes will be posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture).
+Some general information and tips that are useful to know:
+
+- Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 .
+- The agenda and the notes will be posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture)
+- You should avoid pinging @alexandrosm, @petrosagg, @page- or @shaunmulligan when raising an arch call item. They all join the arch calls by default.
 
 ### Running an architecture call
 
@@ -33,22 +37,27 @@ The steps to run an architecture call are:
 
 #### Before
 
-1. Get open architecture call tickets from https://front.frontapp.com/inboxes/shared/d_architecture and create the call agenda in r/process (e.g. check the top message of this thread https://www.flowdock.com/app/rulemotion/r-process/threads/gC4vzLEKnfI5lqa3Qeo82LD2Sbf). When creating an agenda, the main concerns are:
-    - Add a short description with a link to the respective Front inbox ticket. This is so that all interested parties (and often the person who raised the item in the first place) can access the original ticket with the context it brings (e.g. the flowdock thread where the `#architecture` tag was raised)
-    - Ping the person that raised the issue along with other people that were mentioned when this call item was first raised. This information is also available in the `Reporter` and `Mentions` fields in the Front ticket summary (e.g. https://app.frontapp.com/open/cnv_66m63b)
-    - Release the agenda in advance (usually 1-2 hours earlier is fine) to give time to people to ack on whether or not they can join the arch call. If people that are required for a raised item cannot attend, the respective item is postponed for a later call.
+- Run the [postArchCallHeadsUp](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallHeadsUp.js) script well before the arch call. This basically:
+
+- Fetches open arch call items from https://front.frontapp.com/inboxes/shared/d_architecture
+- Creates the agenda and pings reporters/mentioned people
+- Gives guidelines to item reporters (e.g. on how to snooze tickets for later or archive discussed conversations)
+
+Just before the arch call (from 1 minutes to right before the call) run the [postArchCallAgenda](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallAgenda.js) script. This basically refetches the agenda, posts it to flowdock and pings Alex, Petros, Page and Shaun.
 
 #### During
 
-1. Have the agenda available and pick the next item for discussion. This happens on a case-by-case basis based on the availability of people that have to attend specific items. If there are no other constraints, we try to disengage people from easter timezones first, so we pick items accordingly.
+By default the reporters of the item are responsible for keeping notes. If a reporter cannot attend the arch call then he/she should ask for someone else who has knowledge of the raised issue to do so. This should all be settled down after the arch call agenda heads up has been posted.
 
-2. Keep notes of the items discussed and make sure that action items, if any, are also logged. The reporter of the original issue can often help with clearing the action items, and even providing their own notes.
+Arch calls are recorded. We're still looking for a way to automate this (Google Meet doesn't allow that), so if you run the arch call, remember to log in and press 'record' :)
 
 #### After
 
-1. Add notes, the flowdock thread and a link to a recording (if it exists) in this wiki page. Please follow the template that is used in the recent calls.
-2. Paste the same notes in the r/process room by prepending them with a line like `#meeting-notes for 12 Jul Arch call`
-3. Archive the Front tickets of items that were discussed by first adding a comment with a link to the notes of the respective arch call (e.g. https://app.frontapp.com/open/cnv_68uhpn)
+After the call, preferably a few hours later to give people some time to add notes:
+
+- Run the (postArchCallNotes)[https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallNotes.js] script. This basically fetches Front items with a `#summary ` comment and posts them in flowdock with the #meeting-notes hashtag, so everyone in the team receives the notes.
+
+The notes must also be added in https://github.com/resin-io/balena/wiki/Architecture-Calls
 
 ### Architecture call recordings
 
