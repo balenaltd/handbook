@@ -9,6 +9,12 @@ Architecture calls take place several times a week (usually 2 or 3). It is the t
 - Follow the instructions when you get pinged for your item. You will need to take some actions if the item needs to be archived, postponed, or if you cannot attend the call and the issue your raised must be discussed. Guidelines will be posted along with the heads up message so please make sure you follow them. If you have more questions, ping @lekkas
 - After the call, you can find the notes here: https://github.com/resin-io/balena/wiki/Architecture-Calls/
 
+Some general information and tips that are useful to know:
+
+- Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 .
+- The agenda and the notes will be posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture)
+- You should avoid pinging @alexandrosm, @petrosagg, @page- or @shaunmulligan when raising an arch call item. They all join the arch calls by default.
+
 ### Using the #architecture Flowdock tag
 
 Many interesting technical discussions often produce very long threads that are difficult to follow. Also, we've found that it's more efficient to have all core architects present and discuss solutions through till we find a way forward. 
@@ -32,12 +38,6 @@ You can add a bigger multiline description, if you feel like it, but remember th
 
 [More lines with more context that will be ignored from the agenda description]
 ```
-
-Some general information and tips that are useful to know:
-
-- Open `#architecture` items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 .
-- The agenda and the notes will be posted at the  [`r/architecture` Flowdock channel](https://www.flowdock.com/app/rulemotion/r-architecture)
-- You should avoid pinging @alexandrosm, @petrosagg, @page- or @shaunmulligan when raising an arch call item. They all join the arch calls by default.
 
 ### Running an architecture call
 
