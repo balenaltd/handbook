@@ -33,7 +33,7 @@ _Only premium customers_
 * Request logo for customer page
 * Case study
 * Premium Accounts, also: 
-* Schedule support onboarding / Intro to Sonya
+* Schedule support onboarding / Intro to Kostas
 * Send swag pack/thank you note?
 
 
