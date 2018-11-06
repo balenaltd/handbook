@@ -57,7 +57,7 @@ Just before the arch call (from 1 minutes to right before the call) run the [pos
 
 By default the reporters of the item are responsible for keeping notes. If a reporter cannot attend the arch call then he/she should ask for someone else who has knowledge of the raised issue to do so. This should all be settled down after the arch call agenda heads up has been posted.
 
-Arch calls are recorded. We're still looking for a way to automate this (Google Meet doesn't allow that), so if you run the arch call, remember to log in and press 'record' :)
+Arch calls are recorded. We're still looking for a way to automate this (it's not clear how to do this over an API for Google Meet), so if you run the arch call, remember to log in and press 'record' :)
 
 #### After
 
