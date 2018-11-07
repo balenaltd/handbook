@@ -63,7 +63,7 @@ Arch calls are recorded. We're still looking for a way to automate this (it's no
 
 After the call, preferably a few hours later to give people some time to add notes:
 
-- Run the [postArchCallNotes](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallNotes.js) script. This basically fetches Front items with a `summary-needs-posting` tag and posts them in flowdock with the #meeting-notes hashtag, so everyone in the team receives the notes.
+- Run the [postArchCallNotes](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallNotes.js) script. This basically fetches Front items with a `summary-needs-posting` tag, posts them in flowdock with the #meeting-notes hashtag (so everyone in the team receives the notes) and re-tags the Front conversation with the `summary-posted` tag.
 
 The notes must also be added in https://github.com/resin-io/balena/wiki/Architecture-Calls (manually at the moment)
 
