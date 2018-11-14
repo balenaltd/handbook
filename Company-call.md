@@ -6,7 +6,7 @@
 * [Meeting minutes](https://docs.google.com/document/d/15zoEDsqk4eLp5jGWD3q-DvUYQWAnbs9p08EbWS5RinU/edit#heading=h.uf7h2ax0lhwa)
 * [Video](https://drive.google.com/open?id=1elX29kz7uufONxATGDP1vdDNQW0XQmQH)
 * [Audio](https://drive.google.com/open?id=1zyja7utOADYisusKeZ5rPG6hu0oh4SSU)
-* [Attendees](https://drive.google.com/open?id=1Gctv5d8SUrPP84XXAz6Edi8TWvypwauh)
+* [Attendees](https://drive.google.com/open?id=1vSIhhTLA_f1rSIwcWK4dI7uiy5fQ_CCI)
 
 ### Tue, Nov 06 2018
 * [Meeting minutes](https://drive.google.com/open?id=1Y4EFlW20kg1QHjsCvPw7esOVzsUTDre1BlC6l0PMMGY)
