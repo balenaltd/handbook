@@ -8,7 +8,7 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 ## How should I book my flight?
 
-At resin.io we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your resin.io email. The process is quite easy. You choose your desired flight and send it to be approved. 
+At Balena we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your resin.io email. The process is quite easy. You choose your desired flight and send it to be approved. 
 
 Take some time to read these [NexTravel guides & info](https://www.nextravel.com/guide/user), before you to travel. 
 
@@ -38,12 +38,12 @@ The Ops team would book your accommodation in case more extensive research is re
 
 ## How should I pay for my expenses while I'm travelling?
 
-All the expenses made for the duration of your business travel is covered by resin.io. For clarification purposes these expenses include accommodation, food, business meals, transport and any unforeseen H/W required to perform the task at hand. 
+All the expenses made for the duration of your business travel is covered by balena. For clarification purposes these expenses include accommodation, food, business meals, transport and any unforeseen H/W required to perform the task at hand. 
 Accommodation most of the times is prepaid or handled by the Operations Team. Meals, transportation and other expenses are paid by the employee and reimbursed.
 
 ## What happens in case of emergency?
 
-In case of an emergency the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Apostolis (apostolis@resin.io), Stefanos (stefanos@resin.io) or Fotis (fotis@resin.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones (Apostolis +30 6946913376, Stefanos +30  6936896999, Fotis +30 6979180161) They will guide you in any way possible.
+In case of an emergency the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Apostolis (apostolis@balena.io), Stefanos (stefanos@balena.io) or Fotis (fotis@balena.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones (Apostolis +30 6946913376, Stefanos +30  6936896999, Fotis +30 6979180161) They will guide you in any way possible.
 In the unlikely event that the Operations Team is not available to assist you (that would occur only due to time difference), and depending on the need, there are a few things you can do. Please see below.
 
 ### Travel
@@ -52,11 +52,11 @@ If the emergency for example is Travel related (flight cancellation, adjustments
 
 ### Accommodation
 
-In case the emergency requires an employee to pay for something that was supposed to be handled by resin.io (eg Hotel room), but for unpredictable reason it wasn’t, then the employee will be reimbursed as soon as the Operations Team receives the expense report.
+In case the emergency requires an employee to pay for something that was supposed to be handled by balena (eg Hotel room), but for unpredictable reason it wasn’t, then the employee will be reimbursed as soon as the Operations Team receives the expense report.
 
 ## Do I have travel insurance?
 
-All Resin, Inc. employees (US) are covered by travel insurance. You can check out the blue card [here](https://drive.google.com/open?id=1_LBJM6eLHa6kiCzCK8VGBYj6Ii3cEbR_). In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
+All Balena, Inc. employees (US) are covered by travel insurance. You can check out the blue card [here](https://drive.google.com/open?id=1_LBJM6eLHa6kiCzCK8VGBYj6Ii3cEbR_). In case of an emergency the first thing you need to do is get in touch with the Operations Team. 
 
 ## How do I submit my expense report and when will it get reimbursed?
 
@@ -77,11 +77,11 @@ Please check out [this guide](https://docs.expensify.com/setup-for-submitters/da
 
 ## Is there a limit on the money I can spend on food while I'm traveling?
 
-In resin.io, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that resin.io is still a startup. Just for reference, an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from resin.io towards its employees that a sensible way of spending money when traveling is embraced. 
+In balena, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that balena is still a startup. Just for reference, an amount of 45$ per person is within logical standards (10$ BF, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from balena towards its employees that a sensible way of spending money when traveling is embraced. 
 
 On the other hand, please note that all expenses are reviewed and any expense considered not to be reimbursable will be left out. 
 
-For example, if you go out to a restaurant, while you’re on a trip for resin.io, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
+For example, if you go out to a restaurant, while you’re on a trip for balena, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
 
 On the other hand, if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for resin.io, then that expense will not be reimbursed.
 
