@@ -8,4 +8,4 @@ If you don’t know of any password management services, take a look at
 * [1Password](https://1password.com/)
 * [Pass](https://www.passwordstore.org)
 
-Resin.io is using [Passpack](https://www.passpack.com/) to manage and share its passwords with the team. You'll be required to create a Passpack account, using your @resin.io e-mail account, and [activate sharing](https://help.passpack.com/knowledgebase/idx.php/46/107/article/How-to-Activate-Secure-Collaboration-Features.html) as soon as you need access to a service. 
+Balena is using [Passpack](https://www.passpack.com/) to manage and share its passwords with the team. You'll be required to create a Passpack account, using your @balena.io e-mail account, and [activate sharing](https://help.passpack.com/knowledgebase/idx.php/46/107/article/How-to-Activate-Secure-Collaboration-Features.html) as soon as you need access to a service. 
