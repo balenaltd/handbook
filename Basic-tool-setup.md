@@ -18,7 +18,7 @@ Primary:
 * [Flowdock](https://www.flowdock.com/app)
 * [Calamari](https://calamari.io)
 * [Front](https://frontapp.com/)
-* [Resin.io Forums](https://forums.resin.io/)
+* [Balena Forums](https://forums.balena.io/)
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * Resin.io support access*
