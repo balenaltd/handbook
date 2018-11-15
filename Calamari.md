@@ -2,7 +2,7 @@ Here’s a guide of how-to-use the main features of our new time-off service.
 
 Link: [Calamari](https://resinio.calamari.io/login.do)
 
-At first, you can log in with your @resin.io e-mail account, using the Google login option.
+At first, you can log in with your @balena.io e-mail account, using the Google login option.
 Time-off request
 To request time-off just press “Request absence” then check out the following screenshots.
 
@@ -31,7 +31,7 @@ This is the menu option which allows you to check the status and the history of 
 
 ![My Requests]( https://lh3.googleusercontent.com/Wux5vBFhTnyMf04TRx3jPVqrm-bEgBUH-mhdRbfs-3oFwya8vF9RL4MVdSA_szrCFII_K7V7LZPyIan8Mf0Rii44RKf_8e8Iom_bGvyu0G_7if7od6rywFgk5eDzVRfyz1UX3ghQ)
 
-## Resin.io absence overview
+## Balena absence overview
 
 Here you can easily find all absence requests of the team. You can filter results by teams, positions or dates, to find more easily information you need.
 
