@@ -1,4 +1,4 @@
-Welcome to Flowdock! It’s the nervous system of resin.io, so using it well is key to integrating with the rest of the team. Some things about it may be counterintuitive, so we’ve written down some basic tips to help you get started.
+Welcome to Flowdock! It’s the nervous system of balena, so using it well is key to integrating with the rest of the team. Some things about it may be counterintuitive, so we’ve written down some basic tips to help you get started.
 
 ## Getting bootstrapped
 As soon as you accept the email invitation to join Flowdock you’ll be requested to choose your Flowdock username. The first thing you should do when you enter Flowdock for the first time is to replace the nick (chat display name) with your Github handle. <u>Please make sure that your Flowdock username is the same as the one you have in Github</u>. 
