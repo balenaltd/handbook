@@ -13,7 +13,7 @@ Before anything else let's check that everything is in order and that there's no
    * Timezone.io
    * Intercom
 * Created an issue in the resin-site repo to share your photo, location, and job title with the team
-* Shared your 'first day as a resin user' experience in Flowdock (r/product)
+* Shared your 'first day as a balena user' experience in Flowdock (r/product)
 
 If your checklist is full of ticks then it's time to contact the Operations Team (t/operations) and let them know. 
 
