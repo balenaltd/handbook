@@ -1,1 +1,1 @@
-Unfortunately, resin.io doesn't provide time-off days for part-time contractors.
+Unfortunately, Balena doesn't provide time-off days for part-time contractors.
