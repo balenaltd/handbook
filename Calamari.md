@@ -45,7 +45,7 @@ At the “entitlement” option, on the left side menu, you will always find you
 
 ## Time-off calendar
 
-Note that you should be able to see all approved time-off days, for all team members, at your @resin.io e-mail calendar.
+Note that you should be able to see all approved time-off days, for all team members, at your @balena.io e-mail calendar.
 
 ![Time Off Calendar](https://lh3.googleusercontent.com/u9C5rv-frIuc7KotFqTtb6WNsTmdeYW0iAISwhr8O0IUTWJ1xrSAegtlGru1T1Hff_bbNxJyQ6c61I0Y6Z9rAhUdT5drLf679RHg2BU1-D6Tv-wuN8h9SEOKzgXB3vUTI08yceSx)
 
