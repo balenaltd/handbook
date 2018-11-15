@@ -46,8 +46,8 @@ Github
 
 Resin.io support agent access 
 
-1. Sign up to [resin.io](https://dashboard.resin.io/signup) with your @resin.io e-mail account
-1. Sign up to [resin.io staging](https://dashboard.resinstaging.io/signup) with your @resin.io e-mail account
+1. Sign up to [resin.io](https://dashboard.resin.io/signup) with your @balena.io e-mail account
+1. Sign up to [resin.io staging](https://dashboard.resinstaging.io/signup) with your @balena.io e-mail account
 1. Let the Operations team know, in the Operations flow, in Flowdock
 
 _Note: These accounts should NOT be for daily use, but only for your support role._
@@ -58,7 +58,7 @@ Timezone.io
 1. Go to https://timezone.io/team/resinio to confirm you've signed up successfully
 
 ### Short introduction to the services/tools we use
-Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific resin.io components and teams. This is the best place to communicate with other team members and ask any questions you have.
+Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have.
 
 Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile. Here's a short [Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
 
@@ -83,6 +83,6 @@ Timezone.io is a one-page website that shows each of the team’s member timezon
 ### Photos
 We're putting a lot of effort into simplifying and maintaining the remote working culture, making it as easy and friendly for team members to work in it.
 
-Thus, we'd like to ask you to upload a photo to the everyday services you'll be using, such as your @resin.io e-mail and Flowdock. You can use the same photo you use for your social media profiles as long as it is an actual photo of you, as normal as possible! 
+Thus, we'd like to ask you to upload a photo to the everyday services you'll be using, such as your @balena.io e-mail and Flowdock. You can use the same photo you use for your social media profiles as long as it is an actual photo of you, as normal as possible! 
 
 Lastly, please create an issue [here](https://github.com/resin-io/resin-site/issues) uploading your photo, full name as well as where you will be working from (e.g. London, UK) and your job title (e.g. Software Engineer) in order for you to be included in the [team page](https://resin.io/team).
