@@ -1,13 +1,13 @@
 First things first! Before you get access to any of the services we’re using and in order for the team to get you started, you need to have your e-mail account and calendar set up.
 * Log into your personal e-mail account (the one you’ve shared with us)
-* Open the “Welcome to Resin.io” e-mail (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
+* Open the “Welcome to Balena” e-mail (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * Follow instructions and set up your e-mail account
 * Go to calendar.google.com to see your schedule for today. All your onboarding meetings are already there.
 
 Your inbox will be full of e-mails that our team has already sent you. These are invitations to tools we use, guides and other material that will help you get started.
 
 ### Basic tools<br>
-As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday resin.io life easier.
+As mentioned above, once you log into your @resin.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday balena life easier.
 
 **NOTE:** Important! You **MUST** use the same handle across Flowdock, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
 when it comes to auto-completing @-mentions.
