@@ -1,6 +1,6 @@
-# balena Wiki
+# Balena Wiki
 
-Welcome to the balena wiki.
+Welcome to the Balena wiki.
 
 ## How to get things done (balena processes)
 
