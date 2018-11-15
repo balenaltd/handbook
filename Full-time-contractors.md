@@ -1,4 +1,4 @@
-Resin.io provides its full-time contractors a 30 days time off package. Some info about your package, fellow full-time contractor:
+Balena provides its full-time contractors a 30 days time off package. Some info about your package, fellow full-time contractor:
 
 This package includes both your country's public holidays and your time off holidays. Tracking down each parliament's annual decision of public holidays isn't exactly our field of expertise so you have to choose your time off days wisely.
 
