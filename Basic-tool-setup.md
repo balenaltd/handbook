@@ -9,7 +9,7 @@ Your inbox will be full of e-mails that our team has already sent you. These are
 ### Basic tools<br>
 As mentioned above, once you log into your @balena.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday balena life easier.
 
-**NOTE:** Important! You **MUST** use the same handle across Flowdock, Front, Resin.io forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
+**NOTE:** Important! You **MUST** use the same handle across Flowdock, Front, balena forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
 when it comes to auto-completing @-mentions.
 
 For now, make sure you have access to the following services:
