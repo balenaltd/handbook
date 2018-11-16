@@ -18,7 +18,7 @@ We’ve found it really useful to filter the notifications we receive in our e-m
 > Email notifications for Issues, Pull Requests, and Gists can easily be filtered by the List-ID header. Look for this header value to sort your notifications, or even forward them to a more appropriate email account. You can filter on *.org.github.com to filter out emails by organization, or repo.org.github.com to filter out emails from a specific repo.
 
 ## E-mail notifications routing
-You can choose which orgs’ e-mails to receive to which inbox by visiting Github/Settings/Notifications/Notification e-mail/Custom routing. Try sending all company related notifications to your @resin.io inbox. You can also check put this guide about email notifications and github: https://help.github.com/articles/about-email-notifications/
+You can choose which orgs’ e-mails to receive to which inbox by visiting Github/Settings/Notifications/Notification e-mail/Custom routing. Try sending all company related notifications to your @balena.io inbox. You can also check put this guide about email notifications and github: https://help.github.com/articles/about-email-notifications/
 
 ## Unwatch repos
 Did you know you can, automatically, unwatch the repos that you don’t work on directly? This way, you’ll only get notifications on mentions and assigned issues/PRs. Open the repo you’d like to unwatch and click the Unwatch button which is next to the Star button.
