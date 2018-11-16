@@ -7,7 +7,7 @@ Before you start, make sure that have access to the following organizations:
 * https://github.com/balena-io-projects: Projects we recommend users try on balena.
 * https://github.com/resin-os: Resin.io operating system and device support related repositories.
 * Depending on your job duties you may have access to additional orgs, such as:
-* https://github.com/balena-io-library: Resin.io base images only.
+* https://github.com/balena-io-library: Balena base images only.
 
 Note that you’ll receive as many invites as the Github organizations you are requested to join.
 
