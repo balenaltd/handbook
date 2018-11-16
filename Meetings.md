@@ -4,7 +4,7 @@ You are free to join all calls (except some Operations calls) but it’s not man
 This is the call where all resin team join once per week and talks, shares and gets notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Tuesdays. Led by @alexandrosm
 
 ## Architecture Call
-This call is about the architectural stuff of resin. Led by @lekkas and @petrosagg
+This call is about the architectural stuff of balena. Led by @lekkas and @petrosagg
 
 ## Devices Call
 This call is about the issues, problems, solutions, and ideas of the devices that are supported or planned to be supported. Led by @agherzan
@@ -13,10 +13,10 @@ This call is about the issues, problems, solutions, and ideas of the devices tha
 This the Development Operations Call in which DevOps-related incident that occurred are discussed. Led by @brwonjohnf
 
 ## Operations Call
-This call is about the operational stuff of resin. Led by @apostolism
+This call is about the operational stuff of balena. Led by @apostolism
 
 ## Process Call
-This call deals with the process issues of resin. Led by @alexandrosm
+This call deals with the process issues of balena. Led by @alexandrosm
 
 ## Sales & Business Development Call
 Led by @halebr
