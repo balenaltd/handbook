@@ -12,6 +12,8 @@ All commercial call notes are kept here: https://drive.google.com/drive/folders/
 
 ## Recordings 
 
+Nov 20, 2018: https://drive.google.com/file/d/1RLmwFxWr9GCPNOg2p2B5SKjZFdBVmBct/view
+
 Sept 18, 2018: https://drive.google.com/file/d/1XphLiICiTQ1Ta-gQeo6ZJWrF5mN7r12X/view
 
 Sept 11, 2018: https://drive.google.com/file/d/1i09vtiaSDiczRGCFHdRufq5Vemx2-jow/view
