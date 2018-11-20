@@ -9,7 +9,7 @@ Welcome to the Balena wiki.
     - [What to expect working at balena](https://github.com/resin-io/hq/wiki/What-to-expect-working-at-resin.io)
     - [Live the balena user experience](https://github.com/resin-io/hq/wiki/Live-the-resin.io-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
-    - [Development, Support and Process guidelines](https://github.com/resin-io/hq/wiki/Development,-Support-and-Process-Guidelines)
+    - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-Guidelines)
   - Company culture
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
