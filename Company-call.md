@@ -4,7 +4,7 @@
 
 ### Tue, Nov 20 2018
 * [Meeting minutes](https://docs.google.com/document/d/1SXFk3Tgwy9azx4gnMZHIQEpDadUVb6kmauA35e297Rg/edit?usp=sharing)
-* [Video](https://drive.google.com/file/d/18SzFsDrw01awOqwYcjJtiyspinJREOPf/view?usp=sharing)
+* [Video]()
 * [Audio](https://drive.google.com/file/d/1_NNP0MGM7DO8Rv12QBCTMGhSNt7KcREf/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/13NeztpsQhm87xGte6HM1ZmZCBEWelR04/view?usp=sharing)
 
