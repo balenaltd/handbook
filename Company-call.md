@@ -4,9 +4,9 @@
 
 ### Tue, Nov 20 2018
 * [Meeting minutes](https://docs.google.com/document/d/1SXFk3Tgwy9azx4gnMZHIQEpDadUVb6kmauA35e297Rg/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/18SzFsDrw01awOqwYcjJtiyspinJREOPf/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1_NNP0MGM7DO8Rv12QBCTMGhSNt7KcREf/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/13NeztpsQhm87xGte6HM1ZmZCBEWelR04/view?usp=sharing)
 
 ### Tue, Nov 13 2018
 * [Meeting minutes](https://docs.google.com/document/d/15zoEDsqk4eLp5jGWD3q-DvUYQWAnbs9p08EbWS5RinU/edit#heading=h.uf7h2ax0lhwa)
