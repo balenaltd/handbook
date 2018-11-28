@@ -6,7 +6,7 @@
 * [Meeting minutes](https://docs.google.com/document/d/1pPfPZYMm4Thx9NHN_wkjzebAlyQitCPtxpRWeENcR24/edit?usp=sharing)
 * [Video]()
 * [Audio]()
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1xAVXckiV5CpDDwQeNYmMIO_a2GoX-5mQ/view?usp=sharing)
 
 ### Tue, Nov 20 2018
 * [Meeting minutes](https://docs.google.com/document/d/1SXFk3Tgwy9azx4gnMZHIQEpDadUVb6kmauA35e297Rg/edit?usp=sharing)
