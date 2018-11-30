@@ -5,7 +5,7 @@ Each Friday we hold a company-wide hackathon for balena. Instead of your regular
 
 1. It uses balena, or can attempt to break the security of balena, or can be a tool built using balena-sdk or balena-API or other balena components.
 1. You can't use special privileges to code the project, you should not even have your resin Dev Env running on Friday (i.e. any external user must be able to build the same project)
-1. You must declare what project you'll be working on, on Flowdock -`r/project`-, either before the end of your Thursday or at the morning of the hack day.
+1. You must declare what project you'll be working on, on Flowdock -`s/projects`-, either before the end of your Thursday or at the morning of the hack day.
 1. At the end of the day you’re expected to file bug reports for any bugs you ran into and write a short paragraph of your experience with balena, things you noticed, areas you had friction, and share it with the Experience team, using the internal chat service.
 1. The project should be reasonably scoped, although it does not have to be finished in one hack day and can stretch over 3 or 4 Fridays. Ideally, each hack day project should result in a nice github repo link and for awesome ones we will write a blog post about them.
 
