@@ -42,8 +42,8 @@ _Only premium customers_
 
 ~~Updating Salesforce~~
 ~~Now that the customer has agreed to buy, you will need to update the salesforce record to reflect a “closed won” sales opportunity. Before you can “close won” an opportunity, you will need the following:~~
-~~* Existing “Account” and “opportunity” in Salesforce -- Should already be created, but create if not
-* Pricing plan the customer wants to purchase~~
+~~* Existing “Account” and “opportunity” in Salesforce. Should already be created, but create if not:~~
+~~Pricing plan the customer wants to purchase~~
     ~~* Along with additional devices or users they want to add~~
 
 ~~To update the Salesforce opportunity:~~        
