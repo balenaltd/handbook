@@ -159,16 +159,9 @@ Use the
 ### Logo request
 Ask customer for their logo to put on our website
 
-### Flowdock
-Send #ringthebell message in s/Sales
-
 ## Pricing Guidelines
 
-Guidelines:    
-0-1000     $1.00   
-1k-5k      $0.85   
-5k-10k     $0.70   
-10k+       $0.60
+For device volume and prepayment discounts, see https://github.com/balena-io/volume-pricing (as of Dec 6 2018, the `users-volume-discount` branch was the most recent)
 
 
 ***
