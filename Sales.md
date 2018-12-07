@@ -10,11 +10,11 @@
 
 ### Administrative Tasks
 Things to update:
-* Salesforce
-* Recurly
-* Resin Database via Admin Panel
-    * Mark user(s) as paid
-    * Create organization
+~~* Salesforce~~
+* Recurly (if not self serve)
+* Balena Database via Admin Panel (if not self served)
+    * Mark user(s) as paid and grant support access under `Users`
+    * Add Recurly ID and subscription information to paying org under `Organizations`
 * Front *
 _Only premium customers_
 * Zendesk *
@@ -24,7 +24,7 @@ _Only premium customers_
 * Calendar
 * Post-sales disco call _(if fully self-serve)_
 * Logo request
-* Flowdock
+* Flowdock (if not self serve)
 
 ### Customer Satisfaction Tasks
 * All Paid Accounts
@@ -39,7 +39,7 @@ _Only premium customers_
 
 ## Instructions
 
-### Updating Salesforce
+~~### Updating Salesforce
 Now that the customer has agreed to buy, you will need to update the salesforce record to reflect a “closed won” sales opportunity. Before you can “close won” an opportunity, you will need the following:
 * Existing “Account” and “opportunity” in Salesforce -- Should already be created, but create if not
 * Pricing plan the customer wants to purchase
@@ -56,7 +56,7 @@ To update the Salesforce opportunity:
     * “Pricing Tier”
     * “Close Date”: Should be today’s date/the day you send the invoice
     * “Stage”: Move to “Closed Won”
-4. If the opportunity was generated through self-serve billing, the Recurly account code must be entered in the Account ID field under the Salesforce account.
+4. If the opportunity was generated through self-serve billing, the Recurly account code must be entered in the Account ID field under the Salesforce account.~~
 
 ### Updating Recurly
 **Note: Self-serve customers will have most info already entered**
