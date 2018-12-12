@@ -76,7 +76,7 @@ The forums are used by our free users for support requests, and generally for di
 Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
 users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock,front etc.)
 
-Resin.io support agent access means that you have access to certain user applications. It’s really useful when you provide customer support.
+Resin.io support agent access means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, ping Operations with your username to get the team_member role added to your user
 
 Timezone.io is a one-page website that shows each of the team’s member timezone.
 
