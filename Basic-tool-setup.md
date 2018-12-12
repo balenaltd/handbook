@@ -1,6 +1,6 @@
 First things first! Before you get access to any of the services we’re using and in order for the team to get you started, you need to have your e-mail account and calendar set up.
 * Log into your personal e-mail account (the one you’ve shared with us)
-* Open the “Welcome to Balena” e-mail (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
+* Open the “Welcome to balena” e-mail (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * Follow instructions and set up your e-mail account
 * Go to calendar.google.com to see your schedule for today. All your onboarding meetings are already there.
 
@@ -21,7 +21,7 @@ Primary:
 * [Balena Forums](https://forums.balena.io/)
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
-* Resin.io support access*
+* balena support access*
 * [Timezone.io](https://timezone.io/)*
 * Intercom
 
@@ -29,7 +29,7 @@ Depending on your job position and team you may have access to additional tech-r
 
 As needed (request access from the Ops team):
 * Zendesk
-* [Resin.io Forums Moderator Access](https://forums.resin.io/)
+* [Balena Forums Moderator Access](https://forums.balena.io/)
 
 Please note that Zendesk and Forums moderator access are added right before a balenista joins support. If you need it sooner, please let the Ops team know.
 
@@ -44,10 +44,10 @@ Github
 1. Share your username with the Operations team
 1. Accept the invitations you'll receive to the inbox connected to your Github account, to join the relevant Github organizations.
 
-Resin.io support agent access 
+Balena support agent access 
 
-1. Sign up to [resin.io](https://dashboard.resin.io/signup) with your @balena.io e-mail account
-1. Sign up to [resin.io staging](https://dashboard.resinstaging.io/signup) with your @balena.io e-mail account
+1. Sign up to [balena.io](https://dashboard.resin.io/signup) with your @balena.io e-mail account
+1. Sign up to [balena.io staging](https://dashboard.resinstaging.io/signup) with your @balena.io e-mail account
 1. Let the Operations team know, in the Operations flow, in Flowdock
 
 _Note: These accounts should NOT be for daily use, but only for your support role._
@@ -60,9 +60,9 @@ Timezone.io
 ### Short introduction to the services/tools we use
 Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have.
 
-Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile. Here's a short [Calamari getting started guide](https://docs.google.com/a/resin.io/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
+Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile. Here's a short [Calamari getting started guide](https://docs.google.com/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
 
-Intercom is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the resin.io dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
+Intercom is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the balena dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
 
 Zendesk is the customer support helpdesk we provide to paid customers. All Zendesk messages are piped into Front, which is where we manage them. We only access Zendesk directly when the Front integration isn't working properly.
 
@@ -76,7 +76,7 @@ The forums are used by our free users for support requests, and generally for di
 Friday projects, etc. It's required that you have an account there because eventually you'll need it for supporting
 users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock,front etc.)
 
-Resin.io support agent access means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, ping Operations with your username to get the team_member role added to your user
+Balena support agent access means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, ping Operations with your username to get the team_member role added to your user
 
 Timezone.io is a one-page website that shows each of the team’s member timezone.
 
@@ -85,4 +85,4 @@ We're putting a lot of effort into simplifying and maintaining the remote workin
 
 Thus, we'd like to ask you to upload a photo to the everyday services you'll be using, such as your @balena.io e-mail and Flowdock. You can use the same photo you use for your social media profiles as long as it is an actual photo of you, as normal as possible! 
 
-Lastly, please create an issue [here](https://github.com/resin-io/resin-site/issues) uploading your photo, full name as well as where you will be working from (e.g. London, UK) and your job title (e.g. Software Engineer) in order for you to be included in the [team page](https://resin.io/team).
+Lastly, please create an issue [here](https://github.com/balena-io/resin-site/issues) uploading your photo, full name as well as where you will be working from (e.g. London, UK) and your job title (e.g. Software Engineer) in order for you to be included in the [team page](https://balena.io/team).
