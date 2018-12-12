@@ -4,8 +4,8 @@
 
 ### Tue, Dec 11 2018
 * [Meeting minutes](https://docs.google.com/document/d/1cIk6iTBZCllekdz_fjPB7-sze9fKeOKCQubs4XYgKZE/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1fTZqQIkSpNWY7-PVBtaaWx70imuc1k46/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1xUi-i1MxPfNGsk79Sln7FHXT2u4BLHKg/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/19MEbjLN3eSKfbx4rHoCoeZKZUPRBW3Pi/view?usp=sharing)
 
 ### Tue, Dec 4 2018
