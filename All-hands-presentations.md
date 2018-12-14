@@ -3,7 +3,7 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
 
 ### Thu, Dec 13 2018 (Monitoring our Backend Infrastructure)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1kLTi8bQ0S54i_N6_Vs_zBA7SufByYFjc/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1K7yisd_U2IhoG2Ofbk8LXq5rD95EFn2U/view?usp=sharing)
 * [Presentation](https://drive.google.com/file/d/1Q_7KFJsj84flWMVT_z6MHUEapZea_dey/view?usp=sharing)
 
