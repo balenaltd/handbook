@@ -4,8 +4,8 @@
 
 ### Thu, Dec 13 2018 (Monitoring our Backend Infrastructure)
 * [Video]()
-* [Audio]()
-* [presentation]()
+* [Audio](https://drive.google.com/file/d/1K7yisd_U2IhoG2Ofbk8LXq5rD95EFn2U/view?usp=sharing)
+* [Presentation](https://drive.google.com/file/d/1Q_7KFJsj84flWMVT_z6MHUEapZea_dey/view?usp=sharing)
 
 
 ### Thu, Oct 11 2018 (Summit 2018 second presentation)
