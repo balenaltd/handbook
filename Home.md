@@ -7,7 +7,7 @@ Welcome to the Balena wiki.
 - Team
   - Joining balena
     - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
-    - [The remote working experience]
+    - [The remote working experience](https://github.com/balena-io/balena/wiki/The-remote-working-experience)
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
     - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-Guidelines)
