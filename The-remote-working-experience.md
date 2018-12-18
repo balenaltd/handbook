@@ -1,6 +1,6 @@
 Remote working has become very popular this last decade and while it has undoubtedly got its challenges by surpassing them can result to it becoming fulfilling and why not life changing. Here at balena we welcome remote working and we try to provide balenistas with all the tools and support they need in order to adjust and become a valuable team member.
 
-## What is a good place to work from?
+### What is a good place to work from?
 
 Below you can see from our experience over the years what we consider a good place to work from. 
 - enough equipment around you to perform any work duties you have, and enough space to use them in
