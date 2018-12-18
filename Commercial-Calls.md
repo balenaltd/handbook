@@ -12,6 +12,10 @@ All commercial call notes are kept here: https://drive.google.com/drive/folders/
 
 ## Recordings 
 
+If a recording isn't here, it's probably attached to the calendar invite from the call :) 
+
+Dec 18, 2018: https://drive.google.com/file/d/1T6YinkCaGQ9Tw7_ry7CadPUL6CwZo58t/view
+
 Nov 20, 2018: https://drive.google.com/file/d/1RLmwFxWr9GCPNOg2p2B5SKjZFdBVmBct/view
 
 Sept 18, 2018: https://drive.google.com/file/d/1XphLiICiTQ1Ta-gQeo6ZJWrF5mN7r12X/view
