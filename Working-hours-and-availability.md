@@ -4,4 +4,15 @@ The 9am to 6pm period for working from the office is pretty common. If you choos
 
 You should be reachable by instant messaging (or by mobile) at any time during your working hours. This is critical in order to keep our workflow running and help all team members deliver on time without any interruption.
 
+### What is a good place to work from?
+
+Below you can see from our experience over the years what we consider a good place to work from. 
+- enough equipment around you to perform any work duties you have, and enough space to use them in
+- reliable internet connection, enough for video
+- quiet place to take calls from
+- a working environment that doesn't compromise your productivity and gives you long stretches of distraction-free time to work
+- a fixed address where the ops team can send you parcels if needed
+- advance notice and approval when it comes to shifting timezones and working days significantly.
+- ability to meet all your standard obligations like team checkins, all hands calls, applicable brainstorms, etc
+
 Finally, we strongly suggest reading our [“How we run a remote team” blog post](https://resin.io/blog/how-we-run-a-remote-team/) to get a better idea of how we operate.
