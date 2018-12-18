@@ -24,7 +24,7 @@ If you take any photos / videos during your project development (and you most li
 
 Add you hack ideas here, to inspire others and remind yourself! Ideas here can be picked up by anyone else too, so mark it if you worked on it!
 
-* Resin.io [Atom](https://atom.io/) plugin (from: @imrehg, doing: )
+* Resin.io [Atom](https://atom.io/) and Microsoft [Visual Studio Code (VSCode)](https://code.visualstudio.com) plugin (from: @imrehg, doing: )
 * Heroku app to receive Github webhook and deploy to resin (from: @imrehg, doing: )
 * SBVR highlighter for VSCode or SublimeText (from: @thgreasi)
 * Ansible module for automating Balena operations in declarative steps (from: [@pcgeek86](https://github.com/pcgeek86))
