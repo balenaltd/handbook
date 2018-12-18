@@ -27,6 +27,7 @@ Add you hack ideas here, to inspire others and remind yourself! Ideas here can b
 * Resin.io [Atom](https://atom.io/) plugin (from: @imrehg, doing: )
 * Heroku app to receive Github webhook and deploy to resin (from: @imrehg, doing: )
 * SBVR highlighter for VSCode or SublimeText (from: @thgreasi)
+* Ansible module for automating Balena operations in declarative steps (from: [@pcgeek86](https://github.com/pcgeek86))
 
 ## Past hacks
 
