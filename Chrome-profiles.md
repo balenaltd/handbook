@@ -6,3 +6,5 @@ Google has introduced the Sign in to Chrome feature to Google Chrome users.
 Signing in to Google Chrome with your @balena.io e-mail address will help you create a profile with settings, bookmarks etc that are connected to your job and keep all your balena interests organized.
 
 Interested in learning more about Chrome profiles? See https://support.google.com/chrome/answer/185277?hl=en&ref_topic=3421437.
+
+**NOTE**: If you are using a Google ChromeOS device (ie. Chromebook laptop, Chromebox desktop), you can sign into the operating system with multiple profiles and easily switch between them.
