@@ -28,6 +28,7 @@ Add you hack ideas here, to inspire others and remind yourself! Ideas here can b
 * Heroku app to receive Github webhook and deploy to Balena (from: @imrehg, doing: )
 * SBVR highlighter for VSCode or SublimeText (from: @thgreasi)
 * Ansible module for automating Balena operations in declarative steps (from: [@pcgeek86](https://github.com/pcgeek86))
+* Send sensor data to Thinkspeak from a Balena application (from: [@pcgeek86](https://github.com/pcgeek86))
 
 ## Past hacks
 
