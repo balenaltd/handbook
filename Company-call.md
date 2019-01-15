@@ -4,8 +4,8 @@
 
 ### Tue, Jan 15 2019
 * [Meeting minutes](https://docs.google.com/document/d/1nNnbdzH_IbtwDwsLDykxsWON31Vw7Rw20mdKEesHvqs/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1mlmY7BiMbl40mpVr3XzjT0mexqRL1olL/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1TD7gobGBq1WvWgAg3UDwF6PXLiY4qpr5/view?usp=sharing)
 * [Attendees]()
 
 ### Tue, Jan 8 2019
