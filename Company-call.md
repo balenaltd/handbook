@@ -6,7 +6,7 @@
 * [Meeting minutes](https://docs.google.com/document/d/1nNnbdzH_IbtwDwsLDykxsWON31Vw7Rw20mdKEesHvqs/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1mlmY7BiMbl40mpVr3XzjT0mexqRL1olL/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1TD7gobGBq1WvWgAg3UDwF6PXLiY4qpr5/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1rpFq6TqhbSQxQXDkPwQEt7M0cJ4zoK3A/view?usp=sharing)
 
 ### Tue, Jan 8 2019
 * [Meeting minutes](https://docs.google.com/document/d/1g1lDl7syr4_UJWFR3yRpnBQVCrRpvAaWJgaN4u9kFsI/edit?usp=sharing)
