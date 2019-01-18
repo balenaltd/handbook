@@ -1,21 +1,21 @@
 # Keynotes  
 
 ## How do we succeed? 
-* Video ()
-* Presentation ()
+* [Video] ()
+* [Presentation] ()
 
 ## How do we grow? 
-* Video ()
-* Presentation ()
+* [Video] ()
+* [Presentation] ()
 
 ## Problems that indicate problems
-* Video ()
-* Presentation ()
+* [Video] ()
+* [Presentation] ()
 
 ## Balena Architecture 
-* Video () 
-* Presentation ()
+* [Video] () 
+* [Presentation] ()
 
 ## Product Roadmap 
-* Video ()
-* Presentation (https://drive.google.com/file/d/17UbrlRfQHtj-lHZXETYgLvIYWDq8bWKM/view?usp=sharing)
+* [Video] ()
+* [Presentation] (https://drive.google.com/file/d/17UbrlRfQHtj-lHZXETYgLvIYWDq8bWKM/view?usp=sharing)
