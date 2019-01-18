@@ -9,8 +9,8 @@ Welcome to the Balena wiki.
     - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
-    - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-
-    - [Summit Keynote 2018](
+    - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-)
+    - [Summit Keynote 2018]()
 
 Guidelines)
   - Company culture
