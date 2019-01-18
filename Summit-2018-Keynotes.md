@@ -1,4 +1,5 @@
 # Keynotes  
+ Reviewing our progress and outlining our vision for the future at Summit 2018 in Barcelona.
 
 ### How do we succeed? 
 * [Video](https://drive.google.com/file/d/1LCww3lwWDlViGrT69bwU0jwpHb52J7Dv/view?usp=sharing)
