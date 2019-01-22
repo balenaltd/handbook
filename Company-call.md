@@ -3,7 +3,7 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 ### Tue, Jan 22 2019
-* [Meeting minutes]()
+* [Meeting minutes](https://docs.google.com/document/d/1I7RL-LbDu8BSKGVZDw13_ZC3LDuinhKVNLb9byD-5nU/edit?usp=sharing)
 * [Video]()
 * [Audio]()
 * [Attendees]()
