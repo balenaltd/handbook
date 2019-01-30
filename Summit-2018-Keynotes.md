@@ -1,5 +1,7 @@
-# Keynotes  
- Reviewing our progress and outlining our vision for the future at Summit 2018 in Barcelona.
+# Keynotes 
+We've grown our team into an incredible group of people dedicated to unlocking the potential of physical computing. The strength of our team is never more apparent than at our annual summit, which this year was held in Barcelona, Spain for the first time.
+ 
+At Summit we reviewed our progress and outlined our vision for the future.  
 
 ### How do we succeed? 
 * [Video](https://drive.google.com/file/d/1LCww3lwWDlViGrT69bwU0jwpHb52J7Dv/view?usp=sharing)
