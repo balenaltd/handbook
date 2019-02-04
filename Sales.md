@@ -7,11 +7,12 @@
 
 # Sales Tools
 
-[HelloSign](https://hellosign.com)
-[MixPanel](https://mixpanel.com)
-[Outreach](https://outreach.io)
-[Intercom](https://app.intercom.io)
-[FrontApp](https://frontapp.com)
+* [HelloSign](https://hellosign.com)
+* [MixPanel](https://mixpanel.com)
+* [Outreach](https://outreach.io)
+  * **IMPORTANT**: Make sure you [configure your local time zone](https://app1f.outreach.io/schedules) in Outreach. This is used by Outreach to send outbound e-mails.
+* [Intercom](https://app.intercom.io)
+* [FrontApp](https://frontapp.com)
 
 ##  Post-Sales Master Checklist
 
