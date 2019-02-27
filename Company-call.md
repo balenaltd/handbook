@@ -4,9 +4,9 @@
 
 ### Tue, Feb 26 2019
 * [Meeting](https://docs.google.com/document/d/1Nw5hJpOhUq6fo8t2bonKX-qdOYDhqLLD4aCqpumtNgw/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1umWPiw5YbnTYz5tosecJ5_FbNsWcZfF3/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1Gu5fP3yJzz1AKHiLH7dekflF-lvSdCV8/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1ZtojPBE-t43PqAp2WlNBozvijUkoRoEx/view?usp=sharing)
 
 ### Tue, Feb 19 2019
 * [Meeting](https://docs.google.com/document/d/1BzTsO9f2sgUTs7r2IbR8kL2Rru3Yg3bauTvChLfIStg/edit?usp=sharing)
