@@ -85,4 +85,3 @@ We're putting a lot of effort into simplifying and maintaining the remote workin
 
 Thus, we'd like to ask you to upload a photo to the everyday services you'll be using, such as your @balena.io e-mail and Flowdock. You can use the same photo you use for your social media profiles as long as it is an actual photo of you, as normal as possible! 
 
-Lastly, please create an issue [here](https://github.com/balena-io/resin-site/issues) uploading your photo, full name as well as where you will be working from (e.g. London, UK) and your job title (e.g. Software Engineer) in order for you to be included in the [team page](https://balena.io/team).
