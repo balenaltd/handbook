@@ -6,7 +6,7 @@
 * [Meeting](https://docs.google.com/document/d/1SJlGaOnuK6c-2AiMNN5NSG7j8CcUsVNF-Ey3ucm6Cq0/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/155s7AFT9sMEX-a4nAzH1hyWIdDvuzEr-/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1a0jpgwiZiA2lr5mi5d38uLS5D7VX4AFU/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1zRCWBtoJYNFWT2McnCBeu-4-FdbfTIxJ/view?usp=sharing)
 
 ### Tue, Mar 19 2019
 * [Meeting](https://docs.google.com/document/d/1XN65AW7Iq7xlXYw-UhnX7-CGkFpQjt48u9pvumthJXo/edit?usp=sharing)
