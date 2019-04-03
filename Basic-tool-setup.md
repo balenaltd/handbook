@@ -55,7 +55,7 @@ _Note: These accounts should NOT be for daily use, but only for your support rol
 Timezone.io
 
 1. Go to https://timezone.io/join/9310ab3ee831a921 and sign up
-1. Go to https://timezone.io/team/resinio to confirm you've signed up successfully
+1. Go to https://timezone.io/team/balena to confirm you've signed up successfully
 
 ### Short introduction to the services/tools we use
 Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have.
