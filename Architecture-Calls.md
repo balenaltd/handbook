@@ -45,17 +45,12 @@ The steps to run an architecture call are:
 
 #### Before
 
-- Run the [postArchCallHeadsUp](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallHeadsUp.js) script well before the arch call. This basically:
-
-- Fetches open arch call items from https://front.frontapp.com/inboxes/shared/d_architecture
-- Creates the agenda and pings reporters/mentioned people
-- Gives guidelines to item reporters (e.g. on how to snooze tickets for later or archive discussed conversations)
-
-Just before the arch call (from 1 minutes to right before the call) run the [postArchCallAgenda](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallAgenda.js) script. This basically refetches the agenda, posts it to flowdock and pings Alex, Petros, Page and Shaun.
+- Just before the arch call (from 1 minutes to right before the call) run the [postArchCallAgenda](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallAgenda.js) script. This basically refetches the agenda, posts it to flowdock and pings Petros.
+- Reporters of arch call items will often forget to add #summary comments to items they discussed, or items may no longer be relevant, and will ping whoever posted the arch call agenda to remove their item from the flowdock list.
 
 #### During
 
-By default the reporters of the item are responsible for keeping notes. If a reporter cannot attend the arch call then he/she should ask for someone else who has knowledge of the raised issue to do so. This should all be settled down after the arch call agenda heads up has been posted.
+The process dictates that the reporters of the item are responsible for keeping notes. If a reporter cannot attend the arch call then he/she should ask for someone else who has knowledge of the raised issue to do so. This should all be settled down after the arch call agenda heads up has been posted.
 
 Arch calls are recorded. We're still looking for a way to automate this (it's not clear how to do this over an API for Google Meet), so if you run the arch call, remember to log in and press 'record' :)
 
@@ -65,7 +60,6 @@ After the call, preferably a few hours later to give people some time to add not
 
 - Run the [postArchCallNotes](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallNotes.js) script. This basically fetches Front items with a `summary-needs-posting` tag, posts them in flowdock with the #meeting-notes hashtag (so everyone in the team receives the notes) and re-tags the Front conversation with the `summary-posted` tag.
 
-The notes must also be added in https://github.com/resin-io/balena/wiki/Architecture-Calls (manually at the moment)
 
 ### Architecture call recordings
 
