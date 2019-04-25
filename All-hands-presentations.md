@@ -3,8 +3,8 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Apr 25 2019 (Fin 1.1 and its QA process)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1twz0n4P5AyhFwK4Jrx56rZ7cAc5ide2c/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1ov836APOs3A9Wzh6aEfLWkZndvzc-H-3/view?usp=sharing)
 * [Presentation](https://docs.google.com/presentation/d/1MM5TgnXhw_eA9TXHiDCognLvngHC4h5n20iyc8zHqpQ/edit?usp=sharing)
  
 ### Thu, Mar 28 2019 (Jellyfish Support Process)
