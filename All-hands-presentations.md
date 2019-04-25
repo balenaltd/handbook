@@ -1,7 +1,12 @@
 ## Recent Meeting Notes
 
-### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA) 
+### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
+### Thu, Apr 25 2019 (Fin 1.1 and its QA process)
+* [Video]()
+* [Audio]()
+* [Presentation]()
+ 
 ### Thu, Mar 28 2019 (Jellyfish Support Process)
 * [Video](https://drive.google.com/file/d/1FqqGIApbZLfMMQqpawEAYAJaH4C-6zba/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1Z6L-RJ9-6TEY2fLCi0uD8qbf2v6SpKvY/view?usp=sharing)
