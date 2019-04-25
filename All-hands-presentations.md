@@ -5,7 +5,7 @@
 ### Thu, Apr 25 2019 (Fin 1.1 and its QA process)
 * [Video]()
 * [Audio]()
-* [Presentation]()
+* [Presentation](https://docs.google.com/presentation/d/1MM5TgnXhw_eA9TXHiDCognLvngHC4h5n20iyc8zHqpQ/edit?usp=sharing)
  
 ### Thu, Mar 28 2019 (Jellyfish Support Process)
 * [Video](https://drive.google.com/file/d/1FqqGIApbZLfMMQqpawEAYAJaH4C-6zba/view?usp=sharing)
