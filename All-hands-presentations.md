@@ -5,7 +5,7 @@
 ### Thu, May 02 2019 (Devenv and Livepush)
 * [Video](https://drive.google.com/file/d/1KmxRhGYf85yf6vtQr8IYlCYOPePK2RF4/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1qz-JbgkqZUutgl3v9uXcq2BszpVlWVmH/view?usp=sharing)
-* [Presentation]()
+* [Presentation](https://drive.google.com/file/d/1uuk1cfGAMD6NX3ttKLZ2SNZhFizbegD3/view?usp=sharing)
  
 
 ### Thu, Apr 25 2019 (Fin 1.1 and its QA process)
