@@ -2,7 +2,7 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
-### Thu, May 2 2019 (Fin 1.1 and its QA process)
+### Thu, May 02 2019 (Devenv and Livepush)
 * [Video]()
 * [Audio]()
 * [Presentation]()
