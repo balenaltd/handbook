@@ -3,9 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, May 09 2019 (balenaFin: why it's great and how to sell it)
-* [Video]()
-* [Audio]()
-* [Presentation]()
+* [Video](https://drive.google.com/file/d/18Haq4Zk6V_7v4jxR9riMeZYk7tz-4FVA/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1Gdcr7Q3wQz3x3o3kZ0EwD9l7iLQnHxWO/view?usp=sharing)
+* [Presentation](https://docs.google.com/presentation/d/1ScmldaMVJrsTg6oUbS38tea6sgORHNVyCMupRXDzTEk/edit?usp=sharing)
 
 ### Thu, May 02 2019 (Devenv and Livepush)
 * [Video](https://drive.google.com/file/d/1KmxRhGYf85yf6vtQr8IYlCYOPePK2RF4/view?usp=sharing)
