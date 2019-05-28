@@ -4,8 +4,8 @@
 
 ### Tue, May 28 2019
 * [Meeting](https://docs.google.com/document/d/1pRjUT2-nlBY-axQMcTEDGWDPJfEp9JFdoRBNELj4tk8/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1l0kcRBhxQfz5_0ZrfV2sThdefm8aEamu/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1eUAFb0dggcyXbNNgTpZRpbzWLLhbblsN/view?usp=sharing)
 * [Attendees]()
 
 ### Tue, May 21 2019
