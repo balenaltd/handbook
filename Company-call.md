@@ -2,6 +2,12 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+### Tue, June 11 2019
+* [Meeting](https://docs.google.com/document/d/1oEUmTDErTdCePeC3BvPOnQV8Tlok3KZmX49HVby29Qo/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
 ### Tue, June 04 2019
 * [Meeting](https://docs.google.com/document/d/1WvOk97i2iF16MCXPmJVJ7EXmDFZdAFUJcPQhoR1bxcw/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1bMHh9q5-uE62GHjj0zi5shBmp0O4Ko9Z/view?usp=sharing)
