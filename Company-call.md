@@ -4,8 +4,8 @@
 
 ### Tue, June 11 2019
 * [Meeting](https://docs.google.com/document/d/1oEUmTDErTdCePeC3BvPOnQV8Tlok3KZmX49HVby29Qo/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1vTnppzot7kn64tP3Vf96SBqHYiIye9kP/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1Gu1SJsu2UzjQ68DMWeaGoTvJ1lo7xQfS/view?usp=sharing)
 * [Attendees]()
 
 ### Tue, June 04 2019
