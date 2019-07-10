@@ -6,7 +6,7 @@ Tue, July 09 2019
 * [Meeting](https://docs.google.com/document/d/1cy7UDZXvvROWVQCpNrZjKwuOkOSZrb0hyEX2-2wKTkU/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1XuNPKFSfr9KuMSn3RYbWOM035aYIy0SM/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1XCwW7vqICuaj6VILcRANzRaoCQcTBz9E/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/14kak05-IRI5CYyXrvg_unG-59Z1ba59m/view?usp=sharing)
 
 
 Tue, July 02 2019
