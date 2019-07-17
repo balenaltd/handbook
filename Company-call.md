@@ -3,10 +3,10 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Tue, July 16 2019
-* [Meeting]()
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Meeting](https://drive.google.com/open?id=1cy7UDZXvvROWVQCpNrZjKwuOkOSZrb0hyEX2-2wKTkU)
+* [Video](https://drive.google.com/open?id=1XuNPKFSfr9KuMSn3RYbWOM035aYIy0SM)
+* [Audio](https://drive.google.com/open?id=1XCwW7vqICuaj6VILcRANzRaoCQcTBz9E)
+* [Attendees](https://drive.google.com/open?id=14kak05-IRI5CYyXrvg_unG-59Z1ba59m)
 
 Tue, July 09 2019
 * [Meeting](https://docs.google.com/document/d/1cy7UDZXvvROWVQCpNrZjKwuOkOSZrb0hyEX2-2wKTkU/edit?usp=sharing)
