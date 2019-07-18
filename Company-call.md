@@ -3,10 +3,10 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Tue, July 16 2019
-* [Meeting](https://drive.google.com/open?id=1cy7UDZXvvROWVQCpNrZjKwuOkOSZrb0hyEX2-2wKTkU)
-* [Video](https://drive.google.com/open?id=1XuNPKFSfr9KuMSn3RYbWOM035aYIy0SM)
-* [Audio](https://drive.google.com/open?id=1XCwW7vqICuaj6VILcRANzRaoCQcTBz9E)
-* [Attendees](https://drive.google.com/open?id=14kak05-IRI5CYyXrvg_unG-59Z1ba59m)
+* [Meeting](https://docs.google.com/document/d/1x9PpEirHbgCS0l2J7OSGgBTTPtavD7o1NJ0ePARj9Qo/edit?usp=sharing)
+* [Video](https://drive.google.com/file/d/18qcllbA41oWqFvSuqreOPI1r99RE8MQB/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1g02rG03d8RDtJ6i5g6ygfUy0RAzNYkLK/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1BmONT10IKgCW0qnr2sMfUKlzHXNCYT0e/view?usp=sharing)
 
 Tue, July 09 2019
 * [Meeting](https://docs.google.com/document/d/1cy7UDZXvvROWVQCpNrZjKwuOkOSZrb0hyEX2-2wKTkU/edit?usp=sharing)
