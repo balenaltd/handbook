@@ -2,7 +2,7 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
-### Thu, July 11 2019 (Leviathan Framework)
+### Thu, July 18 2019 (Support Scheduler)
 * [Video](https://drive.google.com/open?id=1r5otsWNhVEdQ9AbFAzFK5HokGR9tS9lk)
 * [Audio](https://drive.google.com/open?id=1ptDadjRs087IVWlBnAPeuAIn2_kDACCC)
 * [Presentation](to be added)
