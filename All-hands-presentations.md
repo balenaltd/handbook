@@ -5,7 +5,7 @@
 ### Thu, July 18 2019 (Support Scheduler)
 * [Video](https://drive.google.com/open?id=1r5otsWNhVEdQ9AbFAzFK5HokGR9tS9lk)
 * [Audio](https://drive.google.com/open?id=1ptDadjRs087IVWlBnAPeuAIn2_kDACCC)
-* [Presentation](to be added)
+* [Presentation](https://drive.google.com/file/d/1seHrGFQUYBsQuLRnYcmdCh5E-yoPRxqj/view?usp=sharing)
 
 ### Thu, July 11 2019 (Leviathan Framework)
 * [Video](https://drive.google.com/file/d/13jGFj-z5Hn2Uo6qCMXmC1bbev2gS8c3z/view?usp=sharing)
