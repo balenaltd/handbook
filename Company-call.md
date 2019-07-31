@@ -4,9 +4,9 @@
 
 Tue, July 30 2019
 * [Meeting](https://docs.google.com/document/d/1e1r_BvOUJHvcVSKa7s6R3hJS05JBaUmzSfd7CyatPF8/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1juZSuwDzDgUzF76ckm5X7gm93qsgoEKL/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1_bEKFNApjKSNlCO_Ulpu990s3KVygQLq/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/15NTGdPdGQUkfZzbqUUCAcGnfWjnAkXYj/view?usp=sharing)
 
 Tue, July 23 2019
 * [Meeting](https://docs.google.com/document/d/1nrOIH0SXkVb_R7nd-dM24hlvAcve4vwl4nXDxz1W6ho/edit#)
