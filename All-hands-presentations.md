@@ -5,7 +5,7 @@
 ### Thu, August 23 2019 (Evolution of our team/org structure )
 * [Video](https://drive.google.com/file/d/1Xi-g4OidrZUK0lFfhACQX4Dq5pczOBxO/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1cTYv3RGAyqVtwkedxHDi5tjmfnlRfHnB/view?usp=sharing)
-* [Presentation]()
+* [Presentation](to be added)
 
 
 ### Thu, July 18 2019 (Support Scheduler)
