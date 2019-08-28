@@ -4,8 +4,8 @@
 
 Tue, August 27 2019
 * [Meeting](https://docs.google.com/document/d/1SVtTfXvANlbNOHCdAVEyDH3ON6CXFZVL0Zrs0ZZUa1g/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1VredWz6EgiU599aSIjdo-xmUwBgKJCdz/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1vR2t7U3OaXIRX_Sci5r6gMEGm4Rqc1dP/view?usp=sharing)
 * [Attendees]()
 
 Tue, August 20 2019
