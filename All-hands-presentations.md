@@ -2,7 +2,7 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
-### Thu, August 29 2019 (Evolution of our team/org structure )
+### Thu, August 29 2019 (Future org structure)
 * [Video](https://drive.google.com/file/d/1a7kOjC8K7h7tdhfnRir3yFmVb4IU7dK6/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1bsDVcbebWkX_XPuTQLzf6Mex6gRn1aOT/view?usp=sharing)
 * [Presentation](to be added)
