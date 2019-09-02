@@ -58,7 +58,7 @@ Timezone.io
 1. Go to https://timezone.io/team/balena to confirm you've signed up successfully
 
 ### Short introduction to the services/tools we use
-Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have.
+Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://docs.google.com/document/d/1NLWb0Zxg3bClCid_wXjE4LTGSg6ZAXWyZ4tseWV9fR4/edit?usp=sharing) to help you navigate in the flowdock world :)
 
 Calamari is the leave management service we’re using. You’ll be using Calamari to submit a time-off request, check who’s away and find coworkers’ information if needed. The company will be using the information you have in your Calamari profile in case it needs to mail you a package, so please take some time and make sure you've added your most up-to-date contact info to your profile. Here's a short [Calamari getting started guide](https://docs.google.com/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
 
