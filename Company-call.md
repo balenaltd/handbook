@@ -3,6 +3,11 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Tue, September 10 2019
+* [Meeting](https://docs.google.com/document/d/1JWxzEnZGoKai1EIMqWElH2rtamuYITIXhTRGSfuvnl8/edit?usp=sharing)
+* [Video]()
+* [Attendees]()
+
+Tue, September 10 2019
 * [Meeting](https://docs.google.com/document/d/1NEVp_HIlsSFvjEZI_w4D7sGiNuY8wZ0LjH6ZTsuAEW8/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1FSf_oxUIGGK43A-LoX_1Thx84yh_-bSp/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/122qj5Oe6Xbi1TM-5Q4D6JsyJa6MNlVhT/view?usp=sharing)
