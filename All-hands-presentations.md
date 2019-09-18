@@ -3,8 +3,7 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Sep 12 2019 (BalenaCl)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1D6y7JfFqW5EAT66sYM9JdTnZpXxmirbm/view?usp=sharing)
 * [Presentation](https://drive.google.com/file/d/1-p8AHuIu1HloNVxhnVLrsEAQtSXbS_6z/view?usp=sharing)
 
 ### Thu, August 29 2019 (Future org structure)
