@@ -4,7 +4,7 @@
 
 Tue, September 10 2019
 * [Meeting](https://docs.google.com/document/d/1JWxzEnZGoKai1EIMqWElH2rtamuYITIXhTRGSfuvnl8/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1jgHoj_I9TKJMEVco3fR2imuUn_L9-dhx/view?usp=sharing)
 * [Attendees]()
 
 Tue, September 10 2019
