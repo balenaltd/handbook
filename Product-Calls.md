@@ -10,8 +10,11 @@ If you have a UX or feature question please tag the thread by adding a comment w
 
 All product call notes are kept here: https://docs.google.com/document/d/1_vkKIWN1xLX7WqMBGXqL-f1KGEyLurwuxXjanEDwnP8/edit#
 
-## Recordings 
-September 21, 2019: https://drive.google.com/file/d/1yVvw7H1Hrr5M_1wQ_wn_chJdK_pkc-xO/view
+## Recordings
+ 
+September 19, 2019: https://drive.google.com/file/d/1_pmQHpQFiZsyTjRSZP8YlsAEj8izWUEn/view
+
+September 12, 2019: https://drive.google.com/file/d/1yVvw7H1Hrr5M_1wQ_wn_chJdK_pkc-xO/view
 
 August 15, 2019: https://drive.google.com/file/d/13yvaLaT0khoTQRxSdN4_7xFyMVEevMVy/view
 
