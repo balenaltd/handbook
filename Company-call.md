@@ -3,7 +3,7 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Tue, September 24 2019
-* [Meeting]()
+* [Meeting](https://docs.google.com/document/d/1esKPzU5DmAtFwFuUG2I_8E2Ij2GdGo0ONnArXIdagt0/edit?usp=sharing)
 * [Video]()
 * [Attendees]()
 
