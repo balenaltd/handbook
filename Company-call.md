@@ -5,7 +5,7 @@
 Tue, September 24 2019
 * [Meeting](https://docs.google.com/document/d/1esKPzU5DmAtFwFuUG2I_8E2Ij2GdGo0ONnArXIdagt0/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1AzE8Ez7yqBBU9vBqfnySM8mE13Yb6JsK/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1KZdkxpykSGR1WumabHBP6myXwPLRgLZl/view?usp=sharing)
 
 Tue, September 17 2019
 * [Meeting](https://docs.google.com/document/d/1JWxzEnZGoKai1EIMqWElH2rtamuYITIXhTRGSfuvnl8/edit?usp=sharing)
