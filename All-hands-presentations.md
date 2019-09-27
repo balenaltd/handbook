@@ -3,8 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Sep 26 2019 (Designing and Manufacturing Electronic Products)
-* [Video]()
-* [Presentation]()
+* [Video](https://drive.google.com/file/d/1r5WGIGbrnfKmAbwgV37KT2ziHrCzop5F/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1IhfZTQbjlUQ3xnWncbKi0j-YZg60SViT/view?usp=sharing)
+* [Presentation](https://drive.google.com/file/d/14GlkrXhqY8gHTuhK5CJdnhk-CUUxM9dd/view?usp=sharing)
 
 
 ### Thu, Sep 12 2019 (BalenaCl)
