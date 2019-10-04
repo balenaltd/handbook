@@ -4,7 +4,7 @@ The 9am to 6pm period for working from the office is pretty common. If you choos
 
 You should be reachable by instant messaging (or by mobile) at any time during your working hours. This is critical in order to keep our workflow running and help all team members deliver on time without any interruption.
 
-## Communicating your availability
+### Communicating your availability
 
 It is important to communicate your working hours to the rest of the team, since
 
@@ -12,7 +12,7 @@ scheduling algorithms are used to schedule events at times that are as convenien
 your team members need to know when you will be available.
 For these purposes, team members indicate their working hours in the Team Model Google Sheet.
 
-### How to enter your working hours
+#### How to enter your working hours
 
 Your preferred working hours for Monday through Friday are set in a sheet titled by your Github handle (in the Team Model Google Sheet). Each day is divided into 48 half-hour slots. The column headings indicate the start time of each hour. When you join, some example values have already been filled in for you. Please note that this is for illustration only, and does not indicate an expectation of when exactly you should work. Customize as needed.
 
@@ -20,11 +20,11 @@ Fill all the slots representing your normal working hours with 1s (indicating av
 
 When you join, your usual time zone is recorded for you in Default Time Zones and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
 
-### Time zone overrides for traveling
+#### Time zone overrides for travelling
 
 If you travel to another location and will be working from there, an override needs to be entered in Time Zone Overrides. If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry here with the relevant time zone.
 
-### Calamari and Google Calendar events
+#### Calamari and Google Calendar events
 
 For the purpose of scheduling a new event, your working hours alone are not enough. The scheduler also needs to know:
 
@@ -33,7 +33,7 @@ For the purpose of scheduling a new event, your working hours alone are not enou
 
 Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named UK Time General Preferences. This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
 
-### Remember to keep your preferences updated!
+#### Remember to keep your preferences updated!
 
 Please make sure that your preference sheet in the Team Model and your balena Google Calendar are always up to date (ideally 2 weeks in advance), to ensure that the scheduling algorithms can do their job well!
 
