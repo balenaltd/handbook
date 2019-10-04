@@ -3,9 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Oct 3 2019 (Team loop conversation)
-* [Video]()
-* [Audio]()
-* [Presentation]()
+* [Video](https://drive.google.com/file/d/14GlaZhVTmttoPWcRMxTcNYNmibIoEfuD/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1rGRux71scpxOGhSqMJgM8oqgYdG_sVIx/view?usp=sharing)
+
 
 
 ### Thu, Sep 26 2019 (Designing and Manufacturing Electronic Products)
