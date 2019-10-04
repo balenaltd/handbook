@@ -8,21 +8,22 @@ You should be reachable by instant messaging (or by mobile) at any time during y
 
 It is important to communicate your working hours to the rest of the team, since
 
-scheduling algorithms are used to schedule events at times that are as convenient as possible for everyone, and therefore need your preferred hours as input, and
-your team members need to know when you will be available.
-For these purposes, team members indicate their working hours in the Team Model Google Sheet.
+* scheduling algorithms are used to schedule events at times that are as convenient as possible for everyone, and therefore need your preferred hours as input, and
+* your team members need to know when you will be available.
+
+For these purposes, team members indicate their working hours in the [Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=404458414) Google Sheet.
 
 #### How to enter your working hours
 
-Your preferred working hours for Monday through Friday are set in a sheet titled by your Github handle (in the Team Model Google Sheet). Each day is divided into 48 half-hour slots. The column headings indicate the start time of each hour. When you join, some example values have already been filled in for you. Please note that this is for illustration only, and does not indicate an expectation of when exactly you should work. Customize as needed.
+Your preferred working hours for Monday through Friday are set in a sheet titled by your Github handle (in the [Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=404458414) Google Sheet). Each day is divided into 48 half-hour slots. The column headings indicate the start time of each hour. When you join, some example values have already been filled in for you. Please note that this is for illustration only, and does not indicate an expectation of when exactly you should work. Customize as needed.
 
 Fill all the slots representing your normal working hours with 1s (indicating available, preferred). If there are additional slots when you are willing to work (i.e. attend a meeting, or do support if you are a support agent), provided that (a) it is really necessary and (b) there will be prior notice for such an appointment, fill these with 2s (indicating available, but non-preferred). This is sometimes necessary if you have to meet with team members from very different time zones. Leave open all slots where you are not available at all.
 
-When you join, your usual time zone is recorded for you in Default Time Zones and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
+When you join, your usual time zone is recorded for you in [Default Time Zones](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=2094979175) and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
 
 #### Time zone overrides for travelling
 
-If you travel to another location and will be working from there, an override needs to be entered in Time Zone Overrides. If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry here with the relevant time zone.
+If you travel to another location and will be working from there, an override needs to be entered in [Time Zone Overrides](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=890329460). If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry here with the relevant time zone.
 
 #### Calamari and Google Calendar events
 
@@ -31,7 +32,7 @@ For the purpose of scheduling a new event, your working hours alone are not enou
 - whether you are on leave (as recorded in the Calamari leave management software)
 - what other events you already have scheduled during those working hours ("busy" events as contained in your balena Google Calendar)
 
-Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named UK Time General Preferences. This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
+Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named [UK Time General Preferences](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=142027874). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
 
 #### Remember to keep your preferences updated!
 
