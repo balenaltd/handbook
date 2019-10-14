@@ -7,7 +7,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * If you request is for two to 14 days: you need to give two weeks notice for time off. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
 * Any requests for more than 14 days in one go are considered an exception. They require an OK from the strategy team, and at least four weeks notice.
 * Holiday allowance resets on each team member hire date anniversary.
-* If you have days left at the end of your year, you may be able some to transfer them to the next year. This is judged on a case-by-case basis. Ask the Ops team about this.
+* If you have days left at the end of your year, you may be able to transfer some of them to the next year. This is judged on a case-by-case basis. Ask the Ops team about this.
 * If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Ops team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 * If you are attending an event where you are speaking, presenting, or representing balena, you do not need to take time off. (Also, your travel can be covered too!)
