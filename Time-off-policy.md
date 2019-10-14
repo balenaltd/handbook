@@ -11,7 +11,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Ops team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Ops team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
 * If you are attending an event where you are speaking, presenting, or representing balena, you do not need to take time off. (Also, your travel can be covered too!)
-* If you're going to a professional conference or event and would like resin to consider providing the time off, please send a message to Alison, including a link to the conference, and a bit about what professional development it's providing.
+* If you're going to a professional conference or event and would like balena to consider providing the time off, please send a message to Alison, including a link to the conference, and a bit about what professional development it's providing.
 
 ### Specific policy information:
 * [Employees](https://github.com/resin-io/hq/wiki/Employees-(time-off))
