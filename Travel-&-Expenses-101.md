@@ -8,7 +8,7 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 ## How should I book my flight?
 
-At Balena we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your resin.io email. The process is quite easy. You choose your desired flight and send it to be approved. 
+At Balena we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your balena email. The process is quite easy. You choose your desired flight and send it to be approved. 
 
 Take some time to read these [NexTravel guides & info](https://www.nextravel.com/guide/user), before you travel. 
 
@@ -83,7 +83,7 @@ On the other hand, please note that all expenses are reviewed and any expense co
 
 For example, if you go out to a restaurant, while you’re on a trip for balena, be as reasonable as possible and spend as much as you would spend if you were paying out of your own pocket. That kind of expense will be reimbursed with no problem.
 
-On the other hand, if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for resin.io, then that expense will not be reimbursed.
+On the other hand, if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for balena, then that expense will not be reimbursed.
 
 ## What kind of expenses are acceptable?
 
@@ -99,7 +99,7 @@ Dinner for example at a restaurant is a reimbursable expense while a glass of wi
 ### Transport 
 
 Taxi, train, bus or rental car costs for all the transport required for the duration of the travel. 
-Taking the train to and from the airport when traveling for resin.io is an expense that will be reimbursed. On the other hand, a ticket for a rollercoaster ride is not :)
+Taking the train to and from the airport when traveling for balena is an expense that will be reimbursed. On the other hand, a ticket for a rollercoaster ride is not :)
 
 ### Business meetings 
 
@@ -113,7 +113,7 @@ If you are at an event for example and you buy a board because the one that you 
 ### Emergencies
 
 In case an emergency requires a purchase please don’t hesitate to contact the Operations team.
-Let’s say that you got sick when on a journey with resin.io and you need medicine. That purchase is reimbursable. A flight adjustment to get back in time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
+Let’s say that you got sick when on a journey with balena and you need medicine. That purchase is reimbursable. A flight adjustment to get back in time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
 
 ## Can I use NexTravel to book a personal trip?
 
