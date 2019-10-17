@@ -4,8 +4,8 @@
 
 Tue, October 15 2019
 * [Meeting](https://docs.google.com/document/d/1nWyhr9bmpQptPeZ5SmW4g9cLG0HwwNA_fNHzyzpA5Dk/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/open?id=1rs3bQIU5GozVNftHuJodldESwXqrD0op)
+* [Audio](https://drive.google.com/open?id=1HTfzTM6CtG9LgKRQOl891PjsmRebFW4y)
 * [Attendees]()
 
 Tue, October 08 2019
