@@ -2,6 +2,12 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
+### Thu, Oct 17 2019 (Summit Presentation)
+* [Video](https://drive.google.com/file/d/1gBoo3d014YggjFZZSg8FLsb2wTx9stum/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1n-BKpuWWirtVz4IcX8fT7ZToBc42puC4/view?usp=sharing)
+* [Presentation] ()
+
+
 ### Thu, Oct 3 2019 (Team loop conversation)
 * [Video](https://drive.google.com/file/d/14GlaZhVTmttoPWcRMxTcNYNmibIoEfuD/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1rGRux71scpxOGhSqMJgM8oqgYdG_sVIx/view?usp=sharing)
