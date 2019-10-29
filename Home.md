@@ -10,6 +10,7 @@ Welcome to the Balena wiki.
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
     - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-Guidelines)
+    - [Summit Keynotes 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
     - [Summit Keynotes 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
 
   - Company culture
