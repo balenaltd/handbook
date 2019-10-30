@@ -6,7 +6,7 @@ Tue, October 29 2019
 * [Meeting]()
 * [Video]()
 * [Audio]()
-* [Attendees]()
+* [Attendees](https://drive.google.com/open?id=1FRDjWjK9CsVskxCL3KmsZZMFw0pQK3pB)
 
 Tue, October 15 2019
 * [Meeting](https://docs.google.com/document/d/1nWyhr9bmpQptPeZ5SmW4g9cLG0HwwNA_fNHzyzpA5Dk/edit?usp=sharing)
