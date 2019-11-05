@@ -2,7 +2,7 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
-Tue, October 29 2019
+Tue, November 05 2019
 * [Meeting](https://docs.google.com/document/d/1iQwzJ0PpS9eOYhzGaZ6GUElJ_D_tFWbmrUOqPQEjOLU/edit?usp=sharing)
 * [Video]()
 * [Audio]()
