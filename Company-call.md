@@ -6,7 +6,7 @@ Tue, November 05 2019
 * [Meeting](https://docs.google.com/document/d/1iQwzJ0PpS9eOYhzGaZ6GUElJ_D_tFWbmrUOqPQEjOLU/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/17HZDldz3NYJt0jdVtbuU1mOoejVRnzQ6/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1SyztL3LXZ0Xk7HXeSmupO4u5lwn8NTbt/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1nukE7SMYK6Mtqk4l01ximUfxTagTFDFl/view?usp=sharing)
 
 Tue, October 29 2019
 * [Meeting](https://docs.google.com/document/d/1ZL2fU-gD67fmo_YuP1ZerQmFaFf4jKY7tUNVgbXlGrk/edit?usp=sharing)
