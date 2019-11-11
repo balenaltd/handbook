@@ -5,7 +5,6 @@
 ### Thu, Nov 7 2019 (Projects update)
 * [Video](https://drive.google.com/open?id=1kFKNYVuqvqZhhk9aMoytLBsIZ85a-kiA)
 * [Audio](https://drive.google.com/open?id=1xcY6p5MHbcfiUN2ZIBL4lmmLd0dLmN5Y)
-* [Presentation] ()
 
 
 
