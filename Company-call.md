@@ -4,8 +4,8 @@
 
 Tue, November 11 2019
 * [Meeting](https://docs.google.com/document/d/1R7niqwSmc0w6PPnvAvriSXRG3R6kTHOiiVJqQQPsU-o/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1r6MwffxWt8GQkW6Ni_9V3yJ42Q5qEvph/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1x00RvhiiAY95qY8nOPW5FMZLg06WN9h9/view?usp=sharing)
 * [Attendees]()
 
 Tue, November 05 2019
