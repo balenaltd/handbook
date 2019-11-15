@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
+### Thu, Nov 14 2019 (How to write a spec)
+* [Video]()
+* [Audio]()
+* [Presentation] (https://drive.google.com/file/d/1mWzexKiCzY--YelOFdTo87gikxTk1yGW/view?usp=sharing)
+
 ### Thu, Nov 7 2019 (Projects update)
 * [Video](https://drive.google.com/open?id=1kFKNYVuqvqZhhk9aMoytLBsIZ85a-kiA)
 * [Audio](https://drive.google.com/open?id=1xcY6p5MHbcfiUN2ZIBL4lmmLd0dLmN5Y)
