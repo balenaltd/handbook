@@ -3,8 +3,8 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Nov 14 2019 (How to write a spec)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/10GzswQS5mMvMb_7KmGxKOQjw5ppU33P_/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1BdddcdHIgatPh-9MdK2nnhJ_wZwJA2nR/view?usp=sharing)
 * [Presentation](https://drive.google.com/file/d/1mWzexKiCzY--YelOFdTo87gikxTk1yGW/view?usp=sharing)
 
 ### Thu, Nov 7 2019 (Projects update)
