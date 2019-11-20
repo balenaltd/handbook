@@ -4,9 +4,9 @@
 
 Tue, November 19 2019
 * [Meeting](https://docs.google.com/document/d/15zsvxRh40Ji9ARC7y2cMo7PFzaolFpucsReFqEDepuM/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1S4jzUqe8W_t7zvT8-eqQj1iloh3F0ydb/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1URLdSaltw9wtRewyeDMPAB_EnUFTt3nY/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/189ANMu8v_rdfX2UUVWjj4WM6Vx7oD3aj/view?usp=sharing)
 
 Tue, November 12 2019
 * [Meeting](https://docs.google.com/document/d/1R7niqwSmc0w6PPnvAvriSXRG3R6kTHOiiVJqQQPsU-o/edit?usp=sharing)
