@@ -4,7 +4,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * Before requesting time off, you are responsible for checking with your team(s) to see how your time-off affects the project(s) you're working on (preferably in the flow your team uses and not 1-to-1) and have made sure that someone will be covering for you, prior to your time-off request.
 * When requesting in Calamari, include weekends. They don't count as PTO, and they help the Ops team know how much time you're taking in one block.
 * If you request one day off: please request it as soon as you are able to, as Ops still checks the resin skeleton crew.
-* If you request is for two to 14 days: you need to give two weeks notice for time off. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
+* If your request is for two to 14 days: you need to give two weeks notice for time off. If you have an emergency or really good reason to not give two weeks notice, request your time off and add a note to your request explaining the situation (eg. "My cat died", or "I decided to switch to Windows 8").
 * Any requests for more than 14 days in one go are considered an exception. They require an OK from the strategy team, and at least four weeks notice.
 * Holiday allowance resets on each team member hire date anniversary.
 * If you have days left at the end of your year, you may be able to transfer some of them to the next year. This is judged on a case-by-case basis. Ask the Ops team about this.
