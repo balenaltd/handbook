@@ -19,8 +19,6 @@ Using NexTravel is quite easy and very similar to the way you book flights and h
 - For the field "Trip Purpose", please fill in there the purpose of your trip. (Ex. name of event, Summit 2018, etc.)
 - Complete your reservation by clicking the "Complete Checkout" button.
 
-![](http://i68.tinypic.com/mt8odf.png)
-
 - When you complete your request, an approval email will be sent to the Operations team.
 - Once approved, you'll receive a confirmation email with all your reservation details.
 
