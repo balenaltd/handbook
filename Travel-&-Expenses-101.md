@@ -85,6 +85,8 @@ For example, if you go out to a restaurant, while you’re on a trip for balena,
 
 On the other hand, if you decide to go to the cinema or eat at a 2 Michelin stars awarded restaurant, while you are on a trip for balena, then that expense will not be reimbursed.
 
+On a side note, if you're submitting expenses for you and other team members, please don't forget to mention that while submitting your expense report
+
 ## What kind of expenses are acceptable?
 
 Please take a look at the acceptable expenses below. Note that for any expense you are not certain whether it’s reimbursable or not don’t hesitate to contact the Operations team before making any purchase. 
