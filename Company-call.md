@@ -3,6 +3,12 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Tue, December 03 2019
+* [Meeting](https://docs.google.com/document/d/1WgARuEsKt1FrDwjA-fc7qDQsezfaNjihv4tZtaO2MBg/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
+Tue, December 03 2019
 * [Meeting](https://docs.google.com/document/d/1DeYrUpomjS1YvsWGJk8EIL2jp3O-7IB90k1CAOzNpPE/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1W0ydZzYxETmgQoYqEIsxLvU05ngCUbSh/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1rBnUCJsYKbDAfbJNuQ7TTDO1jd0bkwEI/view?usp=sharing)
