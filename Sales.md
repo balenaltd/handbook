@@ -19,21 +19,16 @@
 ### Administrative Tasks
 Things to update:
 
-~~* Salesforce~~
+* ARR sheet
 * Recurly (if not self serve)
 * Balena Database via Admin Panel (if not self served)
-    * Mark user(s) as paid and grant support access under `Users`
     * Add Recurly ID and subscription information to paying org under `Organizations`
 * Front *
 _Only premium customers_
 * Zendesk *
 _Only premium customers_
-* Trello Customer board
-* ARR Doc
-* Calendar
-* Post-sales disco call _(if fully self-serve)_
-* Logo request
-* Flowdock (if not self serve)
+* Send email and request post-sales disco call _(if fully self-serve)_
+* Flowdock "ring the bell" announcement (if not self serve)
 
 ### Customer Satisfaction Tasks
 * All Paid Accounts
@@ -41,9 +36,8 @@ _Only premium customers_
 * Follow on Twitter, Facebook, Instagram or any relevant social media accounts
 * Request logo for customer page
 * Case study
-* Premium Accounts, also: 
-* Schedule support onboarding / Intro to Kostas
-* Send swag pack/thank you note?
+* Production or Enterprise Accounts, also: 
+* Invite to Zendesk and schedule support onboarding 
 
 
 ## Instructions
