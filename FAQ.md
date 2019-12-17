@@ -1,9 +1,5 @@
 _The questions and answers on this page are fictitious (not). Any apparent similarity to questions you may have asked is ~~not~~ intended by the author and is <u>definitely not</u> a coincidence or the product of your own troubled imagination._
 
-# Online Services
-**How do I get access to the balena.io admin dashboard?**<br>
-In order to get access to the balena.io admin dashboard you first need to create accounts to both [balena.io](https://www.balena.io/) and [balena-staging.io](https://www.balena-staging.io/), using your @balena.io e-mail account. Then you have to request access in the r/devops flow by mentioning a member of the DevOps team (Jack Brown @brownjohnf, Pagan Gazzard @page). Don’t forget to mention to them that you have created the required accounts.
-
 **How do I join a flow on Flowdock?** <br>
 If you click on the "+" sign on the down left of your screen you will see a list of the available flows. click on the flow you need access to and you'll join it automatically. If you haven't done so yet, please take some time to read our [getting started with Flowdock](https://github.com/balena-io/balena/wiki/Flowdock) guide.
 
