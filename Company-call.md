@@ -4,9 +4,9 @@
 
 Tue, December 17 2019
 * [Meeting](https://docs.google.com/document/d/1HZu6B6XPfQbm4DPGs4GCziQ3zCrDIpGu8fyOuVwprwM/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1ZO_Ac-WR_ynt3L86iCGWmamPE9ePng7y/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1qTkTF5OpQF6FUT8mGql5uqiQc3HNvn8i/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1qDUw8tHx3pdZTpluGVNo7LzKKTw9WTs8/view?usp=sharing)
 
 Tue, December 10 2019
 * [Meeting](https://docs.google.com/document/d/1WgARuEsKt1FrDwjA-fc7qDQsezfaNjihv4tZtaO2MBg/edit?usp=sharing)
