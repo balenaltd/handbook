@@ -3,9 +3,9 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Dec 19 2019 (Collaborating on Specs)
-* [Video]()
-* [Audio]()
-* [Presentation]()
+* [Video](https://drive.google.com/file/d/1r-dzOSHc93IA-trHKXqFdaVl67Gohw6h/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1-YG0T8Cbakqt6gDL0i7lRJsSl4a6xeg5/view?usp=sharing)
+* [Document](https://docs.google.com/document/d/1fx3zrhJGRAg5tPWK5iZWekm0JUwlBtQS-hfteVcmj5Y/edit?usp=sharing)
 
 
 ### Thu, Nov 14 2019 (How to write a spec)
