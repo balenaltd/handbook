@@ -24,6 +24,7 @@ Please use the following billing information when invoicing the company:
 * United Kingdom
 * VAT No: GB 127543123
 
+
 **What should I write as a description on the invoice?**
 
 You should write something that describes the services that you’re providing to the company. For example, if you’re a graphic designer you should write “Graphic design services for balena.io”. If describing the services you provide to the company sound complicated, you can use also a more generic description like “Consulting services” or “Consulting services for balena.io”. 
@@ -54,13 +55,13 @@ We’d like your invoice to have the following information:
 
 Invoice date
 
-_Due date_
-_Company billing information_
-_Your information_
-_Description of services_
-_Amount_
-_Currency_
-_Your bank account information_
+* Due date
+* Company billing information
+* Your information
+* Description of services
+* Amount
+* Currency
+* Your bank account information
 
 
 **What’s the amount I should charge on my invoice?**
