@@ -18,11 +18,11 @@ The payments go out on the third to last working day of the month.
 
 Please use the following billing information when invoicing the company:
 
-_Balena Ltd_
-_6th Floor, One London Wall_
-_London, EC2Y 5EB_
-_United Kingdom_
-_VAT No: GB 127543123_
+* Balena Ltd
+* 6th Floor, One London Wall
+* London, EC2Y 5EB
+* United Kingdom
+* VAT No: GB 127543123
 
 **What should I write as a description on the invoice?**
 
