@@ -1,11 +1,13 @@
-## Invoicing ## 
+## FAQ Invoicing ## 
 
 ### _This applies only to contractors_ ### 
 
-What email should I send my invoices to?
+**What email should I send my invoices to?**
+
 Please send your invoices to finance@balena.io .
 
-What's the due date for sending invoices?
+**What's the due date for sending invoices?**
+
 Before the 21st of each month. For example, July’s invoice should be sent before the 21st of July. Hubot sends a reminder in the t/remote flow.
 
 When are the payments made?
