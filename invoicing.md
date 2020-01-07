@@ -10,10 +10,12 @@ Please send your invoices to finance@balena.io .
 
 Before the 21st of each month. For example, July’s invoice should be sent before the 21st of July. Hubot sends a reminder in the t/remote flow.
 
-When are the payments made?
+_When are the payments made?_
+
 The payments go out on the third to last working day of the month. 
 
-What billing information should I use?
+_What billing information should I use?_
+
 Please use the following billing information when invoicing the company:
 
 Balena Ltd
@@ -22,24 +24,34 @@ London, EC2Y 5EB
 United Kingdom
 VAT No: GB 127543123
 
-What should I write as a description on the invoice?
+_What should I write as a description on the invoice?_
+
 You should write something that describes the services that you’re providing to the company. For example, if you’re a graphic designer you should write “Graphic design services for balena.io”. If describing the services you provide to the company sound complicated, you can use also a more generic description like “Consulting services” or “Consulting services for balena.io”. 
 
-What due date should be used?
+_What due date should be used?_
+
 Not before the end of the month. We suggest putting 2 weeks
-What currency should I use?
-The currency mentioned in your contract.   
-Should I send my invoices on a monthly basis?
+
+_What currency should I use?_
+
+The currency mentioned in your contract.  
+ 
+_Should I send my invoices on a monthly basis?_
+
 Yes, invoices should be sent on a monthly basis. If you need to send an invoice later, for some reason, please let the operations team know.
 
-Which service should I use to issue my invoice?
-The service you’ll be using should be your decision, or maybe your accountant’s decision. What we can tell you is that we have team members who are using, or have used in the past, the following services:
-Invoicely
-Freshbooks
-Waveapps
+_Which service should I use to issue my invoice?_
 
-What information should my invoice have?
+The service you’ll be using should be your decision, or maybe your accountant’s decision. What we can tell you is that we have team members who are using, or have used in the past, the following services:
+
+- Invoicely
+- Freshbooks
+- Waveapps
+
+_What information should my invoice have?_
+
 We’d like your invoice to have the following information:
+
 Invoice date
 Due date
 Company billing information
@@ -49,7 +61,8 @@ Amount
 Currency
 Your bank account information
 
-What’s the amount I should charge on my invoice?
+_What’s the amount I should charge on my invoice?_
+
 Since you are requested to invoice on a monthly basis, the amount charged should be your annual salary divided by twelve. If you just started working for Balena, for example on the 13th of November 2019, then the amount charged should be:
 
 November working days: 21 days
@@ -58,11 +71,14 @@ Monthly salary: $1,000.00
 
 Calculation: (1,000.00 x 13)/21=$619.05
 
-What do I do when I have expenses to reimburse? 
+_What do I do when I have expenses to reimburse? _
+
 If you have personally purchased items or services which are work-related, and you wish to be reimbursed, then all you have to do is add the items to your monthly invoice and attach the receipts. If you have more questions, please contact the Ops team.
 
 If you need to add a separate invoice for local tax issues, we can process these too.
-Currency conversion for reimbursements
+
+**_Currency conversion for reimbursements_**
+
 If the expenses you wish to be reimbursed are in a different currency than the one you use to invoice, then please use the specifics day exchange rate, which you can find from the Historical Currency Rates section from xe.com.
  
 For example, if I paid 5€ for a taxi at the summit on the 10th of November, and the currency I use for my invoices is USD, then according to xe.com, the conversion would be: 
