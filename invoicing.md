@@ -1,6 +1,6 @@
 ## FAQ Invoicing ## 
 
-### _This applies only to contractors_ ### 
+_This applies only to contractors_
 
 **What email should I send my invoices to?**
 
