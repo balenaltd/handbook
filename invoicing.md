@@ -18,15 +18,11 @@ The payments go out on the third to last working day of the month.
 
 Please use the following billing information when invoicing the company:
 
-Balena Ltd
-
-6th Floor, One London Wall
-
-London, EC2Y 5EB
-
-United Kingdom
-
-VAT No: GB 127543123
+_Balena Ltd_
+_6th Floor, One London Wall_
+_London, EC2Y 5EB_
+_United Kingdom_
+_VAT No: GB 127543123_
 
 **What should I write as a description on the invoice?**
 
@@ -58,19 +54,13 @@ We’d like your invoice to have the following information:
 
 Invoice date
 
-Due date
-
-Company billing information
-
-Your information
-
-Description of services
-
-Amount
-
-Currency
-
-Your bank account information
+_Due date_
+_Company billing information_
+_Your information_
+_Description of services_
+_Amount_
+_Currency_
+_Your bank account information_
 
 
 **What’s the amount I should charge on my invoice?**
