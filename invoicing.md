@@ -53,8 +53,7 @@ The service you’ll be using should be your decision, or maybe your accountant�
 
 We’d like your invoice to have the following information:
 
-Invoice date
-
+* Invoice date
 * Due date
 * Company billing information
 * Your information
