@@ -87,6 +87,10 @@ So, a:
 * #incident or #reliability sends an email to Front’s D/Reliability inbox
 * #processfail, #processincident or #process sends an email to Front’s /Process inbox and will be discussed at the Process Call.
 
+For a hint on supported hashtags, you can ask [Hubot](https://github.com/balena-io/hubot-as-mainbot) in a thread (e.g.):
+
+    Hubot, show me your hashtags
+
 Please keep in mind that the message that contains the hashtag should have all the info of the incident. Sterile hashtags with up-arrows won’t work.
 
 ## Your first message
