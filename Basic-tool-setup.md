@@ -22,7 +22,6 @@ Primary:
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * balena support access*
-* [Timezone.io](https://timezone.io/)*
 * Intercom
 
 Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
@@ -52,11 +51,6 @@ Balena support agent access
 
 _Note: These accounts should NOT be for daily use, but only for your support role._
 
-Timezone.io
-
-1. Go to https://timezone.io/join/9310ab3ee831a921 and sign up
-1. Go to https://timezone.io/team/balena to confirm you've signed up successfully
-
 ### Short introduction to the services/tools we use
 Flowdock is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://docs.google.com/document/d/1NLWb0Zxg3bClCid_wXjE4LTGSg6ZAXWyZ4tseWV9fR4/edit?usp=sharing) to help you navigate in the flowdock world :)
 
@@ -77,8 +71,6 @@ Friday projects, etc. It's required that you have an account there because event
 users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock,front etc.)
 
 Balena support agent access means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, ping Operations with your username to get the team_member role added to your user
-
-Timezone.io is a one-page website that shows each of the team’s member timezone.
 
 ### Photos
 We're putting a lot of effort into simplifying and maintaining the remote working culture, making it as easy and friendly for team members to work in it.
