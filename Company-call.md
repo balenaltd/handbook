@@ -4,9 +4,9 @@
 
 Tue, January 14 2020
 * [Meeting](https://docs.google.com/document/d/1Ul3mSk6ZEWBy2y5GH6lIijenzNJKveefUdEjuxuoimA/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/10eNyv5NWQr9xuJygF90cQ6CjDR-87SSp/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/11VsCQ1Hngig3yYs4OpTBKYO4qk7I9_VR/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1J3_bIeHDEGfoN4QvE6ylCYsLftoHSDgZ/view?usp=sharing)
 
 Tue, January 07 2020
 * [Meeting](https://docs.google.com/document/d/1fkYY3-BFy0vdKAU2-K-WvGQs0HKzY8mSdTA0n07JomM/edit?usp=sharing)
