@@ -175,11 +175,11 @@ Below are links to the latest information sheets that are commonly sent to custo
 * [Balena On-Premise - Dedicated Instance](https://docs.google.com/document/d/1AXh6zu7SGnZhJ61OCwT-spN7qAh68HCVQYTslT9dsYk/edit)
 * [Balena On-Premise - balenaMachine](https://docs.google.com/document/d/1QGoEpSqwZxAgNX6Sq134D2jjOaxL_vFd4TMl_qf7R7Q/edit?usp=drive_web&ouid=115390957403466913365)
 * [Brownfield Migrator](https://docs.google.com/document/d/1RhOu2UziPjbtLvlvaZo6rL55BY31nMc78hoACUOAwjk/edit)
-* [Custom Devive Support](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
+* [Custom Device Support](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
 
 ### BalenaFin
 
-* [Fin Depopulation Sheet](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
+* [Fin Depopulation](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
 * [Hardware on Demand](https://docs.google.com/document/d/1IxWQoUqNPkIgAfYeZcJYLgUH3wSsyDHgmsWF3SVfbUU/edit?usp=drive_web&ouid=115390957403466913365)
 
 ## Other Sales Collateral
