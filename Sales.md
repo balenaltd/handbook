@@ -5,6 +5,7 @@
 * [Lead Qualification Tasks](#lead-qualification-tasks)
 * [Sales Content Index](https://docs.google.com/document/d/1aHO7hNgISnEkhJ4Ij0ySeqIWc5Uc1FKn8YjXbEuU7Xg/edit)
 * [Product Information Sheets](#product-information-sheets)
+* [Other Sales Collateral](#other-sales-collateral)
 # Sales Tools
 
 * [HelloSign](https://hellosign.com)
