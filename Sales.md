@@ -4,7 +4,7 @@
 * [Pricing Guidelines](#pricing-guidelines)
 * [Lead Qualification Tasks](#lead-qualification-tasks)
 * [Sales Content Index](https://docs.google.com/document/d/1aHO7hNgISnEkhJ4Ij0ySeqIWc5Uc1FKn8YjXbEuU7Xg/edit)
-
+* [Product Information Sheets](#product-information-sheets)
 # Sales Tools
 
 * [HelloSign](https://hellosign.com)
@@ -166,6 +166,25 @@ Ask customer for their logo to put on our website
 
 For device volume and prepayment discounts, see https://github.com/balena-io/volume-pricing (as of Dec 6 2018, the `users-volume-discount` branch was the most recent)
 
+## Product Information Sheets
+
+Below are links to the latest information sheets that are commonly sent to customers: 
+
+### BalenaCloud
+
+* [Balena On-Premise - Dedicated Instance](https://docs.google.com/document/d/1AXh6zu7SGnZhJ61OCwT-spN7qAh68HCVQYTslT9dsYk/edit)
+* [Balena On-Premise - balenaMachine](https://docs.google.com/document/d/1QGoEpSqwZxAgNX6Sq134D2jjOaxL_vFd4TMl_qf7R7Q/edit?usp=drive_web&ouid=115390957403466913365)
+* [Brownfield Migrator](https://docs.google.com/document/d/1RhOu2UziPjbtLvlvaZo6rL55BY31nMc78hoACUOAwjk/edit)
+* [Custom Devive Support](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
+
+### BalenaFin
+
+* [Fin Depopulation Sheet](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
+* [Hardware on Demand](https://docs.google.com/document/d/1IxWQoUqNPkIgAfYeZcJYLgUH3wSsyDHgmsWF3SVfbUU/edit?usp=drive_web&ouid=115390957403466913365)
+
+## Other Sales Collateral
+* [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
+* [Production Plan Order Form Template](https://docs.google.com/document/d/1f6XlThl7xq9h7i24vOEeGE669XksnDNb9x7giFCIqvU/edit)
 
 ***
 ## Lead Qualification Tasks
