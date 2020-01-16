@@ -41,7 +41,7 @@ source_profile = default
 * ARM architecture builders hosted in [packet.net](https://www.packet.com/)
 * Kubernetes (k8s) cluster(s) [balenaCloud]() and Jellyfish[[1]](https://github.com/balena-io/resin-k8s/blob/master/docs/ACCESS_CLUSTER.md)[[2]](https://balena-io.github.io/devops-playbook/#150828a0-2d2b-11e8-9718-9f724d93afd5)
 * [CloudFlare](https://dash.cloudflare.com/) 
-* [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)Heroku
+* [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)
 
 
 #### CI/CD
