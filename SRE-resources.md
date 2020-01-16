@@ -1,0 +1,70 @@
+### overview
+While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dAYtJvKwbgehbc16GK_tZQ9Kq1ITT5VOh_uIc/view) is vast, the scope for SRE specific tools is much narrower.
+
+### SRE tools
+> ensure all SREs have access to (at least) the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`).
+
+#### infrastructure
+* generate `RSA|EC` and `GPG` keys
+
+* request SSH access
+```
+- misc1.dev.balena.io
+- balenaCloud bastion host
+- Jellyfish bastion host
+```
+
+* [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
+
+* AWS x 3 accounts
+> ⚠️ `default` is `balena-production`
+```
+# (example) ~/.aws/credentials
+
+[default]
+aws_access_key_id=foo
+aws_secret_access_key=bar
+
+[balena-playground]
+role_arn = arn:aws:iam::240706700173:role/admin
+source_profile = default
+
+[balena-staging]
+role_arn = arn:aws:iam::567579488761:role/admin
+source_profile = default
+
+[balena-production]
+role_arn = arn:aws:iam::491725000532:role/admin
+source_profile = default
+```
+
+* ARM architecture builders hosted in [packet.net](https://www.packet.com/)
+* Kubernetes (k8s) cluster(s) [balenaCloud]() and Jellyfish[[1]](https://github.com/balena-io/resin-k8s/blob/master/docs/ACCESS_CLUSTER.md)[[2]](https://balena-io.github.io/devops-playbook/#150828a0-2d2b-11e8-9718-9f724d93afd5)
+* [CloudFlare](https://dash.cloudflare.com/) 
+* [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)Heroku
+
+
+#### CI/CD
+* GitHub (assumes existing account)
+* [Jenkins](https://jenkins.dev.resin.io/) hosted at [Hetzner](https://www.hetzner.com/)
+* [CircleCI](https://onboarding.circleci.com/)
+* [balenaCI/concourse-ci](https://ci.balena-dev.com/)
+* DockerHub
+
+
+#### monitoring
+* [Prometheus](https://monitor.balena-cloud.com/prometheus/graph)
+* [Grafana](https://monitor.balena-cloud.com/oauth2/sign_in)
+* [VictorOps](https://portal.victorops.com/client/resin-io-)
+* [Sentry](https://sentry.io/organizations/balena/issues/)
+* [Logentries](https://logentries.com/app/5915e005)
+* [statuspage.io](https://manage.statuspage.io/pages/5b4dcn321xtp)
+* [Nodeping](https://nodeping.com/)
+* [healthchecks.io](https://healthchecks.io/accounts/login/)
+
+
+#### balena|product
+* JellyFish
+* personal account (e.g. GitHub linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) team member group membership
+* company account (e.g. G Suite linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) support agent permission
+* [balenaStaging](https://dashboard.balena-staging.com/apps) and [admin](https://admin.balena-staging.com/) support agent permission
