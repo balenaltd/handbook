@@ -10,8 +10,8 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 * request SSH access
 ```
 - misc1.dev.balena.io
-- balenaCloud bastion host
-- Jellyfish bastion host
+- balenaCloud bastion host(s)
+- Jellyfish bastion host(s)
 ```
 
 * [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
