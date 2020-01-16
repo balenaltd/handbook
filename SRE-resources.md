@@ -53,14 +53,14 @@ source_profile = default
 
 
 #### monitoring
-* [Prometheus](https://monitor.balena-cloud.com/prometheus/graph)
-* [Grafana](https://monitor.balena-cloud.com/oauth2/sign_in)
-* [VictorOps](https://portal.victorops.com/client/resin-io-)
-* [Sentry](https://sentry.io/organizations/balena/issues/)
-* [Logentries](https://logentries.com/app/5915e005)
-* [statuspage.io](https://manage.statuspage.io/pages/5b4dcn321xtp)
-* [Nodeping](https://nodeping.com/)
-* [healthchecks.io](https://healthchecks.io/accounts/login/)
+* [Prometheus](https://monitor.balena-cloud.com/prometheus/graph) metrics aggregator
+* [Grafana](https://monitor.balena-cloud.com/oauth2/sign_in) metrics visualiser
+* [VictorOps](https://portal.victorops.com/client/resin-io-) on-call scheduling
+* [Sentry](https://sentry.io/organizations/balena/issues/) front-end logging
+* [Logentries](https://logentries.com/app/5915e005) back-end logging
+* [statuspage.io](https://manage.statuspage.io/pages/5b4dcn321xtp) customer facing status page
+* [Nodeping](https://nodeping.com/) TBC/legacy?
+* [healthchecks.io](https://healthchecks.io/accounts/login/) TBC/legacy?
 
 
 #### balena|product
