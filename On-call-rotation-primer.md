@@ -1,8 +1,6 @@
 On-call rotation primer
 ===
 
-**Note 1:** This page can be removed in future if this information gets merged into the DevOps playbook.
-
 **Note 2:** UI references to specific services ("the button in the top right") may not endure over time
 
 ## 0. Onboarding ("So you want to survive on-call?")
