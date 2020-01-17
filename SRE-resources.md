@@ -2,7 +2,7 @@
 While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dAYtJvKwbgehbc16GK_tZQ9Kq1ITT5VOh_uIc/view) is vast, the scope for SRE specific tools is much narrower.
 
 ### SRE tools
-> ensure all SREs have access to (at least) the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`).
+> ensure all SREs have access to ([at least](https://balena-io.github.io/devops-playbook/#b5964e00-2de4-11e8-9b2a-ab7685d3014e)) the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`). Some services may require an invitation first (i.e. VictorOps).
 
 #### infrastructure
 * generate `RSA|EC` and `GPG` keys
