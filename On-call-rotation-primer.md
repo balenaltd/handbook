@@ -1,16 +1,17 @@
 On-call rotation primer
 ===
 
-**Note 2:** UI references to specific services ("the button in the top right") may not endure over time
+**Note:** UI references to specific services ("the button in the top right") may not endure over time
 
-## 0. Onboarding ("So you want to survive on-call?")
+## I. Setting up to work on call
 
-1. Read this doc (Video version: (TODO: add link))
+0. (async) Request credentials for the services you will find in the [[SRE Resources]] wiki article.
+1. Read this doc
 2. Read the [DevOps Playbook](https://balena-io.github.io/devops-playbook/)
 
 
 
-## I. The basic "loop":
+## II. The basic on call procedure:
 
 0. An incident occurs
 1. Acknowledge the incident (in our own flows and if needed, on the statuspage)
@@ -26,23 +27,11 @@ On-call rotation primer
     - Logs/evidence/indicators considered for future alerting / automation
     - Aim for at least a provisional postmortem within 24h (can be improved later)
 
-
-
-## II. Operations
-
-There are various actions an on-call agent might take during their rotation, for example:
-
-- Remove an incident from the load-balancer pool
-- Scaling up the DB (trade some downtime for increased performance / reliability if we're being overwhelmed) (needs a long-term strategy, of course)
-- Scaling up number of instances (API, for example)
-- Scale back down after an incident is over
-- etc...
-
-Most of these kinds of actions can be found in the [DevOps Playbook](https://balena-io.github.io/devops-playbook/) (see below, III.4.)
+There are various actions an on-call engineer might take during their rotation to resolve or investigate an incident (step 4 above). Most of these actions can be found in the [DevOps Playbook](https://balena-io.github.io/devops-playbook/) (see below, III.4.), and if something is significant enough to warrant doing more than once it's worth including there.
 
 
 
-## III. Tools
+## IV. Tools
 
 There are several services / aspects to know when working the on-call rotation
 
@@ -81,12 +70,6 @@ We (specifically @wrboyce) are working on syncing our rotation times to our Goog
 
 ### 2. Monitoring
 
-Dashboards enable a more open-ended sort of observation of the system in various metrics. Visually, you can find indications of the roots of an incident, or at least observe its most proximate causes and effects, spikes, etc.
-
-Familiarize yourself with the basic grafana UI so you can selected different time ranges, hover your cursor on the graphs to visually correlate data points across graphs, etc.
-
-There will be a set of dashboards which are standard, well-reviewed, checked into source, and used most often.
-
 #### Staging
 - dashboards: monitor.balena-staging.com
 - prometheus: monitor.balena-staging.com/prometheus/graph
@@ -94,6 +77,12 @@ There will be a set of dashboards which are standard, well-reviewed, checked int
 #### Production
 - dashboards: monitor.balena-cloud.com
 - prometheus: monitor.balena-cloud.com/prometheus/graph
+
+Dashboards enable a more open-ended sort of observation of the system in various metrics. Visually, you can find indications of the roots of an incident, or at least observe its most proximate causes and effects, spikes, etc.
+
+Familiarize yourself with the basic grafana UI so you can selected different time ranges, hover your cursor on the graphs to visually correlate data points across graphs, etc.
+
+There will be a set of dashboards which are standard, well-reviewed, checked into source, and used most often.
 
 
 
