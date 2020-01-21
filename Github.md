@@ -4,7 +4,7 @@ Before you start, make sure that have access to the following organizations:
 * https://github.com/balena-io: Is the storefront. Should only have top-level components of resin.io or other projects we particularly want to be associated with (e.g. etcher, pine.js)
 * https://github.com/balena-io-modules: Dependencies of our top-level components. Moved here to reduce the number of repositories in the balena organisation.
 * https://github.com/balena-io-playground: Anything we want to store here is fine: work in progress, experiments, crazy ideas. However, NOTHING should depend on these projects and there should be no guarantee that the links will be stable or that the repo will be there tomorrow. DO NOT advertise any of these repos, and for God's sake, don't refer to them from production services.
-* https://github.com/balena-io-projects: Projects we recommend users try on balena.
+* https://github.com/balenalabs: Projects we recommend users try on balena.
 * https://github.com/resin-os: Resin.io operating system and device support related repositories.
 * Depending on your job duties you may have access to additional orgs, such as:
 * https://github.com/balena-io-library: Balena base images only.
