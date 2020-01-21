@@ -186,6 +186,7 @@ Below are links to the latest information sheets that are commonly sent to custo
 ## Other Sales Collateral
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
 * [Production Plan Order Form Template](https://docs.google.com/document/d/1f6XlThl7xq9h7i24vOEeGE669XksnDNb9x7giFCIqvU/edit)
+* [Balena Commercial FAQs](https://balena-io.github.io/commercial-faqs/)
 
 ***
 ## Lead Qualification Tasks
