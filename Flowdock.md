@@ -24,6 +24,12 @@ Conversation threads is a Flowdock feature that can be a head scratcher for new 
 
 Messages with the same colour, belong to the same thread. If you see many colours, this means there are many conversations going on. By clicking on the bubble, you will see the conversation only. On mobile, you can tap on a message to enter the conversation view.In the conversation view you can type messages normally, and they will also get the same colour as the rest of the conversation, making clear where they are intended for.
 
+## Re-threading
+
+It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post on to a thread.
+
+Read more here: http://archive.is/xVcjA
+
 ## Flowdock is best effort
 Besides being Async, Flowdock is also best effort. This means that you can’t depend on someone seeing or responding to a message. Messages get lost, notifications get missed. If you wanted an answer to something, don’t be afraid to ping that person again on the same issue.
 
