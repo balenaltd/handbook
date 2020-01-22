@@ -6,7 +6,7 @@ Tue, January 21 2020
 * [Meeting](https://docs.google.com/document/d/1UoSe7o7kdem_I3FQd1M3EFXC2U9GHEvaN5kmJxBckwI/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1XLonJoCtI_jh2rwaaJsOo7whLiGd4l-x/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1KBF_xLzGcNg-hG2PkNA6gYgwdWc95epy/view?usp=sharing)
-* [Attendees](https://drive.google.com/file/d/1_hcf2IY0tVYduukmmnAkE8lucYRsQZvi/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/13TEBaX7beBpcuj6Kh-qheKJv2Eytm6mN/view?usp=sharing)
 
 Tue, January 14 2020
 * [Meeting](https://docs.google.com/document/d/1Ul3mSk6ZEWBy2y5GH6lIijenzNJKveefUdEjuxuoimA/edit?usp=sharing)
