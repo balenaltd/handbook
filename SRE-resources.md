@@ -16,7 +16,7 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 
 * [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
 
-* AWS x 3 accounts
+* AWS CLI access using roles to production, staging & playground. [CLI HowTo](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html)
 > ⚠️ `default` is `balena-production`
 ```
 # (example) ~/.aws/credentials
@@ -24,16 +24,22 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 [default]
 aws_access_key_id=foo
 aws_secret_access_key=bar
+```
 
-[balena-playground]
+```
+# (example) ~/.aws/config
+
+[default]
+
+[profile balena-playground]
 role_arn = arn:aws:iam::240706700173:role/admin
 source_profile = default
 
-[balena-staging]
+[profile balena-staging]
 role_arn = arn:aws:iam::567579488761:role/admin
 source_profile = default
 
-[balena-production]
+[profile balena-production]
 role_arn = arn:aws:iam::491725000532:role/admin
 source_profile = default
 ```
