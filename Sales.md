@@ -1,3 +1,4 @@
+# Customer success team
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
 * [Post-sales master checklist](#post-sales-master-checklist)
