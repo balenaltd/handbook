@@ -9,7 +9,9 @@ Alison Davis Riddell(@alisondavis17)
 Jordan Cooks (@notnamed)
 ### Europe
 Catherine Tung (@catt-tung)
+
 Daniel Borek (@szony)
+
 Joe Hounsham (@joeh)
 
 # Sales Resources
