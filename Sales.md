@@ -1,18 +1,23 @@
 # Customer Success team
 ## Contact
+&nbsp;&nbsp;&nbsp;Flow: [s/sales_meta](https://www.flowdock.com/app/rulemotion/sales)
+
+&nbsp;&nbsp;&nbsp;Handle: @@customer_success
+
+&nbsp;&nbsp;&nbsp;email: sales@balena.io
 ## Team members
 ### US West Coast
-Shawn Madden (@shawnmadden)
+&nbsp;&nbsp;&nbsp;Shawn Madden (@shawnmadden)
 
-Alison Davis Riddell(@alisondavis17)
+&nbsp;&nbsp;&nbsp;Alison Davis Riddell(@alisondavis17)
 
-Jordan Cooks (@notnamed)
+&nbsp;&nbsp;&nbsp;Jordan Cooks (@notnamed)
 ### Europe
-Catherine Tung (@catt-tung)
+&nbsp;&nbsp;&nbsp;Catherine Tung (@catt-tung)
 
-Daniel Borek (@szony)
+&nbsp;&nbsp;&nbsp;Daniel Borek (@szony)
 
-Joe Hounsham (@joeh)
+&nbsp;&nbsp;&nbsp;Joe Hounsham (@joeh)
 
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
