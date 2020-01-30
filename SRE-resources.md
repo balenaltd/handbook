@@ -74,3 +74,4 @@ source_profile = default
 * personal account (e.g. GitHub linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) team member group membership
 * company account (e.g. G Suite linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) support agent permission
 * [balenaStaging](https://dashboard.balena-staging.com/apps) and [admin](https://admin.balena-staging.com/) support agent permission
+* marketing|blog server SSH access
