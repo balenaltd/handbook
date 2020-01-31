@@ -2,10 +2,10 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
-### Thu, Jan 30 2020 (Reintroduction to loops )
-* [Video]()
-* [Audio]()
-* [Document]()
+### Thu, Jan 30 2020 (Reintroduction to loops)
+* [Video](https://drive.google.com/file/d/1yQoEjYPn8Ufdu_HwfQ2vdKNz6vsqO_0j/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1Jeuwe3HhIrscxmKlY_rpbC1FLF203AQu/view?usp=sharing)
+* [Presentation]()
 
 ### Thu, Dec 19 2019 (Collaborating on Specs)
 * [Video](https://drive.google.com/file/d/1r-dzOSHc93IA-trHKXqFdaVl67Gohw6h/view?usp=sharing)
