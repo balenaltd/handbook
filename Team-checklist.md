@@ -9,7 +9,7 @@ Before anything else let's check that everything is in order and that there's no
    * Front - username should be GitHub username
    * Zoom
    * Github
-   * balena admin
+   * balena support-agent access
    * Intercom
 * Shared your 'first day as a balena user' experience in Flowdock (r/product)
 
