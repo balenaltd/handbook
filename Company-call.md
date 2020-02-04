@@ -5,8 +5,8 @@
 
 Tue, February 04 2020
 * [Meeting](https://docs.google.com/document/d/1EXEVMdRFR-lsN5fdEJHEE-iVKUokAuG5YdJejIdDQ-E/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1ebhzqD_cYtMsRpbxZTlh4LMiSjMGlPLQ/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1bYSnaE6h2krh-6DjlS9mXHFCqM4Q-mfc/view?usp=sharing)
 * [Attendees]()
 
 Tue, January 28 2020
