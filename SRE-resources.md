@@ -52,7 +52,8 @@ source_profile = default
 
 #### CI/CD
 * GitHub (assumes existing account)
-* [Jenkins](https://jenkins.dev.resin.io/) hosted at [Hetzner](https://www.hetzner.com/)
+* [Jenkins](https://jenkins.dev.resin.io/) hosted at [Hetzner](https://www.hetzner.com/) (admin access)
+* Jenkins master and build agents (SSH)
 * [CircleCI](https://onboarding.circleci.com/)
 * [balenaCI/concourse-ci](https://ci.balena-dev.com/)
 * DockerHub
