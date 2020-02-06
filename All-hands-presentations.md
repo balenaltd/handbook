@@ -2,6 +2,11 @@
 
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
+### Thu, Feb 06 2020 (Reintroduction to loops -part 2)
+* [Video]()
+* [Audio]()
+
+
 ### Thu, Jan 30 2020 (Reintroduction to loops)
 * [Video](https://drive.google.com/file/d/1yQoEjYPn8Ufdu_HwfQ2vdKNz6vsqO_0j/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1Jeuwe3HhIrscxmKlY_rpbC1FLF203AQu/view?usp=sharing)
