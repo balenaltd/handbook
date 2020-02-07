@@ -4,21 +4,41 @@ Welcome to the Balena wiki.
 
 ## How to get things done (balena processes)
 
-- Team
+- Company
   - Joining balena
     - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
+    - [Onboarding checklist](https://github.com/resin-io/hq/wiki/Team-checklist)
+  
+  - Getting started with...
+    - [Github](https://github.com/resin-io/hq/wiki/Github)
+    - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
+    - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
+    - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
+    - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
+    - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
+    - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
     - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-Guidelines)
-    - [Summit Keynotes 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
-    - [Summit Keynotes 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
 
-  - Company culture
+  - Culture
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
+      - [Summit Keynotes 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
+      - [Summit Keynotes 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
     - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
-  - Team processes and policies
+
+  - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
+    - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
+    - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
+    - [Monday Project Check-ins](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
+    - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
+    - [Devices call](https://github.com/resin-io/hq/wiki/Devices-Team-Calls)
+    - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
+    - [Meeting rooms](https://github.com/resin-io/hq/wiki/Meeting-Rooms)
+
+- Team
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
@@ -33,26 +53,11 @@ Welcome to the Balena wiki.
     - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Stock Options 101](https://github.com/resin-io/hq/wiki/Stock-options-information)
     - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
-  - Getting started with...
-    - [Github](https://github.com/resin-io/hq/wiki/Github)
-    - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
-    - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
-    - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
-    - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
-    - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
-    - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
-  - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
-    - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
-    - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
-    - [Devices call](https://github.com/resin-io/hq/wiki/Devices-Team-Calls)
-    - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
-    - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
-    - [Meeting rooms](https://github.com/resin-io/hq/wiki/Meeting-Rooms)
-    - [Monday Project Check-ins](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
-  - [Team checklist](https://github.com/resin-io/hq/wiki/Team-checklist)
-  - [FAQ](https://github.com/resin-io/hq/wiki/FAQ)
+
 - Product
   - Aspects
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
   - Devices
     - [Legacy OS](https://github.com/resin-io/hq/wiki/Legacy-OS)
+
+- [FAQs](https://github.com/resin-io/hq/wiki/FAQ)
