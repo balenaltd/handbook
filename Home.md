@@ -29,8 +29,8 @@ Welcome to the Balena wiki.
     - [Invoicing](https://github.com/balena-io/balena/wiki/invoicing)
     - [Ordering | Hashtag Order Process](https://github.com/balena-io/balena/wiki/Ordering-%7C-Hashtag-Order-Process)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
-    - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
+    - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Stock Options 101](https://github.com/resin-io/hq/wiki/Stock-options-information)
     - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
   - Getting started with...
