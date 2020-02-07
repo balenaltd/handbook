@@ -27,7 +27,7 @@ Welcome to the Balena wiki.
       - [Full-time contractors](https://github.com/resin-io/hq/wiki/Full-time-contractors)
       - [Part-time contractors](https://github.com/resin-io/hq/wiki/Part-time-contractors)
     - [Invoicing](https://github.com/balena-io/balena/wiki/invoicing)
-    - [Ordering | Hashtag Order Process] (https://github.com/balena-io/balena/wiki/Ordering-%7C-Hashtag-Order-Process)
+    - [Ordering | Hashtag Order Process](https://github.com/balena-io/balena/wiki/Ordering-%7C-Hashtag-Order-Process)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
     - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
