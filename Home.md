@@ -18,7 +18,7 @@ Welcome to the Balena wiki.
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
     - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
-  - Team
+  - Team processes and policies
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
