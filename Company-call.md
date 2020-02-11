@@ -8,6 +8,12 @@ Tue, February 11 2020
 * [Audio](https://drive.google.com/file/d/1GS_5v3iTCIxnnVn8rSACDETPVauR8388/view?usp=sharing)
 * [Attendees]()
 
+Tue, February 04 2020 (Pacific Edition)
+* [Meeting](https://docs.google.com/document/d/1EXEVMdRFR-lsN5fdEJHEE-iVKUokAuG5YdJejIdDQ-E/edit?usp=sharing)
+* [Video](https://drive.google.com/file/d/1auB2sNo7_njYtccHJtZHZhsSwCbiO0QH/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1yO2MFIxccFAcg1gmrcsd72FJZ7aHRujU/view?usp=sharing)
+* [Attendees]()
+
 Tue, February 04 2020
 * [Meeting](https://docs.google.com/document/d/1EXEVMdRFR-lsN5fdEJHEE-iVKUokAuG5YdJejIdDQ-E/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1ebhzqD_cYtMsRpbxZTlh4LMiSjMGlPLQ/view?usp=sharing)
