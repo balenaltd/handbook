@@ -6,7 +6,7 @@ Tue, February 11 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1rDh60QIBy6nzp46esQi3WXgW9tEaCdma--I3C27LNwA/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1kf_NQVDerp2TxDiaIAAjlvr5nW0hQ61D/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1nuH9v-sBJnFUQarfz8IhTehpjouu4iXn/view?usp=sharing)
-* [Attendees](https://drive.google.com/file/d/16rAehzZ412hOeDozezifSKbt3nMQ9rnT/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1EtI7ls-H6zcf5imAjlBE6Kw7snKnsgMn/view?usp=sharing)
 
 Tue, February 11 2020
 * [Meeting](https://docs.google.com/document/d/1rDh60QIBy6nzp46esQi3WXgW9tEaCdma--I3C27LNwA/edit?usp=sharing)
