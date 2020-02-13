@@ -3,8 +3,8 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Feb 13 2020 (Reintroduction to loops- part 2)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1_GirooYw3lOrv5h6OFTPml65Cg7U70go/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1_2vzddllb_wRXfu8tKucVDY9W11pMt70/view?usp=sharing)
 * [Presentation]()
 
 ### Thu, Jan 30 2020 (Reintroduction to loops)
