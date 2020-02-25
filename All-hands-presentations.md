@@ -3,12 +3,12 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Feb 13 2020 (Reintroduction to loops- part 2)
-* [Video](https://drive.google.com/file/d/1_GirooYw3lOrv5h6OFTPml65Cg7U70go/view?usp=sharing)
+* [Video](https://drive.google.com/file/d/1_GirooYw3lOrv5h6OFTPml65Cg7U70go/view?usp=sharing) (Meeting begins at 0:10:50 mark)
 * [Audio](https://drive.google.com/file/d/1_2vzddllb_wRXfu8tKucVDY9W11pMt70/view?usp=sharing)
 * [Presentation](https://docs.google.com/drawings/d/1_zourowSFb6jXKsOjpo3E-hsW_s4McUYntoM4zYob_M/edit)
 
 ### Thu, Jan 30 2020 (Reintroduction to loops)
-* [Video](https://drive.google.com/file/d/1yQoEjYPn8Ufdu_HwfQ2vdKNz6vsqO_0j/view?usp=sharing)
+* [Video](https://drive.google.com/file/d/1yQoEjYPn8Ufdu_HwfQ2vdKNz6vsqO_0j/view?usp=sharing) (Meeting begins at 0:40:50 mark)
 * [Audio](https://drive.google.com/file/d/1Jeuwe3HhIrscxmKlY_rpbC1FLF203AQu/view?usp=sharing)
 * [Presentation]()
 
