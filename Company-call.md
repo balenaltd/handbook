@@ -4,8 +4,8 @@
 
 Tue, February 25 2020 
 * [Meeting](https://docs.google.com/document/d/1GfXI0OmDrzvKQytSU3FHDyAKuLy3ufu7W3kvx-637zY/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1S2p-LN8rMC4z_-Xg8hVY21wUjVHlEQCv/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1uPhme9tgbKLWS78sBqt2IKfUaroPyj3K/view?usp=sharing)
 * [Attendees]()
 
 Tue, February 18 2020 (Pacific Edition)
