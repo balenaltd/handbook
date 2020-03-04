@@ -13,7 +13,7 @@ Tue, March 03 2020
 * [Meeting](https://docs.google.com/document/d/19zwIXEmM7bslhJYevjG1fhyQGcSP7xfH32yzRGSSTIk/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1K-jvK0RFLD1mUh7Nffo7Nb5v74OPWQwD/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1uaZkLYBVQmrLGc48BlQmETN_FB49QGlG/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1pFG2jPMzgRQ9rWa0N6CNO9ORyytDMCvQ/view?usp=sharing)
 
 Tue, February 25 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1GfXI0OmDrzvKQytSU3FHDyAKuLy3ufu7W3kvx-637zY/edit?usp=sharing)
