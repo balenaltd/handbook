@@ -2,6 +2,13 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+
+Tue, March 03  2020 (Pacific Edition)
+* [Meeting](https://docs.google.com/document/d/19zwIXEmM7bslhJYevjG1fhyQGcSP7xfH32yzRGSSTIk/edit?usp=sharing)
+* [Video](https://drive.google.com/file/d/1Yizpv8SVPC16QhEXM-ud-uZyxZCo1KxS/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1wNTefsGKj-Mh_umXOZjiEHVF6zxuwupx/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/14BCwBzT5_G4yxYgGl_DZ82hZCj_F7rTE/view?usp=sharing)
+
 Tue, March 03 2020 
 * [Meeting](https://docs.google.com/document/d/19zwIXEmM7bslhJYevjG1fhyQGcSP7xfH32yzRGSSTIk/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1K-jvK0RFLD1mUh7Nffo7Nb5v74OPWQwD/view?usp=sharing)
