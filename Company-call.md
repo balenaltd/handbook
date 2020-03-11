@@ -6,13 +6,13 @@ Tue, March 10  2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1uqxRRdE-wmJMwgAVs0zG6toVn9qHHxt7tsvjGQiERrw/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1cOrXcAHZnYgkb0S1u3abT8pwp75SXTDL/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1cBb8D9bp02xYdjGIp0Jent3aidBsPwyS/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1qbpspugJ4AHS3NLOs8E4JtjgoLgd2JmB/view?usp=sharing)
 
 Tue, March 10 2020 
 * [Meeting](https://docs.google.com/document/d/1uqxRRdE-wmJMwgAVs0zG6toVn9qHHxt7tsvjGQiERrw/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1vo8mfYO9LbxXcNlZBFeuhTncZtFCixQV/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1SCXtHbG2A3mfOXbEZilDJpLS8w6Vm01b/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1IwLd7t0nVXWUdjSYJBFzCpJegpqLv8ol/view?usp=sharing)
 
 Tue, March 03  2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/19zwIXEmM7bslhJYevjG1fhyQGcSP7xfH32yzRGSSTIk/edit?usp=sharing)
