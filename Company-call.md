@@ -4,8 +4,8 @@
 
 Tue, March 10 2020 
 * [Meeting](https://docs.google.com/document/d/1uqxRRdE-wmJMwgAVs0zG6toVn9qHHxt7tsvjGQiERrw/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1vo8mfYO9LbxXcNlZBFeuhTncZtFCixQV/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1SCXtHbG2A3mfOXbEZilDJpLS8w6Vm01b/view?usp=sharing)
 * [Attendees]()
 
 Tue, March 03  2020 (Pacific Edition)
