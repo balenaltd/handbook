@@ -4,6 +4,6 @@ Day 1 will be dedicated to using balena as a user. You’ll be required to sign 
 
 It’s really important that you take notes of anything good or bad, anything that helped you and anything you found difficult, anything that got you excited and any flaws you found. 
 
-You’ll be requested to share your notes/thoughts with the Product team, in Flowdock `r/product` flow, please use the hashtag "#internal_feedback".  
+You’ll be requested to share your notes/thoughts with the Product team, in Flowdock `r/product` flow, please use the hashtag "**#internal_feedback**".  
 
 Your first day is a unique time, one where you’re relatively unbiased about the product, and we want to make sure we get the most honest and detailed feedback we can.
