@@ -3,8 +3,8 @@
 ### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
 
 ### Thu, Mar 12 2020 (Pre loop MVP)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1pVRnJ0ocrnigIq28QpVBGg0mMKsAE14U/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1gFTnXc58d0daPWlZ2FYX_AYdxV9tFg-K/view?usp=sharing)
 * [Presentation]()
 
 ### Thu, Feb 13 2020 (Reintroduction to loops- part 2)
