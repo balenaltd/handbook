@@ -4,8 +4,8 @@
 
 Mon, March 16  2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/14R6soMtMgPaZ9BOhuAuRW-djqqzVpyPFtss3BREpybI/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/14hrak-fcD_TOUUZeQ54y4R098Sr1E3QT/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1EQ8kEjwfXY1K0ZH0nJ-QVUyaMBe8FAj6/view?usp=sharing)
 * [Attendees]()
 
 Tue, March 10  2020 (Pacific Edition)
