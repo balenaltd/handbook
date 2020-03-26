@@ -13,7 +13,7 @@ Welcome to the Balena wiki.
   
   - Getting started with...
 
-    - [ProductOS Team Manual] (https://github.com/product-os/product-os#what-is-productos)
+    - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
     - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
