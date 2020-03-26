@@ -12,6 +12,8 @@ Welcome to the Balena wiki.
     - [Onboarding checklist](https://github.com/balena-io/balena/wiki/Onboarding-checklist)
   
   - Getting started with...
+
+    - [ProductOS Team Manual] (https://github.com/product-os/product-os#what-is-productos)
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
     - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
