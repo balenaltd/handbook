@@ -56,6 +56,9 @@ Welcome to the Balena wiki.
     - [Stock Options 101](https://github.com/resin-io/hq/wiki/Stock-options-information)
     - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
 
+- Work in Progress 
+  -[LoopMVP](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
+
 - Product
   - Aspects
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
