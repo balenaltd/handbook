@@ -58,7 +58,7 @@ Welcome to the Balena wiki.
 
 - Work in Progress 
   
--[LoopMVP](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
+  -[LoopMVP](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
 
 - Product
   - Aspects
