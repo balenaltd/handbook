@@ -38,7 +38,7 @@ Welcome to the Balena wiki.
     - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
     - [Devices call](https://github.com/resin-io/hq/wiki/Devices-Team-Calls)
     - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
-    -  Doughnut call
+    - [Doughnut call](https://github.com/balena-io/balena/wiki/Doughnut-Calls)
     - [Meeting rooms](https://github.com/resin-io/hq/wiki/Meeting-Rooms)
 
 - Team
