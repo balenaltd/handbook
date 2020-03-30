@@ -5,7 +5,7 @@
 Mon, March 30 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/18jHkC0mX9xpqzH7skRwkwQjUF4I6LyQqLMOFmMcUbJk/edit?usp=sharing)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/1iPxI1sTjXZn-MJa0nzUGUANyffXrtbi1/view?usp=sharing)
 * [Attendees]()
 
 
