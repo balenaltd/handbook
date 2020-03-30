@@ -1,3 +1,3 @@
-**Description**
+## **Description**
 
 Doughnut calls take place once a week (except on no meetings weeks) and are attended by an average of 3-5 employees. An internal data puller helps align team members based on timezones to ensure that you get to speak with someone new as much as possible. The goal of these calls is to get to know your co-workers in a fun and relaxed setting. These calls are not mandatory but highly encouraged for you to attend and non-work related conversation is also encouraged. If for some reason noone shows up in the call (possibly due to last minute scheduling conflicts) you are welcome to join another doughnut call that’s listed on our shared Google calendar.
