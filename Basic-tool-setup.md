@@ -25,7 +25,7 @@ As needed (request access from the Ops team):
 
 Please note that Zendesk and Forums moderator access are added right before a balenista joins support. If you need it sooner, please let the Ops team know.
 
-**Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow `t/operations` using **#access** .**
+**Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow `t/operations` using @@operations and **#access** .**
 
 _* this service requires additional information/steps before you get access to it._
 
