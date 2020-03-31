@@ -1,3 +1,5 @@
 “Summit” is what we call the annual face to face team meeting. It’s one of the greatest events of a calendar year for balena. This is the time of the year that all balenistas get together in one place and spend one week together working, hacking, brainstorming, getting to know each other better, reflecting on the year passed and shaping the company’s roadmap and future in general. 
 
 It's very very interesting to see diverse cultures come together, and it's actually eye-opening how easily people connect and make these events the most memorable moment of the year. 
+
+We strongly encourage every new balenista to spend some time to watch the summit recordings as these can sum up the way we work and how we think at balena, as well as introduce you to recent projects and ideas we have been working on. These can give you a lot of context and help you understand balena a bit more. 
