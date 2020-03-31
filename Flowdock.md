@@ -81,17 +81,43 @@ Other prefixes mean (f)ramework, (p)rojects and (t)eam.
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
 
 ## hashtags
-Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags in to our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes and then an agenda can be collated for the relevant meeting.
+Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags into our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes. Then an agenda can be collated for the relevant meeting, such as architecture (#arch) or teamOS (#teamos) brainstorm calls, or action should be taken, such as operations team giving you access to a service (#access) or placing an order (#order).
 
 Some examples are:
-* #architecture sends an email to Front’s D/Architecture inbox and will be discussed at the Architecture Call
-* #blog, #writeup or #toblogfor sends an email to Front’s M/Blog inbox as an idea for the resin blog
-* #devops sends an email to Front’s D/Devops inbox and will be discussed at the DevOps Call
-* #devices sends an email to Front’s D/Devices inbox and will be discussed at the Devices Call
-* #docs sends an email to Front’s S/Docs inbox
-* #newsletter sends an email to Front’s M/Newsletter inbox as an idea that could make it to the resin newsletter
-* #incident or #reliability sends an email to Front’s D/Reliability inbox
-* #processfail, #processincident or #process sends an email to Front’s /Process inbox and will be discussed at the Process Call.
+* #access => access
+* #ama, askalex, ask => ama
+* #arch, architecture => architecture
+* #blog, writeup, toblogfor => blog
+* #bots, botfail, bottest => bots
+* #commercial, disco, ringthebell => commercial
+* #cust-arch, custard => cust-arch
+* #design => design
+* #devices => devices
+* #devops, deploy => devops
+* #devprocess, dev-process, dev-tools, devtools => devops+process
+* #docs => docs
+* #fleet, deviceupdate, device-update, fleetops => fleet
+* #hardware => hardware
+* #incident, reliability => reliability
+* #meeting-notes, meeting, meetingnotes, minutes => team+minutes
+* #newsletter => newsletter
+* #operations => operations
+* #outreach, marketing, mention => outreach
+* #order, orders => orders
+* #process, processfail => process
+* #product => product
+* #projects, project => projects
+* #release-notes => team+release
+* #rename => rename
+* #security => security
+* #team => team
+* #fin-roadmap => productfin
+* #legal, finance => finance
+* #subscription => subscription
+* #balenalabs => balenalabs
+* #CompanyOSProduct => companyos-product
+* #CompanyOSArchitecture => companyos-architecture
+* #teamos => teamOS
 
 As we actively build on the list of hashtags we use, there are many more, so feel free to ask [Hubot](https://github.com/balena-io/hubot-as-mainbot) which hashtags are used at the specific flow you are interested in by typing: `Hubot, show me your hashtags`. Remember that Hubot needs to be added to the flow for the hashtags to work! 
 
