@@ -61,8 +61,6 @@ _Note: These accounts should NOT be for daily use, but only for your support rol
 
 The **forums** are used by our free users for support requests, and generally for discussion about the product, hack Friday projects, etc. It's required that you have an account there because eventually, you'll need it for supporting users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock, front etc.)
 
-**Jellyfish** is the tool we're actively developing for internal tooling and communications. It is a work in progress and we currently use it for support and some other aspects as more work is put into it. You will be prompted to change your password once your account is set up. 
+**Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password.  
 
-**Balena support agent access** means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, ping Operations with your username to get the team_member role added to your user
-
-
+**Balena support agent access** means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, contact Operations with your username to get the team_member role added to your user. 
