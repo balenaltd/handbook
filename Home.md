@@ -4,7 +4,7 @@ Welcome to balena, you are officially a balenista! We are all excited you are he
 
 ## First things first.. 
 
-- [Your balena email](https://docs.google.com/document/d/1xmf3p901j4dt2EJOqSI6xlJH5JWr0cnAC8Cvw_uOf7s/edit?usp=sharing)
+- [Your balena email](https://github.com/balena-io/balena/wiki/Your-balena-email)
 - [Help the team get to know you](https://docs.google.com/document/d/1hEIZrWjcjDa9Dg1CeZxaLTB8ZEJHab4b8nnBBY0uwzY/edit?usp=sharing)
 - [Your balena buddy](https://docs.google.com/document/d/1O6YbE8rThUHyq05MlY4-3dUnMnYQOjGLZDB88SzZK2M/edit?usp=sharing)
 
