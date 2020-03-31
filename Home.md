@@ -36,7 +36,6 @@
       - [Summit Keynotes 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
     - [The 4 maxims](https://github.com/resin-io/hq/wiki/The-4-maxims)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
-    - [Virtual happy hour](https://github.com/resin-io/hq/wiki/Virtual-happy-hour) 
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
