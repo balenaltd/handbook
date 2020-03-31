@@ -2,7 +2,7 @@
 
 Welcome to balena, you are officially a balenista! We are all excited you are here and we look forward to working with you and getting to know you. You have your gear set up and you have already met a few other balenistas during the hiring process. This Wiki will provide you with some key information and an overview of how we work. It will not cover everything, so you are encouraged to start interacting with the team to get to know everyone and learn more about the exciting projects they are working on! While we have been investing some time and resources to keep this wiki up to date, things change fast, so we would appreciate your feedback, ideas and observations to help us make it more welcoming and useful for everyone. Feel free to post your feedback about your onboarding experience and the Wiki on t/beginners flow on flowdock (which is the main tool of daily communication within the team) using the hashtag #onboardingfeedback. We expect you to have many questions, so take your time to ask them. Feel free to use the flow t/beginners to direct any general queries to the team. If you are not familiar with flowdock don't worry, you will find more information further down the Wiki.
 
-##First things first.. 
+## First things first.. 
 
 You should have received your chosen gear prior to your first day and you should be ready and set up at one of our offices or at your own chosen space. Additionally, you will soon receive, if you haven't yet, a kit to get you started and help you live the balena user experience, if you haven't done so already! 
 
