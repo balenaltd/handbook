@@ -5,8 +5,8 @@ Welcome to balena, you are officially a balenista! We are all excited you are he
 ## First things first.. 
 
 - [Your balena email](https://github.com/balena-io/balena/wiki/Your-balena-email)
-- [Help the team get to know you](https://docs.google.com/document/d/1hEIZrWjcjDa9Dg1CeZxaLTB8ZEJHab4b8nnBBY0uwzY/edit?usp=sharing)
-- [Your balena buddy](https://docs.google.com/document/d/1O6YbE8rThUHyq05MlY4-3dUnMnYQOjGLZDB88SzZK2M/edit?usp=sharing)
+- [Help the team get to know you]()
+- [Your balena buddy]()
 
 
 ## How to get things done (balena processes)
