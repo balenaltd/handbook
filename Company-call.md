@@ -4,15 +4,15 @@
 
 Mon, March 30 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/18jHkC0mX9xpqzH7skRwkwQjUF4I6LyQqLMOFmMcUbJk/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1ApRlbTjQzcZPQIxvB9W_jqcJXRxU1cL9/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1ZSNFFqi-qE6XTt583mg49kDIFeFow2VX/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/1rnyxJnxQojUOJ0AWiKvyaCv12vCL9hks/view?usp=sharing)
 
 Mon, March 30 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/18jHkC0mX9xpqzH7skRwkwQjUF4I6LyQqLMOFmMcUbJk/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1v6NbFsch_Jl-2t_SvHGZpr1u8IETqfDF/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1iPxI1sTjXZn-MJa0nzUGUANyffXrtbi1/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1QfiICZasQCXrujc1vCJ4RX7Zfp1HOB9e/view?usp=sharing)
 
 
 Mon, March 23 2020 (Pacific Edition)
