@@ -18,4 +18,4 @@ _Operations Manager, Balena <br>
 _mo: +30 6946 91 3376_ <br>
 _twt: @balena_io_ <br>
 
-Please note that the e-mail signature will soon be updated to a much better form.
+We are likely to change the format of the email signatures, but you can use this format in the meantime. 
