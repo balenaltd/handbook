@@ -13,7 +13,8 @@ Before anything else let's check that everything is in order and that there's no
    * Intercom
    * Jellyfish
 * Shared your 'first day as a balena user' experience in Flowdock `r/product` flow, using **#internal_feedback**
+* Noted or shared any onboarding feedback in Flowdock `t/beginners flow, using **#onboardingfeedback**
 
-If your checklist is full of ticks then it's time to contact the Operations Team using @@operations and the `t/operations` flow to let them know. Don't forget to use #access and @@operations if you want to request access to anything further.
+If your checklist is full of ticks then it's time to contact the Operations Team using @@operations and the `t/operations` flow to let them know. Don't forget to use #access and @@operations if you want to request access to anything further. There are more services and tools we use, but this section focuses on the main ones that you need to make sure you have access from Day 1. 
 
-In case you're not aware of what your next task is yet, make sure you take your time to watch the summit presentations linked further down this wiki and check for any onboarding meeting invites coming your way. 
+In case you're not aware of what your next task is yet, make sure you take your time to watch the summit presentations linked further down at the `summit section` and check for any onboarding introductory meeting invites coming your way. Don't forget that you can jump on most calls in the shared Balena Admin calendar to get an idea of how these are structured and facilitated. We normally keep meetings with any sensitive information between smaller groups. The brainstorm calls can be a good starting point and you can also listen to previous recordings. You can find more information further down at the `meetings section`.  
