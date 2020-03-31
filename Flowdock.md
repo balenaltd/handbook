@@ -1,4 +1,4 @@
-Welcome to Flowdock! It’s the nervous system of balena, so using it well is key to integrating with the rest of the team. Some things about it may be counterintuitive, so we’ve written down some basic tips to help you get started.
+Welcome to Flowdock! It’s the nervous system of balena, so using it well is key to integrating with the rest of the team. Some things about it may be counterintuitive, so here is a separate section with some basic tips to help you get started.
 
 ## Getting bootstrapped
 As soon as you accept the email invitation to join Flowdock you’ll be requested to choose your Flowdock username. The first thing you should do when you enter Flowdock for the first time is to replace the nick (chat display name) with your Github handle. <u>Please make sure that your Flowdock username is the same as the one you have in Github</u>. 
@@ -100,7 +100,7 @@ For a hint on supported hashtags, you can ask [Hubot](https://github.com/balena-
 Please keep in mind that the message that contains the hashtag should have all the info of the incident. Sterile hashtags with up-arrows won’t work.
 
 ## Your first message
-Now that you are an expert on Flowdock :) it's time for your first meeting with the team. You'll be introduced in the public flow by the Operations team.
+Now that you are an expert on Flowdock :) it's time for your first meeting with the team. You'll be introduced in the public flow by the balenista assisting with your onboarding.
 
 Following the customary greetings it would be great if you took the time to create and send a brief intro of yourself as your first task. You may include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
 
