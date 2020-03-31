@@ -81,9 +81,9 @@ Other prefixes mean (f)ramework, (p)rojects and (t)eam.
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
 
 ## hashtags
-Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags in to our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes.
+Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags in to our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes and then an agenda can be collated for the relevant meeting.
 
-So, a:
+Some examples are:
 * #architecture sends an email to Front’s D/Architecture inbox and will be discussed at the Architecture Call
 * #blog, #writeup or #toblogfor sends an email to Front’s M/Blog inbox as an idea for the resin blog
 * #devops sends an email to Front’s D/Devops inbox and will be discussed at the DevOps Call
@@ -93,16 +93,14 @@ So, a:
 * #incident or #reliability sends an email to Front’s D/Reliability inbox
 * #processfail, #processincident or #process sends an email to Front’s /Process inbox and will be discussed at the Process Call.
 
-For a hint on supported hashtags, you can ask [Hubot](https://github.com/balena-io/hubot-as-mainbot) in a thread (e.g.):
+As we actively build on the list of hashtags we use, there are many more, so feel free to ask [Hubot](https://github.com/balena-io/hubot-as-mainbot) which hashtags are used at the specific flow you are interested in by typing: `Hubot, show me your hashtags`. Remember that Hubot needs to be added to the flow for the hashtags to work! 
 
-    Hubot, show me your hashtags
-
-Please keep in mind that the message that contains the hashtag should have all the info of the incident. Sterile hashtags with up-arrows won’t work.
+Please keep in mind that the message that contains the hashtag should have all the info required. Sterile hashtags with up-arrows won’t work.
 
 ## Your first message
 Now that you are an expert on Flowdock :) it's time for your first meeting with the team. You'll be introduced in the public flow by the balenista assisting with your onboarding.
 
-Following the customary greetings it would be great if you took the time to create and send a brief intro of yourself as your first task. You may include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
+Following the customary greetings, it would be great if you took the time to create and send a brief intro of yourself as your first task. You may include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
 
 ## Changing the look and feel
 Petros has created a CSS file to remove some of the clutter from the Flowdock interface.  To use, install the [Stylebot extension](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en) (if using Chrome -- is there one for Firefox?) and use this CSS file: https://gist.github.com/petrosagg/2d3c53a9d0ba5dcd7887eaad635ad87d
