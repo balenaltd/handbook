@@ -1,9 +1,9 @@
 Part of your daily routine may include meetings with other team members, the team that you’re part of, clients and more. Also, you will often be required to start a meeting and invite some of your colleagues. You should always check your calendar and other team members’ calendar before inviting someone to a call or before scheduling a new call, to make sure it doesn’t overlap with other important calls. 
 
-Before we proceed, please make sure that you have access to the company calendar (ownership of admin@balena.io). Please note that all calls are included in the admin calendar. In addition bear in mind that the admin calendar follows GMT (UTC +0) London time zone.
+Before we proceed, please make sure that you have access to the company calendar; Balena Admin calendar (ownership of admin@balena.io). Please note that all calls are included in the Balena Admin calendar. In addition, bear in mind that the admin calendar follows GMT (UTC +0) London time zone.
 
 ## See a colleague’s calendar
-Let’s say you need to schedule a call where one of your colleagues need to be invited but you’re not sure whether he has any open slots. One solution would be to ask him/her directly about availability. This would mean that you both will need to stop what you’re doing and work on scheduling that call.
+Let’s say you need to schedule a call where one of your colleagues need to be invited but you’re not sure whether they have any open slots. One solution would be to ask them directly about availability. This would mean that you both will need to stop what you’re doing and work on scheduling that call.
 
 Google calendar has a feature which allows you to add a coworker’s calendar to your calendar. Let’s see how you can do that:
 
