@@ -2,6 +2,18 @@
 
 Welcome to balena, you are officially a balenista! We are all excited you are here and we look forward to working with you and getting to know you. You have your gear set up and you have already met a few other balenistas during the hiring process. This Wiki will provide you with some key information and an overview of how we work. It will not cover everything, so you are encouraged to start interacting with the team to get to know everyone and learn more about the exciting projects they are working on! While we have been investing some time and resources to keep this wiki up to date, things change fast, so we would appreciate your feedback, ideas and observations to help us make it more welcoming and useful for everyone. Feel free to post your feedback about your onboarding experience and the Wiki on t/beginners flow on flowdock (which is the main tool of daily communication within the team) using the hashtag #onboardingfeedback. We expect you to have many questions, so take your time to ask them. Feel free to use the flow t/beginners to direct any general queries to the team. If you are not familiar with flowdock don't worry, you will find more information further down the Wiki.
 
+##First things first.. 
+
+You should have received your chosen gear prior to your first day and you should be ready and set up at one of our offices or at your own chosen space. Additionally, you will soon receive, if you haven't yet, a kit to get you started and help you live the balena user experience, if you haven't done so already! 
+
+Before you get access to any of the services we are using and in order for the team to get you started, you need to have your balena e-mail account and calendar set up.
+ - Log into your personal e-mail account (the one you have shared with us)
+ - Open the “Welcome to balena” e-mail (note that you need to set up 2FA when you first login using the Yubikey you have been sent)
+ - Follow the instructions and set up your e-mail account
+ - Go to calendar.google.com to see your schedule and any onboarding meetings that might already be there.
+ - Your inbox will be full of e-mails that the team has already sent you. These are invitations to tools and services we use, guides and other material that will help you get started.
+
+
 ## How to get things done (balena processes)
 
 - Company
