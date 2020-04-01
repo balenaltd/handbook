@@ -1,7 +1,9 @@
-You are free to join all calls (except some Operations calls) but it’s not mandatory if you don’t belong to the specific team. Please note that all calls are included in the admin calendar that the Ops team has shared with you. In addition bear in mind that the admin calendar follows GMT (UTC +0) London time zone.
+You are free to join all calls (we try to keep some calls that might include sensitive information in smaller groups) but it’s not mandatory if you don’t belong to the specific team. Please note that all calls are included in the Balena Admin shared calendar. In addition, bear in mind that the Balena Admin calendar follows GMT (UTC +0) London time zone.
 
-## Company Call
-This is the call where all balena team members join once per week and get notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Tuesdays. Led by @alexandrosm
+While there are some calls that have been regular and standard for a long time, we always make sure we have a dynamic schedule in place to meet our needs, the projects and ideas we are working on at the time. Below are some key calls we use and you can check the Balena Admin calendar for more. We are currently investing more time in the LoopMVP project so you will see the relevant calls scheduled and you can read more at the `Work in Progress section`. 
+
+## Company Call - All-hands
+This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Mondays. There is an Atlantic slot, followed by a Pacific one to make sure all balenistas in different timezones can join this call and have the opportunity to ask questions. Chaired by @shaunmulligan
 
 ## Architecture Call
 This call is about the architectural stuff of balena. Led by @petrosagg
