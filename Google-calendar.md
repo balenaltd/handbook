@@ -23,8 +23,6 @@ So, let’s say you’d like to add a repeating event to your calendar and get r
 
 3. Go to the Options choice (the 3 dots on the upper right) and select the calendar you wish to include the event to.
 
-![](http://i67.tinypic.com/b3rhmt.png)
-
 From now on, you will receive notifications and reminder with regards to this event.
 
 ## Booking a Zoom room in Google Calendar
@@ -35,24 +33,12 @@ Please check out the following steps to include a zoom room when creating an eve
 
 1. When creating an event, click on the “ROOMS” tab next to the “GUESTS” tab.
 
-![](http://i67.tinypic.com/2ykky1i.png)
-
 2. Click on “Available rooms only”, to see which rooms are available. 
-
-![](http://i68.tinypic.com/k3ugm1.png)
 
 3. Then you will see a list of available rooms. If there aren’t any rooms available, there won’t be any options.
 
-![](http://i67.tinypic.com/1okr39.png)
-
 4. Click on an available room.
-
-![](http://i66.tinypic.com/2ltqznr.png)
 
 5. When you’re done creating the event, Google Calendar will share a Zoom URL.
 
-![](http://i65.tinypic.com/2csc202.png)
-
 6. If there aren't any rooms available, just type in flowdock "get a zoom" and Hubot will provide an available room. (Note: The room which Hubot will provide is the room available only at that specific moment. Hubot cannot book a room in advance)
-
-![](http://i64.tinypic.com/28ixb91.png)
