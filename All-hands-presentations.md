@@ -1,6 +1,8 @@
-## Recent Meeting Notes
+We used to have a fixed slot for All Hands Presentations which was used for any company-wide subjects to be covered outside the usual All Hands company call. We are currently thinking of how to make this slot more dynamic to be able to host presentations for balenistas to share learning, project updates and anything else according to what the team feels is needed and what we are working on at the time. Suggestions are very welcome, either if you have an idea of what you want to see from others or present yourselves :)
 
-### [All Hands Presentations Suggestions](https://drive.google.com/open?id=1LsOe829Mdp9ll_phV6WCv3XrWnEazeNgeAvWqljqueA)
+### [All Hands Presentations Suggestions](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752)
+
+## Recent Meeting Notes
 
 ### Thu, Mar 12 2020 (Pre loop MVP)
 * [Video](https://drive.google.com/file/d/1pVRnJ0ocrnigIq28QpVBGg0mMKsAE14U/view?usp=sharing)
