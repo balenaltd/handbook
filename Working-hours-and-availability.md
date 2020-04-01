@@ -1,8 +1,10 @@
-Co-working is important, especially in remote teams where the majority of the people in a team work from different places and in different timezones. And that’s probably one of the tradeoffs for choosing to be a company that supports remote working. On the other hand, different timezones benefit the team in terms of the support we provide our users with, the response time to support requests and the availability of the team to respond to users at any time of the day. In general, we don’t push people to work on a specific time schedule. Each one can work the hours he/she prefers as long as this is communicated as described in the section below, his/her schedule is not changing every day, the work gets done and he/she is reachable.
+Team working is important, especially in remote teams where the majority of the people work from different places and in different timezones. That’s probably one of the challenges when choosing to be a remote-first company. On the other hand, different timezones benefit the team in terms of the support we provide our users with, the response time to support requests and the availability of the team to respond to users at any time of the day. In general, we don’t ask people to work on a specific time schedule. Each one can work the hours they prefer as long as this is communicated as described in the section below, their schedule is not changing every day, the work gets done and they are reachable. 
 
-The 9am to 6pm period for working from the office is pretty common. If you choose to work from home, be careful not to abuse or ruin your work routine. Working from home should be treated as a productivity boost and as a flexibility offered to help achieve a better balance between personal and professional life.
+We are always looking at ways to improve the experience of remote and asynchronous working at balena. As you will hear from other teammates, it does take some time until you get used to it, especially if this is your first experience of being part of a remote team based across different timezones. As balenistas are based all over the world, the communication flows around the clock, so you can be getting pings anytime. However, asynchronous working should allow everyone to focus on tasks when needed without worrying about responding to pings as they come in. It always helps to communicate what you are working on among your teammates, so between smaller teams, there is a better workflow for everyone. We often see tasks being blocked while waiting for a teammate to take action (eg. reviewing PRs) and this can become a pattern when people in opposite timezones are working together. Thus, prioritizing tasks that can unblock other balenistas when possible, is highly appreciated. It takes some time and team effort to find the right balance for work to run smoothly for everyone, so invest that time to discuss with your teammates if needed. 
 
-You should be reachable by instant messaging (or by mobile) at any time during your working hours. This is critical in order to keep our workflow running and help all team members deliver on time without any interruption.
+The 9am to 6pm period for working from the office is pretty common. If you choose to work from home, be careful not to abuse or ruin your work routine. Working from home should be treated as a productivity boost and as a flexibility offered to help achieve a better balance between personal and professional life. 
+
+You should be reachable on Flowdock during your stated working hours but if this changes, you can let the team know with a quick message. This is critical in order to keep our workflow running and help all balenistas deliver on time without any interruption.
 
 ### Communicating your availability
 
@@ -36,19 +38,19 @@ Therefore, to get your actual availability for scheduling, functions run in the 
 
 #### Remember to keep your preferences updated!
 
-Please make sure that your preference sheet in the Team Model and your balena Google Calendar are always up to date (ideally 2 weeks in advance), to ensure that the scheduling algorithms can do their job well!
+Please make sure that your preference sheet in the Team Model and your balena Google Calendar are always up to date (ideally 2 weeks in advance), to ensure that the scheduling algorithms can do their job well! Hubot will also remind us from time to time to update working hours :)
 
 In the event of an unexpected last-minute change to your regular working hours (for example due to a family emergency or other eventuality), you can just ping the team on Flowdock to inform them when you will be reachable again.
 
 ### What is a good place to work from?
 
 Below you can see from our experience over the years what we consider a good place to work from. 
-- enough equipment around you to perform any work duties you have, and enough space to use them in
+- enough equipment around you to perform any work duties you have, and enough space to use them
 - reliable internet connection, enough for video
 - a quiet place to take calls from
 - a working environment that doesn't compromise your productivity and gives you long stretches of distraction-free time to work
-- a fixed address where the ops team can send you parcels if needed
+- a fixed address where the Operations team can send you parcels if needed
 - advance notice and approval when it comes to shifting timezones and working days significantly.
 - ability to meet all your standard obligations like team check-ins, all-hands calls, applicable brainstorms, etc
 
-Finally, we strongly suggest reading our [“How we run a remote team” blog post](https://resin.io/blog/how-we-run-a-remote-team/) to get a better idea of how we operate.
+Finally, we strongly suggest reading our [“How we run a remote team” blog post](https://resin.io/blog/how-we-run-a-remote-team/) to get a better idea of how we operate, although bear in mind that this is old but still very relevant. If you are new to remote working and looking for tips, read our ["New to working remotely? Here are some tips from our global, fully-distributed team" blog post](https://www.balena.io/blog/new-to-working-remotely-here-are-some-tips-from-our-global-fully-distributed-team/).
