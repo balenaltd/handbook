@@ -1,28 +1,30 @@
 ## Feedback *to* balena
 
-We're using TinyPulse as one way to ask and receive feedback about how you're doing, about how things are going, and provide a place to bring up anything you want to. It's a place to share the triumphs you're seeing -- share that dopamine hit with the rest of us! And, while we're a small company we think it's important that we have an anonymous way to share, because it’s important to be able to raise problems you see, without worrying about how it reflects on you.
+We're using TinyPulse as one way to ask and receive feedback about how you're doing, about how things are going, and provide a place to bring up anything you want to. It's a place to share the triumphs you're seeing -- share that dopamine hit with the rest of us! And, while we are a small team we think it's important that we have an anonymous way you can share your thoughts, feedback, and suggestions because it’s important to be able to raise problems you see, without worrying about how it reflects on you.
 
-When new balenistas start, they receive several (clearly labeled!) non-anonymous survey questions about how their onboarding is going. Their first survey is non-anonymous, and is sent during their second week.
+When new balenistas start and for the first few weeks, they receive a few (clearly labeled!) non-anonymous survey questions about how their onboarding is going. The non-anonymous onboarding questions are sent on week 1, 2, 4 & 12. We want to hear how your first weeks are going and how you have been settling in! 
 
 As always, this is an experiment -- we'll adjust how we're using this app as we figure out how it's useful to us. If a feature has other options for how we use/share the feedback, it's noted in this documentation.
 
-The strategy team can read survey or suggestion text responses.
+The strategy team can read the results, including all responses and suggestions from balenistas.
 
-## TinyPulse features
+## TINYpulse features
 
 ### Surveys
-Weekly surveys show up in your email Wednesday by 11am GMT. There's only one question, and there's a text box for optional elaboration (which is always super helpful to hear). We've set up TinyPulse to publish the aggregate, anonymous results graph for each question -- though not the text box responses. (We could share these, so if you think that's a good idea, please mention it!)
+Bi-weekly surveys show up in your inbox on Wednesday by 11am GMT. There's only one question, and there's a text box for optional elaboration (which is always super helpful to hear). We've set up TINYpulse to publish the aggregate, anonymous results graph for each question, so you will see this after you respond and can come back later once more teammates have responded -- though you cannot see the text box responses.
+
+Feel free to add the [TINYpulse Gmail add-on](https://www.tinypulse.com/gmail), so you can just respond to the TINYpulse questions without leaving your inbox! 
 
 Here are ways you can help make balena feedback successful:
-* Participate: commit to responding to the TINYpulse question (it takes less than 2 minutes!) -- the more folks who answer, the better idea we have of the state of our team.
-* Lead with solutions: be constructive with your comments and suggestions. Express your frustrations and concerns, and try to consider tangible solutions that would improve things.
+* Participate: commit to responding to the TINYpulse question (it takes less than 1 minute!) -- the more balenistas answer, the better idea we have of the state of our team. If you don't tell us, we can't know! 
+* Lead with solutions: be constructive with your comments and suggestions. Express your frustrations and concerns, and try to consider tangible solutions that would improve things. We want to hear your ideas and suggestions!
 * Respond to private messages: If you receive private messages from administrators, it is because they truly want to address your feedback, but they need more information, context, and discussion to properly proceed. **You remain anonymous throughout the entire private message conversation.**
 
 ### Suggestions
-These are anonymous messages you can send, to share any feedback you'd like to. This is a free text box you can always access (log into TinyPulse to find it). 
+These are anonymous messages you can send, to share any feedback, thoughts and ideas you'd like to. This is a free text box you can always access (log into TinyPulse to find it). The suggestions will usually be transferred to the AMA section of the upcoming All Hands call to be addressed. 
 
 ### Cheers for Peers
-Since we don't have a way to mention "hey, good job with that project" while passing each other in the hallway, Cheers are a way to provide a way to give kudos to each other. Honestly, this is a default feature of TinyPulse, so we're just going to kind of go with it and see what happens. Currently, only the person sent a Cheers will see it (so it's like the hallway scenario), though we could opt to make all Cheers public (more like a Facebook-style wall). 
+Since we don't have a way to mention "hey, good job with that project" while passing each other in the hallway, Cheers for Peers are a way to provide a way to give kudos to each other. Honestly, this is a default feature of TinyPulse, so we're just going to kind of go with it and see what happens. Currently, only the person sent a Cheers will see it (so it's like the hallway scenario), though we could opt to make all Cheers public (more like a Facebook-style wall). You can start by sending Cheers to balenistas that have supported you through your first few weeks :)
 
 **Cheers for Peers are not anonymous by default**, but there's an option to make it anonymous. Admins can not see who sent anonymous cheers.
 
