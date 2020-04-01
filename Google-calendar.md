@@ -11,8 +11,6 @@ Google calendar has a feature which allows you to add a coworker’s calendar to
 1. At the "Add a coworkers's calendar" field, write the name or the @balena.io e-mail address of the coworker whose calendar you want to see and click on it
 1. Coworker’s calendar entries will show up in your calendar
 
-![](  http://i67.tinypic.com/34zdgjp.png)
-
 Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
 
 ## Add an event to your calendar
@@ -22,8 +20,6 @@ So, let’s say you’d like to add a repeating event to your calendar and get r
 
 1. Log in to your @balena.io e-mail account and go to calendar.google.com
 1. Click on the event title that you’re interested in, or click on the coloured space next to event’s title. (note: make sure that you've clicked on the original event and not on the event someone added/copied to their calendar)
-
-![](http://i66.tinypic.com/2nbynfl.png)
 
 3. Go to the Options choice (the 3 dots on the upper right) and select the calendar you wish to include the event to.
 
