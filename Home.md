@@ -39,7 +39,7 @@
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
     - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
-    - [Monday Project Check-ins](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
+    - [Project Check-ins](https://github.com/resin-io/hq/wiki/Monday-Project-Check-ins)
     - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
     - [Devices call](https://github.com/resin-io/hq/wiki/Devices-Team-Calls)
     - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
