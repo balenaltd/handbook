@@ -1,3 +1,7 @@
+Most projects we are working on will have weekly check in calls. You can usually find the link to the relevant spec included in the calendar invite to get more information on the project and work. 
+
+We used to have a different process for having all check in calls every Monday and you can see more information below. 
+
 ###  [Monday Project Check-ins Template](https://drive.google.com/open?id=1qvFXSTtcp138DnNTatxHlPendBrK6boR-cwjwC1neag)
 ###  [Future Monday Project Check-ins](https://drive.google.com/open?id=1a5qua0PCYewuzhSkIlgjs51upUxF9Dbr)
 
