@@ -5,6 +5,9 @@ While there are some calls that have been regular and standard for a long time, 
 ## Company Call - All-hands
 This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. It’s mandatory for everyone to be there and it’s usually held on Mondays. There is an Atlantic slot, followed by a Pacific one to make sure all balenistas in different timezones can join this call and have the opportunity to ask questions. Chaired by @shaunmulligan
 
+## All hands presentation
+These are company wide presentations that all balenistas are encouraged to attend. Sometimes these would be about core company ideas and progress, while we are trying to have more balenistas to get involved and use this platform to share knowledge, learning, interesting topics, and concepts, as well as connect more. 
+
 ## Architecture Call
 This call is about the architectural stuff of balena. Led by @petrosagg
 
