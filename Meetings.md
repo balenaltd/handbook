@@ -2,6 +2,8 @@ You are free to join all calls (we try to keep some calls that might include sen
 
 While there are some calls that have been regular and standard for a long time, we always make sure we have a dynamic schedule in place to meet our needs, the projects and ideas we are working on at the time. Below are some key calls we use and you can check the Balena Admin calendar for more. We are currently investing more time in the LoopMVP project so you will see the relevant calls scheduled and you can read more at the `Work in Progress section`. 
 
+Read the relevant [PSA: Loop Days on Balena Admin calendar](https://www.flowdock.com/app/rulemotion/t-process/threads/8tOMC_buNSF3m-MkIamCubpp-Zg) for some information about how calls are grouped by loop in order to reduce context switching and allow balenistas to group their calls in fewer days. Also, please note how you can help by allowing more flexibility on your working hours for the days your calls are scheduled if you are able to do so.
+
 ## Company Call - All-hands
 This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there and it’s usually held on Mondays. There is an Atlantic slot, followed by a Pacific one to make sure all balenistas in different timezones can join this call and have the opportunity to ask questions. You will find the agenda attached to the calendar invite and the link is shared with everyone in the morning as well. Chaired by @shaunmulligan
 
