@@ -2,6 +2,12 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, April 06 2020 (Atlantic Edition)
+* [Meeting](https://docs.google.com/document/d/1-MZWEcRRRXg3lCGOaXIR1OorfDXl89POmVi02oE39BE/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
 Mon, March 30 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/18jHkC0mX9xpqzH7skRwkwQjUF4I6LyQqLMOFmMcUbJk/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1ApRlbTjQzcZPQIxvB9W_jqcJXRxU1cL9/view?usp=sharing)
