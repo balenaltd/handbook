@@ -36,13 +36,7 @@ Github
 1. Share your username with the Operations team
 1. Accept the invitations you'll receive to the inbox connected to your Github account, to join the relevant Github organizations.
 
-Balena support agent access 
-
-1. Sign up to [balena.io](https://dashboard.resin.io/signup) with your @balena.io e-mail account
-1. Sign up to [balena.io staging](https://dashboard.resinstaging.io/signup) with your @balena.io e-mail account
-1. Let the Operations team know, in the Operations flow, in Flowdock
-
-_Note: These accounts should NOT be for daily use, but only for your support role._
+_Note: This account should NOT be for daily use, but only for your support role._
 
 ### Short introduction to the services/tools we use
 **Flowdock** is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://docs.google.com/document/d/1NLWb0Zxg3bClCid_wXjE4LTGSg6ZAXWyZ4tseWV9fR4/edit?usp=sharing) we have put together and [here](https://www.flowdock.com/help) is some more guidance to help you navigate in the flowdock world :)
@@ -62,5 +56,3 @@ _Note: These accounts should NOT be for daily use, but only for your support rol
 The **forums** are used by our free users for support requests, and generally for discussion about the product, hack Friday projects, etc. It's required that you have an account there because eventually, you'll need it for supporting users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock, front etc.)
 
 **Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password.  
-
-**Balena support agent access** means that you have access to certain user applications. It’s really useful when you provide customer support. In addition, in order to have accurate analytics reporting, we need to tag our usernames that are utilized internally for development or testing purposes. We already filter out users with our email addresses (@balena.io). In case you need to utilize a user with non-balena email address, contact Operations with your username to get the team_member role added to your user. 
