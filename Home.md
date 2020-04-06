@@ -59,7 +59,7 @@
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
     - [Travel & Expenses 101](https://github.com/resin-io/hq/wiki/Travel-&-Expenses-101)
     - [Stock Options 101](https://github.com/resin-io/hq/wiki/Stock-options-information)
-    - [Feedback](https://github.com/resin-io/hq/wiki/Feedback)
+    - [Team Feedback & TINYpulse](https://github.com/resin-io/hq/wiki/Feedback)
     - [Development Guidelines](https://github.com/balena-io/balena/wiki/Development,-Support-and-Process-Guidelines)
     - [Support Guidelines](https://github.com/balena-io/process/tree/master/process/support)
 
