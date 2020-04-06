@@ -27,7 +27,7 @@
     - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
-    - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management0
+    - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
 
   - Culture
