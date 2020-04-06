@@ -69,7 +69,5 @@
 - Product
   - Aspects
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
-  - Devices
-    - [Legacy OS](https://github.com/resin-io/hq/wiki/Legacy-OS)
 
 - [FAQs](https://github.com/resin-io/hq/wiki/FAQ)
