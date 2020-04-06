@@ -28,7 +28,6 @@
     - [passwords management](https://github.com/resin-io/hq/wiki/passwords-management)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
-    - [Development and Support guidelines](https://github.com/balena-io/balena/wiki/Development-and-Support-Guidelines)
 
   - Culture
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
