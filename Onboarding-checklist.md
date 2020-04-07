@@ -13,7 +13,7 @@ Before anything else let's check that everything is in order and that there's no
    * Intercom
    * Jellyfish
 * Shared your 'first day as a balena user' experience in Flowdock `r/product` flow, using **#internal_feedback**
-* Noted or shared any onboarding feedback in Flowdock `t/beginners flow, using **#teamfeedback**
+* Noted or shared any onboarding feedback in Flowdock `t/beginners` flow, using **#teamfeedback**
 
 If your checklist is full of ticks and you have created the balena account using your balena email address, then it's time to contact the Operations Team using @@operations in the `t/operations` flow in Flowdock to let them know and share your account username with. 
 
