@@ -13,9 +13,10 @@ Before anything else let's check that everything is in order and that there's no
    * Intercom
    * Jellyfish
 * Shared your 'first day as a balena user' experience in Flowdock `r/product` flow, using **#internal_feedback**
-* Noted or shared any onboarding feedback in Flowdock `t/beginners` flow, using **#teamfeedback**
+* Shared any onboarding feedback in Flowdock `t/beginners` flow, using **#teamfeedback**
+* Filed an issue to the relevant Github repo to add your location to the balena team map
 
-If your checklist is full of ticks and you have created the balena account using your balena email address, then it's time to contact the Operations Team using @@operations in the `t/operations` flow in Flowdock to let them know and share your account username with. 
+If your checklist is full of ticks and you have created the balena account using your balena email address, then it's time to contact the Operations team using @@operations in the `t/operations` flow in Flowdock to let them know and share your account username with them. 
 
 Don't forget to use #access and @@operations if you want to request access to anything further. There are more services and tools we use, but this section focuses on the main ones that you need to make sure you have access from Day 1. 
 
