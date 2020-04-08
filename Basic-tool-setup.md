@@ -14,7 +14,6 @@ Primary:
 * [Zoom](https://zoom.us/)
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * [Jellyfish](https://jel.ly.fish/)
-* balena support access*
 * Intercom
 
 Depending on your job position and team you may have access to additional tech-related, biz-related or team-related tools. 
