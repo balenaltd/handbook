@@ -55,3 +55,5 @@ _Note: This account should NOT be for daily use, but only for your support role.
 The **forums** are used by our free users for support requests, and generally for discussion about the product, hack Friday projects, etc. It's required that you have an account there because eventually, you'll need it for supporting users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock, front etc.)
 
 **Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password.  
+
+**NOTE**: To avoid any confusion, you might see `resin` and `resin.io` when reading older information. Balena used to be called resin.io and you can read more about the name change [here](https://www.balena.io/blog/resin-io-changes-name-to-balena-releases-open-source-edition/). 
