@@ -129,4 +129,4 @@ Now that you are an expert on Flowdock :) it's time for your first meeting with 
 Following the customary greetings, it would be great if you took the time to create and send a brief intro of yourself as your first task. You may include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
 
 ## Changing the look and feel
-Petros has created a CSS file to remove some of the clutter from the Flowdock interface.  To use, install the [Stylebot extension](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en) (if using Chrome -- is there one for Firefox?) and use this CSS file: https://gist.github.com/petrosagg/2d3c53a9d0ba5dcd7887eaad635ad87d
+Petros has created papagal which is a Chrome and Firefox extension that improves user experience while using Flowdock. You can find more information [here](https://github.com/petrosagg/papagal). Unfortunately, the Firefox addon has been taken down for now.  
