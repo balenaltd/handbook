@@ -11,10 +11,11 @@ Friday Hacks started with the idea of every Friday being a company-wide hackatho
 
 The goal is to both get a feeling for our users' experience/pain, as well as to produce fun projects which our users can build themselves - it's easy to forget the big picture when working on day-to-day tasks and this work helps compensate for that.
 
-An additional benefit is that we get to test new functionality and file bug reports as we actually work with the platform, so ensure that any problems you find are raised and recorded.
-Ideally, you should aim to open source the resulting projects, and pushing them to your own GitHub accounts is absolutely fine.
+An additional benefit is that we get to test new functionalities and file bug reports as we actually work with the platform, so ensure that any problems you find are raised and recorded.
 
-If you require more hardware, software or other components for your project, get in touch with the Operations team in Flowdock using @@operations, #order, and the `t/operations` flow to let them know what you need to make it happen.
+**Important note**: Ideally, you should aim to open source the resulting projects, and make sure you push them to [balena playground](https://github.com/balena-io/balena/wiki/Github) where we keep a collection of play around projects for balena IoT devices.
+
+If you require more hardware, software or other components for your Hack Firday project, get in touch with the Operations team in Flowdock using @@operations, #order, and the `t/operations` flow to let them know what you need to make it happen and remember to mention that these are for your Hack Friday project. 
 
 ## Project Photos / Videos / Information
 
