@@ -23,10 +23,9 @@ If you take any photos / videos during your project development (and you most li
 
 ## Hack ideas
 
-You can add your hack ideas below, to inspire others and remind yourself! Ideas here can be picked up by anyone else too, so mark it if you worked on it! This is an older list of ideas, so please feel free to add here and keep this list alive and exciting :)
+You can add your hack ideas below, to inspire others and remind yourself! Ideas here can be picked up by anyone else too, so mark it if you worked on it! This is an older list of ideas, so please feel free to add here and keep this list alive and exciting by editing this wiki page :)
 
 * Balena [Atom](https://atom.io/) and Microsoft [Visual Studio Code (VSCode)](https://code.visualstudio.com) plugin
-* Heroku app to receive Github webhook and deploy to Balena
 * SBVR highlighter for VSCode or SublimeText
 * Ansible module for automating Balena operations in declarative steps 
 * Send sensor data to Thinkspeak from a Balena application 
