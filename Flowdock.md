@@ -57,22 +57,23 @@ Bad: @team can someone help me with this user? He has a problem with the builder
 ## Using @person mentions appropriately
 The @person tag notifies a person that there is a message for them, sometimes with a desktop notification on their computer, some times with a push notification on their phone, or even both. Use @person notifications when you indeed want that person’s attention, not every time their name is mentioned.
 
-Good: @emirotin can you please look at this bug I found in the UI when you can?
+Good: @person can you please look at this bug I found in the UI when you can?
 
-Bad: I saw @emirotin was talking to @page- the other day. It gave me an idea about how to change the device OS.
+Bad: I saw @person was talking to @person the other day. It gave me an idea about how to change the device OS.
 
-## Adding rooms to your account
-You may have access to rooms which you’re not yet seeing. By pressing the “+” button at the bottom left of your screen, you may discover you have access to rooms which you haven’t yet opened. Feel free to join any flow you'd like, even if you're not directly connected to its subject, and contribute to in-flow conversations by sharing your opinion with other team members.
+## Adding flows to your account
+You may have access to flows which you’re not yet seeing. By pressing the “+” button at the bottom left of your screen, you may discover you have access to flows which you haven’t yet opened. Feel free to join any flow you'd like, even if you're not directly connected to its subject, and contribute to in-flow conversations by sharing your opinion with other team members.
 
 As soon as you join a flow, you’ll get a notification asking you whether you’d like to be part of the team or not. Being part of the team means that you’ll be notified each time someone mentions the team (@team). We suggest being part of the team if you’re interested in the specific room. Note that you can update your choice (opt-in/opt-out) any time you want.
 
 Example rooms:
 
-* r/experience - User Interface (Web & CLI), docker images, funnel, and anything else experience-related
-* r/infrastructure - Server-side backend conversations
+* t/all - Anything goes. A flow to discuss what people discuss at a pub. Anything! Including some meeting announcements and the occasional all-company announcements.
+* t/operations - Anything about business operations of the company including account management, orders, password and access requests and more...
+* t/begginers - A flow to ask any beginner's questions, reach out to your balena buddy and others that can help you with those, ask questions you have related to balena or other tech and more... 
 * i/supervisor - Talk about our agent that runs on the device
 * i/devices - Yocto, device OS conversations
-* pub - Anything goes. Nothing particularly good, except the meeting announcements and the occasional all-company announcement
+ 
 
 Some room name prefixes (r/, i/...) align the rooms with stages of a process:  
   (s)ensing => (r)easoning => (i)mplementation => (d)eployment => (e)nvironment  
