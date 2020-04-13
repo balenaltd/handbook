@@ -17,7 +17,7 @@
 
 &nbsp;&nbsp;&nbsp;Daniel Borek (@szony)
 
-&nbsp;&nbsp;&nbsp;Joe Hounsham (@joeh)
+&nbsp;&nbsp;&nbsp;Joe Hounsham (@joehounsham)
 
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
