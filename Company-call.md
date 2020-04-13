@@ -4,7 +4,7 @@
 
 Mon, April 13 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/14cpqZFGpQsV92ptSAxOpOrG9EmN6SoslhxNOVuqjK0o/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1IsMUJODRFI9Is9c7_aEfe7klWq3jrb6J/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1wa3IniLv-s0_95Fjmn8kN5cOCDtnbu4g/view?usp=sharing)
 * [Attendees]()
 
