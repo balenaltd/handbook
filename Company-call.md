@@ -5,7 +5,7 @@
 Mon, April 13 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/14cpqZFGpQsV92ptSAxOpOrG9EmN6SoslhxNOVuqjK0o/edit?usp=sharing)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/1wa3IniLv-s0_95Fjmn8kN5cOCDtnbu4g/view?usp=sharing)
 * [Attendees]()
 
 Mon, April 06 2020 (Pacific Edition)
