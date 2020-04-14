@@ -1,4 +1,4 @@
-You may be required to travel, from time to time, for business purposes such as events, meetings with customers etc. The company will cover all work-related travel expenses. This includes accommodation and meals for the business trip. We really want our team members to be productive and not need to worry about travel arrangements and stuff.
+You may be required to travel, from time to time, for business purposes such as events, team meetings, meetings with customers etc. The company will cover all work-related travel expenses. This includes accommodation and meals for the business trip. We really want our team members to be productive and not need to worry about travel arrangements and stuff.
 
 The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
 
@@ -7,7 +7,7 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 
 ## How should I book my flight & accommodation? 
-In order to book your flights & accommodation please first get in touch with the Operations Team. They will help you find a flight and book accommodation for you trip. 
+In order to book your flights & accommodation please first get in touch with the Operations Team. Contact the Operations team using @@operations in the `t/perations` flow. They will help you find a flight and book accommodation for your trip. 
 
 ## How should I pay for my expenses while I'm traveling?
 
