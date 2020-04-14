@@ -1,7 +1,7 @@
-[Wiki](home) > [Team](team) > Friday Hacks
+[Wiki](home) > [Team](team) > Hack Fridays
 
-# Friday Hacks
-Friday Hacks started with the idea of every Friday being a company-wide hackathon for balena. However, as balenistas were finding it tricky to free up every Friday for hacking, we have now moved to have a Hack Friday every Friday of no scheduled calls week and this being a calendar event to encourage everyone to join. So, for Hack Friday instead of your regularly scheduled tasks, you can work on a project of your choosing, though it must meet the following conditions:
+# Hack Fridays
+Hack Fridays started with the idea of every Friday being a company-wide hackathon for balena. You are encouraged to use every Friday to hack away, test, learn and create fun projects that can be shared. However, as balenistas were finding it tricky to free up every Friday for hacking, we now have a Hack Friday event noted in the calendar for every Friday of the no scheduled calls week (roughly once a month) to encourage everyone to join. So, for Hack Friday instead of your regularly scheduled tasks, you can work on a project of your choosing, though it must meet the following conditions:
 
 1. It uses balena, or can attempt to break the security of balena, or can be a tool built using balena-sdk or balena-API or other balena components.
 1. You can't use special privileges to code the project, you should not even have your balena developer environment running on Friday (i.e. any external user must be able to build the same project)
