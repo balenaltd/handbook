@@ -3,36 +3,11 @@ You may be required to travel, from time to time, for business purposes such as 
 The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
 
 Always have a credit/debit card with you. Hotels will generally expect you to have a physical credit card to present upon check-in. This credit card will be kept on file for the duration of your stay. Even if your lodging was prepaid by the company or by using a company credit card, the Hotel may still require a card to be on file for "incidentals".
-Please note that we are trying to minimize the effort you need to put on this, thus we are using NexTravel for our travel arrangements.
+Please note that we are trying to minimize the effort you need to put on this, thus we try to prepaid for all travel arrangements.
 
 
-## How should I book my flight?
-
-At Balena we use a user friendly travel service called NexTravel. Should you require to travel at any point you will be given access to NexTravel using your balena email. The process is quite easy. You choose your desired flight and send it to be approved. 
-
-Take some time to read these [NexTravel guides & info](https://www.nextravel.com/guide/user), before you travel. 
-
-Using NexTravel is quite easy and very similar to the way you book flights and hotels commercially. The steps are very easy:
-
-- Find the flight or hotel you wish.
-- Double check your reservation dates, personal info etc. are all correct.
-- For the field "Trip Purpose", please fill in there the purpose of your trip. (Ex. name of event, Summit 2018, etc.)
-- Complete your reservation by clicking the "Complete Checkout" button.
-
-- When you complete your request, an approval email will be sent to the Operations team.
-- Once approved, you'll receive a confirmation email with all your reservation details.
-
-Once it is checked by the Operations Team and all seems fine you receive your approval. In case of an emergency before or during your travels the NexTravel support team is available 24/7 by phone +1-844-800-9855 or via email support@nextravel.com.
-
-Moreover, NexTravel offers a number of features that include also a centralize Open Booking functionality. The Open Booking feature allows you to import reservations, that were booked outside of NexTravel, into the NexTravel platform. This feature allows you to keep all of your reservations and bookings centralized and share them also with the team.
-
-Do not hesitate to reach out to our Operations team in case you need any additional information or any clarification.
-
-## How should I book my accommodation?
-
-In order to book your accommodation you first get in touch with the Operations Team. They will guide you whether you need to book a hotel room by yourself or if the Operations Team will arrange accommodation on your behalf. 
-
-The Operations team would book your accommodation in case more extensive research is required or the booking cannot be performed using Nextravel. Airbnb reservations also go through the Ops team.
+## How should I book my flight & accommodation? 
+In order to book your flights & accommodation please first get in touch with the Operations Team. They will help you find a flight and book accommodation for you trip. 
 
 ## How should I pay for my expenses while I'm traveling?
 
@@ -40,12 +15,8 @@ All the expenses made for the duration of your business travel is covered by bal
 
 ## What happens in case of an emergency?
 
-In case of an emergency, the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Apostolis (apostolis@balena.io), Stefanos (stefanos@balena.io) or Fotis (fotis@balena.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones (Apostolis +30 6946913376, Stefanos +30  6936896999, Fotis +30 6979180161). They will guide you in any way possible.
+In case of an emergency, the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Nicola(nicola@balena.io), Apostolis (apostolis@balena.io), Stefanos (stefanos@balena.io) or Fotis (fotis@balena.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones (Nicola +27825054001, Apostolis +30 6946913376, Stefanos +30  6936896999, Fotis +30 6979180161). They will guide you in any way possible.
 In the unlikely event that the Operations Team is not available to assist you (that would occur only due to time difference), and depending on the need, there are a few things you can do. Please see below.
-
-### Travel
-
-If the emergency is travel related (flight cancellation, adjustments etc.), you can always phone NexTravel and let them figure out and straighten out any issues that have arisen. NexTravel support team is available 24/7 by phone +1-844-800-9855 or via email to support@nextravel.com
 
 ### Accommodation
 
@@ -114,8 +85,3 @@ If you are at an event for example and you buy a board because the one that you 
 In case an emergency requires a purchase please don’t hesitate to contact the Operations team.
 Let’s say that you got sick when on a journey with balena and you need medicine. That purchase is reimbursable. A flight adjustment to get back in time for the Super Bowl opening is not an expense that can be reimbursed, sorry guys :( 
 
-## Can I use NexTravel to book a personal trip?
-
-The short answer is yes. You just need to follow the same procedure you follow for booking a business trip. Search for your flights/accommodation/etc., choose the option that satisfies you more, confirm the passenger details and click on the "Continue to Checkout" button. At the next screen, you would see the details of your trip and the total cost. By default, this is set to be a business related trip. If you wish to make this a personal trip, you need to click on the "Personal Trip" checkbox at the top right of your screen. By choosing this option, you will be required to add your payment information and complete checkout, using your personal information. 
-
-For the avoidance of any doubt, booking personal travel and anything related to it (payment, visa, accommodation, expenses etc) is your own responsibility.
