@@ -1,4 +1,3 @@
-### Security Guidelines<br>
 
 ### Password handling
 * Use a unique password for every single website
