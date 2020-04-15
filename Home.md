@@ -28,8 +28,9 @@
     - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
-    - [Passwords Management & Passpack](https://github.com/resin-io/hq/wiki/passwords-management)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
+    - [Passwords Management & Passpack](https://github.com/resin-io/hq/wiki/passwords-management)
+    - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
 
   - Culture
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
