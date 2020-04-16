@@ -29,7 +29,7 @@
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
-    - [Passwords Management & Passpack](https://github.com/resin-io/hq/wiki/passwords-management)
+    - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
     - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
 
   - Culture
