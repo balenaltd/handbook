@@ -61,6 +61,9 @@ Good: @person can you please look at this bug I found in the UI when you can?
 
 Bad: I saw @person was talking to @person the other day. It gave me an idea about how to change the device OS.
 
+## Using @people mentions correctly 
+The @people tag in a thread pings the people involved in the current thread on the current message. @people helps notify all the people included in the specific thread about your message with one tag. Similarly, you can use @t and Hubot will post your message again pinging all the included people in the thread. 
+
 ## Adding flows to your account
 You may have access to flows which you’re not yet seeing. By pressing the “+” button at the bottom left of your screen, you may discover you have access to flows which you haven’t yet opened. Feel free to join any flow you'd like, even if you're not directly connected to its subject, and contribute to in-flow conversations by sharing your opinion with other team members.
 
