@@ -4,6 +4,11 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
+### Fri, Apr 17 2020 (HW design 101)
+* [Video]()
+* [Audio]()
+* [Presentation]()
+
 ### Thu, Mar 12 2020 (Pre loop MVP)
 * [Video](https://drive.google.com/file/d/1pVRnJ0ocrnigIq28QpVBGg0mMKsAE14U/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1gFTnXc58d0daPWlZ2FYX_AYdxV9tFg-K/view?usp=sharing)
