@@ -7,7 +7,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### Fri, Apr 17 2020 (HW design 101)
 * [Video](https://drive.google.com/file/d/1ZzmGp7X06_jmskLMQ_iexX6Fj5gRBBL-/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1sWqyDrwfrnbBnMsfNlNwefWKe0OPi5On/view?usp=sharing)
-* [Presentation]()
+* [Presentation](https://drive.google.com/file/d/1atG5iMXXVsujtK9tj11fSUH7oFGhmslz/view?usp=sharing)
 
 ### Thu, Mar 12 2020 (Pre loop MVP)
 * [Video](https://drive.google.com/file/d/1pVRnJ0ocrnigIq28QpVBGg0mMKsAE14U/view?usp=sharing)
