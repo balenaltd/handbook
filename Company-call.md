@@ -12,7 +12,7 @@ Mon, April 20 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1CNeUaw6AQPDXy2M35FVl3EreLKXA6CTISGRB2FX88Lc/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1KnrtmqmB8wR8RbmJH_Ei9yYT4UYxno-n/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1uJBDWUExZVzPyXMJS3BGLrwk8gTgQnob/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1Nv1ebhx5MQWxKf0FflogK3CweX4hpv5y/view?usp=sharing)
 
 Mon, April 13 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/14cpqZFGpQsV92ptSAxOpOrG9EmN6SoslhxNOVuqjK0o/edit?usp=sharing)
