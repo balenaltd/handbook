@@ -4,7 +4,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
-### Fri, Apr 24 2020 (HW design 101)
+### Fri, Apr 24 2020 (Errors are not exceptions (thinking in Rust))
 * [Video]()
 * [Audio]()
 * [Presentation]()
