@@ -7,7 +7,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### Fri, Apr 24 2020 (Errors are not exceptions (thinking in Rust))
 * [Video](https://drive.google.com/file/d/1ToB2KDp_3QFrazSTCN5pxU-31AsbqZUm/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1wF1nUz2v6fQW1Jh1rl3GZm6HuU4NHS0X/view?usp=sharing)
-* [Presentation]()
+* [Presentation](https://drive.google.com/file/d/1-cFZasEFtnn08Hjcb69yMOJvu_MTTJPW/view?usp=sharing)
 
 ### Fri, Apr 17 2020 (HW design 101)
 * [Video](https://drive.google.com/file/d/1ZzmGp7X06_jmskLMQ_iexX6Fj5gRBBL-/view?usp=sharing)
