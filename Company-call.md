@@ -4,7 +4,7 @@
 
 Mon, April 27 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1KWkI19Q8LOQO0tJPS7lLr-bBGxP17LzrTY6p3TCm6Ew/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1Hdch9m-feP7XzhzQNdHNJD8N1SemBoSY/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/12J77qy5nFIk-ZU8hPJAbcbSsdhPXK2Im/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/16GC5D5m7A3Zd-tSr9wyVGNFbjzG4KcFI/view?usp=sharing)
 
