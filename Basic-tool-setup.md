@@ -21,8 +21,9 @@ Depending on your job position and team you may have access to additional tech-r
 As needed (request access from the Ops team):
 * Zendesk
 * [Balena Forums Moderator Access](https://forums.balena.io/)
+* Logentries
 
-Please note that Zendesk and Forums moderator access are added right before a balenista joins support. If you need it sooner, please let the Ops team know.
+Please note that you should have access to the above services before you start doing support. This is also noted during support onboarding so you can check that you have access to all the services you will need. If you need access sooner, please let the Operations team know and request access.
 
 **Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow `t/operations` using @@operations and **#access** .**
 
