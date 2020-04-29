@@ -9,3 +9,14 @@ You should expect to **fail often**. If you're not failing often enough, you are
 You should also expect to **be able to control the kind of work you do**, at some degree. Many people who work for balena don't do today what they were originally hired to do, and the company itself isn't doing what it started out to do. Once you get into it, you often find you can be more effective doing something else than what you originally intended. We expect you will work harder and better when given a task you are excited about, so everyone wins when you're well matched to the task you're doing. The challenges you receive will not always be where you are strong. If you are a great engineer, you may be challenged on communication. If you are a great communicator, you may be challenged on technical understanding. While specialisation is important, a chain is only as strong as its weakest link. You can make things more challenging. Don’t be afraid to ask for help or for guidance from other team members, to overcome the challenges that you face. You are free to set higher bars to success than the ones initially set for you.
 
 This is what we aspire to offer to everyone on the team. If you are not receiving these things, you should tell the people who guide your work. If these are not things you want, you should think hard whether this is the company you want to be working for. We want to work together on improving the product as well as reaching your personal goals.
+
+### Resources that can influence the way you think and communicate
+
+If you have some free time for reading, Alex, Petros and Alison have made some recommendations for books that have had an impact on how they think and communicate. These can be good reference points for the way we communicate and work at balena. 
+
+* [Politics and the English Language](https://www.orwell.ru/library/essays/politics/english/e_polit)
+* [The Elements of Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk-ebook/dp/B07NPN5HTP)
+* [Economical Writing](https://www.amazon.com/Economical-Writing-Third-Thirty-Five-Persuasive-ebook/dp/B07RRH2XS4)
+* [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
+* [How To Disagree](http://www.paulgraham.com/disagree.html)
+* [Thinking, Fast and Slow](https://www.amazon.co.uk/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576)
