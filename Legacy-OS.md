@@ -1,8 +1,11 @@
-Notes on legacy resinOS versions, and how to use them. Partly for historical reasons, partly because we'll still have to work with them for a while and it's good to know how to do that.
+Notes on legacy balenaOS versions, and how to use them. Partly for historical reasons, partly because we'll still have to work with them for a while and it's good to know how to do that.
 
-## Early resinOS versions
+## Recent balenaOS versions
+In order to provision devices with legacy 1.x or early 2.x balenaOS releases, you must have access to a `legacy` account type. There are many such shared accounts owned by the shared `unicorn` user. You can ask ops to be added as a Developer on those apps and provision devices accordingly. 
 
-There was [a discussion](https://www.flowdock.com/app/rulemotion/r-resinos/threads/m8UFn40WueuiNVxiC--Y_zuwqco) on how to get as early resinOS images. The nutshell is:
+## Early balenaOS versions
+
+There was [a discussion](https://www.flowdock.com/app/rulemotion/r-resinos/threads/m8UFn40WueuiNVxiC--Y_zuwqco) on how to get as early balenaOS images. The nutshell is:
 
 *   The images are contained in the `resin/resin-img` containers.
 *   Login to docker with `resindev` user (password is [here](https://github.com/resin-io/resin-containers/blob/master/cloud_formation/systemd/services/docker_login.service#L11)), and then you can just `docker pull resin/resin-img`
