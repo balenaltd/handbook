@@ -3,7 +3,7 @@ Welcome to Flowdock! It’s the nervous system of balena, so using it well is ke
 ## Getting bootstrapped
 As soon as you accept the email invitation to join Flowdock you’ll be requested to choose your Flowdock username. The first thing you should do when you enter Flowdock for the first time is to replace the nick (chat display name) with your Github handle. <u>Please make sure that your Flowdock username is the same as the one you have in Github</u>. 
 
-One of the best ways to get bootstrapped is to add yourself to all flows and then remove them as you see what you need. You'll get a really good sense of what's going on in the team.
+One of the best ways to get bootstrapped is to add yourself to all flows and then remove them as you see what you need. You'll get a really good sense of what's going on in the team. It might seem overwhelming as there is a lot of activity and information to follow but you can see which flows you can later "mute" by clicking the 3 dots next to the flow name and which flows are important to you.  
 
 ## Chat is Asynchronous, like e-mail
 A question on Flowdock is not implied to need immediate response unless explicitly stated. That means if you ask someone something, they may take some time to get back to you as they may be doing something else. It also means that you don’t have to respond immediately to mentions. If you’re taking focus time to do something else, that’s absolutely fine, and indeed encouraged. Otherwise nothing would ever get done.
@@ -26,7 +26,11 @@ Messages with the same colour, belong to the same thread. If you see many colour
 
 ## Re-threading
 
-It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post on to a thread.
+It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post on to a thread. This gif by Rich just sums up rethreading! 
+
+flowdock-rethread.gif 
+
+
 
 Read more here: http://archive.is/xVcjA
 
@@ -85,7 +89,7 @@ Other prefixes mean (f)ramework, (p)rojects and (t)eam.
 Note that we create other rooms from time to time that are project-specific or related to a specific activity. If you're in one of those, you'll know what they're for.
 
 ## hashtags
-Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags into our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes. Then an agenda can be collated for the relevant meeting, such as architecture (#arch) or teamOS (#teamos) brainstorm calls, or action should be taken, such as operations team giving you access to a service (#access) or placing an order (#order).
+Flowdock supports #hashtags and we find it very useful to use them when we don’t want anything important to get lost into the sea of conversations. That’s why we use specific hashtags into our messages in order to be able to talk about it at the appropriate meeting. When one of the following hashtags are typed into a message, an email is sent to a specific address which can be seen in one of Front’s inboxes. Then an agenda can be collated for the relevant meeting, such as architecture (#arch) or teamOS (#teamos) brainstorm calls, or and action can be taken, such as Operations team giving you access to a service (#access) or placing an order (#order). Once you type your message using one of the hashtag, Hubot will generate a message confirming that your message has been sent. Note that if you forget to add the hashtag and you edit to add it, your message will not be sent. The hashtags should be used in the original message to generate an email to the relevant inbox. 
 
 Some examples are:
 * #access => access
@@ -125,7 +129,7 @@ Some examples are:
 
 As we actively build on the list of hashtags we use, there are many more, so feel free to ask [Hubot](https://github.com/balena-io/hubot-as-mainbot) which hashtags are used at the specific flow you are interested in by typing: `Hubot, show me your hashtags`. Remember that Hubot needs to be added to the flow for the hashtags to work! 
 
-Please keep in mind that the message that contains the hashtag should have all the info required. Sterile hashtags with up-arrows won’t work.
+Please keep in mind that the message that contains the hashtag should have all the info required and be more than four words. Sterile hashtags with up-arrows won’t work. Also, any later edit will not be sent, so make sure your message sent contains all the required info, or create a new one if you need to correct it. 
 
 ## Your first message
 Now that you are an expert on Flowdock :) it's time for your first meeting with the team. You'll be introduced in the public flow by the balenista assisting with your onboarding.
