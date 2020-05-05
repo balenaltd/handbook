@@ -28,9 +28,7 @@ Messages with the same colour, belong to the same thread. If you see many colour
 
 It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post on to a thread. This gif by Rich just sums up rethreading! 
 
-flowdock-rethread.gif 
-
-
+----Add Gif here----
 
 Read more here: http://archive.is/xVcjA
 
