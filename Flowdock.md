@@ -18,11 +18,11 @@ Secondly, by having the conversation in private, you are then committed to conti
 Thirdly, there’s the failing part of having a conversation in public. As mentioned above, it’s not bad to fail and you should sometimes expect to fail. Discussing in public and learning to fail in public will help you be transparent and sincere. Public conversations achieve all that automatically. Public conversations are also discoverable by search years later, by someone who may have the same question. Public conversations also allow the rest of the team to know what you’re working on, what you like and don’t like to do, what you’re good at, and in general allows others to adapt to your strengths and weaknesses, and to steer you towards problems you will excel at. Private conversations prevent all of that serendipity from happening, and each of those things has to happen explicitly, and slowly.
 
 ## Using threads
-Conversation threads is a Flowdock feature that can be a head scratcher for new users, but an absolute must for everyone else, so make sure you learn how to use them. When looking at a room in flowdock, you may see various colours on the left of a message.
+Conversation threads is a Flowdock feature that can be a head-scratcher for new users, but an absolute must for everyone else, so make sure you learn how to use them. When looking at a room in flowdock, you may see various colours on the left of a message.
 
 ![](https://lh5.googleusercontent.com/30wuav1RLnUOt1sM6l-ZNhRsP8a_6EU6MmFoyHmkcjcEpCrdfYZ2D42ME09ovCe4m18KkIa2HfToS7Lh0hRfzwR28fXHMlvCd16sYqweY_ZVTMzQU48ZUp6QOPSlrOno_lkxSgbA)
 
-Messages with the same colour, belong to the same thread. If you see many colours, this means there are many conversations going on. By clicking on the bubble, you will see the conversation only. On mobile, you can tap on a message to enter the conversation view.In the conversation view you can type messages normally, and they will also get the same colour as the rest of the conversation, making clear where they are intended for.
+Messages with the same colour, belong to the same thread. If you see many colours, this means there are many conversations going on. By clicking on the bubble, you will see the conversation only. On mobile, you can tap on a message to enter the conversation view. In the conversation view, you can type messages normally, and they will also get the same colour as the rest of the conversation, making clear where they are intended for.
 
 ## Re-threading
 
@@ -75,7 +75,7 @@ Example rooms:
 
 * t/all - Anything goes. A flow to discuss what people discuss at a pub. Anything! Including some meeting announcements and the occasional all-company announcements.
 * t/operations - Anything about business operations of the company including account management, orders, password and access requests and more...
-* t/begginers - A flow to ask any beginner's questions, reach out to your balena buddy and others that can help you with those, ask questions you have related to balena or other tech and more... 
+* t/beginners - A flow to ask any beginner's questions, reach out to your balena buddy and others that can help you with those, ask questions you have related to balena or other tech and more... 
 * i/supervisor - Talk about our agent that runs on the device
 * i/devices - Yocto, device OS conversations
  
