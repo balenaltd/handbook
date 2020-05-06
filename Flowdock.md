@@ -129,6 +129,12 @@ As we actively build on the list of hashtags we use, there are many more, so fee
 
 Please keep in mind that the message that contains the hashtag should have all the info required and be more than four words. Sterile hashtags with up-arrows won’t work. Also, any later edit will not be sent, so make sure your message sent contains all the required info, or create a new one if you need to correct it. 
 
+Some examples of using hashtags and the message that Hubot sends:
+
+<img width="853" alt="Screenshot 2020-05-06 at 17 54 28" src="https://user-images.githubusercontent.com/59803307/81205790-13b14200-8fc3-11ea-9c86-2dbd0d551d17.png">
+
+<img width="572" alt="Screenshot 2020-05-06 at 17 54 59" src="https://user-images.githubusercontent.com/59803307/81205947-49562b00-8fc3-11ea-9c1f-f9a415477c34.png">
+
 ## Your first message
 Now that you are an expert on Flowdock :) it's time for your first meeting with the team. You'll be introduced in the public flow by the balenista assisting with your onboarding.
 
