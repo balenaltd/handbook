@@ -10,6 +10,8 @@ We have several coding standards for different languages, some more fully fledge
 
 * [TypeScript(TS)](https://github.com/balena-io/process/blob/master/process/TypeScript_Coding_Guide.md)
 * [CoffeeScript(CS)](https://github.com/balena-io/process/blob/master/process/coffeescript-coding-standards.md)
+* [React](https://github.com/balena-io/process/blob/master/process/React_Coding_Guide.md)
+* [Python](https://github.com/balena-io/process/blob/master/process/Python_Coding_Guide.md)
 
 There's a guide to starting a new project [here](https://github.com/balena-io/process/blob/master/process/starting-a-new-project.md) and a good guide to project maintenance [here](https://github.com/balena-io/process/blob/master/process/maintaining-a-project.md).
 
