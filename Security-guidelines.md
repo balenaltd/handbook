@@ -7,7 +7,7 @@
     * One less password to worry about
 * Use a browser integrated password manager
     * Don’t use a password manager that relies on copy/pasting passwords. Most phishing attacks rely on you confusing the domain name. Browser automation defeats that
-    * Don’t store 2FA recovery codes in your password manager. Store them in a secure physical location in your home
+    * Store 2FA recovery codes in your password manager
 * Never give actual answers to security questions
     * Put the question you selected in the notes of your password manager entry, generate a random password and give that as your answer.
 * Enable 2FA authentication in services that support it
