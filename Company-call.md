@@ -2,11 +2,17 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, May 11 2020 (Pacific Edition)
+* [Meeting](https://docs.google.com/document/d/12aOb8v2qvS__3ofLie5pGUt9zaQVHfFeKLq7avEecUs/edit?usp=sharing)
+* [Video]()
+* [Audio](https://drive.google.com/file/d/1j2fDqZK5fXHMVOWs3UOasf3BzRIQGtY6/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1t_QqVWiJndLGyZsy0vxk0sDDSDEtCKG3/view?usp=sharing)
+
+
 Mon, May 11 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/12aOb8v2qvS__3ofLie5pGUt9zaQVHfFeKLq7avEecUs/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1YgrlAgjxmIhvlfyHyKd5Vkk-2ihAICaG/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1KTJ5WlJNnkKJzE_CjoE6tsQwu_SPwZNH/view?usp=sharing)
-* [Chat](https://drive.google.com/file/d/1Osq8dSl3fHbLRmOdTu_2IOtHrZTibtbE/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/17A1c6yDnlJcAuluv-hqspXB4BbpAFgDL/view?usp=sharing)
 
 Mon, May 04 2020 (Pacific Edition)
