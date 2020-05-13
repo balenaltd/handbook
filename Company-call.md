@@ -4,7 +4,7 @@
 
 Mon, May 11 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/12aOb8v2qvS__3ofLie5pGUt9zaQVHfFeKLq7avEecUs/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1gtGrVamWZPmNWDn2K2Hk2QwVvI1z-h02/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1j2fDqZK5fXHMVOWs3UOasf3BzRIQGtY6/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/1t_QqVWiJndLGyZsy0vxk0sDDSDEtCKG3/view?usp=sharing)
 
