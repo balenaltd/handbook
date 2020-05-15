@@ -10,8 +10,7 @@ Some of this policy is specific to your employment status: employee, full-time c
 * If you have days left at the end of your year, you may be able to transfer some of them to the next year. This is judged on a case-by-case basis. Ask the Operations team about this.
 * If you are reaching the end of your year and have already used your 30 days annual allowance, you can ask the Operations team about taking unpaid days off. _(psst! If you run out of days but your anniversary date is close, ask the Operations team, as there is a great chance you can borrow some days from your future holiday allowance)_
 * Despite the nature of the day (business day, bank holiday, national day etc) a time-off request has to be submitted.
-* If you are attending an event where you are speaking, presenting, or representing balena, you do not need to take time off. (Also, your travel can be covered too!)
-* If you're going to a professional conference or event and would like balena to consider providing the time off, please send a message to Alison, including a link to the conference, and a bit about what professional development it's providing. Balena offers 5 conference days per year for professional development. 
+* If you are attending an event or conference where you are speaking, presenting, or representing balena, you do not need to take time off. For a few roles, this might be something that you would be doing when appropriate. (Also, your travel can be covered too!)
 
 ### Specific policy information:
 * [Employees](https://github.com/resin-io/hq/wiki/Employees-(time-off))
