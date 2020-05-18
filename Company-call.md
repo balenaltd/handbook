@@ -8,7 +8,7 @@ Mon, May 18 2020 (Pacific Edition)
 * [Audio]()
 * [Attendees]()
 
-Mon, May 18 2020 (Pacific Edition)
+Mon, May 18 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1QBdwc9bEIOYc9cYmjfqYngdCXxBamnoAQQ9i6PGfWp8/edit?usp=sharing)
 * [Video]()
 * [Audio]()
