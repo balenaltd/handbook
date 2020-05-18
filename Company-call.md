@@ -10,8 +10,8 @@ Mon, May 18 2020 (Pacific Edition)
 
 Mon, May 18 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1QBdwc9bEIOYc9cYmjfqYngdCXxBamnoAQQ9i6PGfWp8/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/13C9lR26kLq0-x6ZRq2CD9oybmWP9wBOr/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1sbz-cs5eExrGxLYL8mj93aST-K8DKxIF/view?usp=sharing)
 * [Attendees]()
 
 
