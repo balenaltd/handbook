@@ -4,15 +4,15 @@
 
 Mon, May 18 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1QBdwc9bEIOYc9cYmjfqYngdCXxBamnoAQQ9i6PGfWp8/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1ZT4lgYuPC5n4Fck1GSY2wu2SImqU3Hde/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1mSvr9TjzuIywSk2YtjSM0zagI8DDRCJ6/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1TtfnSgOXfZhmytDjP93hVjQA1ZjVkNrC/view?usp=sharing)
 
 Mon, May 18 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1QBdwc9bEIOYc9cYmjfqYngdCXxBamnoAQQ9i6PGfWp8/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/13C9lR26kLq0-x6ZRq2CD9oybmWP9wBOr/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1sbz-cs5eExrGxLYL8mj93aST-K8DKxIF/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1ikYbDKL9XqK5Dixw011oW7fa9JulFFT0/view?usp=sharing)
 
 
 Mon, May 11 2020 (Pacific Edition)
