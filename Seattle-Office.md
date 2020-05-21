@@ -1,0 +1,1 @@
+## Here are the guidelines/rules/procedures we've put together to make sure we can reopen the office and keep it a safe environment for everyone.
