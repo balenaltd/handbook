@@ -10,6 +10,6 @@
 * Please measure your temperature before coming to the office, you will also find an infrared thermometer at the office to measure your temperature entrance as per the indications of Lombardy Region.
 * At each desk there will be individual spray bottles of  hand sanitizers and antibacterial cleaning agents, as well as antibacterial wipes and microfibre cloths; this is to keep our workspaces/shared contact points separated/minimized. There are also single-use masks as well as nitrile gloves - this is not necessitated but if you would like to. Please keep the provisioning only for use in office purposes.
 * At the end of each visit, leave the office a clean and safe space for the next person. Please use the cleaning agent and microfibre to spray and wipe down contact points - your desk, chair, keyboard/mice, as well as high touch-points like door handles, light switches, and intercom if you've used it to answer the door.
-Italy government policies[Link](http://www.governo.it/sites/new.governo.it/files/DPCM_20200517.pdf).
+* Italy government policies[Link](http://www.governo.it/sites/new.governo.it/files/DPCM_20200517.pdf).
 
 
