@@ -1,4 +1,6 @@
-## Here are the guidelines/rules/procedures we've put together to make sure we can reopen the office and keep it a safe environment for everyone.
+### Office ReOpen 11th May 2020 
+
+Here are the guidelines/rules/procedures we've put together to make sure we can reopen the office and keep it a safe environment for everyone.
 
 - If you are sick, have a fever, have tested positive for COVID-19, or believe you have been exposed to somebody with COVID-19, don’t schedule to visit the office for at least 14 days, and please cancel if you are scheduled to visit and developed symptoms in the meantime.
 - If you can work from home, work from home. Only go into the office if you need to be there to do your work, or pick something up to bring home for your work.
