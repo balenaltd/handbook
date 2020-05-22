@@ -15,10 +15,9 @@ The Contributor is usually involved in many projects at the same time, acting as
 
 Every participant of a project team is also responsible with making sure the project as scoped is still the best use of our time and resources and triggering a conversation when they suspect things may be going off track.
 
-Project teams come in three types: milestones, pipeline, and metric-focused.
-* Metric-focused teams maintain a mission statement and ongoing progress reports/metrics tracking.
-* Pipeline-focused teams work with a segment of the process (e.g. sales, device support, user support).
-* Milestone-focused teams maintain a spec which includes a roadmap of what must be done by when.
+Project teams come in two types: projects and pipelines.
+* A project needs to have a clear defined goal, something we are actively trying to achieve, and once we do, the project will end.
+* A pipeline is for work that continues forever, such as hiring, sales, content publishing, etc. 
 
 Project teams will have a quick check-in call every week. We are trying to group calls according to context and relevance to avoid too much context switching for the balenistas involved in many projects at the same time. 
 
