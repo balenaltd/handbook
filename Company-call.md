@@ -4,7 +4,7 @@
 
 Mon, May 25 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/16d4oGo8rvyvrkm1YisFue5yyH6OWAf02P_Xf74eFTrk/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1KfqJaJggd7ICjlqZlV47ltOxdr1SxiXA/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1NtGpTAit02GFbDH958NV16Dk7F7IDUlu/view?usp=sharing)
 * [Attendees]()
 
