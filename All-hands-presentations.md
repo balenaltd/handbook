@@ -7,7 +7,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### Fri, May 22  2020 (Livepush Workshop)
 * [Video](https://drive.google.com/file/d/1H6bQwzZwlI-zgALjlhDspL9nmv1EGjmU/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1le4fy3ftK_wVZGCTUSHdJiAqo8S0fqli/view?usp=sharing)
-* [Presentation]()
+* [Presentation](https://drive.google.com/file/d/1txvfwZjWwNhswANeMVj-_OEVP1jqoT8w/view?usp=sharing)
 
 ### Fri, May 22  2020 (Jellyfish Versions)
 * [Video](https://drive.google.com/file/d/1HCmoTIx4deVOVmkRuS1YMUhTB8sbZb1c/view?usp=sharing)
