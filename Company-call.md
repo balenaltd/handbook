@@ -5,7 +5,7 @@
 Mon, May 25 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/16d4oGo8rvyvrkm1YisFue5yyH6OWAf02P_Xf74eFTrk/edit?usp=sharing)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/1NtGpTAit02GFbDH958NV16Dk7F7IDUlu/view?usp=sharing)
 * [Attendees]()
 
 Mon, May 18 2020 (Pacific Edition)
