@@ -4,6 +4,16 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
+### Fri, May 22  2020 (Livepush Workshop)
+* [Video]()
+* [Audio]()
+* [Presentation]()
+
+### Fri, May 22  2020 (Jellyfish Versions)
+* [Video]()
+* [Audio]()
+* [Presentation]()
+
 ### Fri, Apr 24 2020 (Errors are not exceptions (thinking in Rust))
 * [Video](https://drive.google.com/file/d/1ToB2KDp_3QFrazSTCN5pxU-31AsbqZUm/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1wF1nUz2v6fQW1Jh1rl3GZm6HuU4NHS0X/view?usp=sharing)
