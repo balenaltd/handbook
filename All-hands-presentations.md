@@ -6,12 +6,12 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ### Fri, May 22  2020 (Livepush Workshop)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/1le4fy3ftK_wVZGCTUSHdJiAqo8S0fqli/view?usp=sharing)
 * [Presentation]()
 
 ### Fri, May 22  2020 (Jellyfish Versions)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1HCmoTIx4deVOVmkRuS1YMUhTB8sbZb1c/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/14MNLbAbj67uH7-ydb_ztuSqZ9gj0MX7G/view?usp=sharing)
 * [Presentation]()
 
 ### Fri, Apr 24 2020 (Errors are not exceptions (thinking in Rust))
