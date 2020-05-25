@@ -5,7 +5,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ## Recent Meeting Notes
 
 ### Fri, May 22  2020 (Livepush Workshop)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1H6bQwzZwlI-zgALjlhDspL9nmv1EGjmU/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1le4fy3ftK_wVZGCTUSHdJiAqo8S0fqli/view?usp=sharing)
 * [Presentation]()
 
