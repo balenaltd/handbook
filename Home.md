@@ -15,6 +15,7 @@
   - Joining balena
     - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
+    - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
     - [balena team member access](https://github.com/balena-io/balena/wiki/balena-team-member-access)
     - [balena team map](https://github.com/balena-io/balena/wiki/balena-team-map)
@@ -30,7 +31,6 @@
     - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
     - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
-    - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
 
   - Culture
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
