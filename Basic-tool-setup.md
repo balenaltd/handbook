@@ -11,7 +11,6 @@ Primary:
 * [Calamari](https://calamari.io)
 * [Front](https://frontapp.com/)
 * [Zoom](https://zoom.us/)
-* 
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
