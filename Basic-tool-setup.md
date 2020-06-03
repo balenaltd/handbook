@@ -17,11 +17,12 @@ Primary:
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
 
-As needed for support (request access from the Ops team):
+As needed for doing support when it is time for your support onboarding (request access from the Ops team):
 * Zendesk
 * [Balena Forums Moderator Access](https://forums.balena.io/)
 * Logentries
 * [Intercom](https://app.intercom.com/admins/sign_in)
+* Support agent access for you balena account (using your balena.io email)
 
 Please note that you should have access to the above services before you start doing support. This is also noted during support onboarding so you can check that you have access to all the services you will need. If you need access sooner, please let the Operations team know and request access.
 
