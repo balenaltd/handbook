@@ -2,6 +2,8 @@ Our users spend a lot of time using balena. We must make their experience as ple
 
 Day 1 will be dedicated to using balena as a user. You’ll be required to sign up, and create a project with balena. Live what our users live, get in their shoes! In this journey we need you to act exactly as a user would act. Visit the website, click the sign-up button, set up your balenaCloud account, go through our docs, deploy code to a device (physical or virtual) etc. If you don't have development skills to deploy code yet, make sure to tell us where our signup and setup fails or confuses you.
 
+We try to keep all balena.io accounts strictly for support, so you are encouraged to create an account with your personal email, if you don't already have one, to use for this and also for Hack Fridays and any other personal or side projects you might be working on. 
+
 ## Feedback? 
 
 Please, think about anything that is related to your experience as you used the product. Everything under the sun is fair game, from the user interface, to the performance of the kernel. Whatever you liked or did not like, we want to hear!
