@@ -9,9 +9,8 @@ Before anything else let's check that everything is in order and that there's no
    * Front - username should be GitHub username
    * Zoom
    * Github
-   * balena support-agent access
-   * Intercom
    * Jellyfish
+   * Trello
 * Shared your 'first day as a balena user' experience in Flowdock `r/product` flow, using **#internal_feedback**
 * Shared any onboarding feedback in Flowdock `t/beginners` flow, using **#teamfeedback**
 * Filed an issue to the relevant Github repo to add your location to the balena team map
