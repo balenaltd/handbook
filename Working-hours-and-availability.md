@@ -36,7 +36,7 @@ For the purpose of scheduling a new event, your working hours alone are not enou
 - whether you are on leave (as recorded in the Calamari leave management software)
 - what other events you already have scheduled during those working hours ("busy" events as contained in your balena Google Calendar)
 
-Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named [UK Time General Preferences](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=142027874). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
+Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named [UK Time Team Availabilities](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1035327337). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
 
 #### Remember to keep your preferences updated!
 
