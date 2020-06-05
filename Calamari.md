@@ -37,9 +37,9 @@ Here you can easily find all absence requests of the team. You can filter result
 
 ## Personal available absence time (holiday allowance)
 
-At the “entitlement” option, on the left side menu, you will always find your current absence allowance. 
+At the “entitlement” option, on the left side menu, you will always find your current absence allowance. Please note that the first green bar in the screenshot that is not fully visible is your annual leave bank. 
 
-![Personal Available Absence Time](https://lh3.googleusercontent.com/-S8TYS-BLtm5z7M6_YTDWxBYtRzDIrctdy61XGj7ZI7aQ-tTC6HMeEXRoFqazobyQzD1P6aIVHsOG6wUsMKAtGh_fejyp9MviSw_kMQmTAWy_PbeNIDrOPwginSBVHIa8HwwQJux)
+![personal available absence time](https://user-images.githubusercontent.com/59803307/83875006-49fef000-a72e-11ea-91fa-9fb705ff0ebc.png)
 
 ## Time-off calendar
 
