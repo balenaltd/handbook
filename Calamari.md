@@ -1,19 +1,21 @@
 Here’s a guide of how-to-use the main features of our time-off service Calamari.
 
+Our full Leave policy can be found [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
+
 At first, you can log in with your @balena.io e-mail account, using the Google login option.
 
 To request time-off just press “Request absence” then check out the following screenshots.
 
 ## First step
 
-To successfully request absence you need to choose type of absence you are requesting for. 
-Use the drop-down menu to check the absence types. The **leave** is the days that we all have available including the support bonus days that you might earn for doing support. **Sick leave** is, obviously, the absence type you should choose when sick.
+To successfully request an absence you need to choose a type of absence. 
+Use the drop-down menu to check the absence types. **Leave** is from your bank of leave days for when you are on holiday, wanting to take a break etc. **Sick leave** is, obviously, the absence type you should choose when sick.
 
 ![first step](https://user-images.githubusercontent.com/59803307/83872817-9fd19900-a72a-11ea-84b5-7ef86a618174.png)
 
 ## Second step
 
-After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you estimate the proper period you are requesting.
+After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you estimate the proper period you are requesting. You can request full or half days.
 
 ![second step](https://user-images.githubusercontent.com/59803307/83872891-c0015800-a72a-11ea-8e62-238806fdfcd1.png)
 
@@ -35,7 +37,7 @@ Here you can easily find all absence requests of the team. You can filter result
 
 ![Balena absence overview](https://user-images.githubusercontent.com/59803307/83873055-fdfe7c00-a72a-11ea-9cb9-c0072ddc8e1c.png)
 
-## Personal available absence time (holiday allowance)
+## Personal available absence time (leave allowance)
 
 At the “entitlement” option, on the left side menu, you will always find your current absence allowance. Please note that the first green bar in the screenshot that is not fully visible is your annual leave bank. 
 
@@ -51,17 +53,3 @@ Note that you should be able to see all approved time-off days, for all team mem
 
 For whatever reason, if you need any help with Calamari, feel free to reach out to the Operations team. Calamari is still a young and small startup and they offer exceptional support to their customers. They already implemented features we requested and they’re happy to do even more for us.
 
-## FAQ
-
-**What does "Manually edited" field means in Calamari under the Entitlement / Annual leave?**
-
-The days in the "Manually edited" field are the days (full amount) you're entitled to from the 1st of January to your anniversary hire date.
-
-Every employee earns 30 days per year.
-So, this number is the function: 
-30 (days) x (Number of Days from 1st of Jan to anniversary date) / 365.
-
-Example: if you were hired on the 30 of October 2015 then you have
-30 x 302 / 365 = 24.82 days
-
-The reason this number is on the "Manually Edited" field it's because the calamari team made the import so it's not calculated from previous years or other calculations but from a manual, initial, one time edit.
