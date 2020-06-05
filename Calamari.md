@@ -1,4 +1,4 @@
-Here’s a guideof how-to-use the main features of our time-off service Calamari.
+Here’s a guide of how-to-use the main features of our time-off service Calamari.
 
 At first, you can log in with your @balena.io e-mail account, using the Google login option.
 
