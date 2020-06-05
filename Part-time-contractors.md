@@ -1,1 +1,0 @@
-Unfortunately, Balena doesn't provide time-off days for part-time contractors.
