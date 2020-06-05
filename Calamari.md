@@ -9,19 +9,19 @@ To request time-off just press “Request absence” then check out the followin
 To successfully request absence you need to choose type of absence you are requesting for. 
 Use the drop-down menu to check the absence types. The **leave** is the days that we all have available including the support bonus days that you might earn for doing support. **Sick leave** is, obviously, the absence type you should choose when sick.
 
-![First Step](https://lh5.googleusercontent.com/WfTjYSE88rtiQyq0vVjh2TGkeiih5BmczbfGbovDfQprmUINjAA2-3_jrJ-mhnDw4CsFG9ccBQquEwGlOKqXczJUyQGZCQ1yjHBUtpkMnU84RZ9jIga54fnh9ejd6Qt4FRQgt_b-)
+![first step](https://user-images.githubusercontent.com/59803307/83872817-9fd19900-a72a-11ea-84b5-7ef86a618174.png)
 
 ## Second step
 
 After selecting the absence type, you will see how many days or hours of chosen absence you will be able to take. It will help you estimate the proper period you are requesting.
 
-![Second Step](https://lh4.googleusercontent.com/YVwfFxPy_W3mQuiJEAQauu79ybSKTfoFNN7_7LDOf8dzkbqId9gXrS74DQ_1WGSpIacPvBS-K0CPKF-InYMJPpxzZ_b5xk9r4IZFR94Qm0oUMK-V93bdtrOAm7m9gmC89fqoCUuh)
+![second step](https://user-images.githubusercontent.com/59803307/83872891-c0015800-a72a-11ea-8e62-238806fdfcd1.png)
 
 ## Third and last step
 
 The simplest way to request time off is by marking the requested period and by selecting it on the calendar. 
 
-![Third Step](https://lh5.googleusercontent.com/RvGb7Js1oVykoteTlUnl-LBeSTDMNaPiJWWcXSzxXD49LB_lou8BGu2kWlQeLttLqFk0de6QfscucAdiSOUBhDsv5lVp-s_UInfGzyjMMM68dBQoVihkZ0m-yUKEMJWDj3Z8ACCW)
+![third step](https://user-images.githubusercontent.com/59803307/83872984-e1624400-a72a-11ea-99df-83f3eea620bc.png)
 
 ## My requests
 
@@ -33,7 +33,7 @@ This is the menu option which allows you to check the status and the history of 
 
 Here you can easily find all absence requests of the team. You can filter results by teams, positions or dates, to find the information you need. 
 
-![Resinio Absense Overview](https://lh3.googleusercontent.com/4HpA0t6TjS2pbFeb3Lj51v5yy9RP7hT-KJIiKVaihM-_UA0eKdERrlLpZKx6zorCJuSFaw-NFhmhr_Q26oQ3MfZAHn6tWsB3a0NJRSSaRnEisY_5LngDNoIVdgr89xVHLZcKEXAw)
+![Balena absence overview](https://user-images.githubusercontent.com/59803307/83873055-fdfe7c00-a72a-11ea-9cb9-c0072ddc8e1c.png)
 
 ## Personal available absence time (holiday allowance)
 
@@ -49,7 +49,7 @@ Note that you should be able to see all approved time-off days, for all team mem
 
 ## Support
 
-For whatever reason, if you need any help with Calamari, feel free to reach out to the operations team. Calamari is still a young and small startup and they offer exceptional support to their customers. They already implemented features we requested and they’re happy to do even more for us.
+For whatever reason, if you need any help with Calamari, feel free to reach out to the Operations team. Calamari is still a young and small startup and they offer exceptional support to their customers. They already implemented features we requested and they’re happy to do even more for us.
 
 ## FAQ
 
