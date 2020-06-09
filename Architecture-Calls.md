@@ -28,13 +28,13 @@ There are no hard-defined rules on when an issue should be discussed in an archi
 Example:
 
 ```
-#architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
+#architecture Discuss keyframes cc @jviotti 
 ```
 
 You can add a bigger multiline description, if you feel like it, but remember that only the first line will be fetched for the arch call agenda. Example:
 
 ```
-#architecture Discuss keyframes cc @jviotti @brownjohnf @hedss @mikesimos
+#architecture Discuss keyframes cc @jviotti 
 
 [More lines with more context that will be ignored from the agenda description]
 ```
@@ -63,12 +63,10 @@ After the call, preferably a few hours later to give people some time to add not
 
 ### Architecture call recordings
 
-The full archive can be found in [this google drive folder](https://drive.google.com/drive/u/2/folders/0B0NS-URBofBLN0xOWHNDTVV0cFk)
+The recording of the call will be linked and available at the calendar invite and you can check the previous calendar invites to access the previous call recordings. We keep the recordings as convenience to people who might not be able to attend a specific architecture call and want finer details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
 
-We are uploading architecture call recordings as a convenience to people who might not be able to attend a specific architecture call and want finer details that cannot possibly be captured with the overview notes. The calls are brainstorming sessions and the recordings should be treated as such.
-
-### [Architecture call Archive (from 15 Nov 2016 to 06 Sep 2017](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive)
+### [Architecture call Archive from 15 Nov 2016 to 06 Sep 2017](https://github.com/resin-io/hq/wiki/Architecture-Calls-Archive)
 
 ### Pinned Agenda Items
 
-We often have items that we want to keep revisiting. The process to do that is simply leaving the respective Front tickets open and also add a descriptive comments (e.g. `Pinned item for Mondays`)
+We often have items that we want to keep revisiting. The process to do that is simply leaving the respective Front tickets open and also add a descriptive comment (e.g. `Pinned item for Mondays`)
