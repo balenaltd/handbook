@@ -4,9 +4,9 @@
 
 Mon, June 08 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1B_eTBNAIrShYmfwEGY1GqL3hDwUQxtoPBtXahJ1zgfk/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1A4IBi1yWLfOxGyh3Hj4oKyIFF2dzgOwW/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1KcmlcpVwCZqhjhWAKkPIzRUQx-BkTMif/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1_kpvQcbdoLPxAG20yVI3TMY7iHI6G8GI/view?usp=sharing)
 
 Mon, June 08 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1B_eTBNAIrShYmfwEGY1GqL3hDwUQxtoPBtXahJ1zgfk/edit?usp=sharing)
