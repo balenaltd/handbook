@@ -72,8 +72,8 @@ Mon, May 04 2020 (Pacific Edition)
 
 Mon, May 04 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1inYXDcoaOYVbJ_Wc_Bwpk4AhamqCy6iIPRFfv779hrw/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1Gr4p1ZLkdutQwjywRH2k0qv_5XIfwhTM/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1A9l9pGL7KhzF3E3RahseOcsY0pe2wSZ0/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/1VGhTLk5C5hNrTYq4GbXx0r0aAnXo11b2/view?usp=sharing)
 
 Mon, April 27 2020 (Pacific Edition)
