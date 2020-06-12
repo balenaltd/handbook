@@ -6,7 +6,7 @@ Please read on for more info depending if you are an employee or a contractor.
 
 ## Contractors
 
-All contractors just include reimbursable expenses in their monthly invoices. In order to get reimbursed you will need to include a receipt/invoice of the purchased item(s).
+All contractors must add reimbursable expenses before the 23rd of the month on their Deel account. In order to get reimbursed you will need to include a receipt/invoice of the purchased item(s). More information on expenses for contractors can be found [here](https://github.com/balena-io/balena-io/wiki/Deel-(Invoicing))
 
 ## Employees
 
