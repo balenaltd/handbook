@@ -5,8 +5,8 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ## Recent Meeting Notes
 
 ### Fri, June 12  2020 (VB features, PR review flow, and team velocity)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1QjitbFTRehKXwPtjO1NBGewm3QVHnkAp/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1dvig0-kbyCZ6g5OLE0Wzi6pdEszCYQd-/view?usp=sharing)
 * [Presentation]()
 
 ### Fri, May 22  2020 (Livepush Workshop)
