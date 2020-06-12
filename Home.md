@@ -51,7 +51,7 @@
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
     - [Offices](https://github.com/resin-io/hq/wiki/offices)
     - [Leave policy](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
-    - [Invoicing](https://github.com/balena-io/balena/wiki/invoicing)
+    - [Deel (Invoicing)](https://github.com/balena-io/balena-io/wiki/Deel-(Invoicing))
     - [Ordering | Hashtag Order Process](https://github.com/balena-io/balena/wiki/Ordering-%7C-Hashtag-Order-Process)
     - [Accounts and passwords management](https://github.com/resin-io/hq/wiki/Accounts-and-passwords-management)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
