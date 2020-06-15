@@ -10,8 +10,8 @@ Mon, June 15 2020 (Pacific Edition)
 
 Mon, June 15 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1z3LKd6ZEIxBxUZbETnpZSw7A-2ZKS8VZhaxaQWWv3bI/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1w__Vbd9lyxC3MVsSpeI9qQr4gZ_Qm_MS/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1oIGZ23PudvfzMprd3oszd9KbeKuGr0nY/view?usp=sharing)
 * [Attendees]()
 
 Mon, June 08 2020 (Pacific Edition)
