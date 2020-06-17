@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;email: sales@balena.io
 ## Team members
 ### US West Coast
-&nbsp;&nbsp;&nbsp;Shawn Madden (@shawnmadden)
+
 
 &nbsp;&nbsp;&nbsp;Alison Davis Riddell(@alisondavis17)
 
