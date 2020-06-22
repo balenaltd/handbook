@@ -44,13 +44,13 @@ Check-ins should review:
 > > * be announced on the mailing list?
 > > * are worth a blog post and/or project by the hh team?
 
-At the end of the check-in, the coordinator should record the following info, to help schedule the check-ins for the next week:
+At the end of the check-in, the coordinator should think about the following info, to help schedule the check-ins for the next week:
 > * did we need someone in the check-in who wasn't invited?
 > * did we invite someone in the check-in who wasn't needed?
 > * when should the next check-in take place?
 > * how much time is needed for this check-in?
 
-Project reviews:
+Project reviews can be very helpful and we try to review projects on a regular basis. We don't have a standard practice for this at the moment but the below steps are suggested:
 > * on a once-a-month basis, a more formal check-in should take place where product/loop leads attend to make sure the project is still progressing and in line with everything else going on.
 > * reviews can be longer than regular check-ins (e.g. 90 min) and have s-team join for the last 45 or 60 min.
 
