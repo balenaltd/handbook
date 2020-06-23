@@ -13,6 +13,8 @@ All product call notes are kept here: https://docs.google.com/document/d/1_vkKIW
 ## Recordings
 June 16, 2020: https://drive.google.com/file/d/1CjhaKAJGd-FvxijoB039bfejJNbdSRrI/view
 
+June 06, 2020: https://drive.google.com/file/d/19q1dcmCbpgUzURiaoB-5Ii3Sff3u7f-3/view
+
 June 02, 2020: https://drive.google.com/file/d/1vlAcuhGxV1HmCZvXvlqcMRO6Xt8SLZO8/view
 
 May 19, 2020: https://drive.google.com/file/d/1ApRcLDVl0og48OK1ErrLU-q2fKbu0-xC/view
