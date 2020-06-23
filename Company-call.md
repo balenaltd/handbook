@@ -4,13 +4,13 @@
 
 Mon, June 22 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1zcsjC5I2CMlBrIpY__KHurzd_CW_r7RKkFNxYtk89rY/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1LIkiyi2RET5LOLUl5ehEVVH3KEzZA8yd/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1rKKga8HtuzSYu3HnA5JQznii3DMpvmE2/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1sRxGm_x5B-aafLa8L8WyGZQqRZxISK8G/view?usp=sharing)
 
 Mon, June 22 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1zcsjC5I2CMlBrIpY__KHurzd_CW_r7RKkFNxYtk89rY/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1foLg8Vidcd4AAlNx2awBVrBDqqYvp1J9/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1OMLNbz86kVDOexbu_PxB2zRlVDLFI4cU/view?usp=sharing)
 * [Attendees](https://drive.google.com/file/d/1AimVaBMkin_xoia5uC8vcYuBKF69ErSb/view?usp=sharing)
 
