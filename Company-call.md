@@ -10,9 +10,9 @@ Mon, June 29 2020 (Pacific Edition)
 
 Mon, June 29 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1pEF0huhjMht5dfLVsmjbG8SxZZehLOfEP3HVDE-M_j8/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1xUJuBCnq5vJQPdDIkdPqjAqewgvm5YZO/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1x8x979hnKZktIcqiYaVcV1LGHuV_vyC3/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1jZ7ldvlZGnDdfYn1zVgkHSQBwepCVAH9/view?usp=sharing)
 
 Mon, June 22 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1zcsjC5I2CMlBrIpY__KHurzd_CW_r7RKkFNxYtk89rY/edit?usp=sharing)
