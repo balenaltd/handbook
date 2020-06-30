@@ -11,6 +11,8 @@ If you have a UX or feature question please tag the thread by adding a comment u
 All product call notes are kept here: https://docs.google.com/document/d/1_vkKIWN1xLX7WqMBGXqL-f1KGEyLurwuxXjanEDwnP8/edit#
 
 ## Recordings
+June 30, 2020: https://drive.google.com/file/d/1DeX7vjrOY4s_qjIM2j8_OTDnngHZ5U1X/view
+
 June 16, 2020: https://drive.google.com/file/d/1CjhaKAJGd-FvxijoB039bfejJNbdSRrI/view
 
 June 06, 2020: https://drive.google.com/file/d/19q1dcmCbpgUzURiaoB-5Ii3Sff3u7f-3/view
