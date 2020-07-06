@@ -6,6 +6,8 @@ We have the following fixed-time meetings on Balena Admin calendar, recurring we
 * product calls
 * arch calls
 
+If you want to know more about how meetings are scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
+
 
 ## Adding yourself to (or removing yourself from) Balena Admin calendar events
 
@@ -49,7 +51,4 @@ We are currently investing more time in the LoopMVP project so you will see the 
 This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there and it’s usually held on Mondays. There is an Atlantic slot, followed by a Pacific one to make sure all balenistas in different timezones can join this call and have the opportunity to ask questions. You will find the agenda attached to the calendar invite and the link is shared with everyone in the morning as well. Chaired by @shaunmulligan
 
 ## All hands presentation
-These are company wide presentations that all balenistas are encouraged to attend. Sometimes these would be about core company ideas and progress, while we are trying to have more balenistas to get involved and use this platform to share knowledge, learning, interesting topics, and concepts, as well as connect more. 
-
-## Architecture Calls
-This call is about the architectural stuff of balena. Led by @petrosagg
+These are company wide presentations that all balenistas are encouraged to attend. Sometimes these would be about core company ideas and progress, while we are trying to have more balenistas to get involved and use this platform to share knowledge, learning, interesting topics, and concepts, as well as connect more. You can suggest a presentation topic [here](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752).
