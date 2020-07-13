@@ -10,9 +10,9 @@ Mon, July 13 2020 (Pacific Edition)
 
 Mon, July 13 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1SOochiAuhFKdzP2pfx-kIuFAdJZ-W2TBZXIVGE5DAiU/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1z4P8S8nZlBW9VcqlIurt4DrG_0XRysg5/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1Wk7zpIXoQMJqiv2Sq2N_BpGu4yCA1iuW/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1A4kleV9KJEQ5rNpyrcax2AtC0SBllJhs/view?usp=sharing)
 
 Mon, July 06 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1dPoqmCoRJE0k7GdB4GDuq8Epc8Z0_rAluCA1JJPmFPM/edit?usp=sharing)
