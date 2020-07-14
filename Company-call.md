@@ -4,9 +4,9 @@
 
 Mon, July 13 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1SOochiAuhFKdzP2pfx-kIuFAdJZ-W2TBZXIVGE5DAiU/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1KvFunmUwPd2haagFrpDdCVEx-5OG8d5S/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/114EwVl3YXBVJJkFfVpzz3-hMuWBvlVVW/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1OTZPWvzsqiLqNCJOuCPjQ-3g_QtMr1gZ/view?usp=sharing)
 
 Mon, July 13 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1SOochiAuhFKdzP2pfx-kIuFAdJZ-W2TBZXIVGE5DAiU/edit?usp=sharing)
