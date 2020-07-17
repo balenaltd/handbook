@@ -7,7 +7,7 @@ On-call rotation primer
 
 0. (async) Request credentials for the services you will find in the [[SRE Resources]] wiki article.
 1. Read this doc
-2. Read the [DevOps Playbook](https://balena-io.github.io/devops-playbook/)
+2. Read the [DevOps Playbook](https://jel.ly.fish/view-all-faqs)
 
 
 
