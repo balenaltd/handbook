@@ -12,7 +12,7 @@ Mon, July 20 2020 (Pacific Edition)
 Mon, July 20 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1j7hjWk00o56ue2CtslA42zPygxH3Pd4YsrNS1xTz17Q/edit?usp=sharing)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/1mBh0k9xvpmmrepg5pmD58smkjjA9o1lE/view?usp=sharing)
 * [Attendees]()
 
 Mon, July 13 2020 (Pacific Edition)
