@@ -42,7 +42,7 @@ _Note: This account should NOT be for daily use, but only for your support role.
 ### Short introduction to the services/tools we use
 **Flowdock** is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://github.com/balena-io/balena/wiki/Flowdock) we have put together and [here](https://www.flowdock.com/help) is some more guidance to help you navigate in the flowdock world :)
 
-**Calamari** is the leave management service we’re using. You’ll be using Calamari to submit your time-off request and check who’s away.  Here's a short [Calamari getting started guide](https://docs.google.com/document/d/1tSKx8T78QFJMOzXrqIKcN7lwEPM41VbBG7B_ILEOkBQ/edit?usp=sharing) for your convenience.
+**Calamari** is the leave management service we use. You’ll be using Calamari to submit your time-off requests and check who’s away.  Here's a short [Calamari getting started guide](https://github.com/balena-io/balena-io/wiki/Calamari) for your convenience.
 
 **Intercom** is the customer support chat service we provide to users/guests/clients from the Intercom widget found in the lower right corner of our webapp (on the marketing page and on the balena dashboard.) All Intercom messages are piped into Front, which is where we manage them. We only access Intercom directly when the Front integration isn't working properly.
 
