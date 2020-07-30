@@ -41,7 +41,8 @@ Here you can easily find all absence requests of the team. You can filter result
 
 At the “entitlement” option, on the left side menu, you will always find your current absence allowance. Please note that the first green bar in the screenshot that is not fully visible is your annual leave bank. 
 
-![personal available absence time](https://user-images.githubusercontent.com/59803307/83875006-49fef000-a72e-11ea-91fa-9fb705ff0ebc.png)
+![Available normal balance - Calamari](https://user-images.githubusercontent.com/22883479/88930052-a04a6400-d283-11ea-9669-62c4546db5de.png)
+
 
 ## Time-off calendar
 
