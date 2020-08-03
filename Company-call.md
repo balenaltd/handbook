@@ -4,14 +4,14 @@
 
 Mon, August 03 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1b5uGBz_xoSLYup4vUQDFUzKrT26Z508PaGEk9sdpFGo/edit?usp=sharing)
-* [Video])
+* [Video]()
 * [Audio]()
 * [Attendees]()
 
 Mon, August 03 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1b5uGBz_xoSLYup4vUQDFUzKrT26Z508PaGEk9sdpFGo/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1gIPO_PFXf6yDWoBLkAvu0gEH1Dkj4BmZ/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/13VBIxNXe51rxZ_4O-u6ijQce-7nnljTf/view?usp=sharing)
 * [Attendees]()
 
 Mon, July 27 2020 (Pacific Edition)
