@@ -4,15 +4,15 @@
 
 Mon, August 03 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1b5uGBz_xoSLYup4vUQDFUzKrT26Z508PaGEk9sdpFGo/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/18zYYjwpDSY-eLDiAw6kvDx47DYzxcekI/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1qScixUt8YqXAAopaCKZXWmuCx93DKVTP/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1jV3n5IcE7N_JL55DfidcEhk3MCaWzJm8/view?usp=sharing)
 
 Mon, August 03 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/1b5uGBz_xoSLYup4vUQDFUzKrT26Z508PaGEk9sdpFGo/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1gIPO_PFXf6yDWoBLkAvu0gEH1Dkj4BmZ/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/13VBIxNXe51rxZ_4O-u6ijQce-7nnljTf/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1zQ_y90KLwEGpCZdEJgsgMGUiG70yyPoP/view?usp=sharing)
 
 Mon, July 27 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/1SiG0RyZC8kpXnIPTHWPqVDUlEB5oZEELotu_-aj5ZRc/edit?usp=sharing)
