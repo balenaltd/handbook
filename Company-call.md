@@ -11,7 +11,7 @@ Mon, August 17 2020 (Pacific Edition)
 Mon, August 17 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/127FPt0oLG-N8hCRRyQZ3IpaY-ri1y3GCzjns6k4SntE/edit?usp=sharing)
 * [Video]()
-* [Audio]()
+* [Audio](https://drive.google.com/file/d/13MlKCB2LZgMwT_5wnLjvCdPJopJ2jgfe/view?usp=sharing)
 * [Attendees]()
 
 Mon, August 10 2020 (Pacific Edition)
