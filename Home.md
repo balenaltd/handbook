@@ -49,6 +49,7 @@
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
+    - [Keeping your personal information up to date](https://github.com/balena-io/balena-io/wiki/Keeping-your-personal-information-up-to-date)
     - [Offices](https://github.com/resin-io/hq/wiki/offices)
     - [Leave policy](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
     - [Deel (Invoicing)](https://github.com/balena-io/balena-io/wiki/Deel-(Invoicing))
