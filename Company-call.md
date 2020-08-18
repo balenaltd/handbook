@@ -4,9 +4,9 @@
 
 Mon, August 17 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/127FPt0oLG-N8hCRRyQZ3IpaY-ri1y3GCzjns6k4SntE/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1aCF0vpgD4skUiBfixxY2_RiX0vsvtvXI/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1yUbG8FCspzLUOfNpzF07FbDnyEgUuPgh/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/12HZPQUN8Oo4sCRjEOKzaMndoNnxfzjlk/view?usp=sharing)
 
 Mon, August 17 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/127FPt0oLG-N8hCRRyQZ3IpaY-ri1y3GCzjns6k4SntE/edit?usp=sharing)
