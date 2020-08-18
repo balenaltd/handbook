@@ -4,7 +4,6 @@ We are always looking at ways to improve the experience of remote and asynchrono
 
 The 9am to 6pm period for working from the office is pretty common. If you choose to work from home, be careful not to abuse or ruin your work routine. Working from home should be treated as a productivity boost and as a flexibility offered to help achieve a better balance between personal and professional life. 
 
-You should be reachable on Flowdock during your stated working hours but if this changes, you can let the team know with a quick message. This is critical in order to keep our workflow running and help all balenistas deliver on time without any interruption.
 
 ### Communicating your availability
 
@@ -14,6 +13,9 @@ It is important to communicate your working hours to the rest of the team, since
 * your team members need to know when you will be available.
 
 For these purposes, team members indicate their working hours in the [Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=404458414) Google Sheet.
+
+You should be reachable on Flowdock during your stated working hours but if this changes, you can let the team know with a quick message. This is critical in order to keep our workflow running and help all balenistas deliver on time without any interruption. No need to let anyone know if you are popping out for a while, just any major unexpected disruptions during your day that might affect others! 
+
 
 #### How to enter your working hours
 
@@ -25,9 +27,11 @@ Finding sufficient overlap between the team's availabilities is an ongoing chall
 
 When you join, your usual time zone is recorded for you in [Default Time Zones](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=2094979175) and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
 
+
 #### Time zone overrides for travelling
 
-If you travel to another location and will be working from there, an override needs to be entered in [Time Zone Overrides](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=890329460). If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry here with the relevant time zone.
+If you travel to another location and will be working from there, an override needs to be entered in [Time Zone Overrides](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=890329460). If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry with the relevant time zone.
+
 
 #### Calamari and Google Calendar events
 
@@ -38,11 +42,13 @@ For the purpose of scheduling a new event, your working hours alone are not enou
 
 Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named [UK Time Team Availabilities](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1035327337). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
 
+
 #### Remember to keep your preferences updated!
 
 Please make sure that your preference sheet in the Team Model and your balena Google Calendar are always up to date (ideally 2 weeks in advance), to ensure that the scheduling algorithms can do their job well! Hubot will also remind us from time to time to update working hours :)
 
 In the event of an unexpected last-minute change to your regular working hours (for example due to a family emergency or other eventuality), you can just ping the team on Flowdock to inform them when you will be reachable again.
+
 
 ### What is a good place to work from?
 
