@@ -40,7 +40,7 @@ Github
 _Note: This account should NOT be for daily use, but only for your support role._
 
 ### Short introduction to the services/tools we use
-**Flowdock** is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://github.com/balena-io/balena/wiki/Flowdock) we have put together and [here](https://www.flowdock.com/help) is some more guidance to help you navigate in the flowdock world :)
+**Flowdock** is the chat service we’re using for internal communication. Flowdock is organized in flows that are related to specific balena components and teams. This is the best place to communicate with other team members and ask any questions you have. Here's a [guide](https://github.com/balena-io/balena/wiki/Flowdock) we have put together and [here](https://www.flowdock.com/help) is some more guidance, including some markdown key info [here](https://www.flowdock.com/help/chat_input) to help you navigate in the flowdock world :)
 
 **Calamari** is the leave management service we use. You’ll be using Calamari to submit your time-off requests and check who’s away.  Here's a short [Calamari getting started guide](https://github.com/balena-io/balena-io/wiki/Calamari) for your convenience.
 
