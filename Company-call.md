@@ -5,7 +5,7 @@
 Mon, August 24 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/110mkz5B4rhJ3i0qFnoZ81293idhNKUamFts1-2F3ZQs/edit)
 * [Video](https://drive.google.com/file/d/1DNpm_3wSebVT7RL95pyJiQkLkZEUsBll/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1_uzbkVsD1Bh7C1URKGGxAcrpoVSKc0gZ/view?usp=sharing)
 
 Mon, August 17 2020 (Pacific Edition)
 * [Meeting](https://docs.google.com/document/d/127FPt0oLG-N8hCRRyQZ3IpaY-ri1y3GCzjns6k4SntE/edit?usp=sharing)
