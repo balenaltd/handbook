@@ -4,20 +4,7 @@
 
 &nbsp;&nbsp;&nbsp;Handle: @@customer_success
 
-&nbsp;&nbsp;&nbsp;email: sales@balena.io
-## Team members
-### US West Coast
-
-
-&nbsp;&nbsp;&nbsp;Alison Davis Riddell(@alisondavis17)
-
-&nbsp;&nbsp;&nbsp;Jordan Cooks (@notnamed)
-### Europe
-&nbsp;&nbsp;&nbsp;Catherine Tung (@catt-tung)
-
-&nbsp;&nbsp;&nbsp;Daniel Borek (@szony)
-
-&nbsp;&nbsp;&nbsp;Joe Hounsham (@joehounsham)
+&nbsp;&nbsp;&nbsp;email: solutions@balena.io
 
 # Sales Resources
 * [Standard demo](https://github.com/resin-io/hq/wiki/Standard-Sales-Demo)
