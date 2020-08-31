@@ -2,6 +2,13 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, August 31 2020 
+* [Meeting](https://docs.google.com/document/d/1QZcuVsED6Mnfh96Z68jiTYHmOLffDdgXoIIcXLBoasU/edit)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
+
 Mon, August 24 2020 (Atlantic Edition)
 * [Meeting](https://docs.google.com/document/d/110mkz5B4rhJ3i0qFnoZ81293idhNKUamFts1-2F3ZQs/edit)
 * [Video](https://drive.google.com/file/d/1DNpm_3wSebVT7RL95pyJiQkLkZEUsBll/view?usp=sharing)
