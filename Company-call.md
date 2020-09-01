@@ -6,7 +6,7 @@ Mon, August 31 2020
 * [Meeting](https://docs.google.com/document/d/1QZcuVsED6Mnfh96Z68jiTYHmOLffDdgXoIIcXLBoasU/edit)
 * [Video](https://drive.google.com/drive/u/0/folders/1UabCDX_VwkzeXFkFfxDF6PQw5fX8zTnP)
 * [Audio](https://drive.google.com/file/d/16d6qGK5yuDhm46L05M5M7PpVf091S5FC/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/126S_layWua4a3uFkf5AdbLPyP_FCpyS_/view?usp=sharing)
 
 
 Mon, August 24 2020 (Atlantic Edition)
