@@ -18,7 +18,7 @@ Pretty simple. Everything related to the company and used for the company can be
 
 # Holidays
 **Do I need to book off national bank holidays as paid leave or is that handled automatically?** <br>
-You will be required to book any time-off you take, including bank holidays, in advance. See more info about the time-off policy in https://github.com/balena-io/balena/wiki/Time-off-policy . <br>
+You will be required to book any time-off you take, including bank holidays, in advance. See more info about the time-off policy [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
 It's your choice, whether you want to work on a national bank holiday or not, however, we'd strongly suggest booking all national holidays.
 
 **What is the name of the time off manager that we use? I’ve lost it in my inbox.** <br>
