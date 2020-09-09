@@ -14,6 +14,7 @@ Primary:
 * [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
+* [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg)
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
 
@@ -60,5 +61,7 @@ The **forums** are used by our free users for support requests, and generally fo
 **Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password.  
 
 **Trello** is a tool we use to track progress for some of our projects. Some teams use it more than others at the moment. It allows more visibility of what everyone id working on within a team. It has boards, lists, and cards to enable you to organize and prioritize projects, tasks, goals and progress.
+
+**Shared Google Drive-Team Folder** includes some key documents and archives for different projects and work. Depending on the team and area of work, you can find up to date information about some projects there, but Google Drive is surely not where you will find everything you need, so be aware that it includes some old information too. Follow the wiki and you will find links to all the services and sources we use to store key information and documents. 
 
 **NOTE**: To avoid any confusion, you might see `resin` and `resin.io` when reading older information. Balena used to be called resin.io and you can read more about the name change [here](https://www.balena.io/blog/resin-io-changes-name-to-balena-releases-open-source-edition/). 
