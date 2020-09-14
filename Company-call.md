@@ -5,8 +5,8 @@
 
 Mon, September 14 2020 
 * [Meeting](https://docs.google.com/document/d/1t_7OsHXyupEFuDIOVeMBylmbRsPW8dDHwA23nlJbyJc/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1lMx9scnJ31DwCPQTKSHRHt-pIwRULMJ1/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1JYdnr4669oricpAOopdit_J536MQBMKo/view?usp=sharing)
 * [Attendees]()
 
 Mon, September 07 2020 
