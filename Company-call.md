@@ -4,8 +4,8 @@
 
 Mon, September 21 2020 
 * [Meeting](https://docs.google.com/document/d/1p6ocPQ7ulxc0QrhprRXPRDHkrHCWVP4yXsTVV_zUVc4/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1dzPdb7QsPvheiXXCA-P_QlG6d4WfkMXA/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1V3eBk2lOYtZBAYB5ZghH_zOXgAM-6sDX/view?usp=sharing)
 * [Attendees]()
 
 Mon, September 14 2020 
