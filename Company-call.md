@@ -4,8 +4,8 @@
 
 Mon, October 05 2020 
 * [Meeting](https://docs.google.com/document/d/1ti0pWVCOXqSg7UF-Oj940BTrSi370ghW9oUDDSPzSLo/edit#heading=h.dvdyhpqbiomi)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/17pXHzv43TxQ8oUxnYuK6IXcRiy7hK7Rg/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1lifSUdc4jwIyY-6G8ZzZeioSpVtqxIM4/view?usp=sharing)
 * [Attendees]()
 
 
