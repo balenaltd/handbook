@@ -6,7 +6,7 @@ Mon, October 12 2020
 * [Meeting](https://docs.google.com/document/d/1pURioBJvNtinznpDNSk3xnIx7s5IVEH6_79wsnCagxM/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1YOwjEKCd7kucDq-e2PIm9bEYjrwGKClU/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1K5Y7vjS2oKczBadMK5EVKI9IFTByeFgS/view?usp=sharing)
-
+* [Attendees](https://drive.google.com/file/d/1OLM7BtaONelmOpavnx7W-cdAXmvA0AO9/view?usp=sharing)
 
 Mon, October 05 2020 
 * [Meeting](https://docs.google.com/document/d/1ti0pWVCOXqSg7UF-Oj940BTrSi370ghW9oUDDSPzSLo/edit#heading=h.dvdyhpqbiomi)
