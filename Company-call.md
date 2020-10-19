@@ -3,7 +3,7 @@
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Mon, October 19 2020 
-* [Meeting]()
+* [Meeting](https://docs.google.com/document/d/1ngSaQNmYViufRlVxJ6YFU1KkNxyDI-Su3x-CatdR8sA/edit#heading=h.5v3961pdlcu2)
 * [Video]()
 * [Audio]()
 * [Attendees]()
