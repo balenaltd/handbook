@@ -7,9 +7,9 @@ Please note that we are trying to minimize the effort you need to put on this, t
 
 
 ## How should I book my flight & accommodation? 
-In order to book your flights & accommodation please first get in touch with the Operations Team. Contact the Operations team using @@operations in the `t/perations` flow. They will help you find a flight and book accommodation for your trip. 
+In order to book your flights & accommodation please first get in touch with the Operations Team. Contact the Operations team using @@operations in the `t/operations` flow. They will help you find a flight and book accommodation for your trip. 
 
-## How should I pay for my expenses while I'm traveling?
+## How should I pay for my expenses while I'm travelling?
 
 All the expenses made for the duration of your business travel is covered by balena. For clarification purposes, these expenses include accommodation, food, business meals, transport and any unforeseen H/W required to perform the task at hand. Accommodation most of the times is prepaid or handled by the Operations Team. Meals, transportation and other expenses are paid by the employee and reimbursed.
 
