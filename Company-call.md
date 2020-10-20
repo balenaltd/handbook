@@ -6,7 +6,7 @@ Mon, October 19 2020
 * [Meeting](https://docs.google.com/document/d/1ngSaQNmYViufRlVxJ6YFU1KkNxyDI-Su3x-CatdR8sA/edit#heading=h.5v3961pdlcu2)
 * [Video](https://drive.google.com/file/d/1EQrtGFwKJsd9f09aa6jcK4Fk-L-eUjMz/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/15FCOjdFTQ1fZN3e5JNzv6WANQYv3s_AY/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/14HBSM_NB6dSCv-D6yqUwY3rG7BE7AxUf/view?usp=sharing)
 
 Mon, October 12 2020 
 * [Meeting](https://docs.google.com/document/d/1pURioBJvNtinznpDNSk3xnIx7s5IVEH6_79wsnCagxM/edit?usp=sharing)
