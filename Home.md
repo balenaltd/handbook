@@ -34,8 +34,9 @@
 
   - Culture
     - [Summit](https://github.com/resin-io/hq/wiki/Summit)
-      - [Summit Keynotes 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
-      - [Summit Keynotes 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
+      - [Summit 2020](https://github.com/balena-io/balena-io/wiki/Summit-2020)
+      - [Summit 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
+      - [Summit 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
