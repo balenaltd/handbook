@@ -141,4 +141,4 @@ Now that you are an expert on Flowdock :) it's time for your first meeting with 
 Following the customary greetings, it would be great if you took the time to create and send a brief intro of yourself as your first task. You may include any details you wish about yourself, family, work, interests or anything else you deem appropriate.
 
 ## Changing the look and feel
-Petros has created papagal which is a Chrome and Firefox extension that improves user experience while using Flowdock. You can find more information [here](https://github.com/petrosagg/papagal). Unfortunately, the Firefox addon has been taken down for now.  
+Papagal is a Chrome and Firefox extension that improves user experience while using Flowdock. You can find more information [here](https://github.com/petrosagg/papagal). Unfortunately, the Firefox addon has been taken down for now.  
