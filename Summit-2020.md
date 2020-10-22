@@ -27,9 +27,9 @@ Summit 2020 ended up looking quite a bit different than we had originally planne
 
 ## Unconference sessions
 
-You can check all the other sessions and their recordings/presentations [here](https://drive.google.com/drive/u/1/folders/1AHMZUqWme_k1dPFjpWNlYX7wZjDRPGfP) organised by date.
+You can find all other sessions with their recordings and presentations [here](https://drive.google.com/drive/u/1/folders/1AHMZUqWme_k1dPFjpWNlYX7wZjDRPGfP) organised by date.
 
 
 ## Balena Summit Hack Week 2020
 
-We also enjoyed a full week of hacking and working on exciting projects outside our normal day to day work. Check all the hack week projects, their presentations and supporting documents [here](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4). 
+Following the summit week, we also enjoyed a full week of hacking and working on exciting projects outside our normal day to day work. Check all the hack week projects, their presentations, and supporting documents [here](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4). 
