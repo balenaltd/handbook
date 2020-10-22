@@ -1,6 +1,6 @@
 ## Introduction
 
-Summit 2020 ended up looking quite a bit different than we had originally planned and as such, it ended up being our first ever virtual summit! It was still an opportunity to pause and reflect, celebrate our achievements, create a shared vision for the future and build deeper relationships with out teammates. Despite not being able to all meet at one location, it was a fun and fulfilling experience as everybody on the team helped make it uniquely balena! Check [this blog post](https://www.balena.io/blog/how-we-ran-a-virtual-summit-for-100-people/) for more info on how we ran our virtual summit 2020. 
+Summit 2020 ended up looking quite a bit different than we had originally planned and as such, it ended up being our first ever virtual summit! It was still an opportunity to pause and reflect, celebrate our achievements, create a shared vision for the future and build deeper relationships with our teammates. Despite not being able to all meet at one location, it was a fun and fulfilling experience as everybody on the team helped make it uniquely balena! Check [this blog post](https://www.balena.io/blog/how-we-ran-a-virtual-summit-for-100-people/) for more info on how we ran our virtual summit 2020. 
 
 
 ## Keynotes
