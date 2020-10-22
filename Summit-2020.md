@@ -32,4 +32,4 @@ You can find all other sessions with their recordings and presentations [here](h
 
 ## Balena Summit Hack Week 2020
 
-Following the summit week, we also enjoyed a full week of hacking and working on exciting projects outside our normal day to day work. Check all the hack week projects, their presentations, and supporting documents [here](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4). 
+Following the summit week, we also enjoyed a full week of hacking and working on exciting projects outside our normal day to day work. Check all the hack week projects, their presentations, and supporting documents [here](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4) or watch the recording of all presentations [here](https://drive.google.com/drive/folders/1wZvb_4POgdC3Ft-RAO31fYTs9olmetlR).
