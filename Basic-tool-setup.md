@@ -11,13 +11,14 @@ Primary:
 * [Calamari](https://calamari.io)
 * [Front](https://frontapp.com/)
 * [Zoom](https://zoom.us/)
-* [Github](https://github.com)* (**note that you need to set up 2FA when you first login using the Yubikey you have been sent**)
+* [Github](https://github.com) (**You need to set up 2FA when you first login using the Yubikey you have**. _This service requires additional information/steps before you get access._)
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
 * [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg)
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
 
+### Tools and services related to doing support<br>
 As needed for doing support when it is time for your support onboarding (request access from the Ops team):
 * Zendesk
 * [Balena Forums Moderator Access](https://forums.balena.io/)
@@ -27,9 +28,7 @@ As needed for doing support when it is time for your support onboarding (request
 
 Please note that you should have access to the above services before you start doing support. This is also noted during support onboarding so you can check that you have access to all the services you will need. If you need access sooner, please let the Operations team know and request access.
 
-**Last but very important note! Please bear in mind that to request and obtain access to any service you need to get in touch with the operations team in the operations flow `t/operations` using @@operations and **#access** .**
-
-_* this service requires additional information/steps before you get access to it._
+**Last but very important note! Please bear in mind that to request and obtain access to any service, you need to get in touch with the operations team in the operations flow `t/operations` using @@operations and **#access**. If you require access to a number of services, you can make one access request for all.**
 
 
 ### How to access services that require additional information/steps.
