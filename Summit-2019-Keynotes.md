@@ -2,7 +2,7 @@
 
 Since the beginning of 2019, and especially after completing our Series B funding round in July we've been focusing on growing our globally distributed team. The strength of our team is never more apparent than at our annual week-long summit, which this year was held in Barcelona, Spain for the second time.
  
-At Summit we reviewed our progress and vision for the future, and we also demonstrated our continuous investment in building an innovative culture, processes, and infrastructure for our remote team, expanding our ability to offer exciting positions to talented individuals across the world, and a chance to participate in creating the platform for the new age in edge computing. 
+At Summit we reviewed our progress and vision for the future, and we also demonstrated our continuous investment in building an innovative culture, processes, and infrastructure for our remote team, expanding our ability to offer exciting positions to talented individuals across the world, and a chance to participate in creating the platform for the new age in edge computing. Check [this blog post](https://www.balena.io/blog/summit-2019-barcelona-thats-a-wrap/) about summit 2019. 
 
 # Keynotes
 
