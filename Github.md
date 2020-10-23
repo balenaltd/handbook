@@ -28,12 +28,20 @@ If you’d like to automatically unwatch all new repos go to Github/Settings/Not
 
 Note that unwatch shouldn’t mean ignore. Especially if you choose to automatically unwatch the new repos, make sure to manually watch those that are related to your job and to your tasks.
 
-In addition you can unsubscribe from notifications from a particular PR thread on the lower right of the right side menu. 
+In addition, you can unsubscribe from notifications from a particular PR thread on the lower right of the right side menu. 
 
 ## Adding SSH Keys
 
 Once you have found your way around github and all the organizations don't neglect to add your SSH keys to the relevant repos. In case you are not familiar with the procedure you can find more info on how to to do that in the Support Scratch Pad here: (https://github.com/resin-io/hq/wiki/Scratch-Pad)
 
-For more Github secrets see https://github.com/blog/967-github-secrets
+## Resources
 
-In case you’re not familiar with git and Github, we suggest following Github’s [Hello World guide](https://guides.github.com/activities/hello-world/).
+Not all balenistas will be familiar with github, so here are some resources that balenistas have found helpful, whether it is to get you started or dive into specific areas.
+
+In case you’re not familiar with git and Github, we suggest following Github’s [Hello World guide](https://guides.github.com/activities/hello-world/). Otherwise, if you are comfortable with using the command line follow [git - the simple guide](http://rogerdudler.github.io/git-guide/), [bitbucket guide](https://www.atlassian.com/git/tutorials/setting-up-a-repository) or [git magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html).
+
+More resources
+* [On undoing, fixing, or removing commits in git](http://sethrobertson.github.io/GitFixUm/fixup.html)
+* [Github secrets](https://github.com/blog/967-github-secrets)
+* [Git guides in other languages](https://github.com/firstcontributions/first-contributions)
+* [Git Cheat Sheet](https://www.git-tower.com/learn/cheat-sheets/git/)
