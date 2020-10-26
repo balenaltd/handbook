@@ -5,8 +5,8 @@
 
 Mon, October 26 2020 
 * [Meeting](https://docs.google.com/document/d/18K2OgM4En8dYsGoScRM48DmwjmLHXXR8kOPJzpBSnvs/edit#)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/19sPCzrt1hAS7QIEh1prBRg6xqqIp1oOA/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/14JzWrxEdlQxUE1kuNRMzZhIP4vrE9lIA/view?usp=sharing)
 * [Attendees]()
 
 Mon, October 19 2020 
