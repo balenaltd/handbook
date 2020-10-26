@@ -2,6 +2,13 @@
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+
+Mon, October 26 2020 
+* [Meeting](https://docs.google.com/document/d/18K2OgM4En8dYsGoScRM48DmwjmLHXXR8kOPJzpBSnvs/edit#)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
 Mon, October 19 2020 
 * [Meeting](https://docs.google.com/document/d/1ngSaQNmYViufRlVxJ6YFU1KkNxyDI-Su3x-CatdR8sA/edit#heading=h.5v3961pdlcu2)
 * [Video](https://drive.google.com/file/d/1EQrtGFwKJsd9f09aa6jcK4Fk-L-eUjMz/view?usp=sharing)
