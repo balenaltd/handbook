@@ -69,3 +69,5 @@
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
 
 - [FAQs](https://github.com/resin-io/hq/wiki/FAQ)
+
+- [Glossary](https://docs.google.com/document/d/1GcHzn-Nxvnh4WWpspeVyJV9D8V890DLXZAOmwO7jB7c/edit)
