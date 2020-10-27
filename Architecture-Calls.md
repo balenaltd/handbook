@@ -11,7 +11,7 @@ Architecture calls take place several times a week (usually 2 or 3). It is the t
 
 Some general information and tips that are useful to know:
 
-- Open **#architecture** items can be found at the respective Front inbox - https://front.frontapp.com/inboxes/shared/39382 
+- Open **#architecture** items can be found at the respective Front inbox - https://app.frontapp.com/inboxes/teams/folders/39382/unassigned 
 - The agenda and the notes will be posted at the  [`r/architecture` flow](https://www.flowdock.com/app/rulemotion/r-architecture)
 - You should avoid pinging @alexandrosm, @petrosagg, @page- or @shaunmulligan when raising an arch call item. They all join the arch calls by default.
 
