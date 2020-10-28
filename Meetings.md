@@ -2,9 +2,9 @@ The Balena Admin calendar contains all our company calls. Make sure it's added t
 
 We have the following fixed-time meetings on Balena Admin calendar, recurring week-to-week:
 * all-hands calls
-* brainstorms
-* product calls
-* arch calls
+* brainstorms (including per-loop architecture calls and product calls)
+
+For more guidance on how we run brainstorm calls, check out this [work in progress guide](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#)
 
 If you want to know more about how meetings are scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
 
