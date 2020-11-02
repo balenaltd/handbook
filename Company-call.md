@@ -4,8 +4,8 @@
 
 Mon, November 02 2020 
 * [Meeting](https://docs.google.com/document/d/15n6JkzeUG8R86MTga_uNJIc9hcp4eAkkgJghyrh7kkE/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1Y2xQcTIhX_CVlelrwc1_WLxBNGgomaem/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/19LZ0PnO7aEbc9mRNCQMsZYtjwCmRrX-d/view?usp=sharing)
 * [Attendees]()
 
 Mon, October 26 2020 
