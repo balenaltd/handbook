@@ -4,9 +4,9 @@ We have the following fixed-time meetings on Balena Admin calendar, recurring we
 * all-hands calls; this is our weekly company wide call
 * brainstorms, including per-loop architecture calls and product calls
 
-For more guidance on how we run brainstorm calls, check out this [work in progress guide](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#)
+For more guidance on how we run brainstorm calls, check out this [work in progress guide](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). 
 
-If you want to know more about how meetings are scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
+You can check the [current projects tab of the Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=110615447) for all the project and pipeline related calls and the [other calls tab](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=180453935) for all the brainstorms, company wide and other calls. Not all, but some calendar invites or team model entries will also have a spec or relevant document to give you more information about the call. If you want to know more about meetings are scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
 
 
 ## Adding yourself to (or removing yourself from) Balena Admin calendar events
