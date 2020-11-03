@@ -10,13 +10,16 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 * request SSH access
 ```
 - misc1.dev.balena.io
+- misc2.dev.balena.io
 - balenaCloud bastion host(s)
 - Jellyfish bastion host(s)
 ```
 
 * [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
 
-* AWS CLI access using roles to production, staging & playground. [CLI HowTo](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html)
+* Okta Account - many of our services authenticate through Okta. Follow [this guide](https://docs.google.com/document/d/1OLgOcMDCJcdISe_bv0tvF87HeaLrFmoP7CfGSxYEK8Q/edit#bookmark=id.naso1geqapb7) to setup the Okta browser plugin and `saml2aws` cli tool.
+
+* AWS CLI access using roles to production, staging & playground. [CLI HowTo](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html) AWS CLI is now authenticated using `saml2aws`.
 > ⚠️ `default` is `balena-production`
 ```
 # (example) ~/.aws/credentials
