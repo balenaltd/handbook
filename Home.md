@@ -40,7 +40,7 @@
     - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
-    - [Company call](https://github.com/resin-io/hq/wiki/Company-call)
+    - [Company call / All hands call](https://github.com/resin-io/hq/wiki/Company-call)
     - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
     - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
     - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
