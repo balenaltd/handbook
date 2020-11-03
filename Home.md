@@ -42,6 +42,7 @@
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call / All hands call](https://github.com/resin-io/hq/wiki/Company-call)
     - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
+    - [Brainstorm calls](https://github.com/balena-io/balena-io/wiki/Brainstorm-calls)
     - [Architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
     - [Product call](https://github.com/resin-io/hq/wiki/Product-Calls)
     - [Doughnut call](https://github.com/balena-io/balena/wiki/Doughnut-Calls)
