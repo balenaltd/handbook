@@ -1,3 +1,6 @@
+## All hands presentation
+These are company wide presentations that all balenistas are encouraged to attend. Sometimes these would be about core company ideas and progress, while we are trying to have more balenistas to get involved and use this platform to share knowledge, learning, interesting topics, and concepts, as well as connect more. You can suggest a presentation topic [here](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752).
+
 We used to have a fixed slot for All Hands Presentations which was used for any company-wide subjects to be covered outside the usual All Hands company call. We are currently thinking of how to make this slot more dynamic to be able to host presentations for balenistas to share learning, project updates and anything else according to what the team feels is needed and what we are working on at the time. Suggestions are very welcome, either if you have an idea of what you want to see from others or present yourself :)
 
 ### [All Hands Presentations Suggestions](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752)
