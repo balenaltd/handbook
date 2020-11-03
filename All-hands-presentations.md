@@ -147,4 +147,3 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### Thu, Oct 11 2018 (Summit 2018 second presentation)
 * [Video](https://drive.google.com/open?id=16wjy1J83oDSMj8aEv7ku0uUJBLehxY_Z)
 * [Audio](https://drive.google.com/open?id=1U7Uz1S8AIisOuRW3oqZWRjAPse3PAAfL)
-* [Summit 2018 second presentation
