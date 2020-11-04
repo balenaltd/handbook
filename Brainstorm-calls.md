@@ -12,7 +12,7 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 * LoopMVP product call
 
 ### Loop specific brainstorm calls 
-We also have brainstorm calls scoped by loop which will include both `product` and `architecture` questions. These are:
+We also have brainstorm calls scoped by loop. These are:
 * **companyOS brainstorm**
 
 * **teamOS brainstorm**
