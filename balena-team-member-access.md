@@ -8,6 +8,6 @@ balena team member access
 
 You will probably have a balena account linked to your personal email as well and we want to make sure that it is clear to everyone which account they should use for what. See below: 
 
-balena-cloud.com: personal email account for non-work projects OR for testing balenaOS releases
-balena-cloud.com: @balena.io email account for support ONLY
-staging.balena-cloud.com: @balena.io email account for testing new balenaCloud features OR testing balenaOS releases on staging
+* **balena-cloud.com**: personal email account for non-work projects OR for testing balenaOS releases
+* **balena-cloud.com**: @balena.io email account for support ONLY
+* **staging.balena-cloud.com**: @balena.io email account for testing new balenaCloud features OR testing balenaOS releases on staging
