@@ -1,3 +1,5 @@
+_Launch date- June 1st 2020_
+
 ## Intro 
 The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It moves us to a system that is streaming, rather than arbitrarily batched. It should be easy to understand, simple for team members to manage, incentivize the right behavior, and be flexible to different preferences. Team members are granted a generous amount of paid leave to take the amount of leave that’s right for them, but not feel pressure to take more leave than they would prefer to. 
 
@@ -37,7 +39,7 @@ The policy is based on a “bank” system of accumulating and drawing down leav
 * Team members who want to take extended unpaid leave beyond their paid leave allocation should discuss this with a member of the strategy team. Unpaid leave will be considered on a case by case basis
 * Part time contractors are not entitled to paid leave, but can book unpaid leave.
 * When a team member leaves the company, they will be paid out for any unused leave in their bank 
-* If a member of the team leaves the company before their first anniversary, or before the first anniversary of this policy being enacted, they will not be entitled to be paid out for the 12 day starting balance.
+* If a member of the team leaves the company before their first anniversary, or before the first anniversary of this policy being enacted (June 1st 2021), the 12 day starting balance will automatically expire, and team members will not be able to request these days, nor will they be entitled to be paid out for them. If you have a negative leave balance on your last day, these days will be deducted from your final paycheck.
 
 ## Policy Explanation
 By starting with a 12 day balance, new team members have a built-in buffer against overdraft, and are able to take any planned holiday without concern. In countries where local regulation dictates that employees take public holidays, such as Italy and Greece, these 12 days ensure that employees always have enough leave in the bank to take their public holidays. 
@@ -56,7 +58,7 @@ We understand that team members may need to take a period of unpaid leave outsid
 
 As part time contractors work variable hours each month and aren’t fully dedicated to balena in their activity, they are not entitled to paid leave, but can book unpaid leave in order to communicate their absence with the rest of the team.
 
-If you leave the company before your first anniversary (or within one year after transitioning to the new policy), you will not be paid out for the 12 day starting balance. This is to ensure things are fair for team members and the company - if someone left after 1 month, for example, it wouldn’t be fair for them to be paid out for 14.5 days of accumulated leave. Think of it as these 12 days “maturing” after one year in the bank system.
+If you leave the company before your first anniversary (or the anniversary of the new policy on June 1st 2021), the 12 day starting balance will expire and you will not be able to request or be paid out for it. This is to ensure things are fair for team members and the company - if someone left after 1 month, for example, it wouldn’t be fair for them to be paid out for 14.5 days of accumulated leave. Think of it as these 12 days “maturing” after one year in the bank system. 
 
 ### Appendix A: Bank system example
 
