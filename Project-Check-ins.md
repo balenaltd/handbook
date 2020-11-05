@@ -1,3 +1,5 @@
+# **Archived - Obsolete**
+
 Most projects we are working on will have weekly check in calls. You can usually find the link to the relevant spec included in the calendar invite to get more information on the project and work. 
 
 We used to have a different process for having all check in calls every Monday and you can see more information below. 
