@@ -17,8 +17,8 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 We also have brainstorm calls scoped by loop and these often include both `architecture` and `product` discussions. These are:
 
 * **companyOS brainstorm**
-> CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss ?????. Everyone is welcome to join.
-> See the companyOS brainstorm notes document [here](?????).
+> CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss our company architecture - legal, financial and operational. Everyone is welcome to join.
+> See the companyOS brainstorm notes document [here](https://docs.google.com/document/d/1UF6VolqWd7CpQ1GLwYvftHJj7Agf6Kr-CGpLW28Ry80/edit?usp=sharing).
 
 * **teamOS brainstorm**
 > TeamOS calls take place once a week and are led by the teamOS team. It is the time and (virtual) place where we discuss team processes, policies, team feedback and the overall user experience for the team. Everyone is welcome to join.
