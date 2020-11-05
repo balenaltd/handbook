@@ -1,1 +1,0 @@
-Moved to https://github.com/resin-io/process/blob/master/process/devenv/exporting-the-development-environment.md
