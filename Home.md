@@ -64,7 +64,7 @@
     - [Support Guidelines](https://github.com/balena-io/process/tree/master/process/support)
 
 - Work in Progress
-    - [LoopMVP](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
+    - [LoopMVP; productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
 
 - Product
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
