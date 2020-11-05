@@ -5,11 +5,13 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 ### Brainstorm types
 * `product` for questions around `what` we want to do (i.e. what can be done to reduce a certain kind of friction for users)
 * `architecture` for `how` questions, such as “how should a certain feature be implemented”
+
 ### Examples of these are: 
 * balena.io architecture call
 * balena.io product call
 * LoopMVP arch call
 * LoopMVP product call
+> _Note: There are separate pages for the balena.io architecture and product calls in the meetings section and you can find more information about LoopMVP in the Work In Progress section._
 
 ### Loop specific brainstorm calls 
 We also have brainstorm calls scoped by loop and these often include both `architecture` and `product` discussions. These are:
