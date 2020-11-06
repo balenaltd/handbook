@@ -4,14 +4,14 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 
 ## Brainstorm types
 * `product` for questions around `what` we want to do (i.e. what can be done to reduce a certain kind of friction for users)
-* `architecture` for `how` questions, such as “how should a certain feature be implemented”
+* `architecture` or `arch` for `how` questions, such as “how should a certain feature be implemented”
 
 ## Loop specific brainstorm calls 
 
 ### balena.io brainstorms
-* product - see the separate wiki page under the meetings section
+* product - _see the separate wiki page under the meetings section_
 
-* arch - see the separate wiki page under the meetings section
+* arch - _see the separate wiki page under the meetings section_
 
 * commercial
 > Commercial calls take place once a week and are led by the commercial team. It is the time and (virtual) place where we discuss the sales/customer success team process, pricing plans, and commercial strategy. Everyone is welcome to join.
@@ -24,7 +24,7 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 ### productOS brainstorm
 * LoopMVP product
 * LoopMVP arch
-> _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder)._
+> _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder) and the [productOS team manual](https://docs.google.com/document/d/18G1vzYte-wSmoVLmPafG4gWm6eJ4ZUDCs40llWgc9s8/edit#heading=h.lj0g2s7qd8jq)._
 
 ### balenaLabs brainstorm - product/arch combined
 > BalenaLabs calls take place once a week and are led by the balenaLabs team. It is the time and (virtual) place where we discuss ?????. Everyone is welcome to join.
