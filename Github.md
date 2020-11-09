@@ -28,7 +28,9 @@ If you’d like to automatically unwatch all new repos go to Github/Settings/Not
 
 Note that unwatch shouldn’t mean ignore. Especially if you choose to automatically unwatch the new repos, make sure to manually watch those that are related to your job and to your tasks.
 
-In addition, you can unsubscribe from notifications from a particular PR thread on the lower right of the right side menu. 
+In addition, you can unsubscribe from notifications from a particular PR thread on the lower right of the right side menu.
+
+If you find you need to unsubscribe from a lot of repos in bulk, this [GitHub subscriptions list](https://github.com/notifications/subscriptions) may help.
 
 ## Adding SSH Keys
 
