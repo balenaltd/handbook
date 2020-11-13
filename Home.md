@@ -28,7 +28,6 @@
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
     - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
-    - [Chrome profiles](https://github.com/resin-io/hq/wiki/Chrome-profiles)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
     - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
 
