@@ -4,7 +4,7 @@
 
 ## First things first.. 
 
-- [Your balena email](https://github.com/balena-io/balena/wiki/Your-balena-email)
+- [Your balena.io email](https://github.com/balena-io/balena/wiki/Your-balena-email)
 - [Help the team get to know you](https://github.com/balena-io/balena/wiki/Help-the-team-get-to-know-you)
 - [Your balena buddy](https://github.com/balena-io/balena/wiki/Your-balena-buddy)
 
