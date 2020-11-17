@@ -22,12 +22,9 @@
     - [Onboarding checklist](https://github.com/balena-io/balena/wiki/Onboarding-checklist)
   
   - Getting started with...
-
-    - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
-    - [Github](https://github.com/resin-io/hq/wiki/Github)
-    - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
-    - [your @balena.io e-mail account](https://github.com/resin-io/hq/wiki/Your-@balena.io-e-mail-account)
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
+    - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
+    - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
     - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
 
@@ -47,6 +44,7 @@
     - [Doughnut call](https://github.com/balena-io/balena/wiki/Doughnut-Calls)
 
 - Team
+    - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
