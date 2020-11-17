@@ -20,6 +20,7 @@
     - [balena team member access](https://github.com/balena-io/balena/wiki/balena-team-member-access)
     - [balena team map](https://github.com/balena-io/balena/wiki/balena-team-map)
     - [Onboarding checklist](https://github.com/balena-io/balena/wiki/Onboarding-checklist)
+    - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
   
   - Getting started with...
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
@@ -29,11 +30,11 @@
     - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
 
   - Culture
-    - [Summit](https://github.com/resin-io/hq/wiki/Summit)
+      - [Summit](https://github.com/resin-io/hq/wiki/Summit)
       - [Summit 2020](https://github.com/balena-io/balena-io/wiki/Summit-2020)
       - [Summit 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
       - [Summit 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
-    - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
+      - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call / All hands call](https://github.com/resin-io/hq/wiki/Company-call)
@@ -47,7 +48,6 @@
     - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
-    - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
     - [Keeping your personal information up to date](https://github.com/balena-io/balena-io/wiki/Keeping-your-personal-information-up-to-date)
     - [Offices](https://github.com/resin-io/hq/wiki/offices)
     - [Leave policy](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
