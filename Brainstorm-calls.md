@@ -1,6 +1,6 @@
 # Brainstorm calls 
 
-Brainstorm calls are core to how we work and reflect our approach for finding the highest-possible quality answer to the issues we face. You can read more about the brainstorm! game [here](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). Brainstorm calls are scoped by loop and type. 
+Brainstorm calls are core to how we work and reflect our approach for finding the highest-possible quality answer to the issues we face. You can read more about the **brainstorm!** game [here](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). Brainstorm calls are scoped by loop and type. 
 
 ## Brainstorm types
 * `product` for questions around `what` we want to do (i.e. what can be done to reduce a certain kind of friction for users)
@@ -21,7 +21,7 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 > Outreach brainstorm calls take place once a week and are lead by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Add items to discuss with the `#outreach` tag in `s/Outreach` in FlowDock, and please include context such as links, docs, etc.. Everyone is welcome to join. 
 > See the outreach brainstorm notes [here](https://docs.google.com/document/d/12vOZ6q45DL9dnl9kH9OhVjXOAvak-GRREv3iN_r5RFY/edit#heading=h.rw2es49hyat0).
 
-### productOS brainstorm
+### productOS brainstorms
 * LoopMVP product
 * LoopMVP arch
 > _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder) and the [productOS team manual](https://docs.google.com/document/d/18G1vzYte-wSmoVLmPafG4gWm6eJ4ZUDCs40llWgc9s8/edit#heading=h.lj0g2s7qd8jq)._
@@ -30,11 +30,11 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 > BalenaLabs calls take place once a week and are led by the balenaLabs team. It is the time and (virtual) place where we discuss ?????. Everyone is welcome to join.
 > See the balenaLabs brainstorm notes document [here](https://docs.google.com/document/d/16zYTUiZkyZCg2-gprj8wQksbzWVtsDay2wArSJPaVNw/edit?usp=drivesdk).
 
-### teamOS brainstorms - product/arch combined
+### teamOS brainstorm - product/arch combined
 > TeamOS calls take place once a week and are led by the teamOS team. It is the time and (virtual) place where we discuss team processes, policies, team feedback and the overall user experience for the team. Everyone is welcome to join.
 > See the teamOS brainstorm notes document [here](https://docs.google.com/document/d/1o8p8irS_cdEIM2FHUsP6HzbSMpGCCac_Th9NIbfNS04/edit#).
 
-### companyOS brainstorms - product/arch combined
+### companyOS brainstorm - product/arch combined
 > CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss our company architecture - legal, financial and operational. Everyone is welcome to join.
 > See the companyOS brainstorm notes document [here](https://docs.google.com/document/d/1UF6VolqWd7CpQ1GLwYvftHJj7Agf6Kr-CGpLW28Ry80/edit?usp=sharing).
 
