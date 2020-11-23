@@ -6,6 +6,11 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, November 23 2020 
+* [Meeting](https://docs.google.com/document/d/1GO2wNkDpM9mpnOeUlkx1IaHboxXXAoka2xmfh7uhQTI/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
 
 Mon, November 16 2020 
 * [Meeting](https://docs.google.com/document/d/1WcYC6qPUo3dpgbuaJZc5e9igRhy-OAtOvrpmyzpn6H8/edit?usp=sharing)
