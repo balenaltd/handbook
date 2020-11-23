@@ -14,7 +14,7 @@ It is important to communicate your working hours to the rest of the team, since
 
 For these purposes, team members indicate their working hours in the [Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=404458414) Google Sheet.
 
-You should be reachable on Flowdock during your stated working hours but if this changes, you can let the team know with a quick message. This is critical in order to keep our workflow running and help all balenistas deliver on time without any interruption. No need to let anyone know if you are popping out for a while, just any major unexpected disruptions during your day that might affect others! 
+You should be reachable on Flowdock during your stated working hours but if this changes, you can let the team know with a quick message. This is critical in order to keep our workflow running and help all balenistas deliver on time without any interruption. No need to let anyone know if you are popping out for a while, just for any major unexpected disruptions during your day that might affect others! You can use the r/team FD flow to ping the team for this or any other flow in case you want to let a smaller group of people you are working with know who might be affected by your unexpected absence.
 
 
 #### How to enter your working hours
