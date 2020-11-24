@@ -10,7 +10,7 @@ Mon, November 23 2020
 * [Meeting](https://docs.google.com/document/d/1GO2wNkDpM9mpnOeUlkx1IaHboxXXAoka2xmfh7uhQTI/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1aAga0ualIwUz1oB-RsnkD83CTIEHxthb/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1gBh3Duz3tTd8qV70pV2YkMfr4v2oZffF/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1qc9KNO2na3OCtZdKG5OEusfIYCsTQY7l/view?usp=sharing)
 
 Mon, November 16 2020 
 * [Meeting](https://docs.google.com/document/d/1WcYC6qPUo3dpgbuaJZc5e9igRhy-OAtOvrpmyzpn6H8/edit?usp=sharing)
