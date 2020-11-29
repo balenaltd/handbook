@@ -6,6 +6,10 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### [All Hands Presentations Suggestions](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752)
 
 ## Recent Meeting Notes
+### Fri, Nov 27  2020 (Audio 101: basics of audio block and balenaSound)
+* [Video](https://drive.google.com/file/d/1w5uF1id6HVEsCDVdrSI5f3Jda8SIowcB/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1A1X6cPWqHrh2k3SWBGBW5lodCGIxRq0D/view?usp=sharing)
+* [Presentation](https://docs.google.com/presentation/d/1Wmr-dPuRlRk6CnL0WsiwT1nEt5ZR0rXG8lMGibJbD3Q/edit?usp=sharing)
 
 ### Fri, June 12  2020 (VB features, PR review flow, and team velocity)
 * [Video](https://drive.google.com/file/d/1QjitbFTRehKXwPtjO1NBGewm3QVHnkAp/view?usp=sharing)
