@@ -9,8 +9,8 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, December 07 2020 
 * [Meeting](https://docs.google.com/document/d/1hGdUCtfwhlxHxHiyKnSkpCRKEoPr3zAXU_N8gmZVeOk/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1kEocrkNURQ-ttY4unOr2dNBb2bJbBD30/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1YHJc1vMIEcBYmmxtzYUHKW4_uIGLRZ9g/view?usp=sharing)
 * [Attendees]()
 
 Mon, November 30 2020 
