@@ -1,6 +1,6 @@
 The Balena Admin calendar contains all our company calls. Make sure it's added to your Google Calendar list (calendar ID `admin@balena.io`). In addition, bear in mind that the Balena Admin calendar follows London time, which is GMT+1 during British Summer Time (Daylight Saving Time), and GMT otherwise. You are free to join any calls (we do try to keep some calls that might include sensitive information in smaller groups and if that is the case, someone on the call will let you know) but it’s not mandatory if you don’t belong to the specific project team. Joining a few different calls when you are new is a good way to familiarise with different projects and process and get an idea of how different type of calls are facilitated and flow. Feel free to participate and ask questions too! 
 
-We have the following fixed-time meetings on Balena Admin calendar, recurring week-to-week:
+We have the following fixed-time meetings on the Balena Admin calendar, recurring week-to-week:
 * all-hands calls; this is our weekly company wide call
 * brainstorms, including per-loop architecture calls and product calls
 
