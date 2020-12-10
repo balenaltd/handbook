@@ -18,15 +18,15 @@ A **pipeline** is for work that continues forever, such as hiring, sales, conten
 > * can have advisors/observers who join the check-ins to give their 2c but don't take active tasks
 
 ### **Different roles**
-Each team has an **Owner** role, a **Guide** role, **Dedicated** roles and **Contributor** roles. These roles assigned on a per-project basis, and different people can have different roles on different projects over time.
+Each project has an **Owner** role, a **Guide** role, **Dedicated** roles and **Contributor** roles. These roles are assigned on a per-project basis, and different people can have different roles on different projects over time. Each pipeline also has Guide, Dedicated and Contributor roles, but no owner.
 
 The **Owner** is responsible for improving the probability of a positive outcome or at least making sure its chances of success are clear. Concrete responsibilities include: understanding the overview of the project, maintaining the spec, pushing for removing barriers, asking for more resources when needed, reporting on progress.
 
 The **Guide** is someone senior, usually from the strategy team, giving high-level guidance to make sure the project/pipeline stays aligned with the broader goals of the company.
 
-The **Dedicated** people have a specialist role and are key to the project and its progress. Beyond contributing to their focus area, contributors should also make sure to help the guide improve the probability of a positive outcome for the project in general terms.
+The **Dedicated** people have a specialist role and are key to the project/pipeline and its progress. Beyond contributing to their focus area, dedicated people should also make sure to help the guide improve the probability of a positive outcome for the project/pipeline in general terms.
 
-The **Contributor** is usually involved in many projects at the same time, acting as a link with their other projects (and the broader context) and making sure everything is going in the same direction. This person is one that has a broader context and can advise on relative priorities, and also opportunities to improve the project scope and approach based on other things they’re seeing elsewhere.
+The **Contributor** is usually involved in many projects/pipelines at the same time, acting as a link with their other projects (and the broader context) and making sure everything is going in the same direction. This person is one that has a broader context and can advise on relative priorities, and also opportunities to improve the project scope and approach based on other things they’re seeing elsewhere.
 
 Every participant of a project team is also responsible for making sure the project as scoped is still the best use of our time and resources and triggering a conversation when they suspect things may be going off track.
 
