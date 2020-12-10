@@ -1,0 +1,3 @@
+The English Communication Group is a one hour [call](https://meet.google.com/tjy-kbek-fgi?hs=122&authuser=0) that takes place every second Friday of the month at 1400 UTC, and is an opportunity for any non-native English speakers at balena to ask questions, practice more complicated grammar and work on improving their English communication skills in general with native speakers. 
+
+Team members can join `t/englishcom` on Flowdock for more information, and the event can be found on the balena Social Calendar
