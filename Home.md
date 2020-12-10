@@ -43,6 +43,8 @@
     - [balena.io architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
     - [balena.io product call](https://github.com/resin-io/hq/wiki/Product-Calls)
     - [Doughnut call](https://github.com/balena-io/balena/wiki/Doughnut-Calls)
+    - [English communication group](https://github.com/balena-io/balena-io/wiki/English-Communication-Group)
+
 
 - Team
     - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
