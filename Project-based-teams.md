@@ -18,7 +18,7 @@ A **pipeline** is for work that continues forever, such as hiring, sales, conten
 > * can have advisors/observers who join the check-ins to give their 2c but don't take active tasks
 
 ### **Different roles**
-Each project has an **Owner** role, a **Guide** role, **Dedicated** roles and **Contributor** roles. These roles are assigned on a per-project basis, and different people can have different roles on different projects over time. Each pipeline also has Guide, Dedicated and Contributor roles, but no owner.
+Each project has an **Owner** role, a **Guide** role, **Dedicated** roles and **Contributor** roles. These roles are assigned on a per-project basis, and different people can have different roles on different projects over time. Each pipeline also has Guide, Dedicated and Contributor roles, but no Owner.
 
 The **Owner** is responsible for improving the probability of a positive outcome or at least making sure its chances of success are clear. Concrete responsibilities include: understanding the overview of the project, maintaining the spec, pushing for removing barriers, asking for more resources when needed, reporting on progress.
 
