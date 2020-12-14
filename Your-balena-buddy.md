@@ -19,14 +19,14 @@ Some suggestions for what to cover and discuss with new team members during the 
 * Point out any key recordings and documents that outline our mission, core work and this year's goals (eg. summit recordings, wiki pages, useful GH repos) 
 * If both the new team member and buddy are engineers, they can chat about the dev environment setup or the new team member can ping the team using the t/beginners FD flow with any relevant questions 
 * Help the new team member get familiar with internal apps and tools we use, check they have access to all the key services and they know what they are. They have received a ton of invites so check that they are all set up and have an idea of what everything is about
-* Security talk - full disc encryption, passwording, 2FA, etc - Security guidelines link 
+* If relevant and you can help, have a security-related chat - full disc encryption, passwording, 2FA, etc - [Security guidelines page](https://github.com/balena-io/balena-io/wiki/Security-guidelines)
 * Check what questions the new team member might have about things you might not think talking about!
  
 ### Day Two and Onwards; suggested tips for the second call 
 
 * Let the new team member do most of the talking! 
 * Check how the new team member has got along with the onboarding checklist and if they need any help with anything, eg. Do they have access to the calendars and services they need? Are they familiar with Github already and have added their location to the team map? Are they ready to share product and team feedback? Do they need help with using our product and deploying code if they haven't done so before? 
-* Help introduce the new team member to people they’ll be working with most closely if they already know what they will be working on or link them with those that can introduce them to projects and work that would be relevant and interesting to them. Encourage them to join calls and reach out to people.
+* Encourage them to join calls and reach out to people. If possible, you can link the new team member with teammates who can introduce them to projects and work that would be relevant and interesting to them and their work/project if they already have a defined area of work at balena. 
 * Are there any other services that might be useful to have access to according to their area of work? Check that they know how to use #access.
 * You might want to mention tools we often use, such as Hubot, the scheduler, #order etc so they can start getting familiar with how to use these. 
 * Check-in regularly for at least the first 4-6 weeks. You may very well be the first person connection the new team member makes on the team (besides the people who interviewed them and those helping with their onboarding). Checking in with them regularly will help them feel welcome and supported. We suggest that you let them take the lead for scheduling your calls and other little tasks so these can feel like little 'wins' and things they accomplish during their first few weeks.
