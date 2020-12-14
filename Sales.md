@@ -184,7 +184,7 @@ Below are links to the latest information sheets that are commonly sent to custo
 
 * [Balena On-Premise - Dedicated Instance](https://docs.google.com/document/d/1AXh6zu7SGnZhJ61OCwT-spN7qAh68HCVQYTslT9dsYk/edit)
 * [Balena On-Premise - balenaMachine](https://docs.google.com/document/d/1QGoEpSqwZxAgNX6Sq134D2jjOaxL_vFd4TMl_qf7R7Q/edit?usp=drive_web&ouid=115390957403466913365)
-* [Brownfield Migrator](https://docs.google.com/document/d/1RhOu2UziPjbtLvlvaZo6rL55BY31nMc78hoACUOAwjk/edit)
+* [Brownfield Migrator](https://docs.google.com/document/d/1uyVz1JzW2GKpyNYQLft1ahRfAAV1frvLI6kO3zaGG4k/edit)
 * [Custom Device Support](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
 
 ### BalenaFin
