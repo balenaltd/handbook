@@ -61,6 +61,7 @@
     - [Team Feedback & TINYpulse](https://github.com/resin-io/hq/wiki/Feedback)
     - [Development Guidelines](https://github.com/balena-io/balena/wiki/Development,-Support-and-Process-Guidelines)
     - [Support Guidelines](https://github.com/balena-io/process/tree/master/process/support)
+    - [Employment Verification Requests](https://github.com/balena-io/balena-io/wiki/Employment-Verification-Requests)
 
 - Work in Progress
     - [LoopMVP; productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
