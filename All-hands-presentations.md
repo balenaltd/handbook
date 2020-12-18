@@ -11,7 +11,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 * [Audio](https://drive.google.com/file/d/1A1X6cPWqHrh2k3SWBGBW5lodCGIxRq0D/view?usp=sharing)
 * [Presentation](https://docs.google.com/presentation/d/1Wmr-dPuRlRk6CnL0WsiwT1nEt5ZR0rXG8lMGibJbD3Q/edit?usp=sharing)
 
-### Fri, 16 October  2020 ()
+### Fri, 16 October  2020 (Road to BalenaHub)
 * [Video](https://drive.google.com/file/d/1Vml0y0XNLDc-Th9M1bAmN0Tw8hHDor5P/view?usp=sharing)
 * [Presentation](https://docs.google.com/presentation/d/12wu2THlNBbB9GFjk9q2ibfdV1aVyRVUDeqDie27Ah-0/edit?usp=sharing)
 
