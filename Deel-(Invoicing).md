@@ -37,7 +37,7 @@ No- Deel is simply a third party which manages our payments.
 
 **Can I see a sample invoice, and what do I do if I need to include specific information for my local tax authority?**
 
-Yes- a sample invoice can be found [here](https://fd-files-production.s3.amazonaws.com/189584/puNNjySQYKpe7m3NyDAArQ?X-Amz-Expires=300&X-Amz-Date=20200612T123947Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIA2QBI5WP5HA3ZEA/20200612/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=744ca5af666d829daeb3bee1e480bc0d787ef4490304c1afe3b9805a8e0f9159). If you need to add any other information or have it in a different language, you can create your own invoice and upload it to replace the Deel automated invoice after you’ve been paid (from the 29th of each month).
+Yes- a sample invoice can be found [here](https://fd-files-production.s3.amazonaws.com/189584/puNNjySQYKpe7m3NyDAArQ?X-Amz-Expires=300&X-Amz-Date=20200612T123947Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIA2QBI5WP5HA3ZEA/20200612/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=744ca5af666d829daeb3bee1e480bc0d787ef4490304c1afe3b9805a8e0f9159) (link broken since 2020-06-12T12:44:47Z). If you need to add any other information or have it in a different language, you can create your own invoice and upload it to replace the Deel automated invoice after you’ve been paid (from the 29th of each month).
  
 **What do I do if there is no option to make a local bank transfer in the country I am based in?**
 
