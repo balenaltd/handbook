@@ -1,0 +1,6 @@
+At balena, we structure our team as a collection of feedback loops. What we often call "the loop" is our framework for continuously improving products. We also define specific loops at balena that focus on building products for a particular user. Each of these loops puts "the loop" framework into practice to build a product for its users. For example, the teamOS loop uses "the loop" to build and improve the user experience for balena team members. The balena.io product loop uses "the loop" to build and improve the user experience for balena users. And so on. 
+
+The best reference for how we define various loops is [this Google Drive folder](https://drive.google.com/drive/folders/1LLxXv9tJYdReIN81oZMKjMxBzsVDFVSR). 
+
+There are also two all-hands presentations, from [January](https://github.com/balena-io/balena-io/wiki/All-hands-presentations#thu-jan-30-2020-reintroduction-to-loops) and [February](https://github.com/balena-io/balena-io/wiki/All-hands-presentations#thu-feb-13-2020-reintroduction-to-loops--part-2) 2020, that go in-depth into loops and how we use them in practice at balena. We encourage all team members to watch these presentations if they haven't already. 
+
