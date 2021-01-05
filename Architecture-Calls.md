@@ -7,7 +7,7 @@ Architecture calls take place several times a week (usually 2 or 3). It is the t
 
 - Post **#architecture** message (see guidelines on using the hashtag below)
 - Follow the instructions when you get pinged for your item. You will need to take some actions if the item needs to be archived, postponed, or if you cannot attend the call and the issue you raised must be discussed. Guidelines will be posted along with the heads up message so please make sure you follow them. 
-- After the call, you can find the notes here: https://github.com/resin-io/balena/wiki/Architecture-Calls/
+- After the call, you can find the notes in [Front](https://app.frontapp.com/inboxes/teams/folders/39382/unassigned/20342168781) and the discussion is linked in the Google Calendar event
 
 Some general information and tips that are useful to know:
 
