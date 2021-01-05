@@ -10,13 +10,10 @@ You should also expect to **be able to control the kind of work you do**, at som
 
 This is what we aspire to offer to everyone on the team. If you are not receiving these things, you should tell the people who guide your work. If these are not things you want, you should think hard whether this is the company you want to be working for. We want to work together on improving the product as well as reaching your personal goals.
 
-### Resources that can influence the way you think and communicate
-
-If you have some free time for reading, Alex, Petros and Alison have made some recommendations for books that have had an impact on how they think and communicate. These can be good reference points for the way we communicate and work at balena. 
-
+### Resources that can help you communicate at balena
+As a distributed team, much of our communication happens in written form, with some higher bandwidth discussions over call/video as well. It's extremely important that we all communicate clearly with one another, and work on honing our writing and speaking skills. The team has started a list of resources that might be helpful if you're looking for ways to improve those skills. Contributions welcome! 
 * [Politics and the English Language](https://www.orwell.ru/library/essays/politics/english/e_polit)
 * [The Elements of Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk-ebook/dp/B07NPN5HTP)
 * [Economical Writing](https://www.amazon.com/Economical-Writing-Third-Thirty-Five-Persuasive-ebook/dp/B07RRH2XS4)
 * [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
 * [How To Disagree](http://www.paulgraham.com/disagree.html)
-* [Thinking, Fast and Slow](https://www.amazon.co.uk/Thinking-Fast-Slow-Daniel-Kahneman/dp/0141033576)
