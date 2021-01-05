@@ -49,7 +49,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### Thu, Feb 13 2020 (Reintroduction to loops- part 2)
 * [Video](https://drive.google.com/file/d/1_GirooYw3lOrv5h6OFTPml65Cg7U70go/view?t=660?usp=sharing) (Meeting begins at 0:10:50 mark)
 * [Audio](https://drive.google.com/file/d/1_2vzddllb_wRXfu8tKucVDY9W11pMt70/view?usp=sharing)
-* [Presentation](https://docs.google.com/drawings/d/1_zourowSFb6jXKsOjpo3E-hsW_s4McUYntoM4zYob_M/edit)
+* [Presentation](https://docs.google.com/presentation/d/1zw2L0b8s98vQL-nHvg3Y1MBUn5UjMq9K2AJGq4dD1Ek/edit#slide=id.p)
 
 ### Thu, Jan 30 2020 (Reintroduction to loops)
 * [Video](https://drive.google.com/file/d/1yQoEjYPn8Ufdu_HwfQ2vdKNz6vsqO_0j/view?t=2450?usp=sharing) (Meeting begins at 0:40:50 mark)
