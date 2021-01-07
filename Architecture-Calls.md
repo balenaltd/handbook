@@ -75,4 +75,4 @@ We often have items that we want to keep revisiting. The process to do that is s
 
 ### Architecture Reviews
 
-The arch review sessions are the ongoing process where we are reviewing what our current source code and architecture is and making a plan for the future. [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/E2V3msPTbhmCUEf9vqEaU2PIpgo)
+The arch review sessions are the ongoing process where we are reviewing what our current source code and architecture is and making a mid/long-term plan for the future. [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/E2V3msPTbhmCUEf9vqEaU2PIpgo)
