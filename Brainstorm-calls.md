@@ -27,8 +27,8 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 > _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder) and the [productOS team manual](https://docs.google.com/document/d/18G1vzYte-wSmoVLmPafG4gWm6eJ4ZUDCs40llWgc9s8/edit#heading=h.lj0g2s7qd8jq)._
 
 ### balenaLabs brainstorm - product/arch combined
-> BalenaLabs calls take place once a week and are led by the balenaLabs team. It is the time and (virtual) place where we discuss ?????. Everyone is welcome to join.
-> See the balenaLabs brainstorm notes document [here](https://docs.google.com/document/d/16zYTUiZkyZCg2-gprj8wQksbzWVtsDay2wArSJPaVNw/edit?usp=drivesdk).
+> BalenaLabs calls take place once a week and are led by the balenaLabs team. It is the time and (virtual) place where we discuss labs projects, blocks and bovine feet. Everyone is welcome to join.
+> We track and document our topics in Jellyfish.
 
 ### teamOS brainstorm - product/arch combined
 > TeamOS calls take place once a week and are led by the teamOS team. It is the time and (virtual) place where we discuss team processes, policies, team feedback and the overall user experience for the team. Everyone is welcome to join.
