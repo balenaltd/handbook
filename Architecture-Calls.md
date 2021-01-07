@@ -3,6 +3,8 @@
 
 Architecture calls take place several times a week (usually 2 or 3). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the balenaCloud platform. This call is usually technically oriented and the subjects range from balena backend, devices, cli tools etc. Everyone in the balena team is welcome to join.
 
+There are Architecture Calls per product loop, so e.g. `balena.io arch call 1` and `loopMVP arch call 1`.
+
 ### Process overview
 
 - Post **#architecture** message (see guidelines on using the hashtag below)
@@ -70,3 +72,7 @@ The recording of the call will be linked and available at the calendar invite an
 ### Pinned Agenda Items
 
 We often have items that we want to keep revisiting. The process to do that is simply leaving the respective Front tickets open and also add a descriptive comment (e.g. `Pinned item for Mondays`)
+
+### Architecture Reviews
+
+The arch review sessions are the ongoing process where we are reviewing what our current source code and architecture is and making a plan for the future. [FlowDock thread](https://www.flowdock.com/app/rulemotion/r-architecture/threads/E2V3msPTbhmCUEf9vqEaU2PIpgo)
