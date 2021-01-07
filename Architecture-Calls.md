@@ -1,7 +1,7 @@
 
 ## Description
 
-Architecture calls take place several times a week (usually 2 or 3). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the balenaCloud platform. This call is usually technically oriented and the subjects range from balena backend, devices, cli tools etc. Everyone in the balena team is welcome to join.
+Architecture calls take place several times a week (usually 2 or 3) and are [brainstorming sessions](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/view). It is the time and (virtual) place where we generally try to come up with an action plan to tackle non-trivial technical issues across the balenaCloud platform. This call is usually technically oriented and the subjects range from balena backend, devices, cli tools etc. Everyone in the balena team is welcome to join.
 
 There are Architecture Calls per product loop, so e.g. `balena.io arch call 1` and `loopMVP arch call 1`.
 
