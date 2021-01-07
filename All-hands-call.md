@@ -1,5 +1,5 @@
 
-## Company call - All hands call
+## All-hands call
 This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. Chaired by @shaunmulligan
 
 ## Meeting Notes
