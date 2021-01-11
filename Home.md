@@ -39,7 +39,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
       - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
-    - [Company call / All hands call](https://github.com/resin-io/hq/wiki/Company-call)
+    - [Company call / All hands call](https://github.com/balena-io/balena-io/wiki/All-hands-calls)
     - [All hands presentations](https://github.com/resin-io/hq/wiki/All-hands-presentations)
     - [Brainstorm calls](https://github.com/balena-io/balena-io/wiki/Brainstorm-calls)
     - [balena.io architecture call](https://github.com/resin-io/hq/wiki/Architecture-Calls)
