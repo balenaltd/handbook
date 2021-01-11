@@ -11,6 +11,8 @@
 
 ## How to get things done (balena processes)
 
+Balena Process Guidelines are maintained at [balena-io/process](https://github.com/balena-io/process). This contains product, development and operations guides.
+
 - Company
   - Joining balena
     - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
