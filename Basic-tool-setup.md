@@ -18,6 +18,12 @@ Primary:
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
 
+### Accounts you need as a dev
+
+You'll need to create accounts for these services and then ask in `t/operations` to give you `#access` to our internal resources.
+* [Docker Hub](https://hub.docker.com)
+* [NPM.js](https://www.npmjs.com/)
+
 ### Tools and services related to doing support<br>
 As needed for doing support when it is time for your support onboarding (request access from the Ops team):
 * Zendesk
