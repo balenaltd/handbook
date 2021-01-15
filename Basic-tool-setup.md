@@ -21,8 +21,8 @@ Depending on your role and team you may have access to additional tech-related, 
 ### Accounts you need as a dev
 
 You'll need to create accounts for these services and then ask in `t/operations` to give you `#access` to our internal resources.
-* [Docker Hub](https://hub.docker.com)
-* [NPM.js](https://www.npmjs.com/)
+* [Docker Hub](https://hub.docker.com) (scripts expect you do be `docker login`ed)
+* [NPM.js](https://www.npmjs.com/) (your access token should be in your `~/.npmrc`)
 
 ### Tools and services related to doing support<br>
 As needed for doing support when it is time for your support onboarding (request access from the Ops team):
