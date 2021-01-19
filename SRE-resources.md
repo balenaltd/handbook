@@ -2,7 +2,7 @@
 While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dAYtJvKwbgehbc16GK_tZQ9Kq1ITT5VOh_uIc/view) is vast, the scope for SRE specific tools is much narrower.
 
 ### SRE tools
-> ensure all SREs have access to ([at least](https://balena-io.github.io/devops-playbook/#b5964e00-2de4-11e8-9b2a-ab7685d3014e)) the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`). Some services may require an invitation first (i.e. VictorOps).
+> ensure all SREs have access to the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`). Some services may require an invitation first (i.e. VictorOps).
 
 #### infrastructure
 * generate `RSA|EC` and `GPG` keys
@@ -11,8 +11,7 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 ```
 - misc1.dev.balena.io
 - misc2.dev.balena.io
-- balenaCloud bastion host(s)
-- Jellyfish bastion host(s)
+- balenaCloud utility-console access
 ```
 
 * [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
@@ -48,7 +47,7 @@ source_profile = default
 ```
 
 * ARM architecture builders hosted in [packet.net](https://www.packet.com/)
-* Kubernetes (k8s) cluster(s) [balenaCloud]() and Jellyfish[[1]](https://github.com/balena-io/resin-k8s/blob/master/docs/ACCESS_CLUSTER.md)[[2]](https://balena-io.github.io/devops-playbook/#150828a0-2d2b-11e8-9718-9f724d93afd5)
+* Kubernetes (k8s) cluster(s)
 * [CloudFlare](https://dash.cloudflare.com/) 
 * [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)
 
