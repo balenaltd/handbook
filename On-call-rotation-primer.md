@@ -27,7 +27,7 @@ On-call rotation primer
     - Logs/evidence/indicators considered for future alerting / automation
     - Aim for at least a provisional postmortem within 24h (can be improved later)
 
-There are various actions an on-call engineer might take during their rotation to resolve or investigate an incident (step 4 above). Most of these actions can be found in the [DevOps Playbook](https://balena-io.github.io/devops-playbook/) (see below, III.4.), and if something is significant enough to warrant doing more than once it's worth including there.
+There are various actions an on-call engineer might take during their rotation to resolve or investigate an incident (step 4 above). Most of these actions can be found in the [DevOps Playbook (legacy/archive)](https://balena-io.github.io/devops-playbook/) (see below, III.4.), and if something is significant enough to warrant doing more than once it's worth including there.
 
 
 
