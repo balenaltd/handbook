@@ -71,6 +71,9 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
 - Product
     - [Sales](https://github.com/resin-io/hq/wiki/Sales)
 
+- balenaLabs
+    - [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs)
+
 - [FAQs](https://github.com/resin-io/hq/wiki/FAQ)
 
 - [Glossary](https://docs.google.com/document/d/1GcHzn-Nxvnh4WWpspeVyJV9D8V890DLXZAOmwO7jB7c/edit)
