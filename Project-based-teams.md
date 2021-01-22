@@ -7,7 +7,7 @@ We base our teams around the groups who work together to make us successful. Pro
 Ideally, a **project** should have:
 > * a defined goal that can be accomplished in reasonable time by the people assigned to the project
 > * a spec that defines what the goal and milestones are
-> * a coordinator who ensures blocks are resolved, issues are raised, and spec is updated
+> * a coordinator who ensures blockers are resolved, issues are raised, and spec is updated
 > * specific people with time allocated to work on the project's tasks
 > * a project can have advisors/observers who join the check-ins to give their 2c but don't take active tasks
 
