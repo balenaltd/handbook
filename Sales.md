@@ -180,23 +180,19 @@ For device volume and prepayment discounts, see https://github.com/balena-io/vol
 
 Below are links to the latest information sheets that are commonly sent to customers: 
 
-### BalenaCloud
-
-* [Balena On-Premise - Dedicated Instance](https://docs.google.com/document/d/1AXh6zu7SGnZhJ61OCwT-spN7qAh68HCVQYTslT9dsYk/edit)
-* [Balena On-Premise - balenaMachine](https://docs.google.com/document/d/1QGoEpSqwZxAgNX6Sq134D2jjOaxL_vFd4TMl_qf7R7Q/edit?usp=drive_web&ouid=115390957403466913365)
-* [Brownfield Migrator](https://docs.google.com/document/d/1uyVz1JzW2GKpyNYQLft1ahRfAAV1frvLI6kO3zaGG4k/edit)
-* [Custom Device Support](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
-
-### BalenaFin
-
-* [Fin Depopulation](https://docs.google.com/document/d/19l87vOiXmksulaZa5OU3NSW7ISJVKUCRDBlqoPFKL_U/edit)
-* [Hardware on Demand](https://docs.google.com/document/d/1IxWQoUqNPkIgAfYeZcJYLgUH3wSsyDHgmsWF3SVfbUU/edit?usp=drive_web&ouid=115390957403466913365)
+### [balenaCloud](https://drive.google.com/drive/folders/1rOAe5GLunCxfAXpcAOgoWP6IYCjkd0s1) 
+### [balenaFin](https://drive.google.com/drive/folders/1-k8j2OltQ0-7ZB_n-Ua3PkisJ30jNRqT)
+### [balenaMachine](https://drive.google.com/drive/folders/1NYHTtWfhWouzEvmre4f8npOz0e19cJFc)
+### [balenaOnPrem (DedicatedInstance)](https://drive.google.com/drive/folders/1cZMCpF2nkx2RX5h6nMjdYcmRrdzGHWEP)
+### [Brownfield Migrator](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
+### [CDS (Custom Device-type Support)](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
+### [HoD (Hardware on Demand)](https://drive.google.com/drive/folders/1loYRS9-8JTW6DSCVeC6jXEdBI7X_KKth)
+### [Support](https://drive.google.com/drive/folders/1J3bGgnHwF0FPFfXYUuGQzcjFYbXLgWxS)
 
 ## Other Sales Collateral
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
-* [Production Plan Order Form Template](https://docs.google.com/document/d/1f6XlThl7xq9h7i24vOEeGE669XksnDNb9x7giFCIqvU/edit)
 * [Balena Commercial FAQs](https://balena-io.github.io/commercial-faqs/)
-* [Creating a Fin invoice](https://docs.google.com/document/d/1nfMwdu90nBUjEhxdTju5xvjqc6DYMBqNoJ4an8sqApA)
+* [Variable pricing](https://docs.google.com/spreadsheets/d/15uit0D2LAD7kysmyJraL4CmtqD8UUuZ02ozRIwRmEak/edit)
 
 ***
 ## Lead Qualification Tasks
