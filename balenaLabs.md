@@ -38,10 +38,10 @@ Deploy our projects into the homes and offices of our team to gather real world 
 
 ## More resources
 
-* How do we do it?
-* Project guidelines
-* Github Orgs
+* [How we work](https://github.com/balena-io/balena-io/wiki/Labs:-how-we-work)
+* [Lab work guidelines](https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines)
+* [Github Orgs](https://github.com/balena-io/balena-io/wiki/Labs:-Github-Orgs)
 * [Labs Brainstorm](https://github.com/balena-io/balena-io/wiki/Brainstorm-calls#balenalabs-brainstorm---productarch-combined)
-* Other meetings
-* Trello board
+* [Other Meetings](https://github.com/balena-io/balena-io/wiki/Labs:-Other-Meetings)
+* [Trello board](https://github.com/balena-io/balena-io/wiki/Labs:-trello)
 
