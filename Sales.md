@@ -178,16 +178,16 @@ For device volume and prepayment discounts, see https://github.com/balena-io/vol
 
 ## Product Information Sheets
 
-Below are links to the latest information sheets that are commonly sent to customers: 
+Below are links to the products' folders which contain different sales material (sales order forms, checklists, data sheets...)
 
-### [balenaCloud](https://drive.google.com/drive/folders/1rOAe5GLunCxfAXpcAOgoWP6IYCjkd0s1) 
-### [balenaFin](https://drive.google.com/drive/folders/1-k8j2OltQ0-7ZB_n-Ua3PkisJ30jNRqT)
-### [balenaMachine](https://drive.google.com/drive/folders/1NYHTtWfhWouzEvmre4f8npOz0e19cJFc)
-### [balenaOnPrem (DedicatedInstance)](https://drive.google.com/drive/folders/1cZMCpF2nkx2RX5h6nMjdYcmRrdzGHWEP)
-### [Brownfield Migrator](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
-### [CDS (Custom Device-type Support)](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
-### [HoD (Hardware on Demand)](https://drive.google.com/drive/folders/1loYRS9-8JTW6DSCVeC6jXEdBI7X_KKth)
-### [Support](https://drive.google.com/drive/folders/1J3bGgnHwF0FPFfXYUuGQzcjFYbXLgWxS)
+* [balenaCloud](https://drive.google.com/drive/folders/1rOAe5GLunCxfAXpcAOgoWP6IYCjkd0s1) 
+* [balenaFin](https://drive.google.com/drive/folders/1-k8j2OltQ0-7ZB_n-Ua3PkisJ30jNRqT)
+* [balenaMachine](https://drive.google.com/drive/folders/1NYHTtWfhWouzEvmre4f8npOz0e19cJFc)
+* [balenaOnPrem (DedicatedInstance)](https://drive.google.com/drive/folders/1cZMCpF2nkx2RX5h6nMjdYcmRrdzGHWEP)
+* [Brownfield Migrator](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
+* [CDS (Custom Device-type Support)](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
+* [HoD (Hardware on Demand)](https://drive.google.com/drive/folders/1loYRS9-8JTW6DSCVeC6jXEdBI7X_KKth)
+* [Support](https://drive.google.com/drive/folders/1J3bGgnHwF0FPFfXYUuGQzcjFYbXLgWxS)
 
 ## Other Sales Collateral
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
