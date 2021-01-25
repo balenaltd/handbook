@@ -6,12 +6,17 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, January 25 2021 
+* [Meeting](https://docs.google.com/document/d/1Q8B-iH0jfjf2HlTa9LPt4iaTmCHpEuyrgt-7fE9gI_s/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
 
 Mon, January 18 2021 
 * [Meeting](https://docs.google.com/document/d/1hnJMSdSXJxGkE7NfcaeG1gEFYeNpp7NMNO-WacpUrtE/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1RYWRP0N4h5jQtAIhcwIlrE1WWIvclAma/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/14xjv9JKiWfJKnQJqk3hwexOJxtTB7fHw/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1sgDXMBQXQg2dWjKSJqwja70OIeIyHmee/view?usp=sharing)
 
 Mon, January 11 2021 
 * [Meeting](https://docs.google.com/document/d/1FgMokjzC_IbWAPcdyiBlpDzMAapajOd3xQz6WvzkmLE/edit#heading=h.bsygapwkix2)
