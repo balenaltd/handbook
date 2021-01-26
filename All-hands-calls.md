@@ -1,6 +1,6 @@
 
 ## All-hands call
-This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. Chaired by @shaunmulligan
+This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. Chaired by @alisondavis
 
 ## Meeting Notes
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
@@ -10,7 +10,7 @@ Mon, January 25 2021
 * [Meeting](https://docs.google.com/document/d/1Q8B-iH0jfjf2HlTa9LPt4iaTmCHpEuyrgt-7fE9gI_s/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1FwN_J0f1C3edWJVtcPl9iS-XtIqNDPQS/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1FAotMypV2JABKpfDPHuYRu4yhecDQLSJ/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/15e7PNSaoO171Nc4mnmnE57mkeY_0MLC7/view?usp=sharing)
 
 Mon, January 18 2021 
 * [Meeting](https://docs.google.com/document/d/1hnJMSdSXJxGkE7NfcaeG1gEFYeNpp7NMNO-WacpUrtE/edit?usp=sharing)
