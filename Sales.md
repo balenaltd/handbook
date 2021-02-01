@@ -188,6 +188,7 @@ Below are links to the products' folders which contain different sales material 
 * [CDS (Custom Device-type Support)](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
 * [HoD (Hardware on Demand)](https://drive.google.com/drive/folders/1loYRS9-8JTW6DSCVeC6jXEdBI7X_KKth)
 * [Support](https://drive.google.com/drive/folders/1J3bGgnHwF0FPFfXYUuGQzcjFYbXLgWxS)
+* [Enterprise Accelerator] (https://drive.google.com/drive/folders/1Bx7zOGpB2RFGXpuZKAkthxKvGgk3hF3k)
 
 ## Other Sales Collateral
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
