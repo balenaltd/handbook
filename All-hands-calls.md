@@ -9,8 +9,8 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, February 01 2021 
 * [Meeting](https://docs.google.com/document/d/1gNRo4lLQZyRjTVMiMOr7_QZtPSg0croO9oa0sy3PYAc/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1RKkEZ6j0pQlnkEwsh-eduRdqSn7M1eL3/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/18jaHF4WMVnAn53m7C_9EDvSq_kBq0Mnw/view?usp=sharing)
 * [Attendees]()
 
 Mon, January 25 2021 
