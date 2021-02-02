@@ -11,7 +11,7 @@ Mon, February 01 2021
 * [Meeting](https://docs.google.com/document/d/1gNRo4lLQZyRjTVMiMOr7_QZtPSg0croO9oa0sy3PYAc/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1RKkEZ6j0pQlnkEwsh-eduRdqSn7M1eL3/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/18jaHF4WMVnAn53m7C_9EDvSq_kBq0Mnw/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1owFLjaLuET1T-E5w__15yb3Im0NbadkN/view?usp=sharing)
 
 Mon, January 25 2021 
 * [Meeting](https://docs.google.com/document/d/1Q8B-iH0jfjf2HlTa9LPt4iaTmCHpEuyrgt-7fE9gI_s/edit?usp=sharing)
