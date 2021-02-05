@@ -19,7 +19,7 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 
 * outreach
 > Outreach brainstorm calls take place once a week and are lead by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Add items to discuss with the `#outreach` tag in `s/Outreach` in FlowDock, and please include context such as links, docs, etc.. Everyone is welcome to join. 
-> See the outreach brainstorm notes [here](https://docs.google.com/document/d/12vOZ6q45DL9dnl9kH9OhVjXOAvak-GRREv3iN_r5RFY/edit#heading=h.rw2es49hyat0).
+> Navigate Outreach brainstorm calls and topics in Jellyfish.
 
 ### productOS brainstorms
 * LoopMVP product
