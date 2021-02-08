@@ -12,22 +12,7 @@ On-call rotation primer
 
 ## II. The basic on call procedure
 
-If you are being paged about incident from [VictorOps](https://portal.victorops.com/client/resin-io-), follow this procedure:
-
-1. Acknowledge the incident in VictorOps or reject it as false positive
-2. If positive, create incident in [Statuspage](https://status.balena.io) to make users aware we are working on it
-2. Investigate the incident. Escalate to / pull in those who know if needed.
-3. Keep as much information as possible to analyze later
-    - monitoring data
-    - logs
-    - enter an affected machine and gather info not otherwise exported / saved
-4. Resolve the incident (in our own flows, services, and if needed, on the Statuspage). Update/resolve incident in Statuspage as you progress.
-5. Complete post-mortem in Statuspage with additional information and root cause explanation. Aim for at least a provisional postmortem within 24h (can be improved later)
-6. Hashtag incident with a brief summary for all-hands call
-
-There are various actions an on-call engineer might take during their rotation to resolve or investigate an incident (step 4 above). Most of these actions can be found in the [DevOps Playbook (legacy/archive)](https://balena-io.github.io/devops-playbook/) (see below, III.4.), and if something is significant enough to warrant doing more than once it's worth including there.
-
-Keep in mind that we should create Statuspage entries for all the issues, even those caused by upstream dependencies (AWS, Heroku, DockerHub, etc). In such case provide link to an upstream incident and update users on the progress on the upstream side. Users "hand holding" is important part of SRE communication.
+Our incident handling procedure is described in new SRE Handbook - [here](https://github.com/balena-io/sre-handbook/blob/main/oncall/incidents.md).
 
 ## IV. Tools
 
