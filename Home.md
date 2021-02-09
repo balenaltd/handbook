@@ -37,6 +37,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
       - [Summit 2019](https://github.com/balena-io/balena/wiki/Summit-2019-Keynotes)
       - [Summit 2018](https://github.com/balena-io/balena/wiki/Summit-2018-Keynotes)
       - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
+      - [Architecture Interviews](https://github.com/balena-io/balena-io/wiki/Architecture-Interviews)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call / All hands call](https://github.com/balena-io/balena-io/wiki/All-hands-calls)
