@@ -18,6 +18,9 @@ Secondly, by having the conversation in private, you are then committed to conti
 Thirdly, there’s the failing part of having a conversation in public. As mentioned above, it’s not bad to fail and you should sometimes expect to fail. Discussing in public and learning to fail in public will help you be transparent and sincere. Public conversations achieve all that automatically. Public conversations are also discoverable by search years later, by someone who may have the same question. Public conversations also allow the rest of the team to know what you’re working on, what you like and don’t like to do, what you’re good at, and in general allows others to adapt to your strengths and weaknesses, and to steer you towards problems you will excel at. Private conversations prevent all of that serendipity from happening, and each of those things has to happen explicitly, and slowly.
 
 ## Using threads
+
+<img alt="FlowDock Threads screenshot" src="https://lh5.googleusercontent.com/30wuav1RLnUOt1sM6l-ZNhRsP8a_6EU6MmFoyHmkcjcEpCrdfYZ2D42ME09ovCe4m18KkIa2HfToS7Lh0hRfzwR28fXHMlvCd16sYqweY_ZVTMzQU48ZUp6QOPSlrOno_lkxSgbA" align="left" height="400">
+
 Conversation threads is a Flowdock feature that can be a head-scratcher for new users, but an absolute must for everyone else, so make sure you learn how to use them. When looking at a room in flowdock, you may see various colours on the left of a message.
 
 ### If you are used to Slack/MatterMost/...
@@ -27,8 +30,6 @@ One thing to note if you are used to other chat tools:
 FD threads are only for grouping - nobody gets notified when you reply to a thread without @mention'ing them. If you want to notify a thread, check the `@people` section below.
 
 Similarly, nobody gets notified if you post to a flow unless you use `@team`.
-
-![FlowDock Threads screenshot](https://lh5.googleusercontent.com/30wuav1RLnUOt1sM6l-ZNhRsP8a_6EU6MmFoyHmkcjcEpCrdfYZ2D42ME09ovCe4m18KkIa2HfToS7Lh0hRfzwR28fXHMlvCd16sYqweY_ZVTMzQU48ZUp6QOPSlrOno_lkxSgbA)
 
 Messages with the same colour, belong to the same thread. If you see many colours, this means there are many conversations going on. By clicking on the bubble, you will see the conversation only. On mobile, you can tap on a message to enter the conversation view. In the conversation view, you can type messages normally, and they will also get the same colour as the rest of the conversation, making clear where they are intended for.
 
