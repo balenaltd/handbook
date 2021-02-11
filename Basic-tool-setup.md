@@ -27,10 +27,10 @@ You'll need to create accounts for these services and then ask in `t/operations`
 ### Tools and services related to doing support<br>
 As needed for doing support when it is time for your support onboarding (request access from the Ops team):
 * Zendesk
-* [Balena Forums Moderator Access](https://forums.balena.io/)
+* [Balena Forums Moderator Access](https://forums.balena.io/) You can use [this invitation link] to get access to the forums. Moderation access needs to be requested though once you have signed up.
 * Logentries
 * [Intercom](https://app.intercom.com/admins/sign_in)
-* Support agent access for you balena account (using your balena.io email)
+* Support agent access for your balena account (using your balena.io email)
 
 Please note that you should have access to the above services before you start doing support. This is also noted during support onboarding so you can check that you have access to all the services you will need. If you need access sooner, please let the Operations team know and request access.
 
