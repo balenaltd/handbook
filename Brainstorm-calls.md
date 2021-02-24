@@ -49,7 +49,7 @@ Once a team member raises an item for a brainstorm call as described above, that
 
 A couple of hours before the scheduled call, ping everyone in Flowdock to notify them that they need to participate in the brainstorm (you can do that using [this script](https://gist.github.com/LucianBuzzo/0cd9bee4b1dd1d2d36d75e47e98d8e5a) that you run inside the JF console and then paste it in Flowdock). Once everyone joins the call, you can share the list of topics on your screen and start tackling them one by one.
 
-When it comes to prioritizing topics, it's a good practice to ask if there is anything urgent that blocks them from progressing on their project. If there is nothing that is urgent, you can do them starting from the oldest first. Some things to keep in mind during a brianstorm:
+When it comes to prioritizing topics, it's a good practice to ask if there is anything urgent that blocks them from progressing on their project. If there is nothing that is urgent, you can do them starting from the oldest first. Some things to keep in mind during a brainstorm:
 - If you see a topic is taking too long to resolve or is going nowhere, suggest having an ad-hoc call so other topics can be handled as well
 - Make sure people introduce the problem first before jumping to a solution. In general, you need to moderate [these principles for participating in a brainstorm](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit)
 - Remind people to summarize and close topics, especially important until everyone gets used to Jellyfish
