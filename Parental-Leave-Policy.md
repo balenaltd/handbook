@@ -22,9 +22,9 @@ As a globally distributed team, we believe that there isn’t a “one size fits
 
 * If 12 weeks isn’t enough time, we’re happy to offer up to another 12 weeks of unpaid leave to provide you with additional time. 
 
-* If your personal situation means that you would prefer to be paid out for all or part of your parental leave instead of taking time off, you can choose to do this in line with the current leave policy, more information can be found here [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy). 
+* If your personal situation means that you would prefer to be paid out for all or part of your parental leave instead of taking time off, you can choose to do this in line with the current leave policy, more information can be found [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy). 
 
-* While on parental leave, you will continue to accumulate 2.5 days per month in your leave bank,, and can of course use this to extend your time off, should you wish to do so.
+* While on parental leave, you will continue to accumulate 2.5 days per month in your leave bank, and can of course use this to extend your time off, should you wish to do so.
 
 * Before starting parental leave, you will be asked to choose a “buddy” who you will be able to check in with, give updates to if you are expecting to take more time off, and will help you transition back to work after a significant amount of time off. This buddy doesn’t need to be someone you work closely with; it’s more important that they are someone you are comfortable talking to and keeping updated about your situation.
 
