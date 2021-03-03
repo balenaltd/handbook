@@ -184,12 +184,16 @@ Below are links to the products' folders which contain different sales material 
 * [balenaFin](https://drive.google.com/drive/folders/1-k8j2OltQ0-7ZB_n-Ua3PkisJ30jNRqT)
 * [balenaMachine](https://drive.google.com/drive/folders/1NYHTtWfhWouzEvmre4f8npOz0e19cJFc)
 * [balenaOnPrem (DedicatedInstance)](https://drive.google.com/drive/folders/1cZMCpF2nkx2RX5h6nMjdYcmRrdzGHWEP)
-* [Brownfield Migrator](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
-* [CDS (Custom Device-type Support)](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
+* CDS (Custom Device-type Support)
+  * [Product folder](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
+  * [CDS Questionnaire]()
+* Brownfield migrator
+  * [Product folder](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
+  * [Brownfield Migrator Customer Questionaire](https://docs.google.com/document/d/1bsthddAatepGholCwA9QBjwUOaXMPMN3jzuy73PiBlA/edit)
+  * [Migrator questionnaire spreadsheet](https://docs.google.com/spreadsheets/d/1ABlkt6Fxb9gLm0Pjj3Lqm5Nn8HluBPAgPJzGjUUoKUc/edit?pli=1#gid=1664922835)
 * [HoD (Hardware on Demand)](https://drive.google.com/drive/folders/1loYRS9-8JTW6DSCVeC6jXEdBI7X_KKth)
 * [Support](https://drive.google.com/drive/folders/1J3bGgnHwF0FPFfXYUuGQzcjFYbXLgWxS)
-* [Enterprise Accelerator] (https://drive.google.com/drive/folders/1Bx7zOGpB2RFGXpuZKAkthxKvGgk3hF3k)
-* [Brownfield Migrator Customer Questionaire] (https://docs.google.com/document/d/1bsthddAatepGholCwA9QBjwUOaXMPMN3jzuy73PiBlA/edit)
+* [Enterprise Accelerator](https://drive.google.com/drive/folders/1Bx7zOGpB2RFGXpuZKAkthxKvGgk3hF3k)
 
 ## Other Sales Collateral
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
