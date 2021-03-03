@@ -186,7 +186,9 @@ Below are links to the products' folders which contain different sales material 
 * [balenaOnPrem (DedicatedInstance)](https://drive.google.com/drive/folders/1cZMCpF2nkx2RX5h6nMjdYcmRrdzGHWEP)
 * CDS (Custom Device-type Support)
   * [Product folder](https://drive.google.com/drive/folders/1jY2fw1rPPJcCkLzmoT3AOHyV49uex2fY)
-  * [CDS Questionnaire]()
+  * CDS [Checklist](https://docs.google.com/document/d/1JEEAdYTbv0zX_Ap2r5BQ5mf_h4DGF8BEYnwCynWi12I/edit#heading=h.44gyr9dh5dn5) for CS. To read when an opportunity starts
+  * [CDS Questionnaire](https://balena.typeform.com/to/OXJXXb)
+  * [Questionnaire results spreadsheet]()
 * Brownfield migrator
   * [Product folder](https://drive.google.com/drive/folders/1gNFYG6wrJ9h-6i4xNaFHX6vEgGS539nr)
   * [Brownfield Migrator Customer Questionaire](https://docs.google.com/document/d/1bsthddAatepGholCwA9QBjwUOaXMPMN3jzuy73PiBlA/edit)
