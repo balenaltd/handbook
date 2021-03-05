@@ -24,6 +24,14 @@
 * [Intercom](https://app.intercom.io)
 * [FrontApp](https://frontapp.com)
 
+##  Disco calls 
+
+Discovery calls (aka Disco Calls) are the first call we have with a potential or new customer. The primary goal is to learn about their use case and how balena can help them scale their fleet. We should be asking lots of questions in these calls. 
+
+We have a [template](https://docs.google.com/document/d/13fVFt9xRd84bLZJGn8ISowv6igS3DquOOn84SBNFrsc/edit) that you can use to help guide the disco call. The template is not prescriptive, so do what feels right to get as much information from the customer and share relevant information about balena, while keeping the conversation natural and flowing. 
+
+After a disco call, take the time to write up notes and share them - for now, using #disco in the /sales_meta room, and by saving the notes [here](https://drive.google.com/drive/folders/13kPnqT1N3Q8nY05nL7tA4W1SheBfAe7R). Eventually we will transition to saving all notes from disco calls, and all customer interactions, in Jellyfish. 
+
 ##  Post-Sales Master Checklist
 
 ### Administrative Tasks
@@ -201,24 +209,6 @@ Below are links to the products' folders which contain different sales material 
 * [Standard MNDA](https://docs.google.com/document/d/1uieXynxScL0kb_WC7x21PIrkD5ekC3-PqxToQyHIjO4/edit?usp=drive_web&ouid=115390957403466913365)
 * [Balena Commercial FAQs](https://balena-io.github.io/commercial-faqs/)
 * [Variable pricing](https://docs.google.com/spreadsheets/d/15uit0D2LAD7kysmyJraL4CmtqD8UUuZ02ozRIwRmEak/edit)
-
-***
-## Lead Qualification Tasks
-
-**BH Note 20170505:** This is a temporary doc to track some of the outstanding items to more fully polish up our process of routing and qualifying new sales leads. 
-
-Items for the front-end team or data team 
-* is it possible to have signups immediately associate with salesforce such that the salesforce sidebar will by default tell me who owns the lead, its status etc. right now i appears as if it comes from newsignups@Resin.io so all sidebar info based on a lookup of that email address
-* Contact forms on our website (primarily the demo form) should create new leads in salesforce
-* Demo requests should go to /Sales instead of /Hello
-* Enhance tableau report or admin panel so we can see entitled devices, overage, email address and company name in same pane of glass 
-* Sign up and contact forms should have (optional) fields for address, phone, title, etc to populate salesforce records
-
-Items related to the tools we use 
-* Figure out how to get salesforce sidebar to load for all users, regardless of whether they have a salesforce account. Other than sharing sfdc credentials, is there a good way to do this? 
-
-
-
 
 # FAQ
 
