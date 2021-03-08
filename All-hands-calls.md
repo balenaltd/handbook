@@ -6,6 +6,12 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, March 08 2021 
+* [Meeting](https://docs.google.com/document/d/1FcYCzxbPUBIX8m_MOrbiDKPC4weRgVeTZW86H_w8-yE/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
 Mon, March 01 2021 
 * [Meeting](https://docs.google.com/document/d/1QXS4WNM5045RMrR6h9kw8lnGwAsZvB8eyECMw4-rDFw/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1FsPY5eH_kX8O4BkrZfcgyINwShY5oR5J/view?usp=sharing)
