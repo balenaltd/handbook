@@ -35,9 +35,13 @@ Messages with the same colour, belong to the same thread. If you see many colour
 
 ## Re-threading
 
-It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post on to a thread. This gif by Rich just sums up rethreading! 
+It can take a little while to get used to how threads work. Don't worry if you accidentally make a new post instead of a reply. To move a post to a thread you can click the re-thread button to the top right of your post or use the colored icons to drag your post onto a thread. These GIFs sum up rethreading! 
 
 ![flowdock-rethread](https://user-images.githubusercontent.com/15323961/81096676-acca5500-8efe-11ea-942a-2d092cd3741b.gif)
+
+If you are using [Papagal](https://github.com/balena-io/balena-io/wiki/Flowdock#changing-the-look-and-feel) to improve the look and feel of Flowdock, the process to rethread messages remains the same.
+
+![rethread](https://user-images.githubusercontent.com/22801822/110452438-2fa5d880-80eb-11eb-8f25-c6625396264c.gif)
 
 Read more here: http://archive.is/xVcjA
 
