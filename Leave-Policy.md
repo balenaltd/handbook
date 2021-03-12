@@ -14,7 +14,7 @@ A guide to booking time off using Calamari can be found [here](https://github.co
 
 **Bank:** the place where your leave is stored as you accumulate leave, and drawn from as you take leave.
 
-**Soft Cap:** the number of days reached in your leave bank (40) where you can choose to be paid out.
+**Soft Cap:** the number of days reached in your leave bank (40) where you can choose to be paid out (anything over 40 and up to 80 days).
 
 **Hard Cap:** the limit of leave days which you can accumulate in your bank (80) where you must be paid out.
 
