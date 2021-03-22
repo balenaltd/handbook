@@ -2,8 +2,10 @@
 
 We strongly encourage every new balenista to spend some time to watch past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you a lot of context and help you understand balena better. 
 
-[Summit 2020 recordings](https://github.com/balena-io/balena-io/wiki/Summit-2020) 
+[Vision Week 2021](https://github.com/balena-io/balena-io/wiki/Vision-Week-2021)
 
-[Summit 2019 keynotes](https://github.com/balena-io/balena-io/wiki/Summit-2019-Keynotes)
+[Summit 2020](https://github.com/balena-io/balena-io/wiki/Summit-2020) 
 
-[Summit 2018 keynotes](https://github.com/balena-io/balena-io/wiki/Summit-2018-Keynotes) 
+[Summit 2019](https://github.com/balena-io/balena-io/wiki/Summit-2019-Keynotes)
+
+[Summit 2018](https://github.com/balena-io/balena-io/wiki/Summit-2018-Keynotes) 
