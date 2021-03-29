@@ -1,9 +1,9 @@
 
 ## All-hands call
-This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. Chaired by @alisondavis
+This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. 
 
 ## Meeting Notes
-### [Meeting Minutes Template doc](https://docs.google.com/document/d/1pxiUe7YUCZqpSrHr2qNDc17Vg2-BRysRVGdzlaLKw0I/edit#)
+### [Meeting Minutes Template doc](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Mon, March 29 2021 
