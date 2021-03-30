@@ -8,8 +8,8 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, March 29 2021 
 * [Meeting](https://docs.google.com/document/d/1Q5776YF7S0LkJi5pwCGwF97zxR94MpHFnwz4EwlNZW4/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/19dkEYphUP1DeiMm_o7_HnCZfbOmlTBtR/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1NvEPYnCzbWxNzWy1m63GPWh8stPgnzer/view?usp=sharing)
 * [Attendees]()
 
 Mon, March 08 2021 
