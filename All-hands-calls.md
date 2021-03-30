@@ -16,7 +16,7 @@ Mon, March 08 2021
 * [Meeting](https://docs.google.com/document/d/1FcYCzxbPUBIX8m_MOrbiDKPC4weRgVeTZW86H_w8-yE/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1aE4AXLjYFXQvwX85_-NnyQtmSQmStERg/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1j4BC-UdYjFMbVnS7wLptc5Z6Qcoq8rwI/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1_8Bg61hl6AP0NX2mBuu_zADltTEEAecR/view?usp=sharing)
 
 Mon, March 01 2021 
 * [Meeting](https://docs.google.com/document/d/1QXS4WNM5045RMrR6h9kw8lnGwAsZvB8eyECMw4-rDFw/edit?usp=sharing)
