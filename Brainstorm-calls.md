@@ -34,7 +34,6 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 
 ### companyOS brainstorm - product/arch combined
 > CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss our company architecture - legal, financial and operational. Everyone is welcome to join.
-> See the companyOS brainstorm notes document [here](https://docs.google.com/document/d/1UF6VolqWd7CpQ1GLwYvftHJj7Agf6Kr-CGpLW28Ry80/edit?usp=sharing).
 
 ## How to raise an item for a brainstorm call
 Each brainstorm call has a hashtag which when used on FD along with a short description of the problem and possibly a suggested solution to be discussed. Your message will create a Jellfish brainstorm topic card and given the appropriate category (i.e. loop). Read the hashtag section in the [Flowdock guide](https://github.com/balena-io/balena-io/wiki/Flowdock) to get more information and see some examples. Make sure that Hubot is added in the flow for hashtags to work and although you can use any hashtag in any flow, it is always better to raise a brainstorm using the relevant flow to generate valuable discussions, eg. using #commercial in the r/commercial flow. Sometimes there are more flows that seem relevant to raise a brainstorm item or a flow might be invite-only if it contains sensitive information, so you can decide what makes more sense! You can type `Hubot, show me your hashtags` to see the active hashtags you can use.
