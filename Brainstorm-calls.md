@@ -15,7 +15,6 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 
 * commercial
 > Commercial calls take place once a week and are led by the commercial team. It is the time and (virtual) place where we discuss the sales/customer success team process, pricing plans, and commercial strategy. Everyone is welcome to join.
-> See the commercial brainstorm notes document [here](https://docs.google.com/document/d/1L-p1Xkz0t1-wKvV_vp87DnRuAWS-1lhR5wObD7YId80/edit).
 
 * outreach
 > Outreach brainstorm calls take place once a week and are lead by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Add items to discuss with the `#outreach` tag in `s/Outreach` in FlowDock, and please include context such as links, docs, etc.. Everyone is welcome to join. 
