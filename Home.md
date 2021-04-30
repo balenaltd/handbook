@@ -20,7 +20,6 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
     - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
     - [balena team member access](https://github.com/balena-io/balena/wiki/balena-team-member-access)
-    - [balena team map](https://github.com/balena-io/balena/wiki/balena-team-map)
     - [Onboarding checklist](https://github.com/balena-io/balena/wiki/Onboarding-checklist)
     - [Working hours and availability](https://github.com/resin-io/hq/wiki/Working-hours-and-availability)
   
