@@ -1,5 +1,5 @@
 ## Our mission & vision  
-Vision Week 2020
+Vision Week 2021
 * [Balena from first principles: product architecture and how to answer hard questions](https://drive.google.com/file/d/1B7B_sFUBYd7FHfho76DNi6XA4FoLyv98/view?usp=sharing)
 
 Summit 2020
@@ -16,7 +16,7 @@ Summit 2018
 * [Product Roadmap](https://drive.google.com/file/d/1x3Kha3BuyqD2wVMtJf6PdO1v8Fotc_6u/view?usp=sharing)
 
 ## How we think & work
-Vision Week 2020
+Vision Week 2021
 * [Being a Product Builder at balena](https://drive.google.com/file/d/1_rsp0RZLFugi7B3eCZsjHsCPae7vbTxP/view?usp=sharing)
 
 Summit 2019
@@ -50,7 +50,7 @@ Summit 2019
 * [Loops in Theory & Practice](https://drive.google.com/file/d/1e4Losc7OVUfKdJBEDHWx_MdP_0Fm5_nz/view)
 
 ## productOS
-Vision week 2020
+Vision week 2021
 * [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing)
 
 Summit 2020
@@ -60,7 +60,7 @@ Summit 2019
 * [Production Loop Demo: Jellyfish](https://drive.google.com/file/d/1yWKEzcZZ5uarJxH0MIbs9EfCYV5bfitZ/view?usp=sharing)
 
 ## balena.io
-Vision week 2020
+Vision week 2021
 * [BalenaHub from first principles](https://drive.google.com/file/d/1AK2lBtHiq3sQxvsKN6vBgOX3MKUdNuCs/view?usp=sharing)
 
 Summit 2020
@@ -79,8 +79,13 @@ Summit 2018
 Summit 2019
 * [Balena + OpenView Venture Partners](https://drive.google.com/file/d/1Vws40KUWcRocY-zka06AM35OD5WiVLtY/view)
 
-## Unconference sessions etc
------links to summit folders for all talks and presentations-----
+## More summit talks and material
+* [Vision week 2021](https://drive.google.com/drive/u/1/folders/12PwNldTsAne_FFzxUFtcQI2jPyuGq4m2)
+* [Summit 2020](https://drive.google.com/drive/u/1/folders/1seQic4v3ELYwtnqEqgzuVTDtYEvuswgK)
+* [Summit 2019](https://drive.google.com/drive/u/1/folders/1YnRkrJFBa-aRXdWFO9jIbhROT-3MYuqi)
+* [Summit 2018](https://drive.google.com/drive/u/1/folders/1WDCObvsQPgrUtkz9fflBNLI76OPt41Im)
+
 
 ## Hack weeks
-----links to folders---
+* [Hack Week - Vision week 2021](https://drive.google.com/drive/u/1/folders/1DpV2yLrN8e4sxtJ7Cf8VtK75cOb2Yzj5)
+* [Hack Week - Summit 2020](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4)
