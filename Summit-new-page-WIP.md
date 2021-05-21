@@ -18,6 +18,8 @@ Vision Week 2020: [Being a Product Builder at balena](https://drive.google.com/f
 
 Summit 2019: [Values & Structures](https://drive.google.com/file/d/1slCHFPg6AwIEtuIV1Ra_nnGJTdXR9X8f/view?usp=sharing)
 
+Summit 2018:  [Problems that indicate problems](https://drive.google.com/file/d/16sVHxBcLMFKH-HEU-fU_bMUg65-uxjT1/view)
+
 ## How we communicate
 Summit 2020: 
 * [TED Talk - Radical Uncertainty](https://drive.google.com/file/d/1XJQVB4KRNMn7qkFYLTkhbzEQyVOscPu4/view?usp=sharing)
@@ -34,13 +36,10 @@ Summit 2019:
 * [Design Thinking](https://drive.google.com/file/d/1PUcO9GJV1ISWmePjyrIyBv2W1ftT60et/view?usp=sharing)
 * [Antifragility in the Workplace](https://drive.google.com/file/d/127wFC5QgGyou7HN5zVx8RRK72Et3klrI/view)
 
-Summit 2018:  [Problems that indicate problems](https://drive.google.com/file/d/16sVHxBcLMFKH-HEU-fU_bMUg65-uxjT1/view)
-
 ## Loops
 Summit 2020: [Welcome to the loop factory!](https://drive.google.com/file/d/1TM_CGoYav9JGRCf72JEDH5U4-h_jaWje/view?usp=sharing)
 
 Summit 2019: [Loops in Theory & Practice](https://drive.google.com/file/d/1e4Losc7OVUfKdJBEDHWx_MdP_0Fm5_nz/view)
-
 
 ## productOS
 Vision week 2020: [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing)
@@ -48,7 +47,6 @@ Vision week 2020: [ProductOS from first principles](https://drive.google.com/fil
 Summit 2020: [Jellyfish](https://drive.google.com/file/d/1K5hFn04iRtuYyfESlOVdNTBotVeepHni/view?usp=sharing)
 
 Summit 2019: [Production Loop Demo: Jellyfish](https://drive.google.com/file/d/1yWKEzcZZ5uarJxH0MIbs9EfCYV5bfitZ/view?usp=sharing)
-
 
 ## balena.io
 Vision week 2020: [BalenaHub from first principles](https://drive.google.com/file/d/1AK2lBtHiq3sQxvsKN6vBgOX3MKUdNuCs/view?usp=sharing)
