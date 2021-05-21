@@ -23,7 +23,7 @@ Summit 2020:
 * [TED Talk - Radical Uncertainty](https://drive.google.com/file/d/1XJQVB4KRNMn7qkFYLTkhbzEQyVOscPu4/view?usp=sharing)
 * [TED Talk - Crucial Conversations](https://drive.google.com/file/d/1VEwpjfDn2MsZGqaHmC9u1U3QgqoHT9yg/view?usp=sharing)
 
-Summit 2019: [Building a Culture of Radical Candor and Transparency](hhttps://drive.google.com/file/d/1STwjtWDipjeuPd8FDDnqOt7LEqfrDMkr/view?usp=sharing)	
+Summit 2019: [Building a Culture of Radical Candor and Transparency](https://drive.google.com/file/d/1STwjtWDipjeuPd8FDDnqOt7LEqfrDMkr/view?usp=sharing)	
 
 ### Approaches & methodologies we use
 Summit 2020: 
