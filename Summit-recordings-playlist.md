@@ -1,19 +1,19 @@
 ## Our mission & vision  
-Vision Week 2021
-* [Balena from first principles: product architecture and how to answer hard questions](https://drive.google.com/file/d/1B7B_sFUBYd7FHfho76DNi6XA4FoLyv98/view?usp=sharing)
 
-Summit 2020
-* [Where we came from, where we’re going](https://drive.google.com/file/d/1I0qFD-FghZFwi_aDwX-_dgSQqb92aAc0/view?usp=sharing)
+* Vision Week 2021 - [Balena from first principles: product architecture and how to answer hard questions](https://drive.google.com/file/d/1B7B_sFUBYd7FHfho76DNi6XA4FoLyv98/view?usp=sharing)
 
-Summit 2019
-* [Welcome to Balena - Ownership](https://drive.google.com/file/d/1qYTyP9ilJVJm0Pu4k_Jn6D8TrLkyg7tw/view?usp=sharing)
-* [Our mission](https://drive.google.com/file/d/1h6vDpluf-ZAO2llGWa7bXgTdJq1bgf1p/view?usp=sharing)
-* [The vision - Where do we go now?](https://drive.google.com/file/d/1pPKiHs0UGsD0Zui2psIrk5gzCleeIc2K/view?usp=sharing) 
 
-Summit 2018
-* [How do we succeed?](https://drive.google.com/file/d/1LCww3lwWDlViGrT69bwU0jwpHb52J7Dv/view?usp=sharing)
-* [How do we grow?](https://drive.google.com/file/d/1HxWrjbnORlBc2_XLddZehjxduo6W7Enx/view?usp=sharing)
-* [Product Roadmap](https://drive.google.com/file/d/1x3Kha3BuyqD2wVMtJf6PdO1v8Fotc_6u/view?usp=sharing)
+* Summit 2020 - [Where we came from, where we’re going](https://drive.google.com/file/d/1I0qFD-FghZFwi_aDwX-_dgSQqb92aAc0/view?usp=sharing)
+
+
+* Summit 2019 - [Welcome to Balena - Ownership](https://drive.google.com/file/d/1qYTyP9ilJVJm0Pu4k_Jn6D8TrLkyg7tw/view?usp=sharing)
+* Summit 2019 - [Our mission](https://drive.google.com/file/d/1h6vDpluf-ZAO2llGWa7bXgTdJq1bgf1p/view?usp=sharing)
+* Summit 2019 - [The vision - Where do we go now?](https://drive.google.com/file/d/1pPKiHs0UGsD0Zui2psIrk5gzCleeIc2K/view?usp=sharing) 
+
+
+* Summit 2018 - [How do we succeed?](https://drive.google.com/file/d/1LCww3lwWDlViGrT69bwU0jwpHb52J7Dv/view?usp=sharing)
+* Summit 2018 - [How do we grow?](https://drive.google.com/file/d/1HxWrjbnORlBc2_XLddZehjxduo6W7Enx/view?usp=sharing)
+* [Summit 2018 - Product Roadmap](https://drive.google.com/file/d/1x3Kha3BuyqD2wVMtJf6PdO1v8Fotc_6u/view?usp=sharing)
 
 ## How we think & work
 Vision Week 2021
