@@ -51,6 +51,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
     - [ProductOS Team Manual](https://github.com/product-os/product-os#what-is-productos)
     - [Roles and organization](https://github.com/resin-io/hq/wiki/Roles-and-organization)
     - [Project-based Teams](https://github.com/resin-io/hq/wiki/Project-based-teams)
+    - [Specs](https://github.com/balena-io/balena-io/wiki/Specs)
     - [Keeping your personal information up to date](https://github.com/balena-io/balena-io/wiki/Keeping-your-personal-information-up-to-date)
     - [Our offices & company directory](https://github.com/balena-io/balena-io/wiki/Our-offices-&-company-directory)
     - [Leave policy](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
