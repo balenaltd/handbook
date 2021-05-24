@@ -34,6 +34,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
   - Culture
       - [Summit](https://github.com/resin-io/hq/wiki/Summit)
       - [Hack Fridays](https://github.com/resin-io/hq/wiki/Hack-Fridays)
+      - [Loops](https://github.com/balena-io/balena-io/wiki/Loops)
       - [Architecture Interviews](https://github.com/balena-io/balena-io/wiki/Architecture-Interviews)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
