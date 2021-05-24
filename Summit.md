@@ -12,4 +12,6 @@ Six months after our virtual annual summit in September 2020, we held what we ca
 ### Summit recordings
 We strongly encourage every new balenista to spend some time watching past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you some background and context, and help you understand balena better. You can chat with your buddy to get some help around which recordings might be more relevant and helpful to you and your area of work. 
 
-Check this [summit recordings playlist page](https://github.com/balena-io/balena-io/wiki/Summit-recordings-playlist)
+Check this [summit recordings playlist page](https://github.com/balena-io/balena-io/wiki/Summit-recordings-playlist) and enjoy watching! 
+
+_Note that you can find the presentation documents for most talks too in the folders if you want to have a quick look through rather watching the full recording._
