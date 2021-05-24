@@ -1,3 +1,8 @@
+
+
+
+Check the full Product Builder deck during Vision Week 2021 [here](https://drive.google.com/drive/u/1/folders/1lwmYGNp8E6BtwNS8HSgF3SyK4QK_kMK-)
+
 ## Background
 At balena, "the loop" is our very own framework for continuously improving products, so a "Product Builder" is the term we came up with, in an attempt to define the genotype for our product, the profile of the balenista we should all aspire to! It is a question we asked ourselves and have spent considerable time shaping the concept of the Product Builder. 
 
@@ -67,7 +72,6 @@ So what if, we create a company made up of people who are in touch with both com
 
 ***
 
-
-In case you have more questions and you've missed the Product Builder deck during Vision Week 2021, check it [here](https://drive.google.com/drive/u/1/folders/1lwmYGNp8E6BtwNS8HSgF3SyK4QK_kMK-) and watch this space as there is more to come on Product Builder levels soon :) 
+Watch this space as there is more to come on Product Builder levels soon :) 
 
 
