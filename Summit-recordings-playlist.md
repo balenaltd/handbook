@@ -51,8 +51,7 @@
 
 ## productOS
 
-* Vision week 2021 - [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing)
-
+* Vision week 2021 - [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing) Starts at 13m45s
 
 * Summit 2020 - [Jellyfish](https://drive.google.com/file/d/1K5hFn04iRtuYyfESlOVdNTBotVeepHni/view?usp=sharing)
 
