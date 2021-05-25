@@ -18,7 +18,7 @@
 ## How we work
 
 * Vision Week 2021 - [Being a Product Builder at balena](https://drive.google.com/file/d/1_rsp0RZLFugi7B3eCZsjHsCPae7vbTxP/view?usp=sharing)
-Starts at 15m15s
+{starts at 15m15s}
 
 * Summit 2020 - [TED Talk - Radical Uncertainty](https://drive.google.com/file/d/1XJQVB4KRNMn7qkFYLTkhbzEQyVOscPu4/view?usp=sharing) {starts at 11m00s}
 
