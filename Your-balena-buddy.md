@@ -6,8 +6,6 @@ Feel free to reach out to your buddy, schedule your first video call and agree o
 ## What to expect from your buddy & what a buddy should aim for
 
 ### Day One
-On day 1 the balenista helping with your onboarding will send you and your balena buddy an intro email. 
-* Respond to the intro email and introduce yourself 
 * We suggest scheduling a first intro call as soon as possible to get to know each other, connecting is one of the key goals for buddies :) 
 * Help the new member out with Flowdock threading and other tips on how to best use flowdock; a “win” for the first day is for new team members to successfully introduce themselves in Flowdock and respond in-thread! - [FD guide](https://github.com/balena-io/balena-io/wiki/Flowdock) 
 
