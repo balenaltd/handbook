@@ -37,6 +37,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
       - [Loops](https://github.com/balena-io/balena-io/wiki/Loops)
       - [Being a product Builder at balena](https://github.com/balena-io/balena-io/wiki/Being-a-Product-Builder-at-balena)
       - [Architecture Interviews](https://github.com/balena-io/balena-io/wiki/Architecture-Interviews)
+      - [Release Parties](https://github.com/balena-io/balena-io/wiki/Release-Parties)
 
   - [Meetings](https://github.com/resin-io/hq/wiki/Meetings)
     - [Company call / All hands call](https://github.com/balena-io/balena-io/wiki/All-hands-calls)
