@@ -14,7 +14,7 @@ _Every year at Summit, Alex delivers an opening talk that focuses on our mission
 
 ## How we work
 
-balena is different in many ways and the concept of Product Builder summarizes the profile of an ideal balenista that we all aspire to.
+balena is different in many ways and the concept of Product Builder summarizes the profile of an ideal balenista that we all aspire to. Check the [Product Builder wiki page](https://github.com/balena-io/balena-io/wiki/Being-a-Product-Builder-at-balena) for more information. 
 
 * Vision Week 2021 - [Being a Product Builder at balena](https://drive.google.com/file/d/1_rsp0RZLFugi7B3eCZsjHsCPae7vbTxP/view?usp=sharing)
 {starts at 15m15s}
@@ -59,7 +59,6 @@ _There is also a Summit 2020 balenaHub presentation if you would like to see how
 
 
 ## Hack weeks
-
 While we have been unable to meet in person as we would normally do every year, we decided to spend some more time hacking and exploring ideas outside our day-to-day work! This is a great representation of how passionate the team is about continuously improving our products and processes :) 
 
 * [Hack Week - Vision week 2021](https://drive.google.com/drive/u/1/folders/1DpV2yLrN8e4sxtJ7Cf8VtK75cOb2Yzj5)
