@@ -7,6 +7,11 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
+### Fri, June 11  2021 (Alex uses Balena)
+* [Video](https://drive.google.com/file/d/1pl09peqGRfGXtKLkIN2cHdBj5RL4iFHf/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/18G1NZKqvHYWgqsPvrrK0x_fqs68GulGv/view?usp=sharing)
+
+
 ### Fri, Mar 12  2021 (Landr: Generate landing pages from Github repos)
 * [Video](https://drive.google.com/file/d/1Qh4rZ7vsg_uKRuCTIZRt_B-rZawCPW74/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1W6vyvTFq5AVVyCH6hVa1RV3jlykUGKCO/view?usp=sharing)
