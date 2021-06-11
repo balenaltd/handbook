@@ -32,8 +32,6 @@ The 'loop' is the framework we use at balena for continuously improving our prod
 
 * Summit 2020 - [Welcome to the loop factory!](https://drive.google.com/file/d/1TM_CGoYav9JGRCf72JEDH5U4-h_jaWje/view?usp=sharing) {starts at 9m15s}
 
-* Summit 2019 - [Loops in Theory & Practice](https://drive.google.com/file/d/1e4Losc7OVUfKdJBEDHWx_MdP_0Fm5_nz/view)
-
 
 ## productOS
 
@@ -41,12 +39,7 @@ productOS (aka Jellyfish) is the platform and infrastructure that supports our t
 
 * Vision week 2021 - [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing) {starts at 13m45s}
 
-Previous presentations for more background on Jellyfish. 
-
-* Summit 2020 - [Jellyfish](https://drive.google.com/file/d/1K5hFn04iRtuYyfESlOVdNTBotVeepHni/view?usp=sharing) {starts at 11m20s}
-
-* Summit 2019 - [Production Loop Demo: Jellyfish](https://drive.google.com/file/d/1yWKEzcZZ5uarJxH0MIbs9EfCYV5bfitZ/view?usp=sharing)
-
+_If you would like to get more background on Jellyfish, there are more presentations in the Summit 2019 & 2020 folders._
 
 ## balenaHub
 
@@ -55,12 +48,10 @@ We released [balenaHub](https://hub.balena.io/) in November 2020 as an easier wa
 * Vision week 2021 - [balenaHub from first principles](https://drive.google.com/file/d/1AK2lBtHiq3sQxvsKN6vBgOX3MKUdNuCs/view?usp=sharing)
 {starts at 10m10s}
 
-You can learn more about the balenaHub idea and how it all came together from an older summit presentation. 
-
-* Summit 2020 - [balenaHub](https://drive.google.com/file/d/15gzs-VrOoS_Ut76vgky-GegEJ5B63wP7/view?usp=sharing) {starts at 17m20s}
+_There is also a Summit 2020 balenaHub presentation if you would like to see how the idea developed._
 
 
-## More summit talks and material
+## More Summit talks and material
 * [Vision week 2021](https://drive.google.com/drive/u/1/folders/12PwNldTsAne_FFzxUFtcQI2jPyuGq4m2)
 * [Summit 2020](https://drive.google.com/drive/u/1/folders/1seQic4v3ELYwtnqEqgzuVTDtYEvuswgK)
 * [Summit 2019](https://drive.google.com/drive/u/1/folders/1YnRkrJFBa-aRXdWFO9jIbhROT-3MYuqi)
