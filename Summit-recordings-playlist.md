@@ -1,21 +1,25 @@
 ## Our mission & vision  
 
+We suggest that you start by watching the below recordings to get an overview of our mission, vision, and progress so far. 
 * Vision Week 2021 - [Balena from first principles: product architecture and how to answer hard questions](https://drive.google.com/file/d/1B7B_sFUBYd7FHfho76DNi6XA4FoLyv98/view?usp=sharing) {starts at 13m30s}
 
 * Summit 2020 - [Where we came from, where we’re going](https://drive.google.com/file/d/1I0qFD-FghZFwi_aDwX-_dgSQqb92aAc0/view?usp=sharing)
 {starts at 18m45s}
 
-* Summit 2019 - [Welcome to Balena - Ownership](https://drive.google.com/file/d/1qYTyP9ilJVJm0Pu4k_Jn6D8TrLkyg7tw/view?usp=sharing)
+If you would like to learn a bit more about how balena started, you can watch this presentation.
 * Summit 2019 - [Our mission](https://drive.google.com/file/d/1h6vDpluf-ZAO2llGWa7bXgTdJq1bgf1p/view?usp=sharing)
-* Summit 2019 - [The vision - Where do we go now?](https://drive.google.com/file/d/1pPKiHs0UGsD0Zui2psIrk5gzCleeIc2K/view?usp=sharing) 
+
+_Every year at Summit, Alex delivers an opening talk that focuses on our mission & vision if you want to get more background and see how everything has evolved over time. Every Summit day includes a keynote presentation that covers the main areas, projects and ideas we are actively working on during the year._
 
 
 ## How we work
 
+balena is different in many ways and the concept of Product Builder summarizes the profile of an ideal balenista that we all aspire to.
+
 * Vision Week 2021 - [Being a Product Builder at balena](https://drive.google.com/file/d/1_rsp0RZLFugi7B3eCZsjHsCPae7vbTxP/view?usp=sharing)
 {starts at 15m15s}
 
-* Summit 2020 - [Radical Uncertainty](https://drive.google.com/file/d/1XJQVB4KRNMn7qkFYLTkhbzEQyVOscPu4/view?usp=sharing) {starts at 11m00s}
+You can learn more about some of our core values and approaches which have led to the Product Builder definition.
 
 * Summit 2019 - [Values & Structures](https://drive.google.com/file/d/1slCHFPg6AwIEtuIV1Ra_nnGJTdXR9X8f/view?usp=sharing)
 
@@ -24,6 +28,8 @@
 
 ## Loops
 
+The 'loop' is the framework we use at balena for continuously improving our products. These recordings can help you understand how our loops work. There is additional information on the [loops wiki page](https://github.com/balena-io/balena-io/wiki/Loops) too. 
+
 * Summit 2020 - [Welcome to the loop factory!](https://drive.google.com/file/d/1TM_CGoYav9JGRCf72JEDH5U4-h_jaWje/view?usp=sharing) {starts at 9m15s}
 
 * Summit 2019 - [Loops in Theory & Practice](https://drive.google.com/file/d/1e4Losc7OVUfKdJBEDHWx_MdP_0Fm5_nz/view)
@@ -31,24 +37,27 @@
 
 ## productOS
 
+productOS (aka Jellyfish) is the platform and infrastructure that supports our team to build, maintain and continuously improve products. It is a project that we greatly believe in and has already come a long way. It still requires a lot of work to be able to fully support our team and there is a lot we have learned from its journey so far. 
+
 * Vision week 2021 - [ProductOS from first principles](https://drive.google.com/file/d/1oFc5bj8SWq-3s5IOiKm22ur9cUvCKky7/view?usp=sharing) {starts at 13m45s}
+
+Previous presentations for more background on Jellyfish. 
 
 * Summit 2020 - [Jellyfish](https://drive.google.com/file/d/1K5hFn04iRtuYyfESlOVdNTBotVeepHni/view?usp=sharing) {starts at 11m20s}
 
 * Summit 2019 - [Production Loop Demo: Jellyfish](https://drive.google.com/file/d/1yWKEzcZZ5uarJxH0MIbs9EfCYV5bfitZ/view?usp=sharing)
 
 
-## balena.io
+## balenaHub
 
-* Vision week 2021 - [BalenaHub from first principles](https://drive.google.com/file/d/1AK2lBtHiq3sQxvsKN6vBgOX3MKUdNuCs/view?usp=sharing)
+We released [balenaHub](https://hub.balena.io/) in November 2020 as an easier way to find and publish apps and projects for edge devices.
+
+* Vision week 2021 - [balenaHub from first principles](https://drive.google.com/file/d/1AK2lBtHiq3sQxvsKN6vBgOX3MKUdNuCs/view?usp=sharing)
 {starts at 10m10s}
 
-* Summit 2020 - [balenaHub](https://drive.google.com/file/d/15gzs-VrOoS_Ut76vgky-GegEJ5B63wP7/view?usp=sharing) {starts at 17m20s}
+You can learn more about the balenaHub idea and how it all came together from an older summit presentation. 
 
-* Summit 2019 - [Balena Architecture: Software Design Principles](https://drive.google.com/file/d/1xtHev7HUwbASdasf8cWfG9O2oHdlXX43/view?usp=sharing)
-* Summit 2019 - [Balena Architecture: Getting to 10x](https://drive.google.com/file/d/1OTsYX21kdYRdTKPqTrbpsvhxQUW_FtqP/view?usp=sharing)
-* Summit 2019 - [Holistic Specs](https://drive.google.com/file/d/1T5Yb8NyRryS2U-D4bmqZaZNY22m6qInS/view?usp=sharing)
-* Summit 2019 - [Balena Analytics](https://drive.google.com/file/d/1nzVNxvvxsaAUK7fsKrhIltWl6_T4M3rO/view?usp=sharing)
+* Summit 2020 - [balenaHub](https://drive.google.com/file/d/15gzs-VrOoS_Ut76vgky-GegEJ5B63wP7/view?usp=sharing) {starts at 17m20s}
 
 
 ## More summit talks and material
@@ -59,5 +68,8 @@
 
 
 ## Hack weeks
+
+While we have been unable to meet in person as we would normally do every year, we decided to spend some more time hacking and exploring ideas outside our day-to-day work! This is a great representation of how passionate the team is about continuously improving our products and processes :) 
+
 * [Hack Week - Vision week 2021](https://drive.google.com/drive/u/1/folders/1DpV2yLrN8e4sxtJ7Cf8VtK75cOb2Yzj5)
 * [Hack Week - Summit 2020](https://drive.google.com/drive/u/1/folders/1jmxOvh0tsKbSn4SmlHNVv-ElONS4pAq4)
