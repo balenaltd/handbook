@@ -47,7 +47,7 @@ We think that creating a company of product builders is the best way to achieve 
 ### What principles define a Product Builder?
 * Mission alignment
 * Ownership
-* Short term pain for long term gain 
+* Short term pain for long term gain  `#STPLTG`
 * First principles thinking
 * Root cause problem solving
 * Zero to one creativity 
