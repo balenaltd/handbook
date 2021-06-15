@@ -10,7 +10,7 @@ Mon, June 14 2021
 * [Meeting](https://docs.google.com/document/d/1u787JvExfA9MvTWOZMZoi4nQIu_YyARYqpGWwHgc6jA/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1YOGI1JAhvaUqRUWOtlUg5gyt9fwCDlkW/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1H-JlaNYV6zCWA-0cHiEp3FaTHilH1NZj/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1AU_Vk-PyM215tVaFi37khspLXShhfLE3/view?usp=sharing)
 
 
 Mon, June 07 2021 
