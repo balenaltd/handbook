@@ -1,10 +1,7 @@
 If you're a Windows user and you will be working on any of balena's repos, you will often have to run the app you're working on locally. Balena apps must be run through a Linux terminal (one reason for this is that you cannot set env variables inline in Windows like you can in Linux), so follow this [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL 2 and a Linux terminal on your device.
 
 ## nvm
-Now that you have a WSL 2 and a Linux terminal installed, you need to install node. Because installing node via apt (`sudo apt install nodejs`) usually installs an older version, you should install [nvm](https://github.com/nvm-sh/nvm). `nvm` allows you to easily switch between different versions of node. Here are the steps for installing it (run the following commands in your Linux (WSL) terminal):
-1. `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
-2. `nvm install 14`
-3. `nvm alias default 14`
+Now that you have a WSL 2 and a Linux terminal installed, you need to install node. Because installing node via apt (`sudo apt install nodejs`) usually installs an older version, you should install [nvm](https://github.com/nvm-sh/nvm). `nvm` allows you to easily switch between different versions of node.
 
 *Note: When you switch node versions, run `rm -rf node_modules/` before running `npm i` again in any repo to ensure that the node modules you have match your node version. Alternatively, you can just run `npm ci` which removes all node modules and then reinstalls them*
 
