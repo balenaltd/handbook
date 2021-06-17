@@ -30,6 +30,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
     - [Passwords Management & Passpack](https://github.com/balena-io/balena/wiki/passwords-management---Passpack)
+    - [WSL 2 (for Windows users)](https://github.com/balena-io/balena-io/wiki/WSL-2)
 
   - Culture
       - [Summit](https://github.com/resin-io/hq/wiki/Summit)
