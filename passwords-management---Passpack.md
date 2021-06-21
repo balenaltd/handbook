@@ -2,6 +2,7 @@ Starting from Day 1, you’ll be required to join a list of services that you’
 
 If you don’t know of any password management services to manage all your passwords, take a look and choose from the list below: 
 
+* [Bitwarden](https://bitwarden.com)
 * [Keepass](http://keepass.info/)
 * [Lastpass](https://lastpass.com/)
 * [Dashlane](https://www.dashlane.com/)
