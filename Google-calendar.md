@@ -13,18 +13,6 @@ Google calendar has a feature which allows you to add a coworker’s calendar to
 
 Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
 
-## Add an event to your calendar
-In balena, we try to keep our company events open for all team members. Anyone can join any meeting they would like to, as long as that’s a company meeting. How would you know if an event is a company/event or open to everyone? The answer is that it’ll be on the company calendar (admin@balena.io) which you can access already. 
-
-So, let’s say you’d like to add a repeating event to your calendar and get reminders about it. The best way to do this is to:
-
-1. Log in to your @balena.io e-mail account and go to calendar.google.com
-1. Click on the event title that you’re interested in, or click on the coloured space next to event’s title. (note: make sure that you've clicked on the original event and not on the event someone added/copied to their calendar)
-
-3. Go to the Options choice (the 3 dots on the upper right) and select the calendar you wish to include the event to.
-
-From now on, you will receive notifications and reminder with regards to this event.
-
 ## Booking a Zoom room in Google Calendar
 
 Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting.
