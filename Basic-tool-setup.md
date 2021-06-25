@@ -60,7 +60,7 @@ Github
 
 The **forums** are used by our free users for support requests, and generally for discussion about the product, hack Friday projects, etc. It's required that you have an account there because eventually, you'll need it for supporting users. Please don't forget to use the same handle you've used for other basic services (e.g. flowdock, front etc.)
 
-**Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password. You can check the [Jellyfish specification doc](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#) for more info. 
+**Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password. You can check the [Jellyfish specification doc](https://docs.google.com/document/d/1psa9upjr__LDbF0442ndW72Nj8jAuA48mmqPdahQBUs/edit#heading=h.e986klys6hyc) for more info. 
 
 **Trello** is a tool we use to track progress for some of our projects. Some teams use it more than others at the moment. It allows more visibility of what everyone is working on within a team. It has boards, lists, and cards to enable you to organize and prioritize projects, tasks, goals and progress.
 
