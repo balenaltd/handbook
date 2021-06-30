@@ -6,6 +6,11 @@ This wiki will provide you with some key information and an overview of how we w
 
 While we have been investing some time and resources to keep this wiki up to date, things change fast, so we would appreciate your feedback, ideas and observations to help us make it more welcoming and useful for everyone. Tell us what we have missed and what would help more! Feel free to post your feedback about your onboarding experience and the wiki in Flowdock using the `t/beginners` flow and the hashtag #teamfeedback. We expect you to have many questions, so take your time to ask them. Feel free to use the flow `t/beginners` to direct any general or technical queries to the team. 
 
+**balenaLabs Residency**
+As a new joiner, you will begin your balena life by joining the balena labs team for a residency. balenaLabs (Labs) is an autonomous, public-facing, research and experimentation team within balena. During your residency, which is normally a month, you will be tasked with creating a project and developing it through a full lifecycle, from ideation to publicising it on our balena blog. The labs team will help you every step of the way, and you will gain a "project sherpa" who will guide you. 
+This process will help you live the balena user experience, get to know how we work, meet people and find problems you are keen to work on once your residency comes to an end.
+More details about labs can be found [here](https://github.com/balena-io/balena-io/wiki/balenaLabs)
+
 We have put together a checklist to help you tick off some of the key tasks you will be working on during your first few weeks and as you go through this wiki. **Find the new starter checklist [here](https://docs.google.com/spreadsheets/d/1cQZz8in9iEhsM2_LNaI36tvX_TH1c7RgC-uem78aMV8/edit?ts=5fb3d7b8#gid=0)** and create a copy to keep for yourself. 
 
 N.B. Flowdock is our main tool for internal communication. A "flow" is like a room and we use different flows for specific components, projects and teams as an attempt to group information and conversations. If you are not familiar with Flowdock don't worry, you will find more information and guidance further down the wiki. 
