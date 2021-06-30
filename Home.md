@@ -7,6 +7,7 @@
 - [Your balena.io email](https://github.com/balena-io/balena-io/wiki/Your-balena.io-email)
 - [Help the team get to know you](https://github.com/balena-io/balena/wiki/Help-the-team-get-to-know-you)
 - [Your balena buddy](https://github.com/balena-io/balena/wiki/Your-balena-buddy)
+- [Your balena labs residency](https://github.com/balena-io/balena-io/wiki/balena-labs-residency)
 
 
 ## How to get things done (balena processes)
