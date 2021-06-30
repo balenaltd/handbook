@@ -12,7 +12,9 @@ We’re exploring and communicating the potential of the balena platform, with t
 ## If you’ve just joined…
 Welcome! You may be wondering where to start. First and foremost it’s important you understand the product(s); take some time to try everything balena offers and figure out its purpose. The company mission is to reduce friction for fleet owners, and everything you see should fit that. As a member of the Labs team you’ll be operating in some part as a tame balena customer who wants to make the product better, so you’ll need to be able to put yourself in those shoes.
 
-Make sure you understand what you’re doing and why you’re doing it, this is important; don’t do things blindly or simply because someone said so - if you’re not sure, ask @@labs! After that, start with something in layer 1 below!
+Make sure you understand what you’re doing and why you’re doing it, this is important; don’t do things blindly or simply because someone said so.
+
+The first thing to do is to join the [/balenalabs](https://www.flowdock.com/app/rulemotion/balenalabs) flow in flowdock and introduce yourself to the team. They will then help you to get started with your life in labs. 
 
 ## What are we doing?
 As a team, we’re going to be pushing forward on a few fronts which we’ll call layers. Some projects and initiatives will push forward on multiple layers but others may solely fall within a single layer.
