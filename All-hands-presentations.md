@@ -7,6 +7,11 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
+### Fri, July 02  2021 (Buildkit)
+* [Document]()
+* [Video]()
+* [Audio]()
+
 ### Fri, June 11  2021 (Alex uses Balena)
 * [Document](https://docs.google.com/document/d/1H9LUbU_0BFRgIqwsCD992z7sf2GMCaaMpHtqLYiCBq8/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1pl09peqGRfGXtKLkIN2cHdBj5RL4iFHf/view?usp=sharing)
