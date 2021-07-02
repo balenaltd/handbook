@@ -9,8 +9,8 @@ If you were giving a live demo, would you ever have to say “that part isn’t 
 Referenced in Validation to [Layer 1](https://github.com/balena-io/balena-io/wiki/balenaLabs/_edit#layer-1-brainstorm-build-and-promote) workflow
 * Does running this project on balena help the user (IoT tinkerer/hacker, fleet owner, etc.?
 * Are we lowering the bar of entry to a scaled use case?
-* Are we using or improving upon any existing primitives?
-* Are we creating any new primitives?
+* Are we using or improving upon any existing blocks?
+* Are we creating any new blocks?
 * Does completing this project enhance our framework?
 * Are we demonstrating a new balena feature?
 * Is it an ambient computing project?
