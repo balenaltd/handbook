@@ -10,8 +10,7 @@ We suggest that you start by watching the below recordings to get an overview of
 * Summit 2020 - [Where we came from, where we’re going](https://drive.google.com/file/d/1I0qFD-FghZFwi_aDwX-_dgSQqb92aAc0/view?usp=sharing)
 {starts at 18m45s}
 
-If you would like to learn a bit more about how balena started, you can watch this presentation.
-* Summit 2019 - [Our mission](https://drive.google.com/file/d/1h6vDpluf-ZAO2llGWa7bXgTdJq1bgf1p/view?usp=sharing)
+If you would like to learn more about the story of balena and how everything started, you can watch the [Summit 2019 - Our mission](https://drive.google.com/file/d/1h6vDpluf-ZAO2llGWa7bXgTdJq1bgf1p/view?usp=sharing) presentation or you can listen to this [Front Range Founders podcast](https://open.spotify.com/episode/2A4zrAHhKB27weBurVL1TF).
 
 _Every year at Summit, Alex delivers an opening talk that focuses on our mission & vision if you want to get more background and see how everything has evolved over time. Every Summit day includes a keynote presentation that covers the main areas, projects and ideas we are actively working on during the year._
 
