@@ -1,6 +1,6 @@
 Some balenistas live in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs). They make and maintain projects, help communicate the potential of balena, get feedback, and advocate to improve the product. But, that doesn't mean that other balenistas cannot spend time in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs) and also do those good things.
 
-At various times, especially when they join balena, people may wish to have a residency in the [labs](https://github.com/balena-io/balena-io/wiki/balenaLabs), typically for about a month, to work on a project.
+At various times, especially when they join balena, people may wish to have a residency in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs), typically for about a month, to work on a project.
 
 ## New Joiners
 When you applied for a job at balena, you probably applied for a certain role, such as a frontend developer or an embedded Linux engineer. However, what we really wanted was for good people to apply to work at balena, and *then* find the hard problem they are passionate about solving.
