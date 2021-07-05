@@ -45,5 +45,5 @@ Deploy our projects into the homes and offices of our team to gather real world 
 * [Github Orgs](https://github.com/balena-io/balena-io/wiki/Labs:-Github-Orgs)
 * [Labs Brainstorm](https://github.com/balena-io/balena-io/wiki/Brainstorm-calls#balenalabs-brainstorm---productarch-combined)
 * [Other Meetings](https://github.com/balena-io/balena-io/wiki/Labs:-Other-Meetings)
-* [Project board](https://github.com/balena-io/balena-io/wiki/Labs:-trello)
+* [Project board](https://github.com/balena-io/balena-io/wiki/Labs:-project-board)
 
