@@ -9,6 +9,7 @@ A sherpa is the project builder's "go to" for questions about how to build their
 * how do we enable network effects?
 * how do we test a project?
 * how do I go about writing a blog post?
+
 A project builder and a sherpa will typically catch up once a week (or more if they want) to chat through the project, where it has got to, and what is next. The sherpa will guide the project builder in the best way to use the balena team to solve issues and find out information. They are versed in the tools that balena use, such as the various flows in flowdock, finding documents in Google Drive and how to use Jellyfish.
 
 # What do they not do?
