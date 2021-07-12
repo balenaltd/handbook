@@ -8,8 +8,8 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, July 12 2021 
 * [Meeting](https://docs.google.com/document/d/1E1YHjVyTh6H-gPgvuYi2TzJZcZIO5EoCScJjzfLlKEs/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1VqxMCeOO34WFCbQbz3VF_DmmDVymRTLB/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1tgUrUfFE4C7Qrhm9kE8qc1UcSH89HNUK/view?usp=sharing)
 * [Attendees]()
 
 
@@ -24,14 +24,14 @@ Mon, June 28 2021
 * [Meeting](https://docs.google.com/document/d/1Qx9L6Wll_6r6Bnf6Hc4vNpLjD9MqlKsmCsDB88GmwWo/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1wS112y1FaRpqqAosaslSBrFGyTzaREHp/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/14mriDBZdLInzmLlHjdzKSEjUxYJLt4qw/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1Q7rQ5ca6FEgPP2jtek0etqOhH7LOl-Kr/view?usp=sharing)
 
 
 Mon, June 21 2021 
 * [Meeting](https://docs.google.com/document/d/1CFYDy7TrJJcgQdGlbKZd7MBJFlurovTtd-aDgZySj4s/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1rpMcVwpp-qk0rZxIHwtP9A0k5vRKwto_/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1CEZZ0xBNXvAe4aUa00HQ71uNLf9Ajuqj/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/11xe5EME50AcKlLzlSeJrpPRAsVink2G5/view?usp=sharing)
 
 
 Mon, June 14 2021 
