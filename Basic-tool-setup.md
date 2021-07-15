@@ -14,6 +14,7 @@ Primary:
 * [Github](https://github.com) (**You need to set up 2FA when you first login using the Yubikey you have**. _This service requires additional information/steps before you get access._)
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
+* [Balena Forums Moderator Access - Discourse](https://forums.balena.io/) You can use [this invitation link](https://forums.balena.io/invites/6a98ca4583c9f16879dd523f35a4c60b) to get access to the forums. Moderation access needs to be requested though once you have signed up.
 * [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg)
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
@@ -25,11 +26,10 @@ You'll need to create accounts for these services and then ask in `t/operations`
 * [NPM.js](https://www.npmjs.com/) (your access token should be in your `~/.npmrc`)
 
 ### Tools and services related to doing support<br>
-As needed for doing support when it is time for your support onboarding (request access from the Ops team):
-* Zendesk
-* [Balena Forums Moderator Access - Discourse](https://forums.balena.io/) You can use [this invitation link](https://forums.balena.io/invites/6a98ca4583c9f16879dd523f35a4c60b) to get access to the forums. Moderation access needs to be requested though once you have signed up.
-* [Intercom](https://app.intercom.com/admins/sign_in)
-* Support agent access for your balena account (using your balena.io email)
+As needed for doing support when it is time for your support onboarding:
+* Zendesk (If you are a dev you will be given access from day 1)
+* [Intercom](https://app.intercom.com/admins/sign_in) (If you are a dev you will be given access from day 1)
+* Support agent access for your balena account (using your balena.io email please request access from the Ops team)
 
 Please note that you should have access to the above services before you start doing support. This is also noted during support onboarding so you can check that you have access to all the services you will need. If you need access sooner, please let the Operations team know and request access.
 
