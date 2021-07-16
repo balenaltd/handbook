@@ -7,6 +7,11 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 
+### Fri, July 16  2021 (Alex uses Balena part 3)
+* [Document](https://docs.google.com/document/d/1H9LUbU_0BFRgIqwsCD992z7sf2GMCaaMpHtqLYiCBq8/edit?usp=sharing)
+* [Video](https://drive.google.com/file/d/1FEsdCzyiM4O-jXbrMGvJkdsObrjz8FQj/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/19iu51buNYqQ1WZ_NtKIDfEgdesEHJqGj/view?usp=sharing)
+
 ### Fri, July 09  2021 (Alex uses Balena part 2)
 * [Document](https://docs.google.com/document/d/1H9LUbU_0BFRgIqwsCD992z7sf2GMCaaMpHtqLYiCBq8/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1t3DKbB5c29crpBal47gJOnpunRJZKndg/view?usp=sharing)
