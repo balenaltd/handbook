@@ -16,7 +16,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
 
 - Company
   - Joining balena
-    - [What to expect working at balena](https://github.com/balena-io/balena/wiki/What-to-expect-working-at-balena)
+    - [Communication & writing resources](https://github.com/balena-io/balena-io/wiki/Communication-&-writing-resources)
     - [Live the balena user experience](https://github.com/balena-io/balena/wiki/Live-the-balena-user-experience)
     - [Security Guidelines](https://github.com/balena-io/balena/wiki/Security-guidelines)
     - [Basic tool setup](https://github.com/resin-io/hq/wiki/Basic-tool-setup)
