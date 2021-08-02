@@ -7,10 +7,16 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
 Mon, July 26 2021 
+* [Meeting](https://docs.google.com/document/d/1uOtb3_MSc7F4goPfAySI7gCJ7gEM2U_xB9jZ51QiNc4/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
+Mon, July 26 2021 
 * [Meeting](https://docs.google.com/document/d/1HotgUu10Ea2tWdc-ZPG56fnJQBF6fwN1TVT5OEXvpUA/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1DPgrJPMAvz7Hz-lQEZUdOH8GBFKzsUt6/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1mMDyL0TBk8tINAxy_du1YTAUwi3RmIc4/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1lmLCW8qcnVbFXCi6yDrcig1f4FnBU8xb/view?usp=sharing)
 
 Mon, July 19 2021 
 * [Meeting](https://docs.google.com/document/d/1TfzcSlTAJdoqgqWWJb31tvwZPKAG0_AA7XVHvftrGJI/edit?usp=sharing)
