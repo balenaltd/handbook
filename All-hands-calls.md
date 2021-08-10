@@ -11,7 +11,7 @@ Mon, August 09 2021
 * [Meeting](https://docs.google.com/document/d/1SrCvSd6BcFzOfhTcURhUGNnS3h3_U3V73qSxa6HdBNY/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1YrVsCwvBZTmmNOZJqMkoAkY-tpYuzEsj/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1V6IZj0_XyZwJMJrbU9KRHzgGSJ0ouVJt/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1_oT8sgRpAEY8h_6IHL2poGA96LiTtQus/view?usp=sharing)
 
 Mon, August 02 2021 
 * [Meeting](https://docs.google.com/document/d/1uOtb3_MSc7F4goPfAySI7gCJ7gEM2U_xB9jZ51QiNc4/edit?usp=sharing)
