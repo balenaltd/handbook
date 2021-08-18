@@ -155,3 +155,9 @@ Following the customary greetings, it would be great if you took the time to cre
 
 ## Changing the look and feel
 Papagal is a Chrome and Firefox extension that improves user experience while using Flowdock. You can find more information [here](https://github.com/petrosagg/papagal). Unfortunately, the Firefox addon has been taken down for now.  
+
+## If Flowdock goes down..
+
+We have had a handful of times when Flowdock went down for some time. In case this happens again and it doesn't come back shortly, Google Chat is our backup option to communicate with the team. You can log in with your existing @balena Google account: https://mail.google.com/chat/u/0/ 
+
+You can also use Jellyfish, of course, but since it's not set up as a teamwide chat app yet, it may not work well as a Flowdock replacement quite yet. 
