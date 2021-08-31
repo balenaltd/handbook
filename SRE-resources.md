@@ -16,45 +16,19 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 
 * [Passpack v7](https://www.passpack.com/online/) (⚠️ not on https://app.passpack.com/...) and [activate sharing](https://github.com/balena-io/balena/wiki/passwords-management)
 
-* Okta Account - many of our services authenticate through Okta. Follow [this guide](https://docs.google.com/document/d/1OLgOcMDCJcdISe_bv0tvF87HeaLrFmoP7CfGSxYEK8Q/edit#bookmark=id.naso1geqapb7) to setup the Okta browser plugin and `saml2aws` cli tool.
+* We authenticate our AWS access using Google. Follow [this guide](https://docs.google.com/document/d/1OLgOcMDCJcdISe_bv0tvF87HeaLrFmoP7CfGSxYEK8Q/edit#bookmark=id.naso1geqapb7) to setup the SAML authentication tools for AWS CLI.
 
-* AWS CLI access using roles to production, staging & playground. [CLI HowTo](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-cli.html) AWS CLI is now authenticated using `saml2aws`.
-> ⚠️ `default` is `balena-production`
-```
-# (example) ~/.aws/credentials
-
-[default]
-aws_access_key_id=foo
-aws_secret_access_key=bar
-```
-
-```
-# (example) ~/.aws/config
-
-[default]
-
-[profile balena-playground]
-role_arn = arn:aws:iam::240706700173:role/admin
-source_profile = default
-
-[profile balena-staging]
-role_arn = arn:aws:iam::567579488761:role/admin
-source_profile = default
-
-[profile balena-production]
-role_arn = arn:aws:iam::491725000532:role/admin
-source_profile = default
-```
 
 * ARM architecture builders hosted in [packet.net](https://www.packet.com/)
 * Kubernetes (k8s) cluster(s)
 * [CloudFlare](https://dash.cloudflare.com/) 
 * [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)
+* balena.io blog and website in [Netlify](https://netlify.com/)
 
 
 #### CI/CD
 * GitHub (assumes existing account)
-* [Jenkins](https://jenkins.dev.resin.io/) hosted at [Hetzner](https://www.hetzner.com/) (admin access)
+* [Jenkins](https://jenkins.product-os.io/) hosted at [Hetzner](https://www.hetzner.com/) (admin access)
 * Jenkins master and build agents (SSH)
 * [CircleCI](https://onboarding.circleci.com/)
 * [balenaCI/concourse-ci](https://ci.balena-dev.com/)
@@ -77,4 +51,3 @@ source_profile = default
 * personal account (e.g. GitHub linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) team member group membership
 * company account (e.g. G Suite linked) [balenaCloud](https://dashboard.balena-cloud.com/apps) support agent permission
 * [balenaStaging](https://dashboard.balena-staging.com/apps) and [admin](https://admin.balena-staging.com/) support agent permission
-* marketing|blog server SSH access
