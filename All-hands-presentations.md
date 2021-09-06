@@ -9,7 +9,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ### Fri, September 03  2021 (Alex uses Balena part 6)
 * [Document](https://docs.google.com/document/d/1H9LUbU_0BFRgIqwsCD992z7sf2GMCaaMpHtqLYiCBq8/edit?usp=sharing)
-* [Video]()
+* [Video](https://drive.google.com/file/d/1CBKc_Q0KppwyFyDkIWKiSiILsU1zYHXD/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/13Z_-9U0mBB0r-H7vNyr2PM0M_fpoqU_3/view?usp=sharing)
 
 ### Fri, August 20  2021 (Alex uses Balena part 5)
