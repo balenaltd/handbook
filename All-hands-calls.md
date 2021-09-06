@@ -6,11 +6,18 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+Mon, 6 September  2021 
+* [Meeting](https://docs.google.com/document/d/1PfB2x7--aAcHIo59fuUDh34OiZZa4QLKMsKYcISJdE8/edit?usp=sharing)
+* [Video]()
+* [Audio]()
+* [Attendees]()
+
+
 Mon, August 30 2021 
 * [Meeting](https://docs.google.com/document/d/1py4WMFTMMGpv04mUDowo3NnqnC9UBzGbAlUAYTmVJoo/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1wwvEWQcNjQtUYK5JZD5cYiUVNl1Ud9St/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1vWFJ4e56jJIfDBOYCkanekmvHpjk93qJ/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1YGAe1bP9ekz9O1p7q79jhEgfFzqkjfLB/view?usp=sharing)
 
 
 Mon, August 23 2021 
