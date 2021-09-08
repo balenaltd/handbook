@@ -8,7 +8,7 @@ While we have been investing some time and resources to keep this wiki up to dat
 
 **balenaLabs Residency**
 
-As a new joiner, you will begin your balena life by joining the balena labs team for a residency. balenaLabs (Labs) is an autonomous, public-facing, research and experimentation team within balena. During your residency, which is normally a month, you will be tasked with creating a project and developing it through a full lifecycle, from ideation to publicising it on our balena blog. The labs team will help you every step of the way, and you will gain a "project sherpa" who will guide you. 
+As a new joiner, you will begin your balena life by joining the balena labs team for a residency (meaning a project/experiment of your own, details [here](https://github.com/balena-io/balena-io/wiki/balena-labs-residency)). balenaLabs (Labs) is an autonomous, public-facing, research and experimentation team within balena. During your residency, which is normally a month, you will be tasked with creating a project and developing it through a full lifecycle, from ideation to publicising it on our balena blog. The labs team will help you every step of the way, and you will gain a "project sherpa" who will guide you. 
 This process will help you live the balena user experience, get to know how we work, meet people and find problems you are keen to work on once your residency comes to an end.
 More details about labs can be found [here](https://github.com/balena-io/balena-io/wiki/balenaLabs)
 
