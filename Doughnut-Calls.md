@@ -7,3 +7,5 @@ If for some reason no-one shows up in the call (possibly due to last minute sche
 If you know you will be unable to attend one or several of these calls, there is a Doughnut Opt-outs tab within the Team Model Google sheet where you can exclude yourself from these meetings for any period of time. You can find that document [here](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1439596851). 
 
 If you are curious on how the Doughnut scheduler works, you can find more details here: https://github.com/balena-io/doughnut-scheduler/blob/master/README.md
+
+_* Please note that we are testing a new approach and have moved to super doughnut calls. As the attendance had dropped, we thought to create a bigger pool for each call and see how it goes :)_
