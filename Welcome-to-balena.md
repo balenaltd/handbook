@@ -4,7 +4,7 @@ We are all excited to have you here and we look forward to working with you and 
 
 This wiki will provide you with some key information and an overview of how we work. Take your time reading through to familiarize with all the applications and services you will be using soon, before jumping on them. This wiki will not cover everything, so you are encouraged to start interacting with the team to get to know everyone and learn more about the exciting projects they are working on! 
 
-While we have been investing some time and resources to keep this wiki up to date, things change fast, so we would appreciate your feedback, ideas and observations to help us make it more welcoming and useful for everyone. Tell us what we have missed and what would help more! Feel free to post your feedback about your onboarding experience and the wiki in Flowdock using the `t/beginners` flow and the hashtag #teamfeedback. We expect you to have many questions, so take your time to ask them. Feel free to use the flow `t/beginners` to direct any general or technical queries to the team. 
+While we have been investing some time and resources to keep this wiki up to date, things change fast, so we would appreciate your feedback, ideas and observations to help us make it more welcoming and useful for everyone. Tell us what we have missed and what would help more! Feel free to post your feedback about your onboarding experience and the wiki in Flowdock (you will receive an invite to join on your Day 1) using the `t/beginners` flow and the hashtag #teamfeedback. We expect you to have many questions, so take your time to ask them. Feel free to use the flow `t/beginners` to direct any general or technical queries to the team. 
 
 **balenaLabs Residency**
 
