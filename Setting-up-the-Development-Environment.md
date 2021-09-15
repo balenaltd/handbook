@@ -1,1 +1,1 @@
-Moved to https://github.com/resin-io/process/blob/master/process/devenv/setting-up-the-development-environment.md
+Moved to https://github.com/balena-io/balena-on-balena/blob/master/docs/development.md
