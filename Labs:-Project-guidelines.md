@@ -1,9 +1,6 @@
-When building a project or taking on an initiative, and before releasing, consider these questions:
-
-Is the container image as clean and as small as it can be (consider using Alpine base images)?
-Are we using Dockerfile best practices?
-Does it work by default?
-If you were giving a live demo, would you ever have to say “that part isn’t finished yet”?
+A project is a personal piece of work, which is developed in a balenista's personal loop with help and support from the balena labs community. Any idea can be made into a project, with a few rules:
+1. It uses balena, or can attempt to break the security of balena, or can be a tool built using balena-sdk or balena-API or other balena components.
+1. You can't use special privileges to code the project. Any external user should be able to build the same project
 
 # Idea validation checklist
 Referenced in Validation to [Layer 1](https://github.com/balena-io/balena-io/wiki/balenaLabs/_edit#layer-1-brainstorm-build-and-promote) workflow
