@@ -10,20 +10,20 @@ Mon, 20 September  2021
 * [Meeting](https://docs.google.com/document/d/1dwo-bFKDvZ5eJ-r7Njjr-HH8XWNiizx2yVl6q7_D6do/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1MqaXhNnHczcSS6Kq96y8DVUZ7_gUyqfR/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1fXULxma93-7TrTKdVkaNbsRXiWGh4MpH/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1GRLHQTcibuShR8P9n2XdgVZ3D3Lcu1xO/view?usp=sharing)
 
 Mon, 13 September  2021 
 * [Meeting](https://docs.google.com/document/d/1StO0BVbHGCMEAJUHd1_SOPzZ4dTh2mNotlQnYm1epII/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1Z4_Zllnsq5uwSaxDfvoKEnhIJ2CR5u1o/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1caCaywZRNP1rnZtfr1I7oBDswssa8-pm/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1-0CZaCdh61TCivNXOo5GrpfTySniryOB/view?usp=sharing)
 
 
 Mon, 6 September  2021 
 * [Meeting](https://docs.google.com/document/d/1PfB2x7--aAcHIo59fuUDh34OiZZa4QLKMsKYcISJdE8/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1RwNvGBS43FIMJ931nn8fRIOpW1bwOYe7/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1GFoFXO_uR8nQL56WZqujsfe7pR7pdIZl/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1rMMFsvj42MiqIeJWOAATb_jOtqCrQmvc/view?usp=sharing)
 
 
 Mon, August 30 2021 
