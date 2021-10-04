@@ -88,7 +88,7 @@ Lots of accumulated knowledge based on previous incidents. What to do, when, etc
 
 Recommended reading *as preparation for taking on-call duties*
 
-- Jellyfish FAQs, filter by `topic is devops`: https://jel.ly.fish/view-all-faqs
+- Jellyfish FAQs, filter by `topic is devops`. We recommend saving the filtered list as a view: https://jel.ly.fish/view-all-faqs
 
 
 ### 5. SSH access
