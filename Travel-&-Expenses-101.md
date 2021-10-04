@@ -45,6 +45,10 @@ Please check out [this guide](https://docs.expensify.com/setup-for-submitters/da
 
 Contractors should upload any expenses to their Deel account, more information can be found [here](https://github.com/balena-io/balena-io/wiki/Deel-(Invoicing))
 
+## How do I submit expenses in a foreign currency
+
+When you expense something in a foreign currency (other than the currency you are getting paid in), we suggest that you expense the amount that appears in your bank statement. That will include any relevant fees (conversion) and what you pay for the interbank rate.
+
 ## Is there a limit on the money I can spend on food while I'm traveling?
 
 In balena, we’re trying to maintain a friendly environment to work in. Thus, we have decided not to put a spending limit for employees on food. However, let’s not forget that balena is still a startup. Just for reference, an amount of 45$ per person is within logical standards (10$ Breakfast, 15$ Lunch, and 20$ Dinner). This is a sample of goodwill from balena towards its employees that a sensible way of spending money when traveling is embraced. 
