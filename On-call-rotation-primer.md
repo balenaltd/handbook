@@ -8,6 +8,7 @@ On-call rotation primer
 0. (async) Request credentials for the services you will find in the [[SRE Resources]] wiki article.
 1. Read this doc
 2. Read the [DevOps Playbook](https://jel.ly.fish/view-all-faqs) (topic filter: `devops`)
+3. Check your DevOps on-call schedule in [the DevOps calendar](https://calendar.google.com/calendar/u/0?cid=Y19rdG43azdoZ2I4MjZsMThtbGw0aWxwamJsOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) or in VictorOps.
 
 
 ## II. The basic on call procedure
@@ -87,13 +88,16 @@ Lots of accumulated knowledge based on previous incidents. What to do, when, etc
 
 Recommended reading *as preparation for taking on-call duties*
 
-- github live page: https://balena-io.github.io/devops-playbook/
+- Jellyfish FAQs, filter by `topic is devops`: https://jel.ly.fish/view-all-faqs
 
 
 ### 5. SSH access
 
-TODO: expand
+Services running on balenaCloud can be accessed using the balenaCloud dashboard web terminal or by using the `balena ssh` CLI command. Most of the servers running on Hetzner are running balenaOS and connected to balenaCloud.
 
+Almost all EC2 instances running in our AWS environments can be accessed using [AWS CLI](https://aws.amazon.com/cli/) with the [Session Manager Plugin](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html).  Admin access to the environments are required to have SSH permissions to access the EC2 instances.
+
+The ARM build servers running on Packet.net/Equinix are still accessed using the regular SSH client.  Please ask DevOps to add your keys to the servers to be able to access them.
 
 
 ### 6. AWS console
@@ -168,13 +172,13 @@ TODO: expand
 
 ### 10. Nodeping
 
-TODO: expand
+Nodeping contains periodic healthchecks that ping the balenaCloud endpoints.  This service triggers webhook calls to Statuspage & VictorOps when a service is inaccessible.  This is usually one of the first things to check to see what response has been received from the service being checked.
 
 
 
-### 11. Packet.net (arm builders)
+### 11. Equinix/Packet.net (ARM builders)
 
-- terraform
+- The servers hosted in Equinix are provisioned using Terraform: [environment-production repo](https://github.com/balena-io/environment-production/blob/balena-api-switch-replica/terraform/packet/packet_devices.tf)
 - log in, see statuses, if anything's gone wrong
 
 TODO: expand
