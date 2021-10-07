@@ -15,7 +15,7 @@ Primary:
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
 * [Balena Forums Moderator Access - Discourse](https://forums.balena.io/) You can use [this invitation link](https://forums.balena.io/invites/6a98ca4583c9f16879dd523f35a4c60b) to get access to the forums. Moderation access needs to be requested though once you have signed up.
-* [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg)
+* [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg?resourcekey=0-4J9GBKcWBSkPJmTyxuwq5Q&usp=sharing)
 
 Depending on your role and team you may have access to additional tech-related, biz-related or team-related tools. Also, if you are employed as a contractor you will have access to [Deel](https://www.letsdeel.com/) for invoicing etc, while others employed as employees will have access to [Expensify](https://www.expensify.com/) for examples. You will receive invites to any necessary services on Day 1 and then others will follow as they are needed. 
 
