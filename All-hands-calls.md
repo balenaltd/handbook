@@ -8,8 +8,8 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, 25 October  2021 
 * [Meeting](https://docs.google.com/document/d/1rqRVVZO0h9i1DLaHH302xopdJDjjYSmBiN7TZx3pc7g/edit?usp=sharing)
-* [Video]()
-* [Audio]()
+* [Video](https://drive.google.com/file/d/1GgEwjTvnwoduHBfVqPQv4HvRXRzJ52WG/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1g_DpDadwZsdV1YR8rQvywO_oWBAtvuAl/view?usp=sharing)
 * [Attendees]()
 
 Mon, 18 October  2021 
