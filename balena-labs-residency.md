@@ -37,6 +37,11 @@ To complete your mission, you need to let the whole world know about your projec
 
 When the time is right (your Sherpa will help you know) post a message in the outreach flow and let folks know. They will help you get going with a blog post template and some guidance. They'll even design you some cool graphics for your post, and jam on your writing with you to make it read and look amazing.
 
+### Examples of working in the open and talking about your project
+* [Post build logs on the balenaForums](https://forums.balena.io/c/show-and-tell/92) to show off your progress, ask questions, and get ideas from our balena community
+* [Join an episode of the IoT Project Clinic](https://www.youtube.com/watch?v=azlpPA2GSNo&list=PLT5WZl9m5WoPUkPJG4_Q8y87gaDwqk6Kk&index=1) to talk about your project and ask the "crew of the week" questions, and maybe even answer questions from the community
+* Create a full project post ([example here](https://www.balena.io/blog/how-i-built-a-video-game-prototype-with-custom-hardware-and-balena/)) that shows other users how to get started with their own working version of your project
+
 ### For the very ambitious folks
 If you really love your project and want the world to know about it, we'll also help you polish it up and add it to balenaHub. Other amazing options available include: creating a demo video, livestreaming a build, or even creating your own mini website about the project using Landr (see: [balenaSound](https://sound.balenalabs.io)). The goal is to take your hard work and inspire other fleet owners or edge developers to try it out and build their own thing.
 
