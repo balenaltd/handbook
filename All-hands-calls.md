@@ -10,7 +10,7 @@ Mon, 25 October  2021
 * [Meeting](https://docs.google.com/document/d/1rqRVVZO0h9i1DLaHH302xopdJDjjYSmBiN7TZx3pc7g/edit?usp=sharing)
 * [Video](https://drive.google.com/file/d/1GgEwjTvnwoduHBfVqPQv4HvRXRzJ52WG/view?usp=sharing)
 * [Audio](https://drive.google.com/file/d/1g_DpDadwZsdV1YR8rQvywO_oWBAtvuAl/view?usp=sharing)
-* [Attendees]()
+* [Attendees](https://drive.google.com/file/d/1c6Zvi96Xez1o8Yhv-CcM18MMnEXi7Clt/view?usp=sharing)
 
 Mon, 18 October  2021 
 * [Meeting](https://docs.google.com/document/d/1eCYhisvvaN9VnyUsLoPR5MDvYgN_umBtS5HxOvqCxnI/edit?usp=sharing)
