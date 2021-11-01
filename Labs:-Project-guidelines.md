@@ -3,7 +3,7 @@ A project is a personal piece of work, which is developed in a balenista's perso
 1. You can't use special privileges to code the project. Any external user should be able to build the same project
 
 # Idea validation checklist
-Referenced in Validation to [Layer 1](https://github.com/balena-io/balena-io/wiki/balenaLabs/_edit#layer-1-brainstorm-build-and-promote) workflow
+Referenced in Validation to [Layer 1](https://github.com/balena-io/balena-io/wiki/balenaLabs/#layer-1-brainstorm-build-and-promote) workflow
 * Does running this project on balena help the user (IoT tinkerer/hacker, fleet owner, etc.?
 * Are we lowering the bar of entry to a scaled use case?
 * Are we using or improving upon any existing blocks?
