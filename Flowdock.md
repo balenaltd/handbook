@@ -21,7 +21,7 @@ Thirdly, there’s the failing part of having a conversation in public. As menti
 
 <img alt="FlowDock Threads screenshot" src="https://lh5.googleusercontent.com/30wuav1RLnUOt1sM6l-ZNhRsP8a_6EU6MmFoyHmkcjcEpCrdfYZ2D42ME09ovCe4m18KkIa2HfToS7Lh0hRfzwR28fXHMlvCd16sYqweY_ZVTMzQU48ZUp6QOPSlrOno_lkxSgbA" align="left" height="400">
 
-Conversation threads is a Flowdock feature that can be a head-scratcher for new users, but an absolute must for everyone else, so make sure you learn how to use them. When looking at a room in flowdock, you may see various colours on the left of a message.
+Conversation threads is a Flowdock feature that can be a head-scratcher for new users, but an absolute must for everyone else, so make sure you learn how to use them. When looking at a room in flowdock, you may see various colors on the left of a message. Those indicate the thread they were posted in. Click on the colored arrows and the throw view will open, where you can respond. Just writing in the flow will create a new thread
 
 ### If you are used to Slack/MatterMost/...
 
