@@ -163,3 +163,6 @@ Papagal is a Chrome and Firefox extension that improves user experience while us
 We have had a handful of times when Flowdock went down for some time. In case this happens again and it doesn't come back shortly, Google Chat is our backup option to communicate with the team. You can log in with your existing @balena Google account: https://mail.google.com/chat/u/0/ 
 
 You can also use Jellyfish, of course, but since it's not set up as a teamwide chat app yet, it may not work well as a Flowdock replacement quite yet. 
+
+## All-Flow Search: Omni-search
+Check out the [Omni search tool](https://balena-io-playground.github.io/FlowdockOmniSearch/) to be able to search across Flowdock in one interface.
