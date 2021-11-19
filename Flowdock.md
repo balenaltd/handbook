@@ -45,9 +45,6 @@ If you are using [Papagal](https://github.com/balena-io/balena-io/wiki/Flowdock#
 
 Read more here: http://archive.is/xVcjA
 
-## Flowdock is best effort
-Besides being Async, Flowdock is also best effort. This means that you can’t depend on someone seeing or responding to a message. Messages get lost, notifications get missed. If you wanted an answer to something, don’t be afraid to ping that person again on the same issue.
-
 ## Set threads on the right
 Threads become much easier if you set them to come up on the right, where the “inbox” view usually is. This is a setting in the Flowdock preferences. Here’s how to do it:
 
@@ -61,6 +58,11 @@ Threads become much easier if you set them to come up on the right, where the �
 ![](https://lh5.googleusercontent.com/UIVK6i-QLtuaGLCxjjrBHzroBWmNfABH54Ha5TTxsCeKQpif0IuNJcW4NiX7jtKyR2vXhChlrjHGxc7_OAupsmgVHsgYiXFxeciYs-PJRblrKyBLJ1jnR4Xr6Q1YXH5b8C9DY6bE)
 
 Congratulations! Your threads will now appear on the right!
+
+![flowdock layout](https://user-images.githubusercontent.com/13220877/142558372-f80e6377-15c1-4ed6-b416-a4879b9d9384.gif)
+
+## Flowdock is best effort
+Besides being Async, Flowdock is also best effort. This means that you can’t depend on someone seeing or responding to a message. Messages get lost, notifications get missed. If you wanted an answer to something, don’t be afraid to ping that person again on the same issue.
 
 ## Using @team mentions appropriately
 Pinging the team can be done by using the @team tag. You can also ping everyone with @everyone. However, it is critical to ensure these tags are used carefully, to avoid notification overload. Only use the @team and @everyone tags if you want every single person in a group to see the message. If you want just one person, but you don’t know who, to see the message, either ping a few people, or ask someone to point you to the right person. An @team will typically notify more than 40 people, so make sure you use them when they are appropriate. Of course, when they are appropriate, have courage and use them proudly! If you need to notify everyone in the group, they are the right tool for the job.
