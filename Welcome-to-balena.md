@@ -8,6 +8,8 @@ While we have been investing some time and resources to keep this wiki up to dat
 
 Before you dive into your onboarding and your balenaLabs residency which will keep you busy for a while, you can start by reading about [The Methods and Motivations of Balena’s Organizational Structure](https://docs.google.com/document/d/13bNM-ynzgPa6yyP3HDir131P-Tgp-DxsJaz0CpLqyds/edit#). Enjoy and ask questions :)
 
+Check out this handy graphic to get to know your team and who does what: [virtual team magnets](https://docs.google.com/drawings/d/1wMHCHH6tQhbG1leM_06NtfoMGUMuvgthCddxH01xqD8/edit)
+
 **balenaLabs Residency**
 
 As a new joiner, you will begin your balena life by joining the balena labs team for a residency (meaning a project/experiment of your own, details [here](https://github.com/balena-io/balena-io/wiki/balena-labs-residency)). balenaLabs (Labs) is an autonomous, public-facing, research and experimentation team within balena. During your residency, which is normally a month, you will be tasked with creating a project and developing it through a full lifecycle, from ideation to publicising it on our balena blog. The labs team will help you every step of the way, and you will gain a "project sherpa" who will guide you. 
