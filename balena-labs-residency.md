@@ -20,7 +20,7 @@ So, what better way to find that friction than to *become* our user, make an IOT
 Ideally, your project is going to be something you are really passionate about. If you love all things security-related, then maybe build a firewall or a pen(etration) tester kit. Here are some handy [guidelines](https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines) as to what makes a good balena project. But more than anything, make something you really care about. The more you love your project, the more you're going to want the balena product to help you build and maintain it.
 
 ### My project idea is too big to fit into a month ###
-Work with the labs team and your sherpa to identify a first milestone (MVP) which you can fit into your residency. Then after your residency ends, your project continues to be yours to work on alongside your other work.
+After your residency ends, your project continues to be yours to work on alongside your other work. Hence work with the labs team and your sherpa to identify just the first milestone (MVP) which you can fit into your residency. For our personal projects, we used to have devoted regular hack Fridays, but now it is you and your team who decide allocation of your time for your projects.
 
 ### "I don't know what to make! Help!"
 **We get it:** not everyone comes into balena with a project idea in their back pocket. And some people don't know what they may want to build. Fear not, we have an [idea pool](https://github.com/balenalabs/balenalabs/projects/1) - currently on Trello but soon to move to a github project.
