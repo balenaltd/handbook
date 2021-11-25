@@ -25,12 +25,12 @@ Fill all the slots representing your normal working hours with 1s (indicating av
 
 Finding sufficient overlap between the team's availabilities is an ongoing challenge. The checkin scheduler can sometimes only find a solution by pushing a few people a week outside their hours, and then we reschedule ad hoc if this doesn't work. To help us find a better solution, we're adding another level of resolution to how you specify your working hours: the digit 3. So fill with 3s any slots that you would really prefer not be scheduled, but can potentially make it if (a) there's absolutely no other option, (b) you are pre-scheduled and pinged about this, and (c) you reserve the option to ack or decline on a case-to-case basis. (Obviously, you are considered afk if not pre-scheduled.) See the relevant [PSA](https://www.flowdock.com/app/rulemotion/t-process/threads/__s09UzVZMrkhd4nC7mY4W-5E9O) with an example. 
 
-When you join, your usual time zone is recorded for you in [Default Time Zones](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=2094979175) and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
+When you join, your usual time zone is recorded for you in [Default Location History](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=2119950634) and is taken into account automatically. You therefore only need to consider your local clock when filling in your preferences.
 
 
 #### Time zone overrides for travelling
 
-If you travel to another location and will be working from there, an override needs to be entered in [Time Zone Overrides](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=890329460). If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry with the relevant time zone.
+If you travel to another location and will be working from there, an override needs to be entered in [Location Override History](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1629407846). If your travel is booked by balena's operations team, they will create the entry for you, but if not, please make a one-line entry with the country, city and relevant time zone.
 
 
 #### Calamari and Google Calendar events
@@ -40,7 +40,7 @@ For the purpose of scheduling a new event, your working hours alone are not enou
 - whether you are on leave (as recorded in the Calamari leave management software)
 - what other events you already have scheduled during those working hours ("busy" events as contained in your balena Google Calendar)
 
-Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities until the end of the next week to a sheet named [UK Time Team Availabilities](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1035327337). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
+Therefore, to get your actual availability for scheduling, functions run in the background once a day to read everyone's working hours, import overriding events from Calamari and Google Calendar, and write the whole team's aligned availabilities to a sheet named [UK Time Team Availabilities](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1035327337). This sheet is crucial for the scheduling algorithms, but can also be useful for you to check when other team members will be available.
 
 
 #### Remember to keep your preferences updated!
