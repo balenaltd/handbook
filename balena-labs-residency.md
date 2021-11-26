@@ -32,6 +32,9 @@ No worries, the labs team is here to help you. The best thing to do is to post o
 ## Building the project
 You will gain a mentor as part of your residency, called a [project sherpa](https://github.com/balena-io/balena-io/wiki/Labs:-Project-Sherpa). This person is an old hand at project building, and will help guide you. They will help you to understand how we work, the development loop(s) and what makes a good project into a great project. This role of project sherpa should be fluid, so although you will initially be paired with someone, that won't be set in stone. If your project is in an area where another balenaista has some expertise - that person can slide into the sherpa role for you.
 
+### Add it to balenaHub
+We want the resident projects to add to our catalogue of great things for users to make use of, and try the balena platform with. So the labs team will work with you to polish your project, test it and make sure it works well, and get it added to hub. The process to follow is [here](https://hub.balena.io/submit), but reach out to the team if you need more help.
+
 ## Publicize and promote your project
 To complete your mission, you need to let the whole world know about your project. But you don't have to do this alone, once again your team has your back. Balena has a whole [Outreach](https://www.flowdock.com/app/rulemotion/resin-propaganda) team of people who love helping others spread the balena word.
 
@@ -42,7 +45,7 @@ When the time is right (your Sherpa will help you know) post a message in the ou
 * [Join an episode of the IoT Project Clinic](https://www.youtube.com/watch?v=azlpPA2GSNo&list=PLT5WZl9m5WoPUkPJG4_Q8y87gaDwqk6Kk&index=1) to talk about your project and ask the "crew of the week" questions, and maybe even answer questions from the community
 * Create a full project post ([example here](https://www.balena.io/blog/how-i-built-a-video-game-prototype-with-custom-hardware-and-balena/)) that shows other users how to get started with their own working version of your project
 
-### For the very ambitious folks
-If you really love your project and want the world to know about it, we'll also help you polish it up and add it to balenaHub. Other amazing options available include: creating a demo video, livestreaming a build, or even creating your own mini website about the project using Landr (see: [balenaSound](https://sound.balenalabs.io)). The goal is to take your hard work and inspire other fleet owners or edge developers to try it out and build their own thing.
+## For ambitious folks
+You don't have to just leave it as a blog post, to publicise your awesome project. Other amazing options available include: creating a demo video, livestreaming a build, or even creating your own mini website about the project using Landr (see: [balenaSound](https://sound.balenalabs.io)). The goal is to take your hard work and inspire other fleet owners or edge developers to try it out and build their own thing.
 
 So, what are you waiting for? Get in touch and get started. :)
