@@ -23,7 +23,7 @@ Ideally, your project is going to be something you are really passionate about. 
 After your residency ends, your project continues to be yours to work on alongside your other work. Hence work with the labs team and your sherpa to identify just the first milestone (MVP) which you can fit into your residency. For our personal projects, we used to have devoted regular hack Fridays, but now it is you and your team who decide allocation of your time for your projects.
 
 ### "I don't know what to make! Help!"
-**We get it:** not everyone comes into balena with a project idea in their back pocket. And some people don't know what they may want to build. Fear not, we have an [idea pool](https://github.com/balenalabs/balenalabs/projects/1) - currently on Trello but soon to move to a github project.
+**We get it:** not everyone comes into balena with a project idea in their back pocket. And some people don't know what they may want to build. Fear not, we have an [idea pool](https://github.com/balenalabs/balenalabs/projects/1) .
 Choose something from the ideas pool, and assign yourself to it. Done! :)
 
 ### "I've looked at the ideas pool, and I still don't know!"
