@@ -8,9 +8,9 @@ This is the call where all balenistas join once per week and get notified of the
 
 Mon, 13 December 2021 
 * [Meeting](https://docs.google.com/document/d/1yf5phz6WtU3Cgqp3MqgZUpLh0bSzBVs1VGATm5P7ruw/edit?usp=sharing)
-* [Video]()
-* [Audio]()
-* [Attendees]()
+* [Video](https://drive.google.com/file/d/1LVqVroPBVjgvSYmLIaps-MvcucPRePBy/view?usp=sharing)
+* [Audio](https://drive.google.com/file/d/1vl57HZnNfvVr8xtOy95KOOtbcTMxflO1/view?usp=sharing)
+* [Attendees](https://drive.google.com/file/d/1a6KDJ5eRagGwLTZ7HKI-qcjaQJdzOVLW/view?usp=sharing)
 
 Mon, 06 December 2021 
 * [Meeting](https://docs.google.com/document/d/1-Ta2te8bNlZ3-sBH5xKINBdvNqIi2zwa4Vbh_-OslTU/edit?usp=sharing)
