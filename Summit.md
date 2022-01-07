@@ -9,8 +9,12 @@ Summit 2020 ended up looking quite a bit different than we had originally planne
 ### Vision Week 2021
 Six months after our virtual annual summit in September 2020, we held what we called a Vision Week, or a sort of virtual mini-summit. It was a chance for us to catch up on what we’re building, why we’re building it, and how we’ll build it, without waiting a full year between summits. The goal was to refresh and converge on our vision and priorities for the upcoming year and beyond. It was a good opportunity to zoom out and add important context and perspective to help guide our work.
 
+### Summit 2021
+Summit 2021 was our first attempt to run a hybrid Summit! We had smaller teams that met in London, Seattle, Athens and Delhi during Summit week, while about half of the team attended remotely. We did have some challenges as expected and we learned a ton. You can check out all the Summit 2021 recordings [here](https://drive.google.com/drive/u/1/folders/1Nm2pIsitmnP7iC-XK0y8Q1isV38yBLUy).
+
+
 ### Summit recordings
-We strongly encourage every new balenista to spend some time watching past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you some background and context, and help you understand balena better. You can chat with your buddy to get some help around which recordings might be more relevant and helpful to you and your area of work. 
+We strongly encourage every new balenista to spend some time watching past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you some background and context, and help you understand balena better. You can chat with your buddy to get some help around which recordings might be more relevant and helpful to you and your area of work. It would be helpful to start with watching some of the keynotes from the last summit or hack week to get up to speed with current work and goals. 
 
 Check this [summit recordings playlist page](https://github.com/balena-io/balena-io/wiki/Summit-recordings-playlist) and enjoy watching! 
 
