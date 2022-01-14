@@ -72,7 +72,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
 - Work in Progress
     - [LoopMVP; productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedm)
 
-- [Customer Success & Sales—–Docs/Wiki](https://docs.google.com/document/d/1Xy0hG0Mgj1JNc2loIVedLrHHTm3QN0hsuFNtTXaCQrE/edit?usp=sharing)
+- [Customer Success & Sales — Docs/Wiki](https://docs.google.com/document/d/1Xy0hG0Mgj1JNc2loIVedLrHHTm3QN0hsuFNtTXaCQrE/edit?usp=sharing)
 
 - balenaLabs
     - [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs)
