@@ -14,15 +14,17 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 * arch - _see the separate wiki page under the meetings section_
 
 * commercial
-> Commercial calls take place once a week and are led by the commercial team. It is the time and (virtual) place where we discuss the sales/customer success team process, pricing plans, and commercial strategy. Everyone is welcome to join.
+> Commercial calls take place once a week and are led by the Customer Success team. It is the time and (virtual) place where we discuss the sales/customer success team process, pricing plans, and commercial strategy. Everyone is welcome to join.
 
 * outreach
-> Outreach brainstorm calls take place once a week and are lead by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Add items to discuss with the `#outreach` tag in `s/Outreach` in FlowDock, and please include context such as links, docs, etc.. Everyone is welcome to join. 
+> Outreach brainstorm calls take place once a week and are led by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Add items to discuss with the `#outreach` tag in `s/Outreach` in FlowDock, and please include context such as links, docs, etc.. Everyone is welcome to join. 
 > Navigate Outreach brainstorm calls and topics in Jellyfish.
 
 ### productOS brainstorms
-* LoopMVP product
-* LoopMVP arch
+* product 
+>It takes place weekly and it is the time and (virtual) place where we discuss user experience (UX), feature ideas, and prioritization for productOS. 
+* arch 
+>It takes place weekly and it is the time and (virtual) place where we generally try to come up with the highest-possibly quality solutions to tackle non-trivial technical issues for productOS. 
 > _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder) and the [productOS team manual](https://docs.google.com/document/d/18G1vzYte-wSmoVLmPafG4gWm6eJ4ZUDCs40llWgc9s8/edit#heading=h.lj0g2s7qd8jq)._
 
 ### balenaLabs brainstorm - product/arch combined
@@ -36,7 +38,7 @@ Brainstorm calls are core to how we work and reflect our approach for finding th
 > CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss our company architecture - legal, financial and operational. Everyone is welcome to join.
 
 ## How to raise an item for a brainstorm call
-Each brainstorm call has a hashtag which when used on FD along with a short description of the problem and possibly a suggested solution to be discussed. Your message will create a Jellfish brainstorm topic card and given the appropriate category (i.e. loop). Read the hashtag section in the [Flowdock guide](https://github.com/balena-io/balena-io/wiki/Flowdock) to get more information and see some examples. Make sure that Hubot is added in the flow for hashtags to work and although you can use any hashtag in any flow, it is always better to raise a brainstorm using the relevant flow to generate valuable discussions, eg. using #commercial in the r/commercial flow. Sometimes there are more flows that seem relevant to raise a brainstorm item or a flow might be invite-only if it contains sensitive information, so you can decide what makes more sense! You can type `Hubot, show me your hashtags` to see the active hashtags you can use.
+Each brainstorm call has a hashtag. When used on FD and the relevant flow (eg. #team-os-arch in teamOS flow) along with a short description of the raised items and possibly suggested steps and solutions to be discussed it will automatically create a Jellfish brainstorm topic card in the appropriate category (i.e. loop). Read the hashtag section in the [Flowdock guide](https://github.com/balena-io/balena-io/wiki/Flowdock) to get more information and see some examples. Make sure that Hubot is added in the flow for hashtags to work and although you can use any hashtag in any flow, it is always better to raise a brainstorm using the relevant flow to generate valuable discussions, eg. using #commercial in the r/commercial flow. Sometimes there are more flows that seem relevant to raise a brainstorm item or a flow might be invite-only if it contains sensitive information, so you can decide what makes more sense! You can type `Hubot, show me your hashtags` to see the active hashtags you can use. You can also create a brainstorm topic directly on Jellyfish. Click on Brainstorms>Topics on the side bar on the left of your screen and then the Add Brainstorm Topic button.
 
 ## How to run a brainstorm call
 
@@ -44,9 +46,9 @@ Brainstorm calls are for everyone to both participate and run. I'll take the bal
 
 Once a team member raises an item for a brainstorm call as described above, that will be created in Jellyfish marked with the appropriate loop and category. You can find all submitted items [here](https://jel.ly.fish/view-all-brainstorm-topics). Once you are on that page, it is advised that you apply the appropriate filter for the brainstorm call you are running (eg. `category is "balena-io architecture"`), and save the view. Once saved, it will appear on the left-hand side menu which you can easily access later on.
 
-A couple of hours before the scheduled call, ping everyone in Flowdock to notify them that they need to participate in the brainstorm (you can do that using [this script](https://gist.github.com/LucianBuzzo/c04bfc4b343d233737e7c5f9b552d535) that you run inside the JF console and then paste it in Flowdock). Once everyone joins the call, you can share the list of topics on your screen and start tackling them one by one.
+A couple of hours before the scheduled call, ping everyone in Flowdock to notify them that they need to participate in the brainstorm (you can either use @team in the relevant flow or use [this script](https://gist.github.com/LucianBuzzo/c04bfc4b343d233737e7c5f9b552d535) that you run inside the JF console and then paste it in Flowdock). Once everyone joins the call, you can share the list of topics on your screen and start tackling them one by one. Most brainstorms are recorded for anyone can watch them later. You will find the recordings attached to the calendar invites. 
 
-When it comes to prioritizing topics, it's a good practice to ask if there is anything urgent that blocks them from progressing on their project. If there is nothing that is urgent, you can do them starting from the oldest first. Some things to keep in mind during a brainstorm:
+When it comes to prioritizing topics, it's a good practice to ask if there is anything urgent that blocks anyone from progressing on their project. If there is nothing that is urgent, you can start from the oldest first. Some things to keep in mind during a brainstorm:
 - If you see a topic is taking too long to resolve or is going nowhere, suggest having an ad-hoc call so other topics can be handled as well
 - Make sure people introduce the problem first before jumping to a solution. In general, you need to moderate [these principles for participating in a brainstorm](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit)
 - Remind people to summarize and close topics, especially important until everyone gets used to Jellyfish
