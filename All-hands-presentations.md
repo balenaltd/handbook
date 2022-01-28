@@ -7,7 +7,7 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 
 ## Recent Meeting Notes
 ### Fri, January 28  2022 (Analytics and Reporting: The quest to replace Chartio)
-* Video (coming soon)
+* Video (https://drive.google.com/file/d/14-uS5Q_kBUtyI8lc45E75Pu8g1P8Ah7V/view)
 * [Presentation](https://docs.google.com/presentation/d/1PlHK5SZxpfsaR0uGOafE9fWM7CIm3HcWeZaj-Avr2b8/edit?usp=sharing)
 
 ### Fri, December 10  2021 (Teamwork Balance)
