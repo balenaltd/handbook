@@ -6,6 +6,9 @@ We used to have a fixed slot for All Hands Presentations which was used for any 
 ### [All Hands Presentations Suggestions](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=1571426752)
 
 ## Recent Meeting Notes
+### Fri, January 28  2022 (Analytics and Reporting: The quest to replace Chartio)
+* Video (coming soon)
+* [Presentation](https://docs.google.com/presentation/d/1PlHK5SZxpfsaR0uGOafE9fWM7CIm3HcWeZaj-Avr2b8/edit?usp=sharing)
 
 ### Fri, December 10  2021 (Teamwork Balance)
 * [Document](https://docs.google.com/presentation/d/1DYwwAy4yqeuDM2wZErGdd-qaarKYb2hAjTlvvVtqWaI/edit#slide=id.gf8efa3a835_0_0)
