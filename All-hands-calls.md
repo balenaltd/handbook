@@ -6,6 +6,8 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
+[Mon, 31 January 2022](https://drive.google.com/drive/folders/1I5Ffi2pi3E9ty9oAtJNJhJPolWWgwF1A?usp=sharing)
+
 [Mon, 24 January 2022](https://drive.google.com/drive/folders/1_Ho2E9m-A1cFr9HARdKnaYjxAwunGv3F?usp=sharing)
 
 [Mon, 17 January 2022](https://drive.google.com/drive/folders/11i7MAnqjrxn6Flf1PDIaIQZAh5ooM9wp?usp=sharing)
