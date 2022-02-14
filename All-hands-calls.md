@@ -6,23 +6,27 @@ This is the call where all balenistas join once per week and get notified of the
 ### [Meeting Minutes Template doc](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
 ### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
 
-[Mon, 28 February 2022](https://drive.google.com/drive/folders/1SWQhII_rrxtUsOeT8YP4pLY21X_tgDF-?usp=sharing)
+February 2022
 
-[Mon, 21 February 2022](https://drive.google.com/drive/folders/1sDSU2mFwgSFHXlJhpn29c36mgMsXar8H?usp=sharing)
+* [Mon, 28 February 2022](https://drive.google.com/drive/folders/1SWQhII_rrxtUsOeT8YP4pLY21X_tgDF-?usp=sharing)
 
-[Mon, 14 February 2022](https://drive.google.com/drive/folders/1jIV-LNFIzo8cWiH5lXBPQwgg2Kovdt4B?usp=sharing)
+* [Mon, 21 February 2022](https://drive.google.com/drive/folders/1sDSU2mFwgSFHXlJhpn29c36mgMsXar8H?usp=sharing)
 
-[Mon, 07 February 2022](https://drive.google.com/drive/folders/1q1ndHY_XTAShv_JpvwBv24AkI39P2l6g?usp=sharing)
+* [Mon, 14 February 2022](https://drive.google.com/drive/folders/1jIV-LNFIzo8cWiH5lXBPQwgg2Kovdt4B?usp=sharing)
 
-[Mon, 31 January 2022](https://drive.google.com/drive/folders/1I5Ffi2pi3E9ty9oAtJNJhJPolWWgwF1A?usp=sharing)
+* [Mon, 07 February 2022](https://drive.google.com/drive/folders/1q1ndHY_XTAShv_JpvwBv24AkI39P2l6g?usp=sharing)
 
-[Mon, 24 January 2022](https://drive.google.com/drive/folders/1_Ho2E9m-A1cFr9HARdKnaYjxAwunGv3F?usp=sharing)
+January 2022
 
-[Mon, 17 January 2022](https://drive.google.com/drive/folders/11i7MAnqjrxn6Flf1PDIaIQZAh5ooM9wp?usp=sharing)
+* [Mon, 31 January 2022](https://drive.google.com/drive/folders/1I5Ffi2pi3E9ty9oAtJNJhJPolWWgwF1A?usp=sharing)
 
-[Mon, 10 January 2022](https://drive.google.com/drive/folders/1w90VCpbMOcZ-r6dfyBURnf1bVwMq_nfA?usp=sharing)
+* [Mon, 24 January 2022](https://drive.google.com/drive/folders/1_Ho2E9m-A1cFr9HARdKnaYjxAwunGv3F?usp=sharing)
 
-[Mon, 03 January 2022](https://drive.google.com/drive/u/1/folders/1AbcvetK3y0VU78TFW8m01oqcN8XrJ7CO) 
+* [Mon, 17 January 2022](https://drive.google.com/drive/folders/11i7MAnqjrxn6Flf1PDIaIQZAh5ooM9wp?usp=sharing)
+
+* [Mon, 10 January 2022](https://drive.google.com/drive/folders/1w90VCpbMOcZ-r6dfyBURnf1bVwMq_nfA?usp=sharing)
+
+* [Mon, 03 January 2022](https://drive.google.com/drive/u/1/folders/1AbcvetK3y0VU78TFW8m01oqcN8XrJ7CO) 
 
 Mon, 20 December 2021 
 * [Meeting](https://docs.google.com/document/d/1laGIEuLxgRNwA9hmxcaC00pjjAh6YOyAETW0r7MBAAg/edit?usp=sharing)
