@@ -47,7 +47,7 @@ The steps to run an architecture call are:
 
 #### Before
 
-- Just before the arch call (from 1 minute to right before the call) run the [postArchCallAgenda](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallAgenda.js) script. This basically refetches the agenda, posts it to flowdock and pings Petros.
+- Just before the arch call (from 1 minute to right before the call) run the [postArchCallAgenda](https://github.com/resin-io/supportHQ/blob/master/scripts/arch-call-agenda/postArchCallAgenda.js) script. This basically refetches the agenda and posts it to flowdock.
 - Reporters of arch call items will often forget to add #summary comments to items they discussed, or items may no longer be relevant, and will ping whoever posted the arch call agenda to remove their item from the flowdock list.
 
 #### During
