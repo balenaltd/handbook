@@ -55,8 +55,7 @@
     * Use global {npm,pip,cargo} installs with extreme caution. They are not checked by anyone
 * Do not install browser extensions except for absolutely essential ones
     * Most require full access to website data. Trivial to grab passwords and other data if any of them gets compromised
-    * Verify the author of extensions is a reputable entity. I (petrosagg) trust:
+    * Verify the author of extensions is a reputable entity. Some extensions that can be trusted:
         * Facebook Container (from Mozilla)
-        * Octa (planned replacement of passpack in balena)
         * uBlock Origin
         * papagal (self authored)
