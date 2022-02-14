@@ -1,10 +1,10 @@
 
 ### Password handling
-* Use a unique password for every single website
-    * Passwords leak all the time, even in cleartext
 * Prefer Google login with @balena.io account whenever possible
     * Google is a lot better at authentication than service X
     * One less password to worry about
+* If Google login is not an option, use a unique password for every single website (Do not use the same password for more than one service!)
+    * Passwords leak all the time, even in cleartext
 * Use a browser integrated password manager
     * Don’t use a password manager that relies on copy/pasting passwords. Most phishing attacks rely on you confusing the domain name. Browser automation defeats that
     * Store 2FA recovery codes in your password manager
