@@ -15,20 +15,7 @@ Google calendar has a feature which allows you to add a coworker’s calendar to
 
 Hint: if you’re a Mac user, you’ll find the following link really useful, https://calendar.google.com/calendar/syncselect.
 
-## Booking a Zoom room in Google Calendar
+## Booking a Zoom room or Google Meet in Google Calendar
 
-Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. We do this by booking a Zoom room in Google Calendar while creating an event or a meeting.
+Since all scheduled meetings, presentations and discussions are mainly done remotely, it is important to provide a video and audio communication platform where team members can participate. When creating a calendar event, you can choose between a Google Meet or a Zoom link. We would normally use Google Meet for smaller meetings and only use Zoom for company-wide calls as some features work better for the size of our team at the moment. 
 
-Please check out the following steps to include a zoom room when creating an event:
-
-1. When creating an event, click on the “ROOMS” tab next to the “GUESTS” tab.
-
-2. Click on “Available rooms only”, to see which rooms are available. 
-
-3. Then you will see a list of available rooms. If there aren’t any rooms available, there won’t be any options.
-
-4. Click on an available room.
-
-5. When you’re done creating the event, Google Calendar will share a Zoom URL.
-
-6. If there aren't any rooms available, just type in flowdock "get a zoom" and Hubot will provide an available room. (Note: The room which Hubot will provide is the room available only at that specific moment. Hubot cannot book a room in advance)
