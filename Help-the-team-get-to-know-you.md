@@ -8,3 +8,5 @@ While we encourage to keep all written communication in public and you will read
 
 **Quick advice before we move on to the specifics**: Once you join Flowdock, you will be introduced to the team by the balenista assisting your onboarding and the welcome pings will start coming your way! Take the opportunity to introduce yourself to everyone and tell us a little bit about you. You will find a [Flowdock guide](https://github.com/balena-io/balena-io/wiki/Flowdock) further down the wiki, but you might want to have a quick look [here](https://www.flowdock.com/help/chat) and [here](http://archive.is/xVcjA) and read about conversation threads and re-threading. Threading is something that all new balenistas who are not familiar with Flowdock get wrong, so don't worry if it gets you some time to get it right :)
 
+_Quick FD tip to make things easier! You will see all messages in chronological order. Press ESC+S so every thread is shown to the right and you can reply to the same thread from there. You can see the messages for one thread altogether on the right of your screen by clicking on the colored arrows on the left of the messages. If you need help, just ask!_
+
