@@ -1,4 +1,4 @@
-**Welcome to balena, you are officially a balenista!**
+**Welcome to balena [ba·lé·na], you are officially a balenista!**
 
 We are all excited to have you here and we look forward to working with you and getting to know you. You have already met a few other balenistas during the hiring process and you have your gear set up and ready for your Day 1 at balena! In addition to the hardware set up you have chosen for your home/office set up, you will receive a headset, a yubikey, and a balenaFin. We aim to send you these as closest as possible to your start date. We want you to start using balena as a user, spend some time to see what our users experience and provide your valuable feedback around the experience and documentation. 
 
