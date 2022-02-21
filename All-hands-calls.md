@@ -3,9 +3,8 @@
 This is the call where all balenistas join once per week and get notified of the most important things that occurred last week and plans for the next week. The agenda has sections completed by different teams, so different teammates take turns to present the different parts every week. It’s mandatory for everyone to be there if possible and it’s held on Mondays 15.00 UTC. You will find the agenda attached to the calendar invite and the link is shared with everyone earlier on the same day as well. 
 
 ## Meeting Notes - Check the links below for the agenda doc, audio and video files. 
-### [Meeting Minutes Template doc](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
-### [Future Meeting Minutes docs](https://drive.google.com/drive/folders/0B1xAg_Dw2iS8eFpScGhrUC1ZLU0)
-### [Past Meeting files](https://drive.google.com/drive/folders/0B8b02_AxDQoVQzdBMlE5Z0JhRkU?resourcekey=0-jdldODA6Bl0QuIoHkc9OoA&usp=sharing)
+### [Meeting Minutes Templat & Future Meeting Minutes docs](https://docs.google.com/document/d/1gRFdmEt37qSEiOIWshX2MrzoEEgOUOAcYOWEGq9GIZ8/edit)
+### [Past Meeting Minutes dics and recording files](https://drive.google.com/drive/folders/0B8b02_AxDQoVQzdBMlE5Z0JhRkU?resourcekey=0-jdldODA6Bl0QuIoHkc9OoA&usp=sharing)
 
 _Note that from February 21st 2022, we moved from using Zoom to Google Meet, so you can find the all-hands call recordings attached to the admin calendar invites. The recording will usually be available within an hour after the end of the call and in rare cases, we are advised to allow 24h._
 
