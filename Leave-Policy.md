@@ -37,14 +37,14 @@ A guide to booking time off using Calamari can be found [here](https://github.co
 ## Policy Details
 The policy is based on a “bank” system of accumulating and drawing down leave as described below. 
 
-* On their first day at balena (or on their anniversary date prior to transitioning to the new policy), team members will start with a 12 day balance in their leave “bank.”
+* On their first day at balena the team members will start with a 12 day balance in their leave “bank.”
 * Team members will accumulate 2.5 days, which will be added to their balance on their “anniversary day” of the following month (this equates to 30 additional days per year). For example, if you started on the 14th of May, you will have your 2.5 days added on the 14th of each following month.
 * The balance never expires and there is no need to “rollover” from year to year.
 * Team members can accumulate and carry up to 80  days of leave -  there is a ‘soft cap’ and ‘hard cap’ on their bank balance. 
-* The soft cap is reached at 40 days. On reaching the soft cap, team members can choose to either be paid out for any leave in their bank above  40 days, or continue accumulating leave in their bank.
-* Team members are responsible for managing their own leave bank, and will be automatically paid out for anything above the soft cap unless they explicitly request to continue accumulating leave. As of now, team members can set their payout preferences in their personal  tab in the Team Model. TeamOS will review all balances on the last working day of the month, for the payouts to be actioned in the following payroll. Team members will receive an email at the end of each month notifying them they have reached the soft or hard cap.
-* The hard cap is reached at 80  days. On reaching the hard cap, any leave in their bank above 80 days will be automatically paid out.
-* If the soft cap is reached and a payout is actioned, or if the hard cap is reached and automatic payout is initiated, the team member will be paid out the following month, at 70% of a normal working day’s pay. The calculation for the daily payout rate is: `Daily payout rate = 70% * annual salary / 52 weeks / 5 days`
+** The soft cap is reached at 40 days. On reaching the soft cap, team members can choose to either be paid out for any leave in their bank above  40 days, or continue accumulating leave in their bank.
+** Team members are responsible for managing their own leave bank, and will be automatically paid out for anything above the soft cap unless they explicitly request to continue accumulating leave. As of now, team members can set their payout preferences in their personal tab in the Team Model. TeamOS will review all balances on the last working day of the month, for the payouts to be actioned in the following payroll. Team members will receive an email at the end of each month notifying them they have reached the soft or hard cap.
+** The hard cap is reached at 80  days. On reaching the hard cap, any leave in their bank above 80 days will be automatically paid out.
+** If the soft cap is reached and a payout is actioned, or if the hard cap is reached and automatic payout is initiated, the team member will be paid out the following month, at 70% of a normal working day’s pay. The calculation for the daily payout rate is: `Daily payout rate = 70% * annual salary / 52 weeks / 5 days`
 * Bonus leave will also be included in your leave bank. For example, if you have accumulated 30 days “leave” but have also accumulated 10 days “bonus leave” this will be included in the same bank, and your total balance would be 40 days. Any leave you accumulate on top of these 40 days, whether it be standard or bonus leave, would follow the same soft and hard cap conditions as described above.
 * Team members can also “overdraw” their bank if circumstances require. For example, if a team member joins but has a long holiday planned within their first few months of being at balena, they can drop into a negative balance in their bank as needed. This creates an “IOU” that can be made up with future leave accumulation. For now, overdraws are limited to -10 days. If any team member leaves the company with a negative balance, this will be deducted from their final salary.
 * By default, leave requests will be “auto-approved.” Team members are responsible for communicating their upcoming leave with the rest of the team and making sure they are appropriately covered during their leave. Recommended notice for coverage would be at least a few days before if you cover a call or are a maintainer, 1 week for weekday support and where possible, 2 weeks for devops weekend rotations. For peak leave periods such as Summer and Christmas, as much notice as possible being given will help the team plan for this. Any requests over 10 business days may need to be approved by the strategy team to ensure sufficient coverage.
@@ -54,7 +54,7 @@ The policy is based on a “bank” system of accumulating and drawing down leav
 * Team members who want to take extended unpaid leave beyond their paid leave allocation should discuss this with a member of the strategy team. Unpaid leave will be considered on a case by case basis.
 * Part time contractors are not entitled to paid leave, but can book unpaid leave.
 * When a team member leaves the company, they will be paid out for any unused leave in their bank.
-* If a member of the team leaves the company before their first anniversary, or before the first anniversary of this policy being enacted (June 1st 2021), the 12 day starting balance will automatically expire, and team members will not be able to request these days, nor will they be entitled to be paid out for them. If you have a negative leave balance on your last day, these days will be deducted from your final paycheck.
+* If you have a negative leave balance on your last day, these days will be deducted from your final paycheck.
 
 
 ## Policy Explanation
@@ -75,8 +75,6 @@ Employees in Italy & Greece should start each calendar year with 12 days in thei
 We understand that team members may need to take a period of unpaid leave outside their paid leave allocation for various personal circumstances such as studying, travelling, looking after family etc. We want to be able to accommodate each individual team member as much as we can, and so will discuss this with each team member on a case by case basis to understand their needs, length of time they will need to be away, how we will cover this etc.
 
 As part time contractors work variable hours each month and aren’t fully dedicated to balena in their activity, they are not entitled to paid leave, but can book unpaid leave in order to communicate their absence with the rest of the team.
-
-If you leave the company before your first anniversary (or the anniversary of the new policy on June 1st 2021), the 12 day starting balance will expire and you will not be able to request or be paid out for it. This is to ensure things are fair for team members and the company - if someone left after 1 month, for example, it wouldn’t be fair for them to be paid out for 14.5 days of accumulated leave. Think of it as these 12 days “maturing” after one year in the bank system.
 
 
 
