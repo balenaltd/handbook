@@ -10,8 +10,7 @@ Let’s say you need to schedule a call where one of your colleagues needs to be
 Google Calendar has a feature that allows you to add a coworker’s calendar to your calendar. Let’s see how you can do that:
 
 1. Log in to your @balena.io e-mail account and go to calendar.google.com
-1. Click on the "gear" ⚙️ icon on the top-right to go to the Settings page
-1. Expand the "Add Calendar" drop-down list on the left
+1. Click on the "plus" ➕  icon at the right of "Other calendars" on the left navigation bar
 1. Select "Subscribe to calendar" and write the name or the @balena.io e-mail address of the coworker whose calendar you want to see and click on it
 1. Coworker’s calendar entries will show up in your calendar
 
