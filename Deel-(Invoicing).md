@@ -24,7 +24,7 @@ Once you have been paid, your automated invoice will be available to download af
 As part-time contractors invoice variable amounts depending on how many hours they have worked, they will be required to submit their number of hours worked each month, and this should be done by the 21st of each month.
 
 ### Expenses
-All expenses should be added to Deel before the 21st of each month using the “Adjust Amount” tool on your personal Deel dashboard. All expenses submitted must be uploaded with a receipt. If the expenses you wish to be reimbursed are in a different currency than the one you use to invoice, then please use the specific day exchange rate, which you can find from the Historical Currency Rates section from xe.com.
+All expenses should be added to Deel before the 21st of each month using the “Adjust Amount” tool on your personal Deel dashboard. All expenses submitted must be uploaded with a receipt. If the expenses you wish to be reimbursed are in a different currency than the one you use to invoice, then please use the specific day exchange rate, which you can find from the [Historical Currency Rates section of xe.com](https://www.xe.com/currencytables/).
 
 ### FAQs
 **Where can I find more information about exchange rates?**
