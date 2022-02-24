@@ -27,6 +27,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
   
   - Getting started with...
     - [Flowdock](https://github.com/resin-io/hq/wiki/Flowdock)
+    - [What if Flowdock goes down..?](https://github.com/balena-io/balena-io/wiki/If-Flowdock-goes-down)
     - [Google calendar](https://github.com/resin-io/hq/wiki/Google-calendar)
     - [Github](https://github.com/resin-io/hq/wiki/Github)
     - [Calamari](https://github.com/resin-io/hq/wiki/Calamari)
