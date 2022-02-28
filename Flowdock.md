@@ -17,6 +17,9 @@ Secondly, by having the conversation in private, you are then committed to conti
 
 Thirdly, there’s the failing part of having a conversation in public. As mentioned above, it’s not bad to fail and you should sometimes expect to fail. Discussing in public and learning to fail in public will help you be transparent and sincere. Public conversations achieve all that automatically. Public conversations are also discoverable by search years later, by someone who may have the same question. Public conversations also allow the rest of the team to know what you’re working on, what you like and don’t like to do, what you’re good at, and in general allows others to adapt to your strengths and weaknesses, and to steer you towards problems you will excel at. Private conversations prevent all of that serendipity from happening, and each of those things has to happen explicitly, and slowly.
 
+## Flowdock 101 Video:
+[![Flowdock 101 video](https://img.youtube.com/vi/wMtPpaf7ZeI/0.jpg)](https://www.youtube.com/watch?v=wMtPpaf7ZeI)
+
 ## Using threads
 
 <img alt="FlowDock Threads screenshot" src="https://lh5.googleusercontent.com/30wuav1RLnUOt1sM6l-ZNhRsP8a_6EU6MmFoyHmkcjcEpCrdfYZ2D42ME09ovCe4m18KkIa2HfToS7Lh0hRfzwR28fXHMlvCd16sYqweY_ZVTMzQU48ZUp6QOPSlrOno_lkxSgbA" align="left" height="400">
