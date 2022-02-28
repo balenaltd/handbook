@@ -20,7 +20,7 @@ So, what better way to find that friction than to *become* our user, make an IOT
 Ideally, your project is going to be something you are really passionate about. If you love all things security-related, then maybe build a firewall or a pen(etration) tester kit. Here are some handy [guidelines](https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines) as to what makes a good balena project. But more than anything, make something you really care about. The more you love your project, the more you're going to want the balena product to help you build and maintain it.
 
 ### My project idea is too big to fit into a month ###
-After your residency ends, your project continues to be yours to work on alongside your other work. Hence work with the labs team and your sherpa to identify just the first milestone (MVP) which you can fit into your residency. For our personal projects, we used to have devoted regular hack Fridays, but now it is you and your team who decide allocation of your time for your projects.
+After your residency ends, your project continues to be yours to work on alongside your other work. Hence work with the labs team and your guide to identify just the first milestone (MVP) which you can fit into your residency. For our personal projects, we used to have devoted regular hack Fridays, but now it is you and your team who decide allocation of your time for your projects.
 
 ### "I don't know what to make! Help!"
 **We get it:** not everyone comes into balena with a project idea in their back pocket. And some people don't know what they may want to build. Fear not, we have an [idea pool](https://github.com/balenalabs/balenalabs/projects/1) .
@@ -30,7 +30,7 @@ Choose something from the ideas pool, and assign yourself to it. Done! :)
 No worries, the labs team is here to help you. The best thing to do is to post on the /balenalabs flow on FlowDock and let everyone know you're struggling for ideas. This is a great opportunity for us all to get to know you better, find out the things you like to do, and brainstorm project ideas for you.
 
 ## Building the project
-You will gain a mentor as part of your residency, called a [project sherpa](https://github.com/balena-io/balena-io/wiki/Labs:-Project-Sherpa). This person is an old hand at project building, and will help guide you. They will help you to understand how we work, the development loop(s) and what makes a good project into a great project. This role of project sherpa should be fluid, so although you will initially be paired with someone, that won't be set in stone. If your project is in an area where another balenaista has some expertise - that person can slide into the sherpa role for you.
+You will gain a mentor as part of your residency, called a [project guide](https://github.com/balena-io/balena-io/wiki/Labs:-Project-Guide). This person is an old hand at project building, and will help guide you. They will help you to understand how we work, the development loop(s) and what makes a good project into a great project. This role of project guide should be fluid, so although you will initially be paired with someone, that won't be set in stone. If your project is in an area where another balenaista has some expertise - that person can slide into the guide role for you.
 
 ### Add it to balenaHub
 We want the resident projects to add to our catalogue of great things for users to make use of, and try the balena platform with. So the labs team will work with you to polish your project, test it and make sure it works well, and get it added to hub. The process to follow is [here](https://hub.balena.io/submit), but reach out to the team if you need more help.
@@ -38,7 +38,7 @@ We want the resident projects to add to our catalogue of great things for users 
 ## Publicize and promote your project
 To complete your mission, you need to let the whole world know about your project. But you don't have to do this alone, once again your team has your back. Balena has a whole [Outreach](https://www.flowdock.com/app/rulemotion/resin-propaganda) team of people who love helping others spread the balena word.
 
-When the time is right (your Sherpa will help you know) post a message in the outreach flow and let folks know. They will help you get going with a blog post template and some guidance. They'll even design you some cool graphics for your post, and jam on your writing with you to make it read and look amazing.
+When the time is right (your Guide will help you know) post a message in the outreach flow and let folks know. They will help you get going with a blog post template and some guidance. They'll even design you some cool graphics for your post, and jam on your writing with you to make it read and look amazing.
 
 ### Examples of working in the open and talking about your project
 * [Post build logs on the balenaForums](https://forums.balena.io/c/show-and-tell/92) to show off your progress, ask questions, and get ideas from our balena community
