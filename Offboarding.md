@@ -3,6 +3,7 @@ Offboarding is the last stage of a balenista's journey and whatever the reasons 
 
 ## Offboarding kick-off
 We are always sad to hear that a balenista has decided to move on but as with everything, we aim for a positive experience during offboarding. After talking to a mission team member (the person guiding your work) you will need to put your decision in writing and to email it to them and cc peopleops@balena.io. After we respond to acknowledge that we have received your email, you will receive an email outlining the next steps for your offboarding. We will use your personal email address for all offboarding communication to make sure you have access to everything discussed beyond your last day too if needed. 
+
 _Things to consider:_ You can find your notice period in your employment contract/ contractor agreement and your leave balance on Calamari. 
 
 ## Handover
