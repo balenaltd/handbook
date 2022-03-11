@@ -2,7 +2,7 @@ Here’s a guide of how-to-use the main features of our time-off service Calamar
 
 Our full Leave policy can be found [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
 
-At first, you can log in with your @balena.io e-mail account, using the Google login option.
+At first, you can [log in](https://balena.calamari.io/o/sign-in) with your @balena.io e-mail account, using the Google login option.
 
 To request time-off just press “Request absence” then check out the following screenshots.
 
