@@ -4,7 +4,7 @@ We have the following fixed-time meetings on the Balena Admin calendar, recurrin
 * all-hands calls; this is our weekly company wide call
 * brainstorms, including per-loop architecture calls and product calls
 
-Then, we also have check-in calls for specific projects that are either fixed or dynamically scheduled from week to week, focussing on tracking the progress and updates on individual projects and pipelines. Depending on what we are working on at the time, some calls might be added with a fixed cadence and stay on the calendar for a while, or these might be added on a more ad-hoc basis and for a limited time for smaller projects or when focusing on kicking off a project. Regardless, you can join any call! 
+Then, we also have check-in calls for specific projects that are either fixed or scheduled ad-hoc from week to week, focussing on tracking the progress and updates on individual projects and pipelines. Depending on what we are working on at the time, some calls might be added with a fixed cadence and stay on the calendar for a while, or these might be added on a more ad-hoc basis and for a limited time for smaller projects or when focusing on kicking off a project. Regardless, you can join any call! 
 
 Not all, but most calendar invites will also have a spec or relevant document linked to give you more information about the call. If you want to know more about how meetings can be scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
 
