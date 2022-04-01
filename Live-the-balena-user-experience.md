@@ -33,6 +33,4 @@ Here are some ideas to accompany your feedback, you can use these as prompts or 
 
 ## Final Thoughts
 
-Your first day is a unique time, one where you’re relatively unbiased about the product, and we want to make sure we get the most honest and detailed feedback we can.
-
-If you don't get to do this on Day 1, that's perfectly fine! We know Day 1 can go fast and there is a lot of information to process and steps/tasks to complete. We encourage you to make a note of this and spend some time using the product during your first few days though so we get that fresh feedback which is greatly important to us!
+Your first month is a unique time, one where you’re relatively unbiased about the product, and we want to make sure we get the most honest and detailed feedback we can. We always welcome feedback, so please do share your thoughts! 
