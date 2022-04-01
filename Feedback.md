@@ -33,9 +33,8 @@ Here are ways you can help make balena feedback successful:
 These are anonymous messages you can send containing any feedback, thoughts, and ideas you'd like to share. This is a free text box you can always access (log into TinyPulse to find it). The suggestions will usually be transferred to the AMA section of the upcoming All Hands call to be addressed. 
 
 ### Cheers for Peers
-Since we don't have a way to mention "hey, good job with that project" while passing each other in the hallway, Cheers for Peers are a way to provide a way to give kudos to each other. Honestly, this is a default feature of TinyPulse, so we're just going to kind of go with it and see what happens. Currently, only the person sent a Cheers will see it (so it's like the hallway scenario), though we could opt to make all Cheers public (more like a Facebook-style wall). You can start by sending Cheers to balenistas that have supported you through your first few weeks :)
-
-**Cheers for Peers are not anonymous by default**, but there's an option to make it anonymous. Admins can not see who sent anonymous cheers.
+Since we don't have a way to mention "hey, good job with that project" while passing each other in the hallway, Cheers for Peers are a way to provide a way to give kudos to each other. We have a section in the all-hands call agenda where you can add your kudos and cheers :) 
+Alternatively, cheers for peers is also a default feature of TinyPulse, however, only the person who sent or received a Cheers will see it. You can start by sending cheers and kudos to balenistas that have supported you through your first few weeks :)
 
 ## Notes
 Some of this information is straight-up taken from TinyPulse's intro slide deck for employees, which you can read all of [here](https://docs.google.com/presentation/d/1mqEpEpfpxTL8HrW4M6wEoJvcU8YLv7auRoqCSoUkt8k/edit#slide=id.p16).
@@ -45,4 +44,4 @@ Both your survey responses and suggestions are completely anonymous. Only admins
 * Your responses in one week are not associated to those in other weeks
 * Filters can be created associated with attributes about you, but results won’t show up until at least 5 people of the same filter have responded (we can't figure out who you are by filters)
 
-The strategy team can access the results, including all responses and suggestions from balenistas that remain anonymous. 
+The mission team can access the results, including all responses and suggestions from balenistas that remain anonymous. 
