@@ -88,4 +88,4 @@ Under Greek labour law, vacation days and public holidays are considered separat
 | Ten years of employment in a company or twelve years working history           | 25 days  |
 | Twenty-five years working history       | 26 days  |
 
-Employees are also entitled to local and national public holidays, which will vary from year to year. For 2020, this amounts to 10 days which fall within the working week. Any employees who are entitled to more than 20 days vacation + 10 local/public holidays will have their 2.5 days/month accrual adjusted to represent this fact. 
+Employees are also entitled to local and national public holidays, which will vary from year to year. For 2020, this amounts to 10 days which fall within the working week. Any employees who are entitled to more than 20 days vacation + 10 local/public holidays will have any extra leave days added to their bank for the respective year to represent this fact. 
