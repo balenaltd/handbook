@@ -1,7 +1,7 @@
 balena team member access 
 
 1. Sign up to [dashboard.balena-cloud.com](https://dashboard.balena-cloud.com/signup) with your @balena.io e-mail account
-1. Sign up to [dashboard.balena-staging.com](https://dashboard.balena-staging.com/signup) with your @balena.io e-mail account
+1. Sign up to [dashboard.balena-staging.com](https://dashboard.balena-staging.com/signup) with your @balena.io e-mail account (the verification e-mail for staging environment will be sent to [Front](https://front.com/) on `D/staging`)
 1. Let the Operations team know what your username is, in the `t/operations` flow in Flowdock, using @@operations. Use the **#access** hashtag in your request. 
 
 **balena team member access** means that you have access to create microservices & essentials applications, while free users can only create starter ones. Once your team member subscription is added by the Operations team, you can check your orgs billing page and see that you are on the "team member" plan. 
