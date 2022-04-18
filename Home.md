@@ -59,7 +59,7 @@ Balena Process Guidelines are maintained at [balena-io/process](https://github.c
     - [Our offices & company directory](https://github.com/balena-io/balena-io/wiki/Our-offices-&-company-directory)
     - [Leave policy](https://github.com/balena-io/balena-io/wiki/Leave-Policy)
     - [Parental leave policy](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy)
-    - [Sick & personal leave policy](https://github.com/balena-io/balena-io/wiki/Sick-&-Personal-Leave-Policy)
+    - [Sick & emergency leave policy](https://github.com/balena-io/balena-io/wiki/Sick-&-Emergency-Leave-Policy)
     - [Deel (Invoicing)](https://github.com/balena-io/balena-io/wiki/Deel-(Invoicing))
     - [Ordering | Hashtag Order Process](https://github.com/balena-io/balena/wiki/Ordering-%7C-Hashtag-Order-Process)
     - [Reimbursement of business expenses](https://github.com/resin-io/hq/wiki/Reimbursement-of-business-expenses)
