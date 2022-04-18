@@ -12,7 +12,7 @@ A guide is the project builder's "go to" for questions about how to build their 
 
 A project builder and a guide will typically catch up once a week (or more if they want) to chat through the project, where it has got to, and what is next. The guide will guide the project builder in the best way to use the balena team to solve issues and find out information. They are versed in the tools that balena use, such as the various flows in flowdock, finding documents in Google Drive and how to use Jellyfish.
 
-As a guild you you will also have the following responsibilities during the project builder's residency:
+As a guild, you you will also have the following responsibilities during the project builder's residency:
 * Set up a weekly (or more) sync with the project builder
 * Help them choose a project
 * Help them scope the project to approximately one month or find the MVP of a larger project for the month
