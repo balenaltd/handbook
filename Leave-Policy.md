@@ -5,7 +5,7 @@ _Revised: February 22nd 2022_
 ## Intro 
 The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It moves us to a system that is streaming, rather than arbitrarily batched. It should be easy to understand, simple for team members to manage, incentivize the right behavior, and be flexible to different preferences. Team members are granted a generous amount of paid leave to take the amount of leave that’s right for them, but not feel pressure to take more leave than they would prefer to. 
 
-Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & personal leave policy](https://github.com/balena-io/balena-io/wiki/Sick-&-Personal-Leave-Policy).
+Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & emergency leave policy](https://github.com/balena-io/balena-io/wiki/Sick-&-Emergency-Leave-Policy).
 
 A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](https://github.com/balena-io/balena-io/wiki/Calamari).
 
@@ -28,7 +28,7 @@ A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-i
 
 **Parental Leave:** 12 weeks (60 days) additional leave given to expecting parents. (Full parental leave policy found [here](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy))
 
-**Sick & Personal Leave:** days which can be taken for when you're ill or need to attend to family matters etc. (Full Sick & Personal leave policy found [here](https://github.com/balena-io/balena-io/wiki/Sick-&-Personal-Leave-Policy))
+**Sick & Emergency Leave:** days which can be taken for when you're ill or need to attend to family matters etc. (Full Sick & Emergency leave policy found [here](https://github.com/balena-io/balena-io/wiki/Sick-&-Emergency-Leave-Policy))
 
 **Team Members:** all full time members of the team at balena.
 
