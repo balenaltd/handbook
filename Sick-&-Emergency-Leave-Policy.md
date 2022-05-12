@@ -14,8 +14,12 @@ If you’re going through a difficult time, are concerned about your ability to 
 
 In case you would like to attend a conference or event during your working hours, our general approach is: 
 
-* if you are attending to speak about or somehow represent balena, then you can do so during your working hours and we will even pay for you to attend
-* if you are attending to learn about something related to balena, then you can do so during your working hours but you will have to pay your own way (we advise that this should be no more than 5 days per year)
-* if you are attending to learn about something unrelated to balena, then you should take PTO
+* If you are attending to speak about or represent balena (e.g. staffing a balena table), then you can do so during your working hours and we will even pay for your travel, stay, and conference fees.
+* If you are attending to learn about something related to balena, then you can do so during your working hours and we will pay for conference fees.
+* If you are attending to learn about something unrelated to balena, then you should take PTO.
 
-In case the event takes half or a full day and as we don't have a specific type of leave to request for attending events that are relevant to your work and learning, please make sure you let the team know that you will be out. If unsure, you can discuss with the person who guides your work or ping Alison or Alex regarding the time you need.  
+We ask that you attend local conferences as much as possible to decrease travel costs and that after the conference you find a way to share what you learned with the rest of the team.
+
+We have specifically left this policy flexible so it won't be an obstacle for the conference or event participation. Please be reasonable in the number and cost of events you attend.
+
+In case the event takes half or a full day and as we don't have a specific type of leave to request for attending events that are relevant to your work and learning, please make sure you let the team know that you will be out. If unsure, you can discuss with the person who guides your work or ping Alex regarding the time you need.
