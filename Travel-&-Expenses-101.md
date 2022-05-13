@@ -9,6 +9,8 @@ Please note that we are trying to minimize the effort you need to put on this, t
 ## How should I book my flight & accommodation? 
 In order to book your flights & accommodation please first get in touch with the Operations Team. Contact the Operations team using @@operations in the `t/operations` flow. If your trip has been discussed in a different flow, it is always useful to link it for context. Operations will help you with your flight and accommodation for your trip. We currently use [Travelperk](https://www.travelperk.com/) for booking flights and accommodation, so you will most likely be advised to book everything through there and Operations can approve. 
 
+If you are traveling to Seattle to work from the _Seattle office_, we have a corporate agreement with a Hotel nearby, so let the Operations Team know and they will book a room for you. Note that you will need to provide proof of ID and a credit card for any incidentals.
+
 ## How should I pay for my expenses while I'm traveling?
 
 All the expenses made for the duration of your business travel are covered by balena. For clarification purposes, these expenses include accommodation, food, business meals, transport and any unforeseen hardware required to perform the task at hand. Accommodation most of the time is prepaid or handled by the Operations Team. Meals, transportation and other expenses are paid by the employee and reimbursed. You can submit expenses through Expensify if you are an employee or Deel if you are a contractor. 
@@ -20,8 +22,7 @@ In the unlikely event that the Operations Team is not available to assist you (t
 
 ### Accommodation
 
-In case the emergency requires an employee to pay for something that was supposed to be handled by balena (eg Hotel room), but for an unpredictable reason, it wasn’t, then the employee will be reimbursed as soon as the Operations Team receives the expense report.
-If you are traveling to Seattle to work from the Seattle office, we have a corporate agreement with a Hotel nearby, so let the Operations Team know and they will book a room for you. Note that you will need to provide proof of ID and a credit card for any incidentals. 
+In case the emergency requires an employee to pay for something that was supposed to be handled by balena (eg Hotel room), but for an unpredictable reason, it wasn’t, then the employee will be reimbursed as soon as the Operations Team receives the expense report. 
 
 ## Do I have travel insurance?
 
