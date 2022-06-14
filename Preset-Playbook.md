@@ -1,5 +1,3 @@
-# Preset.io Playbook
-
 ---
 > **_TL;DR_** Preset is a platform to self-serve balenaCloud product analytics (regarding fleets, devices, users, etc.) and is available to every balenista.
 Send an #access request in the t/operations flow and the ops team will take care of the rest.
