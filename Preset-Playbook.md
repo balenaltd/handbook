@@ -35,7 +35,7 @@ Once you have familiarized yourself with the resources above, feel free to dive 
 4. Click on the “Create New Chart” button at the bottom right.
 5. Once you are on the actual Chart page you will see the dataset column names on the left hand (the data we are going to plot), the chart options in the middle panel, and the actual chart on the right-hand side. Don’t worry, it will appear soon!
 6. To plot a time-series chart, we need to choose the time column, i.e. the x-axis, in the chart options panel. In our case `date` should already be pre-selected.
-7. Then we need to select the y-axis metric. In this example, this is the sum of chargeable devices per day. Click on the + sign below “Metrics” and a new window will open.
+7. Then we need to select the y-axis metric. In this example, it is the sum of chargeable devices per day. Click on the + sign below “Metrics” and a new window will open.
 8. Click on the tab called “Simple”, select the “devices_chargeable” column, and for aggregation select “Sum”. Before saving the metric it is recommended to click on top of the window and label it appropriately. Let’s call it “Chargeable devices”.
 9.  Then click on “Save” and “Update Chart”.
 10. There you go! Your first Preset chart is ready! Feel free to play with it and explore the customization settings, **you can’t break anything**!
