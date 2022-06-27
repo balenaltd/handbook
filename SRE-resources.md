@@ -19,7 +19,7 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 * We authenticate our AWS access using Google. Follow [this guide](https://docs.google.com/document/d/1OLgOcMDCJcdISe_bv0tvF87HeaLrFmoP7CfGSxYEK8Q/edit#bookmark=id.naso1geqapb7) to setup the SAML authentication tools for AWS CLI.
 
 
-* ARM architecture builders hosted in [packet.net](https://www.packet.com/)
+* ARM architecture builders hosted on [Equinix](https://www.equinix.com/)
 * Kubernetes (k8s) cluster(s)
 * [CloudFlare](https://dash.cloudflare.com/) 
 * [Hubot](https://github.com/balena-io/hubot-as-mainbot) hosted at [Heroku](https://www.heroku.com/)
