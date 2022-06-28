@@ -5,7 +5,8 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 > ensure all SREs have access to the following tools by using your G Suite `@balena.io` email address or your existing GitHub account to sign-up and then requesting organisation access in the `t/operations` flow using hashtag `#access` (i.e. `#hashtag please grant "foo" access to bar@balena.io|username`). Some services may require an invitation first (i.e. VictorOps).
 
 #### infrastructure
-* generate `RSA|EC` and `GPG` keys
+* generate `RSA|EC` and `GPG` keys and add it to your GitHub profile.
+  * The process is explained [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 * request SSH access
 ```
