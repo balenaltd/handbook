@@ -31,7 +31,6 @@ While our overall [product surface](https://docs.google.com/drawings/d/1SBDms6dA
 * GitHub (assumes existing account)
 * [Jenkins](https://jenkins.product-os.io/) hosted at [Hetzner](https://www.hetzner.com/) (admin access)
 * Jenkins master and build agents (SSH)
-* [CircleCI](https://onboarding.circleci.com/)
 * [balenaCI/concourse-ci](https://ci.balena-dev.com/)
 * DockerHub
 
