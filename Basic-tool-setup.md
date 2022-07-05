@@ -10,7 +10,6 @@ Primary:
 * [Flowdock](https://www.flowdock.com/app)
 * [Calamari](https://calamari.io)
 * [Front](https://frontapp.com/)
-* [Zoom](https://zoom.us/)
 * [Github](https://github.com) (**You need to set up 2FA when you first login using the Yubikey you have**. _This service requires additional information/steps before you get access._)
 * [Jellyfish](https://jel.ly.fish/)
 * [Trello](https://trello.com/)
