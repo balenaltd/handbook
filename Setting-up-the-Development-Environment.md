@@ -1,1 +1,0 @@
-Moved to https://github.com/balena-io/balena-on-balena/blob/master/docs/development.md
