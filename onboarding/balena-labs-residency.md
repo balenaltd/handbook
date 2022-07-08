@@ -1,4 +1,4 @@
-Some balenistas live in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs). They make and maintain projects, help communicate the potential of balena, get feedback, and advocate to improve the product. But, that doesn't mean that other balenistas cannot spend time in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs) and also do those good things.
+Some balenistas live in the [Labs]([https://github.com/balena-io/balena-io/wiki/balenaLabs](https://github.com/balenaltd/handbook/tree/main/balenalabs). They make and maintain projects, help communicate the potential of balena, get feedback, and advocate to improve the product. But, that doesn't mean that other balenistas cannot spend time in the [Labs](https://github.com/balenaltd/handbook/tree/main/balenalabs) and also do those good things.
 
 At various times, especially when they join balena, people will have a residency in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs), for a month, to work on a project.
 
@@ -17,7 +17,7 @@ So, what better way to find that friction than to *become* our user, make an IOT
 * promote your project by writing a blog post on the [balena blog](https://www.balena.io/blog/tag/project/)
 
 ## Choosing a project
-Ideally, your project is going to be something you are really passionate about. If you love all things security-related, then maybe build a firewall or a pen(etration) tester kit. Here are some handy [guidelines](https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines) as to what makes a good balena project. But more than anything, make something you really care about. The more you love your project, the more you're going to want the balena product to help you build and maintain it.
+Ideally, your project is going to be something you are really passionate about. If you love all things security-related, then maybe build a firewall or a pen(etration) tester kit. Here are some handy [guidelines]([https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines](https://github.com/balenaltd/handbook/blob/main/balenalabs/project-guidelines.md) as to what makes a good balena project. But more than anything, make something you really care about. The more you love your project, the more you're going to want the balena product to help you build and maintain it.
 
 ### My project idea is too big to fit into a month ###
 After your residency ends, your project continues to be yours to work on alongside your other work. Hence work with the labs team and your guide to identify just the first milestone (MVP) which you can fit into your residency. For our personal projects, we used to have devoted regular hack Fridays, but now it is you and your team who decide allocation of your time for your projects.
