@@ -1,3 +1,5 @@
+[PSA: Links below link out to old wiki. We need to restructure or automate the 'contents' process by using a service that renders the markdown.]
+
 # Balena Wiki
 
 - [Welcome to balena](https://github.com/balena-io/balena/wiki/Welcome-to-Balena)
