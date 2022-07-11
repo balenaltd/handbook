@@ -1,6 +1,6 @@
----
-> **_TL;DR_** Preset is a platform to self-serve balenaCloud product analytics (regarding fleets, devices, users, etc.) and is available to every balenista.
+**_TL;DR_** Preset is a platform to self-serve balenaCloud product analytics (regarding fleets, devices, users, etc.) and is available to every balenista.
 Send an #access request in the t/operations flow and the ops team will take care of the rest.
+
 ---
 
 In 2022 Chartio has been replaced by [Preset](https://preset.io/) (SaaS version of [Apache Superset](https://superset.apache.org/)). This reference guide provides an overview of the current situation, next steps, and usage instructions.
