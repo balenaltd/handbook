@@ -1,3 +1,0 @@
-We have had a handful of times when Flowdock went down for some time. In case this happens again and it doesn't come back shortly, Google Chat is our backup option to communicate with the team. You can log in with your existing @balena.io Google account: https://mail.google.com/chat/u/0/
-
-We can also use Jellyfish, of course, but since it's not set up as a team wide chat app yet, it may not work well as a Flowdock replacement quite yet.
