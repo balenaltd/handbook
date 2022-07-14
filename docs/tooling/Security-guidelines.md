@@ -1,3 +1,4 @@
+# Security Guidelines
 
 ### Password handling
 * Prefer Google login with @balena.io account whenever possible

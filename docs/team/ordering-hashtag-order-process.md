@@ -1,3 +1,4 @@
+# Order Process
 The hashtag order (#order) process is our teamwide ordering process, designed to be an easy way for balenistas and the operations team to do procurement for our distributed team.
 
 ## When do I use this process?

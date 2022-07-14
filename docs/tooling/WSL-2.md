@@ -1,3 +1,5 @@
+# WSL2
+
 If you're a Windows user and you will be working on any of balena's repos, you will often have to run the app you're working on locally. Balena apps must be run through a Linux terminal (one reason for this is that you cannot set env variables inline in Windows like you can in Linux), so follow this [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL 2 and a Linux terminal on your device.
 
 ## nvm

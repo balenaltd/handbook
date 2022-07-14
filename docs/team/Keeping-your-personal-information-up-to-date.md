@@ -1,3 +1,4 @@
+# Keeping your personal information up to date
 ### Personal information
 For every new starter, we create an entry on the [Team Model](https://docs.google.com/spreadsheets/d/1m1Ln8lfcMaUngbEsaQdbz1Dtts4e8HBj9XsMqBwTeXM/edit#gid=404458414) with some key personal information that are available to the team, including your location. We also keep the more sensitive information, such as addresses, emergency contacts and contact numbers on a separate confidential folder. 
 

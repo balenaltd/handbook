@@ -1,4 +1,5 @@
-## **Description**
+# Doughnut Calls
+## Description
 
 Doughnut calls take place once a week on Fridays and we have 3 different slots to accommodate for all timezones and overlaps. 
 

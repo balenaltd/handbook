@@ -1,3 +1,5 @@
+# Password Management
+
 Starting from Day 1, you’ll be required to join a list of services that you’ll be using on a daily basis. Also, depending on your job position and the team that you’ll join, you’ll be given access to additional services. We strongly recommend using a password management service to manage all your passwords and logins. In any case, NEVER keep your passwords in a notebook. NEVER share your, or company’s, passwords with anyone. 
 
 If you don’t know of any password management services to manage all your passwords, take a look and choose from the list below: 

@@ -1,8 +1,6 @@
-# The product call
-This is one of the main tools at our disposal to instigate change in balena products. Do you have an idea for a new feature or change? #product it in Flowdock and it will be added to the agenda for one of the weekly product calls where you can defend the idea and advocate for its implementation.
+# Sharing updates
 
-# The weekly all-hands call
-Once a week we have the opportunity to share what we’re working on in the lab with the rest of the balena team. This is a great opportunity to solicit for volunteers for testing projects, mention the need for any assistance from other teams and generally give other team members an idea of the type of work we’ve been doing that week. Try to focus on the impact our work is having.
+Once a week we have the opportunity to share what we’re working on in the lab with the rest of the balena team on our weekly All Hands call. This is a great opportunity to solicit for volunteers for testing projects, mention the need for any assistance from other teams and generally give other team members an idea of the type of work we’ve been doing that week. Try to focus on the impact our work is having.
 
 We cover the balenaLabs section between us. Anyone with something to communicate to the whole balena team can and should add to the document each week.
 

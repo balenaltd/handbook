@@ -1,4 +1,4 @@
-balena team member access 
+# balena team member access 
 
 1. Sign up to [dashboard.balena-cloud.com](https://dashboard.balena-cloud.com/signup) with your @balena.io e-mail account
 1. Sign up to [dashboard.balena-staging.com](https://dashboard.balena-staging.com/signup) with your @balena.io e-mail account (the verification e-mail for staging environment will be sent to [Front](https://front.com/) on `D/staging`)

@@ -1,6 +1,4 @@
-_Release date: June 1st 2020_
-
-_Revised: June 6th 2022_
+# Leave Policy
 
 ## Intro 
 The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It moves us to a system that is streaming, rather than arbitrarily batched. It should be easy to understand, simple for team members to manage, incentivize the right behavior, and be flexible to different preferences. Team members are granted a generous amount of paid leave to take the amount of leave that’s right for them, but not feel pressure to take more leave than they would prefer to. 

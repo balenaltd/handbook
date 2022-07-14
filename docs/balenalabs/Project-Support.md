@@ -1,8 +1,8 @@
+# Project Support
 Projects are distinct from product work by the fact they are developed by an individual balenista or small group. They are hacks born out of an interest, a spark of inspiration or a personal passion. They don't require product or architecture calls, they exist purely in your personal loop. Everyone at balena should have a personal project. They are a chance to hack on something concrete and near-term, to get a break from the abstract [#stpltg](https://github.com/balena-io/balena-io/wiki/Being-a-Product-Builder-at-balena#what-principles-define-a-product-builder) world of being a product builder. They should be rooted in something you feel passionate about, and motivated to want to complete/solve. They are you "skin in the game".
 
 Here's a guide to what makes a good project: [Project Guidelines](https://github.com/balena-io/balena-io/wiki/Labs:-Project-guidelines)
 
-# Project Support
 [Some people](https://www.balena.io/blog/show-tell-a-steampunk-desktop-background-radiation-monitor/) find thinking up and building projects all very easy. But, for the rest of us, we need a bit of support. Coming up with ideas is hard. Designing a plausible solution is harder. Building the thing, well that can be even harder, at least to begin with. But the good news is that you don't have to do this all on your own. A project shouldn't be a(nother) source of stress to you. It's a chance to hack, experiment, try, fail, learn - all with no risk.
 
 ## Labs

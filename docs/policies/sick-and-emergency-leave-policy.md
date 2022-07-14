@@ -1,3 +1,5 @@
+# Sick and Emergency Leave Policy
+
 We understand that there will be times when you have to deal with unexpected issues, such as illness, family circumstances or bereavement. We offer all team members flexible working hours, and understand if they need to change their normal working hours or take a few hours off if something comes up. For example, if you need to collect your child from school when they’re sick, you need to attend a medical appointment or deal with a situation urgently, etc. we understand that you may need to take a few hours off, and there’s no need to request a sick/emergency leave day. If you’re missing a meeting, or a support shift, it’s important to let the relevant members of the team know you’ll be AFK (away from keyboard) for a few hours.
 
 If that’s not an option, we have a sick & emergency Leave policy in place to help the team out when they need more time away from work due to illness or other personal/emergency circumstances. 

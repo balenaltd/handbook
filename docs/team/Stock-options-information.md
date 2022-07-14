@@ -1,4 +1,4 @@
-## Here's some basic information about your Balena stock option grant.
+# Stock Options
 
 As part of your compensation, you have been given share options. Our board is required to approve all stock option grants which happens when we have a board meeting. Therefore, you might receive the agreement sometime after you have joined. Your grant, however, will still backdate and begin "vesting" on your start date, regardless of when the next board meeting is. We manage the stock options in [Carta](https://carta.com/) and you will receive an invite to set up your account once your agreement has been issued. 
 

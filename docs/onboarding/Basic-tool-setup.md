@@ -1,4 +1,5 @@
-### Basic tools
+# Basic tool setup
+## Basic tools
 As mentioned at the start, once you log into your @balena.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday balena life easier.
 
 **NOTE:** Important! You **MUST** use the same handle across Flowdock, Front, balena forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier

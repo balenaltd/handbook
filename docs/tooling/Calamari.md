@@ -1,3 +1,4 @@
+# Calamari
 Here’s a guide of how-to-use the main features of our time-off service Calamari.
 
 Our full Leave policy can be found [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy)

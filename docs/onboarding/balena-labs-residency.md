@@ -1,3 +1,4 @@
+# balena Labs residency
 Some balenistas live in the [Labs]([https://github.com/balena-io/balena-io/wiki/balenaLabs](https://github.com/balenaltd/handbook/tree/main/balenalabs). They make and maintain projects, help communicate the potential of balena, get feedback, and advocate to improve the product. But, that doesn't mean that other balenistas cannot spend time in the [Labs](https://github.com/balenaltd/handbook/tree/main/balenalabs) and also do those good things.
 
 At various times, especially when they join balena, people will have a residency in the [Labs](https://github.com/balena-io/balena-io/wiki/balenaLabs), for a month, to work on a project.

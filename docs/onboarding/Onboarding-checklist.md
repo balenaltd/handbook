@@ -1,3 +1,4 @@
+# Onboarding checklist
 Before anything else let's check that everything is in order and that there's no other action pending. Here's all the different stuff you have been doing today. Please check carefully that all are in place.
 
 * Signed the contracts

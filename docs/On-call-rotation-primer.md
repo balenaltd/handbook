@@ -1,5 +1,4 @@
 #  On-call rotation primer
-===
 
 **Note:** UI references to specific services ("the button in the top right") may not endure over time
 

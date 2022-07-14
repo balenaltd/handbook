@@ -1,4 +1,4 @@
-_Release date: March 1st 2021_
+# Parental Leave Policy
 
 ## Overview
 

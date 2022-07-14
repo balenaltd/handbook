@@ -1,3 +1,4 @@
+# Deel (Invoicing)
 We use a payment platform called [Deel](https://www.letsdeel.com/) to pay all contractors on a monthly basis. Using Deel removes the need to send manual invoices, as these are automatically generated, and provides flexibility in getting paid with various transfer options available.
 
 ### Getting Started

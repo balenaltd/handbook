@@ -1,3 +1,4 @@
+# Your balena.io email
 You should have received your chosen gear prior to your first day and you should be ready and set up at one of our offices or at your own chosen space. Additionally, you will soon receive, if you haven't yet, a kit to get you started and help you live the balena user experience, if you haven't done so already! 
 
 Before you get access to any of the services we are using and in order for the team to get you started, you need to have your balena e-mail account and calendar set up.

@@ -1,3 +1,5 @@
+# Travel and Expenses 101
+
 You may be required to travel, from time to time, for business purposes such as events, team meetings, meetings with customers etc. The company will cover all work-related travel expenses. This includes accommodation and meals for the business trip. We really want our team members to be productive and not need to worry about travel arrangements and stuff.
 
 The company can accommodate custom requests. It is OK to stay longer on your trip. However, the extra days will not be covered by the company.
