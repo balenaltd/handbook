@@ -1,6 +1,10 @@
 # Balena Handbook Manual
 If there is information missing here on how to do something that you think would be useful to the team or that you yourself want to know how to do, either add it to the repo yourself, create an issue requesting it or you can ask anyone on the team for help (jellychat, 1-2-1s, /beginners or /teamos flow)
 
+**Other resources**
+[Github Skills](https://skills.github.com/) - Learn how to use Github with interactive courses designed for beginners and experts
+[Contributing to balena docs guidelines](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning) - We have a few guidelines which will allow your PR to pass our CI checks and successfully merge. 
+
 ## House Keeping
 - Keep all file names in the balenaltd/handbook repo lower case with dashes separating words (with the exception of the README.md). Please don't use any other symbols as naming conventions.
 
@@ -8,11 +12,13 @@ If there is information missing here on how to do something that you think would
 
 **Desired commit message format**
 ```
-description of change and reasoning e.g. *Tidying up of file names and content.*
+Easy to understand description of change e.g. Tidying up of file names and content
+[optional line] followed by longer more detailed description and reasoning e.g. Removed dashes from titles and fixed some spelling mistakes.
 
-Change-type: (major, minor, patch) e.g.patch
+Change-type: (major, minor, patch) e.g. patch 
 Signed-off-by: (who are you) Your Name <Youremail@balena.io>
 ```
+You can learn more about the differences in change types [here](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning)
 
 ## Editing the content of the repo
 
@@ -48,6 +54,9 @@ sidebar_position: 0
 *Note: The 'Welcome' page should always sit at the top of the contents*
 
 ### Editing using your local
+
+[Need advice from an engineer for this bit]
+
 
 ### Editing from the website version of the handbook (Docusarus)
 Once the website version has been deployed, you will be able to get to the corresponding markdown file in the github repo via the 'edit this page in github' link/button at the bottom of each webpage. 
