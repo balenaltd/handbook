@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Products all the way down
+# Products built from products
 
 You’d be forgiven for thinking that the approach of productization means that we’ll all end up working in an isolated way on individual products, but due to the fact that products can interact with, encompass, and even depend upon other products, that’s not the case. We want to work towards a world where each product can stand on its own merits when necessary, but at the same time it can also be a fundamental part of another, larger product. Of course, a larger product will be made up of many smaller products, naturally forming a cluster of people who collaborate.
 

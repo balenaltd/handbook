@@ -22,13 +22,13 @@ A product builder can “pick up” a new or existing product, become its custod
 ### Raw ideas
 A product starts with a raw idea; we connect patterns to form ideas and observe a requirement.
 
-### Alpha/prototyping
+### Proof of concept
 Prove the concept, understand if an idea is viable or actually works. Ideas that have the start of a spec, connected patterns, and a proof of concept. Something you’d take to a hack week.
 
-### Beta
-Building towards viable. First iteration of a product, a working loop, iterating, developing, functional, usable.
+### MVP/Alpha
+Building towards viable. First iteration of a product, a working loop, iterating, developing, functional, usable. Release as early as you can in order to start gathering feedback.
 
-### MVP
+### Beta
 Working product, hot and fresh out the kitchen. Someone seeing or finding the product at this stage should be able to get an understanding of what it is and what problem it solves very easily.
 
 ### Stable
@@ -38,4 +38,7 @@ Feature complete, maintenance only mode, but still handled mostly internally.
 Feature complete, maintenance only, receiving external contributions
 
 ### Revenue generating
-The product generates so much value for its users that they’re willing to pay to use it.
+The product generates so much value for its users that they’re willing to pay to use it or it can be spun off into its own entity.
+
+### Obsolete/Redundant
+The problem that this product solves no longer exists - it can be retired.

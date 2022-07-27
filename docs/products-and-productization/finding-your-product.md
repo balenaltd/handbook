@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Each of the described characteristics serves as a signal to help define and identify products. Depending on the level of maturity, not all products will have all characteristics at all times. For example, it may not make sense to start to try to build a community for some products when it’s still in the idea phase, but for others it might (it works for Kickstarter projects!). It may not make sense to start all products with a brand and a logo, but it should at least make sense to add one at some point. A product should lend itself to having each of these characteristics at some point in time; if they don’t fit or don’t make sense it should be used as a signal that the current form is not yet a product and requires more thought.
 
-Within the balena context, we’re all working towards a shared mission: to unlock the potential of physical computing by reducing friction for fleet owners. In that regard, everything we build should in some way be in pursuit of the balena mission. There are varying degrees of pursuit, meaning that some products align more literally and directly with the mission than others that may help in a more indirect and abstract manner. 
+When it comes to finding your product at balena, we’re all working towards a shared mission: to unlock the potential of physical computing by reducing friction for fleet owners. In that regard, everything we build should in some way be in pursuit of the balena mission. There are varying degrees of pursuit, meaning that some products align more literally and directly with the mission than others that may help in a more indirect and abstract manner. 
 
 ### For example
 #### Directly helping the mission
@@ -18,10 +18,10 @@ Within the balena context, we’re all working towards a shared mission: to unlo
 ## Creating a new product (Greenfield)
 Creating a new product from scratch involves developing it to the point where a loop is created and the idea can be iterated upon. This means:
 
-* Identifying the need for a product
+* Identifying the need for a product - sensing and patterns can feed into this. If it's a feature that doesn't fit within an existing product, does it require a new one?
 * Ideation stage (design thinking)
 * Prototyping, testing, hypothesis
-* Establishing the loop - sensing, patterns, improvements, development, releases etc.
+* Establishing the loop around the product in order to start iterating - sensing, patterns, improvements, development, releases etc.
 * Reaching steady state/MVP
 
 ## Reviving, renovating or continuing development of an existing product (Brownfield)
