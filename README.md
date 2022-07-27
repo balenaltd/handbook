@@ -41,7 +41,11 @@ Make your changes, write your commit message and branch name and select the 'pro
 
 A pull request will be created and another member of the team will need to review your changes first, before it's committed to the handbook repo.
 
-Reviews can be carried out by any other team member, so just ask! 
+Reviews can be carried out by any other team member, so just ask! You can either ask someone directly or add a reviewer on the pull request itself (use the cog icon in the reviewers box on the top right).
+
+You can see your pull request by visiting the pull request tab on the handbook repo and clicking on it from the list.
+
+Once your PR has been reviewed, hit the merge pull request button. This may already have been done for you by your reviewer, but it's worth checking.
 
 #### Formatting tips
 ```
