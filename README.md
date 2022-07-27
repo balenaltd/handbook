@@ -4,6 +4,7 @@ If there is information missing here on how to do something that you think would
 *Note: Until the release party for docs has been completed, the docusarus website version of the handbook is not deployed. However, all changes made to the handbook will be reflected on the website once live.*
 
 **Other resources**
+
 [Github Skills](https://skills.github.com/) - Learn how to use Github with interactive courses designed for beginners and experts
 
 [Contributing to balena docs guidelines](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning) - We have a few guidelines which will allow your PR to pass our CI checks and successfully merge. 
