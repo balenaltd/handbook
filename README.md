@@ -7,7 +7,7 @@ If there is information missing here on how to do something that you think would
 
 [Github Skills](https://skills.github.com/) - Learn how to use Github with interactive courses designed for beginners and experts
 
-[Contributing to balena docs guidelines](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning) - We have a few guidelines which will allow your PR to pass our CI checks and successfully merge. 
+[Contributing to balena docs guidelines](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning)
 
 ## House Keeping
 - Keep all file names in the balenaltd/handbook repo lower case with dashes separating words (with the exception of the README.md). Please don't use any other symbols as naming conventions.
@@ -42,7 +42,7 @@ Make your changes, write your commit message and branch name and select the 'pro
 
 A pull request will be created and another member of the team will need to review your changes first, before it's committed to the handbook repo.
 
-Reviews can be carried out by any other team member, so just ask! You can either ask someone directly or add a reviewer on the pull request itself (use the cog icon in the reviewers box on the top right).
+Reviews can be carried out by any other team member, so just ask! You can either ask someone directly or add reviewers on the pull request itself (use the cog icon in the reviewers box on the top right).
 
 You can see your pull request by visiting the pull request tab on the handbook repo and clicking on it from the list.
 
@@ -79,7 +79,7 @@ sidebar_position: 0
 #### Adding Assets and Images
 To add assets and images you will need to add your the file to the docs/assets folder in the repo. 
 
-Once done, user the following format to add it to your chosen location in the markdown:
+Once done, use the following format to add it to your chosen location in the markdown:
 
 ```
 ![](../assets/name-of-file.filetype)
