@@ -2,19 +2,14 @@
 
 This page documents the Hardware Process that you will use when working on a project that involves some kind of physical hardware - PCB, 3D design, assembly, etc.
 
-## GitHub repo
-Each repo that is part of the `hardware process` will have - 
-1. A `repo.yml` file in the root of the repo, with the `type` field set to `hardware` and `release` field set to `github`. See example [here](https://github.com/balena-io/RPi-CM3-Heatsink/blob/master/repo.yml)
-2. You should have the following files and folders in your repo 
-```
-├── README.md
-├── outputs
-├── repo.yml
-├── source
-│   └── specification
-│       └── spec.json
-└── testing
-    └── Testing.md
+## Motivation
 
-```
-You can read more about the purpose of each file and folder here (WIP)
+One of the chief motivators for starting the Hardware Process project at Balena was to reduce the time spent waiting for prototypes. We realized that we spend a week designing something, and then a month waiting to validate that design (mostly for PCB type projects)
+
+The hardware process intends to be 2 things
+
+- the CI/CD for hardware i.e. software help to build hardware
+- a prototyping lab i.e. hardware to help build the software-optimized hardware
+
+## Getting started
+You can get started at the [hardware process documentation site](https://landr-balena-io-hardware-repo-hardware-process.netlify.app/)
