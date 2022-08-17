@@ -1,11 +1,14 @@
 # Project Guidelines
 
 A project is a personal piece of work, which is developed in a balenista's personal loop with help and support from the balena labs community. Any idea can be made into a project, with a few rules:
+
 1. It uses balena, or can attempt to break the security of balena, or can be a tool built using balena-sdk or balena-API or other balena components.
 1. You can't use special privileges to code the project. Any external user should be able to build the same project
 
 ## Idea validation checklist
-Referenced in Validation to [Layer 1](https://github.com/balena-io/balena-io/wiki/balenaLabs/#layer-1-brainstorm-build-and-promote) workflow
+
+Referenced in Validation to [Layer 1](./README.md#layer-1-brainstorm-build-and-promote) workflow
+
 * Does running this project on balena help the user (IoT tinkerer/hacker, fleet owner, etc.?
 * Are we lowering the bar of entry to a scaled use case?
 * Are we using or improving upon any existing blocks?
@@ -35,4 +38,3 @@ possible flow reversal: profitable projects may fund their own promotion, theref
 4 - users show strong interest in new features, if we feel further development can drive the project to high ROI or outcome 0/1/2, return to implementation phase for another run
 
 5 - project is showing signs of explosive growth in all dimensions. Brainstorm out-of-the-box ways to capitalize, including "fold into product", "make own tributary/loop", "spin off into its own startup", or whatever else makes sense in the context of that project.
-
