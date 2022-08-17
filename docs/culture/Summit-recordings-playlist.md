@@ -17,21 +17,21 @@ _Every year at Summit, Alex delivers an opening talk that focuses on our mission
 
 ## How we work
 
-balena is different in many ways and the concept of Product Builder summarizes the profile of an ideal balenista that we all aspire to. Check the [Product Builder wiki page](https://github.com/balena-io/balena-io/wiki/Being-a-Product-Builder-at-balena) for more information. 
+balena is different in many ways and the concept of Product Builder summarizes the profile of an ideal balenista that we all aspire to. Check the [Product Builder handbook page](../products-and-productization/being-a-product-builder.md) for more information. 
 
 * Vision Week 2021 - [Being a Product Builder at balena](https://drive.google.com/file/d/1_rsp0RZLFugi7B3eCZsjHsCPae7vbTxP/view?usp=sharing)
 {starts at 15m15s}
 
 Not essential to watch, but helpful if you want to learn more about some of our core values and approaches which have shaped the Product Builder concept:
 
-* Summit 2019 - [Values & Structures](https://drive.google.com/file/d/1slCHFPg6AwIEtuIV1Ra_nnGJTdXR9X8f/view?usp=sharing)
+* Summit 2019 - [Values & Structures](https://drive.google.com/file/d/1slCHFPg6AwIEtuIV1Ra_nnGJTdXR9X8f/view?usp=sharing) 
 
 * Summit 2019 - [Building a Culture of Radical Candor and Transparency](https://drive.google.com/file/d/1STwjtWDipjeuPd8FDDnqOt7LEqfrDMkr/view?usp=sharing)
 	
 
 ## Loops
 
-The 'loop' is the framework we use at balena for continuously improving our products. These recordings can help you understand how our loops work. There is additional information on the [loops wiki page](https://github.com/balena-io/balena-io/wiki/Loops) too. 
+The 'loop' is the framework we use at balena for continuously improving our products. These recordings can help you understand how our loops work. There is additional information on the [loops handbook page](../culture/loops.md)too. 
 
 * Summit 2020 - [Welcome to the loop factory!](https://drive.google.com/file/d/1TM_CGoYav9JGRCf72JEDH5U4-h_jaWje/view?usp=sharing) {starts at 9m15s}
 
