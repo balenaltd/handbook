@@ -22,7 +22,7 @@ As a globally distributed team, we believe that there isn’t a “one size fits
 
 * If 12 weeks isn’t enough time, we’re happy to offer up to another 12 weeks of unpaid leave to provide you with additional time. 
 
-* If your personal situation means that you would prefer to be paid out for all or part of your parental leave instead of taking time off, you can choose to do this in line with the current leave policy, more information can be found [here](https://github.com/balena-io/balena-io/wiki/Leave-Policy). 
+* If your personal situation means that you would prefer to be paid out for all or part of your parental leave instead of taking time off, you can choose to do this in line with the current leave policy, more information can be found [here](../policies/leave-policy.md). 
 
 * While on parental leave, you will continue to accumulate 2.5 days per month in your leave bank, and can of course use this to extend your time off, should you wish to do so.
 
@@ -38,13 +38,13 @@ As a globally distributed team, we believe that there isn’t a “one size fits
 
 ### Applying for parental leave
 
-When you find out you are expecting, you should communicate this with a member of teamOS as soon as possible so it can be added to the parental leave tracker, which allows us to track and plan for team members’ periods of extended leave. Then, you should reach out to teamOS again when you know how much time off you are planning to take off, to organize a call to discuss your individual situation. 
+When you find out you are expecting, you should communicate this with a member of TeamOS as soon as possible so it can be added to the parental leave tracker, which allows us to track and plan for team members’ periods of extended leave. Then, you should reach out to teamOS again when you know how much time off you are planning to take off, to organize a call to discuss your individual situation. 
 
 
 The call will discuss any local legislations which may apply, take a note of when you plan to take some time off, when and how you will communicate this to the team and any specific coverage you might need, especially if you are going to be away for more than a couple of weeks. TeamOS will be your point of contact before you take any leave and can answer any questions or doubts you may have; at this point, any special request you may have will be considered and discussed, too. You will then be allocated 12 weeks (60 days) additional leave to your primary leave bank on Calamari, which will be available to be used immediately. When requesting this on Calamari, the comment "parental leave" should be added.
 
 ### Buddies for parental leave
-During your parental leave call with teamOS, you will also discuss who might be the right person to act as your 'buddy' for the period before, during, and after your time off. Your buddy can be someone you work closely with, so they can help and support you with any handover, updates and/or anything else you will have to consider and arrange during this period. This added support is meant to be an extra resource to make your time off and transition  back to work as smooth as possible for you and your teammates. The buddy support can be as structured or flexible as you like to suit your needs and your preferences. 
+During your parental leave call with TeamOS, you will also discuss who might be the right person to act as your 'buddy' for the period before, during, and after your time off. Your buddy can be someone you work closely with, so they can help and support you with any handover, updates and/or anything else you will have to consider and arrange during this period. This added support is meant to be an extra resource to make your time off and transition  back to work as smooth as possible for you and your teammates. The buddy support can be as structured or flexible as you like to suit your needs and your preferences. 
  
  
 ## Appendix A: 
@@ -64,4 +64,4 @@ New mothers in Washington State are entitled to up to 16 weeks medical and famil
 
 
 _**All Other states (US)**_
-The balena parental leave policy goes above all other state laws where we have US team members, however if you would like to know more about your own specific state’s regulations, please reach out to a member of teamOS.
+The balena parental leave policy goes above all other state laws where we currently have US team members, however if you would like to know more about your own specific state’s regulations, please reach out to a member of teamOS.
