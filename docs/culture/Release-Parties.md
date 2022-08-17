@@ -6,14 +6,13 @@ It’s a good way to leak the culture of balena and expose the way we work, the 
 
 It allows the group to share in the process involved in completing the task and identify any pain points to address later.
 
-Check out our Release Parties videos [here](https://www.youtube.com/playlist?list=PLT5WZl9m5WoMn9JZSvtJojWSMJV7OpmQZ) and read our blog posts about how we do it [here](https://www.balena.io/blog/tag/release-party/). 
+Check out our Release Party videos [here](https://www.youtube.com/playlist?list=PLT5WZl9m5WoMn9JZSvtJojWSMJV7OpmQZ) and read our blog posts about how we do it [here](https://www.balena.io/blog/tag/release-party/). 
 
 ## Running a release party
 
 ### An idea
 Cross-discipline tasks that require a lot of coordination are great candidates for a release party as everyone knows to gather in the same place at the same time and focus on the task at hand.
-OK to fail - it doesn’t matter if it’s not finished in time
-The spec
+OK to fail - it doesn’t matter if it’s not finished in time.
 
 ### Create a defined spec
 Create shared understanding of who is working on what
@@ -33,8 +32,8 @@ Create a shared understanding of what will happen on stream and what can happen 
 ### Preparing to stream
 Graphics. Give the viewers context. Progress information overlays on-stream so anyone joining can see immediately what progress has been made, have milestones ready to check off and celebrate as you go.
 
-Ask for help from outreach to post and promote the event on social media if needed.
-Set up the stream using Streamyard (again outreach can help) and make sure everyone who’s appearing on-stream has the link to be able to join.
+Ask for help from labs to post and promote the event on social media if needed.
+Set up the stream using Streamyard (again labs can help) and make sure everyone who’s appearing on-stream has the link to be able to join.
 
 ### During the stream
 * Let the team know you’re going live and encourage them to participate in chat or on-stream
@@ -42,7 +41,7 @@ Set up the stream using Streamyard (again outreach can help) and make sure every
 * Keep note of bugs
 * Keep note of process improvements
 * Keep updating the viewers and people watching with what’s going on - encourage participation and answer questions; the point is to be open and inclusive and not just broadcast a private party
-* Take breaks!! You need to drink and eat :)
+* Take breaks!! You need to drink and eat!
 
-### Alternative format ideas
-A group review to create and fix a hit list of items
+### Alternative format ideas (under development)
+* A group review to create and fix a hit list of items
