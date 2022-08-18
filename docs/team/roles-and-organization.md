@@ -1,11 +1,20 @@
 # Roles and Organization
 
-We try to keep the organization as flat and as lightweight as possible. It’s a small company and the team has grown quite a bit lately, so people are encouraged to take charge of their work independently. You should be able to figure out how to help yourself and others with little guidance and intervention. We believe that every balenista can work independently and lead on their work! 
+We try to keep the organization as flat and as lightweight as possible, so people are encouraged to take charge of their work independently. We believe that every balenista can lead on their work! 
 
 This doesn’t mean that you’re on your own here. We’ve got your back and altogether we try making our everyday life easier. You will soon see that all balenistas are very approachable and eager to help, so do not hesitate to reach out when needed! When you identify tasks that can be made consistent, you’re encouraged to discuss them with the team, raise them internally, as well as draw up a process to handle them. Will we be doing this often enough to automate it? How could this be automated? How would someone do this if we were double the size we are now? In other words, we are very flexible in solving new problems, but we try to solve them in ways that will be efficient today and scalable in the future. We welcome suggestions and want to hear your ideas! 
 
-As the team grows, we know it can be hard to discover what everyone is working on and who you should reach out to for questions or help around particular projects or elements of your work when needed. While we are working on a team directory that will live on Jellyfish and will help the team have more visibility on that, we have a [team network diagram](https://docs.google.com/drawings/d/1wMHCHH6tQhbG1leM_06NtfoMGUMuvgthCddxH01xqD8/edit) to provide you with a rough map of the team as it stands today. This is meant to be descriptive, not prescriptive, and is meant to be dynamic and adjust as the team does.
+As the team grows, we know it can be hard to discover what everyone is working on and who you should reach out to for questions or help around particular projects or elements of your work when needed. While we are working on a team directory that will live on Jellyfish and will help the team have more visibility on that. In the iterim you can view team members personal repos in the [balenaltd org](https://github.com/balenaltd) or see a rendered out version of these [here](https://balenaltd.io/team).
 
-Depending on your role and/or the project you are working on, you will have some teammates that you are working closely with that can offer the guidance needed when you are new and support you to learn and settle in. For some things, you’ll need a senior person to fall back on, or ask for advice. For anything related to product development and technology, that’s Alex. For everything related to outreach & customer success you should contact Alison. For anything else, you can contact the Operations team or the teamOS team if it is team specific and they will help you out.
+Depending on your role and/or the project you are working on, you will have some teammates that you are working closely with that can offer the guidance needed when you are new and support you to learn and settle in. 
+
+You can go to anyone on the M-team for any questions around personal development or support (e.g. salary, performance) For anything else, you can contact the Operations team or the teamOS team if it is team specific and they will help you out.
+
+:::info
+
+M-team
+The M-team (sometimes called 'maintainer team' or 'mission team') is a group of individuals trusted to lead the team strategy and vision of balena.
+
+:::
 
 If you are struggling or you have any concerns and/or feedback to share, we want to hear from you and help! You are welcome to reach out to anyone you feel comfortable discussing with, whether this is one of the senior people guiding your work or someone from teamOS that can help push your feedback in the right direction.

@@ -11,17 +11,17 @@ This is so we can keep our records up to date and make other relevant changes wh
 
 #### Your team
 
-A subset of the current team's personal information is displayed in the [Current Team Model](https://docs.google.com/spreadsheets/d/1fOpah2A6N3xImg5xxGbTygdcNRGBlyZ_jQ2UIzy9PLE/edit#gid=404458414), which is a read-only document visible to the whole team. This spreadsheet is a useful resource to consult for your fellow team members' balena contact details, location and availabilities, to name a few.
+A subset of the current team's personal information is displayed in the [Current Team Model](https://docs.google.com/spreadsheets/d/1fOpah2A6N3xImg5xxGbTygdcNRGBlyZ_jQ2UIzy9PLE/edit#gid=404458414), which is a read-only document visible to the whole team. This sheet is a useful resource to consult for your fellow team members' balena contact details, location and availabilities, to name a few.
 
 Note that more sensitive personal information, such as addresses, emergency contacts and contact numbers are stored confidentially, and not displayed to the team in the Current Team Model.
 
 ### Preferences
 
-For every new starter, we also create a personal Google Spreadsheet, titled `user-<Github-handle>`. You would have received an invite to edit this spreadsheet upon onboarding. It contains some basic preferences  that the team member is responsible for maintaining:
+For every new starter, we also create a personal Google sheet, titled `user-<Github-handle>`. You would have received an invite to edit this sheet upon onboarding. It contains some basic preferences that the team member is responsible for maintaining:
 
 #### Working hours
 
-Detailed instructions on how to maintain this section of your personal spreadsheet is provided in the [working hours](./Working-hours-and-availability.md#communicating-your-availability) section of this handbook.
+Detailed instructions on how to maintain this section of your personal sheet is provided in the [working hours](./working-hours-and-availability.md) section of this handbook.
 
 #### Birthday preference
 
@@ -33,7 +33,7 @@ If you participate in any of our support channel rotations, you should enter you
 
 #### Leave payout cap
 
-This is where you should maintain your leave payout cap preference, the implications of which are explained in the [leave policy](../policies/Leave-Policy.md). If you want to change your existing preference, we ask that you please do not remove the existing entry, since we rely on this tab to track the history of this setting. To update your preference, close the active entry with a `Valid to` date, and make a new entry on the next line.
+This is where you should maintain your leave payout cap preference, the implications of which are explained in the [leave policy](../policies/leave-policy.md). If you want to change your existing preference, we ask that you please do not remove the existing entry, since we rely on this tab to track the history of this setting. To update your preference, close the active entry with a `Valid to` date, and make a new entry on the next line.
 
 
 

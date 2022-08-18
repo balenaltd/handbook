@@ -33,16 +33,14 @@ We trust our team to be budget-conscious in general and find the most suitable i
  
 Once you send a hashtag order through, the ops team will get it in an inbox and assign it accordingly to the individuals on the operations team for which it makes the most sense to process the order. Each hashtag order sends a separate email, so if you have a couple of items, just send an entire order in one block of text.
 
-Sometimes, we have inventory in the office and will send you things from there, for instance, and in these situations, we will inform you via Flowdock if we need to change the procurement method. This makes it difficult to calculate exactly when you'll receive it, but we always process our front inbox each day.
+Sometimes, we have inventory in the office and will send you things from there, for instance, and in these situations, we will inform you via Jellyfish if we need to change the procurement method. This makes it difficult to calculate exactly when you'll receive it, but we always process our front inbox each day.
  
 In the case that you have a very urgent order, tag the relevant operations team member/office manager who will be best to process your order, and we will put it on our highest priority to get that sent through.
 
-Please note that if you edit the entry on Flowdock, we will not see it in Front. If you make an edit, you must tag (do not resend a hashtag order) the relevant person or people who will process your order (or just the operations team if you're not sure who it would be) in the Flowdock thread, notifying the edits made.
+Please note that if you edit the entry on Jellyfish, we will not see it in Front. If you make an edit, you must tag (do not resend a hashtag order) the relevant person or people who will process your order (or just the operations team if you're not sure who it would be) in the Jellyfish thread, notifying the edits made.
 
-Once the order has been made, the team member will comment Ordered on the Flowdock thread and tag you.
+Once the order has been made, the team member will comment Ordered on the Jellyfish thread and tag you.
 
 ## Why do we use this process?
 
-It is a way for us to keep track of what the company owns, have our operations team handle the details for you with orders and what not, and create standardization for team-wide ordering and procurement. We are still in the process of updating this to make it more efficient, scalable, and automated, so be on the lookout for Hashtag Order V2!
-
-For more information and examples you can also see [here](https://docs.google.com/document/d/1FakLWnSOPWOmfGNuroHWr2Em3vmHoDfywmhE0Ei-ivg/edit?usp=sharing)
+It is a way for us to keep track of what the company owns, have our operations team handle the details for you with orders and what not, and create standardization for team-wide ordering and procurement. We are still in the process of updating this to make it more efficient, scalable, and automated.
