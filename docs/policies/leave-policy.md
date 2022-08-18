@@ -1,11 +1,11 @@
 # Leave Policy
 
 ## Intro 
-The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It moves us to a system that is streaming, rather than arbitrarily batched. It should be easy to understand, simple for team members to manage, incentivize the right behavior, and be flexible to different preferences. Team members are granted a generous amount of paid leave to take the amount of leave that’s right for them, but not feel pressure to take more leave than they would prefer to. 
+The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It should be easy to understand, simple for team members to manage, and be flexible to different preferences. 
 
-Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & emergency leave policy](https://github.com/balena-io/balena-io/wiki/Sick-&-Emergency-Leave-Policy).
+Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](../policies/parental-leave-policy.md) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & emergency leave policy](../policies/sick-&-emergency-leave-policy).
 
-A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](https://github.com/balena-io/balena-io/wiki/Calamari).
+A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](../tooling/calamari).
 
 ## Glossary
 **Leave:** paid time off taken at a time that the team member chooses.
@@ -48,7 +48,7 @@ The policy is based on a “bank” system of accumulating and drawing down leav
 * Team members can also “overdraw” their bank if circumstances require. For example, if a team member joins but has a long holiday planned within their first few months of being at balena, they can drop into a negative balance in their bank as needed. This creates an “IOU” that can be made up with future leave accumulation. For now, overdraws are limited to -10 days. If any team member leaves the company with a negative balance, this will be deducted from their final salary.
 * By default, leave requests will be “auto-approved.” Team members are responsible for communicating their upcoming leave with the rest of the team and making sure they are appropriately covered during their leave. Recommended notice for coverage would be at least a few days before if you cover a call or are a maintainer, 1 week for weekday support and where possible, 2 weeks for devops weekend rotations. For peak leave periods such as Summer and Christmas, as much notice as possible being given will help the team plan for this. Any requests over 10 business days may need to be discussed prior to request to ensure sufficient coverage.
 * All leave, regardless of the nature (business day, bank holiday, local public holiday etc.) will be drawn from the bank and “booked” as leave. It is the responsibility of employees in Greece, UK and USA to request and take their local public holidays as leave.
-* When a member of the team is expecting a new addition to their family, they will be granted an additional 12 weeks (60 days) to their leave bank to use however suits them best. Full information on the Parental Leave policy can be found [here](https://github.com/balena-io/balena-io/wiki/Parental-Leave-Policy).
+* When a member of the team is expecting a new addition to their family, they will be granted an additional 12 weeks (60 days) to their leave bank to use however suits them best. Full information on the Parental Leave policy can be found [here](../policies/parental-leave-policy).
 * Employees in Greece should always start January 1st of the new year with at least a 12 day balance in their bank. If any team members are entitled to more than 2.5 days/month per local legislation, their monthly accumulation rate will be increased to represent this. Minimum entitlements for Greece can be found in **Appendix A**.
 * Team members who want to take extended unpaid leave beyond their paid leave allocation should discuss this with a member of the maintainers' team. Unpaid leave will be considered on a case-by-case basis.
 * When a team member leaves the company, they will be paid out for any unused leave in their bank.
