@@ -1,6 +1,20 @@
 # Summit
 “Summit” is what we call our annual face to face team meeting. It’s one of the highlights in the balena calendar year. This is the time of the year that all balenistas get together in one place and spend one week aligning on our vision, brainstorming, hacking, getting to know each other better, reflecting on the past year, and shaping the company’s roadmap and future.  
 
+### Summit recordings
+We strongly encourage every new balenista to spend some time watching past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you some background and context, and help you understand balena better. You can chat with your buddy to get some help around which recordings might be more relevant and helpful to you and your area of work. It would be helpful to start with watching some of the keynotes from the last summit or hack week to get up to speed with current work and goals. 
+
+Check this [summit recordings folder](https://drive.google.com/drive/folders/1AQNZ9gfYjDW4wh3865YLKlZayAsWJCqu) and enjoy watching! 
+
+:::tip
+
+You can find the presentation documents for most talks too in the folders if you want to have a quick look through rather watching the full recording.
+ 
+:::
+
+### Summit 2018
+During Summit 2018 in Barcelona, Spain, the focus of the team was on renaming the company; a great activity to do when you're all in the same place together. Find out more in this [blog post](https://www.balena.io/blog/happy-anniversary-team-balena/).
+
 ### Summit 2019
 We have run a few summits over the years. Since the beginning of 2019, and especially after completing our Series B funding round in July 2019 we've been focusing on growing our globally distributed team. The strength of our team is never more apparent than at our annual week-long summit. Check this [blog post](https://www.balena.io/blog/summit-2019-barcelona-thats-a-wrap/) about summit 2019 which took place in Barcelona, Spain for the second year. 
 
@@ -13,10 +27,5 @@ Six months after our virtual annual summit in September 2020, we held what we ca
 ### Summit 2021
 Summit 2021 was our first attempt to run a hybrid Summit! We had smaller teams that met in London, Seattle, Athens and Delhi during Summit week, while about half of the team attended remotely. We did have some challenges as expected and we learned a ton. You can check out all the Summit 2021 recordings [here](https://drive.google.com/drive/u/1/folders/1Nm2pIsitmnP7iC-XK0y8Q1isV38yBLUy).
 
-
-### Summit recordings
-We strongly encourage every new balenista to spend some time watching past summit recordings to better understand our vision, our current areas of focus, as well as how we work together at balena. These will give you some background and context, and help you understand balena better. You can chat with your buddy to get some help around which recordings might be more relevant and helpful to you and your area of work. It would be helpful to start with watching some of the keynotes from the last summit or hack week to get up to speed with current work and goals. 
-
-Check this [summit recordings playlist page](https://github.com/balena-io/balena-io/wiki/Summit-recordings-playlist) and enjoy watching! 
-
-_Note that you can find the presentation documents for most talks too in the folders if you want to have a quick look through rather watching the full recording._
+### Vision Week 2022
+Due to the success of our last vision week in 2021, we decided to bring it back for 2022. This was a fully remote event where we focussed on the idea of [productization and product building](../products-and-productization/).
