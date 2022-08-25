@@ -1,7 +1,7 @@
 # Preset Playbook
 
 **_TL;DR_** Preset is a platform to self-serve balenaCloud product analytics (regarding fleets, devices, users, etc.) and is available to every balenista.
-Send an #access request in the t/operations flow and the ops team will take care of the rest.
+Send an #access request to @@operations in Jellyfish and the operations team will take care of the rest.
 
 ---
 
@@ -62,7 +62,7 @@ If you decide to create datasets on your own, here are a couple of useful tips t
 ## FAQ
 
 - **Can I get access to Preset?**  
-The answer is yes, regardless of your position at balena. Just send an `#access` request in the `t/operations` flow.
+The answer is yes, regardless of your position at balena. Send an #access request to @@operations in Jellyfish.
 
 - **I had something very important in Chartio, is it gone for good?**  
 While Chartio is no longer accessible, most of our business intelligence (e.g. queries underlying the charts) were backed up [here](https://github.com/balena-io/analytics-pipeline/tree/master/chartio/backup) and can be recreated.
@@ -71,4 +71,4 @@ While Chartio is no longer accessible, most of our business intelligence (e.g. q
 It’s complicated. ["Analytics and Reporting: the quest to replace Chartio"](https://github.com/balena-io/balena-io/wiki/All-hands-presentations#fri-january-28--2022-analytics-and-reporting-the-quest-to-replace-chartio) all-hands presentation is the most comprehensible overview of the challenges along the way.
 
 - **I couldn’t find the answer to my question, who can help?**  
-Regarding Preset and analytics-related questions it’s always a good idea to ping the r/analytics flow.
+Regarding Preset and analytics-related questions it’s always a good idea to ping @@analytics in Jellyfish.
