@@ -16,5 +16,4 @@ jobs:
       GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
       GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
     with:
-      protect_branch: false
       node_versions: "16.x,18.x"
