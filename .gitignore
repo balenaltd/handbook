@@ -4,3 +4,4 @@
 .docusaurus
 node_modules
 build
+.vscode
