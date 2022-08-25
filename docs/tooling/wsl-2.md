@@ -1,25 +1,40 @@
 # WSL2
 
-If you're a Windows user and you will be working on any of balena's repos, you will often have to run the app you're working on locally. Balena apps must be run through a Linux terminal (one reason for this is that you cannot set env variables inline in Windows like you can in Linux), so follow this [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL 2 and a Linux terminal on your device.
+If you're a Windows user and you will be working on any of balena's repos, you will often have to run the app you're working on locally. Balena apps must be run through a Linux terminal due to how env vars are passed to a lot of scripts, so follow this [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install WSL2 and a Linux terminal on your development machine.
 
-## nvm
-Now that you have a WSL 2 and a Linux terminal installed, you need to install node. Because installing node via apt (`sudo apt install nodejs`) usually installs an older version, you should install [nvm](https://github.com/nvm-sh/nvm). `nvm` allows you to easily switch between different versions of node.
+## `nvm`
 
-*Note: When you switch node versions, run `rm -rf node_modules/` before running `npm i` again in any repo to ensure that the node modules you have match your node version. Alternatively, you can just run `npm ci` which removes all node modules and then reinstalls them*
+Now that you have WSL2 and a Linux terminal installed, you may need to install Node to develop with certain repositories. Because installing Node via apt (`sudo apt install nodejs`) usually installs an older version, you should install [nvm](https://github.com/nvm-sh/nvm). `nvm` allows you to easily switch between different versions of node.
+
+:::note
+
+When switching Node versions, run `npm ci` to remove all `node modules` before reinstalling them to ensure the repo has the correct package versions.
+
+:::
 
 ## Cloning a repo
-When you open your WSL terminal, by default you will find yourself in a directory along these lines: `mnt/c/Users/your_user_here`. Cloning your repo in anywhere in this directory and running it will result in Watchpack errors (`permission denied`). To avoid these errors, clone your repo anywhere in your `home` directory instead. To get there, run `cd ~`. Once there, you might want to create a folder to clone your repos in (`mkdir repos`). Once you are inside the folder in your `home` directory in which you would like to keep your repos, you can clone your repos into it. When you first try to clone a balena repo, you will be prompted to enter your GitHub username and password. Enter your username as you would normally. For your password, entering your GitHub password will result in an `Authentication Failed` error. This is because you have 2FA set up. Instead of entering your password, you must either [generate a new ssh key and add it to your GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) or enter your personal access token (follow this [guide](https://webkul.com/blog/github-push-with-two-factor-authentication/) to create one. *You will be able to see it once and never again, so if you want you can save it somewhere safe, **but make sure it is secure and do not share this token with anyone***). If you use a personal access token, you will have to re-enter it every time you restart your terminal.
+
+When you open your WSL terminal, by default you will find yourself in `/mnt/c/Users/$USER`. Cloning your repo anywhere in this directory and running it will result in permissions errors. To avoid these errors, clone your repo anywhere in your `$HOME/balena` directory instead. To set `$HOME` to `/home/user` instead of the default `/mnt/c/Users`, if you are using Windows Terminal, you can [set the home path in the settings for your specific distro](https://goulet.dev/posts/how-to-set-windows-terminal-starting-directory/). Next, when working with GitHub, it's recommended to [generate a new ssh key and add it to your GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ## Locally running the dev environment
-Now that you have your repository cloned, you could run it via your WSL terminal with one of its `run` commands. Let's use [balena-ui](https://github.com/balena-io/balena-ui) as an example repository. If you run the app, it will compile successfully. You should be able to access it at `https://localhost:3000` (note the `https`), but you will find that you cannot. This is because it is being hosted on your WSL terminal's IP, not on your `IPv4` as when you run the app via your `powershell` or `bash` terminals. To solve this, you can either add the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension to VS Code (if that is your preferred editor) or you can use a `netsh` command to change the IPv4 and port your localhost will listen for.
+
+Now that you have your repository cloned, you could run it via your WSL terminal with one of its `run` commands. Let's use [balena-ui](https://github.com/balena-io/balena-ui) as an example repository. If you run the app, it will compile successfully. You should be able to access it at `https://localhost:3000`, but you will find that you cannot. This is because it is being hosted on WSL's IP, not on localhost. To solve this, you can either add the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension to VS Code (if that is your preferred editor) or you can use a `netsh` command to change the IPv4 and port your localhost will listen for.
 
 ### Remote - WSL
-Your VS code should recommend this extension as soon as you load if it detects that you are using WSL as well. If it doesn't, just follow the link above to install it. Once installed, a button resembling a monitor, called `Remote Explorer` will appear on your sidebar. Click it and connect to the available WSL target of choice. Your VS code will restart and once it loads back up, you will see that it is now connected to the WSL target you chose. Now, VS code will track changes via File Explorer and Source Control and you will be able to run commands like the following to run and test your local development environment: `npm run start:staging`. Once the terminal says that it has compiled successfully, go to `https://localhost:3000` to see your local site.
 
-### netsh
-You need to run the following one-line command in a Powershell terminal with Admin privileges: `netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=$($(wsl hostname -I).Trim());` (note that `3000` is the port used in `balena-ui` and may differ per repo, so replace `3000` with the port used by the repo you are in). Then, in 2 *separate* WSL terminals, run these two commands (note that these examples are based off the `balena-ui` repo and should be adjusted per repo's run commands. The important part to focus on here is that the app is being served using `ngrok` over plain `http` on the specified port):
+If using VSCode, we recommend installing this VSCode extension. Once installed, a button resembling a monitor, called `Remote Explorer` will appear on your sidebar. Click it and connect to the available WSL target of choice. Now, VSCode will track changes via File Explorer and Source Control and you will be able to run the commands available in your repository's `package.json`. Once the terminal says that it has compiled successfully, go to `https://localhost:3000` to see your local site.
+
+### `netsh`
+
+You need to run the following one-line command in a Powershell terminal with Admin privileges: `netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=$($(wsl hostname -I).Trim());` (note that `3000` is the port used in `balena-ui` and may differ per repo, so replace `3000` with the port used by the repo you are in). Then, in 2 _separate_ WSL terminals, run these two commands (note that these examples are based off the `balena-ui` repo and should be adjusted per repo's run commands. The important part to focus on here is that the app is being served using `ngrok` over plain `http` on the specified port):
+
 1. `npm run serve-dev-http:staging|prod` (choose only staging or prod depending on which API you want to use)
 2. `npm run ngrok-http 3000`
 
-Finally, you can access your locally hosted dev server by going to one of the `forwarded` links in ngrok. The ngrok session links expire after 2 hours by default.
-*Note: the Powershell command must be run every time you close and reopen your WSL terminal completely because if your WSL terminal has been closed completely and then reopened, it will have a different IP than during the prior session*
+Finally, you can access your locally hosted development server by going to one of the **forwarded** links in ngrok. The ngrok session links expire after 2 hours by default.
+
+:::note
+
+This Powershell command must be run every time you close and reopen your WSL terminal completely, because if your WSL terminal has been closed completely and then reopened, it will have a different IP than during the prior session.
+
+:::
