@@ -43,7 +43,7 @@ The same would happen if a Software Engineer was asked to go to an event. They w
  
 In addition please add a reason for the expense, under “comment”, if it is not related to an Event.
 
-Please check out [this Expensify guide](https://community.expensify.com/categories/expensify-how-tos) or [this Deel guide](../policies/team/deel-invoicing.md) before forwarding any expenses.
+Please check out [this Expensify guide](https://community.expensify.com/categories/expensify-how-tos) or [this Deel guide](../team/deel-invoicing.md) before forwarding any expenses.
 
 
 ## How do I submit expenses in a foreign currency
