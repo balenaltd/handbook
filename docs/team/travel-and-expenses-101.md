@@ -19,7 +19,7 @@ All the expenses made for the duration of your business travel are covered by ba
 
 ## What happens in case of an emergency?
 
-In case of an emergency, the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Apostolis (apostolis@balena.io) or Fotis (fotis@balena.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones (Apostolis +30 6946913376 or Fotis +30 6979180161). They will guide you in any way possible.
+In case of an emergency, the first thing you need to do is get in touch with the Operations Team. Don’t hesitate to contact Apostolis (apostolis@balena.io) or Fotis (fotis@balena.io) via email or in the operations flow in Flowdock. In case of an emergency, don't hesitate to call them on their mobile phones. They will guide you in any way possible.
 In the unlikely event that the Operations Team is not available to assist you (that would occur only due to time difference), and depending on the need, there are a few things you can do. Please see below.
 
 ### Accommodation
