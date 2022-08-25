@@ -4,7 +4,7 @@
 
 ## I. Setting up to work on call
 
-0. (async) Request credentials for the services you will find in the [[SRE Resources]] wiki article.
+0. (async) Request credentials for the services you will find in the [SRE Resources](sre-resources.md)
 1. Read this doc
 2. Read the [DevOps Playbook](https://jel.ly.fish/view-all-faqs) (topic filter: `devops`)
 3. Check your DevOps on-call schedule in [the DevOps calendar](https://calendar.google.com/calendar/u/0?cid=Y19rdG43azdoZ2I4MjZsMThtbGw0aWxwamJsOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) or in VictorOps.
@@ -47,7 +47,7 @@ There are going to be some test incidents, or other incidents not routed to you 
 
 Can be viewed from *"Teams" > "Operations" > "On-call schedule"*
 
-We (specifically @wrboyce) are working on syncing our rotation times to our Google Calendars. [fd link](https://www.flowdock.com/app/rulemotion/autohat/threads/nfyY1OwaSrPXQ2iv8BZkfYZkDzz)
+We are working on syncing our rotation times to our Google Calendars.
 
 
 
@@ -136,7 +136,7 @@ Lets you create *incidents*
     - monitoring
     - resolved
 - In the top-right, see the "Apply template" dropdown, which can help get you started
-- Hubot will ping the team in the cloud/production flow
+- Hubot will ping the team in the Jellyfish
     - can be snoozed only so long as it's being worked on (snooze is not for "ignore"!)
     - reminds us to *close* the incident in StatusPage if it's still up once we've resolved it
 - Incidents can be edited over time as we progress
