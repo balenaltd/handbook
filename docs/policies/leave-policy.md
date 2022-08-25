@@ -3,7 +3,7 @@
 ## Intro 
 The balena paid leave policy is designed to give team members control and flexibility over managing their leave. It should be easy to understand, simple for team members to manage, and be flexible to different preferences. 
 
-Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](../policies/parental-leave-policy.md) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & emergency leave policy](../policies/sick-&-emergency-leave-policy).
+Leave days are available to the team for holidays, vacation etc. whilst we also have a [parental leave policy](../policies/parental-leave-policy.md) for team members who are expecting a new addition to their family. For days when you are not able to work due to illness or family emergencies, we have the [sick & emergency leave policy](../policies/sick-and-emergency-leave-policy.md).
 
 A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](../tooling/calamari).
 
