@@ -1,5 +1,5 @@
 # Balena Handbook Manual
-If there is information missing here on how to do something that you think would be useful to the team or that you yourself want to know how to do, either add it to the repo yourself, create an issue requesting it or you can ask anyone on the team for help (jellychat, 1-2-1s, /beginners or /teamos flow)
+If there is information missing here on how to do something that you think would be useful to the team or that you yourself want to know how to do, either add it to the repo yourself via a PR, create an issue requesting it, or ask someone on the team for help (for example by asking @@balena in a new [balena-org Jellyfish chat thread](https://jel.ly.fish/org-balena)).
 
 *Note: Until the release party for docs has been completed, the docusarus website version of the handbook is not deployed. However, all changes made to the handbook will be reflected on the website once live.*
 
@@ -63,6 +63,9 @@ Once your PR has been reviewed, hit the merge pull request button. This may alre
 [link text](www.the-url-you-want-to-link-to.com)
 
 ```
+
+Also check out the [official Markdown Guide](https://www.markdownguide.org/).
+
 #### Ordering
 The contents on the website defaults to the alphabetical order of the file names (not the H1 title of pages), prioritising captial letters first (which is why we want to keep all file names in lowercase).
 
@@ -102,24 +105,23 @@ This will take you to github to make your edits as detailed above.
 
 This handbook website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-$ yarn
-```
-
 ### Local Development
 
-```
-$ yarn start
+Clone the repo, npm install, and start a local development server:
+
+```shell
+git clone git@github.com:balenaltd/handbook.git
+cd handbook
+npm install
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The `npm start` command resolves to `docusaurus start` which starts a local development server, and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
 ```
-$ yarn build
+$ npm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
