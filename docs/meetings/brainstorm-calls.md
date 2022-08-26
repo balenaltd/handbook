@@ -11,9 +11,9 @@ You can navigate brainstorm [calls](https://jel.ly.fish/view-all-brainstorm-call
 ## Loop specific brainstorm calls 
 
 ### balena.io brainstorms
-- [Product calls](./product-calls.md)
+- Product calls
 
-- [Arch calls](./architecture-calls.md)
+- Arch calls
 
 - Commercial
 
