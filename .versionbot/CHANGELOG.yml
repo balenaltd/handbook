@@ -1,4 +1,18 @@
 - commits:
+    - subject: Adding development guide
+      hash: b141cfc8653a57742581ef23abc7c6b7ef4bf10e
+      body: |
+        Pending support process guides
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: fisehara <harald@balena.io>
+        signed-off-by: fisehara <harald@balena.io>
+      author: fisehara
+      nested: []
+  version: 1.1.0
+  date: 2022-08-29T19:49:43.979Z
+- commits:
     - subject: Remove specific node versions for testing
       hash: ee76f42d9a3a8f97d928bf0cea75d981940244fb
       body: |
