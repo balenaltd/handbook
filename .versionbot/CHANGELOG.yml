@@ -1,0 +1,40 @@
+- commits:
+    - subject: Remove specific node versions for testing
+      hash: ee76f42d9a3a8f97d928bf0cea75d981940244fb
+      body: |
+        Recent versions of Flowzone will get the engine versions
+        from package.json
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.0.1
+  title: ""
+  date: 2022-08-29T02:37:04.582Z
+- version: 1.0.0
+  date: 2022-08-27T15:38:46Z
+  commits:
+    - hash: c0897b649e07e123fbbdfc8d2dbfad2a4d0c55f1
+      author: Kyle Harding
+      footers:
+        change-type: patch
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      subject: Remove the changelog and reset the version to 1.0.0
+      body: null
+    - hash: ab6c04ca83dbbad39012e62c1fb288865ab2269d
+      author: Chris Crocker-White
+      footers:
+        change-type: minor
+        signed-off-by: Chris Crocker-White <chriscw@balena.io>
+      subject: Add search
+      body: null
+    - hash: ab7ed3a03db841ffd3cec6088cc5cee4a0f729ad
+      author: Kyle Harding
+      footers:
+        change-type: patch
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      subject: Move deploy workflow to a Flowzone composite action
+      body: null
