@@ -3,13 +3,12 @@ name: Deploy to GitHub Pages
 description: Deploy to GitHub Pages
 
 inputs:
-  flowzone_token:
-    description: "Flowzone token"
+  json:
+    description: "JSON stringified object containing all the inputs from the calling workflow"
     required: true
-  shell:
-    description: "Shell"
-    required: false
-    default: bash
+  secrets:
+    description: "JSON stringified object containing all the secrets from the calling workflow"
+    required: true
 
 runs:
   using: "composite"
@@ -33,7 +32,7 @@ runs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ inputs.flowzone_token }}
+        github_token: ${{ fromJSON(inputs.secrets).FLOWZONE_TOKEN }}
         # Build output to publish to the `gh-pages` branch:
         publish_dir: ./build
         # The following lines assign commit authorship to the official
