@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update custom Flowzone finalize action to use new inputs
+      hash: 487028474d44f9fb0de82e4a038450538d1ef069
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.0.2
+  title: ""
+  date: 2022-08-31T15:54:55.859Z
+- commits:
     - subject: Remove specific node versions for testing
       hash: ee76f42d9a3a8f97d928bf0cea75d981940244fb
       body: |
