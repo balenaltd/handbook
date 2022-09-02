@@ -1,4 +1,28 @@
 - commits:
+    - subject: Created `how we work` section to document idioms
+      hash: 3a155c056e72b658f9cc7ec78891f54925d6e568
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+        signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+      author: 20k-ultra
+      nested: []
+    - subject: Moved doughnut call doc to Culture folder
+      hash: e957d1eebf8753fb1ba51b84f74896d817251ec5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+        signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+      author: 20k-ultra
+      nested: []
+  version: 1.2.0
+  title: ""
+  date: 2022-09-02T21:32:15.219Z
+- commits:
     - subject: Expose change log
       hash: 762fcc794ef6ed669c87bcb8bcd86334c782addd
       body: ""
