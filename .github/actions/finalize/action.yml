@@ -19,6 +19,10 @@ runs:
         node-version: 18
         cache: npm
 
+    - name: Copy CHANGELOG.md
+      shell: bash
+      run: cp -v ./CHANGELOG.md ./src/pages/CHANGELOG.md
+
     - name: Install dependencies
       shell: bash
       run: npm ci
