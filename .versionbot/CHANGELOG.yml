@@ -1,4 +1,18 @@
 - commits:
+    - subject: Expose change log
+      hash: 762fcc794ef6ed669c87bcb8bcd86334c782addd
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Crocker-White <chriscw@balena.io>
+        signed-off-by: Chris Crocker-White <chriscw@balena.io>
+      author: Chris Crocker-White
+      nested: []
+  version: 1.1.1
+  title: ""
+  date: 2022-09-02T18:55:21.279Z
+- commits:
     - subject: Move security guidelines to the new security.balena.io handbook
       hash: 2f4b9c42604591dc09a283991cab7abe0b5eede2
       body: ""
