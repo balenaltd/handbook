@@ -1,6 +1,6 @@
 # https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
-name: Deploy
-description: Deploy to GitHub Pages
+name: Deploy preview
+description: Deploy preview to GitHub Pages
 
 inputs:
   json:
@@ -48,8 +48,9 @@ runs:
       env:
         source_folder: ./build
         target_branch: gh-pages
-        target_folder: .
-        published_url: https://handbook.balena.io/
+        # deploy to a folder called gh-preview/pr-#
+        target_folder: gh-preview/pr-${{ github.event.number }}
+        published_url: https://handbook.balena.io/gh-preview/pr-${{ github.event.number }}/
       run: |
         echo "source_folder=${source_folder}" >> $GITHUB_ENV
         echo "target_branch=${target_branch}" >> $GITHUB_ENV
@@ -57,15 +58,13 @@ runs:
         echo "published_url=${published_url}" >> $GITHUB_ENV
 
     # https://github.com/JamesIves/github-pages-deploy-action
-    - name: Deploy to GitHub Pages
+    - name: Deploy preview to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
+      
       with:
         folder: ${{ env.source_folder }}
         branch: ${{ env.target_branch }}
         target-folder: ${{ env.target_folder }}
-        # avoid cleaning up published preview directories
-        clean-exclude: gh-preview
-        # use the provided flowzone token
         token: ${{ fromJSON(inputs.secrets).FLOWZONE_TOKEN }}
         # use embedded name and email from gpg key for commit
         git-config-name: ${{ steps.gpg.outputs.name }}
@@ -73,3 +72,11 @@ runs:
         force: false
         commit-message: |
           Deploying ${{ github.repository }}@${{ github.event.pull_request.head.sha }} to ${{ env.target_branch }} 🚀
+
+    - name: Leave a comment after deployment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: gh-preview
+        GITHUB_TOKEN: ${{ fromJSON(inputs.secrets).FLOWZONE_TOKEN }}
+        message: |
+          :rocket: Deployed ${{ github.repository }}@${{ github.event.pull_request.head.sha }} to ${{ env.published_url }}

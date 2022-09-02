@@ -1,6 +1,6 @@
 # https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
-name: Deploy
-description: Deploy to GitHub Pages
+name: Remove preview
+description: Remove preview from GitHub Pages
 
 inputs:
   json:
@@ -13,23 +13,10 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Setup Node.js 18.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-        cache: npm
-
-    - name: Copy CHANGELOG.md
+    - name: Create an empty directory
       shell: bash
-      run: cp -v ./CHANGELOG.md ./src/pages/CHANGELOG.md
-
-    - name: Install dependencies
-      shell: bash
-      run: npm ci
-
-    - name: Build website
-      shell: bash
-      run: npm run build
+      run: |
+        echo "emptydir=$(mktemp -d)" >> $GITHUB_ENV
 
     # https://github.com/crazy-max/ghaction-import-gpg
     # import gpg key for verified commits
@@ -46,25 +33,24 @@ runs:
     - name: Export env vars
       shell: bash
       env:
-        source_folder: ./build
-        target_branch: gh-pages
-        target_folder: .
-        published_url: https://handbook.balena.io/
+        target-branch: gh-pages
+        # clean the existing folder called gh-preview/pr-#
+        target-folder: gh-preview/pr-${{ github.event.number }}
+        preview-url: https://handbook.balena.io/gh-preview/pr-${{ github.event.number }}/
+      # deploy an empty directory to the preview path as a way to clean up
       run: |
-        echo "source_folder=${source_folder}" >> $GITHUB_ENV
+        echo "source_folder=$(mktemp -d)" >> $GITHUB_ENV
         echo "target_branch=${target_branch}" >> $GITHUB_ENV
         echo "target_folder=${target_folder}" >> $GITHUB_ENV
         echo "published_url=${published_url}" >> $GITHUB_ENV
 
     # https://github.com/JamesIves/github-pages-deploy-action
-    - name: Deploy to GitHub Pages
+    - name: Remove preview from GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: ${{ env.source_folder }}
         branch: ${{ env.target_branch }}
         target-folder: ${{ env.target_folder }}
-        # avoid cleaning up published preview directories
-        clean-exclude: gh-preview
         # use the provided flowzone token
         token: ${{ fromJSON(inputs.secrets).FLOWZONE_TOKEN }}
         # use embedded name and email from gpg key for commit
@@ -72,4 +58,12 @@ runs:
         git-config-email: ${{ steps.gpg.outputs.email }}
         force: false
         commit-message: |
-          Deploying ${{ github.repository }}@${{ github.event.pull_request.head.sha }} to ${{ env.target_branch }} 🚀
+          Removing ${{ env.target_folder }} from ${{ env.target_branch }}
+
+    - name: Create deployment comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: gh-preview
+        GITHUB_TOKEN: ${{ fromJSON(inputs.secrets).FLOWZONE_TOKEN }}
+        message: |
+          :rocket: Preview removed because the pull request was closed.
