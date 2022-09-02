@@ -8,30 +8,30 @@ Feel free to reach out to your buddy, schedule your first video call and agree o
 
 ### Day One
 
-* We suggest scheduling a first intro call as soon as possible to get to know each other, connecting is one of the key goals for buddies :)
-* Help the new member out with the [Jellyfish](https://jel.ly.fish/) basics, such as creating a 1-1 message and how chat threads work; a "win" for the first day is for new team members to successfully introduce themselves in Jellyfish and respond in-thread!
+- We suggest scheduling a first intro call as soon as possible to get to know each other, connecting is one of the key goals for buddies :)
+- Help the new member out with the [Jellyfish](https://jel.ly.fish/) basics, such as creating a 1-1 message and how chat threads work; a "win" for the first day is for new team members to successfully introduce themselves in Jellyfish and respond in-thread!
 
 ### First Call
 
 Some suggestions for what to cover and discuss with new team members during the first call:
 
-* Share your journey and experience at balena and even some of your own challenges and helpful tips from your onboarding experience
-* Add the new team member to the Jellyfish main chat groups and encourage them to ask questions with `@@help`. Keeping your communication in the right places can help other new team members see answers to questions they might also have.
-* Mention any other key and/or fun Jellyfish chat groups to keep an eye on and any other helpful tips
-* Point out any key recordings and documents that outline our mission, core work and this year's goals (eg. summit recordings, wiki pages, useful GH repos)
-* If both the new team member and buddy are engineers, they can chat about the dev environment setup or the new team member can use the team `@@help` mention in any chat thread with any relevant questions
-* Help the new team member get familiar with internal apps and tools we use, check they have access to all the key services and they know what they are. They have received a ton of invites so check that they are all set up and have an idea of what everything is about
-* If relevant and you can help, have a security-related chat - full disc encryption, passwording, 2FA, etc - [Security guidelines page](../tooling/security-guidelines.md)
-* Check what questions the new team member might have about things you might not think talking about!
+- Share your journey and experience at balena and even some of your own challenges and helpful tips from your onboarding experience
+- Add the new team member to the Jellyfish main chat groups and encourage them to ask questions with `@@help`. Keeping your communication in the right places can help other new team members see answers to questions they might also have.
+- Mention any other key and/or fun Jellyfish chat groups to keep an eye on and any other helpful tips
+- Point out any key recordings and documents that outline our mission, core work and this year's goals (eg. summit recordings, wiki pages, useful GH repos)
+- If both the new team member and buddy are engineers, they can chat about the dev environment setup or the new team member can use the team `@@help` mention in any chat thread with any relevant questions
+- Help the new team member get familiar with internal apps and tools we use, check they have access to all the key services and they know what they are. They have received a ton of invites so check that they are all set up and have an idea of what everything is about
+- If relevant and you can help, have a security-related chat - full disc encryption, passwording, 2FA, etc - [Employee security guidelines](https://security.balena.io/guidelines)
+- Check what questions the new team member might have about things you might not think talking about!
 
 ### Day Two and Onwards; suggested tips for the second call
 
-* Let the new team member do most of the talking!
-* Check how the new team member has got along with the [onboarding checklist](./onboarding-checklist.md) and the [new starter checklist](https://docs.google.com/spreadsheets/d/1cQZz8in9iEhsM2_LNaI36tvX_TH1c7RgC-uem78aMV8/edit?ts=5fb3d7b8#gid=0). Do they need any help with anything? eg. Do they have access to the calendars and services they need? Are they familiar with Github already and have added their location to the team map? Are they ready to share [product](./live-the-balena-user-experience.md) and [team](../team/feedback.md) feedback? Do they need help with using our product and deploying code if they haven't done so before?
-* Encourage them to join calls and reach out to people. A great way of getting to know a few of the team members is to join a few of the doughnut calls on Fridays. If possible, you can link the new team member with teammates who can introduce them to projects and work that would be relevant and interesting to them and their work/project if they already have a defined area of work at balena.
-* Are there any other services that might be useful to have access to according to their area of work? Check that they know how to use #access.
-* You might want to mention tools we often use, such as Hubot, the scheduler, `#order` etc so they can start getting familiar with how to use these.
-* Check-in regularly for at least the first 4-6 weeks. You may very well be the first person connection the new team member makes on the team (besides the people who interviewed them and those helping with their onboarding). Checking in with them regularly will help them feel welcome and supported. We suggest that you let them take the lead for scheduling your calls and other little tasks so these can feel like little 'wins' and things they accomplish during their first few weeks.
+- Let the new team member do most of the talking!
+- Check how the new team member has got along with the [onboarding checklist](./onboarding-checklist.md) and the [new starter checklist](https://docs.google.com/spreadsheets/d/1cQZz8in9iEhsM2_LNaI36tvX_TH1c7RgC-uem78aMV8/edit?ts=5fb3d7b8#gid=0). Do they need any help with anything? eg. Do they have access to the calendars and services they need? Are they familiar with Github already and have added their location to the team map? Are they ready to share [product](./live-the-balena-user-experience.md) and [team](../team/feedback.md) feedback? Do they need help with using our product and deploying code if they haven't done so before?
+- Encourage them to join calls and reach out to people. A great way of getting to know a few of the team members is to join a few of the doughnut calls on Fridays. If possible, you can link the new team member with teammates who can introduce them to projects and work that would be relevant and interesting to them and their work/project if they already have a defined area of work at balena.
+- Are there any other services that might be useful to have access to according to their area of work? Check that they know how to use #access.
+- You might want to mention tools we often use, such as Hubot, the scheduler, `#order` etc so they can start getting familiar with how to use these.
+- Check-in regularly for at least the first 4-6 weeks. You may very well be the first person connection the new team member makes on the team (besides the people who interviewed them and those helping with their onboarding). Checking in with them regularly will help them feel welcome and supported. We suggest that you let them take the lead for scheduling your calls and other little tasks so these can feel like little 'wins' and things they accomplish during their first few weeks.
 
 Over time, the new team member will gain enough context and confidence to navigate on their own. Once the team member has successfully bootstrapped themselves, they can "graduate" from the buddy program. We encourage you to stay in touch with your former buddies, but the goal should be to get them to a place where they are self-sufficient relatively quickly. In fact, some of your buddies will likely go on to buddy up with other new team members in the future :)
 
@@ -50,7 +50,6 @@ Most new team members found that having a buddy was helpful and valuable and tha
 > _'Having a buddy helps remove some of the new starter insecurities you have'_
 
 > _'I couldn't imagine not having a buddy, they can explain and simplify the things that seem complicated at the start'_
-
 
 There were also some who didn't get as much from having a buddy and there were a few different reasons for that:
 
@@ -78,20 +77,20 @@ A buddy is someone who serves as a critical link to a new team member during the
 
 **_Thodoris (@thgreasi)_**: Buddying is super-informal so feel free to ask anything and ping about anything. - repeat this often!
 
-* Never ask for approvals, always ask for re-reviews or extra-reviews.
+- Never ask for approvals, always ask for re-reviews or extra-reviews.
   We know what you mean but we are allergic seeing such messages.
-* Making sure to utilize Jellyfish bookmarks is super useful. It's great to be able to point at a later point of time to a thread
+- Making sure to utilize Jellyfish bookmarks is super useful. It's great to be able to point at a later point of time to a thread
   where you were asked to do something in a specific way. Or you can easily find answers of questions that you had asked at some point and be able to reference others.
-* Try cross-linking everything. Link Jellyfish threads into GH issues & PRs and link them to GH urls back to Jellyfish. This way everyone will be able find the reasoning of what was discussed, where and why you had to do something.
-* You are expected to join the All Hands call on Monday (except if you really can't, which is fine). You are not expected to join if you are on leave but you are expected to watch the recording once you are back, so that you don't miss any PSAs. The policy in that call specifically is to try to keep your camera on.
-* In Jellyfish, try avoiding markdown links, but use `See: <url>` in a new line (as per the process wiki).
+- Try cross-linking everything. Link Jellyfish threads into GH issues & PRs and link them to GH urls back to Jellyfish. This way everyone will be able find the reasoning of what was discussed, where and why you had to do something.
+- You are expected to join the All Hands call on Monday (except if you really can't, which is fine). You are not expected to join if you are on leave but you are expected to watch the recording once you are back, so that you don't miss any PSAs. The policy in that call specifically is to try to keep your camera on.
+- In Jellyfish, try avoiding markdown links, but use `See: <url>` in a new line (as per the process wiki).
 
 **_Konstantinos (@konmouz)_**: Try to have a few calls with the new balenista to have a more direct approach (not just 1-1 chat)!
 
-* Make an introduction of the company and the way we work
-* Communicate the culture and values as much as possible
-* Create an environment where the new balenista is comfortable to ask questions
-* Follow up for a couple of weeks until the new balenista can navigate comfortably within the company
+- Make an introduction of the company and the way we work
+- Communicate the culture and values as much as possible
+- Create an environment where the new balenista is comfortable to ask questions
+- Follow up for a couple of weeks until the new balenista can navigate comfortably within the company
 
 **_Chris (@chrisys)_**: I usually take a mostly hands-off approach but make sure that I am always available for any concern/question no matter how small or trivial it may seem. I make sure to give quick responses and check in frequently (and reduce appropriately depending on how the person is doing) to see how they're getting on and make sure there's nothing on their mind that they perhaps aren't voicing. I encourage people to take their time to look around and figure everything out and absorb everything that's going on, as the first couple of weeks should be pressure-free. My main aim is to create a safe conversation channel where new team members feel supported and comfortable to ask anything.
 
