@@ -69,6 +69,11 @@ const config = {
         },
         items: [
           {
+            href: '/changelog',
+            label: 'Change Log',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/balenaltd/handbook',
             label: 'Edit on GitHub',
             position: 'right',
