@@ -1,4 +1,18 @@
 - commits:
+    - subject: Deploy GitHub Pages previews and clean them up on closed PRs
+      hash: 3e82d30fa537abe93845347b5a3fbd04400daf30
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.2.1
+  title: ""
+  date: 2022-09-05T17:14:24.316Z
+- commits:
     - subject: Created `how we work` section to document idioms
       hash: 3a155c056e72b658f9cc7ec78891f54925d6e568
       body: ""
