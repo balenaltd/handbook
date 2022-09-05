@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update workflow step descriptions
+      hash: 6b7cbdc04782854402fba2607ea9220119d313c6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 1.2.2
+  title: ""
+  date: 2022-09-05T17:57:20.374Z
+- commits:
     - subject: Deploy GitHub Pages previews and clean them up on closed PRs
       hash: 3e82d30fa537abe93845347b5a3fbd04400daf30
       body: ""
