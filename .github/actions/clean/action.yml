@@ -60,7 +60,7 @@ runs:
         commit-message: |
           Removing ${{ env.target_folder }} from ${{ env.target_branch }}
 
-    - name: Create deployment comment
+    - name: Create pull request comment
       uses: marocchino/sticky-pull-request-comment@v2
       with:
         header: gh-preview
