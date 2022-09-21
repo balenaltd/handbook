@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix build command
+      hash: 92836c276ade24e835cfd2f79452e900f1e60ac1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 1.4.1
+  title: ""
+  date: 2022-09-21T15:27:34.423Z
+- commits:
     - subject: remove event info from leave policy
       hash: ca86005dedf1d5f5daa036b4f28e8d2ab9a4326f
       body: >
