@@ -1,4 +1,21 @@
 - commits:
+    - subject: Remove Zoom from basic tool setup
+      hash: 6395334df51ea5530d9e2c66a4c5ad900fc7765c
+      body: >
+        Removed references to Zoom as a basic tool, and replaced it with Google
+        Meet as that's currently our main service for company calls. Zoom is
+        still being used occasionally and by specific people (i.e. CS team).
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Apostolis Michalakos <apostolis@balena.io>
+        signed-off-by: Apostolis Michalakos <apostolis@balena.io>
+      author: apostolism
+      nested: []
+  version: 1.3.1
+  title: ""
+  date: 2022-09-21T12:17:23.921Z
+- commits:
     - subject: Replace Passpack with Bitwarden
       hash: 3f868e18a97e54d89da00342f9c5cf7fb79bf727
       body: |
