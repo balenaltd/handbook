@@ -1,4 +1,21 @@
 - commits:
+    - subject: remove event info from leave policy
+      hash: ca86005dedf1d5f5daa036b4f28e8d2ab9a4326f
+      body: >
+        Removing event attendance policy from the leave and sickness policy as
+        they are two very different things. Will add new policy section for
+        event/conference attendance.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Jasmine gilbert <@Jazzagi>
+        signed-off-by: Jasmine gilbert <@Jazzagi>
+      author: Jasmine Gilbert
+      nested: []
+  version: 1.4.0
+  title: ""
+  date: 2022-09-21T15:05:05.141Z
+- commits:
     - subject: Remove Zoom from basic tool setup
       hash: 6395334df51ea5530d9e2c66a4c5ad900fc7765c
       body: >
