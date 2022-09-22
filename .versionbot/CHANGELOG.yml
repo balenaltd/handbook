@@ -1,4 +1,18 @@
 - commits:
+    - subject: Remove Flowdock from basic tool setup
+      hash: 4118afe5a68fd8a5fbf327b0f10104aba363ea34
+      body: >
+        Removed Flowdock mentions, and replaced the relevant parts with
+        Jellyfish.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: apostolism
+      nested: []
+  version: 1.4.2
+  title: ""
+  date: 2022-09-22T11:46:22.316Z
+- commits:
     - subject: Fix build command
       hash: 92836c276ade24e835cfd2f79452e900f1e60ac1
       body: ""
