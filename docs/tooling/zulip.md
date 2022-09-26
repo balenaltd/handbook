@@ -36,6 +36,20 @@ We've cherry picked some key features to detail below to get you started.
 
 You can view more information about [notifications](https://zulip.com/help/pm-mention-alert-notifications) in zulip in the help center - under the `notifications` heading in the left hand menu.
 
+#### Change your unread count badge to show private messages and mentions only
+
+As default, Zulip will show your unread count badge on `All messages` as literally everything you are subscribed to.
+
+To make it easier to follow notifications / pings relevant to you, you can update your unread count badge to just show the number of mentions and private messages.
+
+Go to the cog icon in the top right > `personal settings` > `notifications` > under `Unread count badge (appears in desktop sidebar and browser tab)` dropdown, select `Private messages and mentions`.
+
+![](../assets/unread-count-badge.png)
+
+#### Change notification sound
+
+Go to the cog icon in the top right > `personal settings` > `notifications` > under `notification sound` dropdown, cycle through and choose a preferred notification sound. You can test them with the play button next ot the dropdown. Ideally pick something distinctive so you don't confuse it with other services!
+
 #### Adding yourself to or creating user groups (aka ‘group pings’)
 User groups allow you to mention multiple users at once. When you mention a user group, everyone in the group is notified as if they were individually mentioned. We have added the most popular user groups to get us started so please go ahead and add yourselves to the ones that are relevant.
 
@@ -94,8 +108,6 @@ If you start creating a new topic / message in a specific stream and move to a n
 
 :::
 
-
-
 ### Private Messages
 
 If you want to speak to someone privately on a 1-to-1 basis you can do so by using private messages. 
@@ -121,3 +133,13 @@ Transparency and open comms should always be the default where possible. Visibil
 :::
 
 Equally you can view your private messages from the `private messages` inbox in the left hand menu (this will give you a thread / topic like view), or by clicking directly on the user name of the person in the `Users` list (so you can view the 1-to-1 with a single user). 
+
+### Messaging Features
+
+#### Timezone clock
+
+If you click on the little clock icon in the message editor, you can add a time that will be displayed in each person's local timezone. e.g. `'"Hey everyone, I'm going to be hanging out at  Mon, Sep 26 2022, 18:00 if anyone is available"`
+
+![](../assets/global-clock.png)
+
+This is a good feature to use for pinging the team about when a call will be starting e.g. brainstorms, all hands, hang outs. etc without having to muddle around with manually converting to UTC.
