@@ -4,7 +4,7 @@ As mentioned at the start, once you log into your @balena.io e-mail account, you
 
 :::caution
 
-Important! Your GitHub handle needs be your username across all services. You **MUST** use the same handle across Zulip, Front, balena forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier when it comes to auto-completing @-mentions.
+Important! Your GitHub handle needs be your username across all services. You **MUST** use the same GitHub handle across Zulip, Front and balena forums. This is because integrations between services rely on matching handles. It will also make your life easier when it comes to auto-completing @-mentions.
 
 :::
 
@@ -41,7 +41,7 @@ Github
 
 **Calamari** is the leave management service we use. You’ll be using Calamari to submit your time-off requests and check who’s away.  Here's a short [Calamari getting started guide](https://github.com/balena-io/balena-io/wiki/Calamari) for your convenience.
 
-**Front** is the service we use to gather all team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Intercom, Jellyfish and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing. **Your Front username MUST match your Github and Jellyfish handle in order to avoid any inbox syncing issues.** In addition, Front doesn't allow usernames with hyphens so if your GitHub handle has one (or more) then use the underscore instead. 
+**Front** is the service we use to gather all team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Intercom, Jellyfish and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing. **Your Front username MUST match the same handle you use across GitHub, Jellyfish and balena forums in order to avoid any inbox syncing issues.** In addition, Front doesn't allow usernames with hyphens so if your GitHub handle has one (or more) then use the underscore instead. 
 
 **Github*** hosts all our public repos as well as the majority of our private repos. It’s also part of the developer's workflow since this is the place where all issues and tasks are hosted. 2FA auth required! If you are not familiar with Github and how it works here are some links that the team has found helpful: [github guides](https://guides.github.com/), [Oh Shit, Git!?!](https://ohshitgit.com/) & [On undoing, fixing, or removing commits in git](http://sethrobertson.github.io/GitFixUm/fixup.html). Feel free to check with your buddy if you need a bit more help :)
 
