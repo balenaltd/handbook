@@ -2,8 +2,11 @@
 ## Basic tools
 As mentioned at the start, once you log into your @balena.io e-mail account, you’ll find lots of invitations to join our team in several services, online. These are tools the whole team is using on a daily basis and that will make your everyday balena life easier.
 
-**NOTE:** Important! You **MUST** use the same handle across Zulip, Front, balena forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier
-when it comes to auto-completing @-mentions.
+:::caution
+
+Important! Your GitHub handle needs be your username across all services. You **MUST** use the same handle across Zulip, Front, balena forums and GitHub. This is because integrations between services rely on matching handles. It will also make your life easier when it comes to auto-completing @-mentions.
+
+:::
 
 For now, make sure you have access to the following services:
 
@@ -21,7 +24,7 @@ Depending on your role and team you may have access to additional tech-related, 
 
 ### Accounts you need as a dev
 
-You'll need to create accounts for these services and then ping `@operations` to give you `#access` to our internal resources.
+You'll need to create accounts for these services and then ping `@@operations` to give you `#access` in Jellyfish to our internal resources.
 * [Docker Hub](https://hub.docker.com) (scripts expect you do be `docker login`ed)
 * [NPM.js](https://www.npmjs.com/) (your access token should be in your `~/.npmrc`)
 
@@ -38,10 +41,7 @@ Github
 
 **Calamari** is the leave management service we use. You’ll be using Calamari to submit your time-off requests and check who’s away.  Here's a short [Calamari getting started guide](https://github.com/balena-io/balena-io/wiki/Calamari) for your convenience.
 
-**Front** is the service we use to gather all team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Intercom, Jellyfish and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing. In addition, Front doesn't allow usernames with hyphens so if your GitHub handle has one (or more) then use the underscore instead. 
-
-**Zoom** is the main service we’re using for the company calls. From time to time, we may use also Hangouts, Skype or Mumble. You can use your personal zoom room for quick and emergency meeting calls. Bear in mind that your personal zoom room has a 40 minutes limit. To find your zoom room identity just log onto your account and under "My Profile" tab you can locate your personal zoom room meeting ID. In addition, you can locate your zoom ID by simply asking Hubot when using the ‘get my zoom’ command! 
-*Please note that we also use google meets a lot for smaller groups and one to one calls. You do not have to set up anything for this. When you create a calendar invite and add a participant, a google meet room/link will be automatically available for that invite. You can also ask Hubot `get a meet` to get a link that you can jump on right away to have ad-hoc calls. This is the preferred option for such calls. 
+**Front** is the service we use to gather all team messages and emails and unite them in one platform. We respond to emails and messages from this platform. It’s integrated with other services, such as Intercom, Jellyfish and Zendesk. Please note that all the Front inboxes you see are not personal -unless you decide to connect your personal inbox to Front- so please do not archive or delete any emails or messages you see, unless you're 100% sure about the process we follow for archiving messages and you know what you're doing. **Your Front username MUST match your Github and Jellyfish handle in order to avoid any inbox syncing issues.** In addition, Front doesn't allow usernames with hyphens so if your GitHub handle has one (or more) then use the underscore instead. 
 
 **Github*** hosts all our public repos as well as the majority of our private repos. It’s also part of the developer's workflow since this is the place where all issues and tasks are hosted. 2FA auth required! If you are not familiar with Github and how it works here are some links that the team has found helpful: [github guides](https://guides.github.com/), [Oh Shit, Git!?!](https://ohshitgit.com/) & [On undoing, fixing, or removing commits in git](http://sethrobertson.github.io/GitFixUm/fixup.html). Feel free to check with your buddy if you need a bit more help :)
 
