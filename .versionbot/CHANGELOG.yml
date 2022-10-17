@@ -1,4 +1,18 @@
 - commits:
+    - subject: updated basic tool setup - gh handle as username
+      hash: f5251e8acfcb2dad42d5d9520c03fa51ba89d937
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Laura Alison <laura@balena.io>
+        signed-off-by: Laura Alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+  version: 2.2.0
+  title: ""
+  date: 2022-10-17T07:04:11.913Z
+- commits:
     - subject: Add additional features to zulip guide
       hash: 4049313990c485ebdf687323efa306e7a88d1b3f
       body: ""
@@ -30,8 +44,7 @@
     - subject: Remove Flowdock from basic tool setup
       hash: 4118afe5a68fd8a5fbf327b0f10104aba363ea34
       body: >
-        Removed Flowdock mentions, and replaced the relevant parts with
-        Jellyfish.
+        Removed Flowdock mentions, and replaced the relevant parts with Jellyfish.
       footer:
         Change-type: patch
         change-type: patch
