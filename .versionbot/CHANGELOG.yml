@@ -1,4 +1,54 @@
 - commits:
+    - subject: Use inherited secrets for the flowzone workflow
+      hash: 50b6c0d9fef1a2a45138fb6869fa8e61103dec5e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+    - subject: Revert flowzone config to be able to correctly run/version
+      hash: baa3b4c3136051419c32f2d55f0598e347de6526
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+    - subject: Improve preview deploy commit message
+      hash: ac08acce1e25ea780d4f4cf421c2123d10b2a553
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+    - subject: Fix custom clean command
+      hash: 76401ff5df357da33c4fd70ee7cbbf7fab9d19ae
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+    - subject: Do not run flowzone when the PR is closed without merging.
+      hash: 31e80911d21b8b632b2ada46ff86f28ddb48e3f0
+      body: |
+        This avoids running cleanup and publish when the PR
+        is closed but is not merged.  The master branch is
+        protected so pushes to the master should only happen
+        through merged PRs.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+        signed-off-by: Carlo Miguel F. Cruz <carloc@balena.io>
+      author: Carlo Miguel F. Cruz
+      nested: []
+  version: 2.2.2
+  title: ""
+  date: 2022-10-19T12:36:59.286Z
+- commits:
     - subject: Update README.md
       hash: 85d918b2a96d4d161b00a4ab7d1619fe3cbfcd2e
       body: |
