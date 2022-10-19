@@ -60,7 +60,7 @@ runs:
     # https://github.com/JamesIves/github-pages-deploy-action
     - name: Deploy preview to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
-      
+
       with:
         folder: ${{ env.source_folder }}
         branch: ${{ env.target_branch }}
@@ -71,7 +71,9 @@ runs:
         git-config-email: ${{ steps.gpg.outputs.email }}
         force: false
         commit-message: |
-          Deploying ${{ github.repository }}@${{ github.event.pull_request.head.sha }} to ${{ env.target_branch }} 🚀
+          Deploying preview of ${{ github.repository }}@${{ github.event.pull_request.head.sha }} to ${{ env.target_branch }} 🚀
+
+          View at ${{ env.published_url }}
 
     - name: Create pull request comment
       uses: marocchino/sticky-pull-request-comment@v2

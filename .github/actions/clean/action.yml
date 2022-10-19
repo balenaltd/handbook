@@ -33,16 +33,14 @@ runs:
     - name: Export env vars
       shell: bash
       env:
-        target-branch: gh-pages
+        target_branch: gh-pages
         # clean the existing folder called gh-preview/pr-#
-        target-folder: gh-preview/pr-${{ github.event.number }}
-        preview-url: https://handbook.balena.io/gh-preview/pr-${{ github.event.number }}/
+        target_folder: gh-preview/pr-${{ github.event.number }}
       # deploy an empty directory to the preview path as a way to clean up
       run: |
         echo "source_folder=$(mktemp -d)" >> $GITHUB_ENV
         echo "target_branch=${target_branch}" >> $GITHUB_ENV
         echo "target_folder=${target_folder}" >> $GITHUB_ENV
-        echo "published_url=${published_url}" >> $GITHUB_ENV
 
     # https://github.com/JamesIves/github-pages-deploy-action
     - name: Remove preview from GitHub Pages
