@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update README.md
+      hash: 85d918b2a96d4d161b00a4ab7d1619fe3cbfcd2e
+      body: |
+        empty pr to test deployment process
+      footer:
+        change-type: patch
+      author: Edwin Joassart
+      nested: []
+  version: 2.2.1
+  title: ""
+  date: 2022-10-19T10:25:51.214Z
+- commits:
     - subject: updated basic tool setup - gh handle as username
       hash: f5251e8acfcb2dad42d5d9520c03fa51ba89d937
       body: ""
