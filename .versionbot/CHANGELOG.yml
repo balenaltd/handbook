@@ -1,4 +1,18 @@
 - commits:
+    - subject: Rename `Resource` to `Contracts` in Jellyfish context
+      hash: 913928e6ee0a8dfaa708d1d1229c11ba3d20ca62
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+        signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+      author: 20k-ultra
+      nested: []
+  version: 2.3.2
+  title: ""
+  date: 2022-10-20T21:57:57.491Z
+- commits:
     - subject: Include descriptions for milestones, support tickets, and threads.
       hash: 00b3d953845eaf1357875b32f2e15237ee997dcf
       body: ""
