@@ -49,6 +49,6 @@ Deploy our projects into the homes and offices of our team to gather real world 
 - [How we work](./how-we-work.md)
 - [Lab project guidelines](./project-guidelines.md)
 - [Github Orgs](./github-orgs.md)
-- [Labs Brainstorm](../how-we-work/resource-glossary/brainstorm-calls.md#balenalabs-brainstorm---productarch-combined)
+- [Labs Brainstorm](../how-we-work/contracts-glossary/brainstorm-calls.md#balenalabs-brainstorm---productarch-combined)
 - [Other Meetings](./other-meetings.md)
 - [Project board](./project-board.md)

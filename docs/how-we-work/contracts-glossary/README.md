@@ -1,12 +1,12 @@
-# Resource Glossary
+# Contracts Glossary
 
 Jellyfish offers you a set of tools that help you to track ideas or work being done. This means, you are able to add discussion points, create improvements you would like to see, and automatically observe common patterns across the every [Loop](../#loops).
 
-These tools are known as resources. They can be created at any time on the platform but only truely become powerful once you begin to connect them.
+These tools are known as Contracts. They can be created at any time on the platform but only truely become powerful once you begin to connect them.
 
 ### Threads 
 
-A thread is a conversation on any resource. You might find one or more of these on the resources listed here! For example, if you had a concern about a [Topic](#brainstorm-topics) you can start a thread! If you had a suggestion on an [Improvement](#improvements) you can start a thread! If you see a discussion you can add some info to, just join the thread!
+A thread is a conversation on any Contract. You might find one or more of these on the contracts listed here! For example, if you had a concern about a [Topic](#brainstorm-topics) you can start a thread! If you had a suggestion on an [Improvement](#improvements) you can start a thread! If you see a discussion you can add some info to, just join the thread!
 
 See [Threads](./threads) for more.
 
