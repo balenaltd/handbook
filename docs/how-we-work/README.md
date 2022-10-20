@@ -20,4 +20,4 @@ The best reference for how we define various loops is [this Google Drive folder]
 
 ### How to use the Loop
 
-Jellyfish offers several tools to use within the Loop. Please see them in the [Resource Glossary](./resource-glossary/).
+Jellyfish offers several tools to use within the Loop. Please see them in the [Contracts Glossary](./contracts-glossary/).
