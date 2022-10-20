@@ -10,7 +10,7 @@ Then, we also have check-in calls for specific projects that are either fixed or
 
 Not all, but most calendar invites will also have a spec or relevant document linked to give you more information about the call. If you want to know more about how meetings can be scheduled and the balena meeting scheduler, you can read more [here](https://github.com/balena-io/meeting-scheduler).
 
-We use [brainstorm calls](./how-we-work/brainstorm-calls.md) to discuss new ideas, issues and solutions. For more guidance on how we run brainstorm calls, check out this [guide](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). 
+We use [brainstorm calls](./how-we-work/resource-glossary/brainstorm-calls.md) to discuss new ideas, issues and solutions. For more guidance on how we run brainstorm calls, check out this [guide](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). 
 
 We have one no-scheduled-meetings-week every month to allow more time for everyone to focus on their work and get in any ad-hoc calls and catch ups that end up being difficult to do during a regularly scheduled week. These weeks will only have the company-wide, all-hands call scheduled as normal. 
 
