@@ -1,4 +1,18 @@
 - commits:
+    - subject: Provided clear explanations for the tools Jellyfish has
+      hash: 74f6ef1b5f3e06eb987250518c582233c1f32f9d
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+        signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+      author: 20k-ultra
+      nested: []
+  version: 2.3.0
+  title: ""
+  date: 2022-10-20T01:47:04.270Z
+- commits:
     - subject: Use inherited secrets for the flowzone workflow
       hash: 50b6c0d9fef1a2a45138fb6869fa8e61103dec5e
       body: ""
