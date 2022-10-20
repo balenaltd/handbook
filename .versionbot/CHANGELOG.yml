@@ -1,4 +1,18 @@
 - commits:
+    - subject: Include descriptions for milestones, support tickets, and threads.
+      hash: 00b3d953845eaf1357875b32f2e15237ee997dcf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+        signed-off-by: 20k-ultra <3946250+20k-ultra@users.noreply.github.com>
+      author: 20k-ultra
+      nested: []
+  version: 2.3.1
+  title: ""
+  date: 2022-10-20T02:26:32.511Z
+- commits:
     - subject: Provided clear explanations for the tools Jellyfish has
       hash: 74f6ef1b5f3e06eb987250518c582233c1f32f9d
       body: ""
