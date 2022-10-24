@@ -10,29 +10,22 @@ Is there a word or term that's missing? Does a definition need reworking or furt
 
 ## A
 
-### Application
-A computer software program (written in code) that performs a specific task or function.
-
-### Application Programming Interface aka. API
-'A software intermediary that allows two applications to talk to each other.'
+### Apps
+**(Apps are not unique to balena, but in this instance it's a reference specific to balena)**
+An app is a coherent combination of services (blocks or other software) which will produce something useful for someone, it's ready to be deployed on a device / fleet.
 
 ### Aspect / Aspect Group 
 **(balena specific term)**
 An 'aspect' of balena that straddles multiple loops and areas e.g. architecture. Architecture exists in many forms across balena, so we have a group of people that have context and experience in architecture across different loops and areas, that can help unify the best approach for everything related to that aspect. Aspect groups are about knowing who to go to to get advice around an aspect of a loop, not who to delegate / handover a task to.
 
+A Zulip stream named after an aspect group is the feedback loop / home for discussion for that aspect.
+
 ### Assume Positive Intent
 As we're a remote first company that communicates asynchronously across keyboards and screen the majority of the time, social cues, context and body language aren't present to help with understanding each other. We try to stick to 'assume positive intent' when trying to understand how we're communicating with each other. E.g. not using an emoji doesn't mean they're annoyed at you.
-
-### Avahi
-A system allowing device/service discovery on a local network via the mDNS protocol.  Supports device discovery with the `balena scan` command.
-[more](https://www.avahi.org/)
 
 ### AUFS
 A union filesystem (allows files and directories of separate file systems to be transparently overlaid forming a single coherent file system). The aufs storage driver is used by balenaEngine, but will be replaced by Overlay2 in the future.
 [more](https://en.wikipedia.org/wiki/Aufs)
-
-### AWS
-[Amazon web services](https://aws.amazon.com/) 'provides on-demand cloud computing platforms and APIs'
 
 ## B
 
@@ -125,9 +118,6 @@ An unholy cluster of 144 RaspberryPi’s running balenaOS and weighing in at 150
 Fundamentally, BitBake is a generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints. One of BitBake's main users, OpenEmbedded, takes this core and builds embedded Linux software stacks using a task-oriented approach.
 [see *Yocto*](#yocto)
 
-### Block
-A section of code or programming that is grouped together and can consist of one or more statements or declarations.
-
 ## C
 
 ### Chesterton's Fence
@@ -155,9 +145,6 @@ The loop that manages balena’s legal, financial and corporate architecture and
 'a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.'
 [more](https://www.docker.com/resources/what-container/)
 
-### Cuelang
-An open source language, with a rich set of APIs and tooling, for defining, generating, and validating all kinds of data.  It has lots of [use cases](https://cuelang.org/docs/usecases/) including validating JSON objects using defined schemas and constraints.
-
 ### Customer Success aka. CS
 **(balena specific term)**
 The loop / group of team members that act as account managers / interface with our customers and clients.
@@ -169,6 +156,7 @@ a software bus, inter-process communication, and remote procedure call mechanism
 [more](https://en.wikipedia.org/wiki/D-Bus)
 
 ### delta server (balena architecture)
+**(balena specific term)**
 Generates a delta between two images.  The delta can then be downloaded by the supervisor to update the application image in the device.
 
 ### Device (balena)
@@ -180,6 +168,7 @@ An internet-connected, single-board computer running balenaOS and provisioned wi
 Balena's agent on the device, responsible for managing fleet updates and reporting device status.
 
 ### Devices proxy
+**(balena specific term)**
 [see *balena-proxy*](#balena-proxy)
 
 ### Docker
@@ -188,10 +177,8 @@ Balena's agent on the device, responsible for managing fleet updates and reporti
 ### Docker image
 'A file used to execute code in a Docker container.'
 
-### Downstream
-A term to describe the source of something relative to another.
-
 ### Deploy with balena aka. DWB
+**(balena specific term)**
 The ‘Deploy with balena’ button is a feature that allows balenaCloud users to create, and push code to an application, in just a few clicks. It’s an alternative deployment method that provides a shortcut so users don’t have to clone or download code and manually add it to their application. It is as much a feature for project builders as it is for project owners, who can enable others to build their projects by adding a single line of code in their readme, or any other web page, and it will link to their own github repo.
 [more](https://www.balena.io/blog/deploy-with-balena-makes-it-easier-to-deploy-and-share-iot-apps/)
 
@@ -219,9 +206,11 @@ The example project that we promote within the etcher app. This changes regularl
 'The part of a system in which some portion (or all) of the system's output is used as input for future operations. Each feedback loop has a minimum of four stages. During the first stage, input is created. During the second stage, input is captured and stored. During the third stage, input is analyzed and during the fourth stage, the insight gained from analysis is used to make decisions.' Feedback loops are a core to the way we work at balena as they are fundamental to systems design. 
 
 ### Fleet
+**(Fleets are not unique to balena, but in this instance it's a reference specific to balena)**
 A group of devices sharing the same releases, variables, configuration, settings and members.
 
 ### Fin
+**(balena specific term)**
 [see *balenaFin*](#balenafin)
 
 ### Fog
@@ -244,18 +233,23 @@ The balenaCloud-hosted git servers that users may do a “git push” to in orde
 ## H
 
 ### Hardware on demand aka. HOD
+**(balena specific term)**
 Pre-assembled device including customer-specific branding/packaging, pre-configured for use with balenaOS, pre-installed with user software. Essentially, plug and play hardware for customers, provided by balena.
 
 ### Hardware Hacker in Residence aka. HHR
+**(balena specific term)**
 A balena job title for [balenistas](#balenistas) that occupied Labs and built cool projects to market and showcase the capabilities of balena. 
 
 ### hostapp
+**(balena specific term)**
 A docker image that contains the root filesystem for a device.
 
 ### hostapp extension
+**(balena specific term)**
 A docker image that is overlaid over a hostapp to add extra content and functionality
 
 ### Host os UPdater aka. HUP
+**(balena specific term)**
 Tool for balena host OS updates. It downloads an update bundle that replaces the BalenaOS for a Balena device, updating both the boot partition and the rootfs (using an inactive rootfs partition).
 [more](https://github.com/balena-os/balenahup)
 
@@ -265,8 +259,12 @@ Tool for balena host OS updates. It downloads an update bundle that replaces the
 The interconnection via the internet of computing devices embedded in everyday objects (e.g. vechicles, thermostats, roofs, lighting, plant electronic systems. etc), enabling them to send and receive data.
 
 ### Image maker (balena architecture)
-**(Image makers are not unique to balena, but in this instance it's a reference specific to balena)**
+**(balena specific term)**
 Modifies a stock balenaOS image and embeds information needed to map the OS image to an application running on balenaCloud.  The image maker is also used to embed WIFI network connection details into the image.
+
+### Improvement group
+**(balena specific term)**
+Formerly (or also known as) 'working group'. A group of individuals working together on an improvement.
 
 ## J
 
@@ -288,6 +286,7 @@ Kubernetes (K8s) is a system for automating deployment, scaling, and management 
 ## L
 
 ### Leadership Group
+**(balena specific term)**
 The new name of the Maintainers or Mission Team at balena. This is comprised of a group of individuals trusted to lead the team strategy and vision of balena (Chris, Konstantinos and Phil.)
 
 ### Loki
@@ -327,7 +326,7 @@ A group of members, teams, and fleets that is managed by one or more organizatio
 
 ### Pants project
 **(balena specific term)**
-A fully HR compliant code name by the hardware team. It's essentially a new [Fin](#balenafin) but instead of using a compute module it accepts a single board computer (rpi 4 for instance) and extends its capabilities.
+A fully HR compliant code name by the hardware team. It's essentially a new [Fin](#balenafin) but instead of using a compute module it accepts a single board computer (rpi 4 for instance) and extends its capabilities. (currently paused / in hiatus)
 
 ### Pattern
 **(balena specific term)**
@@ -384,9 +383,6 @@ A version number given to a new release. Versions are broken into MAJOR.MINOR.PA
 **(Services are not unique to balena, but in this instance it's a reference specific to balena)**
 An independently deployable component of an application, packaged into a Docker image and run as a container.
 
-### Service (systemd)
-A process running on a linux host managed by systemd init system. [Systemd docs for “service”](https://freedesktop.org/software/systemd/man/systemd.service.html)
-
 ### Slug
 'A human-readable, unique identifier'
 
@@ -408,6 +404,7 @@ Balena's on-device agent, responsible for monitoring and applying changes to an 
 ## T
 
 ### teamOS
+**(balena specific term)**
 A loop at balena. In traditional organisations this would be akin to HR. The intention of teamOS is to build products and processes that support the people within the team.
 
 ### testbot
@@ -420,12 +417,10 @@ The testbot is a device used to aid in the automation of hardware testing. It co
 ### Universally Unique Identifier aka. UUID
 A 128-bit label used for information in computer systems
 
-### Upstream
-Usually refers to a repository of code being maintained by another organization - changes there flow “downstream” to us as users.
-
 ## V
 
 ### VersionBot
+**(balena specific term)**
 VersionBot is a Github application that we use as our CI/CD tool. It is in charge of linting, validating, building and deploying or publishing our code. Eventually we would want to integrate it with BalenaCloud so that it can be offered as a service to our users.
 [more](https://github.com/product-os/versionbot)
 
@@ -434,6 +429,10 @@ VersionBot is a Github application that we use as our CI/CD tool. It is in charg
 ### WiFi Connect
 A balena utility for dynamically setting the WiFi configuration on a Linux device via a captive portal.  Allows you to get a device connected to the local wifi without physically accessing the device.
 [more](https://github.com/balena-os/wifi-connect)
+
+### Working group
+**(balena specific term)**
+See [*improvement group*](#improvement-group)
 
 ## X
 
