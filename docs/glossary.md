@@ -251,9 +251,6 @@ Tool for balena host OS updates. It downloads an update bundle that replaces the
 
 ## I
 
-### Internet of Things aka. IOT
-The interconnection via the internet of computing devices embedded in everyday objects (e.g. vechicles, thermostats, roofs, lighting, plant electronic systems. etc), enabling them to send and receive data.
-
 ### Image maker (balena architecture)
 **(balena specific term)**
 Modifies a stock balenaOS image and embeds information needed to map the OS image to an application running on balenaCloud.  The image maker is also used to embed WIFI network connection details into the image.
