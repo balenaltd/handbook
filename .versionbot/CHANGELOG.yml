@@ -1,4 +1,40 @@
 - commits:
+    - subject: removed IOT definition
+      hash: 6f9547960ff0b6587f37f0241c5e39ee756fd37c
+      body: ""
+      footer:
+        change-type: minor
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: removed supervisor duplicate
+      hash: 115e280f9ee310c49ad2e3c1d054425217c15e38
+      body: ""
+      footer:
+        change-type: minor
+        signed-off-by: laura@balena.io <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: further updates
+      hash: f06ae58b29d57b27ea85fafb2ea2ad88222a18b4
+      body: ""
+      footer:
+        change-type: minor
+        signed-off-by: laura@balena.io <laura alison>
+      author: Laura Alison
+      nested: []
+    - subject: Add balena glossary
+      hash: 91653b77fdd78c4c024e8c316e0b98ac2e5b2944
+      body: ""
+      footer:
+        change-type: major
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+  version: 3.0.0
+  title: ""
+  date: 2022-10-24T15:10:26.794Z
+- commits:
     - subject: Rename `Resource` to `Contracts` in Jellyfish context
       hash: 913928e6ee0a8dfaa708d1d1229c11ba3d20ca62
       body: ""
