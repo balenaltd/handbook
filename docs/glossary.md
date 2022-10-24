@@ -163,10 +163,6 @@ Generates a delta between two images.  The delta can then be downloaded by the s
 **(Devices are not unique to balena, but in this instance it's a reference specific to balena)**
 An internet-connected, single-board computer running balenaOS and provisioned with the balena platform.
 
-### Device supervisor
-**(balena specific term)**
-Balena's agent on the device, responsible for managing fleet updates and reporting device status.
-
 ### Devices proxy
 **(balena specific term)**
 [see *balena-proxy*](#balena-proxy)
