@@ -1,21 +1,35 @@
 # Brainstorm Calls 
 
-Brainstorm calls are core to how we work and reflect our approach for finding the highest-possible quality answer to the issues we face. You can read more about the **brainstorm!** game [here](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). Brainstorm calls are scoped by loop and type. 
+Brainstorm calls are core to how we work and reflect our approach for finding the highest-possible quality answer to the issues we face and the hard problems we're trying to solve. You can read more about the **brainstorm!** game [here](https://docs.google.com/document/d/1mHb-D2vJxufa8OZPU55V5WBIXuQ44MNL4fcXw52lEe8/edit#). Brainstorm calls are scoped by loop and type. 
 
 You can navigate brainstorm [calls](https://jel.ly.fish/view-all-brainstorm-calls) and [topics](https://jel.ly.fish/view-all-brainstorm-topics) in Jellyfish.
 
-#### Brainstorm types
-- `product` for questions around `what` we want to do (i.e. what can be done to reduce a certain kind of friction for users)
-- `architecture` or `arch` for `how` questions, such as “how should a certain feature be implemented”
+## Brainstorm types
+- `product` for questions around `what` we want to do (i.e. what can be done to reduce a certain kind of friction for users). We discuss here the products and functionality that we want to put out into the world. Thinking and discussion here should not be limited by implementation technicalities.
+- `architecture` or `arch` for `how` questions, such as “how should a certain feature be implemented”. We discuss here how we are going to technically achieve the product functionality we decided upon in the `product` brainstorm. Discussion here should ideally not cross back into product and attempt to change the functionality offered to the user.
 
-#### Loop specific brainstorm calls 
+We want to maintain this distinction between the two types of brainstorm calls as it allows us to take two different mindsets. The product mindset is that of figuring out what is the best possible piece of functionality we can deliver to the user. The architecture mindset is about how we achieve that. Of course, this isn't always black and white and there may be some instances where items move back and forth between product and architecture calls. If, for example, a piece of functionality is not reasonably achievable, it may go back to a product brainstorm to be refined within the constraints of reality.
 
-#### balena.io brainstorms
-- Product calls
+### Aspect group involvement
 
-- Arch calls
+Despite the naming, `product`/`what` and `architecture`/`how` calls are not only for members of the team with an interest in product or architecture (respectively) to attend. It's important that each call have participation or awareness from each of the aspect groups. Some aspects may have more participation in `what` than `how` and for others vice-versa, but each call should ideally always have representation from all aspect groups.
 
-- Commercial
+For example, when discussing new things to build in the `what` call, it is important to have awareness and input from the `customer-success` aspect group in order to consider how a new feature would affect our customers. Similarly when discussing implementation detail in the `how` call, it's important to have awareness and input from the `security` aspect group to ensure we're giving consideration to the security factors this group deem to be important.
+
+
+## Loop specific brainstorm calls 
+
+### balena-io brainstorms
+- Product calls (`what`)
+
+    These take place twice a week and are usually led by members of the product aspect group. We discuss user experience UX, functionality and implementation plans.
+
+
+- Architecture calls (`how`)
+
+    These take place twice a week and are usually led by members of the architecture aspect group. We generally try to come up with the highest-possibly quality solutions to tackle non-trivial technical issues across the balenaCloud platform.
+
+- Customer Success
 
     Commercial calls take place once a week and are led by the Customer Success team. It is the time and (virtual) place where we discuss the sales/customer success team process, pricing plans, and commercial strategy. Everyone is welcome to join.
 
@@ -23,33 +37,31 @@ You can navigate brainstorm [calls](https://jel.ly.fish/view-all-brainstorm-call
 
     Outreach brainstorm calls take place once a week and are led by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Everyone is welcome to join. 
 
-#### balena.io brainstorm
-- product
 
-    These take place twice a week and are lead by the product team. We discuss user experience UX, feature idea/questions and implementation plans.
-- arch
+### balena-io-hardware brainstorms
+- Product calls (`what`)
 
-    These take place twice a week and we generally try to come up with the highest-possibly quality solutions to tackle non-trivial technical issues across the balenaCloud platform.
-- hardware
 
-    These take place twice a week and we discuss topics pertaining to hardware and distribution.
+- Architecture calls (`how`)
 
-#### productOS brainstorms
-- product
 
-    It takes place weekly and is where we discuss user experience (UX), feature ideas, and prioritization for productOS. 
-- arch 
 
-    It takes place weekly and is where we generally try to come up with the highest-possibly quality solutions to tackle non-trivial technical issues for productOS. 
+### productOS brainstorms
+- Product calls (`what`)
+    Take place weekly and is where we discuss user experience (UX), feature ideas, and prioritization for productOS. 
+
+- Architecture calls (`how`)
+
+    Take place weekly and is where we generally try to come up with the highest-possibly quality solutions to tackle non-trivial technical issues for productOS. 
     _You can find more information about loopMVP in the [productOS draft spec](https://docs.google.com/document/d/17_EnBWn_JKQzlAE98UiHp4cuy-l50Ist2_q-c24ojds/edit#heading=h.o9drtpe4wedmunder) and the [productOS team manual](https://docs.google.com/document/d/18G1vzYte-wSmoVLmPafG4gWm6eJ4ZUDCs40llWgc9s8/edit#heading=h.lj0g2s7qd8jq)._
 
-#### teamOS brainstorm - product/arch combined
+### teamOS brainstorm - product & architecture (`what` and `how`) combined
 TeamOS calls take place once a week and are led by the teamOS team. It is the time and (virtual) place where we discuss team processes, policies, team feedback and the overall user experience for the team. Everyone is welcome to join.
 
-#### companyOS brainstorm - product/arch combined
+### companyOS brainstorm - product & architecture (`what` and `how`) combined
 CompanyOS calls take place once a week and are led by the team members that form the companyOS team. It is the time and (virtual) place where we discuss our company architecture - legal, financial and operational. Everyone is welcome to join.
 
-### How to run a brainstorm call
+## How to run a brainstorm call
 
 Brainstorm calls are for everyone to both participate and run. I'll take the balena-io architecture call as an example, but the same principles and tooling applies to any other brainstorm call.
 
