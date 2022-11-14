@@ -10,6 +10,11 @@ Is there a word or term that's missing? Does a definition need reworking or furt
 
 ## A
 
+### Amplitude
+Amplitude is a digital analytics platform to understand users, drive conversions, and increase engagement, growth and ultimately revenue.
+It is used as the primary analytics tracking platform at balena.
+[more](https://amplitude.com)
+
 ### Apps
 **(Apps are not unique to balena, but in this instance it's a reference specific to balena)**
 An app is a coherent combination of services (blocks or other software) which will produce something useful for someone, it's ready to be deployed on a device / fleet.
@@ -26,6 +31,10 @@ As we're a remote first company that communicates asynchronously across keyboard
 ### AUFS
 A union filesystem (allows files and directories of separate file systems to be transparently overlaid forming a single coherent file system). The aufs storage driver is used by balenaEngine, but will be replaced by Overlay2 in the future.
 [more](https://en.wikipedia.org/wiki/Aufs)
+
+### Aurora
+Amazon Aurora is a global-scale relational database service built for the cloud with full PostgreSQL compatibility.
+[more](https://aws.amazon.com/rds/aurora)
 
 ## B
 
@@ -330,6 +339,10 @@ A pattern (or symptom) of behaviour that we've observed, that we feedback into t
 Pine.js is a sophisticated rules-driven API engine that enables you to define rules in a structured subset of English. Those rules are used in order for Pine.js to generate a database schema and the associated OData API. This makes it very easy to rapidly create, update and maintain a backend while keeping the logic in an easily understood form, as well as providing the ability to update and maintain this logic going forward.
 [more](https://github.com/balena-io/pinejs)
 
+### Preset
+Preset is a data exploration and visualization platform, powered by open source Apache Superset.
+See [Preset Playbook](https://handbook.balena.io/tooling/preset-playbook) for more information.
+
 ### Pull request aka. PR
 'also referred to as a merge request – is an event that takes place in software development when a contributor/developer is ready to begin the process of merging new code changes with the main project repository.'
 
@@ -352,6 +365,10 @@ The process of adding a new device to a balena application.  This involves booti
 
 ### Radical Candor
 [A term coined by Kim Scott in her book by the same name](https://www.radicalcandor.com/). It means to describe caring personally while challenging directly. It's something we refer to alot at balena in how we communicate with each other - another term used is 'friends don't let friends be wrong'. 
+
+### Redshift
+Amazon Redshift is a cloud data warehouse used to process large amounts of data, typically for analytics use cases.
+[more](https://aws.amazon.com/redshift)
 
 ### Release (balena)
 **(Releases are not unique to balena, but in this instance it's a reference specific to balena)**
