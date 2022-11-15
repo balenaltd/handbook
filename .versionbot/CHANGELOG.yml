@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add definition for the deltas feature
+      hash: 7d9811edbb075471adf0b98a305d4f429aba69e5
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: dfunckt
+      nested: []
+  version: 3.1.0
+  title: ""
+  date: 2022-11-15T11:11:08.270Z
+- commits:
     - subject: "patch: add analytics technology terms to the glossary"
       hash: ef5ab8e0829f135f9093c0c590a5e34f06c18f8a
       body: ""
