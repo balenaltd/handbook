@@ -70,7 +70,7 @@ const config = {
         items: [
           {
             href: '/changelog',
-            label: 'Change Log',
+            label: 'Changelog',
             position: 'right',
           },
           {
