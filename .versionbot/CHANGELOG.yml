@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: add analytics technology terms to the glossary"
+      hash: ef5ab8e0829f135f9093c0c590a5e34f06c18f8a
+      body: ""
+      footer: {}
+      author: Pranas Ziaukas
+      nested: []
+  version: 3.0.1
+  title: ""
+  date: 2022-11-15T08:35:14.515Z
+- commits:
     - subject: removed IOT definition
       hash: 6f9547960ff0b6587f37f0241c5e39ee756fd37c
       body: ""
