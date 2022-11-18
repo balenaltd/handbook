@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add DEI doc for company culture
+      hash: 4b21f67547b8c5a57729c7aeec39f08520aecc4b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: zoobot <rommims@gmail.com>
+        signed-off-by: zoobot <rommims@gmail.com>
+      author: zoobot
+      nested: []
+  version: 3.1.3
+  date: 2022-11-18T18:51:31.597Z
+- commits:
     - subject: "Correct changelog spelling fixes #18"
       hash: 8bcf1a0426f1c728fa10e2cec9a83ed5dd17addc
       body: ""
@@ -234,7 +247,8 @@
     - subject: Remove Flowdock from basic tool setup
       hash: 4118afe5a68fd8a5fbf327b0f10104aba363ea34
       body: >
-        Removed Flowdock mentions, and replaced the relevant parts with Jellyfish.
+        Removed Flowdock mentions, and replaced the relevant parts with
+        Jellyfish.
       footer:
         Change-type: patch
         change-type: patch
