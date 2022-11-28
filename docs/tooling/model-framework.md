@@ -30,8 +30,12 @@ Going forward, we should probably find a way to reflect this type of push in the
 
 The guidelines above were chosen and applied across all our models, since this is what we have already been doing in most cases. The upside of these red `IMPORTRANGE` tabs are (a) they make it easy to understand at a glance which data flows into the GSheet in question, and (b) they dramatically simplify the searching algorithm used when refreshing the visualization created by the "GSheet Model Structure" project linked below.
 
-However, one obvious downside is that they lead to duplication of data, which can be problematic in cases where the importing sheet is already very large. 
+However, one obvious downside is that they lead to duplication of data, which can be problematic in cases where the importing sheet is already very large.
+
+## Naming of sheets (tabs) in spreadsheets
+
+Please do not use full stops `.` when naming sheets, since this creates problems with the visualization linked below.
 
 ## Visualizing the links between our models
 
-The [GSheet Model Structure](https://github.com/company-os/gsheet-model-structure) project presents an automatically updated visualization of how the various GSheets in our ecosystem are connected.
+The [GSheet Model Structure](https://github.com/company-os/gsheet-model-structure) project presents an automatically updated visualization of how the various GSheets in our ecosystem are connected. To see the plot, follow the Web App URL at the top of the `README.md` in that repo.
