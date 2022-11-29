@@ -1,4 +1,38 @@
 - commits:
+    - subject: Remove sheet naming guideline
+      hash: 7c13f773fbc20ed9759393fc39b185f32e1b3348
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: AlidaOdendaal <alida@balena.io>
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+      author: AlidaOdendaal
+      nested: []
+    - subject: "docs/tooling/model-framework.md: Add guideline on naming sheets"
+      hash: 33ca79f85e2fc1e05414ae69bbf37bab0725cb61
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: AlidaOdendaal <alida@balena.io>
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+      author: AlidaOdendaal
+      nested: []
+    - subject: "docs/tooling: Add a new section related to Model Framework"
+      hash: d7c261ef7d6dfb4680c752a00450ac21b310ad34
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: AlidaOdendaal <alida@balena.io>
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+      author: AlidaOdendaal
+      nested: []
+  version: 3.2.0
+  title: ""
+  date: 2022-11-29T15:14:28.988Z
+- commits:
     - subject: "Correct changelog spelling fixes #18"
       hash: 8bcf1a0426f1c728fa10e2cec9a83ed5dd17addc
       body: ""
