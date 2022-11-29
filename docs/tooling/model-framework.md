@@ -32,10 +32,6 @@ The guidelines above were chosen and applied across all our models, since this i
 
 However, one obvious downside is that they lead to duplication of data, which can be problematic in cases where the importing sheet is already very large.
 
-## Naming of sheets (tabs) in spreadsheets
-
-Please do not use full stops `.` when naming sheets, since this creates problems with the visualization linked below.
-
 ## Visualizing the links between our models
 
 The [GSheet Model Structure](https://github.com/company-os/gsheet-model-structure) project presents an automatically updated visualization of how the various GSheets in our ecosystem are connected. To see the plot, follow the Web App URL at the top of the `README.md` in that repo.
