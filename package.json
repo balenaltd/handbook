@@ -1,6 +1,6 @@
 {
   "name": "my-website",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -46,6 +46,6 @@
     "node": ">=16.14"
   },
   "versionist": {
-    "publishedAt": "2022-11-30T13:29:23.745Z"
+    "publishedAt": "2022-11-30T20:30:41.166Z"
   }
 }

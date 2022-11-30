@@ -1,4 +1,19 @@
 - commits:
+    - subject: Rename core to password-management.md
+      hash: a4b36895f02f517ec3107330c98dfd74cc67456b
+      body: |
+        Renamed core to password-management.md
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Apostolis Michalakos apostolis@balena.io
+        signed-off-by: Apostolis Michalakos apostolis@balena.io
+      author: apostolism
+      nested: []
+  version: 3.3.0
+  title: ""
+  date: 2022-11-30T20:30:41.009Z
+- commits:
     - subject: Update hardware call info
       hash: d8e5a1e72993e052bb951585d273bfa45809df03
       body: ""
