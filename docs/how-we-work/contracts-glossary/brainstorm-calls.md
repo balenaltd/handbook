@@ -38,13 +38,8 @@ For example, when discussing new things to build in the `what` call, it is impor
     Outreach brainstorm calls take place once a week and are led by the outreach team. Brainstorm prompts and items usually come up when we need the collective thinking power and ideas from the group. Everyone is welcome to join. 
 
 
-### balena-io-hardware brainstorms
-- Product calls (`what`)
-
-
-- Architecture calls (`how`)
-
-
+### balena-io-hardware product & architecture (`what` and `how`) combined
+Hardware calls take place twice a week and have combined product and architecture discussion.
 
 ### productOS brainstorms
 - Product calls (`what`)
