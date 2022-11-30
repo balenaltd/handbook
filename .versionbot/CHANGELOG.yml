@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update hardware call info
+      hash: d8e5a1e72993e052bb951585d273bfa45809df03
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Chris Crocker-White <chriscw@balena.io>
+        signed-off-by: Chris Crocker-White <chriscw@balena.io>
+      author: Chris Crocker-White
+      nested: []
+  version: 3.2.1
+  title: ""
+  date: 2022-11-30T13:29:23.619Z
+- commits:
     - subject: Remove sheet naming guideline
       hash: 7c13f773fbc20ed9759393fc39b185f32e1b3348
       body: ""
