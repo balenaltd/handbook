@@ -25,21 +25,19 @@ All of us are linked by a shared thread, our DNA. We are all 99.5% genetically a
 
 ## Flat Organization
 
-We live in a society with standard corporate structure and hierarchy from larger culture. 
-How can Balena succeed with an omni-win-win culture and a flat organization in a realistic way?
+We live in a society with a standard corporate structure and hierarchy extracted from the larger culture. 
+How can balena succeed with an omni-win-win culture and a flat organization in a realistic way?
 
 ## Some basic tools to help us achieve our goal:
 
-* Be empathetic, put yourself in the other person's shoes.
-* Speak out when you see sexism or racism happening.
-* Make sure equal contributions are welcomed.
-* Allow everyone to talk in meetings.
-* Question your own assumptions, beliefs, and implicit biases.
-* Double check how your language might be perceived.
-* Reframe discussions.
-* Look out for stereotypes.
-* Listen to others.
-* Keep an open mind.
+* Be empathetic: Put yourself in the other person's shoes.
+* See something, say something: Speak out when you see sexism or racism happening virtually.
+* Keep an open mind: Make sure equal contributions are welcomed.
+* Be welcoming: Allow everyone to talk in meetings.
+* Have a [scout mindset](https://www.goodreads.com/en/book/show/42041926-the-scout-mindset): Question your own assumptions, beliefs, and implicit biases.
+* Think before speaking: Double-check how your language & terms might be perceived.
+* Reframe discussions: Look out for stereotypes, gender favoring, polarising, race-related, religion inconsiderate, or other unequal phrasing.
+* Be open to feedback: Listen to others. Actually, listen. 
 
 
 # Racism
