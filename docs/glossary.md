@@ -230,6 +230,10 @@ A command line tool. An open source distributed code management and version cont
 ### Github
 'A [code hosting platform](https://github.com/) for version control and collaboration.'
 
+### Github Flow
+A method of software development used at balena where changes are made to [Git branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) as opposed to `main`. 
+[more](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
 ### Git server (balena architecture)
 **(Git servers are not unique to balena, but in this instance it's a reference specific to balena)**
 The balenaCloud-hosted git servers that users may do a “git push” to in order to build their application.  This is more of a legacy feature since we recommend users to do a “balena push” that sends their code directly to the builders.  This is ephemeral and we do not commit to the users any level of persistence for their code.  Users should not use this as a source of truth for their version control system.
