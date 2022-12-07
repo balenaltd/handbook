@@ -1,4 +1,18 @@
 - commits:
+    - subject: Define Github Flow
+      hash: cb3a16bafd20624f701690e578f85ee409160aad
+      body: >
+        Added a basic description for Github Flow as well as link. Also provided a
+        link as a reference to explain Git Branches.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Araceli L. Medina
+      nested: []
+  version: 3.3.1
+  title: ""
+  date: 2022-12-07T10:09:43.057Z
+- commits:
     - subject: Rename core to password-management.md
       hash: a4b36895f02f517ec3107330c98dfd74cc67456b
       body: |
