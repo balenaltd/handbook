@@ -24,7 +24,7 @@ The project clinic is a weekly session, hosted in streamyard and streamed to bal
 
 Each week the streamyard link will be sent out in /all. You can join this link before the show, and take part in the stream. We need all sorts of participants:
 
-* Experienced project builders: if you've made a project, written some code, soldered something, 3D printed something - any of those, please come and help answer some questions.
-* Project Showcase: come and talk about your project. Maybe give a progress update or show a demo. It doesn't have to be finished, or perfect. Working in the open benefits everyone!
-* Project questions: perhaps you have the beginning of an idea and what to know how to start? Or you have a project but you're stuck? Or you can't find a sensor/screen/thing that would work for your project? Come and ask the team!
-* Watchers: maybe appearing on the stream is not your thing? Well, you can still join in by watching the youtube stream and sending in comments. You can ask questions, send in answers to other questions, mock the show....anything. Just don't be silent. :)
+- Experienced project builders: if you've made a project, written some code, soldered something, 3D printed something - any of those, please come and help answer some questions.
+- Project Showcase: come and talk about your project. Maybe give a progress update or show a demo. It doesn't have to be finished, or perfect. Working in the open benefits everyone!
+- Project questions: perhaps you have the beginning of an idea and what to know how to start? Or you have a project but you're stuck? Or you can't find a sensor/screen/thing that would work for your project? Come and ask the team!
+- Watchers: maybe appearing on the stream is not your thing? Well, you can still join in by watching the youtube stream and sending in comments. You can ask questions, send in answers to other questions, mock the show....anything. Just don't be silent. :)

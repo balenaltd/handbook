@@ -1,4 +1,4 @@
-# Sharing updates
+# Sharing Updates
 
 Once a week we have the opportunity to share what we’re working on in the lab with the rest of the balena team on our weekly All Hands call. This is a great opportunity to solicit for volunteers for testing projects, mention the need for any assistance from other teams and generally give other team members an idea of the type of work we’ve been doing that week. Try to focus on the impact our work is having.
 

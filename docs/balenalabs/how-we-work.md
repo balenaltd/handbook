@@ -1,4 +1,4 @@
-# How we work
+# How we Work
 
 ### First, understand our users
 
