@@ -1,4 +1,19 @@
 - commits:
+    - subject: Updated Purchasing Information
+      hash: 5e4593d29178535321b04fbf591008e3f04f15c6
+      body: |
+        Updated and Moved Purchasing information section to the top 
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lampros Papapostolou <lampros.papapostolou@balena.io>
+        signed-off-by: Lampros Papapostolou <lampros.papapostolou@balena.io>
+      author: LPapapo
+      nested: []
+  version: 3.4.0
+  title: ""
+  date: 2022-12-09T10:21:30.184Z
+- commits:
     - subject: Define Github Flow
       hash: cb3a16bafd20624f701690e578f85ee409160aad
       body: >
