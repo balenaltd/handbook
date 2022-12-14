@@ -1,4 +1,16 @@
 - commits:
+    - subject: "major: Convert handbook to docusaurus theme template"
+      hash: 13b977251c367e4652dd5541af647dafc092e302
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 4.0.0
+  title: ""
+  date: 2022-12-14T09:24:34.193Z
+- commits:
     - subject: Updated Purchasing Information
       hash: 5e4593d29178535321b04fbf591008e3f04f15c6
       body: |
