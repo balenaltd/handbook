@@ -1,7 +1,6 @@
 # Balena Handbook Manual
-If there is information missing here on how to do something that you think would be useful to the team or that you yourself want to know how to do, either add it to the repo yourself via a PR, create an issue requesting it, or ask someone on the team for help (for example by asking @@balena in a new [balena-org Jellyfish chat thread](https://jel.ly.fish/org-balena)).
 
-*Note: Until the release party for docs has been completed, the docusarus website version of the handbook is not deployed. However, all changes made to the handbook will be reflected on the website once live.*
+If there is information missing here on how to do something that you think would be useful to the team or that you yourself want to know how to do, either add it to the repo yourself via a PR, create an issue requesting it, or ask someone on the team for help (for example by asking @stream in a new [Zulip chat thread](https://balena.zulipchat.com/#narrow/stream/350505-aspect.2Fcommunication)).
 
 **Other resources**
 
@@ -10,11 +9,13 @@ If there is information missing here on how to do something that you think would
 [Contributing to balena docs guidelines](https://github.com/balena-io/docs/blob/master/CONTRIBUTING.md#creating-commits-in-line-with-semantic-versioning)
 
 ## House Keeping
+
 - Keep all file names in the balenaltd/handbook repo lower case with dashes separating words (with the exception of the README.md). Please don't use any other symbols as naming conventions.
 
 - When making changes, please leave clear and detailed commit messages and descriptions so it's easy to understand what that change was and why that change was made.
 
 **Desired commit message format**
+
 ```
 [First line with easy to understand description of change] 
 [Optional line with more description]
@@ -34,6 +35,7 @@ You can learn more about the differences in change types [here](https://github.c
 ## Editing the content of the repo
 
 ### Editing directly on github
+
 You can find the written content of the handbook within the 'docs' folder.
 
 Go to the markdown file you want to edit and click on the pencil icon in the top right to begin editing the page.
@@ -49,6 +51,7 @@ You can see your pull request by visiting the pull request tab on the handbook r
 Once your PR has been reviewed, hit the merge pull request button. This may already have been done for you by your reviewer, but it's worth checking.
 
 #### Formatting tips
+
 ```
 **bold**
 *italic*
@@ -61,12 +64,12 @@ Once your PR has been reviewed, hit the merge pull request button. This may alre
 .etc
 
 [link text](www.the-url-you-want-to-link-to.com)
-
 ```
 
 Also check out the [official Markdown Guide](https://www.markdownguide.org/).
 
 #### Ordering
+
 The contents on the website defaults to the alphabetical order of the file names (not the H1 title of pages), prioritising captial letters first (which is why we want to keep all file names in lowercase).
 
 In the instance you need to override the positioning of a page / folder, you can use the snippet below and change the number weighting depending on the order needed. This starts from '0' at the top, the higher the number the lower down it will sit on the contents order. 
@@ -80,6 +83,7 @@ sidebar_position: 0
 *Note: The 'Welcome' page should always sit at the top of the contents*
 
 #### Adding Assets and Images
+
 To add assets and images you will need to add your the file to the docs/assets folder in the repo. 
 
 Once done, use the following format to add it to your chosen location in the markdown:
@@ -95,6 +99,7 @@ Once done, use the following format to add it to your chosen location in the mar
 ```
 
 ### Editing from the website version of the handbook (Docusarus)
+
 Once the website version has been deployed, you will be able to get to the corresponding markdown file in the github repo via the 'edit this page in github' link/button at the bottom of each webpage. 
 
 ![](static/img/edit-page.png)
@@ -103,42 +108,4 @@ This will take you to github to make your edits as detailed above.
 
 ## Website
 
-This handbook website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-### Local Development
-
-Clone the repo, npm install, and start a local development server:
-
-```shell
-git clone git@github.com:balenaltd/handbook.git
-cd handbook
-npm install
-npm start
-```
-
-The `npm start` command resolves to `docusaurus start` which starts a local development server, and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-We're using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
+This handbook website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. We are using the balena's [Docusaurus Theme](https://github.com/product-os/docusaurus-theme/) to build the website that you see on [https://handbook.balena.io](https://github.com/product-os/docusaurus-theme/)
