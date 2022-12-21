@@ -8,6 +8,9 @@ Before we proceed, please make sure that you have access to the company calendar
 
 After you have been onboarded, if you noticed you do not have access to any of the following calendars you can request access by pinging @@operations in Jellyfish and use the `#access`. Please note that all calls are included in the Balena Admin calendar. In addition, bear in mind that the admin calendar follows GMT (UTC +0) London time zone.
 
+## Set up weekly meetings on your calendar
+
+
 ## See a colleague’s calendar
 Let’s say you need to schedule a call where one of your colleagues needs to be invited but you’re not sure whether they have any open slots. One solution would be to ask them directly about availability. This would mean that you both will need to stop what you’re doing and work on scheduling that call.
 
