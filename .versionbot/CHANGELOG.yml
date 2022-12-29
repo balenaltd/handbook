@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update Labs sections with new strategy content
+      hash: 45627e2e68f76ac9b6c43fec003f7c0412b6c829
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: maggie0002
+      nested: []
+  version: 4.1.0
+  title: ""
+  date: 2022-12-29T21:35:45.864Z
+- commits:
     - subject: "major: Convert handbook to docusaurus theme template"
       hash: 13b977251c367e4652dd5541af647dafc092e302
       body: ""
