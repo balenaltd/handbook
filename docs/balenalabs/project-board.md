@@ -1,25 +1,20 @@
-# Project board
+# Project Lists
 
-[Labs project board](https://github.com/balenalabs/balenalabs/projects/1)
+The Labs project lists outline potential Labs research and Labs projects based on identified ‘signals’; that is, indicators from various sources of their potential value to Balena. Cards are projects or initiatives and should flow from left to right on the board, but may stall or move around depending on delays, blockers or other factors.
 
-The project board should hold a snapshot of everything going on in the lab at any one time. Cards are projects or initiatives and should flow from left to right on the board, but may stall or move around depending on delays, blockers or other factors.
+## Where are project lists kept?
 
-Labels can be used to categorize where we think this project sits, again for balance purposes, we shouldn’t focus all of our efforts in one area at all times.
+Lists are maintained on Github Project boards. There are different boards for each Labs activity:
 
-Cards have a few fields to help us categorize projects and see at a glance what work is going on:
+[Balena-Labs-Projects board (aka idea pool)](https://github.com/orgs/balena-labs-projects/projects/3)
+[Balena-Labs-Research board](https://github.com/orgs/balena-labs-research/projects/2)
 
-## Device type
+## Who can work on one of the projects?
 
-This indicates what device a project uses. For example there has been a concern that too many of our projects focus on the Raspberry Pi, so this lets us see at a glance what we have available for what device types. We should aim to support multiple device types with each project when possible.
+Anyone and everyone, although check in with the Labs team before embarking on a project from the board to check if there is already progress made and to ensure there isn’t anything higher priority which may also be of interest. Also be sure to check in with the maintainer team to ensure other priorities are not negatively impacted.
 
-## Demand
+If there is a project that requires a range of different expertise, we will help facilitate the creation of a group to work on the project which allows us to all benefit from the comparative advantages of others.
 
-Where did the demand for this project come from? This shows the balance of source of projects we’re working on, in order to avoid concentrating too much in one area. A good spread across all areas is the aim here.
+## How to suggest a new project
 
-## Tier
-
-This relates to where in the lifecycle a project is currently sitting, and can change as a project is developed. 
-
-## Repo
-
-A link to the Github repo for this project, allowing the team to easily reach it and link the cards with code.
+Simply ping the Labs team on the chat, or come and join the Labs brainstorm call. It doesn’t mean you will have to work on it, we are just as interested in gathering ideas for projects which others can then work on if they have interest.

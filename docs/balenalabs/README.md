@@ -4,13 +4,9 @@ _Explore and communicate the potential of the balena platform, accelerating its 
 
 ## Introduction
 
-balenaLabs (Labs) is an autonomous, public-facing, research and experimentation team within balena. We’re the most demanding users, and yet friendly. We’re balena’s biggest fans, its harshest critics, and have the responsibility of making sure that feedback is heard and actioned.
+balena Labs (Labs) is an autonomous, public-facing, research and experimentation team within balena. We’re the most demanding users, and yet friendly. We’re balena’s biggest fans, its harshest critics, and have the responsibility of making sure that feedback is heard and actioned.
 
-We go out into the world, demonstrate the potential of balena, gain attention, get feedback, and bring back our learnings to inspire and educate our team. We build cool stuff using devices we have at home and show it off, we make edge computing more accessible for our customers, and we make life easier for our users. We’re bringing people together into a new community to figure out this new industry and make IoT projects successful. We’re exploring and communicating the potential of the balena platform, with the aim of accelerating its full realization. To name a few of ways we interact with the public,
-
-- We write blog posts: sometimes about product features, but more usually about [projects](https://www.balena.io/blog/show-tell-a-steampunk-desktop-background-radiation-monitor/) and new [balenaBlocks](https://www.balena.io/blog/how-to-make-your-own-balenablocks-simple-drop-in-edge-app-functionality/)
-- We hang out in the [project clinic](https://www.youtube.com/watch?v=x-4ZuCa8Y-Y) to answer project questions and show off our projects
-- We write [build logs](https://forums.balena.io/t/bluetooth-low-energy-ble-locating-using-ml/343865) in the forums and encourage others to do so
+We go out into the world, demonstrate the potential of balena, gain attention, get feedback, and bring back our learnings to inspire and educate our team. We build cool stuff using devices we have at home and show it off, we make edge computing more accessible for our customers, and we make life easier for our users. We’re bringing people together into a new community to figure out this new industry and make IoT projects successful. We’re exploring and communicating the potential of the balena platform, with the aim of accelerating its full realization.
 
 ## If you’ve just joined…
 
@@ -18,7 +14,7 @@ Welcome! You may be wondering where to start. First and foremost it’s importan
 
 Make sure you understand what you’re doing and why you’re doing it, this is important; don’t do things blindly or simply because someone said so.
 
-The first thing to do is to navigate to the balenalabs loop in Jellyfish and introduce yourself to the team. They will then help you to get started with your life in labs.
+The first thing to do is to navigate to the balena Labs loop in Zulip and introduce yourself to the team. They will then help you to get started with your life in labs.
 
 ## What are we doing?
 
@@ -34,7 +30,7 @@ Cultivate a user community by allowing and encouraging contribution and involvem
 
 ### Layer 3: Framework for fleet owners
 
-Give IoT & edge computing developers tools and building blocks to make it easier to get their projects off the ground and allow them to focus on their use case. Aim to get them  80% of the way there before they start.
+Give IoT & edge computing developers tools and building blocks to make it easier to get their projects off the ground and allow them to focus on their use case.
 
 ### Layer 4: Ambient computing for humans
 
