@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove Project Clinic from balenaLabs docs
+      hash: 64acd22e4633e477afe3c79fc9812a0565dd6a72
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: maggie0002
+      nested: []
+  version: 4.2.0
+  title: ""
+  date: 2022-12-30T03:56:45.720Z
+- commits:
     - subject: Update Labs sections with new strategy content
       hash: 45627e2e68f76ac9b6c43fec003f7c0412b6c829
       body: ""
