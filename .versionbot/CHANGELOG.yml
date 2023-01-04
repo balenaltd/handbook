@@ -1,4 +1,22 @@
 - commits:
+    - subject: Reflect company events on personal calendar
+      hash: d14626c0a768cbca6cc92a78fe3beb9aea1e63f7
+      body: >
+        Added instructions in the handbook on how to add balena company wide
+        events to one's personal calendar, how to remove oneself from an event,
+        and how to add/remove notifications from company wide calendars.
+
+
+        Also, converted some text to bullet points and separated some of the sections with headings to make it easier to follow. 
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Araceli L. Medina
+      nested: []
+  version: 4.3.0
+  title: ""
+  date: 2023-01-04T13:34:55.514Z
+- commits:
     - subject: Remove Project Clinic from balenaLabs docs
       hash: 64acd22e4633e477afe3c79fc9812a0565dd6a72
       body: ""
