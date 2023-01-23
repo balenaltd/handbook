@@ -5,3 +5,5 @@ Remember that every day at balena is an experiment. With experimenting comes mis
 To get better at decision making, like everything, you need to practice. This way you begin to spot patterns in decisions that have been made before
 
 'The harder I practice, the luckier I get' Gary Player
+
+testing
