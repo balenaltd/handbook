@@ -1,4 +1,17 @@
 - commits:
+    - subject: Updates to the sick and emergency leave policy
+      hash: 136ea0d9f1c6be722a03fe6c6f36b6b331160f48
+      body: |
+        Fixed typos, added images to assets folder.
+      footer:
+        change-type: minor
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+  version: 4.4.0
+  title: ""
+  date: 2023-01-24T16:47:24.896Z
+- commits:
     - subject: Reflect company events on personal calendar
       hash: d14626c0a768cbca6cc92a78fe3beb9aea1e63f7
       body: >
