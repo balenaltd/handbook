@@ -49,3 +49,12 @@ However, we would urge you to let us help you if you’re going through a diffic
 You can start by leaving a relevant comment on the text box (as seen in the snippet below), but also please reach out to a member of teamOS to discuss how best we can help you and accommodate your situation.
 
 For more detailed instructions around Calamari, please see the [leave section in the Handbook](https://handbook.balena.io/policies/leave-policy).
+
+This is what you will see in Calamari:
+
+<img width="1012" alt="calamari" src="https://user-images.githubusercontent.com/113898671/214250591-4ead9073-bbd5-49e3-afb5-e72df7d811b4.png">
+
+Choosing the appropriate Leave type:
+
+![leave diagram](https://user-images.githubusercontent.com/113898671/214250671-554f2451-4c14-43ab-ab03-b1edefb911ed.png)
+
