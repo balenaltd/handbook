@@ -1,4 +1,18 @@
 - commits:
+    - subject: Expand model framework documentation
+      hash: 57d044ae418d84326a07ce40a575de0f148ea8fa
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: AlidaOdendaal <alida@balena.io>
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+      author: AlidaOdendaal
+      nested: []
+  version: 4.5.0
+  title: ""
+  date: 2023-01-30T16:54:37.799Z
+- commits:
     - subject: Updates to the sick and emergency leave policy
       hash: 136ea0d9f1c6be722a03fe6c6f36b6b331160f48
       body: |
