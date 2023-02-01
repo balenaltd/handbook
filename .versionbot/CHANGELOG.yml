@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add section on Balena Ad Hoc Scheduler
+      hash: a280f892a5bc560d644abdfc6bdcec046fe89b4a
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: AlidaOdendaal <alida@balena.io>
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+      author: AlidaOdendaal
+      nested: []
+  version: 4.6.0
+  title: ""
+  date: 2023-02-01T10:07:52.339Z
+- commits:
     - subject: Expand model framework documentation
       hash: 57d044ae418d84326a07ce40a575de0f148ea8fa
       body: ""
