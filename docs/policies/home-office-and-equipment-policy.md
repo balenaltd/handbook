@@ -1,6 +1,6 @@
 # Productivity and Company Equipment Policy
 
-While working at balena, we want to give you the tools to work as comfortably and productively as possible. We offer all new team members $3,300 USD for hardware and home office equipment. This is to be treated as the hard limit of the amount you can use when you join balena depending on your needs. You are able to pick the hardware you’d like to use (see the Purchasing Information section below).
+While working at balena, we want to give you the tools to work as comfortably and productively as possible. We offer all new team members $2,500 USD for hardware and home office equipment. This is to be treated as the hard limit of the amount you can use when you join balena depending on your needs. You are able to pick the hardware you’d like to use (see the Purchasing Information section below).
 
 You will receive an e-mail with ordering information. We have company accounts with major, worldwide vendors (Apple, Dell, Amazon etc.) so you can just send us links from those vendors for the products you would like. If you feel that the worldwide vendors would cause unnecessary delays or customs fees, please talk to us about better local options.
 
