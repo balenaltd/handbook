@@ -18,7 +18,7 @@ Transfers from Deel which are made to local accounts in EUR, GBP and USD have no
 
 ### Payment Dates & Invoices
 
-You will be paid in your Deel account by the 28th of each month. If you have selected ‘Automatic Withdrawal’ this will be processed by Deel immediately and should arrive in your account within two working days if it’s a local transfer, and five days if it’s a SWIFT transfer.
+You will be paid in your Deel account on the last working day of each month. If you have selected ‘Automatic Withdrawal’ this will be processed by Deel immediately and should arrive in your account within two working days if it’s a local transfer, and five days if it’s a SWIFT transfer.
 
 Once you have been paid, your automated invoice will be available to download after the 28th. As some contractors will need an invoice in a different language or with details specific to their local tax authority, there is an option to upload your own invoice that you have created, should you need to do so.
 
