@@ -1,4 +1,19 @@
 - commits:
+    - subject: "#access request from Jellyfish to Zulip.md"
+      hash: 4e3bdc0d614499c1bf36cf819e47d5287136eb6e
+      body: |
+        Changed the tool that we use to #access from Jellyfish to Zulip
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lpapapo<lampros.papapostolou@balena.io>
+        signed-off-by: Lpapapo<lampros.papapostolou@balena.io>
+      author: LPapapo
+      nested: []
+  version: 5.2.0
+  title: ""
+  date: 2023-02-08T18:26:07.755Z
+- commits:
     - subject: Updated monthly payment date.md
       hash: fc1e4077ea3f5dadcf148a7b65b35a4f88ab54ea
       body: >
