@@ -1,4 +1,22 @@
 - commits:
+    - subject: Added local legislation for unused leave when leaving balena.md
+      hash: 890c0545fab73c699781499484f32f5b53c4fcf1
+      body: >
+        - replaced maintainers' team with leadership group for approving long
+        leave requests
+
+        - replaced 'When a team member leaves the company, they will be paid out for any unused leave in their bank.' with 'When a team member leaves the company, the relevant local legislation will determine any unused leave to be paid and balena will honor anything additional that is not covered by this policy.'
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: NatasaKyvetou <natasa@balena.io>
+        signed-off-by: NatasaKyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 5.3.0
+  title: ""
+  date: 2023-02-08T18:42:48.202Z
+- commits:
     - subject: "#access request from Jellyfish to Zulip.md"
       hash: 4e3bdc0d614499c1bf36cf819e47d5287136eb6e
       body: |
