@@ -1,4 +1,27 @@
 - commits:
+    - subject: Changes; HW refresh, policy name, furniture budget.md
+      hash: ed8280f221e9a71c4b8f5ad37fd4d2b18a4d7050
+      body: >
+        - removed the $500 to be used on office furniture
+
+        - removed the 3year budget HW refresh and replaced it with guidance to replace/refresh your laptop when and if needed
+
+        - added info around warranty; tampering with a laptop under warranty and extra costs
+
+        - removed the option to give the team member their laptop beyond the 3years mark for free
+
+        - changed policy name from 'Home Office and Equipment Policy' to 'Productivity and Company Equipment Policy'
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: NatasaKyetou <natass@balena.io>
+        signed-off-by: NatasaKyetou <natass@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 5.0.0
+  title: ""
+  date: 2023-02-08T15:33:27.840Z
+- commits:
     - subject: Add section on Balena Ad Hoc Scheduler
       hash: a280f892a5bc560d644abdfc6bdcec046fe89b4a
       body: ""
