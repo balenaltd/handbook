@@ -1,4 +1,20 @@
 - commits:
+    - subject: Updated monthly payment date.md
+      hash: fc1e4077ea3f5dadcf148a7b65b35a4f88ab54ea
+      body: >
+        Updated payment date from '28th of each month' to 'last working day of the
+        month' to reflect the actual payment dates set on Deel
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: NatasaKyvetou <natasa@balena.io>
+        signed-off-by: NatasaKyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 5.1.0
+  title: ""
+  date: 2023-02-08T17:47:42.680Z
+- commits:
     - subject: Changes; HW refresh, policy name, furniture budget.md
       hash: ed8280f221e9a71c4b8f5ad37fd4d2b18a4d7050
       body: >
