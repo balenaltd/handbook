@@ -50,8 +50,8 @@ The policy is based on a “bank” system of accumulating and drawing down leav
 * All leave, regardless of the nature (business day, bank holiday, local public holiday etc.) will be drawn from the bank and “booked” as leave. It is the responsibility of employees in Greece, UK and USA to request and take their local public holidays as leave.
 * When a member of the team is expecting a new addition to their family, they will be granted an additional 12 weeks (60 days) to their leave bank to use however suits them best. Full information on the Parental Leave policy can be found [here](../policies/parental-leave-policy).
 * Employees in Greece should always start January 1st of the new year with at least a 12 day balance in their bank. If any team members are entitled to more than 2.5 days/month per local legislation, their monthly accumulation rate will be increased to represent this. Minimum entitlements for Greece can be found in **Appendix A**.
-* Team members who want to take extended unpaid leave beyond their paid leave allocation should discuss this with a member of the maintainers' team. Unpaid leave will be considered on a case-by-case basis.
-* When a team member leaves the company, they will be paid out for any unused leave in their bank.
+* Team members who want to take extended unpaid leave beyond their paid leave allocation should discuss this with a member of the Leadership group. Unpaid leave will be considered on a case-by-case basis.
+* When a team member leaves the company, the relevant local legislation will determine any unused leave to be paid and balena will honor anything additional that is not covered by this policy.
 * If you have a negative leave balance on your last day, these days will be deducted from your final paycheck.
 
 
