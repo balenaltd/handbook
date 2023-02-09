@@ -23,6 +23,8 @@ An app is a coherent combination of services (blocks or other software) which wi
 **(balena specific term)**
 An 'aspect' of balena that straddles multiple loops and areas e.g. architecture. Architecture exists in many forms across balena, so we have a group of people that have context and experience in architecture across different loops and areas, that can help unify the best approach for everything related to that aspect. Aspect groups are about knowing who to go to to get advice around an aspect of a loop, not who to delegate / handover a task to.
 
+**Aspect groups provide focused advice to people making decisions. They do not own the decisions or the work being done.**
+
 A Zulip stream named after an aspect group is the feedback loop / home for discussion for that aspect.
 
 ### Assume Positive Intent
@@ -267,9 +269,10 @@ Tool for balena host OS updates. It downloads an update bundle that replaces the
 **(balena specific term)**
 Modifies a stock balenaOS image and embeds information needed to map the OS image to an application running on balenaCloud.  The image maker is also used to embed WIFI network connection details into the image.
 
-### Improvement group
+### Improvement 
 **(balena specific term)**
-Formerly (or also known as) 'working group'. A group of individuals working together on an improvement.
+These are used for documenting a change or addition to a system, with the intent of improving it. 
+[more](./how-we-work/contracts-glossary/improvements.md)
 
 ## J
 
