@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add Balena 2.0 section Add a section to record updates on how balena
+        operates / the way we work
+      hash: 4a0e3a4a78a76ae2c1278dd4f81826af632f9d7e
+      body: ""
+      footer:
+        change-type: major
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+  version: 6.0.0
+  title: ""
+  date: 2023-02-10T10:19:53.718Z
+- commits:
     - subject: Added local legislation for unused leave when leaving balena.md
       hash: 890c0545fab73c699781499484f32f5b53c4fcf1
       body: >
