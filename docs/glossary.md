@@ -340,6 +340,10 @@ A fully HR compliant code name by the hardware team. It's essentially a new [Fin
 **(balena specific term)**
 A pattern (or symptom) of behaviour that we've observed, that we feedback into the [loops](#loop-balena). Patterns are observations rather than solutions - For example 'Customer wants the ability to filter device type' is a pattern, as opposed to 'create device filter'. As a pattern receives higher weighting (so, for example, we see more customers experiencing a similar issue or point of friction), or higher urgency signals, its relative importance is raised so that the loop team can see it emerge.
 
+### People-ops
+**(balena specific term)**
+An aspect group at balena. In traditional organisations this would be akin to Human Resources (HR). The intention of People-ops is to build products and processes that support the people within the team.
+
 ### Pine.js
 **(balena specific term)**
 Pine.js is a sophisticated rules-driven API engine that enables you to define rules in a structured subset of English. Those rules are used in order for Pine.js to generate a database schema and the associated OData API. This makes it very easy to rapidly create, update and maintain a backend while keeping the logic in an easily understood form, as well as providing the ability to update and maintain this logic going forward.
@@ -418,10 +422,6 @@ Balena's on-device agent, responsible for monitoring and applying changes to an 
 'The process of defining the elements of a system such as the architecture, modules and components, the different interfaces of those components and the data that goes through that system.' Watch [Nicky Case's talk 'Seeing in Systems'](https://longnow.org/seminars/02017/aug/07/seeing-whole-systems/) to get a clear understanding of how to visualise systems and how they work. Alternatively read 
 
 ## T
-
-### teamOS
-**(balena specific term)**
-A loop at balena. In traditional organisations this would be akin to HR. The intention of teamOS is to build products and processes that support the people within the team.
 
 ### testbot
 **(balena specific term)**
