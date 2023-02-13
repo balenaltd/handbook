@@ -1,6 +1,6 @@
 # Keeping your personal information up to date
 ### Personal information
-We record the personal information for every new starter in a confidential folder, maintained by TeamOS. It is therefore very important that you let someone from the Operations or TeamOS team know if you change any of the below. You can also send an email to teamos@balena.io. Even if it is a temporary relocation, it is useful to make a note. 
+We record the personal information for every new starter in a confidential folder, maintained by People-ops. It is therefore very important that you let someone from the People-ops team know if you change any of the below. You can also send an email to peopleops@balena.io. Even if it is a temporary relocation, it is useful to make a note. 
 
 - your name
 - location
