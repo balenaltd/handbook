@@ -32,7 +32,7 @@ As a globally distributed team, we believe that there isn’t a “one size fits
 
 * If there is any additional local legislation for employees that is not covered by the balena policy, we will of course honor that. More information on relevant local legislation for balena employees can be found in Appendix A below.
 
-* Any pre or postnatal appointments should be accommodated by balena's flexible schedule, but you can also take a sick and personal leave day if it will take up half a day or more.
+* Any pre or postnatal appointments should be accommodated by balena's flexible schedule, but you can also take a sick and emergency leave day if it will take up half a day or more.
 
 * Team members are responsible for communicating their parental leave with the rest of the team in advance. The general rule is to give as much advance notice as the time you will be taking off. 
 
