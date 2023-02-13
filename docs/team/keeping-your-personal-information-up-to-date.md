@@ -31,15 +31,3 @@ Every week during the [All Hands call](https://github.com/balena-io/balena-io/wi
 
 If you participate in any of our support channel rotations, you should enter your preferred shift length for each relevant channel in this section. Our [support scheduler](https://github.com/people-os/support-shift-scheduler) will do its best to schedule your support hours in chunks matching your preferred shift length as closely as possible. You only need to enter values for channels in which you participate.
 
-#### Leave payout cap
-
-This is where you should maintain your leave payout cap preference, the implications of which are explained in the [leave policy](../policies/leave-policy.md). If you want to change your existing preference, we ask that you please do not remove the existing entry, since we rely on this tab to track the history of this setting. To update your preference, close the active entry with a `Valid to` date, and make a new entry on the next line.
-
-
-
-
-
-
-
-
-
