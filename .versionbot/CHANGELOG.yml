@@ -1,4 +1,32 @@
 - commits:
+    - subject: Removed reference to leave payout
+      hash: 8041f5a2b3873e4dd354d06317a3cf397a32b583
+      body: >
+        Removed reference to leave payout within the explanation of adding bonus
+        leave within the same leave bank with the option of leave overcap payout
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: NatasaKyvetou <natasa@balena.io>
+        signed-off-by: NatasaKyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+    - subject: Removed reference to leave overcap payment
+      hash: e21c7f9621d1c528b3bfee52ae677dc101efe136
+      body: >
+        -removed example reference to leave payment within the bonus leave bullet
+        point
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: NatasaKyvetou <natasa@balena.io>
+        signed-off-by: NatasaKyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 7.1.0
+  title: ""
+  date: 2023-02-14T09:50:53.808Z
+- commits:
     - subject: Review parental-leave-policy.md
       hash: 2d9d00c2b68895830fa0b41ccf33b4a24810f684
       body: |
