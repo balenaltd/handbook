@@ -1,4 +1,20 @@
 - commits:
+    - subject: Review parental-leave-policy.md
+      hash: 2d9d00c2b68895830fa0b41ccf33b4a24810f684
+      body: |
+        Parental Leave policy Review
+        Detailed review of Parental leave policy February 2023
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Alexandros Sakellariou<Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou<Alexandros.Sakellariou@balena.io>
+      author: AlexDSak
+      nested: []
+  version: 7.0.0
+  title: ""
+  date: 2023-02-14T09:15:25.905Z
+- commits:
     - subject: Add Balena 2.0 section Add a section to record updates on how balena
         operates / the way we work
       hash: 4a0e3a4a78a76ae2c1278dd4f81826af632f9d7e
