@@ -1,4 +1,20 @@
 - commits:
+    - subject: Replaced teamOS with People-ops.md
+      hash: cce270150309febcd623d2ac85a65f340787c37f
+      body: >
+        Following the move from loops to the aspect groups, added the People-ops
+        term and descriptions and removed the teamOS ones.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: NatasaKyvetou <natasa@balena.io>
+        signed-off-by: NatasaKyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 8.1.0
+  title: ""
+  date: 2023-02-15T19:58:41.423Z
+- commits:
     - subject: Removed 'Leave payout cap' section.md
       hash: 73fa34df00b913f749632eedfa75175ca44eab0e
       body: >
