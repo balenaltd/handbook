@@ -1,4 +1,21 @@
 - commits:
+    - subject: Removed 'Leave payout cap' section.md
+      hash: 73fa34df00b913f749632eedfa75175ca44eab0e
+      body: >
+        Since the leave payout payments are being stopped, the 'leave caps' are no
+        longer needed for the team to set and determine when a payout will be
+        triggered, thus removing the relevant section.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Natasa Kyvetou <natasa@balena.io>
+        signed-off-by: Natasa Kyvetou <natasa@balena.io>
+      author: NatasaKyvetou
+      nested: []
+  version: 8.0.0
+  title: ""
+  date: 2023-02-15T16:02:20.906Z
+- commits:
     - subject: Removed reference to leave payout
       hash: 8041f5a2b3873e4dd354d06317a3cf397a32b583
       body: >
