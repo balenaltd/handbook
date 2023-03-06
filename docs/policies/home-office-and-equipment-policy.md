@@ -14,8 +14,9 @@ Note that the hardware you purchase on this budget is owned by balena. At termin
 
 Your purchase should include a laptop with the necessary specifications to run your job-related software and be future-proof for at least three years. (Please do not purchase a desktop computer so that you can travel and work on the occasion of a summit/mini-summit.).
 
-Apple, Dell, and Lenovo are three laptop brands that are recommended. Avoid brands that provide custom laptop builds, such as System76 and TUXEDO, as they are unreliable in our experience. Choose at least 16 GB of RAM, but more than 16 GB is recommended (for devs). Also, choose at least 500 GB of hard drive space.  
-Specifically, if you choose an Apple laptop, choose the most recent model (note that Macbook Pro has more battery life than the Macbook Air). For Dell, we recommend the XPS models, as they are high-end, and for Lenovo, we recommend a laptop from the ThinkPad X1 series.  
+Apple, Dell, and Lenovo are three laptop brands that are recommended. Avoid brands that provide custom laptop builds, such as System76 and TUXEDO, as they are unreliable in our experience. Choose at least 16 GB of RAM, but more than 16 GB is recommended (for devs). Choose at least 500 GB of disk space with the machine ideally having a Solid State Drive (SSD).
+
+Specifically, if you choose an Apple laptop, choose the most recent model (note that Macbook Pro has more battery life than the Macbook Air). For Dell, we recommend the XPS models, as they are high-end, and for Lenovo, we recommend a laptop from the ThinkPad T series or X1 series.  
 Please take the time to choose carefully, as we do not recommend adding additional RAM or hard drives later. 
 
 If you do not already have high-quality noise-canceling headphones, you can use for work, please purchase some within the hardware budget. Having good audio quality is very important in our communications. Here's a list of headphones we recommend, 
