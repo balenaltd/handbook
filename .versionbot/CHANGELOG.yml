@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Update headphone list"
+      hash: 21ac82f741f0ddfe226c7b53fd160213d85cd5c8
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+      nested: []
+  version: 8.1.1
+  title: ""
+  date: 2023-03-06T13:11:00.501Z
+- commits:
     - subject: Replaced teamOS with People-ops.md
       hash: cce270150309febcd623d2ac85a65f340787c37f
       body: >
