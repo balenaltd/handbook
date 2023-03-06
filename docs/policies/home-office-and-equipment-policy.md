@@ -18,7 +18,11 @@ Apple, Dell, and Lenovo are three laptop brands that are recommended. Avoid bran
 Specifically, if you choose an Apple laptop, choose the most recent model (note that Macbook Pro has more battery life than the Macbook Air). For Dell, we recommend the XPS models, as they are high-end, and for Lenovo, we recommend a laptop from the ThinkPad X1 series.  
 Please take the time to choose carefully, as we do not recommend adding additional RAM or hard drives later. 
 
-If you do not already have high-quality noise-canceling headphones (like Jabra Evolve 80 or Bose 700) you can use for work, please purchase some within the hardware budget. Having good audio quality is very important in our communications.
+If you do not already have high-quality noise-canceling headphones, you can use for work, please purchase some within the hardware budget. Having good audio quality is very important in our communications. Here's a list of headphones we recommend, 
+
+1. Jabra Evolve 75 or Jabra Evolve 80 (balena recommended, most used)
+2. Bose Noise Cancelling 700 (or, a newer version)
+3. Sony 1000xm5 (Might need a additional boom mic)
 
 Other items you could buy with your hardware budget include: monitor, docking station, keyboard, mouse, laptop stand, power supply & extension.
 
