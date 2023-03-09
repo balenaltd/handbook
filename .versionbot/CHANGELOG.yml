@@ -1,4 +1,18 @@
 - commits:
+    - subject: Visual changes
+      hash: 0624dd506223517dbf8283a4555dec6ac4d2c483
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+      author: AlexDSak
+      nested: []
+  version: 9.1.0
+  title: ""
+  date: 2023-03-09T13:11:45.031Z
+- commits:
     - subject: Unlimited leave policy
       hash: baa1747bb0334fc33839c7174b5dcbfd44a76e3c
       body: |
