@@ -44,14 +44,14 @@ The leave is yours, to use as you see fit. You can use it for vacation, get the 
 # Detailed Guidelines
 * Minimum: For the benefit of each team member, we strongly suggest everyone takes at least 4 working weeks (20 days) of leave every year
 * When a team member requests more than 2 days of consecutive leave it is their responsibility to arrange cover. The team member who will be covering should be assigned as the substitute within Calamari. This requirement is aimed at assuring that all work that cannot be delayed is dealt with and to eliminate any blockers for other team members. For circumstances wherein a team member is unable to find cover please do reach out to People Operations. 
-*To take more than 2 weeks (10 days) within 3 calendar months (consecutive or spread out) you'll need People Operations approval. This general rule will still allow team members to take up to 40 days per year without special approval but at the same time help us regulate edge cases.
-*We do not consider recurring leave patterns as best practice and all recurring leave patterns must be pre-agreed with People Operations, Strategy or Leadership and will be considered on a case by case basis. Below is a non-exhaustive list of examples: 
-       *Taking leave on a specific day every week or every second week and so forth
-       *1-2 days every week or every second week 
-       *2 weeks every second month
-       *First week of every month
-*Leave duration: While there is no limit on how many consecutive days someone can take, we do ask that team members be mindful of their work and other team members.  If you are unsure whether you should go ahead and take the intended leave or not please contact Leadership, Strategy Group or People Operations .
-*Future adjustments: We will periodically review this policy and we would appreciate your feedback to inform any future adjustments (i.e. make sure we all take the time off that we need to, address any unforeseen issues and/or edge cases, etc.)
+* To take more than 2 weeks (10 days) within 3 calendar months (consecutive or spread out) you'll need People Operations approval. This general rule will still allow team members to take up to 40 days per year without special approval but at the same time help us regulate edge cases.
+* We do not consider recurring leave patterns as best practice and all recurring leave patterns must be pre-agreed with People Operations, Strategy or Leadership and will be considered on a case by case basis. Below is a non-exhaustive list of examples: 
+       * Taking leave on a specific day every week or every second week and so forth
+       * 1-2 days every week or every second week 
+       * 2 weeks every second month
+       * First week of every month
+* Leave duration: While there is no limit on how many consecutive days someone can take, we do ask that team members be mindful of their work and other team members.  If you are unsure whether you should go ahead and take the intended leave or not please contact Leadership, Strategy Group or People Operations .
+* Future adjustments: We will periodically review this policy and we would appreciate your feedback to inform any future adjustments (i.e. make sure we all take the time off that we need to, address any unforeseen issues and/or edge cases, etc.)
 
 # Notice period
 * Team members are responsible for making sure they are appropriately covered during their leave, notifying their team in advance (and People Operations, Strategy or Leadership if appropriate) equal to (at least) the number of days of leave they are planning to take. If the team member is leading a call or is a maintainer, we ask that you make sure there is adequate cover before taking time off. As best practice, arrange for cover, let the relevant people know and book your leave 1 week in advance for weekday support, and 2 weeks in advance for devops weekend rotations. 
