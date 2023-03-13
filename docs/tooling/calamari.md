@@ -26,6 +26,12 @@ The simplest way to request time off is by marking the requested period and by s
 
 ![third step](../assets/third-step-calamari.png)
 
+## Forth and last step
+
+When requesting more than 2 consecutive days of leave (this does not apply for sick & emergency leave) you are required to assign a substitute (cover).
+
+![forth step](https://github.com/balenaltd/handbook/blob/main/docs/assets/Calamari%204th%20step.png)
+
 ## My requests
 
 This is the menu option which allows you to check the status and the history of your requests.
