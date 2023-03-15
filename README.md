@@ -109,3 +109,5 @@ This will take you to github to make your edits as detailed above.
 ## Website
 
 This handbook website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. We are using the balena's [Docusaurus Theme](https://github.com/product-os/docusaurus-theme/) to build the website that you see on [https://handbook.balena.io](https://github.com/product-os/docusaurus-theme/)
+
+To build the handbook website locally on your system, follow the instructions provided in [Docusaurus Builder docs](https://docusaurus-builder.pages.dev/#developing-your-site-locally). 
