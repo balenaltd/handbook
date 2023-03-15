@@ -1,4 +1,16 @@
 - commits:
+    - subject: "minor: Add Documenting at balena to handbook"
+      hash: df055e8096e412ef51336c8282fafd27ff2db061
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 9.2.0
+  title: ""
+  date: 2023-03-15T12:12:00.709Z
+- commits:
     - subject: Visual changes
       hash: 0624dd506223517dbf8283a4555dec6ac4d2c483
       body: ""
