@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update spelling and details on third step
+      hash: df9468e8601291b5431f561f23425b9cd1c2ce03
+      body: >
+        Corrected spelling for "fourth" and removed "last step" in reference to
+        step three since there is now a fourth step. 
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Araceli Medina araceli.medina@balena.io
+        signed-off-by: Araceli Medina araceli.medina@balena.io
+      author: Araceli L. Medina
+      nested: []
+    - subject: Update leave request on Calamari
+      hash: f3fcc968231e90d957985c515766e9fb46cb004f
+      body: |
+        Added a screenshot and a step for adding substitute (cover)
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+      author: AlexDSak
+      nested: []
+  version: 9.3.0
+  title: ""
+  date: 2023-03-16T10:49:58.183Z
+- commits:
     - subject: "minor: Add Documenting at balena to handbook"
       hash: df055e8096e412ef51336c8282fafd27ff2db061
       body: ""
