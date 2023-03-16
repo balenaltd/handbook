@@ -20,11 +20,17 @@ After selecting the absence type, you will see how many days or hours of chosen 
 
 ![second step](../assets/second-step-calamari.png)
 
-## Third and last step
+## Third step
 
 The simplest way to request time off is by marking the requested period and by selecting it on the calendar. 
 
 ![third step](../assets/third-step-calamari.png)
+
+## Fourth and last step
+
+When requesting more than 2 consecutive days of leave (this does not apply for sick & emergency leave) you are required to assign a substitute (cover).
+
+![fourth step](https://github.com/balenaltd/handbook/blob/main/docs/assets/Calamari%204th%20step.png)
 
 ## My requests
 
