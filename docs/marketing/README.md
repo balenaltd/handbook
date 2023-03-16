@@ -1,4 +1,4 @@
-# balenaLabs
+# Marketing
 
 _Explore and communicate the potential of the balena platform, accelerating its full realization_
 
