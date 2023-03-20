@@ -1,4 +1,18 @@
 - commits:
+    - subject: Delete Calamari 4th step.png
+      hash: 4e7fe19aec51f185ed42ef3cdd3d50150b5b1675
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+      author: AlexDSak
+      nested: []
+  version: 9.5.0
+  title: ""
+  date: 2023-03-20T15:21:58.727Z
+- commits:
     - subject: Fix forth step link
       hash: e246524551c4b8048791b48f0da7839b867266e2
       body: ""
