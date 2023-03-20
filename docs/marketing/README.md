@@ -9,14 +9,17 @@ You can find the marketing team by
 * At our weekly brainstorm call on Wedensdays at 4pm UTC
 * In the [Marketing Aspect](https://balena.fibery.io/fibery/space/Marketing_Aspect/) in Fibery
 
-## [balena-labs-projects](https://github.com/balena-labs-projects)
+## Our key outcomes and objectives 
 
-balenaLabs is the brand associated with example projects and code which have been developed by the marketing team to help users get started with balena. balenaLabs projects rely on the balena team and community contributions for maintenance, to prevent creating a higher maintenance burden for these projects the team now focuses on supporting community members and partner companies to create and maintain their own projects on balenaHub.
+The key objective of the Labs team is to enable users to find and be successful with balena products driving towards balena’s company wide strategy. 
 
-**balenaLabs projects should be:**
-_comprehensive projects that demonstrate the potential of the Balena platform for fleet management_
-High quality and strategic projects. Projects showcase the capabilities of the Balena ecosystem, demonstrate thought leadership, give users a way to test the Balena platform in a non-committal way, and be something we are willing to upkeep as a whole team. These projects are not made with the expectation of community PRs or maintenance, but they are (certainly & very) welcome.
+To do this we will be targeting users in all stages of the funnel. Our key objective at each stage is:
+* Awareness - Find more fleet owners and partner with leading industry players
+* Acquisition - Remove friction from onboarding
+* Activation - Improve conversion rates of users to paying fleet owners
+* Retention & referral - Be a reliable scalable, trustworthy partner to our customers
 
 ## More resources
 
 - [How to get contribute to the marketing site](.marketing-site.md)
+- [balenaLabs and example proejects](.balena-labs-projects)
