@@ -12,20 +12,6 @@ Labs is not a traditional marketing or sales team, and we’re not asking anyone
 
 Become the most demanding balena user there is, ask for the most and expect the best. If you don’t get this, make noise about it; create issues, submit feature requests and even create PRs. Feel obligated to keep pushing until the right thing happens. Pioneer the use of the latest and greatest features, ensure they work as expected and solve real problems.
 
-## Maintain the highest standards of content
-
-### Is it the best we can do?
-
-As we increase our visibility to the outside world it’s important that we maintain a high standard of content. This is subjective, but consider if the output is ‘good’ or ‘good enough’ - sometimes a little extra push can make a big difference to the overall perception, which is worth doing even if it takes longer.
-
-### Make it work, then make it better
-
-When we’re introducing a new user to a balena product via a project or guide, their experience of the platform is heavily influenced by the project itself. If it does what it says, even if that’s a very simple thing, it’s better than having a very complex project that encounters build errors or is difficult and complicated to get to a point of perceived success.
-
-### Archive and move on
-
-In order to ensure we aren’t overloaded with project maintenance, we also need to be ruthless in archiving older or “unsuccessful” projects (see outcomes) and encouraging community support and contribution to reduce our own workload.
-
 ## Encourage, engage and build community
 
 ### Encourage and support… everyone!
