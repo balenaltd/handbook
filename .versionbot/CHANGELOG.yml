@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix forth step link
+      hash: e246524551c4b8048791b48f0da7839b867266e2
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou<Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou<Alexandros.Sakellariou@balena.io>
+      author: AlexDSak
+      nested: []
+  version: 9.4.0
+  title: ""
+  date: 2023-03-20T10:31:53.177Z
+- commits:
     - subject: Update spelling and details on third step
       hash: df9468e8601291b5431f561f23425b9cd1c2ce03
       body: >
