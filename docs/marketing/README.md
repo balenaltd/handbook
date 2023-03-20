@@ -8,6 +8,7 @@ You can find the marketing team by
 * Pinging @marketing in Zulip or opening a topic in the Marketing Zulip Stream
 * At our weekly brainstorm call on Wedensdays at 4pm UTC
 * In the [Marketing Aspect](https://balena.fibery.io/fibery/space/Marketing_Aspect/) in Fibery
+* Resources and documents related to the marketing team in the [shared google drive](https://drive.google.com/drive/folders/0B8b02_AxDQoVM3Rqc1NYSUVENEk?resourcekey=0-fgDP8Ey_-1GyrrasbVhWXA&usp=sharing)
 
 ## Our key outcomes and objectives 
 
