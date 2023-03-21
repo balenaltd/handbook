@@ -16,13 +16,13 @@ Whilst we have a [parental leave policy](../policies/parental-leave-policy.md) f
 
 **Employees:** team members with employment contracts in UK/US/Greece.
 
-**Substitute (cover)**: team member who will work in your stead.
+**Substitute (cover)**: Briefed team member with visibility of your work, and/or who has been coordinated with to step in if something comes up relevant to your work while you are away.(details within ‘Notes’). 
 
 ## At-a-glance (summary)
 * There is no limit to the number of days you can use.
 * Leave requests are auto-approved.
 * When requesting more than 2 consecutive days you are required to assign a substitute (cover).
-* In order to take more than 2 weeks (10 working days) within 3 calendar months (consecutive or spread out) you'll need People Operation's approval.
+* In order to take more than 2 weeks (10 working days) within 3 calendar months (consecutive or spread out) you'll need to make People Operations aware.
 * You need to request leave in advance, equal to (at least) the number of days of leave you are planning to take.
 
 ## Why unlimited leave?
@@ -50,7 +50,7 @@ The leave is yours, to use as you see fit. You can use it for vacation, get the 
        * 1-2 days every week or every second week 
        * 2 weeks every second month
        * First week of every month
-* Leave duration: While there is no limit on how many consecutive days someone can take, we do ask that team members be mindful of their work and other team members.  If you are unsure whether you should go ahead and take the intended leave or not please contact Leadership, Strategy Group or People Operations .
+* Leave duration: While there is no limit on how many consecutive days someone can take, we do ask that team members be mindful of their work and other team members.  If you are unsure whether you should go ahead and take the intended leave or not please contact Leadership, Strategy Group or People Operations.
 * Future adjustments: We will periodically review this policy and we would appreciate your feedback to inform any future adjustments (i.e. make sure we all take the time off that we need to, address any unforeseen issues and/or edge cases, etc.)
 
 # Notice period
@@ -66,6 +66,8 @@ The leave is yours, to use as you see fit. You can use it for vacation, get the 
 
 # Note
 * Unlimited leave should not be used instead of [sick & emergency leave policy](../policies/sick-and-emergency-leave-policy.md) or [parental leave policy](../policies/parental-leave-policy.md). Please ensure you use Sick & Emergency leave and Parental Leave when you need to. 
+* Choosing a substitute or cover: Your cover can be a team member with visibility of your work, and/or who you have coordinated with in order to step in if something relevant to your work comes up, while you are away. The cover should have visibility and be able to inform the rest of the team of your work if need be (i.e. paused work, work they are continuing on your behalf if applicable, etc.) This is not meant to be a massive effort to bring someone up to speed around all of your work but to promote communication which is crucial to remove any blockers for the team or for product work and projects that are ongoing while you are away.
+* In Balena we do not offer leave payouts, however for employees, we will honor the local legislation if/when it is not covered within this policy.
 
 ## How to request leave?How to request leave?
 A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](../tooling/calamari.md).
