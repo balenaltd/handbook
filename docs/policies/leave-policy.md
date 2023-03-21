@@ -67,7 +67,7 @@ The leave is yours, to use as you see fit. You can use it for vacation, get the 
 # Note
 * Unlimited leave should not be used instead of [sick & emergency leave policy](../policies/sick-and-emergency-leave-policy.md) or [parental leave policy](../policies/parental-leave-policy.md). Please ensure you use Sick & Emergency leave and Parental Leave when you need to. 
 * Choosing a substitute or cover: Your cover can be a team member with visibility of your work, and/or who you have coordinated with in order to step in if something relevant to your work comes up, while you are away. The cover should have visibility and be able to inform the rest of the team of your work if need be (i.e. paused work, work they are continuing on your behalf if applicable, etc.) This is not meant to be a massive effort to bring someone up to speed around all of your work but to promote communication which is crucial to remove any blockers for the team or for product work and projects that are ongoing while you are away.
-* In Balena we do not offer leave payouts, however for employees, we will honor the local legislation if/when it is not covered within this policy.
+* If there is any additional local legislation for employees that is not covered by the balena policy, we will of course honor that.
 
 ## How to request leave?How to request leave?
 A guide to booking time off using [Calamari](https://balena.calamari.io/o/sign-in) can be found [here](../tooling/calamari.md).
