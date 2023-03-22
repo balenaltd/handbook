@@ -1,4 +1,18 @@
 - commits:
+    - subject: Linked-4th-path
+      hash: 0700148a8683fd792a00c4cbf9f856887d8cd2c1
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+        signed-off-by: Alexandros Sakellariou <Alexandros.Sakellariou@balena.io>
+      author: Alexandros
+      nested: []
+  version: 9.7.0
+  title: ""
+  date: 2023-03-22T08:07:58.686Z
+- commits:
     - subject: 4th-step-screenshot
       hash: 0157ef7f6647ad4ff51cc923a4cde21da1448caa
       body: ""
