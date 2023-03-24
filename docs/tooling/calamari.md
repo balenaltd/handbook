@@ -30,7 +30,7 @@ The simplest way to request time off is by marking the requested period and by s
 
 When requesting more than 2 consecutive days of leave (this does not apply for sick & emergency leave) you are required to assign a substitute (cover).
 
-![fourth step](https://github.com/balenaltd/handbook/blob/e6d65cf1d16e6704fad160ae4719bd539d98778f/docs/assets/Calamari%204th%20step.png)
+![fourth step](../assets/Calamari-4th-step.png)
 
 ## My requests
 
