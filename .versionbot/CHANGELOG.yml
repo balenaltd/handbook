@@ -1,4 +1,19 @@
 - commits:
+    - subject: Update-leave-policy-wording2
+      hash: c39e22d135dc2d9c01c5e50bcb14d109a6dbc4cb
+      body: |
+        Minor wording changes and addition of 2 clarification points as notes.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alexandros Sakellariou Alexandros.Sakellariou@balena.io
+        signed-off-by: Alexandros Sakellariou Alexandros.Sakellariou@balena.io
+      author: Alexandros
+      nested: []
+  version: 9.8.0
+  title: ""
+  date: 2023-03-24T14:47:05.764Z
+- commits:
     - subject: Linked-4th-path
       hash: 0700148a8683fd792a00c4cbf9f856887d8cd2c1
       body: ""
