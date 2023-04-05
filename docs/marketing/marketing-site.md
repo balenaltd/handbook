@@ -32,14 +32,14 @@ Allows you to edit the copy on the page, you can’t edit the page structure
 How to use this: 
 1. Request access from Ops, this will be access via Bitwarden from a shared content editors account.
 2. Logging in: go to balena.io?edit this will open the editor window for you to login.
-![welcome to the balenaSite](/static/marketing-img/website-1.png)
+![welcome to the balenaSite](./assets/marketing-site-1.png)
 3. Once logged in you will be able to click on all editable elements and change the content. This is the view you should have:
-![welcome to the balenaSite](/static/marketing-img/website-2.png)
+![welcome to the balenaSite](./assets/marketing-site-2.png)
 4. At the bottom left corner you can navigate to other pages of the site to edit them
-![welcome to the balenaSite](/static/marketing-img/website-3.png)
+![welcome to the balenaSite](./assets/marketing-site-3.png)
 5. Once you have made your edits, the publish button will appear in blue, telling you how many changes you have made, click publish, this will make your changes live on the marketing site immediately. 
 6. If you haven’t already done so, open an issue on the balena-site repo detailing what you have changed, assign it to yourself if you made the changes, add the relevant label and close the issue at this point. This is important so that we can see what changes were made at what time, if we need to roll back the site for any reason we will have a history of what will need to be edited again after the roll back. It also allows the website team to see what changes have been made and for what reason. Closed issues will be shared in the weekly all hands.
-![welcome to the balenaSite](/static/marketing-img/website-4.png)
+![welcome to the balenaSite](./assets/marketing-site-4.png)
 
 ### Design Access
 
@@ -54,10 +54,10 @@ If you log in and have a restricted view you can check if someone else has desig
 Before you publish anything to the main site, you must publish to the staging site first:
 
 1. Publish to staging site, the last person to publish will likely have published to both staging and our live site, you need to untick the balena.io option so that you are only publishing to staging as shown in the image below.
-![welcome to the balenaSite](/static/marketing-img/website-5.png)
+![welcome to the balenaSite](./assets/marketing-site-5.png)
 2. Check the staging site, visit [https://balena-io-2-0.webflow.io/](https://balena-io-2-0.webflow.io/) and make sure your edits look and behave as you expect them too, check that the rest of the page you are working on is still working as expected and check two other pages to make sure you haven’t broken an element on another page.
 3. Once you are happy with your changes on the staging site, back in webflow publish to both staging and balena.io. Once published check your changes again on balena.io. 
-![welcome to the balenaSite](/static/marketing-img/website-6.png)
+![welcome to the balenaSite](./assets/marketing-site-6.png)
 4. If you haven’t already done so, open an issue on the balena-site repo detailing what you have changed, assign it to yourself if you made the changes, add the relevant label and close the issue at this point. This is important so that we can see what changes were made at what time, if we need to roll back the site for any reason we will have a history of what will need to be edited again after the roll back. It also allows the website team to see what changes have been made and for what reason. Closed issues will be shared in the weekly all hands.
 
 ### Tips for designing in Webflow
