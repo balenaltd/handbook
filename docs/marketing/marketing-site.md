@@ -72,7 +72,7 @@ Before you publish anything to the main site, you must publish to the staging si
 
 ### EFP & The Etcher Success Screen
 The Etcher Featured Project page and Etcher Success screen can both be found and developed in [this repo](https://github.com/balena-io/etcher-efp). You can read more about the [EFP 2.0 improvement here](https://docs.google.com/document/d/1t-Mf6ZHsxbTojI_CtzuXxk7feZA1LDzCe-8ZO2djQ6E/edit?usp=sharing), and find both static sites by visiting: 
-EFP: [https://www.balena.io/etcher/featured/](https://www.balena.io/etcher/featured/) 
+EFP: [https://www.balena.io/etcher/featured/](https://www.balena.io/etcher/featured/)
 Etcher Success: [https://www.balena.io/etcher/success](https://www.balena.io/etcher/success) 
 
 ### Contact-Sales page, contact forms and recaptcha
@@ -85,9 +85,9 @@ Etcher Success: [https://www.balena.io/etcher/success](https://www.balena.io/etc
 
 ### The website analytics client 
 
-Flowzone website uses balena analytics-client [https://github.com/balena-io-modules/analytics-client](https://github.com/balena-io-modules/analytics-client) to report its analytics. The snippet code is manually transpiled into es5 and then minified before being added to webflow (on Projects Settings > Custom Code). The code adds a page view to all load events and adds a ‘click’ event to all anchor tags into html, so if the generated code by webflow for a button/clickable does not generates a <a> tag, no click event will be fired. It is also important to notice that the current analytics-client only publishes to NPM and we rely on [https://www.jsdelivr.com/](https://www.jsdelivr.com/) to make the final bundle available through a CDN.
+Flowzone website uses [balena analytics-client](https://github.com/balena-io-modules/analytics-client) to report its analytics. The snippet code is manually transpiled into es5 and then minified before being added to webflow (on Projects Settings > Custom Code). The code adds a page view to all load events and adds a ‘click’ event to all anchor tags into html, so if the generated code by webflow for a button/clickable does not generates a `<a>` tag, no click event will be fired. It is also important to notice that the current analytics-client only publishes to NPM and we rely on [https://www.jsdelivr.com/](https://www.jsdelivr.com/) to make the final bundle available through a CDN.
 
 ### The balena Public Roadmap
-The balena public roadmap can be found at [https://roadmap.balena.io/](https://roadmap.balena.io/) It is built and hosted by Fider. You can find the improvement for the roadmap [here](https://docs.google.com/document/d/1YBP0nSzuxRNIj5u7OC1c9rTnJIMxfAJnZIls4ia_7mA/edit?usp=sharing).
+The balena public roadmap can be found at [https://roadmap.balena.io/](https://roadmap.balena.io/). It is built and hosted by Fider. You can find the improvement for the roadmap [here](https://docs.google.com/document/d/1YBP0nSzuxRNIj5u7OC1c9rTnJIMxfAJnZIls4ia_7mA/edit?usp=sharing).
 
-It is linked to from the marketing site and balena.io/roadmap has been set-up through webflow to redirect to the roadmap site.
+It is linked to from the marketing site and `balena.io/roadmap` has been set-up through webflow to redirect to the roadmap site.

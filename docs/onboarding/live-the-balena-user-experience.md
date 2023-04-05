@@ -2,11 +2,9 @@
 
 Our users spend a lot of time using balena. We must make their experience as pleasant as possible and help them get the most out of our service.
 
-As a new joiner you will be joining the balenaLabs team, and will be dedicated to using balena as a user. You’ll be required to sign up, and create a project with balena. Live what our users live, get in their shoes! In this journey we need you to act exactly as a user would act. Visit the website, click the sign-up button, set up your balenaCloud account, go through our docs, deploy code to a device (physical or virtual) etc. If you don't have development skills to deploy code yet, make sure to tell us where our signup and setup fails or confuses you. You can always get some help from your buddy with this if needed!
+As a new joiner you you’ll be required to sign up, and create a project with balena. Live what our users live, get in their shoes! In this journey we need you to act exactly as a user would act. Visit the website, click the sign-up button, set up your balenaCloud account, go through our docs, deploy code to a device (physical or virtual) etc. If you don't have development skills to deploy code yet, make sure to tell us where our signup and setup fails or confuses you. You can always get some help from your buddy with this if needed!
 
 We try to keep all balena.io accounts strictly for support, so you are encouraged to create an account with your personal email, if you don't already have one, to use for this and also for Hack Fridays and any other personal or side projects you might be working on. If you are already a balena user and familiar with the product, your feedback is still very valuable, so let us know what you think!
-
-More details of your balena labs residency can be found [here](./balena-labs-residency.md)
 
 ## Feedback?
 
