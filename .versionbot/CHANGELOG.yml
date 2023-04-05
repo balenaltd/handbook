@@ -1,4 +1,97 @@
 - commits:
+    - subject: fix markdown links syntax errors
+      hash: 10a2c8e5ea991104e266cebd51670b7174df1320
+      body: ""
+      footer:
+        change-type: patch
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: remove broken link references
+      hash: 05b63a218c7dcde195cd85a8b688b3ff84d87348
+      body: ""
+      footer:
+        change-type: minor
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: updated file paths
+      hash: f583f1437c2fb317310014aadc5ed91f9f30c762
+      body: ""
+      footer:
+        change-type: patch
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: updated image location
+      hash: 07984ea260d2f3a9d3fb02003484de27be676d2c
+      body: ""
+      footer:
+        change-type: minor
+        signed-off-by: laura alison <laura@balena.io>
+      author: Laura Alison
+      nested: []
+    - subject: delete reference to labs residency in onboarding section
+      hash: 018de0caf8684e296ad1be47281b910296780371
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Lizzie Epton
+      nested: []
+    - subject: delete how it worked page
+      hash: 561aa846186fcdafd1a170f58462fb95fd82a5d7
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Lizzie Epton
+      nested: []
+    - subject: add link to google drive
+      hash: 84ae97c6c356949f572f24cfe6e97efa7053176c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Lizzie Epton
+      nested: []
+    - subject: edits to marketing docs
+      hash: 42d23fb7f69fae4673196f15ffef0921a5722c56
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Lizzie Epton
+      nested: []
+    - subject: edits to marketing section
+      hash: 0826ea530b9fc4b9a9328ca1f166fc841082e092
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Lizzie Epton
+      nested: []
+    - subject: marketing-pages-edits
+      hash: e78b876cd17f6322ed02928c68d67be2207c1cf9
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Lizzie Epton
+      nested: []
+    - subject: Add marketing site how to use guide, change balenaLabs folder name to
+        Marketing
+      hash: eb5a6bc3b93213b07a1358ea8ab475e66b9ca7cc
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Lizzie Epton
+      nested: []
+  version: 9.9.0
+  title: ""
+  date: 2023-04-05T14:39:11.332Z
+- commits:
     - subject: Update-leave-policy-wording2
       hash: c39e22d135dc2d9c01c5e50bcb14d109a6dbc4cb
       body: |
