@@ -75,11 +75,6 @@ A single board computer developed by balena with field deployment in mind. It is
 A marketplace that enables the exchange of resources between our users. At a higher-level, the goal of hub is to lower the barrier to entry within the IoT industry.
 [more](https://hub.balena.io/what-is-balenahub)
 
-### balenaLabs
-**(balena specific term)**
-A loop within balena that encompasses Labs, outreach
-[more](../docs/balenalabs/README.md)
-
 ### balenaMachine
 **(balena specific term)**
 On-premises fleet management, delivered as a single virtual machine that includes all core balenaCloud services.

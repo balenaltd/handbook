@@ -22,5 +22,5 @@ To do this we will be targeting users in all stages of the funnel. Our key objec
 
 ## More resources
 
-- [How to get contribute to the marketing site](.marketing-site.md)
-- [balenaLabs and example proejects](.balena-labs-projects)
+- [How to get contribute to the marketing site](marketing-site.md)
+- [balenaLabs and example proejects](balena-labs-projects.md)

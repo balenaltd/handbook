@@ -70,7 +70,7 @@ Before you publish anything to the main site, you must publish to the staging si
 
 ## Other things related to the website
 
-### EFP & The Etcher Success Screen 
+### EFP & The Etcher Success Screen
 The Etcher Featured Project page and Etcher Success screen can both be found and developed in [this repo](https://github.com/balena-io/etcher-efp). You can read more about the [EFP 2.0 improvement here](https://docs.google.com/document/d/1t-Mf6ZHsxbTojI_CtzuXxk7feZA1LDzCe-8ZO2djQ6E/edit?usp=sharing), and find both static sites by visiting: 
 EFP: [https://www.balena.io/etcher/featured/](https://www.balena.io/etcher/featured/) 
 Etcher Success: [https://www.balena.io/etcher/success](https://www.balena.io/etcher/success) 
