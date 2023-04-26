@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add GitHub self-serve issue ops to access requests
+      hash: a42926daa066600632eb37609a0184c4ef038062
+      body: |
+        For temporary GitHub administrator access requests
+        the issue ops template is automatic and does not require
+        manual intervention.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 9.9.1
+  title: ""
+  date: 2023-04-26T16:34:12.580Z
+- commits:
     - subject: fix markdown links syntax errors
       hash: 10a2c8e5ea991104e266cebd51670b7174df1320
       body: ""
@@ -270,8 +287,8 @@
     - subject: Removed 'Leave payout cap' section.md
       hash: 73fa34df00b913f749632eedfa75175ca44eab0e
       body: >
-        Since the leave payout payments are being stopped, the 'leave caps' are no
-        longer needed for the team to set and determine when a payout will be
+        Since the leave payout payments are being stopped, the 'leave caps' are
+        no longer needed for the team to set and determine when a payout will be
         triggered, thus removing the relevant section.
       footer:
         Change-type: major
@@ -299,8 +316,8 @@
     - subject: Removed reference to leave overcap payment
       hash: e21c7f9621d1c528b3bfee52ae677dc101efe136
       body: >
-        -removed example reference to leave payment within the bonus leave bullet
-        point
+        -removed example reference to leave payment within the bonus leave
+        bullet point
       footer:
         Change-type: minor
         change-type: minor
@@ -377,8 +394,8 @@
     - subject: Updated monthly payment date.md
       hash: fc1e4077ea3f5dadcf148a7b65b35a4f88ab54ea
       body: >
-        Updated payment date from '28th of each month' to 'last working day of the
-        month' to reflect the actual payment dates set on Deel
+        Updated payment date from '28th of each month' to 'last working day of
+        the month' to reflect the actual payment dates set on Deel
       footer:
         Change-type: minor
         change-type: minor
@@ -526,8 +543,8 @@
     - subject: Define Github Flow
       hash: cb3a16bafd20624f701690e578f85ee409160aad
       body: >
-        Added a basic description for Github Flow as well as link. Also provided a
-        link as a reference to explain Git Branches.
+        Added a basic description for Github Flow as well as link. Also provided
+        a link as a reference to explain Git Branches.
       footer:
         Change-type: patch
         change-type: patch
@@ -835,7 +852,8 @@
     - subject: Remove Flowdock from basic tool setup
       hash: 4118afe5a68fd8a5fbf327b0f10104aba363ea34
       body: >
-        Removed Flowdock mentions, and replaced the relevant parts with Jellyfish.
+        Removed Flowdock mentions, and replaced the relevant parts with
+        Jellyfish.
       footer:
         Change-type: patch
         change-type: patch
