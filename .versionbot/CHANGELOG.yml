@@ -1,4 +1,22 @@
 - commits:
+    - subject: Revert "Add GitHub self-serve issue ops to access requests"
+      hash: 26ad1c094a04f9daed6e6e3d516a8ed4a229e911
+      body: |
+        This reverts commit a42926daa066600632eb37609a0184c4ef038062.
+
+        The use of issue ops is being restricted due to security concerns,
+        so we can remove it from the handbook for now.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 9.9.2
+  title: ""
+  date: 2023-05-01T16:17:58.954Z
+- commits:
     - subject: Add GitHub self-serve issue ops to access requests
       hash: a42926daa066600632eb37609a0184c4ef038062
       body: |
