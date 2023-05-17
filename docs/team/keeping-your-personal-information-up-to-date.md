@@ -1,13 +1,14 @@
 # Keeping your personal information up to date
 ### Personal information
-We record the personal information for every new starter in a confidential folder, maintained by TeamOS. It is therefore very important that you let someone from the Operations or TeamOS team know if you change any of the below. You can also send an email to teamos@balena.io. Even if it is a temporary relocation, it is useful to make a note. 
+We record the personal information for every new starter in a confidential folder, maintained by People-ops. It is therefore very important that you let us know if you change any of the below. You can complete [this form](https://app.pipefy.com/public/form/qa2uTsGh) for any changes. Even if it is a temporary relocation, it is useful to make a note of the change. 
 
 - your name
 - location
 - address
 - personal contact number & email
+- next of kin name and contact number
 
-This is so we can keep our records up to date and make other relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We also rely on our records for orders and deliveries to team members, as well as for maintaining our [team map](https://www.balena.io/team) with pins for all balenistas' locations which we would like to keep tidy and updated.
+This is so we can keep our records up to date and make other relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We also rely on our records for orders and deliveries to team members.
 
 #### Your team
 
