@@ -91,3 +91,7 @@ Flowzone website uses [balena analytics-client](https://github.com/balena-io-mod
 The balena public roadmap can be found at [https://roadmap.balena.io/](https://roadmap.balena.io/). It is built and hosted by Fider. You can find the improvement for the roadmap [here](https://docs.google.com/document/d/1YBP0nSzuxRNIj5u7OC1c9rTnJIMxfAJnZIls4ia_7mA/edit?usp=sharing).
 
 It is linked to from the marketing site and `balena.io/roadmap` has been set-up through webflow to redirect to the roadmap site.
+
+### Contributing to the blog
+
+Read instructions [here](https://github.com/balena-io/balena-blog#contributing-to-the-balenablog).
