@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update marketing-site.md
+      hash: 10ff2020ff08880f248a2346034903723b93f9f4
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Konstantinos Mouzakis
+      nested: []
+  version: 9.10.0
+  title: ""
+  date: 2023-05-17T12:33:25.514Z
+- commits:
     - subject: Revert "Add GitHub self-serve issue ops to access requests"
       hash: 26ad1c094a04f9daed6e6e3d516a8ed4a229e911
       body: |
