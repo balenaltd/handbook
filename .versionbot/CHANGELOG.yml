@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update employment-verification-requests.md
+      hash: 50ab00adacbd343af4292c95e42d3a98fd1235ee
+      body: |
+        Replaced teamos with people-ops
+      footer:
+        change-type: minor
+        signed-off-by: NatasaKyvetou natasa@balena.io
+      author: NatasaKyvetou
+      nested: []
+  version: 9.13.0
+  title: ""
+  date: 2023-05-18T15:12:36.812Z
+- commits:
     - subject: Update brainstorm-calls.md
       hash: 5ce729dfb83540a6287fc44084c16b9ec8c2b4e2
       body: >
