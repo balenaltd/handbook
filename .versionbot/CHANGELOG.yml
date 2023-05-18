@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update roles-and-organization.md
+      hash: 8cbed613e8662df4d33087f25ec63df54e42ff31
+      body: >
+        replaced teamos with people-ops and m-team with leadership and strategy
+        aspect group
+      footer:
+        change-type: minor
+        signed-off-by: NatasaKyvetou natasa@balena.io
+      author: NatasaKyvetou
+      nested: []
+  version: 9.14.0
+  title: ""
+  date: 2023-05-18T19:01:33.154Z
+- commits:
     - subject: Update employment-verification-requests.md
       hash: 50ab00adacbd343af4292c95e42d3a98fd1235ee
       body: |
