@@ -8,7 +8,7 @@ We record the personal information for every new starter in a confidential folde
 - personal contact number & email
 - next of kin name and contact number
 
-We ask foor this information so we can keep our records up to date, use when appropriate and make relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We rely on our records for orders and deliveries to team members. Contact details for a next of kin would be useful in case of an emergency, and personal number and email are used for various tools throughout the Balena life cycle.
+We ask for this information so we can keep our records up to date, use when appropriate and make relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We rely on our records for orders and deliveries to team members. Contact details for a next of kin would be useful in case of an emergency, and personal number and email are used for various tools throughout the Balena life cycle.
 
 #### Your team
 
