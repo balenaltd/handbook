@@ -178,6 +178,14 @@ An internet-connected, single-board computer running balenaOS and provisioned wi
 ### Docker image
 'A file used to execute code in a Docker container.'
 
+### Device under automation aka. DUA
+**(balena specific term)**
+Often used by our hardware team to indicate a device that is in process of running our automated OS testing scripts, or on which some other automated testing is being performed.
+
+### Device under test aka. DUT
+**(balena specific term)**
+Soon to be replaced by "DUA" (Device under automation). Often used by our hardware team to indicate a device that is in process of running our automated OS testing scripts, or on which some other testing is being performed. An example of use might be: "I've run the os suite to verify that the dut provisions and has internet access" or "taking the sd card out of the mux and putting it into the sd card slot allows the the dut to boot, so the device doesn't seem to like the sd muxes".
+
 ### Deploy with balena aka. DWB
 **(balena specific term)**
 The ‘Deploy with balena’ button is a feature that allows balenaCloud users to create, and push code to an application, in just a few clicks. It’s an alternative deployment method that provides a shortcut so users don’t have to clone or download code and manually add it to their application. It is as much a feature for project builders as it is for project owners, who can enable others to build their projects by adding a single line of code in their readme, or any other web page, and it will link to their own github repo.
