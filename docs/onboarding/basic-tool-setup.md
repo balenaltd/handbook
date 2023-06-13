@@ -15,8 +15,7 @@ Primary:
 * [Calamari](https://calamari.io)
 * [Front](https://frontapp.com/)
 * [Github](https://github.com) (**You need to set up 2FA when you first login using the Yubikey you have**. _This service requires additional information/steps before you get access._)
-* [Jellyfish](https://jel.ly.fish/)
-* [Trello](https://trello.com/)
+* [Fibery](https://balena.fibery.io/)
 * [Balena Forums Moderator Access - Discourse](https://forums.balena.io/) You can use [this invitation link](https://forums.balena.io/invites/6a98ca4583c9f16879dd523f35a4c60b) to get access to the forums. Moderation access needs to be requested though once you have signed up.
 * [Shared Google Drive-Team Folder](https://drive.google.com/drive/folders/0BwAxLWVacuL_V3FFRVZmNE1vazg?resourcekey=0-4J9GBKcWBSkPJmTyxuwq5Q&usp=sharing)
 
@@ -27,7 +26,6 @@ Depending on your role and team you may have access to additional tech-related, 
 You'll need to create accounts for these services and then ping `@@operations` to give you `#access` in Jellyfish to our internal resources.
 * [Docker Hub](https://hub.docker.com) (scripts expect you do be `docker login`ed)
 * [NPM.js](https://www.npmjs.com/) (your access token should be in your `~/.npmrc`)
-
 
 
 ### How to access services that require additional information/steps.
@@ -47,9 +45,7 @@ Github
 
 The **forums** are used by our free users for support requests, and generally for discussion about the product, hack Friday projects, etc. It's required that you have an account there because eventually, you'll need it for supporting users. Please don't forget to use the same handle you've used for other basic services (e.g. Zulip, front etc.)
 
-**Jellyfish** is a social knowledge database and the nerve center of productOS, a platform we are building for developing and maintaining products. It is under active development and is already being used to provide customer support for balena users. Once your Jellyfish account is set up, you will be prompted to change your password. You can check the [Jellyfish specification doc](https://docs.google.com/document/d/1psa9upjr__LDbF0442ndW72Nj8jAuA48mmqPdahQBUs/edit#heading=h.e986klys6hyc) for more info. 
-
-**Trello** is a tool we use to track progress for some of our projects. Some teams use it more than others at the moment. It allows more visibility of what everyone is working on within a team. It has boards, lists, and cards to enable you to organize and prioritize projects, tasks, goals and progress.
+**Fibery** is our knowledge database and the nerve center of Balena. It is under active development. Fibery, is an integrated work management platform allowing teams to customize their workspaces and workflows. It combines aspects such as project management and knowledge management. It also enables us to create interconnected tools that reflect our specific processes. [Link](https://balena.fibery.io/)
 
 **Shared Google Drive-Team Folder** includes some key documents and archives for different projects and work. Depending on the team and area of work, you can find up to date information about some projects there, but Google Drive is surely not where you will find everything you need, so be aware that it includes some old information too. Follow the wiki and you will find links to all the services and sources we use to store key information and documents. 
 
