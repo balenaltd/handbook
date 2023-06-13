@@ -8,13 +8,13 @@ We record the personal information for every new starter in a confidential folde
 - personal contact number & email
 - next of kin name and contact number
 
-This is so we can keep our records up to date and make other relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We also rely on our records for orders and deliveries to team members.
+We ask for this information so we can keep our records up to date, use when appropriate and make relevant changes when needed. For example, a change of name or country might mean that we need to issue a new contract for you. We rely on our records for orders and deliveries to team members. Contact details for a next of kin would be useful in case of an emergency, and personal number and email are used for various tools throughout the Balena life cycle.
 
 #### Your team
 
-A subset of the current team's personal information is displayed in the [Current Team Model](https://docs.google.com/spreadsheets/d/1fOpah2A6N3xImg5xxGbTygdcNRGBlyZ_jQ2UIzy9PLE/edit#gid=404458414), which is a read-only document visible to the whole team. This sheet is a useful resource to consult for your fellow team members' balena contact details, location and availabilities, to name a few.
+A subset of the current team's personal information is displayed in the [Current Team Model](https://docs.google.com/spreadsheets/d/1fOpah2A6N3xImg5xxGbTygdcNRGBlyZ_jQ2UIzy9PLE/edit#gid=404458414), this is a read-only document visible to the whole team. The Current Team Model is a useful resource to consult for your fellow team members' balena contact details, location and availabilities, to name a few.
 
-Note that more sensitive personal information, such as addresses, emergency contacts and contact numbers are stored confidentially, and not displayed to the team in the Current Team Model.
+Note that sensitive personal information, such as addresses, emergency contacts and contact numbers are stored confidentially, and are not visible to the team through the Current Team Model or any other way.
 
 ### Preferences
 
