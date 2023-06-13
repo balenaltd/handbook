@@ -1,6 +1,6 @@
 # Productivity and Company Equipment Policy
 
-While working at balena, we want to give you the tools to work as comfortably and productively as possible. We offer all new team members $2,500 USD for hardware and home office equipment. This is to be treated as the hard limit of the amount you can use when you join balena depending on your needs. You are able to pick the hardware you’d like to use (see the Purchasing Information section below).
+While working at balena, we want to give you the tools to work as comfortably and productively as possible. We offer all new team members $2,500 USD for hardware and peripheral equipment they need to be able to work remotely (ex. headphones, keyboard, mouse, docking station, screen, etc). This is to be treated as the hard limit of the amount you can use when you join balena depending on your needs. You are able to pick the hardware you’d like to use (see the Purchasing Information section below).
 
 You will receive an e-mail with ordering information. We have company accounts with major, worldwide vendors (Apple, Dell, Amazon etc.) so you can just send us links from those vendors for the products you would like. If you feel that the worldwide vendors would cause unnecessary delays or customs fees, please talk to us about better local options.
 
@@ -12,7 +12,7 @@ Note that the hardware you purchase on this budget is owned by balena. At termin
 
 ## Purchasing Information
 
-Your purchase should include a laptop with the necessary specifications to run your job-related software and be future-proof for at least three years. (Please do not purchase a desktop computer so that you can travel and work on the occasion of a summit/mini-summit.).
+Your purchase should include a laptop with the necessary specifications to run your job-related software and be future-proof for at least three years. (Please do not purchase a desktop computer so that you can travel and work on the occasion of a summit/mini-summit.). Alternatively, you can choose a laptop from the list you were sent duing your onboarding. The list is comprised of slightly used, recently purchased company laptops.
 
 Apple, Dell, and Lenovo are three laptop brands that are recommended. Avoid brands that provide custom laptop builds, such as System76 and TUXEDO, as they are unreliable in our experience. Choose at least 16 GB of RAM, but more than 16 GB is recommended (for devs). Choose at least 500 GB of disk space with the machine ideally having a Solid State Drive (SSD).
 
