@@ -1,4 +1,17 @@
 - commits:
+    - subject: Added summit 2022
+      hash: 88e27e33bce39f16e5e0cbc38bbc0f50ea04cf3b
+      body: |
+        Added some text and the link to the recordings
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexandros
+      nested: []
+  version: 9.14.1
+  title: ""
+  date: 2023-06-16T16:40:57.104Z
+- commits:
     - subject: Update roles-and-organization.md
       hash: 8cbed613e8662df4d33087f25ec63df54e42ff31
       body: >
