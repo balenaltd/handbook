@@ -31,3 +31,7 @@ Summit 2021 was our first attempt to run a hybrid Summit! We had smaller teams t
 ### Vision Week 2022
 
 Due to the success of our last vision week in 2021, we decided to bring it back for 2022. This was a fully remote event where we focussed on the idea of [productization and product building](../products-and-productization/).
+
+### Summit 2022
+
+Summit 2022 was our first in person Summit following the remote era. We had most of the team meet in Cancoon, Mexico for a week, whilest some of the team attended remotely. We had an amzing time talking to each other and getting to know one another! We also had a significant change since our then CEO handed over the company to our current leadership team. You can check out the Summit 2022 recordings [here]([https://drive.google.com/drive/u/1/folders/1Nm2pIsitmnP7iC-XK0y8Q1isV38yBLUy](https://drive.google.com/drive/u/0/folders/1mL8dKqkCfde-b7trUegk1j9bS5KTme_T).
